@@ -1,0 +1,100 @@
+{
+  "id": "agent-vs-broker-vs-insurer",
+  "slug": "agent-vs-broker-vs-insurer",
+  "title": "Agent vs. Broker vs. Insurer: Who Works for Whom?",
+  "description": "Demystify the insurance distribution chain: Captive Agents vs Independent Agents vs Insurance Brokers vs Insurers. Learn who owes a fiduciary duty to you.",
+  "category": "insurance-basics",
+  "author": "Marcus Vance",
+  "authorRole": "Consumer Risk Analyst",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "agent vs broker",
+    "captive agent",
+    "independent agent",
+    "insurance broker",
+    "who works for whom"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "When shopping for insurance, you will encounter agents, brokers, and insurance carriers. Understanding who works for whom—and where their fiduciary loyalty lies—is vital for securing the best coverage at fair prices."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 4 Key Players in the Insurance Ecosystem"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Role",
+        "Who They Represent Legally",
+        "Products They Sell",
+        "How They Are Paid"
+      ],
+      "rows": [
+        [
+          "Captive Agent",
+          "The Insurance Carrier",
+          "Only one specific carrier (e.g., State Farm, Farmers)",
+          "Salary + Commissions from that carrier"
+        ],
+        [
+          "Independent Agent",
+          "Multiple Insurance Carriers",
+          "Multiple competing carriers (typically 5 to 15 brands)",
+          "Commissions paid by whichever carrier you select"
+        ],
+        [
+          "Insurance Broker",
+          "YOU (The Consumer)",
+          "Scans the entire marketplace on your behalf",
+          "Broker fees paid by you or commissions from carriers"
+        ],
+        [
+          "The Insurer (Carrier)",
+          "Itself and Shareholders",
+          "Underwrites and issues the actual legal contracts",
+          "Underwriting profits and premium revenue"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Legal Fiduciary Duty",
+      "text": "Under common law, an insurance **agent** acts as the legal representative of the insurer. An insurance **broker** acts as your legal representative and owes you a fiduciary duty of reasonable care in placing appropriate coverage, according to the [National Association of Insurance Commissioners (NAIC)](https://content.naic.org/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Which One Should You Choose?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Choose an Independent Agent if you want a local professional who can shop 10 different carriers each year to find the lowest rate without switching advisors.",
+        "Choose a Broker if you run a complex business or hold high-net-worth estate assets requiring tailored surplus-lines underwriting.",
+        "Buy Direct Online from a carrier if you have simple, standard auto or renters insurance needs and want to avoid third-party markups."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Does using an independent agent make insurance more expensive?",
+          "answer": "No. Carrier commission rates are already built into standard filed premiums. Buying directly online usually costs the exact same price as buying through an independent agent."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Licensing rules and broker disclosure mandates vary by state insurance code."
+    }
+  ]
+}

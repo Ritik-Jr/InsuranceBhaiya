@@ -1,0 +1,63 @@
+{
+  "id": "how-to-read-an-insurance-policy",
+  "slug": "how-to-read-an-insurance-policy",
+  "title": "How to Read an Insurance Policy: The 6-Step Practical Guide",
+  "description": "A step-by-step roadmap to deciphering policy legalese. Learn how to dissect the Declarations Page, read exclusions, identify conditions, and spot coverage traps.",
+  "category": "insurance-basics",
+  "author": "David Sterling",
+  "authorRole": "Chartered Property Casualty Underwriter",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 9,
+  "featured": true,
+  "tags": [
+    "how to read a policy",
+    "declarations page",
+    "policy jacket",
+    "insurance audit",
+    "consumer guide"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Most people never open their insurance policy envelope until disaster strikes—and by then, discovering an unexpected exclusion or sub-limit is too late. Reading an insurance policy does not require a law degree if you follow this structured 6-step roadmap."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 6-Step Policy Audit Framework"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Step 1: Scrutinize the Declarations Page: Verify your name spelling, property address, coverage limits, policy effective dates, and deductible amounts.",
+        "Step 2: Check the Definitions Section: Note bolded or italicized terms in the text. Insurers define words like 'dwelling', 'motor vehicle', or 'occurrence' with narrow legal meanings.",
+        "Step 3: Read the Insuring Agreement: Find the carrier's core promise to see whether you have a 'Named Peril' or 'Open Perils' policy.",
+        "Step 4: Audit Section I & II Exclusions: Check what is NOT covered. On home policies, look for flood, earthquake, mold, and sewer backup exclusions.",
+        "Step 5: Review Policy Conditions: Understand your duties after a loss, reporting deadlines, and how claim depreciation is calculated (Replacement Cost vs Actual Cash Value).",
+        "Step 6: Inspect Attached Endorsements: Verify that any add-on endorsements you paid for (such as scheduled jewelry or water backup) are physically attached to the jacket."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Use Our Interactive Checklist",
+      "text": "Run through our [8-Point Policy Health Check](/policy-check) to systematically score your current policy against consumer protection best practices."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What does 'Replacement Cost' vs 'Actual Cash Value' mean in property policies?",
+          "answer": "Replacement Cost pays to buy a brand new equivalent item at today's retail prices. Actual Cash Value (ACV) deducts depreciation for age and wear, leaving you with significantly less money."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Policy forms follow standardized ISO or proprietary bureau templates. Consult your agent for contract clarifications."
+    }
+  ]
+}

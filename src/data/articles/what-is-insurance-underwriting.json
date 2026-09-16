@@ -1,0 +1,101 @@
+{
+  "id": "what-is-insurance-underwriting",
+  "slug": "what-is-insurance-underwriting",
+  "title": "What Is Insurance Underwriting? How Insurers Assess Risk and Price Policies",
+  "description": "Explore the actuarial underwriting process: risk assessment, medical exams, motor vehicle records, credit-based insurance scores, and underwriting risk tiers.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "underwriting",
+    "actuarial risk",
+    "credit score insurance",
+    "medical underwriting",
+    "risk assessment"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Insurance underwriting is the analytical process through which an [insurer](/learn/what-is-an-insurer) evaluates an applicant's risk exposure, decides whether to accept or decline the application, and determines the exact [premium](/learn/what-is-an-insurance-premium) required to cover the potential loss."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tools and Databases Underwriters Use"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Medical Information Bureau (MIB): A centralized secure database tracking medical underwriting codes across life and health carriers to detect non-disclosures.",
+        "Motor Vehicle Records (MVR): Official state driving histories revealing speeding citations, DUIs, and at-fault accidents over the trailing 3 to 5 years.",
+        "Credit-Based Insurance Scores (CBIS): Actuarial studies prove a strong statistical correlation between credit management and insurance claim frequency (used across 85% of US states).",
+        "Comprehensive Loss Underwriting Exchange (C.L.U.E.): A 7-year historical database tracking every property and auto claim filed by a consumer or on a specific home address."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Actuarial Science in Underwriting",
+      "text": "Underwriters do not make moral judgments; they evaluate statistical mortality and morbidity tables developed by institutions like the [Society of Actuaries (SOA)](https://www.soa.org/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Life Insurance Underwriting Tiers"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Underwriting Class",
+        "Health Profile",
+        "Relative Premium Impact"
+      ],
+      "rows": [
+        [
+          "Preferred Plus / Elite",
+          "Perfect blood biomarkers, non-smoker, clean family cardiovascular history",
+          "Lowest possible pricing ($)"
+        ],
+        [
+          "Preferred",
+          "Minor cholesterol elevation or controlled mild blood pressure",
+          "Low pricing ($$)"
+        ],
+        [
+          "Standard Plus",
+          "Above average wellness, minor weight or cholesterol variances",
+          "Moderate pricing ($$$)"
+        ],
+        [
+          "Standard",
+          "Normal life expectancy, controlled common chronic conditions",
+          "Baseline average pricing ($$$$)"
+        ],
+        [
+          "Substandard / Table Rated",
+          "Significant cardiovascular disease, diabetes, or cancer history",
+          "High premium surcharge ($$$$$)"
+        ]
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is Accelerated Underwriting?",
+          "answer": "A modern fintech underwriting method that uses algorithmic data analysis (prescription databases, electronic health records) to approve term life policies in minutes without requiring blood draws or physical medical exams."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Underwriting guidelines are filed with state departments of insurance to avoid discriminatory practices."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "what-is-insurance",
+  "slug": "what-is-insurance",
+  "title": "What Is Insurance? Definition, How It Works, and Key Principles",
+  "description": "A complete guide to what insurance is, the legal contract of risk transfer, why society relies on risk pooling, and the core principles protecting your wealth.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-10",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "what is insurance",
+    "insurance basics",
+    "risk transfer",
+    "risk pooling",
+    "policyholder"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Insurance is a legally binding financial contract where an individual or business transfers the financial risk of potential catastrophic loss to an [insurer](/learn/what-is-an-insurer) in exchange for regular payments called an [insurance premium](/learn/what-is-an-insurance-premium)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Fundamental Purpose of Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Without insurance, an unexpected medical emergency, house fire, or automobile crash could wipe out decades of accumulated savings in a single afternoon. Insurance transforms unpredictable, catastrophic financial disasters into predictable, manageable operational expenses."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "The Core Principle: Indemnity",
+      "text": "Most property and casualty policies operate on the legal principle of indemnity. This means insurance is intended to restore you to your exact pre-loss financial condition—neither richer nor poorer. You cannot profit from an insurance claim."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How the Mechanism of Risk Pooling Functions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance relies on the actuarial law of large numbers. Millions of policyholders contribute modest premiums into a centralized claims fund. Because only a small percentage will experience a covered loss in any given year, the pooled capital is more than sufficient to compensate those who suffer unexpected tragedy."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Component",
+        "Function in Contract",
+        "Consumer Reality"
+      ],
+      "rows": [
+        [
+          "Premium",
+          "Periodic subscription payment to keep coverage active",
+          "Must be paid regardless of whether you file a claim."
+        ],
+        [
+          "Deductible",
+          "Out-of-pocket amount paid before insurance pays",
+          "Higher deductibles lower your monthly premium."
+        ],
+        [
+          "Coverage Limit",
+          "Maximum dollar ceiling the insurer will disburse",
+          "Losses exceeding this limit must be absorbed personally."
+        ],
+        [
+          "Exclusion",
+          "Explicit risks or perils not covered by the contract",
+          "Requires endorsements or separate riders to bridge gaps."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Authoritative Regulatory Framework"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance is strictly regulated to ensure solvency and protect consumers against unfair claim denials. In the United States, insurance markets are overseen by state commissioners coordinated through the [National Association of Insurance Commissioners (NAIC)](https://content.naic.org/). In the UK, solvency and fair treatment are enforced by the [Financial Conduct Authority (FCA)](https://www.fca.org.uk/)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "insurance-needs-calculator",
+      "title": "Test Your Coverage Baseline",
+      "description": "Calculate whether your household has sufficient protection across health, life, property, and liability risks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Is insurance an investment?",
+          "answer": "No. Pure insurance is risk protection, not a wealth-building vehicle. While permanent life policies include cash-value accounts, financial advisors generally recommend separating pure term insurance from dedicated retirement investments."
+        },
+        {
+          "question": "Can an insurance company cancel my policy arbitrarily?",
+          "answer": "No. Statutory regulations strictly limit carrier cancellations after the initial 60-day underwriting window, barring non-payment of premiums or documented material fraud."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "This educational guide is published for consumer informational purposes only and does not constitute individual legal, tax, or actuarial counsel."
+    }
+  ]
+}

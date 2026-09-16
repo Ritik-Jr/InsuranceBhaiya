@@ -1,0 +1,93 @@
+{
+  "id": "deductible-vs-premium",
+  "slug": "deductible-vs-premium",
+  "title": "Deductible vs. Premium: How to Balance the Mathematical Tradeoff",
+  "description": "Master the inverse relationship between deductibles and premiums. Learn how to calculate the breakeven point and choose between high-deductible and low-deductible plans.",
+  "category": "insurance-basics",
+  "author": "David Sterling",
+  "authorRole": "Chartered Property Casualty Underwriter",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "deductible vs premium",
+    "high deductible plan",
+    "insurance breakeven",
+    "hsa eligible",
+    "cost optimization"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The relationship between a [deductible](/learn/what-is-a-deductible) and a [premium](/learn/what-is-an-insurance-premium) is the most fundamental mathematical tradeoff in all of insurance: as one goes up, the other goes down."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Inverse Law Explained"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you choose a higher deductible, you agree to absorb small losses yourself. This saves the insurer money on claim handling overhead and minor payouts, so they reward you with lower monthly premiums. Conversely, choosing a low deductible forces the carrier to pay on even minor incidents, requiring a higher monthly premium."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Plan Choice",
+        "Monthly Premium",
+        "Out-of-Pocket on Claim",
+        "Best Suited For"
+      ],
+      "rows": [
+        [
+          "Low Deductible ($250 - $500)",
+          "Higher ($$$)",
+          "Low ($)",
+          "Consumers with tight budgets, small emergency savings, or frequent medical needs."
+        ],
+        [
+          "High Deductible ($1,500 - $3,000)",
+          "Lower ($)",
+          "High ($$$)",
+          "Healthy individuals with robust emergency savings who rarely file claims."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "The Breakeven Formula",
+      "text": "To determine if a higher deductible makes financial sense, use this simple formula: Divide the deductible increase by your annual premium savings. Example: Increasing your auto deductible from $500 to $1,000 saves you $200 per year. $500 gap / $200 savings = 2.5 years. If you go 3 years without an at-fault accident, you come out ahead financially!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "High-Deductible Health Plans (HDHP) and HSAs"
+    },
+    {
+      "type": "paragraph",
+      "text": "In health insurance, enrolling in a qualified High-Deductible Health Plan unlocks eligibility for a Health Savings Account (HSA). Under [IRS Publication 969](https://www.irs.gov/forms-pubs/about-publication-969), HSAs offer a triple-tax advantage: contributions are tax-deductible, investments grow tax-free, and withdrawals for qualified medical expenses are 100% tax-free."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "deductible-calculator",
+      "title": "Calculate Your Breakeven Timeline",
+      "description": "Run the numbers for your auto, home, or health policy deductible options."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Should I ever raise my deductible if I have no savings?",
+          "answer": "No. Never raise your deductible higher than the liquid cash in your savings account. If an accident occurs and you cannot pay your deductible, your car repair or home restoration will stall."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Tax advantages of HSAs depend on IRS qualifying limits and individual filing status."
+    }
+  ]
+}

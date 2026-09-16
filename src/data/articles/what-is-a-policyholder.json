@@ -1,0 +1,100 @@
+{
+  "id": "what-is-a-policyholder",
+  "slug": "what-is-a-policyholder",
+  "title": "What Is a Policyholder? Owner Rights, Legal Duties, and Privileges",
+  "description": "Understand the legal definition of a policyholder: ownership authority, the power to name beneficiaries, assign coverage, and the crucial distinction between owner and insured.",
+  "category": "insurance-basics",
+  "author": "Sophia Lin",
+  "authorRole": "Regulatory Policy Specialist",
+  "publishedAt": "2026-09-12",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "policyholder",
+    "policy owner",
+    "contract rights",
+    "named insured",
+    "beneficiary designation"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A policyholder—also termed the policy owner—is the individual or legal entity that enters into the contract with the [insurer](/learn/what-is-an-insurer). The policyholder holds all legal rights to control, modify, transfer, and terminate the policy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Policyholder vs. Insured vs. Beneficiary"
+    },
+    {
+      "type": "paragraph",
+      "text": "People frequently confuse the parties to an insurance contract. While one person often plays multiple roles, they are distinct legal titles:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Role",
+        "Definition",
+        "Example in Practice"
+      ],
+      "rows": [
+        [
+          "Policyholder (Owner)",
+          "Holds contract title, pays premiums, can modify or cancel policy",
+          "A business purchasing key-person life insurance on a founder."
+        ],
+        [
+          "Insured",
+          "The individual whose life, health, or liability is covered",
+          "The founder whose biological health is underwritten."
+        ],
+        [
+          "Beneficiary",
+          "The designated party who receives the claim payout",
+          "The surviving spouse or company trust named on the death benefit form."
+        ],
+        [
+          "Payor",
+          "The person or entity submitting payment for the premium",
+          "An employer paying the monthly invoice for employee group life."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Exclusive Rights of the Policyholder",
+      "text": "Only the policyholder has legal authority to designate or alter beneficiaries, borrow against cash value in whole life contracts, change [coverage limits](/learn/what-is-a-coverage-limit), or cancel the policy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Core Duties of Every Policyholder"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Duty of Utmost Good Faith: Truthfully disclose all material facts during application underwriting.",
+        "Timely Premium Payment: Remit premiums prior to the conclusion of the [grace period](/learn/what-happens-if-you-stop-paying-insurance).",
+        "Prompt Notice of Loss: Inform the insurer immediately following an accident or damage event.",
+        "Cooperation in Legal Defense: Assist defense attorneys assigned by the insurer during third-party liability litigation."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Can a policyholder transfer ownership of a life insurance policy?",
+          "answer": "Yes. Through an 'absolute assignment,' a policyholder can irrevocably transfer all ownership rights to another person or an Irrevocable Life Insurance Trust (ILIT) for estate planning purposes."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Ownership assignments can have gift tax or probate ramifications. Consult an estate planning attorney."
+    }
+  ]
+}

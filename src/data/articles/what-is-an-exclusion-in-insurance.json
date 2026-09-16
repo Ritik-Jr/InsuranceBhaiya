@@ -1,0 +1,71 @@
+{
+  "id": "what-is-an-exclusion-in-insurance",
+  "slug": "what-is-an-exclusion-in-insurance",
+  "title": "What Is an Exclusion in Insurance? The Fine Print That Denies Claims",
+  "description": "Learn what policy exclusions are, why carriers exclude specific perils like flood and wear-and-tear, how exclusions interact with endorsements, and how to spot them.",
+  "category": "insurance-basics",
+  "author": "Sophia Lin",
+  "authorRole": "Regulatory Policy Specialist",
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "exclusions",
+    "policy exclusions",
+    "insurance fine print",
+    "flood exclusion",
+    "claim denial"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An exclusion is an explicit policy provision that eliminates coverage for designated perils, hazards, property types, or circumstances. If an event listed in your exclusions causes damage, your [insurer](/learn/what-is-an-insurer) is legally relieved of all obligation to pay the [claim](/learn/what-is-an-insurance-claim)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 5 Standard Homeowners Exclusions"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Earth Movement: Earthquakes, landslides, sinkholes, and soil liquefaction (requires separate earthquake policy).",
+        "Water Damage & Flooding: Surface water, flash floods, storm surges, and sewer backups (see [FEMA FloodSmart](https://www.floodsmart.gov/)).",
+        "Wear, Tear, and Maintenance: Gradual deterioration, dry rot, termites, rust, or mold from slow chronic leaks.",
+        "Intentional or Criminal Acts: Fraud, arson committed by the insured, or intentional physical assault.",
+        "War, Terrorism, and Nuclear Hazard: Systemic catastrophic risks uninsurable through private retail markets."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Named Peril vs. Open Peril Policies",
+      "text": "In a 'Named Perils' contract, only disasters explicitly written in the policy are covered. In an 'Open Perils' (Special Form) contract, EVERYTHING is covered EXCEPT the specific hazards listed in the exclusions section. Open perils contracts provide far superior consumer protection."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Overcome Policy Exclusions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Exclusions are not permanent dead ends. In many cases, policyholders can purchase an [endorsement or rider](/learn/what-is-an-insurance-endorsement) to 'buy back' coverage for excluded events like sewer backup, equipment breakdown, or home business inventory."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Are pre-existing conditions still excluded in health insurance?",
+          "answer": "Under the Affordable Care Act (ACA), major medical plans in the US cannot exclude or deny coverage for pre-existing conditions. However, short-term health and pet insurance policies still strictly exclude pre-existing ailments."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Exclusion forms vary widely between insurers. Always inspect Section I – Exclusions in your homeowner policy."
+    }
+  ]
+}

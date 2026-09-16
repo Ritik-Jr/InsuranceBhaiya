@@ -1,0 +1,108 @@
+{
+  "id": "how-to-know-if-you-are-underinsured",
+  "slug": "how-to-know-if-you-are-underinsured",
+  "title": "How to Know If You Are Underinsured: 5 Dangerous Warning Signs",
+  "description": "Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16",
+  "readingTime": 9,
+  "featured": true,
+  "tags": [
+    "underinsured",
+    "insurance gap",
+    "replacement cost gap",
+    "umbrella policy",
+    "coverage audit"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Underinsurance is one of the most widespread and dangerous financial vulnerabilities in modern households. Over 60% of homes in the United States are underinsured by an average of 20%, according to studies by the [Swiss Re Institute](https://www.swissre.com/institute.html)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 5 Red Flags That You Are Underinsured"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "1. Home Dwelling Limit Has Not Been Adjusted for Construction Inflation: If your home was insured 5 years ago for $300,000, soaring lumber and contractor labor costs mean rebuilding today would cost $450,000. In a total fire loss, you would face a $150,000 shortfall.",
+        "2. Carrying State Minimum Auto Liability Limits: If you carry state-mandated limits of $25,000 per person and cause a serious highway pileup, the medical bills will easily exceed $250,000, leaving your house, savings, and future wages subject to garnishment.",
+        "3. Insuring Only 1x to 2x Annual Salary in Life Insurance: An employer-provided group life policy (typically 1x salary) will only support your surviving family for 12 months. Financial planners universally recommend 8x to 12x gross income in [term life insurance](/learn/term-insurance-guide).",
+        "4. Zero Disability Income Protection: You are three times more likely to become disabled before age 65 than to pass away prematurely. If you have no Long-Term Disability policy, an illness will eradicate your savings within months.",
+        "5. No Personal Umbrella Liability Policy: If your home equity, retirement accounts, and liquid investments exceed $300,000, you need an Umbrella Policy. A single slip-and-fall lawsuit on your icy driveway can exceed baseline homeowner liability caps."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The Coinsurance Penalty Trap",
+      "text": "Most commercial and home policies contain an '80% Coinsurance Clause.' If you insure your home for less than 80% of its true replacement cost, the insurer will penalize you on EVERY partial claim, reimbursing only a fraction of the damage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Diagnostic Underinsurance Assessment"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Risk Area",
+        "Underinsured Warning Sign",
+        "Recommended Benchmark"
+      ],
+      "rows": [
+        [
+          "Life Insurance",
+          "Only employer group policy (1x salary)",
+          "10x - 12x annual income in individual term life."
+        ],
+        [
+          "Home Insurance",
+          "Dwelling limit equals real estate market purchase price",
+          "100% of current local architectural rebuilding cost."
+        ],
+        [
+          "Auto Liability",
+          "State minimum limits (e.g. 25/50/25)",
+          "At least 250/500/100 liability limits."
+        ],
+        [
+          "Excess Liability",
+          "No umbrella policy despite owning home and investments",
+          "$1,000,000 - $3,000,000 personal umbrella policy."
+        ],
+        [
+          "Disability",
+          "Relying strictly on government Social Security Disability",
+          "Private Long-Term Disability replacing 60% of income."
+        ]
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "insurance-needs-calculator",
+      "title": "Calculate Your True Protection Gap",
+      "description": "Run our comprehensive audit tool to instantly spot deficits across your household portfolio."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "How do I find the true replacement cost of my house?",
+          "answer": "Do not use your real estate market value or property tax assessment. Request an itemized replacement cost valuation (RCV) from your insurance agent, which calculates square footage multiplied by local contractor building rates."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Use our [Policy Checklist](/policy-check) to systematically verify your policy limits with your licensed agent."
+    }
+  ]
+}

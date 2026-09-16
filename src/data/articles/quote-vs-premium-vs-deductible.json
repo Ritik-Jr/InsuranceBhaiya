@@ -1,0 +1,95 @@
+{
+  "id": "quote-vs-premium-vs-deductible",
+  "slug": "quote-vs-premium-vs-deductible",
+  "title": "Quote vs. Premium vs. Deductible: Clearing the Confusion Once and for All",
+  "description": "Eliminate the confusion between quotes, premiums, and deductibles with an easy-to-understand side-by-side comparison, real-life examples, and decision guidelines.",
+  "category": "insurance-basics",
+  "author": "Sophia Lin",
+  "authorRole": "Regulatory Policy Specialist",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "quote vs premium",
+    "deductible vs premium",
+    "insurance terminology",
+    "insurance costs",
+    "beginner guide"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "First-time insurance buyers frequently confuse **quotes**, **premiums**, and **deductibles**. While all three represent dollar amounts, they occur at completely different stages of your insurance journey and serve totally different functions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Triangle of Insurance Costs Explained"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Term",
+        "What It Is",
+        "When You Pay It",
+        "Who Gets the Money?"
+      ],
+      "rows": [
+        [
+          "Quote",
+          "An estimated price tag before you buy",
+          "Never (It is free to receive)",
+          "Nobody (It is just information)"
+        ],
+        [
+          "Premium",
+          "Your ongoing subscription invoice to keep coverage active",
+          "Every month, quarter, or year",
+          "The insurance company"
+        ],
+        [
+          "Deductible",
+          "Your out-of-pocket share when an accident or disaster occurs",
+          "Only when you file a covered claim",
+          "The repair shop, doctor, or deducted from payout"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "A Simple Metaphor: The Gym Membership",
+      "text": "Think of an [insurance quote](/learn/what-is-an-insurance-quote) as the gym brochure showing price options. The [premium](/learn/what-is-an-insurance-premium) is your $50 monthly membership fee that keeps your keycard working. The [deductible](/learn/what-is-a-deductible) is the $30 co-pay you pay a personal trainer only on the specific days you book a workout session."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A Real-World Example: Sarah's Car Accident"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sarah shops online and receives a **$120/month quote** for auto insurance with a **$500 deductible**. She signs the contract and pays her **$120 monthly premium** for 10 months ($1,200 total). In month 11, another car dents her door, causing $3,000 in damage. Sarah pays her **$500 deductible**, and the insurer pays the remaining **$2,500** to the body shop."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "deductible-calculator",
+      "title": "Find Your Best Tradeoff",
+      "description": "Compare how different deductible levels alter your monthly premium expense."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "If I never file a claim, do I get my premiums back?",
+          "answer": "No. Premiums purchase peace of mind and financial defense for that specific coverage window. (A rare exception is a Return of Premium term life rider, which carries a much higher upfront cost)."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Financial guidance provided for consumer education. Verify all contract terms on your Declarations Page."
+    }
+  ]
+}

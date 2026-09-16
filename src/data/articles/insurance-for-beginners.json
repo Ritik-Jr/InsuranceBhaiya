@@ -1,0 +1,126 @@
+{
+  "id": "insurance-for-beginners",
+  "slug": "insurance-for-beginners",
+  "title": "Insurance Explained for Beginners: The Zero-Jargon Master Guide",
+  "description": "New to insurance? Learn how insurance works in plain English. Master the 5 essential numbers: premium, deductible, copay, out-of-pocket maximum, and coverage limits.",
+  "category": "insurance-basics",
+  "author": "David Sterling",
+  "authorRole": "Chartered Property Casualty Underwriter",
+  "publishedAt": "2026-09-11",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "insurance for beginners",
+    "insurance basics",
+    "deductible vs premium",
+    "copay",
+    "first time buyer"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "If you feel intimidated by insurance terminology, you are not alone. Insurers frequently use arcane 19th-century legal phrasing. But once you strip away the legalese, every insurance policy is governed by just five fundamental numbers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 5 Numbers That Rule Every Insurance Policy"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The Premium: Your monthly or annual subscription fee. You pay this no matter what to keep the contract valid.",
+        "The Deductible: The amount of money you must pay out of your own wallet before the insurance company pays a dime.",
+        "The Copay / Coinsurance: Your percentage share of the bill after your deductible has been met (e.g., insurance pays 80%, you pay 20%).",
+        "The Out-of-Pocket Maximum: The absolute legal maximum you can spend in a single plan year on covered healthcare. Once reached, the insurer pays 100%.",
+        "The Coverage Limit: The maximum total dollar amount the insurer will ever pay for a covered incident."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "The Golden Rule of Insurance Pricing",
+      "text": "Deductibles and premiums share an inverse relationship: The HIGHER your deductible, the LOWER your premium. If you have a healthy emergency fund, choosing a higher deductible can save you hundreds of dollars each year in lower premiums."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A Real-World Example: An Emergency Hospital Visit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagine you break your leg skiing and the hospital bill is $15,000. Your health insurance has a $2,000 deductible, 20% coinsurance, and a $6,000 out-of-pocket maximum. Here is exactly who pays what:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stage of Bill",
+        "Amount Paid by You",
+        "Amount Paid by Insurer",
+        "Remaining Balance"
+      ],
+      "rows": [
+        [
+          "Initial Bill",
+          "$0",
+          "$0",
+          "$15,000"
+        ],
+        [
+          "Meeting Deductible",
+          "$2,000",
+          "$0",
+          "$13,000"
+        ],
+        [
+          "20% Coinsurance on $13,000",
+          "$2,600",
+          "$10,400",
+          "$0"
+        ],
+        [
+          "Total Final Cost",
+          "$4,600 (Under max)",
+          "$10,400",
+          "Settled in Full"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3 Rookie Mistakes Every Beginner Should Avoid"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Buying purely on price: The cheapest policy usually has massive hidden deductibles and narrow provider networks.",
+        "Choosing state minimum auto liability limits: A $25,000 limit will leave your personal bank account vulnerable if you total a new EV.",
+        "Failing to review annually: Your coverage needs change whenever you move, marry, get a pay raise, or welcome a child."
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "deductible-calculator",
+      "title": "Calculate Your Optimal Deductible",
+      "description": "Determine whether switching to a high deductible plan mathematically saves you money based on your annual claim probability."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is an in-network vs out-of-network provider?",
+          "answer": "In-network healthcare providers have signed negotiated discount contracts with your insurance company. Seeing an out-of-network provider means you may face substantial out-of-pocket 'balance billing'."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Plan rules vary by employer benefits and exchange tiers. Review your official Summary of Benefits and Coverage (SBC) document."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "what-is-an-insurance-premium",
+  "slug": "what-is-an-insurance-premium",
+  "title": "What Is an Insurance Premium? How It's Calculated and Billed",
+  "description": "A complete guide to insurance premiums: how actuaries calculate your rate, payment frequencies, grace periods, fees, and the top factors driving premium increases.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-13",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "insurance premium",
+    "premium calculation",
+    "rate factors",
+    "grace period",
+    "actuarial pricing"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An insurance premium is the contractually required sum of money you pay periodically to an [insurer](/learn/what-is-an-insurer) to keep your coverage active. It is effectively the price of transferring risk away from your personal balance sheet."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Actuaries Calculate Your Premium"
+    },
+    {
+      "type": "paragraph",
+      "text": "Premiums are not pulled out of thin air. Actuaries use mathematical formulas combining historical probability, loss severity, and operational loading:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Insurance Type",
+        "Primary Underwriting Risk Variables"
+      ],
+      "rows": [
+        [
+          "Life Insurance",
+          "Age, biological sex, tobacco use, cardiovascular health markers, family medical history."
+        ],
+        [
+          "Auto Insurance",
+          "Driving record, vehicle safety rating, annual mileage, credit-based insurance score, ZIP code."
+        ],
+        [
+          "Homeowners Insurance",
+          "Dwelling square footage, replacement construction costs, roof age, proximity to fire hydrants, wildfire/hurricane risk."
+        ],
+        [
+          "Health Insurance",
+          "Age, tobacco use, geographic rating area, plan tier (Bronze, Silver, Gold), individual vs family enrollment."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Pro-Tip: Avoid Installment Surcharges",
+      "text": "Paying your auto or home insurance premium monthly by credit card often triggers a $3 to $7 monthly installment processing fee. Paying annually or semi-annually via EFT bank transfer typically saves 5% to 10% on your total annual cost."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Grace Period: What Happens If You Pay Late?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every regulated insurance policy includes a mandatory [grace period](/learn/what-happens-if-you-stop-paying-insurance)—typically 30 to 31 days. If you fail to pay your premium on the due date, your coverage remains active during the grace period. However, if the premium is not remitted before the grace period expires, the policy automatically lapses."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "term-insurance-calculator",
+      "title": "Model Your Term Premium",
+      "description": "See how increasing coverage duration from 10 to 30 years impacts your monthly premium commitment."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Why did my premium increase even though I filed zero claims?",
+          "answer": "Property and casualty rates are adjusted across entire geographic rating territories. If your area experienced severe localized storms or high vehicle inflation, carriers file for rate revisions across all territory policyholders."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Rate filings must be approved by state insurance departments. Consumer complaints can be filed with your state insurance commissioner."
+    }
+  ]
+}

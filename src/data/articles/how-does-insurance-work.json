@@ -1,0 +1,111 @@
+{
+  "id": "how-does-insurance-work",
+  "slug": "how-does-insurance-work",
+  "title": "How Does Insurance Work? The Mathematics of Risk Pooling and Claims",
+  "description": "Understand the financial and mathematical engine powering modern insurance: actuarial risk pooling, loss reserves, underwriter loss ratios, and the claims pipeline.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-11",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "how insurance works",
+    "actuarial science",
+    "risk pooling",
+    "claims process",
+    "underwriting"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "At first glance, it seems impossible that an insurer can charge $50 a month and write a $500,000 check when disaster strikes. The answer lies in the mathematics of [risk pooling](/learn/what-is-insurance) and the Law of Large Numbers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 4-Stage Operational Engine"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Risk Aggregation: The carrier sells policies to hundreds of thousands of independent individuals across diverse geographic zones.",
+        "Underwriting Assessment: Actuaries evaluate historical loss frequencies to ensure incoming premium revenue exceeds projected claims.",
+        "Reserve Investment: Collected premiums are placed in conservative statutory reserve funds (chiefly government bonds and high-grade corporate debt) to earn safe interest.",
+        "Claims Adjudication: When a covered incident occurs, adjusters verify the loss against policy terms and disburse settlement checks."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Actuarial Insight: Combined Ratios",
+      "text": "Insurers measure profitability via their 'Combined Ratio'—claims paid plus operating expenses divided by collected premiums. A ratio under 100% signifies underwriting profit; if over 100%, the carrier relies on investment returns from reserves to stay profitable. Learn more at the [Insurance Information Institute](https://www.iii.org/article/how-insurance-works)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens to Your Premium Dollars?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Allocation Bucket",
+        "Typical Percentage",
+        "Core Function"
+      ],
+      "rows": [
+        [
+          "Claims Reserve Fund",
+          "65% - 75%",
+          "Set aside strictly to settle future policyholder claims."
+        ],
+        [
+          "Operational & Underwriting Overhead",
+          "15% - 20%",
+          "Staff, technology, fraud prevention, regulatory compliance."
+        ],
+        [
+          "Taxes & Reinsurance",
+          "5% - 10%",
+          "Backstop insurance purchased from global reinsurers like Swiss Re."
+        ],
+        [
+          "Net Underwriting Margin",
+          "2% - 5%",
+          "Carrier profit retained to maintain solvency capital cushions."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Fraud Prevention Matters to You"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance fraud adds an estimated $400 to $700 annually in excess premiums to every average American household according to the [Coalition Against Insurance Fraud](https://insurancefraud.org/). When fraudulent claims slip through, the common pool is depleted, forcing carriers to raise baseline rates for honest policyholders."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "term-insurance-calculator",
+      "title": "See Risk Mathematics in Action",
+      "description": "Simulate how age, health classification, and term duration alter actuarial pricing."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What happens if a massive natural catastrophe hits thousands of homes at once?",
+          "answer": "Insurers protect themselves by purchasing secondary insurance from global 'reinsurers' (such as Munich Re or Swiss Re). This distributes catastrophic hurricane or earthquake risks across global capital markets."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Actuarial models vary by jurisdiction. Consult official filings with your state insurance department for specific carrier loss ratios."
+    }
+  ]
+}

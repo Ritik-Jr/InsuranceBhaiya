@@ -1,0 +1,86 @@
+{
+  "id": "named-insured-vs-additional-insured",
+  "slug": "named-insured-vs-additional-insured",
+  "title": "Named Insured vs. Additional Insured: Rights, Liabilities, and Differences",
+  "description": "Understand the legal distinction between Named Insureds (policy owners) and Additional Insureds (third parties granted liability defense), with real-world business and landlord examples.",
+  "category": "insurance-basics",
+  "author": "Sophia Lin",
+  "authorRole": "Regulatory Policy Specialist",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "named insured",
+    "additional insured",
+    "certificate of insurance",
+    "landlord insurance",
+    "contractor insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "In property, casualty, and commercial contracts, the distinction between a **Named Insured** and an **Additional Insured** is critical. Failing to understand the difference can lead to denied claims, lost legal defense, or breach of contract disputes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Legal Differences"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Attribute",
+        "Named Insured",
+        "Additional Insured"
+      ],
+      "rows": [
+        [
+          "Contract Ownership",
+          "Yes (The policyholder who purchased the contract)",
+          "No (An outside party added via endorsement)"
+        ],
+        [
+          "Policy Control",
+          "Full power to cancel, adjust limits, or change endorsements",
+          "No rights to alter policy terms or cancel coverage"
+        ],
+        [
+          "Premium Responsibility",
+          "Legally obligated to pay the premium invoices",
+          "No obligation to pay premiums"
+        ],
+        [
+          "Claim Proceeds",
+          "Receives claim settlement checks directly",
+          "Receives legal defense and liability indemnification if sued"
+        ],
+        [
+          "Typical Examples",
+          "Homeowner, business owner, vehicle owner",
+          "Landlord, mortgage lender, general contractor hiring a subcontractor"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Why Landlords and Clients Demand Additional Insured Status",
+      "text": "When a general contractor hires a subcontractor, or a landlord rents commercial space to a tenant, they demand to be added as an Additional Insured on the tenant's liability policy. If a customer slips and sues both parties, the tenant's insurance pays to defend both, shielding the landlord's policy, as explained by the [International Risk Management Institute (IRMI)](https://www.irmi.com/)."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is an Additional Interest vs Additional Insured?",
+          "answer": "An 'Additional Interest' (often requested on renters insurance) only receives notifications if the policy is cancelled or lapses; they receive zero liability protection or claim proceeds."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Endorsement forms (such as ISO CG 20 10 or CG 20 26) have specific scope limitations."
+    }
+  ]
+}

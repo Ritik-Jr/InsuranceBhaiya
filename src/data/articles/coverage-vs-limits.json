@@ -1,0 +1,83 @@
+{
+  "id": "coverage-vs-limits",
+  "slug": "coverage-vs-limits",
+  "title": "Coverage vs. Limits: Scope vs. Ceiling in Insurance Contracts",
+  "description": "Learn the distinction between insurance coverage (the scope of protected perils) and coverage limits (the dollar ceiling an insurer will pay).",
+  "category": "insurance-basics",
+  "author": "Marcus Vance",
+  "authorRole": "Consumer Risk Analyst",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "coverage vs limits",
+    "policy limits",
+    "scope of coverage",
+    "insurance definitions",
+    "liability ceiling"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "When discussing an [insurance policy](/learn/what-is-an-insurance-policy), people often say 'I have full coverage.' However, in insurance terminology, **coverage** and **limits** define two completely distinct dimensions of your contract: Scope vs. Ceiling."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Scope vs. Ceiling: The Core Difference"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dimension",
+        "Concept",
+        "Question It Answers",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Coverage (Scope)",
+          "What risks, perils, and property are protected by the contract",
+          "'Am I covered if a tree falls on my roof during a storm?'",
+          "Dwelling Coverage, Comprehensive Auto, Bodily Injury Liability."
+        ],
+        [
+          "Limit (Ceiling)",
+          "The maximum total dollar amount the insurer will pay for that covered event",
+          "'How much will the insurer pay to rebuild my roof?'",
+          "$450,000 Dwelling Limit, $250,000 Bodily Injury Limit."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The Danger of Having Coverage Without Sufficient Limits",
+      "text": "You can have the correct *coverage* (e.g., auto property damage liability) but disastrously inadequate *limits*. If you carry a $25,000 property damage limit and crash into a $90,000 luxury EV, your policy has coverage—but the insurer only pays $25,000. You are personally on the hook for the remaining $65,000."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Audit Both in Your Policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "During your annual review, check both dimensions: First, ensure you have no missing *coverages* (such as flood, sewer backup, or uninsured motorist). Second, ensure your *limits* have been adjusted upward to match inflation and your growing net worth."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Does 'Full Coverage' mean unlimited coverage?",
+          "answer": "No. 'Full coverage' in auto insurance simply means you carry collision and comprehensive alongside required liability. Every component still has strict dollar limits."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Check your Declarations Page for exact policy sub-limits."
+    }
+  ]
+}

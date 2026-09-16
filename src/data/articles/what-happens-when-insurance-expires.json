@@ -1,0 +1,97 @@
+{
+  "id": "what-happens-when-insurance-expires",
+  "slug": "what-happens-when-insurance-expires",
+  "title": "What Happens When Insurance Expires? Renewals, Terms, and Next Steps",
+  "description": "Learn what happens when term life, auto, and home insurance policies reach their expiration dates: automatic renewals, non-renewal notices, conversion privileges, and gap management.",
+  "category": "insurance-basics",
+  "author": "Sophia Lin",
+  "authorRole": "Regulatory Policy Specialist",
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "insurance expires",
+    "policy expiration",
+    "term life expiration",
+    "conversion option",
+    "non renewal"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "What occurs when an [insurance policy](/learn/what-is-an-insurance-policy) reaches its expiration date depends entirely on whether the policy is an annual renewable property contract or a fixed-duration life contract."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Auto and Home Insurance Expiration (Annual Policies)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most auto and homeowner policies are issued for 6 or 12 month terms. In the vast majority of cases, they renew automatically:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Automatic Renewal: 30 to 45 days before expiration, the carrier mails an updated Declarations Page with the new term's premium. If your payments are on autopay, coverage continues uninterrupted.",
+        "Non-Renewal Notice: If the carrier decides not to renew your policy (e.g., due to multiple at-fault claims or withdrawal from your geographic market), state law requires 30 to 60 days advance written notice so you can shop for replacement coverage, as regulated by the [NAIC](https://content.naic.org/)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. What Happens When a Term Life Policy Expires?"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a 20- or 30-year [term life insurance policy](/learn/term-insurance-guide) reaches the end of its level-premium period, you have three primary options:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Option",
+        "How It Works",
+        "Cost Implication"
+      ],
+      "rows": [
+        [
+          "Option 1: Let It Expire",
+          "Simply allow the policy to terminate if your children are grown, mortgage is paid, and you no longer need income protection.",
+          "$0 ongoing cost."
+        ],
+        [
+          "Option 2: Annual Renewable Term",
+          "Keep the existing policy active on a year-by-year basis without taking a medical exam.",
+          "Premiums increase dramatically (often 5x to 10x higher per year) based on your attained age."
+        ],
+        [
+          "Option 3: Exercise Conversion Privilege",
+          "Convert your term policy into a permanent whole life policy with zero medical underwriting before reaching age 65 or 70.",
+          "Locks in permanent coverage at whole life premium rates."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "The Conversion Privilege Advantage",
+      "text": "If you develop serious medical conditions (heart disease, cancer) during your term, the conversion option is invaluable: it guarantees you can secure permanent life coverage that would otherwise be impossible to buy on the open market."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Is there a grace period after my policy expires?",
+          "answer": "No. Once a fixed term officially expires without renewal, coverage terminates immediately at 12:01 AM on the expiration date."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Conversion terms and deadlines vary by life insurer. Check your policy contract."
+    }
+  ]
+}

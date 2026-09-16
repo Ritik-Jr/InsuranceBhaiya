@@ -1,0 +1,101 @@
+{
+  "id": "what-is-a-deductible",
+  "slug": "what-is-a-deductible",
+  "title": "What Is a Deductible in Insurance? How It Works and How to Choose",
+  "description": "Learn what a deductible is, how per-incident vs calendar-year deductibles work, percentage hurricane deductibles, and how to find your optimal breakeven point.",
+  "category": "insurance-basics",
+  "author": "David Sterling",
+  "authorRole": "Chartered Property Casualty Underwriter",
+  "publishedAt": "2026-09-13",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "deductible",
+    "what is a deductible",
+    "deductible vs premium",
+    "high deductible",
+    "out of pocket"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A deductible is the predetermined out-of-pocket amount you must pay toward a covered loss or medical expense before your [insurer](/learn/what-is-an-insurer) begins paying. Deductibles are designed to prevent frivolous micro-claims and give policyholders an economic incentive to prevent losses."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 3 Major Deductible Structures"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Per-Incident Deductibles (Auto & Property): Applied separately to every individual accident or storm claim. If you have two car accidents in one year with a $500 deductible, you pay $500 for each incident.",
+        "Calendar-Year Deductibles (Health Insurance): Resets once per calendar year on January 1st. Once satisfied, you transition to coinsurance until hitting your out-of-pocket maximum.",
+        "Percentage Deductibles (Wind, Hurricane, Hail): Common in coastal home insurance. Rather than a flat $1,000 fee, it represents 1% to 5% of your home's total insured dwelling value (e.g., 2% of a $500,000 home = a $10,000 deductible)."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Watch Out for Split Deductibles",
+      "text": "Always check your homeowner Declarations Page for separate 'All Other Peril' (AOP) vs 'Named Storm' deductibles. A homeowner might have an affordable $1,000 deductible for kitchen fires, but face a painful $15,000 deductible if hurricane winds rip off their roof."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mathematical Comparison: Low vs. High Deductible"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Metric",
+        "$500 Deductible Plan",
+        "$2,000 Deductible Plan"
+      ],
+      "rows": [
+        [
+          "Annual Premium",
+          "$1,800 / year ($150/mo)",
+          "$1,200 / year ($100/mo)"
+        ],
+        [
+          "Annual Premium Savings",
+          "$0 (Baseline)",
+          "$600 saved every year"
+        ],
+        [
+          "Breakeven Period",
+          "N/A",
+          "2.5 years without a claim ($1,500 gap / $600 savings)"
+        ],
+        [
+          "Emergency Fund Needed",
+          "$500 in liquid cash",
+          "$2,000 immediately accessible in savings"
+        ]
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "deductible-calculator",
+      "title": "Test Your Deductible Breakeven",
+      "description": "Simulate whether moving from a $500 to a $1,500 deductible generates net cash savings over a 5-year window."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Do I write a check directly to the insurance company for my deductible?",
+          "answer": "Usually no. In auto and home repairs, the insurer simply deducts the deductible from the settlement check paid to you or your auto repair body shop."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Health insurance statutory rules for HDHPs are established annually by the [Internal Revenue Service (IRS)](https://www.irs.gov/)."
+    }
+  ]
+}

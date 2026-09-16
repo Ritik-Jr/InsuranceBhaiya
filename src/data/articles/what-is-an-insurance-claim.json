@@ -1,0 +1,97 @@
+{
+  "id": "what-is-an-insurance-claim",
+  "slug": "what-is-an-insurance-claim",
+  "title": "What Is an Insurance Claim? Step-by-Step Claims Process and Payouts",
+  "description": "Understand the insurance claims process from start to finish: First Notice of Loss (FNOL), adjuster investigations, repair estimates, deductible subtractions, and payouts.",
+  "category": "insurance-basics",
+  "author": "David Sterling",
+  "authorRole": "Chartered Property Casualty Underwriter",
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "insurance claim",
+    "claims process",
+    "claims adjuster",
+    "FNOL",
+    "claim settlement"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An insurance claim is a formal, legal request submitted by a [policyholder](/learn/what-is-a-policyholder) to an [insurance carrier](/learn/what-is-an-insurer) requesting financial reimbursement or defense for a covered loss or liability incident."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 5 Stages of the Claims Lifecycle"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "First Notice of Loss (FNOL): The insured contacts the carrier via app, phone, or portal to report the date, time, location, and nature of the damage.",
+        "Assignment of Claims Adjuster: The carrier assigns a licensed adjuster to inspect damage, review police reports, and verify that the cause of loss is not [excluded](/learn/what-is-an-exclusion-in-insurance).",
+        "Scope of Loss & Repair Estimation: The adjuster drafts an itemized estimate calculating materials, labor, and depreciation (Actual Cash Value vs Replacement Cost).",
+        "Deductible Application: The predetermined [deductible](/learn/what-is-a-deductible) is subtracted from the total settlement figure.",
+        "Disbursement & Subrogation: The insurer issues payment to the policyholder or contractor, and then seeks recovery (subrogation) from any at-fault third party."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Documentation Is Your Greatest Asset",
+      "text": "Following property damage or an auto crash, immediately take timestamped photographs and video of all damaged property before initiating cleanup or discarding ruined items."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Common Reasons Claims Are Denied"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Denial Reason",
+        "Why It Happens",
+        "How to Prevent It"
+      ],
+      "rows": [
+        [
+          "Uncovered Peril",
+          "Filing for flood damage under a standard home policy",
+          "Procure separate flood or earthquake coverage."
+        ],
+        [
+          "Late Reporting",
+          "Waiting months to report an accident, spoiling evidence",
+          "Report all incidents within 24 to 48 hours."
+        ],
+        [
+          "Wear and Tear",
+          "Claiming roof leak caused by 25-year-old rusted flashing",
+          "Perform documented regular home maintenance."
+        ],
+        [
+          "Unlisted Driver",
+          "Roommate crashed car without being listed on policy",
+          "List all driving household members on auto policy."
+        ]
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is a Public Adjuster?",
+          "answer": "A Public Adjuster is an independent licensed claims professional hired by the policyholder (not the insurance company) to advocate and negotiate for a larger settlement in complex property claims, typically charging 10% to 15% of the payout."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Claims handling regulations and statutory prompt-payment deadlines are enforced by state insurance commissioners."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "what-is-an-excess",
+  "slug": "what-is-an-excess",
+  "title": "What Is an Excess in Insurance? UK and Commonwealth Rules Explained",
+  "description": "Learn what an excess is in UK, Australian, and Commonwealth insurance policies: compulsory vs voluntary excess, how voluntary excess lowers premiums, and recovery from third parties.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-13",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "what is an excess",
+    "excess insurance",
+    "compulsory excess",
+    "voluntary excess",
+    "uk insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "In the United Kingdom, Australia, New Zealand, and other Commonwealth jurisdictions, the term **excess** is the exact legal and operational equivalent of what North American insurers call a [deductible](/learn/what-is-a-deductible). It represents the agreed sum you must contribute toward every claim."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Compulsory Excess vs. Voluntary Excess"
+    },
+    {
+      "type": "paragraph",
+      "text": "In UK motor and home insurance policies, your total excess is composed of two distinct components added together:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Excess Type",
+        "Who Sets It?",
+        "Can You Negotiate It?",
+        "Primary Purpose"
+      ],
+      "rows": [
+        [
+          "Compulsory Excess",
+          "Fixed by the insurance underwriter",
+          "No (Mandatory baseline)",
+          "Reflects driver age, vehicle power category, or high-crime postcode."
+        ],
+        [
+          "Voluntary Excess",
+          "Chosen by the consumer at application",
+          "Yes (e.g. £0, £250, £500)",
+          "Higher voluntary excess yields lower monthly premiums."
+        ],
+        [
+          "Total Excess",
+          "Compulsory + Voluntary Added Together",
+          "Controlled by your voluntary selection",
+          "Total cash you must provide before claim settlement."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Real Claim Calculation Example",
+      "text": "If your car insurer imposes a £300 compulsory excess and you elected a £250 voluntary excess, your total excess is £550. If you suffer £2,500 of collision damage, you pay £550 and your insurer covers the remaining £1,950."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Can You Recover Your Excess After a Non-Fault Accident?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes. If another driver was 100% legally responsible for the crash and their insurer admits liability, you or your legal protection insurer can recover your excess payment directly from the at-fault driver's insurance carrier, as advised by [UK MoneyHelper](https://www.moneyhelper.org.uk/)."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is an Excess Protection Insurance policy?",
+          "answer": "It is a supplementary standalone policy that reimburses the cost of your excess if you are forced to pay it during a fault claim."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Regulated in the United Kingdom by the [Financial Conduct Authority (FCA)](https://www.fca.org.uk/) and the Association of British Insurers (ABI)."
+    }
+  ]
+}

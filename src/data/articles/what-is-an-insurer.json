@@ -1,0 +1,94 @@
+{
+  "id": "what-is-an-insurer",
+  "slug": "what-is-an-insurer",
+  "title": "What Is an Insurer? Carriers, Solvency, and Financial Strength Ratings",
+  "description": "Discover what an insurance company (carrier) is, how stock vs mutual insurers differ, how carriers maintain capital reserves, and why AM Best financial ratings matter.",
+  "category": "insurance-basics",
+  "author": "Marcus Vance",
+  "authorRole": "Consumer Risk Analyst",
+  "publishedAt": "2026-09-12",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "what is an insurer",
+    "insurance company",
+    "carrier",
+    "AM Best ratings",
+    "mutual insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An insurer—frequently referred to as an insurance carrier or underwriting company—is the licensed financial institution that assumes contractual liability for covered losses, collects [premiums](/learn/what-is-an-insurance-premium), and holds legal responsibility for settling [claims](/learn/what-is-an-insurance-claim)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stock Companies vs. Mutual Companies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all insurers are organized under the same corporate structure. The two dominant structures have distinctly different fiduciary priorities:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "Stock Insurance Company",
+        "Mutual Insurance Company"
+      ],
+      "rows": [
+        [
+          "Ownership",
+          "Public shareholders holding equity stock",
+          "The policyholders themselves"
+        ],
+        [
+          "Corporate Priority",
+          "Maximizing shareholder returns and stock dividends",
+          "Serving policyholder longevity and lowering net cost"
+        ],
+        [
+          "Surplus Profits",
+          "Paid out as quarterly cash dividends to Wall Street investors",
+          "Distributed back to policyholders as policy dividends or reduced premiums"
+        ],
+        [
+          "Prominent Examples",
+          "Travelers, Progressive, Allstate",
+          "Northwestern Mutual, State Farm, Guardian Life"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Checking Carrier Solvency: Financial Ratings",
+      "text": "Never buy a policy solely based on low premiums without checking the carrier's financial solvency. Credit rating agencies evaluate an insurer's ability to pay claims during massive economic crises. Look for an 'A' rating or higher from [AM Best Rating Services](https://www.ambest.com/) or Fitch Ratings."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens If an Insurer Goes Bankrupt?"
+    },
+    {
+      "type": "paragraph",
+      "text": "If an admitted carrier becomes insolvent, state statutory safety nets known as State Guaranty Associations step in. These associations transfer active policies to solvent carriers or pay claims up to statutory state caps (typically $300,000 to $500,000 per policyholder), coordinated via the [National Organization of Life & Health Insurance Guaranty Associations (NOLHGA)](https://www.nolhga.com/)."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is an admitted vs non-admitted carrier?",
+          "answer": "An admitted carrier is fully licensed by your state's insurance department and backed by the state guaranty fund. A non-admitted carrier (surplus lines) writes high-risk or unusual policies without state guaranty fund backing."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Financial ratings change periodically. Verify your carrier's current balance sheet before committing to multi-decade contracts."
+    }
+  ]
+}

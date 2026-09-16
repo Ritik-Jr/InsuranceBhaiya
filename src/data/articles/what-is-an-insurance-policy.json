@@ -1,0 +1,108 @@
+{
+  "id": "what-is-an-insurance-policy",
+  "slug": "what-is-an-insurance-policy",
+  "title": "What Is an Insurance Policy? The 5 Essential Sections Explained",
+  "description": "Learn what an insurance policy is, its legal structure as a contract of adhesion, and the 5 critical sections you must read: Declarations, Insuring Agreement, Exclusions, Conditions, and Endorsements.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-12",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "insurance policy",
+    "policy contract",
+    "declarations page",
+    "insuring agreement",
+    "policy exclusions"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An insurance policy is a legally binding written contract between the [policyholder](/learn/what-is-a-policyholder) and the [insurer](/learn/what-is-an-insurer). It establishes the explicit conditions, perils, and monetary ceilings under which the insurance company will disburse funds for covered damages or liabilities."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Legal Nature: A Contract of Adhesion"
+    },
+    {
+      "type": "paragraph",
+      "text": "In legal terms, an insurance policy is recognized as a 'contract of adhesion.' The carrier drafts the contract terms on a 'take-it-or-leave-it' basis without bilateral negotiation. Because of this dynamic, courts universally apply the doctrine of *contra proferentem*: any ambiguity in the policy language is resolved in favor of the policyholder, as noted by the [Legal Information Institute at Cornell Law](https://www.law.cornell.edu/wex/insurance)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 5 Core Sections of Every Policy"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Policy Section",
+        "Purpose",
+        "What You Will Find"
+      ],
+      "rows": [
+        [
+          "Declarations Page ('Dec Page')",
+          "Personalized snapshot of your policy",
+          "Named insureds, covered property address, premium amount, deductibles, effective dates."
+        ],
+        [
+          "Insuring Agreement",
+          "The carrier's core promise to pay",
+          "Broad statement defining what perils or events the insurer promises to defend and reimburse."
+        ],
+        [
+          "Exclusions",
+          "Explicit limitations on coverage",
+          "Specific perils (flood, earthquake, intentional acts) that the policy will NOT pay for."
+        ],
+        [
+          "Conditions",
+          "Rules governing both parties",
+          "How to submit proof of loss, cancellation procedures, subrogation rights, and premium payment deadlines."
+        ],
+        [
+          "Endorsements / Riders",
+          "Official amendments modifying the base contract",
+          "Add-on coverage (e.g., jewelry scheduled floater, water backup endorsement) that overrides standard exclusions."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "The Most Important Page: The Dec Page",
+      "text": "The Declarations Page is the very first document in your policy packet. Always review this page immediately upon renewal to ensure your [deductibles](/learn/what-is-a-deductible) and [coverage limits](/learn/what-is-a-coverage-limit) match what you were quoted."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Verify Your Contract"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before archiving your policy packet, run an audit using our [Policy Checklist](/policy-check) to cross-reference liability limits and verify that no unendorsed exclusions leave you vulnerable."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Is the insurance application part of the legal policy?",
+          "answer": "Yes. In life, disability, and property insurance, your original signed application is incorporated by reference into the contract. Any material misrepresentations on the application can void the policy."
+        },
+        {
+          "question": "What is an insurance binder?",
+          "answer": "A binder is a temporary legal agreement issued by an agent or carrier providing immediate, binding coverage while the formal, multi-page policy document is being issued."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Policy forms (such as ISO standard forms HO-3 or ISO PP 00 01) are subject to state-specific statutory amendments."
+    }
+  ]
+}

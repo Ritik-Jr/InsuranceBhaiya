@@ -1,0 +1,90 @@
+{
+  "id": "what-is-an-insurance-quote",
+  "slug": "what-is-an-insurance-quote",
+  "title": "What Is an Insurance Quote? How It Differs From a Final Policy",
+  "description": "Learn what an insurance quote is: an initial price estimate based on self-reported data, how soft checks turn into binding contracts, and why quotes can change before issuance.",
+  "category": "insurance-basics",
+  "author": "Marcus Vance",
+  "authorRole": "Consumer Risk Analyst",
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "insurance quote",
+    "quote vs premium",
+    "binding policy",
+    "rate changes",
+    "shopping insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An insurance quote is a non-binding preliminary estimate of what your [insurance premium](/learn/what-is-an-insurance-premium) will cost, calculated based on initial self-reported information provided during an online form or conversation with an agent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quote vs. Binder vs. Active Policy"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Status",
+        "Legal Standing",
+        "Can You File a Claim?"
+      ],
+      "rows": [
+        [
+          "Quote",
+          "Estimate only. Non-binding on either party.",
+          "No. Coverage is not yet in force."
+        ],
+        [
+          "Binder",
+          "Temporary legal contract issued upon initial payment.",
+          "Yes. Full coverage is active while policy documents are finalized."
+        ],
+        [
+          "Active Policy",
+          "Formal multi-page contract issued by the underwriter.",
+          "Yes. Full contractual protection for the designated term."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Why Does the Final Price Change From the Quote?",
+      "text": "An initial quote relies on your self-reported inputs. When the carrier runs official underwriter background reports (driving records, C.L.U.E. claim history, or medical exams), previously unmentioned tickets, past roof claims, or biometric variances can adjust the final rate."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Get Accurate Quotes"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Have your VIN and driver license numbers ready for auto quotes.",
+        "Provide exact roof age, square footage, and heating type for home quotes.",
+        "Disclose recent tickets and accidents upfront so the algorithm calculates realistic pricing from the start."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Does getting an insurance quote hurt my credit score?",
+          "answer": "No. Insurers perform a 'soft credit pull' when evaluating credit-based insurance scores. Soft inquiries do not impact your FICO score in any way."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Quotes are subject to final underwriting approval and rate verification."
+    }
+  ]
+}

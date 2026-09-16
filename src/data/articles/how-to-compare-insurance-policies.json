@@ -1,0 +1,90 @@
+{
+  "id": "how-to-compare-insurance-policies",
+  "slug": "how-to-compare-insurance-policies",
+  "title": "How to Compare Insurance Policies: The Apples-to-Apples Method",
+  "description": "Learn how to compare insurance quotes and policies accurately: standardizing deductibles, matching liability limits, checking carrier ratings, and spotting hidden gaps.",
+  "category": "insurance-basics",
+  "author": "Elena Rostova",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "compare insurance",
+    "shopping insurance",
+    "apples to apples",
+    "policy comparison",
+    "quote review"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Comparing insurance policies based solely on the monthly price is the single most common consumer mistake. A policy that costs $30 less per month often achieves that lower rate by stripping out vital liability coverage, raising deductibles to unaffordable levels, or inserting harsh exclusions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 4-Pillar Comparison Checklist"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pillar",
+        "What to Standardize Across Quotes",
+        "Why It Matters"
+      ],
+      "rows": [
+        [
+          "1. Identical Deductibles",
+          "Set the exact same deductible ($500 or $1,000) on every quote.",
+          "A quote with a $2,000 deductible will falsely look cheaper than one with a $500 deductible."
+        ],
+        [
+          "2. Equal Liability Limits",
+          "Match bodily injury and property damage limits (e.g. 250/500/100).",
+          "Comparing state-minimum liability against high-limit coverage is not an honest comparison."
+        ],
+        [
+          "3. Settlement Valuation",
+          "Ensure all quotes offer Replacement Cost, NOT Actual Cash Value.",
+          "Actual Cash Value deducts heavy depreciation on roofs, appliances, and personal belongings."
+        ],
+        [
+          "4. Carrier Financial Grade",
+          "Verify an 'A' rating or higher from AM Best or Fitch.",
+          "A bankrupt insurer cannot pay your total loss claim during a regional catastrophe."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Check Customer Satisfaction Scores",
+      "text": "Before switching carriers, check independent customer service rankings from [J.D. Power Insurance Studies](https://www.jdpower.com/business/insurance) and complaint ratio indices published by the [NAIC](https://content.naic.org/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Explore Side-by-Side Comparisons"
+    },
+    {
+      "type": "paragraph",
+      "text": "Visit our dedicated [Comparisons Center](/compare) to evaluate standard insurance debates, including [Term vs. Whole Life](/compare/term-vs-whole-life) and [HMO vs. PPO Health Networks](/compare/hmo-vs-ppo)."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "How often should I shop around for insurance quotes?",
+          "answer": "Every 12 to 24 months. Carrier actuarial models update constantly, and switching carriers can often yield 15% to 25% savings if your profile matches a different underwriter's target tier."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Rate filings and discounts vary by regional carrier."
+    }
+  ]
+}

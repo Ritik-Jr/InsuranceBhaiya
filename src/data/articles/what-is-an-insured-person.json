@@ -1,0 +1,74 @@
+{
+  "id": "what-is-an-insured-person",
+  "slug": "what-is-an-insured-person",
+  "title": "What Is an Insured Person? Primary, Additional, and Permissive Coverage",
+  "description": "Learn who qualifies as an insured person under auto, home, and health policies: primary named insureds, resident family members, and permissive drivers.",
+  "category": "insurance-basics",
+  "author": "David Sterling",
+  "authorRole": "Chartered Property Casualty Underwriter",
+  "publishedAt": "2026-09-12",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "insured person",
+    "named insured",
+    "permissive driver",
+    "dependent coverage",
+    "omnibus clause"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An insured person is the specific individual whose health, physical life, property, or legal liabilities are covered under the terms of an insurance policy. Understanding who meets the contract definition of 'an insured' is essential for knowing whether a claim will be honored."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Spectrum of Insured Status"
+    },
+    {
+      "type": "paragraph",
+      "text": "In property and casualty insurance, policy forms typically define multiple tiers of insured individuals:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Named Insured: The person or entity specifically listed on the Declarations Page (e.g., 'John and Sarah Doe').",
+        "Resident Relatives: In homeowners and auto policies, spouses, children, and blood relatives living under the same roof are automatically covered as insureds.",
+        "Permissive Users (Auto): Under the 'omnibus clause' in auto policies, anyone driving your car with your permission is legally covered under your liability insurance.",
+        "Additional Insureds: Outside parties (such as a mortgage lender or leasing company) formally added to your policy via an [endorsement](/learn/what-is-an-insurance-endorsement)."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The Roommate and Excluded Driver Trap",
+      "text": "Non-related roommates living in your home are NOT automatically covered under your auto insurance. If a roommate drives your car regularly, they must be explicitly listed on the policy, or the carrier may deny a multi-thousand dollar collision claim under an 'unlisted household driver' exclusion."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Insured Status in Health and Life Contracts"
+    },
+    {
+      "type": "paragraph",
+      "text": "In health insurance under the Affordable Care Act (ACA), children qualify as insured dependents on a parent's health plan until reaching age 26, regardless of marital or student status. In life insurance, the insured person is the sole subject whose biological death triggers the death benefit."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Can an insured person change the policy terms?",
+          "answer": "No. Only the [policyholder](/learn/what-is-a-policyholder) has legal authority to modify, upgrade, or cancel coverage. An insured child or spouse cannot alter policy deductibles."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Auto policy omnibus clauses vary by state statutory minimums. Check your policy definitions section."
+    }
+  ]
+}

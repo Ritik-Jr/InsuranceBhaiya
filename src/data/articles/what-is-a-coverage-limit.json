@@ -1,0 +1,93 @@
+{
+  "id": "what-is-a-coverage-limit",
+  "slug": "what-is-a-coverage-limit",
+  "title": "What Is a Coverage Limit? Per-Occurrence, Aggregate, and Sub-Limits",
+  "description": "Understand insurance coverage limits: the maximum dollar amount an insurer will disburse, per-occurrence vs aggregate caps, split limits in auto, and internal sub-limits.",
+  "category": "insurance-basics",
+  "author": "Marcus Vance",
+  "authorRole": "Consumer Risk Analyst",
+  "publishedAt": "2026-09-13",
+  "updatedAt": "2026-09-16",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "coverage limit",
+    "policy limits",
+    "aggregate limit",
+    "split limits",
+    "sub-limits"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A coverage limit is the absolute maximum dollar ceiling an [insurer](/learn/what-is-an-insurer) is legally bound to disburse for a covered loss under the terms of your [insurance policy](/learn/what-is-an-insurance-policy). Any loss or legal judgment that exceeds this limit becomes your personal out-of-pocket liability."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Per-Occurrence vs. Aggregate Limits"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Per-Occurrence Limit: The maximum payout for a single independent incident or accident.",
+        "Aggregate Limit: The total cumulative payout ceiling the policy will provide across an entire 12-month policy term, regardless of how many individual claims occur."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding Split Limits in Auto Policies (e.g., 250/500/100)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Auto insurance liability limits are universally quoted as three numbers separated by slashes. Here is what they signify:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Split Limit Component",
+        "What It Covers",
+        "Example Dollar Cap (250/500/100)"
+      ],
+      "rows": [
+        [
+          "Bodily Injury Per Person",
+          "Max medical and legal damages paid for any single injured individual",
+          "$250,000"
+        ],
+        [
+          "Bodily Injury Per Accident",
+          "Max total medical and legal damages paid for all injured people combined",
+          "$500,000"
+        ],
+        [
+          "Property Damage Liability",
+          "Max property damage paid for third-party vehicles, fences, and guardrails",
+          "$100,000"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Beware of Hidden Sub-Limits",
+      "text": "Standard homeowner policies contain internal sub-limits for high-value theft items. Even if you hold a $300,000 personal property limit, the policy likely caps jewelry theft at $1,500 and firearms at $2,500 unless you purchase a scheduled [endorsement](/learn/what-is-an-insurance-endorsement)."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "How can I protect my assets beyond my policy limits?",
+          "answer": "Purchase an Umbrella Liability Policy. For $200 to $350 per year, an umbrella policy adds $1,000,000 to $5,000,000 of excess liability coverage over your auto and home policies."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Review policy limits at every major life milestone. Guidance provided by the [Insurance Information Institute](https://www.iii.org/)."
+    }
+  ]
+}

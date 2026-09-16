@@ -1,0 +1,131 @@
+{
+  "id": "types-of-insurance",
+  "slug": "types-of-insurance",
+  "title": "What Are the Different Types of Insurance? A Complete Landscape Map",
+  "description": "A comprehensive breakdown of all primary insurance sectors: personal lines (life, health, auto, home, disability) versus commercial lines, clarifying what each covers.",
+  "category": "insurance-basics",
+  "author": "Sophia Lin",
+  "authorRole": "Regulatory Policy Specialist",
+  "publishedAt": "2026-09-11",
+  "updatedAt": "2026-09-16",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "types of insurance",
+    "personal insurance",
+    "commercial insurance",
+    "policy types",
+    "coverage options"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Insurance is broadly divided into two major universes: Personal Lines (which protect private individuals and families) and Commercial Lines (which shield businesses and enterprise operations). Knowing which policy covers which asset is critical to avoiding devastating coverage gaps."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Personal Protection (Life, Health & Income)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Term Life Insurance: Pure risk protection covering a designated period (10-30 years). Highly affordable income replacement.",
+        "Permanent Life Insurance: Lifelong coverage featuring an internal investment/cash value account (e.g., Whole Life, Universal Life).",
+        "Health Insurance: Covers clinical care, hospitalization, emergency room visits, and prescription medications. Managed via HMO, PPO, or HDHP structures.",
+        "Disability Insurance: Replaces 60% to 70% of your gross salary if illness or injury prevents you from working."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Property & Casualty (P&C Lines)"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Homeowners Insurance (HO-3/HO-5): Protects the physical dwelling, unattached structures, personal belongings, and personal liability against perils like fire, wind, and theft.",
+        "Renters Insurance (HO-4): Covers personal property and liability for tenants without paying to insure the landlord's physical building.",
+        "Auto Insurance: Bundles bodily injury liability, property damage liability, collision, comprehensive, and uninsured motorist coverage.",
+        "Umbrella Liability Insurance: Extends an extra $1,000,000 to $5,000,000 of secondary liability protection over your auto and home policy limits."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Government Resource",
+      "text": "Review official federal consumer insurance guides published by [USA.gov](https://www.usa.gov/insurance) to check mandatory statutory minimums in your state."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Summary Comparison of Core Personal Policies"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Policy Category",
+        "What It Protects",
+        "When It Triggers",
+        "Typical Duration"
+      ],
+      "rows": [
+        [
+          "Term Life",
+          "Family financial security",
+          "Upon biological death of the insured",
+          "10 - 30 Year Fixed Term"
+        ],
+        [
+          "Health Insurance",
+          "Medical costs & preventive care",
+          "Upon receiving qualified healthcare services",
+          "Annual (Renewed yearly)"
+        ],
+        [
+          "Auto Insurance",
+          "Vehicles, drivers, 3rd party damage",
+          "Upon collision, theft, or liability incident",
+          "6 or 12 Month Policy Cycle"
+        ],
+        [
+          "Home Insurance",
+          "Dwelling & belongings",
+          "Upon covered property peril or premises injury",
+          "12 Month Policy Cycle"
+        ],
+        [
+          "Personal Umbrella",
+          "Net worth from severe lawsuits",
+          "When underlying auto/home limits are exhausted",
+          "Annual Endorsement"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Specialty and Lifestyle Lines"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specialized risks require dedicated standalone contracts: [Travel Insurance](/insurance/travel-insurance) shields non-refundable deposits and international medical evacuations; [Pet Insurance](/insurance/pet-insurance) reimburses veterinary surgery and diagnostic tests; Flood and Earthquake policies bridge gaps left by standard homeowner policies."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Does standard home insurance cover flood damage from heavy rain?",
+          "answer": "No. Standard home policies strictly exclude flood and surface water damage. Homeowners in flood zones must acquire a separate policy via the National Flood Insurance Program (NFIP) or private flood carriers."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Policy names and mandatory coverages vary between US, UK, Canadian, and European legal jurisdictions."
+    }
+  ]
+}

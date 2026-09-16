@@ -1,0 +1,115 @@
+{
+  "id": "how-often-should-you-review-insurance",
+  "slug": "how-often-should-you-review-insurance",
+  "title": "How Often Should You Review Your Insurance? The Annual and Milestone Rule",
+  "description": "Discover when and how often to review your insurance coverage: the annual policy audit rhythm and the 7 life milestone triggers that demand immediate policy updates.",
+  "category": "insurance-basics",
+  "author": "Marcus Vance",
+  "authorRole": "Consumer Risk Analyst",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "review insurance",
+    "policy audit",
+    "annual checkup",
+    "life milestones",
+    "insurance gap"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1400&q=80",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Insurance is not a 'set-it-and-forget-it' financial product. As your life progresses, your assets grow, your liabilities change, and construction inflation erodes your dwelling coverage. Failing to review policies regularly is the primary cause of catastrophic [underinsurance](/learn/how-to-know-if-you-are-underinsured)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Two Review Cadences"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "The Annual Policy Review: Conduct a 30-minute audit once per year (ideally 30 days before your homeowner or auto policy renewal date).",
+        "Milestone-Triggered Reviews: Review your portfolio immediately upon experiencing any of the 7 major life transitions below."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 7 Life Milestones That Trigger a Policy Review"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Life Milestone",
+        "Action Required",
+        "Risk Prevented"
+      ],
+      "rows": [
+        [
+          "Getting Married / Divorced",
+          "Combine auto policies for multi-car discount; update life insurance beneficiaries.",
+          "Proceeds going to an ex-spouse or missing out on bundling discounts."
+        ],
+        [
+          "Welcoming a Baby / Adopting",
+          "Increase term life coverage multiple; add newborn to health plan within 30 days.",
+          "Losing health coverage special enrollment window or underinsuring child support."
+        ],
+        [
+          "Home Renovation / Addition",
+          "Increase dwelling limit (Coverage A) on homeowner policy by remodel cost.",
+          "Co-insurance penalties if home burns down after a $100k kitchen remodel."
+        ],
+        [
+          "Adding a Teenage Driver",
+          "Add teen to auto policy; raise liability limits and explore good-student discounts.",
+          "Denied claims or catastrophic multi-million dollar liability lawsuits."
+        ],
+        [
+          "Starting a Home-Based Business",
+          "Add a home business endorsement; personal home insurance excludes commercial loss.",
+          "Zero coverage if business inventory is stolen or a client slips on your steps."
+        ],
+        [
+          "Significant Pay Raise / Asset Growth",
+          "Add an Umbrella Liability policy ($1M - $5M) to protect growing net worth.",
+          "Lawsuit judgments seizing non-exempt investment and brokerage accounts."
+        ],
+        [
+          "Paying Off Your Mortgage",
+          "Contact insurer to remove the bank as loss payee and verify continuing coverage.",
+          "Inadvertent policy lapse if escrow payments cease."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Guidance from the Insurance Information Institute",
+      "text": "The [Insurance Information Institute (III)](https://www.iii.org/) recommends using annual open enrollment periods to re-verify employer disability, life, and health plan coverage caps."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "insurance-needs-calculator",
+      "title": "Audit Your Current Coverage Gap",
+      "description": "Review whether your existing policies match your current family and debt obligations."
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "How long do I have to add a newborn baby to health insurance?",
+          "answer": "Most health plans provide a strict 30-day Special Enrollment Period following birth or adoption. If you miss this 30-day window, your baby cannot be added until the next annual open enrollment."
+        }
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Policy review guidelines are educational. Consult your licensed insurance agent to execute policy updates."
+    }
+  ]
+}
