@@ -20,7 +20,7 @@
     <div class="container header-inner">
       <a href="/" class="brand-logo" aria-label="Insurance Bhaiya Homepage">
         <img src="/logo.png" alt="Insurance Bhaiya Logo" width="22" height="28" style="height: 26px; width: auto; display: block;" onerror="this.style.display='none'" />
-        <span>Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
+        <span class="brand-name">Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
       </a>
 
       <nav class="nav-menu desktop-nav" aria-label="Primary Navigation">
@@ -31,32 +31,171 @@
         <a href="/scenarios" class="nav-link ">Scenarios</a>
       </nav>
 
-      <div style="display: flex; align-items: center; gap: 12px;">
+      <div class="header-actions">
         <button class="header-search-btn search-trigger-btn" id="searchTriggerBtn" aria-label="Search articles and tools">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <span>Search...</span>
         </button>
 
-        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" style="padding: 6px; color: var(--color-text); cursor: pointer;">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Drawer Navigation -->
-    <div id="mobileDrawer" style="display: none; position: absolute; top: var(--header-height); left: 0; right: 0; background: #ffffff; border-bottom: 1px solid var(--color-border); padding: 24px; box-shadow: var(--shadow-dropdown); z-index: 1001;">
-      <div style="display: flex; flex-direction: column; gap: 16px; font-size: 1.0625rem; font-weight: 500;">
-        <a href="/learn" style="color: var(--color-text);">Learn Guides</a>
-        <a href="/tools" style="color: var(--color-text);">Calculators</a>
-        <a href="/compare" style="color: var(--color-text);">Comparisons</a>
-        <a href="/glossary" style="color: var(--color-text);">Dictionary</a>
-        <a href="/scenarios" style="color: var(--color-text);">Scenarios</a>
-      </div>
+    <!-- Redesigned Apple-Grade Mobile Drawer Navigation System -->
+    <div id="mobileDrawerOverlay" class="mobile-drawer-overlay" aria-hidden="true">
+      <div id="mobileDrawerBackdrop" class="mobile-drawer-backdrop"></div>
+      <aside class="mobile-drawer-panel" aria-label="Mobile Navigation">
+        <div class="drawer-header">
+          <a href="/" class="brand-logo" aria-label="Insurance Bhaiya Homepage">
+            <img src="/logo.png" alt="Insurance Bhaiya Logo" width="22" height="28" style="height: 24px; width: auto; display: block;" onerror="this.style.display='none'" />
+            <span class="drawer-brand-name">Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
+          </a>
+          <button id="drawerCloseBtn" class="drawer-close-btn" aria-label="Close menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+
+        <div class="drawer-search-box">
+          <button class="drawer-search-trigger" type="button" aria-label="Open search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span>Search guides, tools & terms...</span>
+          </button>
+        </div>
+
+        <div class="drawer-body">
+          <!-- Primary Navigation with Lucide SVG Icons -->
+          <div class="drawer-section">
+            <div class="drawer-section-title">Navigation</div>
+            <nav class="drawer-nav-list" aria-label="Drawer Links">
+              <a href="/learn" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Learn</span>
+                  <span class="drawer-nav-desc">Clear, non-commissioned insurance guides</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/insurance" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Insurance Types</span>
+                  <span class="drawer-nav-desc">All 10 fundamental coverage branches</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/tools" class="drawer-nav-item active">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Calculators</span>
+                  <span class="drawer-nav-desc">10 interactive actuarial estimation tools</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/compare" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Comparisons</span>
+                  <span class="drawer-nav-desc">Objective policy & plan trade-offs</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/scenarios" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Scenarios</span>
+                  <span class="drawer-nav-desc">Real-world life stages & risk decisions</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/glossary" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Glossary</span>
+                  <span class="drawer-nav-desc">Plain English dictionary of insurance terms</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/policy-check" class="drawer-nav-item ">
+                <div class="drawer-nav-icon accent-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Policy Health Check</span>
+                  <span class="drawer-nav-desc">8-point coverage audit & gap analyzer</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+            </nav>
+          </div>
+
+          <!-- Featured Actuarial Tools: Small Cards in Grid -->
+          <div class="drawer-section">
+            <div class="drawer-section-title">Popular Tools</div>
+            <div class="drawer-cards-grid">
+              <a href="/tools/life-insurance-calculator" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-rose-bg); color: #e11d48;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
+                <div class="mini-card-title">Life Needs</div>
+                <div class="mini-card-sub">10x Income Rule</div>
+              </a>
+
+              <a href="/tools/car-insurance-calculator" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-blue-bg); color: #0066cc;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.7 2 11.3 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+                </div>
+                <div class="mini-card-title">Car Liability</div>
+                <div class="mini-card-sub">250/500/100 Limit</div>
+              </a>
+
+              <a href="/compare/term-vs-whole-life" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-green-bg); color: #059669;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+                </div>
+                <div class="mini-card-title">Term vs Whole</div>
+                <div class="mini-card-sub">Cost Breakdown</div>
+              </a>
+
+              <a href="/tools/deductible-calculator" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-amber-bg); color: #d97706;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div class="mini-card-title">Deductible</div>
+                <div class="mini-card-sub">Breakeven Math</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Popular Categories Shortcuts -->
+          <div class="drawer-section">
+            <div class="drawer-section-title">Explore Categories</div>
+            <div class="drawer-pills-row">
+              <a href="/insurance/health-insurance" class="drawer-pill">Health</a>
+              <a href="/insurance/life-insurance" class="drawer-pill">Life</a>
+              <a href="/insurance/term-insurance" class="drawer-pill">Term</a>
+              <a href="/insurance/car-insurance" class="drawer-pill">Auto</a>
+              <a href="/insurance/home-insurance" class="drawer-pill">Home</a>
+              <a href="/insurance/disability-insurance" class="drawer-pill">Disability</a>
+            </div>
+          </div>
+
+          <!-- Drawer Footer Note -->
+          <div class="drawer-footer-info">
+            <p>100% Unbiased &bull; Non-Commissioned &bull; Zero Sponsored Ads</p>
+          </div>
+        </div>
+      </aside>
     </div>
   </header>
   
 
-  <main class="container-tool" style="padding: 56px 24px 88px;">
+  <main class="container-tool">
     
   <nav aria-label="Breadcrumb">
     <ol class="breadcrumbs">

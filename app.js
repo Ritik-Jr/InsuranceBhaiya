@@ -91,12 +91,6 @@ const FALLBACK_INDEX = {
       "category": "insurance-basics"
     },
     {
-      "title": "स्वास्थ्य बीमा (Health Insurance) कैसे चुनें: सही पॉलिसी, नो क्लेम बोनस और रूम रेंट के नियम",
-      "slug": "health-insurance-guide-hindi",
-      "description": "भारत में हेल्थ इंश्योरेंस खरीदते समय किन बातों का ध्यान रखें? रूम रेंट कैपिंग, को-पेमेंट, प्री-एग्जिस्टिंग डिजीज वेटिंग पीरियड और क्लेम सेटलमेंट की पूरी जानकारी हिंदी में।",
-      "category": "health-insurance"
-    },
-    {
       "title": "Travel Insurance Decoded: Medical Evacuation, Trip Delays, and CFAR",
       "slug": "travel-insurance-guide",
       "description": "Why domestic healthcare stops at national borders, when emergency medical evacuation riders are mandatory, and how Cancel For Any Reason (CFAR) clauses function.",
@@ -1006,69 +1000,90 @@ function initCalculators() {
 // 3. Universal Search System (Prefilled Intent Pills & Live Matcher)
 // ==========================================================================
 
+// Minimal Vector Icons for Search System (Apple Spotlight aesthetic)
+const SEARCH_ICONS = {
+  calc: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>`,
+  guide: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>`,
+  compare: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>`,
+  glossary: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>`,
+  scenario: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>`,
+  arrow: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-item-arrow"><polyline points="9 18 15 12 9 6"/></svg>`
+};
+
+function renderSearchItemRow({ url, title, desc, intent, intentClass, iconType }) {
+  const iconSvg = SEARCH_ICONS[iconType] || SEARCH_ICONS.guide;
+  return `
+    <a href="${url}" class="search-result-item">
+      <div class="search-item-icon search-icon-${iconType}">
+        ${iconSvg}
+      </div>
+      <div class="search-item-content">
+        <span class="search-item-title">${escapeHtml(title)}</span>
+        ${desc ? `<span class="search-item-desc">${escapeHtml(desc)}</span>` : ''}
+      </div>
+      <div class="search-item-meta">
+        <span class="pill-intent ${intentClass}">${escapeHtml(intent)}</span>
+        ${SEARCH_ICONS.arrow}
+      </div>
+    </a>
+  `;
+}
+
 const PREFILLED_SEARCH_ITEMS = [
   {
     title: 'Life Insurance Needs Calculator',
     url: '/tools/life-insurance-calculator',
-    desc: 'Calculate exact capital needed to protect your family using D.I.M.E. formulas.',
+    desc: 'Calculate exact capital needed to protect your family.',
     intent: 'Calculator',
     intentClass: 'pill-intent-calc',
-    icon: '🧮'
+    iconType: 'calc'
   },
   {
     title: 'Insurance Explained for Beginners',
     url: '/learn/insurance-for-beginners',
-    desc: 'The zero-jargon guide to premiums, deductibles, copays, and coverage limits.',
+    desc: 'The zero-jargon guide to premiums, deductibles, and limits.',
     intent: 'Guide',
     intentClass: 'pill-intent-guide',
-    icon: '📄'
+    iconType: 'guide'
   },
   {
     title: 'Term vs. Whole Life Insurance',
     url: '/compare/term-vs-whole-life',
-    desc: 'Unbiased side-by-side comparison: pure protection versus cash value policies.',
+    desc: 'Side-by-side comparison: pure protection versus cash value.',
     intent: 'Compare',
     intentClass: 'pill-intent-compare',
-    icon: '⚖️'
+    iconType: 'compare'
   },
   {
     title: 'Deductible Definition & Rules',
     url: '/glossary/deductible',
-    desc: 'What you pay out-of-pocket before insurance covers the rest.',
+    desc: 'What you pay out-of-pocket before coverage begins.',
     intent: 'Term',
     intentClass: 'pill-intent-glossary',
-    icon: '📖'
+    iconType: 'glossary'
   },
   {
-    title: 'Alex: First-Time Homeowner (London)',
+    title: 'First-Time Homeowner Story',
     url: '/scenarios/alex-first-mortgage-london',
-    desc: 'Real case study: Do you need life insurance if you do not have children yet?',
+    desc: 'Case study: Protecting a new mortgage without kids.',
     intent: 'Scenario',
     intentClass: 'pill-intent-scenario',
-    icon: '👤'
+    iconType: 'scenario'
   },
   {
     title: 'Health Insurance Plan Calculator',
     url: '/tools/health-insurance-calculator',
-    desc: 'Compare total annual cost between High Deductible HDHP and PPO plans.',
+    desc: 'Compare annual costs between HDHP and PPO plans.',
     intent: 'Calculator',
     intentClass: 'pill-intent-calc',
-    icon: '🧮'
+    iconType: 'calc'
   }
 ];
 
 function buildSearchResultsHtml(query) {
   if (!query || !query.trim()) {
     let html = '<div class="search-section-header">Popular Searches &amp; Quick Starts</div>';
-    html += PREFILLED_SEARCH_ITEMS.map(item => `
-      <a href="${item.url}" class="search-result-item">
-        <div class="search-result-top">
-          <span class="search-result-title">${item.icon} ${escapeHtml(item.title)}</span>
-          <span class="pill-intent ${item.intentClass}">${escapeHtml(item.intent)}</span>
-        </div>
-        <span class="search-result-desc">${escapeHtml(item.desc)}</span>
-      </a>
-    `).join('');
+    html += PREFILLED_SEARCH_ITEMS.map(item => renderSearchItemRow(item)).join('');
     return html;
   }
 
@@ -1109,69 +1124,64 @@ function buildSearchResultsHtml(query) {
   let html = '';
 
   if (matchedTools.length > 0) {
-    html += '<div class="search-section-header">Calculators &amp; Tools</div>';
-    html += matchedTools.map(t => `
-      <a href="/tools/${t.slug}" class="search-result-item">
-        <div class="search-result-top">
-          <span class="search-result-title">🧮 ${escapeHtml(t.name)}</span>
-          <span class="pill-intent pill-intent-calc">Calculator</span>
-        </div>
-        <span class="search-result-desc">${escapeHtml(t.shortDescription)}</span>
-      </a>
-    `).join('');
+    html += '<div class="search-section-header">Calculators</div>';
+    html += matchedTools.map(t => renderSearchItemRow({
+      url: `/tools/${t.slug}`,
+      title: t.name,
+      desc: t.shortDescription,
+      intent: 'Calculator',
+      intentClass: 'pill-intent-calc',
+      iconType: 'calc'
+    })).join('');
   }
 
   if (matchedArticles.length > 0) {
-    html += '<div class="search-section-header">Guides &amp; Articles</div>';
-    html += matchedArticles.map(a => `
-      <a href="/learn/${a.slug}" class="search-result-item">
-        <div class="search-result-top">
-          <span class="search-result-title">📄 ${escapeHtml(a.title)}</span>
-          <span class="pill-intent pill-intent-guide">Guide</span>
-        </div>
-        <span class="search-result-desc">${escapeHtml(a.description)}</span>
-      </a>
-    `).join('');
+    html += '<div class="search-section-header">Guides</div>';
+    html += matchedArticles.map(a => renderSearchItemRow({
+      url: `/learn/${a.slug}`,
+      title: a.title,
+      desc: a.description,
+      intent: 'Guide',
+      intentClass: 'pill-intent-guide',
+      iconType: 'guide'
+    })).join('');
   }
 
   if (matchedComparisons.length > 0) {
     html += '<div class="search-section-header">Comparisons</div>';
-    html += matchedComparisons.map(c => `
-      <a href="/compare/${c.slug}" class="search-result-item">
-        <div class="search-result-top">
-          <span class="search-result-title">⚖️ ${escapeHtml(c.title)}</span>
-          <span class="pill-intent pill-intent-compare">Compare</span>
-        </div>
-        <span class="search-result-desc">${escapeHtml(c.subtitle || c.description || 'Side-by-side policy comparison')}</span>
-      </a>
-    `).join('');
+    html += matchedComparisons.map(c => renderSearchItemRow({
+      url: `/compare/${c.slug}`,
+      title: c.title,
+      desc: c.subtitle || c.description || 'Side-by-side policy comparison',
+      intent: 'Compare',
+      intentClass: 'pill-intent-compare',
+      iconType: 'compare'
+    })).join('');
   }
 
   if (matchedGlossary.length > 0) {
     const def = g => g.simpleDefinition || g.plainEnglish || '';
     html += '<div class="search-section-header">Dictionary Terms</div>';
-    html += matchedGlossary.map(g => `
-      <a href="/glossary/${g.slug}" class="search-result-item">
-        <div class="search-result-top">
-          <span class="search-result-title">📖 ${escapeHtml(g.term)}</span>
-          <span class="pill-intent pill-intent-glossary">Term</span>
-        </div>
-        <span class="search-result-desc">${escapeHtml(def(g))}</span>
-      </a>
-    `).join('');
+    html += matchedGlossary.map(g => renderSearchItemRow({
+      url: `/glossary/${g.slug}`,
+      title: g.term,
+      desc: def(g),
+      intent: 'Term',
+      intentClass: 'pill-intent-glossary',
+      iconType: 'glossary'
+    })).join('');
   }
 
   if (matchedScenarios.length > 0) {
     html += '<div class="search-section-header">Real Scenarios</div>';
-    html += matchedScenarios.map(s => `
-      <a href="/scenarios/${s.slug}" class="search-result-item">
-        <div class="search-result-top">
-          <span class="search-result-title">👤 ${escapeHtml(s.name)}'s Story</span>
-          <span class="pill-intent pill-intent-scenario">Scenario</span>
-        </div>
-        <span class="search-result-desc">${escapeHtml(s.situation || s.coreQuestion || '')}</span>
-      </a>
-    `).join('');
+    html += matchedScenarios.map(s => renderSearchItemRow({
+      url: `/scenarios/${s.slug}`,
+      title: `${s.name}'s Story`,
+      desc: s.situation || s.coreQuestion || '',
+      intent: 'Scenario',
+      intentClass: 'pill-intent-scenario',
+      iconType: 'scenario'
+    })).join('');
   }
 
   return html;
@@ -1444,30 +1454,86 @@ function initPolicyAudit() {
 }
 
 // ==========================================================================
-// 6. Mobile Drawer Navigation
+// 6. Mobile Drawer Navigation System (Robust Toggle & Close Handlers)
 // ==========================================================================
 
 function initMobileNav() {
   const menuBtn = document.getElementById('mobileMenuBtn');
-  const drawer = document.getElementById('mobileDrawer');
+  const drawerOverlay = document.getElementById('mobileDrawerOverlay') || document.getElementById('mobileDrawer');
   const drawerClose = document.getElementById('drawerCloseBtn');
+  const backdrop = document.getElementById('mobileDrawerBackdrop');
 
-  if (!menuBtn || !drawer) return;
+  if (!menuBtn || !drawerOverlay) return;
 
-  menuBtn.addEventListener('click', () => {
-    drawer.classList.add('active');
+  function openDrawer() {
+    drawerOverlay.classList.add('active');
     document.body.style.overflow = 'hidden';
-  });
-
-  function closeDrawer() {
-    drawer.classList.remove('active');
-    document.body.style.overflow = '';
+    menuBtn.setAttribute('aria-expanded', 'true');
   }
 
-  if (drawerClose) drawerClose.addEventListener('click', closeDrawer);
-  drawer.addEventListener('click', (e) => {
-    if (e.target === drawer) closeDrawer();
+  function closeDrawer() {
+    drawerOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+    menuBtn.setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleDrawer() {
+    if (drawerOverlay.classList.contains('active')) {
+      closeDrawer();
+    } else {
+      openDrawer();
+    }
+  }
+
+  // Toggle on hamburger button click (prevents getting stuck)
+  menuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    toggleDrawer();
   });
+
+  // Close on close button click
+  if (drawerClose) {
+    drawerClose.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeDrawer();
+    });
+  }
+
+  // Close on backdrop click
+  if (backdrop) {
+    backdrop.addEventListener('click', () => {
+      closeDrawer();
+    });
+  }
+
+  // Close when pressing Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && drawerOverlay.classList.contains('active')) {
+      closeDrawer();
+    }
+  });
+
+  // Close when clicking any link inside drawer to allow smooth navigation
+  drawerOverlay.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      closeDrawer();
+    });
+  });
+
+  // Quick search trigger inside drawer closes drawer and opens main search
+  const drawerSearch = drawerOverlay.querySelector('.drawer-search-trigger');
+  if (drawerSearch) {
+    drawerSearch.addEventListener('click', () => {
+      closeDrawer();
+      const searchModal = document.getElementById('searchModal');
+      const searchInput = document.getElementById('searchInputField');
+      if (searchModal && searchInput) {
+        searchModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        setTimeout(() => searchInput.focus(), 80);
+      }
+    });
+  }
 }
 
 // Bootstrapping
