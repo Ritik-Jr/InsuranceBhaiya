@@ -33,14 +33,9 @@
 
       <div style="display: flex; align-items: center; gap: 12px;">
         <button class="header-search-btn search-trigger-btn" id="searchTriggerBtn" aria-label="Search articles and tools">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <span>Search...</span>
-          <kbd class="header-search-kbd">Ctrl K</kbd>
         </button>
-
-        <a href="/policy-check" class="btn btn-primary btn-sm header-cta" style="font-weight: 500;">
-          Policy Audit
-        </a>
 
         <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" style="padding: 6px; color: var(--color-text); cursor: pointer;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -56,7 +51,6 @@
         <a href="/compare" style="color: var(--color-text);">Comparisons</a>
         <a href="/glossary" style="color: var(--color-text);">Dictionary</a>
         <a href="/scenarios" style="color: var(--color-text);">Scenarios</a>
-        <a href="/policy-check" class="btn btn-primary" style="margin-top: 8px; width: 100%;">Policy Audit</a>
       </div>
     </div>
   </header>
@@ -205,49 +199,61 @@
       </div>
     </article>
 
-    <!-- Related Articles WITH THUMBNAILS -->
+    <!-- Related Articles (1 Big Featured Card + 2 Small Cards) -->
     
       <div style="margin-top: 56px; border-top: 1px solid var(--color-border); padding-top: 40px;">
-        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 24px;">Related Editorial Guides</h3>
-        <div class="grid-2">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 24px;">
+          <span class="pill pill-accent" style="font-size: 0.75rem;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            Deep Dive
+          </span>
+          <h3 style="font-size: 1.35rem; font-weight: 600; margin: 0;">Related Editorial Guides</h3>
+        </div>
+        <div class="related-guides-wrap">
           
-    <article class="apple-card apple-article-card" data-category="insurance-basics">
-      <div class="apple-article-media">
-        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
-        <div class="apple-category-badge" style="top: 12px; left: 12px;">
+    <article class="related-big-card">
+      <div class="related-big-media">
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <div class="apple-category-badge" style="top: 14px; left: 14px;">
           <span>insurance basics</span>
         </div>
       </div>
-      <div class="apple-article-body">
+      <div class="related-big-body">
         <div>
-          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap;">
+            <span class="pill pill-accent" style="background: var(--pastel-blue-bg); border-color: var(--pastel-blue-border); font-size: 0.75rem; font-weight: 600;">
+              ★ Recommended Next
+            </span>
             <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
               <span class="num">9 min read</span>
             </div>
           </div>
 
-          <h3 class="apple-article-title">
+          <h3 class="related-big-title">
             <a href="/learn/how-to-know-if-you-are-underinsured">
               How to Know If You Are Underinsured: 5 Dangerous Warning Signs
             </a>
           </h3>
 
-          <p class="apple-article-desc">
+          <p class="related-big-desc">
             Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.
           </p>
         </div>
 
-        <div class="apple-article-meta">
-          <span>By Elena Rostova</span>
-          <a href="/learn/how-to-know-if-you-are-underinsured" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
-            <span>Read Guide</span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid rgba(0, 0, 0, 0.06); gap: 12px; flex-wrap: wrap;">
+          <span style="font-size: 0.8125rem; color: var(--color-secondary);">By Elena Rostova</span>
+          <a href="/learn/how-to-know-if-you-are-underinsured" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
+            <span>Read Complete Guide</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
         </div>
       </div>
     </article>
   
+          
+            <div class="related-small-grid">
+              
     <article class="apple-card apple-article-card" data-category="insurance-basics">
       <div class="apple-article-media">
         <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="What Happens When Insurance Expires? Renewals, Terms, and Next Steps" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
@@ -322,6 +328,8 @@
       </div>
     </article>
   
+            </div>
+          
         </div>
       </div>
     
@@ -365,7 +373,7 @@
             <li><a href="/tools/health-insurance-calculator">Health Cost Analyzer</a></li>
             <li><a href="/tools/car-insurance-calculator">Car Insurance Estimator</a></li>
             <li><a href="/tools/home-insurance-calculator">Home Replacement Cost</a></li>
-            <li><a href="/policy-check">8-Point Policy Audit</a></li>
+            <li><a href="/policy-check">Coverage Health Check</a></li>
           </ul>
         </div>
 
@@ -386,13 +394,13 @@
 
       <!-- Footer Bottom Bar -->
       <div class="footer-bottom">
-        <div>&copy; 2026 Insurance Bhaiya. All rights reserved. For consumer educational modeling only.</div>
+        <div>&copy; 2026 Insurance Bhaiya. Independent, consumer-first insurance education.</div>
         <div style="display: flex; gap: 16px;">
-          <span>10 Categories</span>
+          <a href="/privacy-policy" style="color: inherit;">Privacy Policy</a>
           <span>&bull;</span>
-          <span>10 Interactive Calculators</span>
+          <a href="/terms-of-service" style="color: inherit;">Terms</a>
           <span>&bull;</span>
-          <span>46 Deep-Dive Guides</span>
+          <a href="/disclaimer" style="color: inherit;">Disclaimer</a>
         </div>
       </div>
     </div>

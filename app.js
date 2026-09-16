@@ -457,9 +457,118 @@ const FALLBACK_INDEX = {
 let siteData = FALLBACK_INDEX;
 
 // Format Currency
+// Format Currency
 function formatCurrency(amount, currency = '$') {
   if (isNaN(amount) || amount === null) return currency + '0';
   return currency + Math.round(amount).toLocaleString('en-US');
+}
+
+// Universal Input Range Slider Blue Track Fill
+function updateSliderTrackFill(slider) {
+  if (!slider || !slider.style) return;
+  const min = parseFloat(slider.min) !== undefined && !isNaN(parseFloat(slider.min)) ? parseFloat(slider.min) : 0;
+  const max = parseFloat(slider.max) !== undefined && !isNaN(parseFloat(slider.max)) ? parseFloat(slider.max) : 100;
+  const val = parseFloat(slider.value) !== undefined && !isNaN(parseFloat(slider.value)) ? parseFloat(slider.value) : 0;
+  const pct = max > min ? Math.max(0, Math.min(100, ((val - min) / (max - min)) * 100)) : 0;
+  slider.style.setProperty('--range-progress', pct + '%');
+  slider.style.background = `linear-gradient(to right, #0071e3 0%, #0071e3 ${pct}%, #e5e5ea ${pct}%, #e5e5ea 100%)`;
+}
+
+function initSliderFills() {
+  const sliders = document.querySelectorAll('input[type="range"], .calc-slider');
+  sliders.forEach(slider => {
+    updateSliderTrackFill(slider);
+    slider.addEventListener('input', () => updateSliderTrackFill(slider));
+    slider.addEventListener('change', () => updateSliderTrackFill(slider));
+  });
+}
+
+// Gambling Machine / Slot Reel Number Animation with Delay and Up/Down reels
+function formatSlotNumber(val, prefix, suffix, decimals) {
+  if (isNaN(val) || val === null) return prefix + '0' + suffix;
+  const numStr = decimals > 0 ? val.toFixed(decimals) : Math.round(val).toLocaleString('en-US');
+  return prefix + numStr + suffix;
+}
+
+function animateCalculatedNumber(element, targetValue, options = {}) {
+  if (!element) return;
+  const prefix = options.prefix || '';
+  const suffix = options.suffix || '';
+  const decimals = options.decimals || 0;
+  const delay = options.delay !== undefined ? options.delay : 120; // gambling delay
+  const duration = options.duration || 460; // slot reel spin duration
+
+  const cleanTarget = typeof targetValue === 'number' ? targetValue : parseFloat(targetValue) || 0;
+
+  // If first time initializing on this element, render directly without delay
+  if (element._currentValue === undefined) {
+    element._currentValue = cleanTarget;
+    element.textContent = formatSlotNumber(cleanTarget, prefix, suffix, decimals);
+    return;
+  }
+
+  const startValue = element._currentValue;
+  if (Math.abs(startValue - cleanTarget) < 0.0001) {
+    element.textContent = formatSlotNumber(cleanTarget, prefix, suffix, decimals);
+    return;
+  }
+
+  const isUp = cleanTarget > startValue;
+
+  // Clear pending timers or animation frames on this element
+  if (element._slotTimer) {
+    clearTimeout(element._slotTimer);
+    element._slotTimer = null;
+  }
+  if (element._slotRaf) {
+    cancelAnimationFrame(element._slotRaf);
+    element._slotRaf = null;
+  }
+
+  // Visual slot anticipation during the delay
+  element.classList.remove('slot-spin-up', 'slot-spin-down', 'slot-locked');
+  element.classList.add(isUp ? 'slot-anticipating-up' : 'slot-anticipating-down');
+
+  element._slotTimer = setTimeout(() => {
+    element.classList.remove('slot-anticipating-up', 'slot-anticipating-down');
+    element.classList.add(isUp ? 'slot-spin-up' : 'slot-spin-down');
+
+    const startTime = performance.now();
+
+    function updateReel(now) {
+      const elapsed = now - startTime;
+      const progress = Math.min(1, elapsed / duration);
+
+      // Decelerating cubic ease-out like a mechanical spinning reel
+      const ease = 1 - Math.pow(1 - progress, 3);
+      const currentVal = startValue + (cleanTarget - startValue) * ease;
+
+      // Slot machine jitter: in the first 75% of travel, rapidly spin digits
+      let displayVal = currentVal;
+      const diff = Math.abs(cleanTarget - startValue);
+      if (progress < 0.75 && diff > 10) {
+        const jitter = (Math.random() - 0.5) * diff * 0.04 * (1 - progress);
+        displayVal = currentVal + jitter;
+      }
+
+      element.textContent = formatSlotNumber(displayVal, prefix, suffix, decimals);
+
+      if (progress < 1) {
+        element._slotRaf = requestAnimationFrame(updateReel);
+      } else {
+        // Locked in final number!
+        element._currentValue = cleanTarget;
+        element.textContent = formatSlotNumber(cleanTarget, prefix, suffix, decimals);
+        element.classList.remove('slot-spin-up', 'slot-spin-down');
+        element.classList.add('slot-locked');
+        setTimeout(() => {
+          element.classList.remove('slot-locked');
+        }, 400);
+      }
+    }
+
+    element._slotRaf = requestAnimationFrame(updateReel);
+  }, delay);
 }
 
 // 1. Initialize Site Data
@@ -522,17 +631,19 @@ function initCalculators() {
     if (lifeDebtVal) lifeDebtVal.textContent = formatCurrency(debt);
     if (lifeAssetsVal) lifeAssetsVal.textContent = formatCurrency(assets);
 
+    [lifeIncome, lifeDebt, lifeAssets].forEach(updateSliderTrackFill);
+
     const incomeReplacement = income * 10;
     const childEducationReserve = deps * 75000;
     const grossNeed = incomeReplacement + childEducationReserve + debt;
     const netCoverageNeed = Math.max(100000, grossNeed - assets);
     const estMonthlyRate = Math.round((netCoverageNeed / 1000) * 0.048);
 
-    if (lifeResultNeed) lifeResultNeed.textContent = formatCurrency(netCoverageNeed);
-    if (lifeResultMonthly) lifeResultMonthly.textContent = '~' + formatCurrency(estMonthlyRate) + '/mo (20-Yr Level Term)';
-    if (lifeIncomeRepVal) lifeIncomeRepVal.textContent = formatCurrency(incomeReplacement);
-    if (lifeDebtPayoffVal) lifeDebtPayoffVal.textContent = formatCurrency(debt + childEducationReserve);
-    if (lifeNetDeficitVal) lifeNetDeficitVal.textContent = formatCurrency(netCoverageNeed);
+    if (lifeResultNeed) animateCalculatedNumber(lifeResultNeed, netCoverageNeed, { prefix: '$' });
+    if (lifeResultMonthly) animateCalculatedNumber(lifeResultMonthly, estMonthlyRate, { prefix: '~$', suffix: '/mo (20-Yr Level Term)' });
+    if (lifeIncomeRepVal) animateCalculatedNumber(lifeIncomeRepVal, incomeReplacement, { prefix: '$' });
+    if (lifeDebtPayoffVal) animateCalculatedNumber(lifeDebtPayoffVal, debt + childEducationReserve, { prefix: '$' });
+    if (lifeNetDeficitVal) animateCalculatedNumber(lifeNetDeficitVal, netCoverageNeed, { prefix: '$' });
   }
   if (lifeIncome) {
     [lifeIncome, lifeDependents, lifeDebt, lifeAssets].forEach(el => {
@@ -562,14 +673,16 @@ function initCalculators() {
     if (termAgeVal) termAgeVal.textContent = age + ' yrs';
     if (termCoverageVal) termCoverageVal.textContent = formatCurrency(coverage);
 
+    [termAge, termCoverage].forEach(updateSliderTrackFill);
+
     const basePerThousand = 0.024 * Math.pow(1.055, (age - 20)) * (years === 30 ? 1.45 : years === 20 ? 1.15 : 1.0);
     const monthlyRate = Math.max(14, Math.round((coverage / 1000) * basePerThousand * healthMultiplier));
     const annualRate = monthlyRate * 12;
     const totalCost = annualRate * years;
 
-    if (termResultMonthly) termResultMonthly.textContent = formatCurrency(monthlyRate) + '/mo';
-    if (termResultAnnual) termResultAnnual.textContent = formatCurrency(annualRate);
-    if (termResultTotal) termResultTotal.textContent = formatCurrency(totalCost);
+    if (termResultMonthly) animateCalculatedNumber(termResultMonthly, monthlyRate, { prefix: '$', suffix: '/mo' });
+    if (termResultAnnual) animateCalculatedNumber(termResultAnnual, annualRate, { prefix: '$' });
+    if (termResultTotal) animateCalculatedNumber(termResultTotal, totalCost, { prefix: '$' });
   }
   if (termAge) {
     [termAge, termYears, termCoverage, termHealth].forEach(el => {
@@ -592,6 +705,7 @@ function initCalculators() {
     const hasMajorProcedure = healthProcedure && healthProcedure.checked;
 
     if (healthVisitsVal) healthVisitsVal.textContent = visits + ' visits/yr';
+    updateSliderTrackFill(healthVisits);
 
     const ppoFixedPrem = 550 * 12;
     const ppoCareCost = Math.min(3500, (visits * 30) + (hasMajorProcedure ? 1500 : 0));
@@ -601,8 +715,8 @@ function initCalculators() {
     const hdhpCareCost = Math.min(6500, (visits * 160) + (hasMajorProcedure ? 3000 : 0));
     const hdhpTotal = hdhpFixedPrem + hdhpCareCost;
 
-    if (healthResultPPO) healthResultPPO.textContent = formatCurrency(ppoTotal);
-    if (healthResultHDHP) healthResultHDHP.textContent = formatCurrency(hdhpTotal);
+    if (healthResultPPO) animateCalculatedNumber(healthResultPPO, ppoTotal, { prefix: '$', suffix: '/yr' });
+    if (healthResultHDHP) animateCalculatedNumber(healthResultHDHP, hdhpTotal, { prefix: '$', suffix: '/yr' });
 
     if (healthRecommendation) {
       if (hdhpTotal < ppoTotal) {
@@ -635,13 +749,14 @@ function initCalculators() {
     const ded = parseFloat(autoDeductible ? autoDeductible.value : 500) || 500;
 
     if (autoValueVal) autoValueVal.textContent = formatCurrency(val);
+    updateSliderTrackFill(autoValue);
 
     const baseCollision = (val * 0.022) * (ded === 1000 ? 0.82 : ded === 250 ? 1.25 : 1.0);
     const liabilityBase = 65;
     const totalMonthly = Math.round(liabilityBase + (baseCollision / 12));
 
-    if (autoResultPrem) autoResultPrem.textContent = formatCurrency(totalMonthly) + '/mo';
-    if (autoResultGap) autoResultGap.textContent = formatCurrency(Math.max(0, val - ded));
+    if (autoResultPrem) animateCalculatedNumber(autoResultPrem, totalMonthly, { prefix: '$', suffix: '/mo' });
+    if (autoResultGap) animateCalculatedNumber(autoResultGap, Math.max(0, val - ded), { prefix: '$' });
   }
   if (autoValue) {
     [autoValue, autoDeductible].forEach(el => {
@@ -667,11 +782,13 @@ function initCalculators() {
     if (homeSqftVal) homeSqftVal.textContent = sqft.toLocaleString() + ' sq ft';
     if (homeCostPerSqftVal) homeCostPerSqftVal.textContent = formatCurrency(costPerSqft) + '/sq ft';
 
+    [homeSqft, homeCostPerSqft].forEach(updateSliderTrackFill);
+
     const dwelling = sqft * costPerSqft;
     const personalProperty = Math.round(dwelling * 0.6);
 
-    if (homeResultDwelling) homeResultDwelling.textContent = formatCurrency(dwelling);
-    if (homeResultPersonal) homeResultPersonal.textContent = formatCurrency(personalProperty);
+    if (homeResultDwelling) animateCalculatedNumber(homeResultDwelling, dwelling, { prefix: '$' });
+    if (homeResultPersonal) animateCalculatedNumber(homeResultPersonal, personalProperty, { prefix: '$' });
   }
   if (homeSqft) {
     [homeSqft, homeCostPerSqft].forEach(el => {
@@ -701,12 +818,14 @@ function initCalculators() {
     if (premTierVal) premTierVal.textContent = formatCurrency(tierMonthly) + '/mo';
     if (premDedGapVal) premDedGapVal.textContent = formatCurrency(dedGap);
 
+    [premBase, premTier, premDedGap].forEach(updateSliderTrackFill);
+
     const monthlySavings = Math.max(1, baseMonthly - tierMonthly);
     const annualSavings = monthlySavings * 12;
     const breakevenMonths = Math.round((dedGap / monthlySavings) * 10) / 10;
 
-    if (premResultAnnualSavings) premResultAnnualSavings.textContent = formatCurrency(annualSavings) + '/yr';
-    if (premResultBreakevenMonths) premResultBreakevenMonths.textContent = breakevenMonths + ' Months';
+    if (premResultAnnualSavings) animateCalculatedNumber(premResultAnnualSavings, annualSavings, { prefix: '$', suffix: '/yr' });
+    if (premResultBreakevenMonths) animateCalculatedNumber(premResultBreakevenMonths, breakevenMonths, { suffix: ' Months', decimals: 1 });
 
     if (premRecommendation) {
       if (breakevenMonths <= 24) {
@@ -742,16 +861,17 @@ function initCalculators() {
     if (covNetWorthVal) covNetWorthVal.textContent = formatCurrency(netWorth);
     if (covRealEstateVal) covRealEstateVal.textContent = formatCurrency(realEstate);
 
+    [covNetWorth, covRealEstate].forEach(updateSliderTrackFill);
+
     const totalAtRisk = (netWorth + realEstate) * riskFactor;
-    // Round up to nearest million
     const recMillions = Math.max(1, Math.ceil(totalAtRisk / 1000000));
     const recCoverage = recMillions * 1000000;
     const baselineAutoHome = 500000;
     const umbrellaGap = Math.max(0, recCoverage - baselineAutoHome);
 
-    if (covResultRecommended) covResultRecommended.textContent = formatCurrency(recCoverage);
-    if (covResultBaseline) covResultBaseline.textContent = formatCurrency(baselineAutoHome);
-    if (covResultGap) covResultGap.textContent = formatCurrency(umbrellaGap) + ' Umbrella';
+    if (covResultRecommended) animateCalculatedNumber(covResultRecommended, recCoverage, { prefix: '$' });
+    if (covResultBaseline) animateCalculatedNumber(covResultBaseline, baselineAutoHome, { prefix: '$' });
+    if (covResultGap) animateCalculatedNumber(covResultGap, umbrellaGap, { prefix: '$', suffix: ' Umbrella' });
   }
   if (covNetWorth) {
     [covNetWorth, covRealEstate, covRiskProfile].forEach(el => {
@@ -786,13 +906,15 @@ function initCalculators() {
     if (needsDebtVal) needsDebtVal.textContent = formatCurrency(debt);
     if (needsSavingsVal) needsSavingsVal.textContent = formatCurrency(savings);
 
+    [needsIncome, needsYears, needsDebt, needsSavings].forEach(updateSliderTrackFill);
+
     const incomeObligation = income * years * 0.75;
     const totalGross = incomeObligation + debt;
     const netInsuranceNeed = Math.max(100000, totalGross - savings);
 
-    if (needsResultTotal) needsResultTotal.textContent = formatCurrency(netInsuranceNeed);
-    if (needsResultIncomeGap) needsResultIncomeGap.textContent = formatCurrency(incomeObligation);
-    if (needsResultLiabilities) needsResultLiabilities.textContent = formatCurrency(debt);
+    if (needsResultTotal) animateCalculatedNumber(needsResultTotal, netInsuranceNeed, { prefix: '$' });
+    if (needsResultIncomeGap) animateCalculatedNumber(needsResultIncomeGap, incomeObligation, { prefix: '$' });
+    if (needsResultLiabilities) animateCalculatedNumber(needsResultLiabilities, debt, { prefix: '$' });
   }
   if (needsIncome) {
     [needsIncome, needsYears, needsDebt, needsSavings].forEach(el => {
@@ -817,12 +939,13 @@ function initCalculators() {
     const savings = parseFloat(dedAnnualSavings ? dedAnnualSavings.value : 320) || 320;
 
     if (dedAnnualSavingsVal) dedAnnualSavingsVal.textContent = formatCurrency(savings) + '/yr';
+    updateSliderTrackFill(dedAnnualSavings);
 
     const extraRisk = Math.max(0, prop - cur);
-    const yearsToBreakeven = savings > 0 ? (extraRisk / savings).toFixed(1) : 'N/A';
+    const yearsToBreakeven = savings > 0 ? (extraRisk / savings).toFixed(1) : '0';
 
-    if (dedResultBreakeven) dedResultBreakeven.textContent = yearsToBreakeven + ' Years';
-    if (dedResultRiskYears) dedResultRiskYears.textContent = formatCurrency(extraRisk) + ' Risk Gap';
+    if (dedResultBreakeven) animateCalculatedNumber(dedResultBreakeven, parseFloat(yearsToBreakeven) || 0, { suffix: ' Years', decimals: 1 });
+    if (dedResultRiskYears) animateCalculatedNumber(dedResultRiskYears, extraRisk, { prefix: '$', suffix: ' Risk Gap' });
 
     if (dedRecommendation) {
       if (parseFloat(yearsToBreakeven) <= 3) {
@@ -861,13 +984,15 @@ function initCalculators() {
     if (infYearsAgoVal) infYearsAgoVal.textContent = years + ' Years Ago';
     if (infRateVal) infRateVal.textContent = rate + '% / year';
 
+    [infInitialLimit, infYearsAgo, infRate].forEach(updateSliderTrackFill);
+
     const trueCurrentCost = Math.round(initial * Math.pow(1 + (rate / 100), years));
     const deficit = Math.max(0, trueCurrentCost - initial);
     const pctUnderinsured = Math.round((deficit / trueCurrentCost) * 100);
 
-    if (infResultCurrentValue) infResultCurrentValue.textContent = formatCurrency(trueCurrentCost);
-    if (infResultDeficit) infResultDeficit.textContent = formatCurrency(deficit);
-    if (infResultRequiredIncrease) infResultRequiredIncrease.textContent = pctUnderinsured + '% Coverage Deficit';
+    if (infResultCurrentValue) animateCalculatedNumber(infResultCurrentValue, trueCurrentCost, { prefix: '$' });
+    if (infResultDeficit) animateCalculatedNumber(infResultDeficit, deficit, { prefix: '$' });
+    if (infResultRequiredIncrease) animateCalculatedNumber(infResultRequiredIncrease, pctUnderinsured, { suffix: '% Coverage Deficit' });
   }
   if (infInitialLimit) {
     [infInitialLimit, infYearsAgo, infRate].forEach(el => {
@@ -878,8 +1003,179 @@ function initCalculators() {
 }
 
 // ==========================================================================
-// 3. Search Modal & Regex Matcher
+// 3. Universal Search System (Prefilled Intent Pills & Live Matcher)
 // ==========================================================================
+
+const PREFILLED_SEARCH_ITEMS = [
+  {
+    title: 'Life Insurance Needs Calculator',
+    url: '/tools/life-insurance-calculator',
+    desc: 'Calculate exact capital needed to protect your family using D.I.M.E. formulas.',
+    intent: 'Calculator',
+    intentClass: 'pill-intent-calc',
+    icon: '🧮'
+  },
+  {
+    title: 'Insurance Explained for Beginners',
+    url: '/learn/insurance-for-beginners',
+    desc: 'The zero-jargon guide to premiums, deductibles, copays, and coverage limits.',
+    intent: 'Guide',
+    intentClass: 'pill-intent-guide',
+    icon: '📄'
+  },
+  {
+    title: 'Term vs. Whole Life Insurance',
+    url: '/compare/term-vs-whole-life',
+    desc: 'Unbiased side-by-side comparison: pure protection versus cash value policies.',
+    intent: 'Compare',
+    intentClass: 'pill-intent-compare',
+    icon: '⚖️'
+  },
+  {
+    title: 'Deductible Definition & Rules',
+    url: '/glossary/deductible',
+    desc: 'What you pay out-of-pocket before insurance covers the rest.',
+    intent: 'Term',
+    intentClass: 'pill-intent-glossary',
+    icon: '📖'
+  },
+  {
+    title: 'Alex: First-Time Homeowner (London)',
+    url: '/scenarios/alex-first-mortgage-london',
+    desc: 'Real case study: Do you need life insurance if you do not have children yet?',
+    intent: 'Scenario',
+    intentClass: 'pill-intent-scenario',
+    icon: '👤'
+  },
+  {
+    title: 'Health Insurance Plan Calculator',
+    url: '/tools/health-insurance-calculator',
+    desc: 'Compare total annual cost between High Deductible HDHP and PPO plans.',
+    intent: 'Calculator',
+    intentClass: 'pill-intent-calc',
+    icon: '🧮'
+  }
+];
+
+function buildSearchResultsHtml(query) {
+  if (!query || !query.trim()) {
+    let html = '<div class="search-section-header">Popular Searches &amp; Quick Starts</div>';
+    html += PREFILLED_SEARCH_ITEMS.map(item => `
+      <a href="${item.url}" class="search-result-item">
+        <div class="search-result-top">
+          <span class="search-result-title">${item.icon} ${escapeHtml(item.title)}</span>
+          <span class="pill-intent ${item.intentClass}">${escapeHtml(item.intent)}</span>
+        </div>
+        <span class="search-result-desc">${escapeHtml(item.desc)}</span>
+      </a>
+    `).join('');
+    return html;
+  }
+
+  const cleanQuery = query.trim();
+  let regex;
+  try {
+    regex = new RegExp(cleanQuery, 'i');
+  } catch (err) {
+    regex = new RegExp(cleanQuery.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&'), 'i');
+  }
+
+  const matchedTools = (siteData?.calculators || []).filter(t =>
+    regex.test(t.name) || regex.test(t.shortDescription) || regex.test(t.slug)
+  ).slice(0, 4);
+
+  const matchedArticles = (siteData?.articles || []).filter(a =>
+    regex.test(a.title) || regex.test(a.description) || regex.test(a.slug)
+  ).slice(0, 5);
+
+  const matchedComparisons = (siteData?.comparisons || []).filter(c =>
+    regex.test(c.title) || regex.test(c.subtitle || '') || regex.test(c.description || '') || regex.test(c.slug)
+  ).slice(0, 3);
+
+  const matchedGlossary = (siteData?.glossary || []).filter(g =>
+    regex.test(g.term) || regex.test(g.simpleDefinition || g.plainEnglish || '') || regex.test(g.slug)
+  ).slice(0, 3);
+
+  const matchedScenarios = (siteData?.scenarios || []).filter(s =>
+    regex.test(s.name) || regex.test(s.situation || '') || regex.test(s.coreQuestion || '') || regex.test(s.slug)
+  ).slice(0, 3);
+
+  const totalMatches = matchedTools.length + matchedArticles.length + matchedComparisons.length + matchedGlossary.length + matchedScenarios.length;
+
+  if (totalMatches === 0) {
+    return `<div style="padding: 32px 16px; text-align: center; color: var(--color-secondary); font-size: 0.9375rem;">No matching guides, tools, or terms found for "<strong>${escapeHtml(cleanQuery)}</strong>".</div>`;
+  }
+
+  let html = '';
+
+  if (matchedTools.length > 0) {
+    html += '<div class="search-section-header">Calculators &amp; Tools</div>';
+    html += matchedTools.map(t => `
+      <a href="/tools/${t.slug}" class="search-result-item">
+        <div class="search-result-top">
+          <span class="search-result-title">🧮 ${escapeHtml(t.name)}</span>
+          <span class="pill-intent pill-intent-calc">Calculator</span>
+        </div>
+        <span class="search-result-desc">${escapeHtml(t.shortDescription)}</span>
+      </a>
+    `).join('');
+  }
+
+  if (matchedArticles.length > 0) {
+    html += '<div class="search-section-header">Guides &amp; Articles</div>';
+    html += matchedArticles.map(a => `
+      <a href="/learn/${a.slug}" class="search-result-item">
+        <div class="search-result-top">
+          <span class="search-result-title">📄 ${escapeHtml(a.title)}</span>
+          <span class="pill-intent pill-intent-guide">Guide</span>
+        </div>
+        <span class="search-result-desc">${escapeHtml(a.description)}</span>
+      </a>
+    `).join('');
+  }
+
+  if (matchedComparisons.length > 0) {
+    html += '<div class="search-section-header">Comparisons</div>';
+    html += matchedComparisons.map(c => `
+      <a href="/compare/${c.slug}" class="search-result-item">
+        <div class="search-result-top">
+          <span class="search-result-title">⚖️ ${escapeHtml(c.title)}</span>
+          <span class="pill-intent pill-intent-compare">Compare</span>
+        </div>
+        <span class="search-result-desc">${escapeHtml(c.subtitle || c.description || 'Side-by-side policy comparison')}</span>
+      </a>
+    `).join('');
+  }
+
+  if (matchedGlossary.length > 0) {
+    const def = g => g.simpleDefinition || g.plainEnglish || '';
+    html += '<div class="search-section-header">Dictionary Terms</div>';
+    html += matchedGlossary.map(g => `
+      <a href="/glossary/${g.slug}" class="search-result-item">
+        <div class="search-result-top">
+          <span class="search-result-title">📖 ${escapeHtml(g.term)}</span>
+          <span class="pill-intent pill-intent-glossary">Term</span>
+        </div>
+        <span class="search-result-desc">${escapeHtml(def(g))}</span>
+      </a>
+    `).join('');
+  }
+
+  if (matchedScenarios.length > 0) {
+    html += '<div class="search-section-header">Real Scenarios</div>';
+    html += matchedScenarios.map(s => `
+      <a href="/scenarios/${s.slug}" class="search-result-item">
+        <div class="search-result-top">
+          <span class="search-result-title">👤 ${escapeHtml(s.name)}'s Story</span>
+          <span class="pill-intent pill-intent-scenario">Scenario</span>
+        </div>
+        <span class="search-result-desc">${escapeHtml(s.situation || s.coreQuestion || '')}</span>
+      </a>
+    `).join('');
+  }
+
+  return html;
+}
 
 function initSearchModal() {
   const modal = document.getElementById('searchModal');
@@ -893,6 +1189,9 @@ function initSearchModal() {
   function openSearch() {
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    if (searchResults) {
+      searchResults.innerHTML = buildSearchResultsHtml(searchInput.value);
+    }
     setTimeout(() => searchInput.focus(), 50);
   }
 
@@ -900,7 +1199,6 @@ function initSearchModal() {
     modal.classList.remove('active');
     document.body.style.overflow = '';
     searchInput.value = '';
-    renderSearchResults('');
   }
 
   searchTriggers.forEach(t => t.addEventListener('click', openSearch));
@@ -921,77 +1219,43 @@ function initSearchModal() {
   });
 
   searchInput.addEventListener('input', (e) => {
-    renderSearchResults(e.target.value.trim());
+    if (searchResults) {
+      searchResults.innerHTML = buildSearchResultsHtml(e.target.value);
+    }
+  });
+}
+
+function initHomeSearch() {
+  const homeInput = document.getElementById('siteSearchInput');
+  const suggestionsBox = document.getElementById('searchSuggestionsBox');
+  const searchContainer = document.querySelector('.home-search-container');
+
+  if (!homeInput || !suggestionsBox) return;
+
+  function showSuggestions() {
+    suggestionsBox.innerHTML = buildSearchResultsHtml(homeInput.value);
+    suggestionsBox.style.display = 'block';
+  }
+
+  function hideSuggestions() {
+    suggestionsBox.style.display = 'none';
+  }
+
+  homeInput.addEventListener('focus', showSuggestions);
+  homeInput.addEventListener('click', showSuggestions);
+  homeInput.addEventListener('input', showSuggestions);
+
+  document.addEventListener('click', (e) => {
+    if (searchContainer && !searchContainer.contains(e.target)) {
+      hideSuggestions();
+    }
   });
 
-  function renderSearchResults(query) {
-    if (!searchResults) return;
-    if (!query) {
-      searchResults.innerHTML = '<div style="padding: 24px; text-align: center; color: var(--color-secondary); font-size: 0.875rem;">Type a keyword, concept, or regex to search...</div>';
-      return;
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      hideSuggestions();
     }
-
-    let regex;
-    try {
-      regex = new RegExp(query, 'i');
-    } catch (err) {
-      regex = new RegExp(query.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&'), 'i');
-    }
-
-    const matchedArticles = (siteData?.articles || []).filter(a =>
-      regex.test(a.title) || regex.test(a.description) || regex.test(a.slug)
-    ).slice(0, 6);
-
-    const matchedTools = (siteData?.calculators || []).filter(t =>
-      regex.test(t.name) || regex.test(t.shortDescription) || regex.test(t.slug)
-    ).slice(0, 4);
-
-    const matchedGlossary = (siteData?.glossary || []).filter(g =>
-      regex.test(g.term) || regex.test(g.simpleDefinition || g.plainEnglish || '')
-    ).slice(0, 4);
-
-    const totalMatches = matchedArticles.length + matchedTools.length + matchedGlossary.length;
-
-    if (totalMatches === 0) {
-      searchResults.innerHTML = '<div style="padding: 32px 16px; text-align: center; color: var(--color-secondary); font-size: 0.9375rem;">No matching guides or calculators found for "<strong>' + escapeHtml(query) + '</strong>".</div>';
-      return;
-    }
-
-    let html = '';
-
-    if (matchedTools.length > 0) {
-      html += '<div style="padding: 8px 16px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--color-accent); background: var(--pastel-blue-bg); border-radius: 6px; margin-bottom: 4px;">Calculators &amp; Tools</div>';
-      html += matchedTools.map(t =>
-        '<a href="/tools/' + t.slug + '" class="search-result-item">' +
-          '<span class="search-result-title">🧮 ' + escapeHtml(t.name) + '</span>' +
-          '<span class="search-result-desc">' + escapeHtml(t.shortDescription) + '</span>' +
-        '</a>'
-      ).join('');
-    }
-
-    if (matchedArticles.length > 0) {
-      html += '<div style="padding: 8px 16px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #059669; background: #ecfdf5; border-radius: 6px; margin: 8px 0 4px;">Educational Guides</div>';
-      html += matchedArticles.map(a =>
-        '<a href="/learn/' + a.slug + '" class="search-result-item">' +
-          '<span class="search-result-title">📄 ' + escapeHtml(a.title) + '</span>' +
-          '<span class="search-result-desc">' + escapeHtml(a.description) + '</span>' +
-        '</a>'
-      ).join('');
-    }
-
-    if (matchedGlossary.length > 0) {
-      const def = g => g.simpleDefinition || g.plainEnglish || '';
-      html += '<div style="padding: 8px 16px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #7c3aed; background: #f5f3ff; border-radius: 6px; margin: 8px 0 4px;">Dictionary Terms</div>';
-      html += matchedGlossary.map(g =>
-        '<a href="/glossary/' + g.slug + '" class="search-result-item">' +
-          '<span class="search-result-title">📖 ' + escapeHtml(g.term) + '</span>' +
-          '<span class="search-result-desc">' + escapeHtml(def(g)) + '</span>' +
-        '</a>'
-      ).join('');
-    }
-
-    searchResults.innerHTML = html;
-  }
+  });
 }
 
 // ==========================================================================
@@ -1210,8 +1474,12 @@ function initMobileNav() {
 document.addEventListener('DOMContentLoaded', async () => {
   await initSiteData();
   initCalculators();
+  initSliderFills();
   initSearchModal();
+  initHomeSearch();
   initArticleFilters();
   initPolicyAudit();
   initMobileNav();
 });
+
+
