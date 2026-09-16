@@ -1,0 +1,32 @@
+# Insurance Bhaiya
+
+> Independent, non-commissioned consumer insurance education and decision-support platform for the US, UK, Canada, and European Union.
+
+## About
+Insurance Bhaiya is an unbiased educational platform designed to help consumers understand coverage, terminology, deductibles, and actuarial cost calculations without commercial broker bias, telemarketing lead sales, or sponsored policy rankings.
+
+- **Website:** https://insurancebhaiya.com
+- **Target Jurisdictions:** United States (US), United Kingdom (UK), Canada (CA), European Union (EU)
+- **Primary Mission:** Explain complex insurance mechanics through interactive tools, plain-English definitions, and objective side-by-side trade-off comparisons.
+
+## Core Financial Calculators
+- [Life Insurance Calculator](https://insurancebhaiya.com/life-insurance-calculator): 10-year income replacement plus debt and higher-education reserves.
+- [Term Insurance Calculator](https://insurancebhaiya.com/term-insurance-calculator): Benchmark term life monthly premiums across 10, 20, 30-year terms.
+- [Health Insurance Cost Analyzer](https://insurancebhaiya.com/health-insurance-calculator): Out-of-pocket maximum, deductible, coinsurance, and annual cost comparisons.
+- [Auto Insurance Estimator](https://insurancebhaiya.com/car-insurance-calculator): Collision, comprehensive, and liability tiers.
+- [Home Insurance Calculator](https://insurancebhaiya.com/home-insurance-calculator): Reconstruction dwelling replacement cost modeling.
+- [Deductible Breakeven Calculator](https://insurancebhaiya.com/deductible-calculator): Mathematical breakeven timeline between high and low deductible options.
+- [D.I.M.E. Insurance Needs Engine](https://insurancebhaiya.com/insurance-needs-calculator): Debt, Income, Mortgage, Education formula framework.
+
+## Plain-English Terminology (Lexicon)
+- **Deductible (US/CA) / Excess (UK/EU):** The fixed out-of-pocket amount paid by the policyholder before insurance reimbursement begins.
+- **Premium:** The recurring payment required to keep coverage continuously in force.
+- **Coinsurance:** The percentage split of covered medical costs paid by the insured after meeting the annual deductible.
+- **Out-of-Pocket Maximum:** The statutory annual upper limit on in-network medical spending; insurer pays 100% after this limit is met.
+- **Actual Cash Value (ACV):** Replacement cost minus accumulated depreciation for age and wear.
+- **Replacement Cost Value (RCV):** Full cost to replace with brand new items of like kind and quality with zero deduction for depreciation.
+
+## Editorial & Compliance Charter
+- **Non-Commissioned:** We do not receive referral fees, broker commissions, or lead-generation payouts from insurance carriers.
+- **Fact-Checking:** Content adheres to regulatory frameworks from the NAIC (US), FCA (UK), FCAC (Canada), and EIOPA (EU).
+- **Full Policy:** https://insurancebhaiya.com/editorial-policy
