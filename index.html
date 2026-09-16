@@ -3,16 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Insurance Bhaiya | Smart Insurance Decisions, Made Simple</title>
-    <meta name="description" content="Insurance Bhaiya is your trusted, independent financial education guide. Explore transparent insurance guides, actuarial calculators, and policy breakdowns with zero sales pressure." />
+    <title>Insurance Bhaiya | Insurance Guides &amp; Calculators</title>
+    <meta name="description" content="Understand insurance with clear guides, practical calculators, and policy explainers. Learn how coverage works and make informed insurance decisions." />
+    <link rel="canonical" href="https://insurancebhaiya.com/" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/logo.png" />
 
-    <!-- Canonical www to non-www redirect -->
+    <!-- Open Graph & Social Cards -->
+    <meta property="og:site_name" content="Insurance Bhaiya" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Insurance Bhaiya | Insurance Guides &amp; Calculators" />
+    <meta property="og:description" content="Understand insurance with clear guides, practical calculators, and policy explainers. Learn how coverage works and make informed insurance decisions." />
+    <meta property="og:url" content="https://insurancebhaiya.com/" />
+    <meta property="og:image" content="https://insurancebhaiya.com/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@insurancebhaiya" />
+    <meta name="twitter:title" content="Insurance Bhaiya | Insurance Guides &amp; Calculators" />
+    <meta name="twitter:description" content="Understand insurance with clear guides, practical calculators, and policy explainers. Learn how coverage works and make informed insurance decisions." />
+    <meta name="twitter:image" content="https://insurancebhaiya.com/logo.png" />
+
+    <!-- Canonical HTTP to HTTPS and WWW to Non-WWW redirect -->
     <script>
+      if (window.location.protocol === 'http:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+        window.location.replace('https://' + window.location.hostname + window.location.pathname + window.location.search + window.location.hash);
+      }
       if (window.location.hostname === 'www.insurancebhaiya.com') {
         window.location.replace('https://insurancebhaiya.com' + window.location.pathname + window.location.search + window.location.hash);
       }
@@ -35,6 +54,86 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
          crossorigin="anonymous"></script>
 
+    <!-- Structured Data JSON-LD Graph for Search Engines & Generative AI (AEO / GEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://insurancebhaiya.com/#organization",
+          "name": "Insurance Bhaiya",
+          "url": "https://insurancebhaiya.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://insurancebhaiya.com/logo.png"
+          },
+          "description": "Independent consumer insurance education, financial modeling calculators, and decision-support platform."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://insurancebhaiya.com/#website",
+          "url": "https://insurancebhaiya.com",
+          "name": "Insurance Bhaiya",
+          "publisher": {
+            "@id": "https://insurancebhaiya.com/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://insurancebhaiya.com/tools?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://insurancebhaiya.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Insurance Bhaiya?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Insurance Bhaiya is an independent financial education platform providing actuarial calculators, plain-English guides, and unbiased policy comparisons for consumers in the US, UK, Canada, and Europe."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do your insurance calculators work?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our calculators use standard actuarial formulas (such as the DIME formula for life insurance and statutory coinsurance/copay algorithms for healthcare) to estimate your coverage requirements without inflated sales estimates."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you sell policies or earn commissions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. We never sell policies, take broker commissions, or collect your phone number for sales calls. We are 100% independent and educational."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do you adapt to different countries?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We localize terminology (e.g. Deductible vs. Excess), statutory regulations (NAIC in the US, FCA in the UK, FCAC in Canada), and currency modeling so recommendations match your country."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this personalized financial advice?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. All information, calculators, and comparisons are for general consumer education only. Always consult a licensed, fee-only financial planner for advice tailored to your personal circumstances."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
     <!-- Single Page App route restoration for static hosts -->
     <script>
       (function(l) {
@@ -48,10 +147,302 @@
         }
       }(window.location));
     </script>
-    <script type="module" crossorigin src="/assets/index-CXQgEoyW.js"></script>
+    <script type="module" crossorigin src="/assets/index-pI-AwQRM.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CrtzUyLK.css">
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Root Container: Pre-rendered semantic HTML ensures 100% crawlability for non-JS search engines -->
+    <div id="root">
+      <header style="border-bottom: 1px solid #e2e8f0; padding: 16px 24px; background: #ffffff;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between;">
+          <a href="/" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0f172a; font-weight: 700; font-size: 1.25rem;">
+            <img src="/logo.png" alt="Insurance Bhaiya Logo" width="28" height="28" style="height: 28px; width: auto;" />
+            <span>Insurance <span style="color: #0284c7;">Bhaiya</span></span>
+          </a>
+          <nav aria-label="Main Navigation" style="display: flex; gap: 20px; font-size: 0.9375rem; font-weight: 500;">
+            <a href="/learn" style="color: #475569; text-decoration: none;">Learn</a>
+            <a href="/tools" style="color: #475569; text-decoration: none;">Calculators</a>
+            <a href="/compare" style="color: #475569; text-decoration: none;">Compare</a>
+            <a href="/glossary" style="color: #475569; text-decoration: none;">Glossary</a>
+            <a href="/scenarios" style="color: #475569; text-decoration: none;">Scenarios</a>
+            <a href="/policy-check" style="color: #0284c7; text-decoration: none; font-weight: 600;">Policy Check</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main-content" style="max-width: 1200px; margin: 0 auto; padding: 40px 24px;">
+        <!-- Hero Section -->
+        <div style="text-align: center; max-width: 840px; margin: 0 auto 56px auto;">
+          <h1 style="font-size: 2.75rem; font-weight: 700; color: #0f172a; letter-spacing: -0.03em; margin-bottom: 16px; line-height: 1.2;">
+            Insurance Made Simple
+          </h1>
+          <p style="font-size: 1.125rem; color: #475569; line-height: 1.6; margin-bottom: 32px;">
+            Understand insurance with clear educational guides, practical calculators and straightforward policy explanations.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <a href="/learn" style="padding: 12px 24px; background: #0284c7; color: #ffffff; border-radius: 9999px; text-decoration: none; font-weight: 600;">Start Exploring Guides</a>
+            <a href="/tools" style="padding: 12px 24px; background: #f1f5f9; color: #0f172a; border-radius: 9999px; text-decoration: none; font-weight: 600; border: 1px solid #cbd5e1;">Try Insurance Calculators</a>
+          </div>
+        </div>
+
+        <!-- Section 1: Explore Insurance -->
+        <section style="margin-bottom: 64px;">
+          <div style="margin-bottom: 24px;">
+            <h2 style="font-size: 1.75rem; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Explore Insurance</h2>
+            <p style="color: #475569; font-size: 0.9375rem; margin: 0;">Compare core coverage disciplines and find clear breakdowns for every life stage.</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/insurance/life-insurance" style="color: #0f172a; text-decoration: none;">Life Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Financial security for your family and dependents in the event of unexpected loss. Learn about term vs. whole life, level premiums, and income multipliers.</p>
+              <a href="/insurance/life-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Explore Life Guide &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/insurance/health-insurance" style="color: #0f172a; text-decoration: none;">Health Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Coverage for hospitalizations, surgeries, prescriptions, and preventative care. Master deductibles, coinsurance splits, and out-of-pocket maximums.</p>
+              <a href="/insurance/health-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Explore Health Guide &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/insurance/car-insurance" style="color: #0f172a; text-decoration: none;">Car Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Protection against vehicle collision damage, third-party liability, and theft. Calibrate deductibles and examine required state coverage tiers.</p>
+              <a href="/insurance/car-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Explore Auto Guide &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/insurance/home-insurance" style="color: #0f172a; text-decoration: none;">Home Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Shielding your dwelling, interior personal belongings, and personal liability against fire, windstorm, theft, and natural hazards.</p>
+              <a href="/insurance/home-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Explore Home Guide &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/insurance/travel-insurance" style="color: #0f172a; text-decoration: none;">Travel Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Coverage for trip cancellations, emergency medical evacuation overseas, and lost baggage across international borders.</p>
+              <a href="/insurance/travel-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Explore Travel Guide &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/insurance/disability-insurance" style="color: #0f172a; text-decoration: none;">Disability Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Paycheck protection safeguarding your income stream and monthly mortgage payments in the event of debilitating injury or chronic illness.</p>
+              <a href="/insurance/disability-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Explore Disability Guide &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 2: Insurance Calculators -->
+        <section style="margin-bottom: 64px;">
+          <div style="margin-bottom: 24px;">
+            <h2 style="font-size: 1.75rem; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Insurance Calculators</h2>
+            <p style="color: #475569; font-size: 0.9375rem; margin: 0;">Interactive utilities to estimate coverage requirements, out-of-pocket costs, and deductible thresholds.</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/life-insurance-calculator" style="color: #0f172a; text-decoration: none;">Life Insurance Calculator</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Calculate 10-year income replacement, mortgage payoff, and college education reserves using actuarial DIME methodology.</p>
+              <a href="/life-insurance-calculator" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Calculate Life Needs &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/term-insurance-calculator" style="color: #0f172a; text-decoration: none;">Term Insurance Calculator</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Benchmark level monthly premiums across 10, 20, and 30-year terms based on your age, tobacco usage, and coverage amount.</p>
+              <a href="/term-insurance-calculator" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Estimate Term Premium &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/health-insurance-calculator" style="color: #0f172a; text-decoration: none;">Health Insurance Cost Analyzer</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Simulate out-of-pocket maximums, deductibles, and coinsurance splits across low and high healthcare usage scenarios.</p>
+              <a href="/health-insurance-calculator" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Analyze Health Costs &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/car-insurance-calculator" style="color: #0f172a; text-decoration: none;">Car Insurance Cost Estimator</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Estimate collision, comprehensive, and liability costs based on vehicle mileage, age, and driver safety profile.</p>
+              <a href="/car-insurance-calculator" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Estimate Auto Rate &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/deductible-calculator" style="color: #0f172a; text-decoration: none;">Deductible Breakeven Calculator</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Calculate the exact mathematical breakeven timeline between high and low deductible options across annual premium savings.</p>
+              <a href="/deductible-calculator" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Calculate Breakeven &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 8px;"><a href="/policy-check" style="color: #0f172a; text-decoration: none;">8-Point Policy Health Check</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Audit existing insurance coverage for hidden exclusions, co-pay traps, and sub-limits in 2 minutes with actionable feedback.</p>
+              <a href="/policy-check" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Audit Your Policy &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3: Latest Insurance Guides -->
+        <section style="margin-bottom: 64px;">
+          <div style="margin-bottom: 24px;">
+            <h2 style="font-size: 1.75rem; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Latest Insurance Guides</h2>
+            <p style="color: #475569; font-size: 0.9375rem; margin: 0;">Independent editorial research, policy loopholes, and unbiased decision frameworks.</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            <article style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Life Insurance</span>
+              <h3 style="font-size: 1.0625rem; font-weight: 600; margin: 8px 0;"><a href="/learn/term-vs-whole-life-insurance" style="color: #0f172a; text-decoration: none;">Term vs. Whole Life Insurance: The Mathematical Truth</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">An objective, actuarial comparison examining cash-value yields, commission structures, and the Buy Term and Invest the Difference strategy.</p>
+              <a href="/learn/term-vs-whole-life-insurance" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Read Guide &rarr;</a>
+            </article>
+            <article style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Health Insurance</span>
+              <h3 style="font-size: 1.0625rem; font-weight: 600; margin: 8px 0;"><a href="/learn/high-deductible-vs-low-deductible" style="color: #0f172a; text-decoration: none;">High Deductible vs. Low Deductible: Which Actually Saves You Money?</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">A mathematical breakeven framework analyzing monthly premium savings against out-of-pocket claim risks and HSA advantages.</p>
+              <a href="/learn/high-deductible-vs-low-deductible" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Read Guide &rarr;</a>
+            </article>
+            <article style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Health Care</span>
+              <h3 style="font-size: 1.0625rem; font-weight: 600; margin: 8px 0;"><a href="/learn/hidden-health-insurance-loopholes" style="color: #0f172a; text-decoration: none;">5 Hidden Health Insurance Traps That Catch Patients Off-Guard</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Understand out-of-network balance billing, prior authorization denials, and prescription formulary tiers before receiving care.</p>
+              <a href="/learn/hidden-health-insurance-loopholes" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Read Guide &rarr;</a>
+            </article>
+            <article style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Auto Insurance</span>
+              <h3 style="font-size: 1.0625rem; font-weight: 600; margin: 8px 0;"><a href="/learn/how-insurers-calculate-car-premiums" style="color: #0f172a; text-decoration: none;">How Auto Insurers Calculate Your Rate: Factors You Can Control</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Explore telematics tracking, credit scoring, deductible calibration, and safety discounts to lower auto insurance premiums legally.</p>
+              <a href="/learn/how-insurers-calculate-car-premiums" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Read Guide &rarr;</a>
+            </article>
+          </div>
+        </section>
+
+        <!-- Section 4: Understand Insurance Terms -->
+        <section style="margin-bottom: 64px;">
+          <div style="margin-bottom: 24px;">
+            <h2 style="font-size: 1.75rem; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Understand Insurance Terms</h2>
+            <p style="color: #475569; font-size: 0.9375rem; margin: 0;">Decode confusing insurance jargon into plain-English definitions with zero sales pressure.</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px;"><a href="/glossary/deductible" style="color: #0f172a; text-decoration: none;">Deductible (or Excess)</a></h3>
+              <p style="color: #475569; font-size: 0.8125rem; line-height: 1.5; margin-bottom: 10px;">The fixed dollar amount you agree to pay toward a claim or loss before the insurer begins reimbursing its share.</p>
+              <a href="/glossary/deductible" style="color: #0284c7; font-size: 0.8125rem; font-weight: 600; text-decoration: none;">View Definition &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px;"><a href="/glossary/premium" style="color: #0f172a; text-decoration: none;">Premium</a></h3>
+              <p style="color: #475569; font-size: 0.8125rem; line-height: 1.5; margin-bottom: 10px;">The recurring subscription payment made to keep your insurance policy active and prevent coverage lapse.</p>
+              <a href="/glossary/premium" style="color: #0284c7; font-size: 0.8125rem; font-weight: 600; text-decoration: none;">View Definition &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px;"><a href="/glossary/copay" style="color: #0f172a; text-decoration: none;">Copayment (Copay)</a></h3>
+              <p style="color: #475569; font-size: 0.8125rem; line-height: 1.5; margin-bottom: 10px;">A flat, pre-determined fee paid at the time of medical service, doctor consultation, or prescription fulfillment.</p>
+              <a href="/glossary/copay" style="color: #0284c7; font-size: 0.8125rem; font-weight: 600; text-decoration: none;">View Definition &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px;"><a href="/glossary/coinsurance" style="color: #0f172a; text-decoration: none;">Coinsurance</a></h3>
+              <p style="color: #475569; font-size: 0.8125rem; line-height: 1.5; margin-bottom: 10px;">The percentage split (e.g. 80/20) of covered costs you pay after meeting your annual deductible until the out-of-pocket max.</p>
+              <a href="/glossary/coinsurance" style="color: #0284c7; font-size: 0.8125rem; font-weight: 600; text-decoration: none;">View Definition &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px;"><a href="/glossary/out-of-pocket-maximum" style="color: #0f172a; text-decoration: none;">Out-of-Pocket Maximum</a></h3>
+              <p style="color: #475569; font-size: 0.8125rem; line-height: 1.5; margin-bottom: 10px;">The statutory annual spending cap; once met, your health insurer pays 100% of all covered in-network medical costs.</p>
+              <a href="/glossary/out-of-pocket-maximum" style="color: #0284c7; font-size: 0.8125rem; font-weight: 600; text-decoration: none;">View Definition &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 6px;"><a href="/glossary/replacement-cost" style="color: #0f172a; text-decoration: none;">Replacement Cost (RCV)</a></h3>
+              <p style="color: #475569; font-size: 0.8125rem; line-height: 1.5; margin-bottom: 10px;">Full reimbursement to rebuild or replace lost items brand new without deduction for age or depreciation wear.</p>
+              <a href="/glossary/replacement-cost" style="color: #0284c7; font-size: 0.8125rem; font-weight: 600; text-decoration: none;">View Definition &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 5: Insurance Research & Insights -->
+        <section style="margin-bottom: 64px;">
+          <div style="margin-bottom: 24px;">
+            <h2 style="font-size: 1.75rem; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Insurance Research &amp; Insights</h2>
+            <p style="color: #475569; font-size: 0.9375rem; margin: 0;">Objective side-by-side policy comparisons and life-stage archetypes.</p>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Policy Comparison</span>
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin: 8px 0;"><a href="/compare/term-vs-whole-life" style="color: #0f172a; text-decoration: none;">Term vs. Whole Life Insurance</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Understand the fundamental trade-offs between low-cost term protection and cash-value whole life contracts.</p>
+              <a href="/compare/term-vs-whole-life" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Compare Policies &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Health Network Comparison</span>
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin: 8px 0;"><a href="/compare/hmo-vs-ppo" style="color: #0f172a; text-decoration: none;">HMO vs. PPO Health Networks</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">Compare network restrictions, specialist referral rules, and out-of-pocket balance risks between HMO and PPO plans.</p>
+              <a href="/compare/hmo-vs-ppo" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">Compare Networks &rarr;</a>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; background: #ffffff;">
+              <span style="font-size: 0.75rem; color: #0284c7; font-weight: 600; text-transform: uppercase;">Life Scenario</span>
+              <h3 style="font-size: 1.125rem; font-weight: 600; margin: 8px 0;"><a href="/scenarios/young-professional-starter-pack" style="color: #0f172a; text-decoration: none;">Young Professional Starter Pack</a></h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.5; margin-bottom: 12px;">A realistic blueprint covering essential health, disability, and affordable term insurance for early career builders.</p>
+              <a href="/scenarios/young-professional-starter-pack" style="color: #0284c7; font-weight: 600; font-size: 0.8125rem; text-decoration: none;">View Life Scenario &rarr;</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 6: Frequently Asked Questions -->
+        <section style="margin-bottom: 64px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 36px 32px;">
+          <div style="text-align: center; margin-bottom: 32px;">
+            <h2 style="font-size: 1.75rem; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Frequently Asked Questions</h2>
+            <p style="color: #475569; font-size: 0.9375rem; margin: 0;">Straightforward answers about our independent educational platform and financial models.</p>
+          </div>
+          <div style="display: flex; flexDirection: column; gap: 16px; max-width: 800px; margin: 0 auto;">
+            <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1.0625rem; font-weight: 600; color: #0f172a; margin-bottom: 8px;">What is Insurance Bhaiya?</h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.6; margin: 0;">Insurance Bhaiya is an independent financial education platform providing actuarial calculators, plain-English guides, and unbiased policy comparisons for consumers in the US, UK, Canada, and Europe.</p>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1.0625rem; font-weight: 600; color: #0f172a; margin-bottom: 8px;">How do your insurance calculators work?</h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.6; margin: 0;">Our calculators use standard actuarial formulas (such as the DIME formula for life insurance and statutory coinsurance/copay algorithms for healthcare) to estimate your coverage requirements without inflated sales estimates.</p>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1.0625rem; font-weight: 600; color: #0f172a; margin-bottom: 8px;">Do you sell policies or earn commissions?</h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.6; margin: 0;">No. We never sell policies, take broker commissions, or collect your phone number for sales calls. We are 100% independent and educational.</p>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1.0625rem; font-weight: 600; color: #0f172a; margin-bottom: 8px;">How do you adapt to different countries?</h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.6; margin: 0;">We localize terminology (e.g. Deductible vs. Excess), statutory regulations (NAIC in the US, FCA in the UK, FCAC in Canada), and currency modeling so recommendations match your country.</p>
+            </div>
+            <div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #ffffff;">
+              <h3 style="font-size: 1.0625rem; font-weight: 600; color: #0f172a; margin-bottom: 8px;">Is this personalized financial advice?</h3>
+              <p style="color: #475569; font-size: 0.875rem; line-height: 1.6; margin: 0;">No. All information, calculators, and comparisons are for general consumer education only. Always consult a licensed, fee-only financial planner for advice tailored to your personal circumstances.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer style="border-top: 1px solid #e2e8f0; padding: 48px 24px 32px 24px; background: #ffffff;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 36px;">
+            <div>
+              <div style="font-weight: 700; font-size: 1.125rem; margin-bottom: 12px; color: #0f172a;">Insurance Bhaiya</div>
+              <p style="font-size: 0.8125rem; color: #64748b; line-height: 1.6;">Independent consumer education platform operating across the United States, United Kingdom, Canada, and the European Union.</p>
+            </div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; color: #0f172a;">Calculators</div>
+              <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; display: flex; flex-direction: column; gap: 8px;">
+                <li><a href="/life-insurance-calculator" style="color: #64748b; text-decoration: none;">Life Calculator</a></li>
+                <li><a href="/term-insurance-calculator" style="color: #64748b; text-decoration: none;">Term Calculator</a></li>
+                <li><a href="/health-insurance-calculator" style="color: #64748b; text-decoration: none;">Health Calculator</a></li>
+                <li><a href="/car-insurance-calculator" style="color: #64748b; text-decoration: none;">Car Insurance Calculator</a></li>
+                <li><a href="/tools" style="color: #0284c7; text-decoration: none; font-weight: 500;">All 10 Tools &rarr;</a></li>
+              </ul>
+            </div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; color: #0f172a;">Education Hubs</div>
+              <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; display: flex; flex-direction: column; gap: 8px;">
+                <li><a href="/learn" style="color: #64748b; text-decoration: none;">Learn Center</a></li>
+                <li><a href="/glossary" style="color: #64748b; text-decoration: none;">Insurance Dictionary</a></li>
+                <li><a href="/compare" style="color: #64748b; text-decoration: none;">Policy Comparisons</a></li>
+                <li><a href="/scenarios" style="color: #64748b; text-decoration: none;">Real-World Scenarios</a></li>
+                <li><a href="/policy-check" style="color: #0284c7; text-decoration: none; font-weight: 500;">Policy Audit &rarr;</a></li>
+              </ul>
+            </div>
+            <div>
+              <div style="font-weight: 600; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; color: #0f172a;">Trust &amp; Legal</div>
+              <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.875rem; display: flex; flex-direction: column; gap: 8px;">
+                <li><a href="/editorial-policy" style="color: #64748b; text-decoration: none;">Editorial Policy</a></li>
+                <li><a href="/sources" style="color: #64748b; text-decoration: none;">Authoritative Sources</a></li>
+                <li><a href="/how-we-make-money" style="color: #64748b; text-decoration: none;">How We Make Money</a></li>
+                <li><a href="/privacy-policy" style="color: #64748b; text-decoration: none;">Privacy Policy</a></li>
+                <li><a href="/terms-of-service" style="color: #64748b; text-decoration: none;">Terms of Service</a></li>
+                <li><a href="/disclaimer" style="color: #64748b; text-decoration: none;">Editorial Disclaimer</a></li>
+                <li><a href="/sitemap.xml" style="color: #64748b; text-decoration: none;">XML Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; font-size: 0.75rem; color: #94a3b8; text-align: center;">
+            &copy; 2026 Insurance Bhaiya. All rights reserved. For consumer educational modeling only.
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

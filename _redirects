@@ -1,6 +1,7 @@
-# Redirect www to non-www (Netlify / Cloudflare Pages)
-https://www.insurancebhaiya.com/*  https://insurancebhaiya.com/:splat  301!
+# Redirect HTTP to HTTPS & www to non-www (Netlify / Cloudflare Pages)
+http://insurancebhaiya.com/*      https://insurancebhaiya.com/:splat  301!
 http://www.insurancebhaiya.com/*   https://insurancebhaiya.com/:splat  301!
+https://www.insurancebhaiya.com/*  https://insurancebhaiya.com/:splat  301!
 
 # SPA Catch-All fallback
 /*    /index.html   200
