@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>8-Point Policy Health Check | Underinsurance Diagnostic | Insurance Bhaiya</title>
-  <meta name="title" content="8-Point Policy Health Check | Underinsurance Diagnostic | Insurance Bhaiya">
-  <meta name="description" content="Audit your personal insurance coverage in 2 minutes. Score your vulnerability to common exclusion gaps, underinsurance traps, and liability exposure.">
+  <title>Policy Review Checklist | 10-Point Clause Audit | Insurance Bhaiya</title>
+  <meta name="title" content="Policy Review Checklist | 10-Point Clause Audit | Insurance Bhaiya">
+  <meta name="description" content="Structured 3-step audit for policy renewal. Classify core clauses into Understand vs Need to check, and generate exact prompt questions for your carrier.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://insurancebhaiya.com/policy-check">
   <meta name="theme-color" content="#ffffff">
@@ -14,13 +14,13 @@
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://insurancebhaiya.com/policy-check">
-  <meta property="og:title" content="8-Point Policy Health Check | Underinsurance Diagnostic | Insurance Bhaiya">
-  <meta property="og:description" content="Audit your personal insurance coverage in 2 minutes. Score your vulnerability to common exclusion gaps, underinsurance traps, and liability exposure.">
+  <meta property="og:title" content="Policy Review Checklist | 10-Point Clause Audit | Insurance Bhaiya">
+  <meta property="og:description" content="Structured 3-step audit for policy renewal. Classify core clauses into Understand vs Need to check, and generate exact prompt questions for your carrier.">
   <meta property="og:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta property="og:image:secure_url" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="8-Point Policy Health Check">
+  <meta property="og:image:alt" content="Policy Review Checklist">
   <meta property="og:site_name" content="Insurance Bhaiya">
   <meta property="og:locale" content="en_US">
   
@@ -28,10 +28,10 @@
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://insurancebhaiya.com/policy-check">
-  <meta name="twitter:title" content="8-Point Policy Health Check | Underinsurance Diagnostic | Insurance Bhaiya">
-  <meta name="twitter:description" content="Audit your personal insurance coverage in 2 minutes. Score your vulnerability to common exclusion gaps, underinsurance traps, and liability exposure.">
+  <meta name="twitter:title" content="Policy Review Checklist | 10-Point Clause Audit | Insurance Bhaiya">
+  <meta name="twitter:description" content="Structured 3-step audit for policy renewal. Classify core clauses into Understand vs Need to check, and generate exact prompt questions for your carrier.">
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
-  <meta name="twitter:image:alt" content="8-Point Policy Health Check">
+  <meta name="twitter:image:alt" content="Policy Review Checklist">
 
   <!-- Schema.org Structured Data (JSON-LD) -->
 <script type="application/ld+json">
@@ -48,7 +48,7 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Policy Audit"
+      "name": "Policy Review Checklist"
     }
   ]
 }
@@ -145,6 +145,7 @@
         </div>
 
         <div class="drawer-body">
+
           <!-- Primary Navigation with Lucide SVG Icons -->
           <div class="drawer-section">
             <div class="drawer-section-title">Navigation</div>
@@ -287,7 +288,7 @@
           <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
         
             <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <span itemprop="name">Policy Audit</span>
+              <span itemprop="name">Policy Review Checklist</span>
               <meta itemprop="position" content="2" />
             </li>
           
@@ -295,123 +296,264 @@
   </nav>
   
 
-    <header style="margin-bottom: 40px; text-align: center;">
-      <span class="pill pill-accent" style="margin-bottom: 12px; display: inline-flex;">Underinsurance Diagnostic</span>
-      <h1 class="text-title-1" style="margin-bottom: 12px;">8-Point Policy Health Check</h1>
-      <p class="text-lead" style="margin: 0 auto; max-width: 600px;">
-        Audit your insurance coverage across key vulnerability vectors in 2 minutes. Zero data submitted to insurers.
+    <header style="margin-bottom: 32px;">
+      <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+        <span class="pill pill-accent">Audit Utility</span>
+        <span class="pill">Policy Review</span>
+      </div>
+      <h1 class="text-title-1" style="margin-bottom: 12px; font-weight: 600;">
+        Policy Review Checklist
+      </h1>
+      <p class="text-lead">
+        Structured 3-step audit covering 10 core clause categories to prepare for renewals or annual reviews. Zero sales calls, 100% educational.
       </p>
     </header>
 
-    <div class="apple-card" style="padding: 36px; margin-bottom: 40px; text-align: center; background: var(--color-surface);">
-      <div class="score-circle" id="auditScoreCircle">0%</div>
-      <div id="auditStatusText" style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin-bottom: 8px;">
-        Select the coverage protections you currently hold:
-      </div>
-      <p style="font-size: 0.8125rem; color: var(--color-secondary);">
-        100% Client-Side Simulation &bull; Private &amp; Anonymous
-      </p>
-    </div>
+    
+    <div class="tool-interactive-lab" id="auditChecklistInteractiveLab">
+      <!-- 1. Intro -->
+      <section class="tool-intro-hero">
+        <div class="tool-intro-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <span>Annual Renewal Protocol &bull; Guided 10-Point Audit</span>
+        </div>
+        <h2 class="tool-intro-title">Guided Policy Review &amp; Renewal Checklist</h2>
+        <p class="tool-intro-lead">Transform a confusing 40-page policy contract into a structured, step-by-step review process. Mark each clause as Understood, Need to Check, or Not Applicable.</p>
 
-    <div class="checklist-grid">
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_0" class="checklist-checkbox">
-          <div>
-            <label for="check_0" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              1. Building Replacement Cost Inflation Guard
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Does your homeowners policy include an Extended Replacement Cost endorsement (25% to 50% buffer above policy limits)?
-            </p>
+        <!-- Character Card -->
+        <div id="reviewBhaiyaCard">
+          
+      <div class="bhaiya-mentor-card context-welcome">
+        <div class="bhaiya-avatar-wrap">
+          <img src="/logo.png" alt="Insurance Bhaiya Guide" class="bhaiya-avatar-img" onerror="this.style.display='none'" />
+          <span class="bhaiya-status-dot"></span>
+        </div>
+        <div class="bhaiya-speech-bubble">
+          <div class="bhaiya-speaker-name">Insurance Bhaiya</div>
+          <p class="bhaiya-speech-text">Annual policy renewal coming up? Don't just auto-renew! Let's review the 10 critical checkpoints together.</p>
+        </div>
+      </div>
+    
+        </div>
+
+        <div class="tool-intro-note" style="margin-top: 20px;">
+          <strong>Educational Standard:</strong> Missing details or questions are not proof of inadequate coverage. This checklist helps you prepare targeted questions for your annual insurer review.
+        </div>
+      </section>
+
+      <!-- 2. Stepper Nav -->
+      <nav class="calc-stepper-container" aria-label="Policy Audit Steps">
+        <div class="calc-stepper-bar">
+          <button type="button" class="stepper-step is-active" id="chkStepTab1">
+            <span class="step-num">1</span>
+            <span class="step-text"><span class="step-label">Step 1</span><span class="step-name">Policy Sector</span></span>
+          </button>
+          <button type="button" class="stepper-step" id="chkStepTab2">
+            <span class="step-num">2</span>
+            <span class="step-text"><span class="step-label">Step 2</span><span class="step-name">10-Point Audit</span></span>
+          </button>
+          <button type="button" class="stepper-step" id="chkStepTab3">
+            <span class="step-num">3</span>
+            <span class="step-text"><span class="step-label">Step 3</span><span class="step-name">Action Report</span></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- 3. Panels -->
+      <div class="tool-stepper-panels">
+        <!-- Panel 1: Policy Selection -->
+        <div class="calc-tab-panel is-active" id="chkStepPanel1">
+          <div class="calc-panel-card">
+            <div class="panel-card-header">
+              <h3 class="panel-card-title">Step 1: Choose Policy to Audit</h3>
+              <p class="panel-card-desc">Select which insurance contract you are reviewing today.</p>
+            </div>
+
+            <div class="calc-field-group">
+              <label class="calc-field-label">Policy Type</label>
+              <div class="deductible-multi-selector" id="chkPolicyTypeGroup">
+                <button type="button" class="tier-toggle-pill is-selected" data-val="auto">Auto / Car Policy</button>
+                <button type="button" class="tier-toggle-pill" data-val="home">Home / Homeowners (HO-3)</button>
+                <button type="button" class="tier-toggle-pill" data-val="renters">Renters (HO-4)</button>
+                <button type="button" class="tier-toggle-pill" data-val="health">Health / Medical</button>
+                <button type="button" class="tier-toggle-pill" data-val="life">Life Insurance</button>
+                <button type="button" class="tier-toggle-pill" data-val="business">Business / Commercial</button>
+              </div>
+            </div>
+
+            <div class="panel-card-footer">
+              <span class="panel-hint-text">Step 1 of 3: Policy Selection</span>
+              <button type="button" class="btn btn-primary" id="chkBtnNext1">Begin 10-Point Audit &rarr;</button>
+            </div>
           </div>
         </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_1" class="checklist-checkbox">
-          <div>
-            <label for="check_1" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              2. Auto Bodily Injury Limits Exceed Minimums
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Are your auto liability limits calibrated to at least $100,000 / $300,000 / $100,000 rather than statutory state minimums?
-            </p>
+
+        <!-- Panel 2: 10 Core Categories -->
+        <div class="calc-tab-panel" id="chkStepPanel2">
+          <div class="calc-panel-card">
+            <div class="panel-card-header">
+              <h3 class="panel-card-title">Step 2: 10-Point Policy Audit</h3>
+              <p class="panel-card-desc">For each clause category, mark whether you understand it, need to check your documents, or if it doesn't apply.</p>
+            </div>
+
+            <div class="policy-audit-checklist-list" id="chkItemsList">
+              <!-- 10 Interactive Review Rows populated by JS -->
+            </div>
+
+            <div class="panel-card-footer">
+              <button type="button" class="btn btn-secondary" id="chkBtnBack2">&larr; Back</button>
+              <button type="button" class="btn btn-primary" id="chkBtnNext2">View Audit Report &rarr;</button>
+            </div>
           </div>
         </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_2" class="checklist-checkbox">
-          <div>
-            <label for="check_2" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              3. Water Backup &amp; Sump Pump Endorsement
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Standard homeowner policies exclude water backup through sewers and drains unless explicitly endorsed.
-            </p>
+
+        <!-- Panel 3: Action Report -->
+        <div class="calc-tab-panel" id="chkStepPanel3">
+          <div class="calc-panel-card">
+            <div class="panel-card-header">
+              <h3 class="panel-card-title">Step 3: Review Questions for Your Insurer</h3>
+              <p class="panel-card-desc">Here are the specific prompt questions generated from your audit.</p>
+            </div>
+
+            <div id="chkActionPromptList" style="margin-bottom: 24px;">
+              <!-- Populated by JS -->
+            </div>
+
+            <div class="panel-card-footer">
+              <button type="button" class="btn btn-secondary" id="chkBtnBack3">&larr; Back to Audit</button>
+              <button type="button" class="btn btn-ghost" id="chkBtnReset">Reset Checklist</button>
+            </div>
           </div>
         </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_3" class="checklist-checkbox">
+      </div>
+
+      <!-- 4. Educational Results Section -->
+      <section class="tool-results-section" id="chkResultsSection">
+        <div class="results-header-row">
           <div>
-            <label for="check_3" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              4. Personal Umbrella Liability Coverage
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              If your investable net worth and home equity exceed $500,000, do you hold a dedicated $1M+ umbrella policy?
-            </p>
+            <span class="pill pill-accent" style="margin-bottom: 8px;">Audit Outcome</span>
+            <h3 class="results-title">Policy Audit Status</h3>
+          </div>
+          <div class="results-status-badge">
+            <span class="status-indicator-dot"></span>
+            <span id="chkScoreBadge">0 / 10 Reviewed</span>
           </div>
         </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_4" class="checklist-checkbox">
+
+        <div class="breakeven-banner-card" style="background: linear-gradient(135deg, #ffffff 0%, #f0fdf4 100%); margin-bottom: 24px;">
           <div>
-            <label for="check_4" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              5. Own-Occupation Disability Protection
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Does your disability insurance pay if you are unable to perform your specific profession, rather than &#039;any occupation&#039;?
+            <div class="pill pill-accent" style="background: #ffffff; margin-bottom: 10px; font-weight: 600;">
+              Checklist Progress
+            </div>
+            <h4 class="breakeven-title" style="font-size: 1.375rem; margin-bottom: 8px;" id="chkSummaryTitle">Audit In Progress</h4>
+            <p class="breakeven-desc" id="chkSummaryDesc">
+              Marking policy sections as "Understand" or "Need to check" creates clarity before your next policy renewal window.
             </p>
           </div>
-        </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_5" class="checklist-checkbox">
-          <div>
-            <label for="check_5" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              6. Term Life Coverage Ratio
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Is your death benefit equal to at least 10x your annual gross income if you have minor children or a mortgage?
-            </p>
+          <div class="breakeven-stat-box" style="min-width: 200px;">
+            <div class="breakeven-stat-num num" id="chkCompletionPct" style="color: #059669;">
+              0%
+            </div>
+            <div class="breakeven-stat-cycle">Checklist Completed</div>
           </div>
         </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_6" class="checklist-checkbox">
-          <div>
-            <label for="check_6" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              7. Emergency Liquid Deductible Fund
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Do you have the combined total of your health, home, and auto deductibles held in an accessible high-yield savings account?
-            </p>
+
+        <!-- 4B. What This Means -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <span>What This Means</span>
+          </h3>
+          <p style="font-size: 1rem; line-height: 1.7; color: var(--color-text); margin-bottom: 16px;">
+            Conducting an annual 10-point policy check protects against passive auto-renewals:
+          </p>
+          <ul style="padding-left: 20px; line-height: 1.7; color: var(--color-secondary); font-size: 0.9375rem; margin-bottom: 16px;">
+            <li style="margin-bottom: 8px;">
+              <strong>Carriers Change Terms at Renewal:</strong> Deductibles, wind/hail rules, and roof valuation schedules (switching from replacement cost to ACV) are often modified in renewal notices.
+            </li>
+            <li style="margin-bottom: 8px;">
+              <strong>Life Changes Demand Policy Updates:</strong> Remodeling a kitchen, purchasing fine jewelry, adding a driver, or starting a business can leave recent assets uninsured unless documented.
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4C. How We Evaluated It -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span>How We Evaluated the Checklist</span>
+          </h3>
+          <p style="color: var(--color-secondary); font-size: 0.9375rem; line-height: 1.6;">
+            We track how many of the 10 standard policy elements you have marked as understood versus items requiring verification with your carrier documents.
+          </p>
+        </div>
+
+        <!-- 4D. Important Assumptions -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x2="12.01" y1="17" y2="17"/></svg>
+            <span>Important Assumptions</span>
+          </h3>
+          <p class="assumption-desc">Every insurance carrier formats contracts differently. Check your declarations page for the exact definitions applicable in your state.</p>
+        </div>
+
+        <!-- 4E. Things You May Want to Review -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            <span>Things You May Want to Review</span>
+          </h3>
+          <p style="color: var(--color-secondary); font-size: 0.9375rem; line-height: 1.6;">
+            Call your carrier 30 days before renewal with the questions generated above to confirm rates and endorsements.
+          </p>
+        </div>
+
+        <!-- 4F. Related Concepts -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span>Related Insurance Concepts</span>
+          </h3>
+          <div class="concepts-tag-cloud">
+            <a href="/glossary/beneficiary" class="concept-tag">Beneficiaries</a>
+            <a href="/glossary/premium" class="concept-tag">Premiums</a>
+            <a href="/glossary/deductible" class="concept-tag">Deductibles</a>
+            <a href="/glossary/exclusion" class="concept-tag">Exclusions</a>
           </div>
         </div>
-      
-        <div class="checklist-item">
-          <input type="checkbox" id="check_7" class="checklist-checkbox">
-          <div>
-            <label for="check_7" style="font-weight: 600; font-size: 1rem; color: var(--color-text); display: block; margin-bottom: 4px; cursor: pointer;">
-              8. Named Beneficiaries Up to Date
-            </label>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.5; margin: 0;">
-              Have you reviewed primary and contingent beneficiary designations on all life and annuity accounts within the past 24 months?
-            </p>
+
+        <!-- 4G. Related Articles -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            <span>Recommended Articles</span>
+          </h3>
+          <div class="tool-next-steps-grid">
+            <a href="/learn/how-often-should-you-review-insurance" class="next-step-card">
+              <span class="next-step-badge">Editorial Guide</span>
+              <div class="next-step-title">How Often to Review Insurance</div>
+              <p class="next-step-desc">The annual review rhythm and the 7 life milestones that require immediate policy updates.</p>
+            </a>
           </div>
         </div>
-      
+
+        <!-- 4H. Next Step -->
+        <div class="educational-breakdown-card" style="background: linear-gradient(135deg, #ffffff 0%, #f0fdf4 100%); border-color: #a7f3d0;">
+          <h3 class="section-h3" style="color: #065f46;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <span>Recommended Next Learning Step</span>
+          </h3>
+          <div class="tool-next-steps-grid">
+            <a href="/insurance-readiness-quiz/" class="next-step-card" style="border-color: #34d399;">
+              <span class="next-step-badge" style="background: #ecfdf5; color: #059669;">Test Your Knowledge (+15 XP)</span>
+              <div class="next-step-title">Insurance Readiness Quiz</div>
+              <p class="next-step-desc">Test your real-world insurance IQ with 10 scenario challenges.</p>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
+  
 
     <!-- Policy Check FAQs -->
     
@@ -421,8 +563,8 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
         <span>Search Intent &amp; FAQ</span>
       </div>
-      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions: Policy Health Check &amp; Coverage Gaps</h2>
-      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">How to interpret your score, address underinsurance vulnerabilities, and calibrate policy limits.</p>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions: Policy Review Checklist &amp; Clauses</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">How to interpret your audit results, address coverage traps, and ask insurers the right questions.</p>
     </div>
 
     <div class="faq-list">

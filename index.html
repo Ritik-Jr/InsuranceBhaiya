@@ -119,6 +119,7 @@
         </div>
 
         <div class="drawer-body">
+
           <!-- Primary Navigation with Lucide SVG Icons -->
           <div class="drawer-section">
             <div class="drawer-section-title">Navigation</div>
@@ -253,14 +254,14 @@
     <!-- Apple Hero Section -->
     <section class="section" style="padding-top: 52px; padding-bottom: 40px; text-align: center;">
       <div class="container" style="max-width: 860px;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px;">
-          <span class="pill pill-accent" style="font-weight: 600; padding: 6px 14px;">
+        <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; max-width: 100%;">
+          <span class="pill pill-accent" style="font-weight: 600; padding: 6px 14px; max-width: 100%; white-space: normal; text-align: center;">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
             Independent &amp; Free &bull; No Sales Agents
           </span>
         </div>
-        <h1 class="text-display" style="font-size: clamp(2.4rem, 5.2vw, 3.8rem); font-weight: 700; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 20px; color: var(--color-text);">
-          Understand Insurance.<br>Make Informed Decisions.
+        <h1 class="text-display" style="font-size: clamp(1.85rem, 5vw, 3.8rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 20px; color: var(--color-text); overflow-wrap: break-word; word-break: normal;">
+          Understand Insurance.<br class="desktop-only"> Make Informed Decisions.
         </h1>
         <p class="text-lead" style="font-size: clamp(1.05rem, 2vw, 1.25rem); color: var(--color-secondary); max-width: 680px; margin: 0 auto 36px auto; line-height: 1.6;">
           Simple, honest insurance guides and free calculators to help you choose the right coverage for you and your family. No sales calls, no commission bias.
@@ -276,7 +277,7 @@
         </div>
 
         <!-- Quick Filter Tags -->
-        <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;">
+        <div class="home-hero-tags" style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 18px;">
           <a href="/insurance/health-insurance" class="pill">Health</a>
           <a href="/insurance/life-insurance" class="pill">Life</a>
           <a href="/insurance/car-insurance" class="pill">Car</a>
@@ -645,7 +646,7 @@
         </div>
         <div class="grid-3">
           
-    <div class="apple-card apple-calc-card card-pastel-blue">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="life-insurance-calculator">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -684,7 +685,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-purple">
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="term-insurance-calculator">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -723,7 +724,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-green">
+    <div class="apple-card apple-calc-card card-pastel-green" data-slug="health-insurance-calculator">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -738,12 +739,12 @@
 
         <h3 class="apple-calc-title">
           <a href="/health-insurance-calculator/">
-            Health Insurance Calculator
+            Out-of-Pocket Cost Calculator
           </a>
         </h3>
 
         <p class="apple-calc-desc">
-          Evaluate total annual healthcare expenditure across premiums, deductibles, copays, and out-of-pocket maximums.
+          Estimate how medical bills and covered losses are divided across deductibles, copays, coinsurance, and out-of-pocket limits.
         </p>
 
         
@@ -756,13 +757,13 @@
 
       <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
         <a href="/health-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
-          <span>Compare Plan Costs</span>
+          <span>Simulate Out-of-Pocket Costs</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-amber">
+    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="car-insurance-calculator">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -777,12 +778,12 @@
 
         <h3 class="apple-calc-title">
           <a href="/car-insurance-calculator/">
-            Car Insurance Calculator
+            Car Insurance Coverage Calculator
           </a>
         </h3>
 
         <p class="apple-calc-desc">
-          Simulate auto premium estimates based on vehicle replacement cost, driving mileage, liability limits, and collision deductibles.
+          Audit your automotive coverage checklist across liability, collision, comprehensive, UM/UIM, and medical defense layers.
         </p>
 
         
@@ -795,13 +796,52 @@
 
       <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
         <a href="/car-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
-          <span>Estimate Auto Rates</span>
+          <span>Assess Coverage Needs</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-blue">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="car-insurance-deductible-calculator">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.7 2 11.3 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Interactive Scenario Lab
+            </span>
+          </div>
+        </div>
+
+        <h3 class="apple-calc-title">
+          <a href="/car-insurance-deductible-calculator/">
+            Car Insurance Deductible Calculator
+          </a>
+        </h3>
+
+        <p class="apple-calc-desc">
+          Compare vehicle collision and comprehensive deductible options ($250 to $2,500) side by side with breakeven horizons and claim costs.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Models physical damage rate elasticities across deductible tiers and calculates your net out-of-pocket outlay and claim-free breakeven horizon.
+          </div>
+        
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/car-insurance-deductible-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Compare Auto Deductibles</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="home-insurance-calculator">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -809,71 +849,32 @@
           </div>
           <div style="display: flex; gap: 6px; align-items: center;">
             <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
-              Property
+              Coverage Suite
             </span>
           </div>
         </div>
 
         <h3 class="apple-calc-title">
           <a href="/home-insurance-calculator/">
-            Home Insurance Calculator
+            Home Insurance Coverage Calculator
           </a>
         </h3>
 
         <p class="apple-calc-desc">
-          Estimate structural rebuilding costs per square foot, personal property coverage, and premises liability.
+          Allocate policy limits across dwelling replacement, other structures, personal property, loss of use, and liability.
         </p>
 
         
           <div class="apple-calc-formula">
             <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
-            Calculates dwelling reconstruction value based on square footage and regional building index, setting 50% personal property ratio.
+            Separates Dwelling, Other Structures (10%), Personal Property (60%), Loss of Use (20%), and Personal Liability ($300k-$500k).
           </div>
         
       </div>
 
       <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
         <a href="/home-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
-          <span>Calculate Home Rebuild</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-    </div>
-  
-    <div class="apple-card apple-calc-card card-pastel-purple">
-      <div>
-        <div class="apple-calc-header">
-          <div class="apple-calc-icon-box">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <div style="display: flex; gap: 6px; align-items: center;">
-            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
-              Cash Flow
-            </span>
-          </div>
-        </div>
-
-        <h3 class="apple-calc-title">
-          <a href="/premium-calculator/">
-            Universal Premium Calculator
-          </a>
-        </h3>
-
-        <p class="apple-calc-desc">
-          Calculate annual vs. semi-annual vs. monthly payment savings, installment fees, and payment cash flow impacts.
-        </p>
-
-        
-          <div class="apple-calc-formula">
-            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
-            Calculates modal installment surcharges (typically 3-8% annual penalty) when paying monthly rather than annually.
-          </div>
-        
-      </div>
-
-      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
-        <a href="/premium-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
-          <span>Optimize Payment Mode</span>
+          <span>Calculate Coverage Limits</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -896,93 +897,93 @@
         </div>
         <div class="grid-2">
           
-              <div class="apple-card apple-compare-card">
-                <div class="apple-compare-split">
-                  <div class="apple-compare-half" style="background: var(--pastel-blue-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--color-accent); margin-bottom: 8px; font-weight: 600;">Plan A</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Term Life Insurance</h3>
+              <div class="apple-card" style="padding: 24px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface);">
+                <div>
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                    <span class="pill pill-accent" style="font-size: 0.75rem; font-weight: 600;">Life Insurance</span>
+                    <span style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 500;">5 Dimensions</span>
                   </div>
-                  <div class="apple-compare-vs">VS</div>
-                  <div class="apple-compare-half" style="background: var(--pastel-green-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--pastel-green-accent); margin-bottom: 8px; font-weight: 600;">Plan B</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Whole Life Insurance</h3>
-                  </div>
-                </div>
-                <div class="apple-compare-foot">
-                  <p style="font-size: 0.875rem; color: var(--color-secondary); max-width: 380px; margin: 0;">
+                  <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 8px; line-height: 1.35;">
+                    <a href="/compare/term-vs-whole-life" class="card-title-link">
+                      Term Life vs. Whole Life Insurance
+                    </a>
+                  </h3>
+                  <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.55; margin-bottom: 16px;">
                     Pure temporary risk protection vs. permanent lifelong coverage with a cash value savings account.
                   </p>
-                  <a href="/compare/term-vs-whole-life" class="btn btn-primary btn-sm" style="background: #0071e3; color: #ffffff; flex-shrink: 0;">
-                    <span>Compare</span>
+                </div>
+                <div style="padding-top: 14px; border-top: 1px solid var(--color-border); margin-top: auto;">
+                  <a href="/compare/term-vs-whole-life" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600; color: var(--color-accent); display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+                    <span>Compare Term Life Insurance vs. Whole Life Insurance</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
               </div>
             
-              <div class="apple-card apple-compare-card">
-                <div class="apple-compare-split">
-                  <div class="apple-compare-half" style="background: var(--pastel-blue-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--color-accent); margin-bottom: 8px; font-weight: 600;">Plan A</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">High Deductible (e.g. $1,000 - $2,500)</h3>
+              <div class="apple-card" style="padding: 24px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface);">
+                <div>
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                    <span class="pill pill-accent" style="font-size: 0.75rem; font-weight: 600;">General Principles</span>
+                    <span style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 500;">4 Dimensions</span>
                   </div>
-                  <div class="apple-compare-vs">VS</div>
-                  <div class="apple-compare-half" style="background: var(--pastel-green-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--pastel-green-accent); margin-bottom: 8px; font-weight: 600;">Plan B</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Low Deductible (e.g. $250 - $500)</h3>
-                  </div>
-                </div>
-                <div class="apple-compare-foot">
-                  <p style="font-size: 0.875rem; color: var(--color-secondary); max-width: 380px; margin: 0;">
+                  <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 8px; line-height: 1.35;">
+                    <a href="/compare/deductible-vs-premium" class="card-title-link">
+                      High Deductible vs. Low Deductible
+                    </a>
+                  </h3>
+                  <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.55; margin-bottom: 16px;">
                     Trading higher monthly premium stability for lower out-of-pocket risk when a claim strikes.
                   </p>
-                  <a href="/compare/deductible-vs-premium" class="btn btn-primary btn-sm" style="background: #0071e3; color: #ffffff; flex-shrink: 0;">
-                    <span>Compare</span>
+                </div>
+                <div style="padding-top: 14px; border-top: 1px solid var(--color-border); margin-top: auto;">
+                  <a href="/compare/deductible-vs-premium" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600; color: var(--color-accent); display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+                    <span>Compare High Deductible (e.g. $1,000 - $2,500) vs. Low Deductible (e.g. $250 - $500)</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
               </div>
             
-              <div class="apple-card apple-compare-card">
-                <div class="apple-compare-split">
-                  <div class="apple-compare-half" style="background: var(--pastel-blue-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--color-accent); margin-bottom: 8px; font-weight: 600;">Plan A</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Collision Coverage</h3>
+              <div class="apple-card" style="padding: 24px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface);">
+                <div>
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                    <span class="pill pill-accent" style="font-size: 0.75rem; font-weight: 600;">Car Insurance</span>
+                    <span style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 500;">3 Dimensions</span>
                   </div>
-                  <div class="apple-compare-vs">VS</div>
-                  <div class="apple-compare-half" style="background: var(--pastel-green-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--pastel-green-accent); margin-bottom: 8px; font-weight: 600;">Plan B</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Comprehensive Coverage</h3>
-                  </div>
-                </div>
-                <div class="apple-compare-foot">
-                  <p style="font-size: 0.875rem; color: var(--color-secondary); max-width: 380px; margin: 0;">
+                  <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 8px; line-height: 1.35;">
+                    <a href="/compare/comprehensive-vs-collision" class="card-title-link">
+                      Comprehensive vs. Collision Auto Insurance
+                    </a>
+                  </h3>
+                  <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.55; margin-bottom: 16px;">
                     Damage from moving crashes vs. damage from weather, animals, theft, and falling objects.
                   </p>
-                  <a href="/compare/comprehensive-vs-collision" class="btn btn-primary btn-sm" style="background: #0071e3; color: #ffffff; flex-shrink: 0;">
-                    <span>Compare</span>
+                </div>
+                <div style="padding-top: 14px; border-top: 1px solid var(--color-border); margin-top: auto;">
+                  <a href="/compare/comprehensive-vs-collision" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600; color: var(--color-accent); display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+                    <span>Compare Collision Coverage vs. Comprehensive Coverage</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>
               </div>
             
-              <div class="apple-card apple-compare-card">
-                <div class="apple-compare-split">
-                  <div class="apple-compare-half" style="background: var(--pastel-blue-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--color-accent); margin-bottom: 8px; font-weight: 600;">Plan A</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Actual Cash Value (ACV)</h3>
+              <div class="apple-card" style="padding: 24px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface);">
+                <div>
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                    <span class="pill pill-accent" style="font-size: 0.75rem; font-weight: 600;">Property &amp; Home</span>
+                    <span style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 500;">2 Dimensions</span>
                   </div>
-                  <div class="apple-compare-vs">VS</div>
-                  <div class="apple-compare-half" style="background: var(--pastel-green-bg);">
-                    <span class="pill" style="font-size: 0.6875rem; background: #ffffff; color: var(--pastel-green-accent); margin-bottom: 8px; font-weight: 600;">Plan B</span>
-                    <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--color-text);">Replacement Cost Value (RCV)</h3>
-                  </div>
-                </div>
-                <div class="apple-compare-foot">
-                  <p style="font-size: 0.875rem; color: var(--color-secondary); max-width: 380px; margin: 0;">
+                  <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 8px; line-height: 1.35;">
+                    <a href="/compare/actual-cash-value-vs-replacement-cost" class="card-title-link">
+                      Actual Cash Value (ACV) vs. Replacement Cost (RCV)
+                    </a>
+                  </h3>
+                  <p style="font-size: 0.875rem; color: var(--color-secondary); line-height: 1.55; margin-bottom: 16px;">
                     Getting paid used second-hand market value vs. the cost to buy brand new replacements.
                   </p>
-                  <a href="/compare/actual-cash-value-vs-replacement-cost" class="btn btn-primary btn-sm" style="background: #0071e3; color: #ffffff; flex-shrink: 0;">
-                    <span>Compare</span>
+                </div>
+                <div style="padding-top: 14px; border-top: 1px solid var(--color-border); margin-top: auto;">
+                  <a href="/compare/actual-cash-value-vs-replacement-cost" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600; color: var(--color-accent); display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+                    <span>Compare Actual Cash Value (ACV) vs. Replacement Cost Value (RCV)</span>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
                 </div>

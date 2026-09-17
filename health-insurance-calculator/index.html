@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Health Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya</title>
-  <meta name="title" content="Health Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya">
-  <meta name="description" content="Model your actual out-of-pocket health costs versus annual premiums to pick the most cost-effective health tier.">
+  <title>Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya</title>
+  <meta name="title" content="Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta name="description" content="Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://insurancebhaiya.com/health-insurance-calculator/">
   <meta name="theme-color" content="#ffffff">
@@ -14,13 +14,13 @@
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://insurancebhaiya.com/health-insurance-calculator/">
-  <meta property="og:title" content="Health Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya">
-  <meta property="og:description" content="Model your actual out-of-pocket health costs versus annual premiums to pick the most cost-effective health tier.">
+  <meta property="og:title" content="Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta property="og:description" content="Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums.">
   <meta property="og:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta property="og:image:secure_url" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Health Insurance Calculator">
+  <meta property="og:image:alt" content="Out-of-Pocket Cost Calculator">
   <meta property="og:site_name" content="Insurance Bhaiya">
   <meta property="og:locale" content="en_US">
   
@@ -28,10 +28,10 @@
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://insurancebhaiya.com/health-insurance-calculator/">
-  <meta name="twitter:title" content="Health Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya">
-  <meta name="twitter:description" content="Model your actual out-of-pocket health costs versus annual premiums to pick the most cost-effective health tier.">
+  <meta name="twitter:title" content="Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta name="twitter:description" content="Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums.">
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
-  <meta name="twitter:image:alt" content="Health Insurance Calculator">
+  <meta name="twitter:image:alt" content="Out-of-Pocket Cost Calculator">
 
   <!-- Schema.org Structured Data (JSON-LD) -->
 <script type="application/ld+json">
@@ -54,7 +54,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Health Insurance Calculator"
+      "name": "Out-of-Pocket Cost Calculator"
     }
   ]
 }
@@ -63,9 +63,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Health Insurance Calculator",
+  "name": "Out-of-Pocket Cost Calculator",
   "url": "https://insurancebhaiya.com/health-insurance-calculator/",
-  "description": "Evaluate total annual healthcare expenditure across premiums, deductibles, copays, and out-of-pocket maximums.",
+  "description": "Estimate how medical bills and covered losses are divided across deductibles, copays, coinsurance, and out-of-pocket limits.",
   "applicationCategory": "FinanceApplication",
   "operatingSystem": "All",
   "browserRequirements": "Requires JavaScript. Requires HTML5.",
@@ -173,6 +173,7 @@
         </div>
 
         <div class="drawer-body">
+
           <!-- Primary Navigation with Lucide SVG Icons -->
           <div class="drawer-section">
             <div class="drawer-section-title">Navigation</div>
@@ -321,7 +322,7 @@
           <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
         
             <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-              <span itemprop="name">Health Insurance Calculator</span>
+              <span itemprop="name">Out-of-Pocket Cost Calculator</span>
               <meta itemprop="position" content="3" />
             </li>
           
@@ -335,57 +336,550 @@
         <span class="pill">health insurance</span>
       </div>
       <h1 class="text-title-1" style="margin-bottom: 12px; font-weight: 600;">
-        Health Insurance Calculator
+        Out-of-Pocket Cost Calculator
       </h1>
       <p class="text-lead">
-        Evaluate total annual healthcare expenditure across premiums, deductibles, copays, and out-of-pocket maximums.
+        Estimate how medical bills and covered losses are divided across deductibles, copays, coinsurance, and out-of-pocket limits.
       </p>
     </header>
 
     <!-- DEDICATED Interactive Calculator Card -->
     
-        <div class="calculator-card">
-          <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 24px;">HDHP vs PPO Annual Cost Simulator</h2>
-          <div class="calc-grid">
-            <div>
-              <div class="calc-field">
-                <div class="calc-field-header">
-                  <label for="healthVisits" class="calc-field-label">Anticipated Doctor Visits / Year</label>
-                  <span class="calc-value-badge num" id="healthVisitsVal">3 visits/yr</span>
-                </div>
-                <input type="range" id="healthVisits" min="0" max="20" step="1" value="3" class="calc-slider">
-              </div>
+    <div class="tool-interactive-lab" id="oopInteractiveLab">
+      <!-- 1. Educational Introduction -->
+      <section class="tool-intro-hero">
+        <div class="tool-concept-cards-strip">
+          <div class="tool-concept-card">
+            <div class="concept-card-icon concept-icon-deductible">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/><path d="M2 12h20"/></svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-card-title">Deductible</div>
+              <p class="concept-card-desc">The amount you pay 100% out-of-pocket before insurance cost-sharing activates.</p>
+            </div>
+          </div>
 
-              <div style="margin: 22px 0;">
-                <label class="apple-toggle-label">
-                  <input type="checkbox" id="healthProcedure">
-                  <span class="apple-toggle-track">
-                    <span class="apple-toggle-knob"></span>
-                  </span>
-                  <span class="calc-field-label">Anticipating Major Inpatient Surgery or Procedure</span>
-                </label>
+          <div class="concept-card-separator">&rarr;</div>
+
+          <div class="tool-concept-card">
+            <div class="concept-card-icon concept-icon-premium">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="M9 9h.01"/><path d="M15 15h.01"/></svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-card-title">Copay &amp; Coinsurance</div>
+              <p class="concept-card-desc">Your shared portion: flat fees (copays) or percentage splits (coinsurance) for covered care.</p>
+            </div>
+          </div>
+
+          <div class="concept-card-separator">&rarr;</div>
+
+          <div class="tool-concept-card">
+            <div class="concept-card-icon" style="color: #10b981; background: #ecfdf5; border-color: #a7f3d0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-card-title">Out-of-Pocket Maximum</div>
+              <p class="concept-card-desc">The annual ceiling on covered care. Once reached, your insurer pays 100% of eligible costs.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tool-intro-note">
+          <strong>Educational Notice:</strong> This interactive model generates educational estimates to explain cost-sharing mechanics. Results are educational estimates only and must never be presented as guaranteed medical quotes or claim reimbursements. Actual coverage depends on your policy terms, network status, and insurer.
+        </div>
+      </section>
+
+      <!-- 2. Interactive Stepper Navigation -->
+      <div class="calc-stepper-container">
+        <div class="calc-stepper-bar">
+          <button type="button" class="stepper-step is-active" data-step="1" id="oopStepTab1">
+            <span class="step-num">1</span>
+            <span class="step-text">
+              <span class="step-label">Step 1</span>
+              <span class="step-name">Policy Structure</span>
+            </span>
+          </button>
+          <div class="stepper-track-line"></div>
+          <button type="button" class="stepper-step" data-step="2" id="oopStepTab2">
+            <span class="step-num">2</span>
+            <span class="step-text">
+              <span class="step-label">Step 2</span>
+              <span class="step-name">Cost-Sharing Limits</span>
+            </span>
+          </button>
+          <div class="stepper-track-line"></div>
+          <button type="button" class="stepper-step" data-step="3" id="oopStepTab3">
+            <span class="step-num">3</span>
+            <span class="step-text">
+              <span class="step-label">Step 3</span>
+              <span class="step-name">Bill Scenario</span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. Stepper Panels -->
+
+      <!-- Step 1: Insurance Type -->
+      <div class="calc-step-panel is-active" id="oopStepPanel1">
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <span class="panel-step-badge">Step 1 of 3</span>
+            <h3 class="panel-card-title">Select Insurance Line &amp; Structure</h3>
+            <p class="panel-card-subtitle">Choose the type of insurance policy to configure appropriate cost-sharing elements (deductible, copays, coinsurance, or maximum limits).</p>
+          </div>
+
+          <div class="insurance-types-grid" id="oopTypeGrid">
+            <div class="type-select-card is-selected" data-type="health">
+              <div class="type-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
               </div>
+              <div class="type-name">Health Insurance</div>
+              <div class="type-benchmark">Deductible + Copay + Coinsurance + OOP Max</div>
             </div>
 
-            <div class="calc-result-box">
-              <span class="calc-result-caption">Annual Out-of-Pocket Comparison</span>
-              <div style="display: flex; justify-content: space-around; width: 100%; margin: 18px 0;">
-                <div>
-                  <div style="font-size: 0.8125rem; color: var(--color-secondary); margin-bottom: 4px;">PPO Total Cost</div>
-                  <div class="num" id="healthResultPPO" style="font-size: 1.75rem; font-weight: 700; color: #1d1d1f;">$6,690</div>
-                </div>
-                <div style="border-left: 1px solid rgba(0, 113, 227, 0.2); padding-left: 20px;">
-                  <div style="font-size: 0.8125rem; color: var(--color-secondary); margin-bottom: 4px;">HDHP Total Cost</div>
-                  <div class="num" id="healthResultHDHP" style="font-size: 1.75rem; font-weight: 700; color: #0071e3;">$4,320</div>
-                </div>
+            <div class="type-select-card" data-type="auto-med">
+              <div class="type-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 11.2 2 11.6 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
               </div>
-              <div id="healthRecommendation" style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.5; border-top: 1px solid rgba(0, 113, 227, 0.15); padding-top: 14px; text-align: left; width: 100%;">
-                <strong>HDHP Saves $2,370/year:</strong> Because your anticipated medical usage is low, lower monthly premiums and HSA tax advantages are mathematically superior.
+              <div class="type-name">Auto MedPay / PIP</div>
+              <div class="type-benchmark">Deductible + Policy Limit (No Copay)</div>
+            </div>
+
+            <div class="type-select-card" data-type="property">
+              <div class="type-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div class="type-name">Property / Homeowner</div>
+              <div class="type-benchmark">Deductible + Coverage Limit (0% Coinsurance)</div>
+            </div>
+          </div>
+
+          <div class="panel-card-footer">
+            <div class="panel-hint-text">Select a policy structure above or advance directly to fine-tune cost-sharing limits.</div>
+            <button type="button" class="btn btn-primary" id="oopBtnNext1">
+              <span>Continue to Step 2: Limits</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Cost Sharing Limits -->
+      <div class="calc-step-panel" id="oopStepPanel2">
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <span class="panel-step-badge">Step 2 of 3</span>
+            <h3 class="panel-card-title">Define Policy Cost-Sharing Limits</h3>
+            <p class="panel-card-subtitle">Set your policy's annual deductible, prior amounts already satisfied, copay, coinsurance rate, and out-of-pocket maximum or limit.</p>
+          </div>
+
+          <div class="calc-fields-grid">
+            <!-- Total Deductible -->
+            <div class="calc-field-group">
+              <div class="calc-field-header">
+                <label for="oopDeductible" class="calc-field-label">Annual Policy Deductible</label>
+                <span class="calc-value-badge num" id="oopDeductibleVal">$2,000</span>
+              </div>
+              <input type="range" id="oopDeductible" min="0" max="10000" step="250" value="2000" class="calc-slider">
+              <span class="calc-field-help">Amount you must pay before insurer cost-sharing kicks in.</span>
+            </div>
+
+            <!-- Amount Already Paid Toward Deductible -->
+            <div class="calc-field-group">
+              <div class="calc-field-header">
+                <label for="oopPriorPaid" class="calc-field-label">Amount Already Paid Toward Deductible</label>
+                <span class="calc-value-badge num" id="oopPriorPaidVal">$500</span>
+              </div>
+              <input type="range" id="oopPriorPaid" min="0" max="10000" step="250" value="500" class="calc-slider">
+              <span class="calc-field-help" id="oopDeductibleRemainingBadge">Remaining deductible to meet: <strong class="num">$1,500</strong></span>
+            </div>
+
+            <!-- Copay (Flat Fee) -->
+            <div class="calc-field-group" id="oopCopayGroup">
+              <div class="calc-field-header">
+                <label for="oopCopay" class="calc-field-label">Flat Copay Fee (Where Applicable)</label>
+                <span class="calc-value-badge num" id="oopCopayVal">$40</span>
+              </div>
+              <input type="range" id="oopCopay" min="0" max="250" step="5" value="40" class="calc-slider">
+              <span class="calc-field-help">Fixed flat fee for a visit or service. (Set to $0 if plan uses coinsurance only).</span>
+            </div>
+
+            <!-- Coinsurance Percentage -->
+            <div class="calc-field-group" id="oopCoinsuranceGroup">
+              <div class="calc-field-header">
+                <label for="oopCoinsurance" class="calc-field-label">Your Coinsurance Share (%)</label>
+                <span class="calc-value-badge num" id="oopCoinsuranceVal">20% User / 80% Insurer</span>
+              </div>
+              <input type="range" id="oopCoinsurance" min="0" max="100" step="5" value="20" class="calc-slider">
+              <span class="calc-field-help">The percentage of remaining covered costs you pay after the deductible is met.</span>
+            </div>
+
+            <!-- Out-of-Pocket Max / Policy Limit -->
+            <div class="calc-field-group" style="grid-column: 1 / -1;">
+              <div class="calc-field-header">
+                <label for="oopMaxLimit" class="calc-field-label" id="oopMaxLimitLabel">Annual Out-of-Pocket Maximum / Coverage Limit</label>
+                <span class="calc-value-badge num" id="oopMaxLimitVal">$8,000</span>
+              </div>
+              <input type="range" id="oopMaxLimit" min="1000" max="50000" step="500" value="8000" class="calc-slider">
+              <span class="calc-field-help" id="oopMaxLimitHelp">Once your covered out-of-pocket costs reach this annual threshold, the insurer pays 100% of remaining covered expenses.</span>
+            </div>
+          </div>
+
+          <div class="panel-card-footer">
+            <button type="button" class="btn btn-secondary" id="oopBtnBack2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+              <span>Back to Step 1</span>
+            </button>
+            <button type="button" class="btn btn-primary" id="oopBtnNext2">
+              <span>Continue to Step 3: Bill</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3: Medical / Loss Bill Simulation -->
+      <div class="calc-step-panel" id="oopStepPanel3">
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <span class="panel-step-badge">Step 3 of 3</span>
+            <h3 class="panel-card-title">Simulate Covered Bill or Loss Amount</h3>
+            <p class="panel-card-subtitle">Test realistic medical procedures or property damage bills to see the mathematical cost-sharing breakdown.</p>
+          </div>
+
+          <!-- Total Bill Amount -->
+          <div class="calc-field-group" style="margin-bottom: 24px;">
+            <div class="calc-field-header">
+              <label for="oopTotalBill" class="calc-field-label">Total Covered Bill / Incurred Expense</label>
+              <span class="calc-value-badge num" id="oopTotalBillVal" style="font-size: 1.125rem; font-weight: 700; color: var(--color-accent);">$4,500</span>
+            </div>
+            <input type="range" id="oopTotalBill" min="100" max="50000" step="100" value="4500" class="calc-slider">
+            <span class="calc-field-help">Gross negotiated charge or eligible covered expense submitted to your insurer.</span>
+          </div>
+
+          <!-- Scenario Quick Buttons -->
+          <div style="margin-bottom: 24px;">
+            <div style="font-size: 0.8125rem; font-weight: 600; color: var(--color-secondary); margin-bottom: 10px;">Quick Bill Scenarios:</div>
+            <div class="quick-scenario-strip" id="oopScenarioStrip">
+              <button type="button" class="scenario-btn" data-bill="350">
+                <span class="scenario-btn-name">Clinic Visit / Lab Work</span>
+                <span class="scenario-btn-val num">$350</span>
+              </button>
+              <button type="button" class="scenario-btn" data-bill="1800">
+                <span class="scenario-btn-name">Specialist + MRI Scan</span>
+                <span class="scenario-btn-val num">$1,800</span>
+              </button>
+              <button type="button" class="scenario-btn is-active" data-bill="4500">
+                <span class="scenario-btn-name">Outpatient Procedure</span>
+                <span class="scenario-btn-val num">$4,500</span>
+              </button>
+              <button type="button" class="scenario-btn" data-bill="25000">
+                <span class="scenario-btn-name">Major Inpatient Hospital Stay</span>
+                <span class="scenario-btn-val num">$25,000</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="panel-card-footer">
+            <button type="button" class="btn btn-secondary" id="oopBtnBack3">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+              <span>Back to Step 2</span>
+            </button>
+            <button type="button" class="btn btn-ghost" id="oopBtnReset">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+              <span>Reset to Defaults</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Real-Time Calculation Results & Bill Allocation -->
+      <section class="tool-results-section" id="oopResultsSection">
+        <div class="results-header-row">
+          <div>
+            <span class="pill pill-accent" style="margin-bottom: 8px;">Real-Time Mathematical Output</span>
+            <h3 class="results-title">Bill Allocation &amp; Out-of-Pocket Breakdown</h3>
+          </div>
+          <div class="results-status-badge">
+            <span class="status-indicator-dot"></span>
+            <span id="oopResultStatus">Edge-Case Verified</span>
+          </div>
+        </div>
+
+        <!-- 4A. Top Level Comparison Cards -->
+        <div class="results-comparison-grid">
+          <!-- User Payment Card -->
+          <div class="result-scenario-card is-highlight">
+            <div class="scenario-card-badge" style="background: var(--pastel-blue-bg); color: var(--color-accent);">Your Out-of-Pocket Share</div>
+            <h4 class="scenario-card-title">Estimated User Payment</h4>
+            <div class="scenario-card-price">
+              <span class="price-num num" id="oopResultUserTotal" style="color: #0071e3;">$2,130</span>
+              <span class="price-cycle">Total you pay</span>
+            </div>
+            <div class="scenario-card-breakdown">
+              <div class="breakdown-item">
+                <span class="item-label">Deductible Applied:</span>
+                <span class="item-val num" id="oopResultUserDeductible">$1,500</span>
+              </div>
+              <div class="breakdown-item" id="oopResultUserCopayRow">
+                <span class="item-label">Copay Applied:</span>
+                <span class="item-val num" id="oopResultUserCopay">$40</span>
+              </div>
+              <div class="breakdown-item" id="oopResultUserCoinsuranceRow">
+                <span class="item-label">Coinsurance Applied (20%):</span>
+                <span class="item-val num" id="oopResultUserCoinsurance">$590</span>
+              </div>
+              <div class="breakdown-item" id="oopResultUserUncoveredRow" style="display: none;">
+                <span class="item-label" style="color: #ef4444;">Uncovered Above Limit:</span>
+                <span class="item-val num" id="oopResultUserUncovered" style="color: #ef4444;">$0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Insurer Payment Card -->
+          <div class="result-scenario-card">
+            <div class="scenario-card-badge" style="background: #ecfdf5; color: #059669;">Insurer Responsibility</div>
+            <h4 class="scenario-card-title">Estimated Insurer Payment</h4>
+            <div class="scenario-card-price">
+              <span class="price-num num" id="oopResultInsurerTotal" style="color: #059669;">$2,370</span>
+              <span class="price-cycle">Covered by plan</span>
+            </div>
+            <div class="scenario-card-breakdown">
+              <div class="breakdown-item">
+                <span class="item-label">Covered Bill Total:</span>
+                <span class="item-val num" id="oopResultTotalBillEcho">$4,500</span>
+              </div>
+              <div class="breakdown-item">
+                <span class="item-label">Insurer Coinsurance Share (80%):</span>
+                <span class="item-val num" id="oopResultInsurerCoinsurance">$2,370</span>
+              </div>
+              <div class="breakdown-item">
+                <span class="item-label">Insurer Share of Bill:</span>
+                <span class="item-val num" id="oopResultInsurerPct">52.7%</span>
               </div>
             </div>
           </div>
         </div>
-      
+
+        <!-- 4B. Visual Bill Breakdown Bar -->
+        <div class="visual-bill-bar-card">
+          <div class="visual-bar-header">
+            <div>
+              <h4 style="font-size: 1.0625rem; font-weight: 600; margin-bottom: 4px;">Visual Bill Allocation</h4>
+              <p style="font-size: 0.875rem; color: var(--color-secondary); margin: 0;">Proportional split of the total bill across cost-sharing components</p>
+            </div>
+            <span class="num" id="oopVisualTotalEcho" style="font-weight: 700; font-size: 1.125rem;">$4,500</span>
+          </div>
+
+          <div class="visual-bill-bar" id="oopVisualBar">
+            <div class="bill-bar-segment segment-deductible" id="segDeductible" style="width: 33.3%;" title="Deductible: $1,500"></div>
+            <div class="bill-bar-segment segment-copay" id="segCopay" style="width: 0.9%;" title="Copay: $40"></div>
+            <div class="bill-bar-segment segment-coinsurance" id="segCoinsurance" style="width: 13.1%;" title="Coinsurance: $590"></div>
+            <div class="bill-bar-segment segment-insurer" id="segInsurer" style="width: 52.7%;" title="Insurer Paid: $2,370"></div>
+            <div class="bill-bar-segment segment-uncovered" id="segUncovered" style="width: 0%;" title="Uncovered Above Limit: $0"></div>
+          </div>
+
+          <div class="bill-bar-legend" id="oopBarLegend">
+            <div class="legend-item"><span class="legend-dot dot-deductible"></span><span>Deductible Paid: <strong class="num" id="legDeductible">$1,500 (33.3%)</strong></span></div>
+            <div class="legend-item" id="legCopayWrap"><span class="legend-dot dot-copay"></span><span>Copay: <strong class="num" id="legCopay">$40 (0.9%)</strong></span></div>
+            <div class="legend-item" id="legCoinsuranceWrap"><span class="legend-dot dot-coinsurance"></span><span>User Coinsurance: <strong class="num" id="legCoinsurance">$590 (13.1%)</strong></span></div>
+            <div class="legend-item"><span class="legend-dot dot-insurer"></span><span>Insurer Paid: <strong class="num" id="legInsurer">$2,370 (52.7%)</strong></span></div>
+            <div class="legend-item" id="legUncoveredWrap" style="display: none;"><span class="legend-dot dot-uncovered"></span><span>Uncovered Above Limit: <strong class="num" id="legUncovered">$0</strong></span></div>
+          </div>
+        </div>
+
+        <!-- 4C. What This Means (Educational Takeaway) -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <span>What This Means</span>
+          </h3>
+          <p style="font-size: 1rem; line-height: 1.7; color: var(--color-text); margin-bottom: 16px;" id="oopWhatThisMeansText">
+            This estimate suggests how your expenses progress through the stages of a standard insurance contract:
+          </p>
+          <ul style="padding-left: 20px; line-height: 1.7; color: var(--color-secondary); font-size: 0.9375rem; margin-bottom: 16px;" id="oopMeansBulletList">
+            <li style="margin-bottom: 8px;">
+              <strong>Deductible Phase:</strong> You were responsible for the first <strong class="num" id="oopMeansDed">$1,500</strong> of this bill because your annual deductible had not yet been fully met.
+            </li>
+            <li style="margin-bottom: 8px;">
+              <strong>Cost-Sharing Phase:</strong> After the deductible, the remaining covered balance was split between you and your insurer based on your plan's copay and coinsurance terms.
+            </li>
+            <li>
+              <strong>Catastrophic Protection:</strong> Once your total qualified payments hit your annual out-of-pocket maximum, you will pay $0 for eligible in-network covered services for the rest of the plan year.
+            </li>
+          </ul>
+          <p style="font-size: 0.875rem; color: var(--color-secondary); margin: 0; font-style: italic;">
+            Actual coverage depends on your policy, network tier, and insurer. Non-covered services or out-of-network balance billing are not included in standard out-of-pocket limits.
+          </p>
+        </div>
+
+        <!-- 4D. How We Calculated It -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
+            <span>How We Calculated It</span>
+          </h3>
+          <p style="font-size: 0.9375rem; color: var(--color-secondary); margin-bottom: 14px;">
+            The bill is processed through standard transparent cost-sharing logic in strict chronological order:
+          </p>
+
+          <div class="math-steps-list" id="oopMathStepsList">
+            <div class="math-step-item">
+              <span class="math-step-badge">1</span>
+              <div>
+                <strong>Deductible Application:</strong>
+                <span id="oopMathStep1" class="num">Remaining deductible = Math.max(0, $2,000 &minus; $500 prior) = $1,500. User pays Math.min($4,500, $1,500) = $1,500.</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">2</span>
+              <div>
+                <strong>Remaining Covered Amount:</strong>
+                <span id="oopMathStep2" class="num">$4,500 &minus; $1,500 = $3,000 subject to cost sharing.</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">3</span>
+              <div>
+                <strong>Copay &amp; Coinsurance Allocation:</strong>
+                <span id="oopMathStep3" class="num">Copay of $40 applied. Remaining $2,960 split at 20% user ($592) / 80% insurer ($2,368).</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">4</span>
+              <div>
+                <strong>Out-of-Pocket Cap &amp; Limit Verification:</strong>
+                <span id="oopMathStep4" class="num">Total user cost ($1,500 + $40 + $592 = $2,132) tested against remaining OOP Max ($7,500). No cap exceeded.</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">5</span>
+              <div>
+                <strong>Final Bill Division:</strong>
+                <span id="oopMathStep5" class="num">Estimated User Responsibility: $2,132 | Estimated Insurer Payment: $2,368.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4E. Important Assumptions -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Important Assumptions</span>
+          </h3>
+          <div class="assumptions-grid">
+            <div class="assumption-item">
+              <div class="assumption-title">In-Network Covered Perils</div>
+              <p class="assumption-desc">Assumes all medical providers, facilities, or property repair services are fully in-network and eligible under policy terms.</p>
+            </div>
+            <div class="assumption-item">
+              <div class="assumption-title">Allowed Negotiated Amounts</div>
+              <p class="assumption-desc">Assumes the submitted bill represents the carrier's contracted allowed rate, not undiscounted hospital chargemaster fees.</p>
+            </div>
+            <div class="assumption-item">
+              <div class="assumption-title">Annual Calendar Year Reset</div>
+              <p class="assumption-desc">Deductibles and out-of-pocket maximums reset every 12 months (typically January 1st for health plans).</p>
+            </div>
+            <div class="assumption-item">
+              <div class="assumption-title">Covered vs Excluded Services</div>
+              <p class="assumption-desc">Excludes optional cosmetic treatments, non-covered procedures, or balance billing amounts exceeding network fee schedules.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4F. Things You May Want to Review -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            <span>Things You May Want to Review</span>
+          </h3>
+          <p style="font-size: 0.9375rem; color: var(--color-secondary); margin-bottom: 16px;">
+            Before scheduling planned medical procedures or filing property claims, consider reviewing:
+          </p>
+          <div class="review-checklist-grid">
+            <div class="review-check-card">
+              <div class="review-check-num">1</div>
+              <div>
+                <strong>In-Network Provider Tiering:</strong>
+                <p>Verify whether your surgeon, anesthesiologist, and facility are all participating in-network to avoid balance billing.</p>
+              </div>
+            </div>
+            <div class="review-check-card">
+              <div class="review-check-num">2</div>
+              <div>
+                <strong>Prior Authorization Requirements:</strong>
+                <p>Check if your policy mandates insurer pre-approval before non-emergency surgeries, advanced imaging, or hospital admissions.</p>
+              </div>
+            </div>
+            <div class="review-check-card">
+              <div class="review-check-num">3</div>
+              <div>
+                <strong>Embedded vs. Aggregate Deductibles:</strong>
+                <p>On family plans, check if an individual family member can hit their own embedded deductible before the full family deductible is satisfied.</p>
+              </div>
+            </div>
+            <div class="review-check-card">
+              <div class="review-check-num">4</div>
+              <div>
+                <strong>Health Savings Account (HSA) Balances:</strong>
+                <p>If enrolled in an HDHP, tax-advantaged funds from your HSA can pay for qualified deductible and coinsurance expenses 100% tax-free.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4G. Related Insurance Concepts -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h7"/></svg>
+            <span>Related Insurance Concepts</span>
+          </h3>
+          <div class="concepts-tag-cloud">
+            <a href="/glossary/out-of-pocket-maximum" class="concept-tag">Out-of-Pocket Maximum &rarr;</a>
+            <a href="/glossary/coinsurance" class="concept-tag">Coinsurance &rarr;</a>
+            <a href="/glossary/deductible" class="concept-tag">Annual Deductible &rarr;</a>
+            <a href="/glossary/exclusion" class="concept-tag">Policy Exclusions &rarr;</a>
+            <a href="/glossary/premium" class="concept-tag">Annual Premium &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 4H. Related Articles & Next Learning Step -->
+        <div class="educational-breakdown-card" style="margin-bottom: 0;">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            <span>Related Guides &amp; Recommended Next Tools</span>
+          </h3>
+          <div class="tool-next-steps-grid">
+            <a href="/learn/health-insurance-basics" class="next-step-card">
+              <div class="next-step-badge">Editorial Guide</div>
+              <div class="next-step-title">Health Insurance Basics Explained</div>
+              <p class="next-step-desc">Master HMOs, PPOs, EPOs, and HDHPs with transparent cost-sharing examples.</p>
+            </a>
+
+            <a href="/compare/hmo-vs-ppo" class="next-step-card">
+              <div class="next-step-badge">Plan Comparison</div>
+              <div class="next-step-title">HMO vs. PPO Trade-Off Analysis</div>
+              <p class="next-step-desc">Compare referral requirements, network flexibilities, and out-of-pocket costs.</p>
+            </a>
+
+            <a href="/deductible-calculator/" class="next-step-card">
+              <div class="next-step-badge">Interactive Tool</div>
+              <div class="next-step-title">Deductible vs. Premium Calculator</div>
+              <p class="next-step-desc">Simulate how increasing your deductible saves recurring premium over time.</p>
+            </a>
+
+            <a href="/policy-check" class="next-step-card">
+              <div class="next-step-badge">Self Audit</div>
+              <div class="next-step-title">8-Point Policy Health Check</div>
+              <p class="next-step-desc">Identify hidden exclusions and coverage gaps before an unexpected loss occurs.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  
 
     <!-- Mathematical Assumptions & Formula -->
     <div style="margin: 36px 0;">
@@ -406,7 +900,7 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
         <span>Search Intent &amp; FAQ</span>
       </div>
-      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions: Health Insurance Calculator</h2>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions: Out-of-Pocket Cost Calculator</h2>
       <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Expert mathematical answers, formula explanations, and related comparison guides.</p>
     </div>
 

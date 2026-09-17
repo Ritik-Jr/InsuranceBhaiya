@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disability Income Protection Calculator | Free Actuarial Calculator | Insurance Bhaiya</title>
+  <meta name="title" content="Disability Income Protection Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta name="description" content="Calculate how much monthly income you need to protect against disability. Model employer group LTD benefits and emergency savings runway.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://insurancebhaiya.com/disability-insurance-calculator/">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Open Graph / Facebook (og:) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://insurancebhaiya.com/disability-insurance-calculator/">
+  <meta property="og:title" content="Disability Income Protection Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta property="og:description" content="Calculate how much monthly income you need to protect against disability. Model employer group LTD benefits and emergency savings runway.">
+  <meta property="og:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
+  <meta property="og:image:secure_url" content="https://insurancebhaiya.com/images/hero-guide.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Disability Income Protection Calculator">
+  <meta property="og:site_name" content="Insurance Bhaiya">
+  <meta property="og:locale" content="en_US">
+  
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://insurancebhaiya.com/disability-insurance-calculator/">
+  <meta name="twitter:title" content="Disability Income Protection Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta name="twitter:description" content="Calculate how much monthly income you need to protect against disability. Model employer group LTD benefits and emergency savings runway.">
+  <meta name="twitter:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
+  <meta name="twitter:image:alt" content="Disability Income Protection Calculator">
+
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators",
+      "item": "https://insurancebhaiya.com/tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Disability Income Protection Calculator"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Disability Income Protection Calculator",
+  "url": "https://insurancebhaiya.com/disability-insurance-calculator/",
+  "description": "Calculate your monthly essential expense gap if an illness or accident prevents you from working.",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires JavaScript. Requires HTML5.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are employer-paid group disability benefits taxable as income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Under IRS regulations, if your employer pays your group Long-Term Disability (LTD) premiums, any benefit payments you receive are taxed as ordinary income. A 60% gross benefit may only replace ~45% of your take-home pay. Model your shortfall in our <a href=\"/disability-insurance-calculator/\">Disability Income Protection Calculator</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Own-Occupation and Any-Occupation disability?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "True Own-Occupation policies pay full benefits if you cannot perform the specialized duties of your own profession, even if you can work in another job. Any-Occupation policies only pay if you cannot perform any gainful employment. Read our <a href=\"/learn/own-occupation-disability-insurance\">Own-Occupation Disability Guide</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an elimination period in disability insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The elimination period is the waiting horizon (typically 90 or 180 days) between the onset of disability and when monthly benefit checks begin. You must maintain emergency savings to fund living expenses during this window."
+      }
+    }
+  ]
+}
+</script>
+
+  <!-- Icons & Fonts -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo" aria-label="Insurance Bhaiya Homepage">
+        <img src="/logo.png" alt="Insurance Bhaiya Logo" width="22" height="28" style="height: 26px; width: auto; display: block;" onerror="this.style.display='none'" />
+        <span class="brand-name">Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
+      </a>
+
+      <nav class="nav-menu desktop-nav" aria-label="Primary Navigation">
+        <a href="/learn" class="nav-link ">Learn</a>
+        <a href="/tools" class="nav-link active">Calculators</a>
+        <a href="/compare" class="nav-link ">Compare</a>
+        <a href="/glossary" class="nav-link ">Glossary</a>
+        <a href="/scenarios" class="nav-link ">Scenarios</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-search-btn search-trigger-btn" id="searchTriggerBtn" aria-label="Search articles and tools">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Search...</span>
+        </button>
+
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Redesigned Apple-Grade Mobile Drawer Navigation System -->
+    <div id="mobileDrawerOverlay" class="mobile-drawer-overlay" aria-hidden="true">
+      <div id="mobileDrawerBackdrop" class="mobile-drawer-backdrop"></div>
+      <aside class="mobile-drawer-panel" aria-label="Mobile Navigation">
+        <div class="drawer-header">
+          <a href="/" class="brand-logo" aria-label="Insurance Bhaiya Homepage">
+            <img src="/logo.png" alt="Insurance Bhaiya Logo" width="22" height="28" style="height: 24px; width: auto; display: block;" onerror="this.style.display='none'" />
+            <span class="drawer-brand-name">Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
+          </a>
+          <button id="drawerCloseBtn" class="drawer-close-btn" aria-label="Close menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+
+        <div class="drawer-search-box">
+          <button class="drawer-search-trigger" type="button" aria-label="Open search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span>Search guides, tools & terms...</span>
+          </button>
+        </div>
+
+        <div class="drawer-body">
+
+          <!-- Primary Navigation with Lucide SVG Icons -->
+          <div class="drawer-section">
+            <div class="drawer-section-title">Navigation</div>
+            <nav class="drawer-nav-list" aria-label="Drawer Links">
+              <a href="/learn" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Learn</span>
+                  <span class="drawer-nav-desc">Clear, non-commissioned insurance guides</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/insurance" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Insurance Types</span>
+                  <span class="drawer-nav-desc">All 10 fundamental coverage branches</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/tools" class="drawer-nav-item active">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Calculators</span>
+                  <span class="drawer-nav-desc">10 interactive actuarial estimation tools</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/compare" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Comparisons</span>
+                  <span class="drawer-nav-desc">Objective policy & plan trade-offs</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/scenarios" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Scenarios</span>
+                  <span class="drawer-nav-desc">Real-world life stages & risk decisions</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/glossary" class="drawer-nav-item ">
+                <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Glossary</span>
+                  <span class="drawer-nav-desc">Plain English dictionary of insurance terms</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+
+              <a href="/policy-check" class="drawer-nav-item ">
+                <div class="drawer-nav-icon accent-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+                <div class="drawer-nav-text">
+                  <span class="drawer-nav-label">Policy Health Check</span>
+                  <span class="drawer-nav-desc">8-point coverage audit & gap analyzer</span>
+                </div>
+                <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+              </a>
+            </nav>
+          </div>
+
+          <!-- Featured Actuarial Tools: Small Cards in Grid -->
+          <div class="drawer-section">
+            <div class="drawer-section-title">Popular Tools</div>
+            <div class="drawer-cards-grid">
+              <a href="/life-insurance-calculator/" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-rose-bg); color: #e11d48;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
+                <div class="mini-card-title">Life Needs</div>
+                <div class="mini-card-sub">10x Income Rule</div>
+              </a>
+
+              <a href="/car-insurance-calculator/" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-blue-bg); color: #0066cc;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.7 2 11.3 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+                </div>
+                <div class="mini-card-title">Car Liability</div>
+                <div class="mini-card-sub">250/500/100 Limit</div>
+              </a>
+
+              <a href="/compare/term-vs-whole-life" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-green-bg); color: #059669;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+                </div>
+                <div class="mini-card-title">Term vs Whole</div>
+                <div class="mini-card-sub">Cost Breakdown</div>
+              </a>
+
+              <a href="/deductible-calculator/" class="drawer-mini-card">
+                <div class="mini-card-icon" style="background: var(--pastel-amber-bg); color: #d97706;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div class="mini-card-title">Deductible</div>
+                <div class="mini-card-sub">Breakeven Math</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Popular Categories Shortcuts -->
+          <div class="drawer-section">
+            <div class="drawer-section-title">Explore Categories</div>
+            <div class="drawer-pills-row">
+              <a href="/insurance/health-insurance" class="drawer-pill">Health</a>
+              <a href="/insurance/life-insurance" class="drawer-pill">Life</a>
+              <a href="/insurance/term-insurance" class="drawer-pill">Term</a>
+              <a href="/insurance/car-insurance" class="drawer-pill">Auto</a>
+              <a href="/insurance/home-insurance" class="drawer-pill">Home</a>
+              <a href="/insurance/disability-insurance" class="drawer-pill">Disability</a>
+            </div>
+          </div>
+
+          <!-- Drawer Footer Note -->
+          <div class="drawer-footer-info">
+            <p>100% Unbiased &bull; Non-Commissioned &bull; Zero Sponsored Ads</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </header>
+  
+
+  <main class="container-reading">
+    
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/tools" itemprop="item"><span itemprop="name">Calculators</span></a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Disability Income Protection Calculator</span>
+              <meta itemprop="position" content="3" />
+            </li>
+          
+    </ol>
+  </nav>
+  
+
+    <header style="margin-bottom: 32px;">
+      <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+        <span class="pill pill-accent">Paycheck Defense</span>
+        <span class="pill">disability insurance</span>
+      </div>
+      <h1 class="text-title-1" style="margin-bottom: 12px; font-weight: 600;">
+        Disability Income Protection Calculator
+      </h1>
+      <p class="text-lead">
+        Calculate your monthly essential expense gap if an illness or accident prevents you from working.
+      </p>
+    </header>
+
+    <!-- DEDICATED Interactive Calculator Card -->
+    
+    <div class="tool-interactive-lab" id="disabilityIncomeInteractiveLab">
+      <!-- 1. Educational Introduction -->
+      <section class="tool-intro-hero">
+        <!-- Income Tax Reality Callout Banner -->
+        <div class="callout callout-info" style="margin-bottom: 24px; border-left: 4px solid var(--color-accent); background: #f0f7ff;">
+          <div style="font-weight: 700; color: var(--color-text); margin-bottom: 6px; font-size: 1rem; display: flex; align-items: center; gap: 8px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <span>Tax Reality: Employer-Paid Disability Benefits Are Taxable</span>
+          </div>
+          <p style="margin: 0; font-size: 0.9375rem; line-height: 1.6; color: var(--color-secondary);">
+            If your employer pays for your Long-Term Disability (LTD) policy, IRS rules mandate that benefit payouts are taxed as ordinary income. A 60% gross benefit may only replace <strong>42% to 45% of your take-home pay</strong> after taxes. Conversely, benefits from personally paid individual policies are 100% tax-free.
+          </p>
+        </div>
+
+        <div class="tool-concept-cards-strip">
+          <div class="tool-concept-card">
+            <div class="concept-card-icon concept-icon-premium">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-card-title">Essential Burn Rate</div>
+              <p class="concept-card-desc">Non-negotiable monthly overhead: mortgage/rent, groceries, utilities, debt, and healthcare.</p>
+            </div>
+          </div>
+
+          <div class="concept-card-separator">&minus;</div>
+
+          <div class="tool-concept-card">
+            <div class="concept-card-icon concept-icon-deductible">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/><path d="M2 12h20"/></svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-card-title">Available Replacement</div>
+              <p class="concept-card-desc">Net after-tax payouts from employer group LTD plans, spouse income, and passive investments.</p>
+            </div>
+          </div>
+
+          <div class="concept-card-separator">=</div>
+
+          <div class="tool-concept-card">
+            <div class="concept-card-icon" style="color: #ef4444; background: #fee2e2; border-color: #fca5a5;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <div class="concept-card-content">
+              <div class="concept-card-title">Monthly Income Gap</div>
+              <p class="concept-card-desc">The shortfall drained from your emergency savings each month to avoid insolvency.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tool-intro-note">
+          <strong>Educational Notice:</strong> This interactive simulator models hypothetical income replacement deficits. Results are educational estimates only and must never be presented as guaranteed benefit quotes or underwriting approvals. Actual disability policies have specific definitions (Own-Occupation vs Any-Occupation), waiting periods, and benefit caps.
+        </div>
+      </section>
+
+      <!-- 2. Interactive Stepper Navigation -->
+      <div class="calc-stepper-container">
+        <div class="calc-stepper-bar">
+          <button type="button" class="stepper-step is-active" data-step="1" id="disStepTab1">
+            <span class="step-num">1</span>
+            <span class="step-text">
+              <span class="step-label">Step 1</span>
+              <span class="step-name">Income &amp; Overhead</span>
+            </span>
+          </button>
+          <div class="stepper-track-line"></div>
+          <button type="button" class="stepper-step" data-step="2" id="disStepTab2">
+            <span class="step-num">2</span>
+            <span class="step-text">
+              <span class="step-label">Step 2</span>
+              <span class="step-name">Existing Protection</span>
+            </span>
+          </button>
+          <div class="stepper-track-line"></div>
+          <button type="button" class="stepper-step" data-step="3" id="disStepTab3">
+            <span class="step-num">3</span>
+            <span class="step-text">
+              <span class="step-label">Step 3</span>
+              <span class="step-name">Savings &amp; Runway</span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. Stepper Panels -->
+
+      <!-- Step 1: Income & Overhead -->
+      <div class="calc-step-panel is-active" id="disStepPanel1">
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <span class="panel-step-badge">Step 1 of 3</span>
+            <h3 class="panel-card-title">Monthly Income &amp; Essential Overhead</h3>
+            <p class="panel-card-subtitle">Establish your baseline earnings and minimum essential burn rate required to keep a roof over your head.</p>
+          </div>
+
+          <div class="calc-fields-grid">
+            <!-- Monthly Gross Income -->
+            <div class="calc-field-group">
+              <div class="calc-field-header">
+                <label for="disGross" class="calc-field-label">Gross Monthly Salary / Earnings</label>
+                <span class="calc-value-badge num" id="disGrossVal">$8,000/mo</span>
+              </div>
+              <input type="range" id="disGross" min="2000" max="25000" step="250" value="8000" class="calc-slider">
+              <span class="calc-field-help">Pre-tax monthly earned income (equivalent to $96,000/year).</span>
+            </div>
+
+            <!-- Essential Monthly Expenses -->
+            <div class="calc-field-group">
+              <div class="calc-field-header">
+                <label for="disExpenses" class="calc-field-label">Essential Monthly Living Expenses</label>
+                <span class="calc-value-badge num" id="disExpensesVal">$5,200/mo</span>
+              </div>
+              <input type="range" id="disExpenses" min="1500" max="18000" step="100" value="5200" class="calc-slider">
+              <span class="calc-field-help">Mortgage/rent, utilities, groceries, car payments, insurance, and student debt.</span>
+            </div>
+          </div>
+
+          <div class="panel-card-footer">
+            <button type="button" class="btn btn-primary" id="disBtnNext1">
+              <span>Continue to Step 2: Existing Protection</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Existing Protection -->
+      <div class="calc-step-panel" id="disStepPanel2">
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <span class="panel-step-badge">Step 2 of 3</span>
+            <h3 class="panel-card-title">Employer Group Benefits &amp; Outside Income</h3>
+            <p class="panel-card-subtitle">Factor in group disability insurance provided by your employer and secondary household income.</p>
+          </div>
+
+          <!-- Employer Group LTD -->
+          <div style="margin-bottom: 24px;">
+            <label class="calc-field-label" style="display: block; margin-bottom: 8px;">Employer-Provided Long-Term Disability (LTD)</label>
+            <div class="pill-group" id="disEmployerGroup">
+              <button type="button" class="pill-btn" data-ltd="none" data-val="none">No Employer Coverage (0%)</button>
+              <button type="button" class="pill-btn is-active" data-ltd="standard" data-val="standard">Standard Group LTD (60% Capped at $5k/mo)</button>
+              <button type="button" class="pill-btn" data-ltd="high" data-val="high">Generous Group LTD (66% Capped at $10k/mo)</button>
+            </div>
+            <span class="calc-field-help" id="disLtdHelp">Standard group policies pay 60% of base salary, but benefits are taxable as ordinary income (~25% tax drag).</span>
+          </div>
+
+          <div class="calc-fields-grid">
+            <!-- Other Household Income -->
+            <div class="calc-field-group">
+              <div class="calc-field-header">
+                <label for="disOtherIncome" class="calc-field-label">Spouse Earnings / Passive Income</label>
+                <span class="calc-value-badge num" id="disOtherIncomeVal">$1,500/mo</span>
+              </div>
+              <input type="range" id="disOtherIncome" min="0" max="10000" step="250" value="1500" class="calc-slider">
+              <span class="calc-field-help">Monthly take-home income that continues uninterrupted if you cannot work.</span>
+            </div>
+
+            <!-- Existing Individual Policy -->
+            <div class="calc-field-group">
+              <div class="calc-field-header">
+                <label for="disExistingInd" class="calc-field-label">Existing Private Disability Policy</label>
+                <span class="calc-value-badge num" id="disExistingIndVal">$0/mo</span>
+              </div>
+              <input type="range" id="disExistingInd" min="0" max="10000" step="250" value="0" class="calc-slider">
+              <span class="calc-field-help">Tax-free monthly benefit from private individual disability coverage.</span>
+            </div>
+          </div>
+
+          <div class="panel-card-footer">
+            <button type="button" class="btn btn-secondary" id="disBtnBack2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+              <span>Back to Step 1</span>
+            </button>
+            <button type="button" class="btn btn-primary" id="disBtnNext2">
+              <span>Continue to Step 3: Savings &amp; Runway</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3: Savings & Runway -->
+      <div class="calc-step-panel" id="disStepPanel3">
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <span class="panel-step-badge">Step 3 of 3</span>
+            <h3 class="panel-card-title">Liquid Emergency Savings &amp; Survival Runway</h3>
+            <p class="panel-card-subtitle">Determine how long your emergency cash reserves can sustain monthly shortfalls before severe financial distress.</p>
+          </div>
+
+          <!-- Liquid Savings Slider -->
+          <div class="calc-field-group" style="margin-bottom: 20px;">
+            <div class="calc-field-header">
+              <label for="disSavings" class="calc-field-label">Liquid Emergency Cash Savings</label>
+              <span class="calc-value-badge num" id="disSavingsVal">$25,000</span>
+            </div>
+            <input type="range" id="disSavings" min="0" max="150000" step="2500" value="25000" class="calc-slider">
+            <span class="calc-field-help">Checking, high-yield savings, and liquid taxable money-market funds.</span>
+          </div>
+
+          <div class="panel-card-footer">
+            <button type="button" class="btn btn-secondary" id="disBtnBack3">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+              <span>Back to Step 2</span>
+            </button>
+            <button type="button" class="btn btn-ghost" id="disBtnReset">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+              <span>Reset to Defaults</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Real-Time Results Output (4 Core Metrics) -->
+      <section class="tool-results-section" id="disResultsSection">
+        <div class="results-header-row">
+          <div>
+            <span class="pill pill-accent" style="margin-bottom: 8px;">Income Protection Analysis</span>
+            <h3 class="results-title">Estimated Monthly Income Gap &amp; Cash Runway</h3>
+          </div>
+          <div class="results-status-badge">
+            <span class="status-indicator-dot"></span>
+            <span id="disResultStatus">Gap Identified</span>
+          </div>
+        </div>
+
+        <!-- 4 Core Metric Cards Grid -->
+        <div class="car-deductible-grid" id="disMetricsGrid">
+          <!-- 1. Gross Income -->
+          <div class="car-deductible-card">
+            <div class="car-deductible-card-badge" style="background: #f1f5f9; color: #475569;">Baseline Earnings</div>
+            <h4 class="car-deductible-title">Monthly Income</h4>
+            <div class="car-deductible-prem-wrap">
+              <div class="car-deductible-prem-num num" id="disResGross">$8,000</div>
+              <div class="car-deductible-prem-cycle">Gross Earned Income</div>
+            </div>
+            <div class="car-deductible-stat-row">
+              <span class="car-deductible-stat-label">Annual Equivalent:</span>
+              <span class="car-deductible-stat-val num" id="disResAnnual">$96,000/yr</span>
+            </div>
+          </div>
+
+          <!-- 2. Essential Expenses -->
+          <div class="car-deductible-card">
+            <div class="car-deductible-card-badge" style="background: #fef3c7; color: #92400e;">Essential Overhead</div>
+            <h4 class="car-deductible-title">Essential Expenses</h4>
+            <div class="car-deductible-prem-wrap">
+              <div class="car-deductible-prem-num num" id="disResExpenses">$5,200</div>
+              <div class="car-deductible-prem-cycle">Monthly Survival Budget</div>
+            </div>
+            <div class="car-deductible-stat-row">
+              <span class="car-deductible-stat-label">Share of Gross Income:</span>
+              <span class="car-deductible-stat-val num" id="disResExpRatio">65.0%</span>
+            </div>
+          </div>
+
+          <!-- 3. Existing Protection -->
+          <div class="car-deductible-card">
+            <div class="car-deductible-card-badge" style="background: #ecfdf5; color: #059669;">Replacement Income</div>
+            <h4 class="car-deductible-title">Existing Protection</h4>
+            <div class="car-deductible-prem-wrap">
+              <div class="car-deductible-prem-num num" id="disResProtection" style="color: #059669;">$5,100</div>
+              <div class="car-deductible-prem-cycle">Net After-Tax Monthly Inflow</div>
+            </div>
+            <div class="car-deductible-stat-row">
+              <span class="car-deductible-stat-label">Net Group LTD (Taxed):</span>
+              <span class="car-deductible-stat-val num" id="disResLtdEcho">$3,600</span>
+            </div>
+            <div class="car-deductible-stat-row">
+              <span class="car-deductible-stat-label">Spouse / Other Inflow:</span>
+              <span class="car-deductible-stat-val num" id="disResOtherEcho">$1,500</span>
+            </div>
+          </div>
+
+          <!-- 4. Estimated Monthly Gap -->
+          <div class="car-deductible-card is-baseline">
+            <div class="car-deductible-card-badge" style="background: #fee2e2; color: #b91c1c;">Net Monthly Deficit</div>
+            <h4 class="car-deductible-title">Estimated Monthly Gap</h4>
+            <div class="car-deductible-prem-wrap">
+              <div class="car-deductible-prem-num num" id="disResGap" style="color: #ef4444;">$100 / mo</div>
+              <div class="car-deductible-prem-cycle">Monthly Drain on Liquid Savings</div>
+            </div>
+            <div class="car-deductible-stat-row">
+              <span class="car-deductible-stat-label">Emergency Fund Runway:</span>
+              <span class="car-deductible-stat-val num" id="disResRunway" style="font-weight: 700; color: var(--color-accent);">250 Months</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4B. What This Means -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            <span>What This Means</span>
+          </h3>
+          <p style="font-size: 1rem; line-height: 1.7; color: var(--color-text); margin-bottom: 16px;" id="disWhatThisMeansText">
+            This estimate suggests how your household overhead coordinates with available replacement benefits during prolonged disability:
+          </p>
+          <ul style="padding-left: 20px; line-height: 1.7; color: var(--color-secondary); font-size: 0.9375rem; margin-bottom: 16px;">
+            <li style="margin-bottom: 8px;">
+              <strong>Disability is More Prevalent Than Premature Death:</strong> According to the Social Security Administration, just over 1 in 4 of today's 20-year-olds will experience a disabling event before reaching age 67.
+            </li>
+            <li style="margin-bottom: 8px;">
+              <strong>Own-Occupation vs. Any-Occupation:</strong> A True Own-Occupation policy pays if you cannot perform the specific duties of your medical, legal, or specialized profession, even if you could theoretically work in another field. Many group employer policies switch to restrictive "Any-Occupation" definitions after 24 months.
+            </li>
+            <li>
+              <strong>Elimination Periods (Waiting Horizon):</strong> Long-Term Disability policies do not pay on day one. They require a 90-day or 180-day elimination period during which you must rely entirely on emergency cash reserves or Short-Term Disability.
+            </li>
+          </ul>
+          <p style="font-size: 0.875rem; color: var(--color-secondary); margin: 0; font-style: italic;">
+            Actual disability coverage depends on policy definitions, waiting periods, benefit duration, and medical underwriting exclusions.
+          </p>
+        </div>
+
+        <!-- 4C. How We Calculated It -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
+            <span>How We Calculated It</span>
+          </h3>
+          <div class="math-steps-list">
+            <div class="math-step-item">
+              <span class="math-step-badge">1</span>
+              <div>
+                <strong>Gross Employer Benefit:</strong>
+                <span id="disMathStep1" class="num">60% of $8,000 = $4,800 gross monthly benefit (capped at $5,000 limit).</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">2</span>
+              <div>
+                <strong>Tax Adjustment (Ordinary Income):</strong>
+                <span id="disMathStep2" class="num">$4,800 &times; (1 &minus; 0.25 tax rate) = $3,600 net after-tax benefit.</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">3</span>
+              <div>
+                <strong>Total Available Replacement Income:</strong>
+                <span id="disMathStep3" class="num">$3,600 (Net LTD) + $1,500 (Spouse/Other) + $0 (Private) = $5,100/mo.</span>
+              </div>
+            </div>
+            <div class="math-step-item">
+              <span class="math-step-badge">4</span>
+              <div>
+                <strong>Monthly Expense Gap &amp; Runway:</strong>
+                <span id="disMathStep4" class="num">$5,200 essential expenses &minus; $5,100 available = $100/mo gap. $25,000 savings &divide; $100 = 250 months runway.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4D. Important Assumptions -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Important Assumptions</span>
+          </h3>
+          <div class="assumptions-grid">
+            <div class="assumption-item">
+              <div class="assumption-title">Employer-Paid Tax Rule</div>
+              <p class="assumption-desc">Assumes an effective 25% federal and state tax rate applied to employer-sponsored group disability benefits.</p>
+            </div>
+            <div class="assumption-item">
+              <div class="assumption-title">Constant Expense Horizon</div>
+              <p class="assumption-desc">Assumes essential living expenses remain constant without accounting for additional medical copays or caregiver costs.</p>
+            </div>
+            <div class="assumption-item">
+              <div class="assumption-title">Standard 90-Day Elimination</div>
+              <p class="assumption-desc">Assumes a standard 90-day waiting period before Long-Term Disability benefits begin disbursing.</p>
+            </div>
+            <div class="assumption-item">
+              <div class="assumption-title">Social Security Offset</div>
+              <p class="assumption-desc">Most group LTD policies dollar-for-dollar offset benefits if you qualify for federal Social Security Disability (SSDI).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4E. Things You May Want to Review -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            <span>Things You May Want to Review</span>
+          </h3>
+          <div class="review-checklist-grid">
+            <div class="review-check-card">
+              <div class="review-check-num">1</div>
+              <div>
+                <strong>Definition of Disability Clause:</strong>
+                <p>Check whether your employer policy uses "Own-Occupation" or switches to "Any-Occupation" after 2 years.</p>
+              </div>
+            </div>
+            <div class="review-check-card">
+              <div class="review-check-num">2</div>
+              <div>
+                <strong>Mental Health &amp; Substance Sub-Limits:</strong>
+                <p>Nearly all group LTD policies cap benefits for depression, anxiety, or stress-related claims at 24 months maximum.</p>
+              </div>
+            </div>
+            <div class="review-check-card">
+              <div class="review-check-num">3</div>
+              <div>
+                <strong>Supplemental Individual Policy:</strong>
+                <p>Adding an individual policy closes the tax gap and provides portable coverage that follows you if you switch employers.</p>
+              </div>
+            </div>
+            <div class="review-check-card">
+              <div class="review-check-num">4</div>
+              <div>
+                <strong>Future Purchase Option Rider:</strong>
+                <p>Allows you to increase your disability benefit as your income grows without undergoing repeat medical exams or blood tests.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4F. Related Insurance Concepts -->
+        <div class="educational-breakdown-card">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h7"/></svg>
+            <span>Related Insurance Concepts</span>
+          </h3>
+          <div class="concepts-tag-cloud">
+            <a href="/glossary/out-of-pocket-maximum" class="concept-tag">Elimination Period &rarr;</a>
+            <a href="/glossary/premium" class="concept-tag">Own-Occupation Definition &rarr;</a>
+            <a href="/glossary/exclusion" class="concept-tag">Pre-Existing Exclusions &rarr;</a>
+            <a href="/glossary/beneficiary" class="concept-tag">Tax-Exempt Benefits &rarr;</a>
+            <a href="/glossary/deductible" class="concept-tag">Waiting Period Trade-Offs &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 4G. Related Articles & Next Learning Step -->
+        <div class="educational-breakdown-card" style="margin-bottom: 0;">
+          <h3 class="section-h3">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            <span>Related Guides &amp; Recommended Next Tools</span>
+          </h3>
+          <div class="tool-next-steps-grid">
+            <a href="/life-insurance-calculator/" class="next-step-card">
+              <div class="next-step-badge">Interactive Tool</div>
+              <div class="next-step-title">Life Insurance Needs Calculator</div>
+              <p class="next-step-desc">Calculate family income replacement needs alongside disability defense.</p>
+            </a>
+
+            <a href="/deductible-calculator/" class="next-step-card">
+              <div class="next-step-badge">Interactive Tool</div>
+              <div class="next-step-title">Deductible vs. Premium Calculator</div>
+              <p class="next-step-desc">Evaluate waiting period trade-offs (30-day vs 90-day elimination).</p>
+            </a>
+
+            <a href="/learn/own-occupation-disability-insurance" class="next-step-card">
+              <div class="next-step-badge">Editorial Guide</div>
+              <div class="next-step-title">Own-Occupation Disability Guide</div>
+              <p class="next-step-desc">Understand own-occupation riders, non-cancelable contracts, and tax rules.</p>
+            </a>
+
+            <a href="/policy-check" class="next-step-card">
+              <div class="next-step-badge">Self Audit</div>
+              <div class="next-step-title">8-Point Policy Health Check</div>
+              <p class="next-step-desc">Audit your employee benefits handbook for group LTD shortfalls.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+
+    <!-- Mathematical Assumptions & Formula -->
+    <div style="margin: 36px 0;">
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 12px;">Actuarial Formula &amp; Assumptions</h3>
+      <p style="color: var(--color-secondary); line-height: 1.65; margin-bottom: 16px;">
+        Models essential living expenses against after-tax employer group LTD benefits and calculates emergency cash runway.
+      </p>
+      <div class="callout callout-info" style="margin: 20px 0;">
+        <strong>Zero Sales Pressure Guarantee:</strong> Insurance Bhaiya will never ask for your email or phone number to unlock calculation results. All mathematical models operate locally in your browser.
+      </div>
+    </div>
+
+    <!-- Tool Search-Intent FAQs -->
+    
+  <section class="faq-wrap" aria-labelledby="faq-heading">
+    <div class="faq-header">
+      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Search Intent &amp; FAQ</span>
+      </div>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions: Disability Income Protection Calculator</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Expert mathematical answers, formula explanations, and related comparison guides.</p>
+    </div>
+
+    <div class="faq-list">
+      
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>Are employer-paid group disability benefits taxable as income?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Yes. Under IRS regulations, if your employer pays your group Long-Term Disability (LTD) premiums, any benefit payments you receive are taxed as ordinary income. A 60% gross benefit may only replace ~45% of your take-home pay. Model your shortfall in our <a href="/disability-insurance-calculator/">Disability Income Protection Calculator</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>What is the difference between Own-Occupation and Any-Occupation disability?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            True Own-Occupation policies pay full benefits if you cannot perform the specialized duties of your own profession, even if you can work in another job. Any-Occupation policies only pay if you cannot perform any gainful employment. Read our <a href="/learn/own-occupation-disability-insurance">Own-Occupation Disability Guide</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>What is an elimination period in disability insurance?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            The elimination period is the waiting horizon (typically 90 or 180 days) between the onset of disability and when monthly benefit checks begin. You must maintain emergency savings to fund living expenses during this window.
+          </div>
+        </details>
+      
+    </div>
+  </section>
+  
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Mission -->
+        <div>
+          <a href="/" class="brand-logo" style="margin-bottom: 16px;">
+            <img src="/logo.png" alt="Insurance Bhaiya Logo" width="22" height="28" style="height: 26px; width: auto;" onerror="this.style.display='none'" />
+            <span>Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
+          </a>
+          <p style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.6; max-width: 320px; margin-top: 12px;">
+            Insurance Bhaiya is an independent, non-commissioned educational initiative. We do not sell policies, accept broker kickbacks, or harvest personal data. All calculators and guides are built on open actuarial principles.
+          </p>
+        </div>
+
+        <!-- Col 2: Educational Guides -->
+        <div>
+          <div class="footer-col-title">Educational Guides</div>
+          <ul class="footer-links">
+            <li><a href="/learn">All Guides</a></li>
+            <li><a href="/learn/what-is-insurance">What Is Insurance?</a></li>
+            <li><a href="/learn/how-does-insurance-work">How Insurance Works</a></li>
+            <li><a href="/learn/what-is-a-deductible">What Is a Deductible?</a></li>
+            <li><a href="/learn/quote-vs-premium-vs-deductible">Quote vs Premium</a></li>
+            <li><a href="/learn/long-term-vs-short-term-disability">Disability Architecture</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Actuarial Tools -->
+        <div>
+          <div class="footer-col-title">Calculators &amp; Tools</div>
+          <ul class="footer-links">
+            <li><a href="/tools">All 10 Calculators</a></li>
+            <li><a href="/life-insurance-calculator/">Life Insurance Needs</a></li>
+            <li><a href="/term-insurance-calculator/">Term Rates Estimator</a></li>
+            <li><a href="/health-insurance-calculator/">Health Cost Analyzer</a></li>
+            <li><a href="/car-insurance-calculator/">Car Insurance Estimator</a></li>
+            <li><a href="/home-insurance-calculator/">Home Replacement Cost</a></li>
+            <li><a href="/policy-check">Coverage Health Check</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Trust & Governance -->
+        <div>
+          <div class="footer-col-title">Trust &amp; Governance</div>
+          <ul class="footer-links">
+            <li><a href="/about">Editorial Mission</a></li>
+            <li><a href="/editorial-policy">Editorial Standards</a></li>
+            <li><a href="/sources">Authoritative Sources</a></li>
+            <li><a href="/how-we-make-money">How We Make Money</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/cookie-policy">Cookie Policy</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/disclaimer">Editorial Disclaimer</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Insurance Bhaiya. Independent, consumer-first insurance education.</div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <a href="/privacy-policy" style="color: inherit;">Privacy Policy</a>
+          <span>&bull;</span>
+          <a href="/cookie-policy" style="color: inherit;">Cookie Policy</a>
+          <span>&bull;</span>
+          <a href="/terms-of-service" style="color: inherit;">Terms</a>
+          <span>&bull;</span>
+          <a href="/disclaimer" style="color: inherit;">Disclaimer</a>
+          <span>&bull;</span>
+          <a href="/contact" style="color: inherit;">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Modal -->
+  <div class="modal-backdrop" id="searchModal" role="dialog" aria-modal="true" aria-label="Search dialog">
+    <div class="search-modal-box">
+      <div class="search-input-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input-field" id="searchInputField" placeholder="Search guides, calculators, and terms (e.g., deductible)..." autocomplete="off">
+        <button class="search-close-btn" id="searchCloseBtn" aria-label="Close search">&times;</button>
+      </div>
+      <div class="search-results-list" id="searchResultsList">
+        <div style="padding: 24px; text-align: center; color: var(--color-secondary); font-size: 0.875rem;">
+          Type a keyword, concept, or regex to search...
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="/app.js"></script>
+</body>
+</html>
