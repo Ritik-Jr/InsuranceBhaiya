@@ -33,6 +33,79 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/category-business.jpg">
   <meta name="twitter:image:alt" content="Business Insurance Guide">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Insurance Categories",
+      "item": "https://insurancebhaiya.com/insurance"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Business Insurance"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Business Insurance Guide & Coverage Analysis | Insurance Bhaiya",
+  "description": "Defends enterprise assets, employee health, operational continuity, and intellectual work against litigation and physical catastrophe.",
+  "url": "https://insurancebhaiya.com/insurance/business-insurance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a Business Owner's Policy (BOP) and what does it include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Business Owner's Policy packages General Liability, Commercial Property, and Business Interruption coverage into a single affordable policy for small to mid-sized enterprises. Learn more about liability structures in our <a href=\"/learn/coverage-vs-limits\">Coverage vs Limits Guide</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Business Interruption insurance protect company payroll and rent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a covered property peril (such as a fire) forces your operations to shut down temporarily, business interruption insurance replaces lost net income, ongoing utility bills, executive salaries, and employee payroll. Audit business risks with our <a href=\"/coverage-calculator/\">Coverage Calculator</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between General Liability and Professional Liability (E&O)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "General liability covers third-party bodily injury and property damage (e.g., slip and fall). Professional liability (Errors & Omissions) covers financial losses suffered by clients due to professional negligence, consulting mistakes, or breach of contract. Read <a href=\"/learn/types-of-insurance\">Types of Insurance Explained</a>."
+      }
+    }
+  ]
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +297,26 @@
 
   <main class="container">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li><a href="/insurance">Insurance Categories</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Business Insurance</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/insurance" itemprop="item"><span itemprop="name">Insurance Categories</span></a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Business Insurance</span>
+              <meta itemprop="position" content="3" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -239,39 +329,37 @@
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
             <span>Commercial Enterprise Defense</span>
           </span>
+          <span class="category-hero-counter">2 Verified Guides</span>
         </div>
 
-        <h1 class="category-hero-title">
-          Business Insurance
-        </h1>
+        <h1 class="category-hero-title">Business Insurance</h1>
+        <p class="category-hero-desc">Defends enterprise assets, employee health, operational continuity, and intellectual work against litigation and physical catastrophe.</p>
 
-        <p class="category-hero-desc">
-          Defends enterprise assets, employee health, operational continuity, and intellectual work against litigation and physical catastrophe.
-        </p>
-
-        <!-- Apple Well-Arranged Specification Strip -->
-        <div class="category-specs-row">
-          <div class="category-spec-item">
-            <span class="category-spec-label">Avg Benchmark</span>
-            <span class="category-spec-val highlight">$50 - $150 / mo</span>
+        <!-- Quick Spec Highlights -->
+        <div class="category-specs-strip">
+          <div class="category-spec-col">
+            <span class="category-spec-label">Typical Monthly Cost</span>
+            <span class="category-spec-val">$50 - $150 / mo</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Core Coverage</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Core Protection Focus</span>
             <span class="category-spec-val">General Liability &amp; Operations</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Policy Standard</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Recommended Strategy</span>
             <span class="category-spec-val">BOP &amp; Business Interruption</span>
           </div>
         </div>
 
-        <div class="category-hero-actions">
-          <a href="/coverage-calculator/" class="btn btn-primary">
-            <span>Analyze Risk Exposure</span>
+        <!-- Action Row -->
+        <div class="category-actions-row">
+          <a href="#guides" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 12px 22px; font-weight: 600; border-radius: 980px;">
+            <span>Browse Guides</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="#guides" class="btn btn-secondary">
-            <span>Browse Guides (2)</span>
+          <a href="/coverage-calculator/" class="btn btn-secondary" style="padding: 12px 20px; font-weight: 600; border-radius: 980px; background: #ffffff; border: 1px solid var(--color-border);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Analyze Risk Exposure</span>
           </a>
         </div>
       </div>
@@ -374,6 +462,54 @@
   
       </div>
     </div>
+
+    <!-- Category FAQs Accordion -->
+    
+  <section class="faq-wrap" aria-labelledby="faq-heading">
+    <div class="faq-header">
+      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Search Intent &amp; FAQ</span>
+      </div>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions About Business Insurance</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Common policy questions, coverage benchmarks, and companion decision tools.</p>
+    </div>
+
+    <div class="faq-list">
+      
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>What is a Business Owner&#039;s Policy (BOP) and what does it include?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            A Business Owner's Policy packages General Liability, Commercial Property, and Business Interruption coverage into a single affordable policy for small to mid-sized enterprises. Learn more about liability structures in our <a href="/learn/coverage-vs-limits">Coverage vs Limits Guide</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>How does Business Interruption insurance protect company payroll and rent?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            If a covered property peril (such as a fire) forces your operations to shut down temporarily, business interruption insurance replaces lost net income, ongoing utility bills, executive salaries, and employee payroll. Audit business risks with our <a href="/coverage-calculator/">Coverage Calculator</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>What is the difference between General Liability and Professional Liability (E&amp;O)?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            General liability covers third-party bodily injury and property damage (e.g., slip and fall). Professional liability (Errors & Omissions) covers financial losses suffered by clients due to professional negligence, consulting mistakes, or breach of contract. Read <a href="/learn/types-of-insurance">Types of Insurance Explained</a>.
+          </div>
+        </details>
+      
+    </div>
+  </section>
+  
   </main>
 
   

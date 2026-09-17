@@ -4529,6 +4529,120 @@ input[type="range"]::-moz-range-thumb:active {
   }
 }
 
+/* ==========================================================================
+   Apple-Grade Accessible FAQ Accordion & Knowledge Base
+   ========================================================================== */
+.faq-wrap {
+  margin: 48px 0 36px;
+  box-sizing: border-box;
+}
+
+.faq-header {
+  margin-bottom: 24px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+  overflow: hidden;
+}
+
+.faq-item:hover {
+  border-color: rgba(0, 113, 227, 0.35);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+}
+
+.faq-item[open] {
+  border-color: var(--color-accent);
+  box-shadow: 0 6px 20px rgba(0, 113, 227, 0.07);
+}
+
+.faq-question {
+  padding: 18px 22px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  user-select: none;
+  line-height: 1.4;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--color-secondary);
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.faq-item[open] .faq-question-icon {
+  transform: rotate(180deg);
+  color: var(--color-accent);
+}
+
+.faq-answer {
+  padding: 0 22px 20px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-secondary);
+  border-top: 1px solid var(--color-border-light);
+  padding-top: 16px;
+}
+
+.faq-answer p {
+  margin: 0 0 12px;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-answer a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast);
+}
+
+.faq-answer a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 640px) {
+  .faq-wrap {
+    margin: 36px 0 24px;
+  }
+  .faq-question {
+    padding: 16px 18px;
+    font-size: 0.95rem;
+  }
+  .faq-answer {
+    padding: 0 18px 16px;
+    padding-top: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+
 
 
 

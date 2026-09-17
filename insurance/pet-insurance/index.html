@@ -33,6 +33,79 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/category-pet.jpg">
   <meta name="twitter:image:alt" content="Pet Insurance Guide">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Insurance Categories",
+      "item": "https://insurancebhaiya.com/insurance"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pet Insurance"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Pet Insurance Guide & Coverage Analysis | Insurance Bhaiya",
+  "description": "Ensures your canine or feline companions receive top-tier veterinary care without forcing financial compromises during medical emergencies.",
+  "url": "https://insurancebhaiya.com/insurance/pet-insurance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do pet insurance deductibles and reimbursement percentages work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You pay veterinary bills upfront, submit itemized clinic receipts, and the pet insurer reimburses 70% to 90% of eligible charges after your annual deductible is satisfied. Learn more in our <a href=\"/learn/pet-insurance-explained\">Pet Insurance Guide</a> and calculate cost breakevens in the <a href=\"/deductible-calculator/\">Deductible Calculator</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are pre-existing veterinary conditions ever covered by pet insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No commercial pet insurance provider covers incurable pre-existing conditions (e.g., diabetes, hip dysplasia). Some carriers will cover curable conditions if the pet remains symptom-free and off medication for 180 to 365 days. Read our breakdown in <a href=\"/learn/what-is-an-exclusion-in-insurance\">Insurance Exclusions Explained</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is wellness routine care coverage worth the extra premium?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wellness add-ons (covering vaccinations, microchipping, flea prevention) operate like pre-paid discounts rather than true catastrophe insurance. Actuarially, budgeting out-of-pocket for routine vet visits while carrying accident/illness coverage is more cost-effective. Check our <a href=\"/learn/how-to-compare-insurance-policies\">Policy Comparison Guide</a>."
+      }
+    }
+  ]
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +297,26 @@
 
   <main class="container">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li><a href="/insurance">Insurance Categories</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Pet Insurance</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/insurance" itemprop="item"><span itemprop="name">Insurance Categories</span></a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Pet Insurance</span>
+              <meta itemprop="position" content="3" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -239,39 +329,37 @@
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.996 1.722C8 11.722 10 9.5 10 5.172z"/><path d="M14 5.172C14 3.782 15.577 2.679 17.5 3c2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.996 1.722C16 11.722 14 9.5 14 5.172z"/><path d="M8 14v.5M16 14v.5M11.25 16.25h1.5M7 11.5a5 5 0 0 0 10 0"/></svg>
             <span>Veterinary Care Protection</span>
           </span>
+          <span class="category-hero-counter">1 Verified Guides</span>
         </div>
 
-        <h1 class="category-hero-title">
-          Pet Insurance
-        </h1>
+        <h1 class="category-hero-title">Pet Insurance</h1>
+        <p class="category-hero-desc">Ensures your canine or feline companions receive top-tier veterinary care without forcing financial compromises during medical emergencies.</p>
 
-        <p class="category-hero-desc">
-          Ensures your canine or feline companions receive top-tier veterinary care without forcing financial compromises during medical emergencies.
-        </p>
-
-        <!-- Apple Well-Arranged Specification Strip -->
-        <div class="category-specs-row">
-          <div class="category-spec-item">
-            <span class="category-spec-label">Avg Benchmark</span>
-            <span class="category-spec-val highlight">$35 - $70 / mo</span>
+        <!-- Quick Spec Highlights -->
+        <div class="category-specs-strip">
+          <div class="category-spec-col">
+            <span class="category-spec-label">Typical Monthly Cost</span>
+            <span class="category-spec-val">$35 - $70 / mo</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Core Coverage</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Core Protection Focus</span>
             <span class="category-spec-val">Accidents, Illnesses &amp; Surgeries</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Policy Standard</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Recommended Strategy</span>
             <span class="category-spec-val">80% - 90% Vet Bill Reimbursement</span>
           </div>
         </div>
 
-        <div class="category-hero-actions">
-          <a href="/deductible-calculator/" class="btn btn-primary">
-            <span>Compute Deductible Breakeven</span>
+        <!-- Action Row -->
+        <div class="category-actions-row">
+          <a href="#guides" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 12px 22px; font-weight: 600; border-radius: 980px;">
+            <span>Browse Guides</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="#guides" class="btn btn-secondary">
-            <span>Browse Guides (1)</span>
+          <a href="/deductible-calculator/" class="btn btn-secondary" style="padding: 12px 20px; font-weight: 600; border-radius: 980px; background: #ffffff; border: 1px solid var(--color-border);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Compute Deductible Breakeven</span>
           </a>
         </div>
       </div>
@@ -337,6 +425,54 @@
   
       </div>
     </div>
+
+    <!-- Category FAQs Accordion -->
+    
+  <section class="faq-wrap" aria-labelledby="faq-heading">
+    <div class="faq-header">
+      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Search Intent &amp; FAQ</span>
+      </div>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions About Pet Insurance</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Common policy questions, coverage benchmarks, and companion decision tools.</p>
+    </div>
+
+    <div class="faq-list">
+      
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>How do pet insurance deductibles and reimbursement percentages work?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            You pay veterinary bills upfront, submit itemized clinic receipts, and the pet insurer reimburses 70% to 90% of eligible charges after your annual deductible is satisfied. Learn more in our <a href="/learn/pet-insurance-explained">Pet Insurance Guide</a> and calculate cost breakevens in the <a href="/deductible-calculator/">Deductible Calculator</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>Are pre-existing veterinary conditions ever covered by pet insurance?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            No commercial pet insurance provider covers incurable pre-existing conditions (e.g., diabetes, hip dysplasia). Some carriers will cover curable conditions if the pet remains symptom-free and off medication for 180 to 365 days. Read our breakdown in <a href="/learn/what-is-an-exclusion-in-insurance">Insurance Exclusions Explained</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>Is wellness routine care coverage worth the extra premium?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Wellness add-ons (covering vaccinations, microchipping, flea prevention) operate like pre-paid discounts rather than true catastrophe insurance. Actuarially, budgeting out-of-pocket for routine vet visits while carrying accident/illness coverage is more cost-effective. Check our <a href="/learn/how-to-compare-insurance-policies">Policy Comparison Guide</a>.
+          </div>
+        </details>
+      
+    </div>
+  </section>
+  
   </main>
 
   

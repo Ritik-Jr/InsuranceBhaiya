@@ -33,6 +33,57 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta name="twitter:image:alt" content="Jordan&#039;s Case Study">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Scenarios",
+      "item": "https://insurancebhaiya.com/scenarios"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Jordan's Story"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the primary risk takeaway from Jordan's situation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This real-world scenario demonstrates the dangerous financial consequences of underinsurance and inadequate liability thresholds. Review our diagnostic in the <a href=\"/policy-check\">8-Point Policy Health Check</a> and read <a href=\"/learn/how-to-know-if-you-are-underinsured\">How to Know If You Are Underinsured</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which calculator should I use to avoid similar financial vulnerability?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Calculate your exact household coverage requirements using our <a href=\"/life-insurance-calculator/\">Life Insurance Needs Calculator</a> or test your vehicle limits in the <a href=\"/car-insurance-calculator/\">Car Insurance Estimator</a>."
+      }
+    }
+  ]
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +275,26 @@
 
   <main class="container-reading">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li><a href="/scenarios">Scenarios</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Jordan&#039;s Story</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/scenarios" itemprop="item"><span itemprop="name">Scenarios</span></a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Jordan&#039;s Story</span>
+              <meta itemprop="position" content="3" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -257,7 +325,7 @@
       </div>
     </div>
 
-    <!-- Key Risk Exposures (Mapped Cleanly as Individual Cards) -->
+    <!-- Key Risk Exposures -->
     <div style="margin-bottom: 36px;">
       <h2 style="font-size: 1.35rem; font-weight: 600; margin-bottom: 16px; color: var(--color-text);">
         Key Vulnerabilities &amp; Financial Exposures
@@ -291,7 +359,7 @@
       </div>
     </div>
 
-    <!-- Recommended Actionable Strategy (Mapped Cleanly as Individual Cards) -->
+    <!-- Recommended Actionable Strategy -->
     <div style="margin-bottom: 44px;">
       <h2 style="font-size: 1.35rem; font-weight: 600; margin-bottom: 16px; color: var(--color-text);">
         Recommended Risk-Transfer Blueprint
@@ -326,7 +394,7 @@
     </div>
 
     <!-- Actuarial Benchmark & Calculator Action Box -->
-    <div class="scenario-action-box">
+    <div class="scenario-action-box" style="margin-bottom: 40px;">
       <div>
         <div style="font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">
           Target Budget Allocation
@@ -346,6 +414,44 @@
         </a>
       
     </div>
+
+    <!-- Scenario FAQs -->
+    
+  <section class="faq-wrap" aria-labelledby="faq-heading">
+    <div class="faq-header">
+      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Search Intent &amp; FAQ</span>
+      </div>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Jordan&#039;s Case Study FAQs</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Key risk takeaways and actionable steps for similar situations.</p>
+    </div>
+
+    <div class="faq-list">
+      
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>What is the primary risk takeaway from Jordan&#039;s situation?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            This real-world scenario demonstrates the dangerous financial consequences of underinsurance and inadequate liability thresholds. Review our diagnostic in the <a href="/policy-check">8-Point Policy Health Check</a> and read <a href="/learn/how-to-know-if-you-are-underinsured">How to Know If You Are Underinsured</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>Which calculator should I use to avoid similar financial vulnerability?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Calculate your exact household coverage requirements using our <a href="/life-insurance-calculator/">Life Insurance Needs Calculator</a> or test your vehicle limits in the <a href="/car-insurance-calculator/">Car Insurance Estimator</a>.
+          </div>
+        </details>
+      
+    </div>
+  </section>
+  
   </main>
 
   

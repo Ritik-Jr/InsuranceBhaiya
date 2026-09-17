@@ -33,6 +33,41 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta name="twitter:image:alt" content="Insurance Calculators &amp; Actuarial Tools">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Insurance Calculators & Actuarial Tools | Insurance Bhaiya",
+  "description": "Explore 10 transparent actuarial decision calculators for life insurance needs, term rates, health HDHP vs PPO, auto coverage, and deductible breakeven.",
+  "url": "https://insurancebhaiya.com/tools",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +259,20 @@
 
   <main class="container">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Calculators</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Calculators</span>
+              <meta itemprop="position" content="2" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -250,334 +296,444 @@
         <div>
           <div class="tools-spotlight-badge">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
-            <span>Flagship Decision Engine</span>
+            <span>Flagship Actuarial Model</span>
           </div>
-          <h2 class="tools-spotlight-title">
-            <a href="/life-insurance-calculator/" style="color: inherit; text-decoration: none;">
-              Life Insurance Calculator
-            </a>
+          <h2 style="font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 700; margin-bottom: 14px; letter-spacing: -0.02em;">
+            Life Insurance Calculator
           </h2>
-          <p class="tools-spotlight-desc">
-            Compute total capital required to settle liabilities and sustain your family&#039;s standard of living.
+          <p style="color: var(--color-secondary); font-size: 1.0625rem; line-height: 1.6; margin-bottom: 24px; max-width: 580px;">
+            Calculate your mathematically ideal coverage using the DIME methodology (Debt, Income, Mortgage, Education) instead of arbitrary rule-of-thumb multiples.
           </p>
-
-          <div class="tools-feature-pills">
-            <span class="tools-feature-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> 10x Income Multiplier</span>
-            <span class="tools-feature-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Debt &amp; Mortgage Balance</span>
-            <span class="tools-feature-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg> 100% Client-Side Privacy</span>
-          </div>
-
-          <div>
-            <a href="/life-insurance-calculator/" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 14px 28px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">
-              <span>Launch Life Calculator</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="/life-insurance-calculator/" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 13px 26px; font-weight: 600;">
+              <span>Open Calculator</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/compare/term-vs-whole-life" class="btn btn-secondary" style="padding: 13px 20px;">
+              Read Methodology
             </a>
           </div>
         </div>
 
-        <div class="tools-preview-card">
-          <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-accent); margin-bottom: 14px; display: flex; align-items: center; gap: 6px;">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <span>Sample Actuarial Simulation</span>
+        <div class="tools-spotlight-stats">
+          <div class="tools-stat-box">
+            <div class="tools-stat-num">DIME</div>
+            <div class="tools-stat-label">Actuarial Framework</div>
           </div>
-          <div class="tools-preview-row">
-            <span style="font-size: 0.875rem; color: var(--color-secondary);">Annual Household Income</span>
-            <span style="font-size: 0.9375rem; font-weight: 600; color: var(--color-text);">$85,000</span>
+          <div class="tools-stat-box">
+            <div class="tools-stat-num">0%</div>
+            <div class="tools-stat-label">Sales Commission Bias</div>
           </div>
-          <div class="tools-preview-row">
-            <span style="font-size: 0.875rem; color: var(--color-secondary);">Outstanding Liabilities</span>
-            <span style="font-size: 0.9375rem; font-weight: 600; color: var(--color-text);">$280,000</span>
+          <div class="tools-stat-box">
+            <div class="tools-stat-num">&lt; 3 min</div>
+            <div class="tools-stat-label">Calculation Time</div>
           </div>
-          <div class="tools-preview-row">
-            <span style="font-size: 0.875rem; color: var(--color-secondary);">Net Coverage Requirement</span>
-            <span style="font-size: 1.0625rem; font-weight: 700; color: #0071e3;">$850,000</span>
-          </div>
-          <div class="tools-preview-row">
-            <span style="font-size: 0.875rem; color: var(--color-secondary);">Est. Level Term Benchmark</span>
-            <span style="font-size: 0.9375rem; font-weight: 600; color: #166534;">~$41 / month</span>
+          <div class="tools-stat-box">
+            <div class="tools-stat-num">Private</div>
+            <div class="tools-stat-label">Zero Data Stored</div>
           </div>
         </div>
       </div>
       
 
-    <!-- 2. Core Personal Coverage Calculators -->
-    <div class="tools-section-heading">
-      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg>
-        <span>Essential Protection</span>
-      </div>
-      <h2>Core Insurance Calculators</h2>
-      <p>Interactive actuarial models for calculating primary personal insurance coverage needs.</p>
+    <!-- 2. Grid of All 10 Calculators -->
+    <div style="margin-bottom: 32px;">
+      <h2 class="text-title-2" style="margin-bottom: 8px;">All 10 Decision Models</h2>
+      <p class="text-secondary" style="font-size: 0.9375rem;">Interactive widgets for life, health, auto, home, umbrella, and disability planning.</p>
     </div>
 
-    <div class="tools-core-grid">
+    <div class="grid-3" style="gap: 20px;">
       
-          <div class="tool-core-card">
-            <div>
-              <div class="tool-core-top">
-                <div class="tool-core-icon" style="background: #eff6ff; color: #0071e3;">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.75rem; font-weight: 600; background: #eff6ff; color: #0071e3; border: none;">
-                  Essential
-                </span>
-              </div>
+    <div class="apple-card apple-calc-card card-pastel-blue">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Popular
+            </span>
+          </div>
+        </div>
 
-              <h3 class="tool-core-title">
-                <a href="/term-insurance-calculator/">Term Insurance Calculator</a>
-              </h3>
+        <h3 class="apple-calc-title">
+          <a href="/life-insurance-calculator/">
+            Life Insurance Calculator
+          </a>
+        </h3>
 
-              <p class="tool-core-desc">Forecast monthly and annual term premiums tailored to age, health tier, term duration, and coverage sum.</p>
+        <p class="apple-calc-desc">
+          Compute total capital required to settle liabilities and sustain your family&#039;s standard of living.
+        </p>
 
-              
-                <div style="background: var(--color-surface); border-radius: 12px; padding: 12px 16px; margin-bottom: 24px; border: 1px solid rgba(0,0,0,0.04);">
-                  <div style="font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
-                  <div style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.5;">Actuarial baseline model factoring age-band mortality curves, term lengths (10, 20, 30 yrs), and lifestyle health classifications.</div>
-                </div>
-              
-            </div>
-
-            <div>
-              <a href="/term-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px; font-weight: 600;">
-                <span>Estimate Term Premium</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Combines 10-year income replacement with outstanding debt, mortgage, and higher-education reserves minus existing liquid assets.
           </div>
         
-          <div class="tool-core-card">
-            <div>
-              <div class="tool-core-top">
-                <div class="tool-core-icon" style="background: #f0fdf4; color: #16a34a;">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.75rem; font-weight: 600; background: #f0fdf4; color: #16a34a; border: none;">
-                  Decision Tool
-                </span>
-              </div>
-
-              <h3 class="tool-core-title">
-                <a href="/health-insurance-calculator/">Health Insurance Calculator</a>
-              </h3>
-
-              <p class="tool-core-desc">Evaluate total annual healthcare expenditure across premiums, deductibles, copays, and out-of-pocket maximums.</p>
-
-              
-                <div style="background: var(--color-surface); border-radius: 12px; padding: 12px 16px; margin-bottom: 24px; border: 1px solid rgba(0,0,0,0.04);">
-                  <div style="font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
-                  <div style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.5;">Models High-Deductible Health Plans (HDHP) vs. Low-Deductible PPOs across low, medium, and catastrophic care consumption scenarios.</div>
-                </div>
-              
-            </div>
-
-            <div>
-              <a href="/health-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px; font-weight: 600;">
-                <span>Compare Plan Costs</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
-          </div>
-        
-          <div class="tool-core-card">
-            <div>
-              <div class="tool-core-top">
-                <div class="tool-core-icon" style="background: #faf5ff; color: #9333ea;">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.7 2 11.3 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.75rem; font-weight: 600; background: #faf5ff; color: #9333ea; border: none;">
-                  Utility
-                </span>
-              </div>
-
-              <h3 class="tool-core-title">
-                <a href="/car-insurance-calculator/">Car Insurance Calculator</a>
-              </h3>
-
-              <p class="tool-core-desc">Simulate auto premium estimates based on vehicle replacement cost, driving mileage, liability limits, and collision deductibles.</p>
-
-              
-                <div style="background: var(--color-surface); border-radius: 12px; padding: 12px 16px; margin-bottom: 24px; border: 1px solid rgba(0,0,0,0.04);">
-                  <div style="font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
-                  <div style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.5;">Blends state risk averages with collision, comprehensive, and comprehensive liability tiers.</div>
-                </div>
-              
-            </div>
-
-            <div>
-              <a href="/car-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px; font-weight: 600;">
-                <span>Estimate Auto Rates</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
-          </div>
-        
-          <div class="tool-core-card">
-            <div>
-              <div class="tool-core-top">
-                <div class="tool-core-icon" style="background: #fff7ed; color: #ea580c;">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.75rem; font-weight: 600; background: #fff7ed; color: #ea580c; border: none;">
-                  Property
-                </span>
-              </div>
-
-              <h3 class="tool-core-title">
-                <a href="/home-insurance-calculator/">Home Insurance Calculator</a>
-              </h3>
-
-              <p class="tool-core-desc">Estimate structural rebuilding costs per square foot, personal property coverage, and premises liability.</p>
-
-              
-                <div style="background: var(--color-surface); border-radius: 12px; padding: 12px 16px; margin-bottom: 24px; border: 1px solid rgba(0,0,0,0.04);">
-                  <div style="font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
-                  <div style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.5;">Calculates dwelling reconstruction value based on square footage and regional building index, setting 50% personal property ratio.</div>
-                </div>
-              
-            </div>
-
-            <div>
-              <a href="/home-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px; font-weight: 600;">
-                <span>Calculate Home Rebuild</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
-          </div>
-        
-    </div>
-
-    <!-- 3. Policy Optimization & Specialized Tools -->
-    <div class="tools-section-heading">
-      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: #7c3aed; margin-bottom: 6px;">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        <span>Fine-Tuning &amp; Auditing</span>
       </div>
-      <h2>Policy Optimization &amp; Utility Tools</h2>
-      <p>Precision tools for comparing deductibles, cashflow schedules, and inflation erosions.</p>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/life-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Calculate Life Protection</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
     </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-purple">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Essential
+            </span>
+          </div>
+        </div>
 
-    <div class="tools-shelf-grid">
-      
-          <div class="tool-shelf-card">
-            <div>
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-                <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--color-surface); display: flex; align-items: center; justify-content: center; color: var(--color-accent);">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.6875rem; font-weight: 600;">Cash Flow</span>
-              </div>
+        <h3 class="apple-calc-title">
+          <a href="/term-insurance-calculator/">
+            Term Insurance Calculator
+          </a>
+        </h3>
 
-              <h3 class="tool-shelf-title">
-                <a href="/premium-calculator/">Universal Premium Calculator</a>
-              </h3>
+        <p class="apple-calc-desc">
+          Forecast monthly and annual term premiums tailored to age, health tier, term duration, and coverage sum.
+        </p>
 
-              <p class="tool-shelf-desc">Calculate annual vs. semi-annual vs. monthly payment savings, installment fees, and payment cash flow impacts.</p>
-            </div>
-
-            <div style="padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.06);">
-              <a href="/premium-calculator/" class="btn btn-secondary btn-sm" style="width: 100%; justify-content: space-between; background: var(--color-surface); font-weight: 600;">
-                <span>Open Tool</span>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Actuarial baseline model factoring age-band mortality curves, term lengths (10, 20, 30 yrs), and lifestyle health classifications.
           </div>
         
-          <div class="tool-shelf-card">
-            <div>
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-                <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--color-surface); display: flex; align-items: center; justify-content: center; color: var(--color-accent);">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.6875rem; font-weight: 600;">Risk Audit</span>
-              </div>
+      </div>
 
-              <h3 class="tool-shelf-title">
-                <a href="/coverage-calculator/">Coverage Ratio Calculator</a>
-              </h3>
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/term-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Estimate Term Premium</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-green">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Decision Tool
+            </span>
+          </div>
+        </div>
 
-              <p class="tool-shelf-desc">Assess total asset vulnerability against liability limits to determine whether an umbrella policy is warranted.</p>
-            </div>
+        <h3 class="apple-calc-title">
+          <a href="/health-insurance-calculator/">
+            Health Insurance Calculator
+          </a>
+        </h3>
 
-            <div style="padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.06);">
-              <a href="/coverage-calculator/" class="btn btn-secondary btn-sm" style="width: 100%; justify-content: space-between; background: var(--color-surface); font-weight: 600;">
-                <span>Open Tool</span>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
+        <p class="apple-calc-desc">
+          Evaluate total annual healthcare expenditure across premiums, deductibles, copays, and out-of-pocket maximums.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Models High-Deductible Health Plans (HDHP) vs. Low-Deductible PPOs across low, medium, and catastrophic care consumption scenarios.
           </div>
         
-          <div class="tool-shelf-card">
-            <div>
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-                <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--color-surface); display: flex; align-items: center; justify-content: center; color: var(--color-accent);">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.6875rem; font-weight: 600;">Framework</span>
-              </div>
+      </div>
 
-              <h3 class="tool-shelf-title">
-                <a href="/insurance-needs-calculator/">Insurance Needs (D.I.M.E.) Calculator</a>
-              </h3>
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/health-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Compare Plan Costs</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-amber">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.7 2 11.3 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Utility
+            </span>
+          </div>
+        </div>
 
-              <p class="tool-shelf-desc">Execute the industry-standard D.I.M.E. formula (Debt, Income, Mortgage, Education) for methodical coverage precision.</p>
-            </div>
+        <h3 class="apple-calc-title">
+          <a href="/car-insurance-calculator/">
+            Car Insurance Calculator
+          </a>
+        </h3>
 
-            <div style="padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.06);">
-              <a href="/insurance-needs-calculator/" class="btn btn-secondary btn-sm" style="width: 100%; justify-content: space-between; background: var(--color-surface); font-weight: 600;">
-                <span>Open Tool</span>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
+        <p class="apple-calc-desc">
+          Simulate auto premium estimates based on vehicle replacement cost, driving mileage, liability limits, and collision deductibles.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Blends state risk averages with collision, comprehensive, and comprehensive liability tiers.
           </div>
         
-          <div class="tool-shelf-card">
-            <div>
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-                <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--color-surface); display: flex; align-items: center; justify-content: center; color: var(--color-accent);">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.6875rem; font-weight: 600;">Optimization</span>
-              </div>
+      </div>
 
-              <h3 class="tool-shelf-title">
-                <a href="/deductible-calculator/">Deductible Breakeven Calculator</a>
-              </h3>
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/car-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Estimate Auto Rates</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-blue">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Property
+            </span>
+          </div>
+        </div>
 
-              <p class="tool-shelf-desc">Determine how many claim-free years are required to justify a higher deductible for monthly premium savings.</p>
-            </div>
+        <h3 class="apple-calc-title">
+          <a href="/home-insurance-calculator/">
+            Home Insurance Calculator
+          </a>
+        </h3>
 
-            <div style="padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.06);">
-              <a href="/deductible-calculator/" class="btn btn-secondary btn-sm" style="width: 100%; justify-content: space-between; background: var(--color-surface); font-weight: 600;">
-                <span>Open Tool</span>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
+        <p class="apple-calc-desc">
+          Estimate structural rebuilding costs per square foot, personal property coverage, and premises liability.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Calculates dwelling reconstruction value based on square footage and regional building index, setting 50% personal property ratio.
           </div>
         
-          <div class="tool-shelf-card">
-            <div>
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-                <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--color-surface); display: flex; align-items: center; justify-content: center; color: var(--color-accent);">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
-                </div>
-                <span class="pill" style="font-size: 0.6875rem; font-weight: 600;">Macro Tool</span>
-              </div>
+      </div>
 
-              <h3 class="tool-shelf-title">
-                <a href="/inflation-calculator/">Insurance Inflation Calculator</a>
-              </h3>
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/home-insurance-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Calculate Home Rebuild</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-purple">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Cash Flow
+            </span>
+          </div>
+        </div>
 
-              <p class="tool-shelf-desc">Model the erosive impact of inflation on fixed death benefits and healthcare costs over 10, 20, and 30 years.</p>
-            </div>
+        <h3 class="apple-calc-title">
+          <a href="/premium-calculator/">
+            Universal Premium Calculator
+          </a>
+        </h3>
 
-            <div style="padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.06);">
-              <a href="/inflation-calculator/" class="btn btn-secondary btn-sm" style="width: 100%; justify-content: space-between; background: var(--color-surface); font-weight: 600;">
-                <span>Open Tool</span>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
-            </div>
+        <p class="apple-calc-desc">
+          Calculate annual vs. semi-annual vs. monthly payment savings, installment fees, and payment cash flow impacts.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Calculates modal installment surcharges (typically 3-8% annual penalty) when paying monthly rather than annually.
           </div>
         
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/premium-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Optimize Payment Mode</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-green">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Risk Audit
+            </span>
+          </div>
+        </div>
+
+        <h3 class="apple-calc-title">
+          <a href="/coverage-calculator/">
+            Coverage Ratio Calculator
+          </a>
+        </h3>
+
+        <p class="apple-calc-desc">
+          Assess total asset vulnerability against liability limits to determine whether an umbrella policy is warranted.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Balances aggregate personal net worth against current underlying auto and homeowners liability thresholds.
+          </div>
+        
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/coverage-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Analyze Risk Exposure</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-amber">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Framework
+            </span>
+          </div>
+        </div>
+
+        <h3 class="apple-calc-title">
+          <a href="/insurance-needs-calculator/">
+            Insurance Needs (D.I.M.E.) Calculator
+          </a>
+        </h3>
+
+        <p class="apple-calc-desc">
+          Execute the industry-standard D.I.M.E. formula (Debt, Income, Mortgage, Education) for methodical coverage precision.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            D.I.M.E. = Current Non-Mortgage Debt + (Income x Years) + Mortgage Balance + Projected Higher Education Costs.
+          </div>
+        
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/insurance-needs-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Run D.I.M.E. Audit</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-blue">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Optimization
+            </span>
+          </div>
+        </div>
+
+        <h3 class="apple-calc-title">
+          <a href="/deductible-calculator/">
+            Deductible Breakeven Calculator
+          </a>
+        </h3>
+
+        <p class="apple-calc-desc">
+          Determine how many claim-free years are required to justify a higher deductible for monthly premium savings.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Breakeven Months = (High Deductible - Low Deductible) / (High Premium - Low Premium).
+          </div>
+        
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/deductible-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Calculate Breakeven</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-purple">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Macro Tool
+            </span>
+          </div>
+        </div>
+
+        <h3 class="apple-calc-title">
+          <a href="/inflation-calculator/">
+            Insurance Inflation Calculator
+          </a>
+        </h3>
+
+        <p class="apple-calc-desc">
+          Model the erosive impact of inflation on fixed death benefits and healthcare costs over 10, 20, and 30 years.
+        </p>
+
+        
+          <div class="apple-calc-formula">
+            <div style="font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-secondary); margin-bottom: 4px;">Actuarial Model</div>
+            Future Real Value = Nominal Benefit / (1 + r)^t across custom compound inflation rate assumptions.
+          </div>
+        
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/inflation-calculator/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Model Purchasing Power</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
     </div>
   </main>
 

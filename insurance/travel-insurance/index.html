@@ -33,6 +33,79 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/category-travel.jpg">
   <meta name="twitter:image:alt" content="Travel Insurance Guide">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Insurance Categories",
+      "item": "https://insurancebhaiya.com/insurance"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Travel Insurance"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Travel Insurance Guide & Coverage Analysis | Insurance Bhaiya",
+  "description": "Essential protection for international and domestic journeys, ensuring unexpected medical evacuation or cancellations do not derail your savings.",
+  "url": "https://insurancebhaiya.com/insurance/travel-insurance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is purchasing comprehensive travel insurance mathematically justified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Travel insurance is essential when traveling internationally where your domestic health insurance does not provide out-of-country emergency medical or medical evacuation coverage, or when booking non-refundable vacations exceeding 5% of annual savings. Read our <a href=\"/learn/travel-insurance-guide\">Complete Travel Insurance Guide</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does travel medical insurance cover pre-existing health conditions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standard travel policies exclude pre-existing conditions unless you purchase the policy within 14 to 21 days of making your initial trip deposit and qualify for a Pre-Existing Condition Exclusion Waiver. See our guide on <a href=\"/learn/what-is-an-exclusion-in-insurance\">What is an Insurance Exclusion?</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does \"Cancel For Any Reason\" (CFAR) coverage provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CFAR is an optional endorsement that reimburses 50% to 75% of non-refundable trip expenses if you cancel for reasons not otherwise covered under standard trip cancellation terms. Learn more about endorsements in <a href=\"/learn/what-is-an-insurance-endorsement\">What is an Insurance Endorsement?</a>."
+      }
+    }
+  ]
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +297,26 @@
 
   <main class="container">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li><a href="/insurance">Insurance Categories</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Travel Insurance</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/insurance" itemprop="item"><span itemprop="name">Insurance Categories</span></a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Travel Insurance</span>
+              <meta itemprop="position" content="3" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -239,39 +329,37 @@
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
             <span>Global Travel Security</span>
           </span>
+          <span class="category-hero-counter">1 Verified Guides</span>
         </div>
 
-        <h1 class="category-hero-title">
-          Travel Insurance
-        </h1>
+        <h1 class="category-hero-title">Travel Insurance</h1>
+        <p class="category-hero-desc">Essential protection for international and domestic journeys, ensuring unexpected medical evacuation or cancellations do not derail your savings.</p>
 
-        <p class="category-hero-desc">
-          Essential protection for international and domestic journeys, ensuring unexpected medical evacuation or cancellations do not derail your savings.
-        </p>
-
-        <!-- Apple Well-Arranged Specification Strip -->
-        <div class="category-specs-row">
-          <div class="category-spec-item">
-            <span class="category-spec-label">Avg Benchmark</span>
-            <span class="category-spec-val highlight">4% - 10% of trip cost</span>
+        <!-- Quick Spec Highlights -->
+        <div class="category-specs-strip">
+          <div class="category-spec-col">
+            <span class="category-spec-label">Typical Monthly Cost</span>
+            <span class="category-spec-val">4% - 10% of trip cost</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Core Coverage</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Core Protection Focus</span>
             <span class="category-spec-val">Emergency Medical Evacuation</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Policy Standard</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Recommended Strategy</span>
             <span class="category-spec-val">Cancel For Any Reason (CFAR)</span>
           </div>
         </div>
 
-        <div class="category-hero-actions">
-          <a href="/premium-calculator/" class="btn btn-primary">
-            <span>Calculate Payment Impact</span>
+        <!-- Action Row -->
+        <div class="category-actions-row">
+          <a href="#guides" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 12px 22px; font-weight: 600; border-radius: 980px;">
+            <span>Browse Guides</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="#guides" class="btn btn-secondary">
-            <span>Browse Guides (1)</span>
+          <a href="/premium-calculator/" class="btn btn-secondary" style="padding: 12px 20px; font-weight: 600; border-radius: 980px; background: #ffffff; border: 1px solid var(--color-border);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Calculate Payment Impact</span>
           </a>
         </div>
       </div>
@@ -337,6 +425,54 @@
   
       </div>
     </div>
+
+    <!-- Category FAQs Accordion -->
+    
+  <section class="faq-wrap" aria-labelledby="faq-heading">
+    <div class="faq-header">
+      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Search Intent &amp; FAQ</span>
+      </div>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions About Travel Insurance</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Common policy questions, coverage benchmarks, and companion decision tools.</p>
+    </div>
+
+    <div class="faq-list">
+      
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>When is purchasing comprehensive travel insurance mathematically justified?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Travel insurance is essential when traveling internationally where your domestic health insurance does not provide out-of-country emergency medical or medical evacuation coverage, or when booking non-refundable vacations exceeding 5% of annual savings. Read our <a href="/learn/travel-insurance-guide">Complete Travel Insurance Guide</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>Does travel medical insurance cover pre-existing health conditions?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Most standard travel policies exclude pre-existing conditions unless you purchase the policy within 14 to 21 days of making your initial trip deposit and qualify for a Pre-Existing Condition Exclusion Waiver. See our guide on <a href="/learn/what-is-an-exclusion-in-insurance">What is an Insurance Exclusion?</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>What does &quot;Cancel For Any Reason&quot; (CFAR) coverage provide?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            CFAR is an optional endorsement that reimburses 50% to 75% of non-refundable trip expenses if you cancel for reasons not otherwise covered under standard trip cancellation terms. Learn more about endorsements in <a href="/learn/what-is-an-insurance-endorsement">What is an Insurance Endorsement?</a>.
+          </div>
+        </details>
+      
+    </div>
+  </section>
+  
   </main>
 
   

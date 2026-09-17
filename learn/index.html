@@ -33,6 +33,41 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/hero-guide.jpg">
   <meta name="twitter:image:alt" content="The Insurance Learning Center">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Learn"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "The Insurance Learning Center | Plain-English Consumer Guides",
+  "description": "Explore 45 plain-English insurance guides on life, health, auto, home, disability, business, and property risk protection with complete editorial analysis.",
+  "url": "https://insurancebhaiya.com/learn",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +259,20 @@
 
   <main class="container">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Learn</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Learn</span>
+              <meta itemprop="position" content="2" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -241,37 +287,12 @@
       </div>
       <h1 class="text-title-1" style="margin-bottom: 12px; font-size: clamp(2rem, 3vw, 2.75rem);">The Insurance Learning Center</h1>
       <p class="text-lead" style="max-width: 780px;">
-        Explore plain-English research, statutory policy breakdown guides, and tactical risk management frameworks crafted by independent actuaries.
+        Transparent, plain-English insurance education written to eliminate information asymmetry. Zero commercial kickbacks, no sponsored articles.
       </p>
     </div>
 
-    <!-- Live Search Filter Input on Blog Hub -->
-    <div style="margin-bottom: 32px; max-width: 600px;">
-      <div style="border: 1px solid rgba(0, 0, 0, 0.12); border-radius: var(--radius-full); padding: 4px 18px; background: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.03); display: flex; align-items: center; gap: 10px;">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="text" id="blogLiveSearch" placeholder="Filter 45 guides by keyword or topic (e.g. deductible, copay, life)..." style="width: 100%; border: none; outline: none; font-size: 0.9375rem; padding: 10px 0; background: transparent; color: var(--color-text);" />
-      </div>
-    </div>
-
-    <!-- Category Filter Pills Covering All 10 Categories -->
-    <div class="filter-pills-row" style="margin-bottom: 40px;">
-      <button class="filter-pill active" data-category="all">All Guides (45)</button>
-      <button class="filter-pill" data-category="insurance-basics">Basics</button>
-      <button class="filter-pill" data-category="life-insurance">Life</button>
-      <button class="filter-pill" data-category="term-insurance">Term</button>
-      <button class="filter-pill" data-category="health-insurance">Health</button>
-      <button class="filter-pill" data-category="car-insurance">Auto</button>
-      <button class="filter-pill" data-category="home-insurance">Homeowners</button>
-      <button class="filter-pill" data-category="disability-insurance">Disability</button>
-      <button class="filter-pill" data-category="business-insurance">Business</button>
-      <button class="filter-pill" data-category="property-insurance">Property</button>
-      <button class="filter-pill" data-category="travel-insurance">Travel</button>
-      <button class="filter-pill" data-category="pet-insurance">Pet</button>
-    </div>
-
-    <!-- Top Featured Editorial Bento -->
-    <div style="margin-bottom: 48px;">
-      
+    <!-- Magazine Featured Showcase Article -->
+    
     <div class="card-featured-hero" id="featuredBlogHero" data-category="insurance-basics" data-title="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" data-desc="Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.">
       <!-- Side 1: Full-Bleed Image Covering Entire Half -->
       <div class="card-featured-img-wrap">
@@ -318,10 +339,37 @@
       </div>
     </div>
   
+
+    <!-- Category Filter Bar -->
+    <div style="margin: 40px 0 24px;">
+      <div style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; -webkit-overflow-scrolling: touch;">
+        <a href="/learn" class="pill pill-accent" style="white-space: nowrap; font-weight: 600;">All Publications (45)</a>
+        
+          <a href="/insurance/life-insurance" class="pill" style="white-space: nowrap;">Life Insurance</a>
+        
+          <a href="/insurance/health-insurance" class="pill" style="white-space: nowrap;">Health Insurance</a>
+        
+          <a href="/insurance/car-insurance" class="pill" style="white-space: nowrap;">Car Insurance</a>
+        
+          <a href="/insurance/home-insurance" class="pill" style="white-space: nowrap;">Home Insurance</a>
+        
+          <a href="/insurance/travel-insurance" class="pill" style="white-space: nowrap;">Travel Insurance</a>
+        
+          <a href="/insurance/term-insurance" class="pill" style="white-space: nowrap;">Term Insurance</a>
+        
+          <a href="/insurance/business-insurance" class="pill" style="white-space: nowrap;">Business Insurance</a>
+        
+          <a href="/insurance/property-insurance" class="pill" style="white-space: nowrap;">Property Insurance</a>
+        
+          <a href="/insurance/pet-insurance" class="pill" style="white-space: nowrap;">Pet Insurance</a>
+        
+          <a href="/insurance/disability-insurance" class="pill" style="white-space: nowrap;">Disability Insurance</a>
+        
+      </div>
     </div>
 
-    <!-- Blog Cards Grid with Thumbnails -->
-    <div class="articles-grid" id="articlesGrid">
+    <!-- Complete Article Archive Grid -->
+    <div class="articles-grid">
       
     <article class="apple-card apple-article-card" data-category="insurance-basics">
       <div class="apple-article-media">
@@ -1988,20 +2036,6 @@
       </div>
     </article>
   
-    </div>
-
-    <!-- Empty State Notice -->
-    <div id="articlesEmptyNotice" style="display: none; padding: 48px 24px; text-align: center; color: var(--color-secondary);">
-      <p style="font-size: 1.125rem; font-weight: 500; margin-bottom: 8px;">No guides found matching this criteria.</p>
-      <p style="font-size: 0.875rem;">Try selecting 'All Guides' or clearing your search term.</p>
-    </div>
-
-    <!-- Progressive Pagination Load More -->
-    <div class="load-more-wrap" id="loadMoreWrap">
-      <button class="btn-load-more" id="loadMoreArticlesBtn">
-        <span>Load More Guides</span>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </button>
     </div>
   </main>
 

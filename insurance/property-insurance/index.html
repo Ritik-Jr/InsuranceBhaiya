@@ -33,6 +33,79 @@
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/category-property.jpg">
   <meta name="twitter:image:alt" content="Property Insurance Guide">
 
+  <!-- Schema.org Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://insurancebhaiya.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Insurance Categories",
+      "item": "https://insurancebhaiya.com/insurance"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Property Insurance"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Property Insurance Guide & Coverage Analysis | Insurance Bhaiya",
+  "description": "Tailored coverage for landlords, real estate investors, and commercial buildings against structural damage, loss of rental income, and premises claims.",
+  "url": "https://insurancebhaiya.com/insurance/property-insurance",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Insurance Bhaiya",
+    "url": "https://insurancebhaiya.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between Actual Cash Value (ACV) and Replacement Cost Value (RCV)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Actual Cash Value deducts depreciation for age, wear, and obsolescence from your claim payout, leaving you to pay the difference. Replacement Cost Value pays the full current cost to replace the damaged property with new items of like kind and quality. Compare policy options in our <a href=\"/home-insurance-calculator/\">Home Replacement Cost Calculator</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is concurrent causation in property insurance claims?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Concurrent causation occurs when two separate perils—one covered (e.g. wind) and one excluded (e.g. flood)—combine to cause property damage. Most insurers include anti-concurrent causation clauses to deny the entire claim. Audit your coverage gaps with our <a href=\"/policy-check\">8-Point Policy Health Check</a>."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do percentage deductibles work for hurricanes and windstorms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In coastal territories, wind and hurricane deductibles are stated as a percentage (typically 1% to 5%) of the total dwelling limit rather than a flat dollar amount. On a $400,000 home with a 2% hurricane deductible, you must pay $8,000 out-of-pocket before insurance responds. See <a href=\"/deductible-calculator/\">Deductible Calculator</a>."
+      }
+    }
+  ]
+}
+</script>
+
   <!-- Icons & Fonts -->
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -224,9 +297,26 @@
 
   <main class="container">
     
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumbs">
-      <li><a href="/">Home</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li><a href="/insurance">Insurance Categories</a></li><li aria-hidden="true" style="color: var(--color-border);">&bull;</li><li class="current">Property Insurance</li>
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/insurance" itemprop="item"><span itemprop="name">Insurance Categories</span></a>
+            <meta itemprop="position" content="2" />
+          </li>
+          <li aria-hidden="true" style="color: var(--color-border);">&bull;</li>
+        
+            <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span itemprop="name">Property Insurance</span>
+              <meta itemprop="position" content="3" />
+            </li>
+          
     </ol>
   </nav>
   
@@ -239,39 +329,37 @@
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
             <span>Real Estate &amp; Landlord</span>
           </span>
+          <span class="category-hero-counter">2 Verified Guides</span>
         </div>
 
-        <h1 class="category-hero-title">
-          Property Insurance
-        </h1>
+        <h1 class="category-hero-title">Property Insurance</h1>
+        <p class="category-hero-desc">Tailored coverage for landlords, real estate investors, and commercial buildings against structural damage, loss of rental income, and premises claims.</p>
 
-        <p class="category-hero-desc">
-          Tailored coverage for landlords, real estate investors, and commercial buildings against structural damage, loss of rental income, and premises claims.
-        </p>
-
-        <!-- Apple Well-Arranged Specification Strip -->
-        <div class="category-specs-row">
-          <div class="category-spec-item">
-            <span class="category-spec-label">Avg Benchmark</span>
-            <span class="category-spec-val highlight">$80 - $200 / mo</span>
+        <!-- Quick Spec Highlights -->
+        <div class="category-specs-strip">
+          <div class="category-spec-col">
+            <span class="category-spec-label">Typical Monthly Cost</span>
+            <span class="category-spec-val">$80 - $200 / mo</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Core Coverage</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Core Protection Focus</span>
             <span class="category-spec-val">Commercial &amp; Rental Structures</span>
           </div>
-          <div class="category-spec-item">
-            <span class="category-spec-label">Policy Standard</span>
+          <div class="category-spec-col">
+            <span class="category-spec-label">Recommended Strategy</span>
             <span class="category-spec-val">Premises Liability &amp; Rental Loss</span>
           </div>
         </div>
 
-        <div class="category-hero-actions">
-          <a href="/coverage-calculator/" class="btn btn-primary">
-            <span>Audit Coverage Ratios</span>
+        <!-- Action Row -->
+        <div class="category-actions-row">
+          <a href="#guides" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 12px 22px; font-weight: 600; border-radius: 980px;">
+            <span>Browse Guides</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="#guides" class="btn btn-secondary">
-            <span>Browse Guides (2)</span>
+          <a href="/coverage-calculator/" class="btn btn-secondary" style="padding: 12px 20px; font-weight: 600; border-radius: 980px; background: #ffffff; border: 1px solid var(--color-border);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Audit Coverage Ratios</span>
           </a>
         </div>
       </div>
@@ -374,6 +462,54 @@
   
       </div>
     </div>
+
+    <!-- Category FAQs Accordion -->
+    
+  <section class="faq-wrap" aria-labelledby="faq-heading">
+    <div class="faq-header">
+      <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--color-accent); margin-bottom: 6px;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <span>Search Intent &amp; FAQ</span>
+      </div>
+      <h2 id="faq-heading" class="text-title-2" style="margin-bottom: 6px; font-size: 1.5rem; font-weight: 700;">Frequently Asked Questions About Property Insurance</h2>
+      <p style="color: var(--color-secondary); font-size: 0.9375rem; margin: 0;">Common policy questions, coverage benchmarks, and companion decision tools.</p>
+    </div>
+
+    <div class="faq-list">
+      
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>What is the difference between Actual Cash Value (ACV) and Replacement Cost Value (RCV)?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Actual Cash Value deducts depreciation for age, wear, and obsolescence from your claim payout, leaving you to pay the difference. Replacement Cost Value pays the full current cost to replace the damaged property with new items of like kind and quality. Compare policy options in our <a href="/home-insurance-calculator/">Home Replacement Cost Calculator</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>What is concurrent causation in property insurance claims?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            Concurrent causation occurs when two separate perils—one covered (e.g. wind) and one excluded (e.g. flood)—combine to cause property damage. Most insurers include anti-concurrent causation clauses to deny the entire claim. Audit your coverage gaps with our <a href="/policy-check">8-Point Policy Health Check</a>.
+          </div>
+        </details>
+      
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>How do percentage deductibles work for hurricanes and windstorms?</span>
+            <svg class="faq-question-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">
+            In coastal territories, wind and hurricane deductibles are stated as a percentage (typically 1% to 5%) of the total dwelling limit rather than a flat dollar amount. On a $400,000 home with a 2% hurricane deductible, you must pay $8,000 out-of-pocket before insurance responds. See <a href="/deductible-calculator/">Deductible Calculator</a>.
+          </div>
+        </details>
+      
+    </div>
+  </section>
+  
   </main>
 
   
