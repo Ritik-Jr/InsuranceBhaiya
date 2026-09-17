@@ -29,6 +29,14 @@ const server = http.createServer((req, res) => {
   let safePath = path.normalize(urlPath).replace(/^(\.\.[\/\\])+/, '');
   if (safePath === '/' || safePath === '\\') safePath = '/index.html';
 
+  // 301 Redirect old /tools/:slug to /:slug/
+  const normPath = safePath.replace(/\\/g, '/');
+  const toolMatch = normPath.match(/^\/tools\/([a-z0-9-]+)(\/index\.html|\/)?$/i);
+  if (toolMatch && toolMatch[1] !== 'index') {
+    res.writeHead(301, { 'Location': `/${toolMatch[1]}/` });
+    return res.end();
+  }
+
   let filePath = path.join(PUBLIC_DIR, safePath);
 
   // Check if file exists directly

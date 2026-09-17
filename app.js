@@ -1032,7 +1032,7 @@ function renderSearchItemRow({ url, title, desc, intent, intentClass, iconType }
 const PREFILLED_SEARCH_ITEMS = [
   {
     title: 'Life Insurance Needs Calculator',
-    url: '/tools/life-insurance-calculator',
+    url: '/life-insurance-calculator/',
     desc: 'Calculate exact capital needed to protect your family.',
     intent: 'Calculator',
     intentClass: 'pill-intent-calc',
@@ -1072,7 +1072,7 @@ const PREFILLED_SEARCH_ITEMS = [
   },
   {
     title: 'Health Insurance Plan Calculator',
-    url: '/tools/health-insurance-calculator',
+    url: '/health-insurance-calculator/',
     desc: 'Compare annual costs between HDHP and PPO plans.',
     intent: 'Calculator',
     intentClass: 'pill-intent-calc',
@@ -1126,7 +1126,7 @@ function buildSearchResultsHtml(query) {
   if (matchedTools.length > 0) {
     html += '<div class="search-section-header">Calculators</div>';
     html += matchedTools.map(t => renderSearchItemRow({
-      url: `/tools/${t.slug}`,
+      url: `/${t.slug}/`,
       title: t.name,
       desc: t.shortDescription,
       intent: 'Calculator',

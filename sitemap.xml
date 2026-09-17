@@ -79,6 +79,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://insurancebhaiya.com/cookie-policy</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://insurancebhaiya.com/terms-of-service</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,6 +92,12 @@
   </url>
   <url>
     <loc>https://insurancebhaiya.com/disclaimer</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://insurancebhaiya.com/contact</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -421,61 +433,61 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/life-insurance-calculator</loc>
+    <loc>https://insurancebhaiya.com/life-insurance-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/term-insurance-calculator</loc>
+    <loc>https://insurancebhaiya.com/term-insurance-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/health-insurance-calculator</loc>
+    <loc>https://insurancebhaiya.com/health-insurance-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/car-insurance-calculator</loc>
+    <loc>https://insurancebhaiya.com/car-insurance-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/home-insurance-calculator</loc>
+    <loc>https://insurancebhaiya.com/home-insurance-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/premium-calculator</loc>
+    <loc>https://insurancebhaiya.com/premium-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/coverage-calculator</loc>
+    <loc>https://insurancebhaiya.com/coverage-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/insurance-needs-calculator</loc>
+    <loc>https://insurancebhaiya.com/insurance-needs-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/deductible-calculator</loc>
+    <loc>https://insurancebhaiya.com/deductible-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://insurancebhaiya.com/tools/inflation-calculator</loc>
+    <loc>https://insurancebhaiya.com/inflation-calculator</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
