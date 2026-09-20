@@ -850,7 +850,7 @@ const CharacterGuide = {
     return `
       <div class="bhaiya-mentor-card context-${context}">
         <div class="bhaiya-avatar-wrap">
-          <img src="/logo.png" alt="Insurance Bhaiya Guide" class="bhaiya-avatar-img" onerror="this.style.display='none'" />
+          <img src="/logo-md.png" alt="Insurance Bhaiya Guide" class="bhaiya-avatar-img" onerror="this.style.display='none'" />
           <span class="bhaiya-status-dot"></span>
         </div>
         <div class="bhaiya-speech-bubble">
