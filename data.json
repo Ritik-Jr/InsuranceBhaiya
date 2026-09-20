@@ -4950,5 +4950,394 @@
         "long term"
       ]
     }
+  ],
+  "qa": [
+    {
+      "id": "qa-01",
+      "slug": "can-insurance-drop-you-after-a-claim",
+      "category": "Auto",
+      "question": "Can an insurance company drop you or cancel your policy after you file a claim?",
+      "shortAnswer": "In most jurisdictions, an insurer cannot immediately cancel your policy mid-term solely because you filed a single legitimate claim, unless there was proven fraud, material misrepresentation, or non-payment. However, they are legally permitted to non-renew your policy when the term expires (typically every 6 or 12 months) by providing advance written notice.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-02",
+      "slug": "does-health-insurance-cover-pre-existing-conditions",
+      "category": "Health",
+      "question": "Does health insurance cover pre-existing conditions, and can an insurer deny you?",
+      "shortAnswer": "Under the Affordable Care Act (ACA), major medical individual and employer health plans cannot deny coverage, charge higher premiums, or exclude treatment for pre-existing conditions. However, non-ACA plans such as short-term health insurance, health sharing ministries, and travel medical policies can and routinely do deny or restrict pre-existing condition coverage.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-03",
+      "slug": "is-life-insurance-payout-taxable",
+      "category": "Life",
+      "question": "Is a life insurance payout taxable to the beneficiary?",
+      "shortAnswer": "In general, life insurance death benefit payouts received as a lump sum by a named beneficiary are 100% free of federal and state income tax. However, interest accrued on delayed payouts, installment payout plans, estate-owned policies exceeding federal estate tax thresholds, or policies transferred for valuable consideration may incur income or estate taxes.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-04",
+      "slug": "what-happens-if-you-crash-without-insurance",
+      "category": "Auto",
+      "question": "What happens legally and financially if you get into a car crash without insurance?",
+      "shortAnswer": "Driving without insurance and causing an accident results in catastrophic personal financial liability and severe legal penalties. You are personally liable for 100% of all medical bills, property damages, and legal judgments out of pocket. Legally, authorities can suspend your driver's license, impound your vehicle, impose thousands in fines, and mandate SR-22 high-risk insurance for years.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-05",
+      "slug": "does-homeowners-insurance-cover-water-damage",
+      "category": "Home",
+      "question": "Does homeowners insurance cover water damage from burst pipes, leaks, or flooding?",
+      "shortAnswer": "Homeowners insurance covers water damage only if it is sudden, accidental, and internal—such as a burst pipe, water heater rupture, or sudden dishwasher hose failure. It strictly excludes flood damage from rising outdoor water, storm surges, sewer or drain backups (unless you purchased a specific endorsement), and gradual damage from unresolved leaks or poor maintenance.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-06",
+      "slug": "can-you-cancel-insurance-anytime-get-refund",
+      "category": "General",
+      "question": "Can you cancel an insurance policy at any time and get a prorated refund?",
+      "shortAnswer": "Yes, you have the legal right to cancel an insurance policy at any point during its term. You are entitled to a refund of any unused, prepaid premiums. Most personal auto, home, and life policies calculate refunds on a 100% pro-rata basis, though some carriers apply a modest 'short-rate' cancellation penalty (usually around 10% of unearned premium) if you cancel early.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-07",
+      "slug": "why-did-car-insurance-go-up-without-accidents",
+      "category": "Auto",
+      "question": "Why did my car insurance premium increase even though I had no accidents or tickets?",
+      "shortAnswer": "Car insurance rates can increase substantially without any tickets or accidents due to macroeconomic rate revisions, rising vehicle repair costs, increased frequency of catastrophic weather losses in your zip code, insurance credit score changes, and widespread insurance industry underwriting adjustments across your state.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-08",
+      "slug": "term-vs-whole-life-which-is-better-investment",
+      "category": "Life",
+      "question": "Is whole life insurance actually a good investment compared to term life?",
+      "shortAnswer": "For over 95% of consumers, whole life insurance is an inefficient, expensive investment vehicle. Whole life policies cost 5 to 15 times more than equivalent term life insurance for the same death benefit, with heavy administrative fees eating into returns for the first 5 to 10 years. The classic strategy of 'buying term and investing the difference' in low-cost index funds consistently yields far greater net wealth.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-09",
+      "slug": "does-health-insurance-cover-er-visits-out-of-network",
+      "category": "Health",
+      "question": "Does health insurance cover emergency room visits if the hospital is out-of-network?",
+      "shortAnswer": "Yes. Under federal law (the No Surprises Act and the Affordable Care Act), all health plans must cover emergency room medical care at in-network cost-sharing levels, even if the hospital, physicians, or emergency providers are completely out-of-network. Emergency providers are strictly prohibited from balance billing you for anything above your normal in-network copays and coinsurance.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-10",
+      "slug": "what-is-actual-cash-value-vs-replacement-cost-claim",
+      "category": "Home",
+      "question": "How much does insurance pay out on a claim: Actual Cash Value or Replacement Cost?",
+      "shortAnswer": "How much your insurance pays depends on your policy's valuation clause. Replacement Cost Value (RCV) pays the full current retail cost to replace damaged property with new materials of like kind and quality, with zero deduction for depreciation. Actual Cash Value (ACV) pays only the depreciated fair market value (Replacement Cost minus age, wear, and tear), resulting in dramatically smaller claim payouts.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-11",
+      "slug": "how-much-life-insurance-do-i-need-rule-of-thumb",
+      "category": "Life",
+      "question": "How much life insurance coverage do you really need? (The 10x Rule vs DIME Method)",
+      "shortAnswer": "While the traditional rule of thumb recommends purchasing 10 to 12 times your annual income, the most accurate actuarial framework is the D.I.M.E. method (Debt, Income replacement, Mortgage payoff, and Education funding). For most working parents with mortgages and young children, adequate coverage typically lands between 12 and 18 times annual earnings.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-12",
+      "slug": "does-car-insurance-cover-rental-cars",
+      "category": "Auto",
+      "question": "Does your personal auto insurance cover rental cars, or do you need rental counter coverage?",
+      "shortAnswer": "In the United States and Canada, your personal auto insurance coverage (comprehensive, collision, and liability) typically transfers directly to a rental car driven for personal pleasure, up to your existing policy limits and deductibles. However, personal policies almost never cover 'loss of use' administrative fees charged by rental companies, and do not provide coverage internationally.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-13",
+      "slug": "what-happens-if-health-insurance-claim-denied",
+      "category": "Health",
+      "question": "What should you do if your health insurance claim is denied? (Step-by-step appeal process)",
+      "shortAnswer": "If your health insurance claim is denied, you have a legally protected right under federal law to appeal the decision through both internal appeals and external independent review. Over 50% of health insurance appeals that reach external review are overturned in favor of the patient. Never ignore a denial or immediately pay the hospital bill.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-14",
+      "slug": "does-renters-insurance-cover-theft-outside-home",
+      "category": "Renters",
+      "question": "Does renters insurance cover items stolen from your car, hotel, or while traveling?",
+      "shortAnswer": "Yes! A standard renters insurance policy (HO-4) includes 'off-premises' personal property coverage, protecting your belongings anywhere in the world. If your laptop, luggage, or camera is stolen from your car's trunk, a hotel room, or a coffee shop, your renters insurance reimburses the loss (minus your deductible), subject to off-premises policy limits.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-15",
+      "slug": "short-term-vs-long-term-disability-do-you-need-both",
+      "category": "Disability",
+      "question": "Do you need both short-term and long-term disability insurance, or is one enough?",
+      "shortAnswer": "Long-term disability (LTD) is an absolute non-negotiable necessity for every working adult, while short-term disability (STD) is optional if you maintain a robust 3- to 6-month emergency cash fund. A short-term illness causes temporary inconvenience, but a multi-year or permanent disability causes total catastrophic financial ruin without long-term coverage.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-16",
+      "slug": "can-i-insure-a-car-not-in-my-name",
+      "category": "Auto",
+      "question": "Can I insure a car not in my name?",
+      "shortAnswer": "Yes, you can insure a car not in your name, but it is challenging because insurance companies require an 'insurable interest'—a demonstrable financial stake in the vehicle. While most standard insurers prefer the registered owner and policyholder to match, you can legally obtain coverage by being added as a primary driver to the owner's policy, proving joint residency, purchasing a non-owner car insurance policy, or having the owner list you as an additional interest.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-17",
+      "slug": "can-you-insure-a-car-not-in-your-name",
+      "category": "Auto",
+      "question": "Can you insure a car not in your name?",
+      "shortAnswer": "Yes, you can insure a car not in your name under specific legal arrangements, though underwriters generally require the policyholder to hold an insurable interest in the automobile. Common pathways include adding your name to the existing owner's policy, naming the legal titleholder as an additional insured or loss payee on your policy, or purchasing non-owner liability coverage.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-18",
+      "slug": "how-much-is-a-ct-scan-with-insurance",
+      "category": "Health",
+      "question": "How much is a CT scan with insurance?",
+      "shortAnswer": "With insurance, a CT scan typically costs between $150 and $1,200 out of pocket, depending on whether you have met your annual deductible, your plan's coinsurance rate (usually 10% to 30%), and whether the scan is performed at an independent imaging clinic versus an outpatient hospital facility. If your deductible has not been met, you will pay the insurer's contracted negotiated rate in full, which averages $500 to $1,500.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-19",
+      "slug": "how-long-does-an-accident-stay-on-your-insurance",
+      "category": "Auto",
+      "question": "How long does an accident stay on your insurance?",
+      "shortAnswer": "An at-fault accident typically stays on your auto insurance record and affects your premium rates for 3 to 5 years. Most insurance carriers apply rate surcharges for exactly 36 months (3 years) following the date of loss. However, for severe accidents involving major moving violations, DUIs, or total vehicle write-offs, carriers can maintain surcharges or keep you in a non-standard high-risk tier for up to 5 or even 7 years.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-20",
+      "slug": "does-renters-insurance-cover-firearms",
+      "category": "Renters",
+      "question": "Does renters insurance cover firearms?",
+      "shortAnswer": "Yes, standard renters insurance policies cover firearms, but only up to a specific personal property sub-limit—typically $1,500 to $2,500 total for theft. While perils like fire, smoke, and tornado cover your guns up to your policy's overall Coverage C personal property limit, firearms stolen from your apartment or vehicle are subject to this strict dollar cap unless you purchase a scheduled personal property endorsement.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-21",
+      "slug": "is-it-against-the-law-to-drive-without-insurance",
+      "category": "Auto",
+      "question": "Is it against the law to drive without insurance?",
+      "shortAnswer": "Yes, it is strictly against the law to drive without insurance in almost every US state and developed nation. In 49 out of 50 US states (with New Hampshire maintaining strict alternative financial responsibility proof), state law mandates that all registered motor vehicles carry minimum bodily injury and property damage liability coverage. Operating an uninsured vehicle results in immediate misdemeanor citations, license suspension, vehicle impoundment, heavy fines, and mandatory SR-22 filings.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-22",
+      "slug": "does-liability-insurance-cover-theft",
+      "category": "Auto",
+      "question": "Does liability insurance cover theft?",
+      "shortAnswer": "No, liability insurance never covers theft of your own property or vehicle. Liability insurance is strictly third-party coverage designed to pay for bodily injuries and property damage you cause to other people. To protect your vehicle against theft, car break-ins, or stolen parts (like catalytic converters), you must carry Comprehensive Coverage on your auto policy. For stolen personal belongings, coverage comes from homeowners or renters insurance.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-23",
+      "slug": "is-vasectomy-covered-by-insurance",
+      "category": "Health",
+      "question": "Is vasectomy covered by insurance?",
+      "shortAnswer": "Yes, vasectomies are covered by most major health insurance plans, but coverage is not universally 100% free. Unlike female sterilization (tubal ligation), which the Affordable Care Act (ACA) mandates must be covered with $0 copay as preventive care, male sterilization rules vary. In most employer and private plans, vasectomies are covered subject to your standard deductible and specialist copay (typically $150 to $600 out-of-pocket), though several states now legally mandate zero-cost vasectomy coverage.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-24",
+      "slug": "can-you-have-two-health-insurances",
+      "category": "Health",
+      "question": "Can you have two health insurances?",
+      "shortAnswer": "Yes, you can legally have two health insurance plans at the same time. This is known as dual coverage or secondary coverage. When you are covered by two policies—such as your own employer plan and a spouse's employer plan—the insurers do not pay double. Instead, they use a strict legal framework called Coordination of Benefits (COB) to assign one plan as Primary (paying first) and the other as Secondary (paying remaining copays and deductibles).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-25",
+      "slug": "can-i-refuse-a-recorded-statement-to-insurance-company",
+      "category": "Legal",
+      "question": "Can I refuse a recorded statement to insurance company?",
+      "shortAnswer": "Yes, you have an absolute legal right to refuse a recorded statement to the OTHER driver's insurance company (third-party insurer). You are under no legal obligation to speak with them or be recorded. However, you generally CANNOT refuse a statement to your OWN insurance company (first-party insurer), because your policy contract contains a mandatory 'Duty to Cooperate' clause. Refusing to cooperate with your own insurer can lead to claim denial or policy cancellation.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-26",
+      "slug": "can-you-sue-someone-after-settling-with-their-insurance",
+      "category": "Legal",
+      "question": "Can you sue someone after settling with their insurance?",
+      "shortAnswer": "No, in virtually all circumstances, you cannot sue someone after settling with their insurance company. When you accept an insurance settlement check, the insurance company requires you to sign a legally binding document called a 'Release of All Claims'. This contract permanently extinguishes your right to pursue the at-fault party or their insurer for any additional damages, medical bills, or pain and suffering arising from that accident, even if new injuries appear later.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-27",
+      "slug": "can-you-sue-your-insurance-company",
+      "category": "Legal",
+      "question": "Can you sue your insurance company?",
+      "shortAnswer": "Yes, you can legally sue your insurance company if they breach the insurance contract, unreasonably deny a valid claim, undervalue property damage, or act in 'bad faith'. Lawsuits against insurers generally fall under two legal doctrines: Breach of Contract (for failing to pay benefits owed under the written policy terms) and Insurance Bad Faith (for egregious, deceptive, or unfair claim settlement practices, which can entitle you to punitive damages and attorney fees).",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-28",
+      "slug": "can-an-insurance-company-sue-you-for-an-accident",
+      "category": "Auto",
+      "question": "Can an insurance company sue you for an accident?",
+      "shortAnswer": "Yes, an insurance company can sue you for an accident through a legal process called subrogation. If you cause a car crash and you are uninsured, or if the total damages exceed your policy liability limits, the other driver's insurance company will pay their insured's repair and medical bills first, and then sue you directly in civil court to recoup every dollar they disbursed.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-29",
+      "slug": "can-i-sue-my-insurance-company-for-taking-too-long",
+      "category": "Legal",
+      "question": "Can I sue my insurance company for taking too long?",
+      "shortAnswer": "Yes, you can sue your insurance company for taking too long to resolve or pay your claim. Most states have enacted 'Prompt Payment of Claims' statutes that require insurance carriers to acknowledge, investigate, and approve or deny claims within strict deadlines (typically 15 to 30 days). When an insurer uses unreasonable delays to wear you down or force a cheap settlement, their conduct constitutes insurance bad faith, entitling you to file a lawsuit for statutory interest, damages, and attorney fees.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-30",
+      "slug": "can-you-sue-your-own-insurance-company",
+      "category": "Legal",
+      "question": "Can you sue your own insurance company?",
+      "shortAnswer": "Yes, you can sue your own insurance company for breach of contract and insurance bad faith. When you purchase a policy, your insurer owes you an implied legal duty of 'Good Faith and Fair Dealing'. If your carrier refuses to pay legitimate benefits, fails to conduct a thorough investigation, refuses to defend you against an outside lawsuit, or unreasonably rejects a settlement within your policy limits, you can take them to civil court and recover both contract damages and substantial punitive awards.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-31",
+      "slug": "do-you-need-bodily-injury-insurance-in-florida",
+      "category": "Auto",
+      "question": "Do you need bodily injury insurance in Florida?",
+      "shortAnswer": "Under basic Florida statutory minimums, you do not legally need Bodily Injury (BI) liability insurance to register a vehicle. Florida is one of only two states that does not require all drivers to carry BI coverage, requiring only $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). However, under the Florida Financial Responsibility Law, you ARE legally required to purchase bodily injury liability if you have been convicted of a DUI or were involved in a prior at-fault accident.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-32",
+      "slug": "can-a-insurance-company-sue-you",
+      "category": "Legal",
+      "question": "Can a insurance company sue you?",
+      "shortAnswer": "Yes, an insurance company can sue you under several well-established legal circumstances. The most common reasons include insurance fraud or material misrepresentation (falsifying claim information to illegally collect money), premium fraud (lying about vehicle garaging or drivers to lower rates), subrogation (suing you if you caused an accident that damaged their insured), or clawback lawsuits to recoup funds paid by mistake or under fraudulent pretenses.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-33",
+      "slug": "can-an-insurance-company-sue-you",
+      "category": "Legal",
+      "question": "Can an insurance company sue you?",
+      "shortAnswer": "Yes, an insurance company can sue you directly in civil court. While policyholders typically view insurers as entities that pay out money, insurers routinely file lawsuits against third parties and individuals to recover claim payments through subrogation, to recoup funds paid on fraudulent or misattributed claims, or to seek declaratory judgments holding that they have no legal duty to defend or indemnify you under your policy.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-34",
+      "slug": "how-long-do-accidents-stay-on-your-record-for-insurance",
+      "category": "Auto",
+      "question": "How long do accidents stay on your record for insurance?",
+      "shortAnswer": "Accidents stay on your record for insurance purposes for 3 to 5 years with auto carriers, and up to 7 years in national loss history databases like LexisNexis and C.L.U.E. While state Department of Motor Vehicles (DMV) driving records usually display accident points for 36 months (3 years), insurance underwriters access centralized actuarial databases that track all claims filed within the past 5 to 7 years when pricing new policy quotes.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-35",
+      "slug": "how-long-does-reckless-driving-affect-insurance",
+      "category": "Auto",
+      "question": "How long does reckless driving affect insurance?",
+      "shortAnswer": "A reckless driving conviction typically affects your car insurance rates for 3 to 5 years, and up to 7 to 10 years in states with strict criminal lookback windows like California, Florida, and Virginia. Because reckless driving is classified as a major moving violation or criminal misdemeanor (rather than a simple traffic ticket), auto insurance premiums increase by an average of 65% to 125% per year, often requiring a mandatory SR-22 certificate of financial responsibility.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-36",
+      "slug": "are-mens-health-clinics-covered-by-insurance",
+      "category": "Health",
+      "question": "Are men's health clinics covered by insurance?",
+      "shortAnswer": "Men's health clinics are rarely covered in full by commercial insurance, with most operating on a direct-to-consumer, cash-pay subscription model ($150 to $300/month). However, the underlying medical treatments they provide—such as Testosterone Replacement Therapy (TRT) and diagnostic hormone blood panels—ARE covered by insurance when prescribed by a traditional in-network endocrinologist or urologist who documents clinical medical necessity (such as two consecutive morning blood tests showing hypogonadism).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-37",
+      "slug": "can-firefighters-get-life-insurance",
+      "category": "Life",
+      "question": "Can firefighters get life insurance?",
+      "shortAnswer": "Yes, firefighters can easily get life insurance, and the vast majority qualify for standard or preferred rates with mainstream insurance carriers. While firefighting is classified as a hazardous occupation, modern life insurance underwriters do not automatically charge high surcharges for standard municipal firefighters. Unless you participate in high-hazard specialty roles (such as smokejumping, aerial firefighting, or hazardous materials dive rescue), term life insurance is widely available at affordable rates.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-38",
+      "slug": "are-spider-veins-covered-by-insurance",
+      "category": "Health",
+      "question": "Are spider veins covered by insurance?",
+      "shortAnswer": "No, spider vein treatments (such as cosmetic sclerotherapy or surface laser therapy) are virtually never covered by health insurance because insurers classify them as elective cosmetic procedures. However, if your spider veins are caused by underlying Chronic Venous Insufficiency (CVI) or accompanied by symptomatic varicose veins with severe pain, swelling, or skin ulcers, the diagnostic ultrasound and medical vein ablation treatments ARE covered by insurance.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-39",
+      "slug": "can-an-insurance-company-close-a-claim-without-my-consent",
+      "category": "Legal",
+      "question": "Can an insurance company close a claim without my consent?",
+      "shortAnswer": "Yes, an insurance company can close a claim without your consent under administrative and contractual rules. In third-party liability claims, your policy contract grants the insurer the exclusive 'Right to Settle or Settle at Will', allowing them to resolve or close claims against you without your permission. In first-party claims, insurers can administratively close a claim due to prolonged policyholder inactivity, failure to provide requested documentation, or statutory expiration. However, an administrative closure is not permanent, and you can generally reopen a first-party claim within the state statute of limitations.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-40",
+      "slug": "can-an-insurance-company-sue-an-uninsured-driver",
+      "category": "Auto",
+      "question": "Can an insurance company sue an uninsured driver?",
+      "shortAnswer": "Yes, an insurance company can and routinely does sue an uninsured driver through the legal right of subrogation. If an uninsured driver causes an accident, the victim's insurance company will pay for their policyholder's vehicle repairs and medical treatments, and then unleash their subrogation recovery attorneys to sue the uninsured driver personally in civil court for 100% of the costs, leading to wage garnishment and driver's license suspension.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-41",
+      "slug": "can-a-car-insurance-company-sue-you",
+      "category": "Auto",
+      "question": "Can a car insurance company sue you?",
+      "shortAnswer": "Yes, a car insurance company can sue you directly in civil court. The most common scenario occurs when you are found at-fault for a car crash that damages an insured vehicle or injures an insured driver; the victim's car insurer will pay the claim and then sue you personally under subrogation rights. An auto insurer can also sue you for rate fraud (concealing household drivers or lying about garaging locations) or to recoup payouts made on fraudulent claims.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-42",
+      "slug": "can-an-uninsured-driver-sue-an-insured-driver",
+      "category": "Auto",
+      "question": "Can an uninsured driver sue an insured driver?",
+      "shortAnswer": "Yes, an uninsured driver can legally sue an insured driver if the insured driver was at fault for the accident. However, in at least 10 states with strict 'No Pay, No Play' laws (such as California, Louisiana, Michigan, and New Jersey), uninsured drivers are legally barred from recovering non-economic damages (pain, suffering, and emotional distress), and can only sue for actual out-of-pocket economic losses like medical bills and vehicle repairs.",
+      "readingTime": "6 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-43",
+      "slug": "are-windshields-covered-by-insurance-in-florida",
+      "category": "Auto",
+      "question": "Are windshields covered by insurance in Florida?",
+      "shortAnswer": "Yes, windshields are 100% covered with $0 deductible by insurance in Florida, provided you carry Comprehensive Coverage on your auto policy. Under Florida Statute § 627.7288 (the Florida Zero-Deductible Windshield Law), insurance carriers are legally prohibited from applying any deductible to windshield repair or replacement. However, if you carry only basic state-minimum liability insurance (PIP and PDL), windshield damage is NOT covered at all.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    }
   ]
 }

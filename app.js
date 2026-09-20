@@ -472,6 +472,266 @@ const FALLBACK_INDEX = {
       "term": "Replacement Cost Value (RCV)",
       "slug": "replacement-cost"
     }
+  ],
+  "qa": [
+      {
+          "question": "Can an insurance company drop you or cancel your policy after you file a claim?",
+          "slug": "can-insurance-drop-you-after-a-claim",
+          "shortAnswer": "In most jurisdictions, an insurer cannot immediately cancel your policy mid-term solely because you filed a single legitimate claim, unless there was proven fraud, material misrepresentation, or non-payment. However, they are legally permitted to non-renew your policy when the term expires (typically every 6 or 12 months) by providing advance written notice.",
+          "category": "Auto"
+      },
+      {
+          "question": "Does health insurance cover pre-existing conditions, and can an insurer deny you?",
+          "slug": "does-health-insurance-cover-pre-existing-conditions",
+          "shortAnswer": "Under the Affordable Care Act (ACA), major medical individual and employer health plans cannot deny coverage, charge higher premiums, or exclude treatment for pre-existing conditions. However, non-ACA plans such as short-term health insurance, health sharing ministries, and travel medical policies can and routinely do deny or restrict pre-existing condition coverage.",
+          "category": "Health"
+      },
+      {
+          "question": "Is a life insurance payout taxable to the beneficiary?",
+          "slug": "is-life-insurance-payout-taxable",
+          "shortAnswer": "In general, life insurance death benefit payouts received as a lump sum by a named beneficiary are 100% free of federal and state income tax. However, interest accrued on delayed payouts, installment payout plans, estate-owned policies exceeding federal estate tax thresholds, or policies transferred for valuable consideration may incur income or estate taxes.",
+          "category": "Life"
+      },
+      {
+          "question": "What happens legally and financially if you get into a car crash without insurance?",
+          "slug": "what-happens-if-you-crash-without-insurance",
+          "shortAnswer": "Driving without insurance and causing an accident results in catastrophic personal financial liability and severe legal penalties. You are personally liable for 100% of all medical bills, property damages, and legal judgments out of pocket. Legally, authorities can suspend your driver's license, impound your vehicle, impose thousands in fines, and mandate SR-22 high-risk insurance for years.",
+          "category": "Auto"
+      },
+      {
+          "question": "Does homeowners insurance cover water damage from burst pipes, leaks, or flooding?",
+          "slug": "does-homeowners-insurance-cover-water-damage",
+          "shortAnswer": "Homeowners insurance covers water damage only if it is sudden, accidental, and internal—such as a burst pipe, water heater rupture, or sudden dishwasher hose failure. It strictly excludes flood damage from rising outdoor water, storm surges, sewer or drain backups (unless you purchased a specific endorsement), and gradual damage from unresolved leaks or poor maintenance.",
+          "category": "Home"
+      },
+      {
+          "question": "Can you cancel an insurance policy at any time and get a prorated refund?",
+          "slug": "can-you-cancel-insurance-anytime-get-refund",
+          "shortAnswer": "Yes, you have the legal right to cancel an insurance policy at any point during its term. You are entitled to a refund of any unused, prepaid premiums. Most personal auto, home, and life policies calculate refunds on a 100% pro-rata basis, though some carriers apply a modest 'short-rate' cancellation penalty (usually around 10% of unearned premium) if you cancel early.",
+          "category": "General"
+      },
+      {
+          "question": "Why did my car insurance premium increase even though I had no accidents or tickets?",
+          "slug": "why-did-car-insurance-go-up-without-accidents",
+          "shortAnswer": "Car insurance rates can increase substantially without any tickets or accidents due to macroeconomic rate revisions, rising vehicle repair costs, increased frequency of catastrophic weather losses in your zip code, insurance credit score changes, and widespread insurance industry underwriting adjustments across your state.",
+          "category": "Auto"
+      },
+      {
+          "question": "Is whole life insurance actually a good investment compared to term life?",
+          "slug": "term-vs-whole-life-which-is-better-investment",
+          "shortAnswer": "For over 95% of consumers, whole life insurance is an inefficient, expensive investment vehicle. Whole life policies cost 5 to 15 times more than equivalent term life insurance for the same death benefit, with heavy administrative fees eating into returns for the first 5 to 10 years. The classic strategy of 'buying term and investing the difference' in low-cost index funds consistently yields far greater net wealth.",
+          "category": "Life"
+      },
+      {
+          "question": "Does health insurance cover emergency room visits if the hospital is out-of-network?",
+          "slug": "does-health-insurance-cover-er-visits-out-of-network",
+          "shortAnswer": "Yes. Under federal law (the No Surprises Act and the Affordable Care Act), all health plans must cover emergency room medical care at in-network cost-sharing levels, even if the hospital, physicians, or emergency providers are completely out-of-network. Emergency providers are strictly prohibited from balance billing you for anything above your normal in-network copays and coinsurance.",
+          "category": "Health"
+      },
+      {
+          "question": "How much does insurance pay out on a claim: Actual Cash Value or Replacement Cost?",
+          "slug": "what-is-actual-cash-value-vs-replacement-cost-claim",
+          "shortAnswer": "How much your insurance pays depends on your policy's valuation clause. Replacement Cost Value (RCV) pays the full current retail cost to replace damaged property with new materials of like kind and quality, with zero deduction for depreciation. Actual Cash Value (ACV) pays only the depreciated fair market value (Replacement Cost minus age, wear, and tear), resulting in dramatically smaller claim payouts.",
+          "category": "Home"
+      },
+      {
+          "question": "How much life insurance coverage do you really need? (The 10x Rule vs DIME Method)",
+          "slug": "how-much-life-insurance-do-i-need-rule-of-thumb",
+          "shortAnswer": "While the traditional rule of thumb recommends purchasing 10 to 12 times your annual income, the most accurate actuarial framework is the D.I.M.E. method (Debt, Income replacement, Mortgage payoff, and Education funding). For most working parents with mortgages and young children, adequate coverage typically lands between 12 and 18 times annual earnings.",
+          "category": "Life"
+      },
+      {
+          "question": "Does your personal auto insurance cover rental cars, or do you need rental counter coverage?",
+          "slug": "does-car-insurance-cover-rental-cars",
+          "shortAnswer": "In the United States and Canada, your personal auto insurance coverage (comprehensive, collision, and liability) typically transfers directly to a rental car driven for personal pleasure, up to your existing policy limits and deductibles. However, personal policies almost never cover 'loss of use' administrative fees charged by rental companies, and do not provide coverage internationally.",
+          "category": "Auto"
+      },
+      {
+          "question": "What should you do if your health insurance claim is denied? (Step-by-step appeal process)",
+          "slug": "what-happens-if-health-insurance-claim-denied",
+          "shortAnswer": "If your health insurance claim is denied, you have a legally protected right under federal law to appeal the decision through both internal appeals and external independent review. Over 50% of health insurance appeals that reach external review are overturned in favor of the patient. Never ignore a denial or immediately pay the hospital bill.",
+          "category": "Health"
+      },
+      {
+          "question": "Does renters insurance cover items stolen from your car, hotel, or while traveling?",
+          "slug": "does-renters-insurance-cover-theft-outside-home",
+          "shortAnswer": "Yes! A standard renters insurance policy (HO-4) includes 'off-premises' personal property coverage, protecting your belongings anywhere in the world. If your laptop, luggage, or camera is stolen from your car's trunk, a hotel room, or a coffee shop, your renters insurance reimburses the loss (minus your deductible), subject to off-premises policy limits.",
+          "category": "Renters"
+      },
+      {
+          "question": "Do you need both short-term and long-term disability insurance, or is one enough?",
+          "slug": "short-term-vs-long-term-disability-do-you-need-both",
+          "shortAnswer": "Long-term disability (LTD) is an absolute non-negotiable necessity for every working adult, while short-term disability (STD) is optional if you maintain a robust 3- to 6-month emergency cash fund. A short-term illness causes temporary inconvenience, but a multi-year or permanent disability causes total catastrophic financial ruin without long-term coverage.",
+          "category": "Disability"
+      },
+      {
+          "question": "Can I insure a car not in my name?",
+          "slug": "can-i-insure-a-car-not-in-my-name",
+          "shortAnswer": "Yes, you can insure a car not in your name, but it is challenging because insurance companies require an 'insurable interest'—a demonstrable financial stake in the vehicle. While most standard insurers prefer the registered owner and policyholder to match, you can legally obtain coverage by being added as a primary driver to the owner's policy, proving joint residency, purchasing a non-owner car insurance policy, or having the owner list you as an additional interest.",
+          "category": "Auto"
+      },
+      {
+          "question": "Can you insure a car not in your name?",
+          "slug": "can-you-insure-a-car-not-in-your-name",
+          "shortAnswer": "Yes, you can insure a car not in your name under specific legal arrangements, though underwriters generally require the policyholder to hold an insurable interest in the automobile. Common pathways include adding your name to the existing owner's policy, naming the legal titleholder as an additional insured or loss payee on your policy, or purchasing non-owner liability coverage.",
+          "category": "Auto"
+      },
+      {
+          "question": "How much is a CT scan with insurance?",
+          "slug": "how-much-is-a-ct-scan-with-insurance",
+          "shortAnswer": "With insurance, a CT scan typically costs between $150 and $1,200 out of pocket, depending on whether you have met your annual deductible, your plan's coinsurance rate (usually 10% to 30%), and whether the scan is performed at an independent imaging clinic versus an outpatient hospital facility. If your deductible has not been met, you will pay the insurer's contracted negotiated rate in full, which averages $500 to $1,500.",
+          "category": "Health"
+      },
+      {
+          "question": "How long does an accident stay on your insurance?",
+          "slug": "how-long-does-an-accident-stay-on-your-insurance",
+          "shortAnswer": "An at-fault accident typically stays on your auto insurance record and affects your premium rates for 3 to 5 years. Most insurance carriers apply rate surcharges for exactly 36 months (3 years) following the date of loss. However, for severe accidents involving major moving violations, DUIs, or total vehicle write-offs, carriers can maintain surcharges or keep you in a non-standard high-risk tier for up to 5 or even 7 years.",
+          "category": "Auto"
+      },
+      {
+          "question": "Does renters insurance cover firearms?",
+          "slug": "does-renters-insurance-cover-firearms",
+          "shortAnswer": "Yes, standard renters insurance policies cover firearms, but only up to a specific personal property sub-limit—typically $1,500 to $2,500 total for theft. While perils like fire, smoke, and tornado cover your guns up to your policy's overall Coverage C personal property limit, firearms stolen from your apartment or vehicle are subject to this strict dollar cap unless you purchase a scheduled personal property endorsement.",
+          "category": "Renters"
+      },
+      {
+          "question": "Is it against the law to drive without insurance?",
+          "slug": "is-it-against-the-law-to-drive-without-insurance",
+          "shortAnswer": "Yes, it is strictly against the law to drive without insurance in almost every US state and developed nation. In 49 out of 50 US states (with New Hampshire maintaining strict alternative financial responsibility proof), state law mandates that all registered motor vehicles carry minimum bodily injury and property damage liability coverage. Operating an uninsured vehicle results in immediate misdemeanor citations, license suspension, vehicle impoundment, heavy fines, and mandatory SR-22 filings.",
+          "category": "Auto"
+      },
+      {
+          "question": "Does liability insurance cover theft?",
+          "slug": "does-liability-insurance-cover-theft",
+          "shortAnswer": "No, liability insurance never covers theft of your own property or vehicle. Liability insurance is strictly third-party coverage designed to pay for bodily injuries and property damage you cause to other people. To protect your vehicle against theft, car break-ins, or stolen parts (like catalytic converters), you must carry Comprehensive Coverage on your auto policy. For stolen personal belongings, coverage comes from homeowners or renters insurance.",
+          "category": "Auto"
+      },
+      {
+          "question": "Is vasectomy covered by insurance?",
+          "slug": "is-vasectomy-covered-by-insurance",
+          "shortAnswer": "Yes, vasectomies are covered by most major health insurance plans, but coverage is not universally 100% free. Unlike female sterilization (tubal ligation), which the Affordable Care Act (ACA) mandates must be covered with $0 copay as preventive care, male sterilization rules vary. In most employer and private plans, vasectomies are covered subject to your standard deductible and specialist copay (typically $150 to $600 out-of-pocket), though several states now legally mandate zero-cost vasectomy coverage.",
+          "category": "Health"
+      },
+      {
+          "question": "Can you have two health insurances?",
+          "slug": "can-you-have-two-health-insurances",
+          "shortAnswer": "Yes, you can legally have two health insurance plans at the same time. This is known as dual coverage or secondary coverage. When you are covered by two policies—such as your own employer plan and a spouse's employer plan—the insurers do not pay double. Instead, they use a strict legal framework called Coordination of Benefits (COB) to assign one plan as Primary (paying first) and the other as Secondary (paying remaining copays and deductibles).",
+          "category": "Health"
+      },
+      {
+          "question": "Can I refuse a recorded statement to insurance company?",
+          "slug": "can-i-refuse-a-recorded-statement-to-insurance-company",
+          "shortAnswer": "Yes, you have an absolute legal right to refuse a recorded statement to the OTHER driver's insurance company (third-party insurer). You are under no legal obligation to speak with them or be recorded. However, you generally CANNOT refuse a statement to your OWN insurance company (first-party insurer), because your policy contract contains a mandatory 'Duty to Cooperate' clause. Refusing to cooperate with your own insurer can lead to claim denial or policy cancellation.",
+          "category": "Legal"
+      },
+      {
+          "question": "Can you sue someone after settling with their insurance?",
+          "slug": "can-you-sue-someone-after-settling-with-their-insurance",
+          "shortAnswer": "No, in virtually all circumstances, you cannot sue someone after settling with their insurance company. When you accept an insurance settlement check, the insurance company requires you to sign a legally binding document called a 'Release of All Claims'. This contract permanently extinguishes your right to pursue the at-fault party or their insurer for any additional damages, medical bills, or pain and suffering arising from that accident, even if new injuries appear later.",
+          "category": "Legal"
+      },
+      {
+          "question": "Can you sue your insurance company?",
+          "slug": "can-you-sue-your-insurance-company",
+          "shortAnswer": "Yes, you can legally sue your insurance company if they breach the insurance contract, unreasonably deny a valid claim, undervalue property damage, or act in 'bad faith'. Lawsuits against insurers generally fall under two legal doctrines: Breach of Contract (for failing to pay benefits owed under the written policy terms) and Insurance Bad Faith (for egregious, deceptive, or unfair claim settlement practices, which can entitle you to punitive damages and attorney fees).",
+          "category": "Legal"
+      },
+      {
+          "question": "Can an insurance company sue you for an accident?",
+          "slug": "can-an-insurance-company-sue-you-for-an-accident",
+          "shortAnswer": "Yes, an insurance company can sue you for an accident through a legal process called subrogation. If you cause a car crash and you are uninsured, or if the total damages exceed your policy liability limits, the other driver's insurance company will pay their insured's repair and medical bills first, and then sue you directly in civil court to recoup every dollar they disbursed.",
+          "category": "Auto"
+      },
+      {
+          "question": "Can I sue my insurance company for taking too long?",
+          "slug": "can-i-sue-my-insurance-company-for-taking-too-long",
+          "shortAnswer": "Yes, you can sue your insurance company for taking too long to resolve or pay your claim. Most states have enacted 'Prompt Payment of Claims' statutes that require insurance carriers to acknowledge, investigate, and approve or deny claims within strict deadlines (typically 15 to 30 days). When an insurer uses unreasonable delays to wear you down or force a cheap settlement, their conduct constitutes insurance bad faith, entitling you to file a lawsuit for statutory interest, damages, and attorney fees.",
+          "category": "Legal"
+      },
+      {
+          "question": "Can you sue your own insurance company?",
+          "slug": "can-you-sue-your-own-insurance-company",
+          "shortAnswer": "Yes, you can sue your own insurance company for breach of contract and insurance bad faith. When you purchase a policy, your insurer owes you an implied legal duty of 'Good Faith and Fair Dealing'. If your carrier refuses to pay legitimate benefits, fails to conduct a thorough investigation, refuses to defend you against an outside lawsuit, or unreasonably rejects a settlement within your policy limits, you can take them to civil court and recover both contract damages and substantial punitive awards.",
+          "category": "Legal"
+      },
+      {
+          "question": "Do you need bodily injury insurance in Florida?",
+          "slug": "do-you-need-bodily-injury-insurance-in-florida",
+          "shortAnswer": "Under basic Florida statutory minimums, you do not legally need Bodily Injury (BI) liability insurance to register a vehicle. Florida is one of only two states that does not require all drivers to carry BI coverage, requiring only $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). However, under the Florida Financial Responsibility Law, you ARE legally required to purchase bodily injury liability if you have been convicted of a DUI or were involved in a prior at-fault accident.",
+          "category": "Auto"
+      },
+      {
+          "question": "Can a insurance company sue you?",
+          "slug": "can-a-insurance-company-sue-you",
+          "shortAnswer": "Yes, an insurance company can sue you under several well-established legal circumstances. The most common reasons include insurance fraud or material misrepresentation (falsifying claim information to illegally collect money), premium fraud (lying about vehicle garaging or drivers to lower rates), subrogation (suing you if you caused an accident that damaged their insured), or clawback lawsuits to recoup funds paid by mistake or under fraudulent pretenses.",
+          "category": "Legal"
+      },
+      {
+          "question": "Can an insurance company sue you?",
+          "slug": "can-an-insurance-company-sue-you",
+          "shortAnswer": "Yes, an insurance company can sue you directly in civil court. While policyholders typically view insurers as entities that pay out money, insurers routinely file lawsuits against third parties and individuals to recover claim payments through subrogation, to recoup funds paid on fraudulent or misattributed claims, or to seek declaratory judgments holding that they have no legal duty to defend or indemnify you under your policy.",
+          "category": "Legal"
+      },
+      {
+          "question": "How long do accidents stay on your record for insurance?",
+          "slug": "how-long-do-accidents-stay-on-your-record-for-insurance",
+          "shortAnswer": "Accidents stay on your record for insurance purposes for 3 to 5 years with auto carriers, and up to 7 years in national loss history databases like LexisNexis and C.L.U.E. While state Department of Motor Vehicles (DMV) driving records usually display accident points for 36 months (3 years), insurance underwriters access centralized actuarial databases that track all claims filed within the past 5 to 7 years when pricing new policy quotes.",
+          "category": "Auto"
+      },
+      {
+          "question": "How long does reckless driving affect insurance?",
+          "slug": "how-long-does-reckless-driving-affect-insurance",
+          "shortAnswer": "A reckless driving conviction typically affects your car insurance rates for 3 to 5 years, and up to 7 to 10 years in states with strict criminal lookback windows like California, Florida, and Virginia. Because reckless driving is classified as a major moving violation or criminal misdemeanor (rather than a simple traffic ticket), auto insurance premiums increase by an average of 65% to 125% per year, often requiring a mandatory SR-22 certificate of financial responsibility.",
+          "category": "Auto"
+      },
+      {
+          "question": "Are men's health clinics covered by insurance?",
+          "slug": "are-mens-health-clinics-covered-by-insurance",
+          "shortAnswer": "Men's health clinics are rarely covered in full by commercial insurance, with most operating on a direct-to-consumer, cash-pay subscription model ($150 to $300/month). However, the underlying medical treatments they provide—such as Testosterone Replacement Therapy (TRT) and diagnostic hormone blood panels—ARE covered by insurance when prescribed by a traditional in-network endocrinologist or urologist who documents clinical medical necessity (such as two consecutive morning blood tests showing hypogonadism).",
+          "category": "Health"
+      },
+      {
+          "question": "Can firefighters get life insurance?",
+          "slug": "can-firefighters-get-life-insurance",
+          "shortAnswer": "Yes, firefighters can easily get life insurance, and the vast majority qualify for standard or preferred rates with mainstream insurance carriers. While firefighting is classified as a hazardous occupation, modern life insurance underwriters do not automatically charge high surcharges for standard municipal firefighters. Unless you participate in high-hazard specialty roles (such as smokejumping, aerial firefighting, or hazardous materials dive rescue), term life insurance is widely available at affordable rates.",
+          "category": "Life"
+      },
+      {
+          "question": "Are spider veins covered by insurance?",
+          "slug": "are-spider-veins-covered-by-insurance",
+          "shortAnswer": "No, spider vein treatments (such as cosmetic sclerotherapy or surface laser therapy) are virtually never covered by health insurance because insurers classify them as elective cosmetic procedures. However, if your spider veins are caused by underlying Chronic Venous Insufficiency (CVI) or accompanied by symptomatic varicose veins with severe pain, swelling, or skin ulcers, the diagnostic ultrasound and medical vein ablation treatments ARE covered by insurance.",
+          "category": "Health"
+      },
+      {
+          "question": "Can an insurance company close a claim without my consent?",
+          "slug": "can-an-insurance-company-close-a-claim-without-my-consent",
+          "shortAnswer": "Yes, an insurance company can close a claim without your consent under administrative and contractual rules. In third-party liability claims, your policy contract grants the insurer the exclusive 'Right to Settle or Settle at Will', allowing them to resolve or close claims against you without your permission. In first-party claims, insurers can administratively close a claim due to prolonged policyholder inactivity, failure to provide requested documentation, or statutory expiration. However, an administrative closure is not permanent, and you can generally reopen a first-party claim within the state statute of limitations.",
+          "category": "Legal"
+      },
+      {
+          "question": "Can an insurance company sue an uninsured driver?",
+          "slug": "can-an-insurance-company-sue-an-uninsured-driver",
+          "shortAnswer": "Yes, an insurance company can and routinely does sue an uninsured driver through the legal right of subrogation. If an uninsured driver causes an accident, the victim's insurance company will pay for their policyholder's vehicle repairs and medical treatments, and then unleash their subrogation recovery attorneys to sue the uninsured driver personally in civil court for 100% of the costs, leading to wage garnishment and driver's license suspension.",
+          "category": "Auto"
+      },
+      {
+          "question": "Can a car insurance company sue you?",
+          "slug": "can-a-car-insurance-company-sue-you",
+          "shortAnswer": "Yes, a car insurance company can sue you directly in civil court. The most common scenario occurs when you are found at-fault for a car crash that damages an insured vehicle or injures an insured driver; the victim's car insurer will pay the claim and then sue you personally under subrogation rights. An auto insurer can also sue you for rate fraud (concealing household drivers or lying about garaging locations) or to recoup payouts made on fraudulent claims.",
+          "category": "Auto"
+      },
+      {
+          "question": "Can an uninsured driver sue an insured driver?",
+          "slug": "can-an-uninsured-driver-sue-an-insured-driver",
+          "shortAnswer": "Yes, an uninsured driver can legally sue an insured driver if the insured driver was at fault for the accident. However, in at least 10 states with strict 'No Pay, No Play' laws (such as California, Louisiana, Michigan, and New Jersey), uninsured drivers are legally barred from recovering non-economic damages (pain, suffering, and emotional distress), and can only sue for actual out-of-pocket economic losses like medical bills and vehicle repairs.",
+          "category": "Auto"
+      },
+      {
+          "question": "Are windshields covered by insurance in Florida?",
+          "slug": "are-windshields-covered-by-insurance-in-florida",
+          "shortAnswer": "Yes, windshields are 100% covered with $0 deductible by insurance in Florida, provided you carry Comprehensive Coverage on your auto policy. Under Florida Statute § 627.7288 (the Florida Zero-Deductible Windshield Law), insurance carriers are legally prohibited from applying any deductible to windshield repair or replacement. However, if you carry only basic state-minimum liability insurance (PIP and PDL), windshield damage is NOT covered at all.",
+          "category": "Auto"
+      }
   ]
 };
 
@@ -600,6 +860,9 @@ async function initSiteData() {
     if (res.ok) {
       const liveData = await res.json();
       if (liveData && liveData.articles) {
+        if (!liveData.qa && FALLBACK_INDEX.qa) {
+          liveData.qa = FALLBACK_INDEX.qa;
+        }
         siteData = liveData;
         console.log('Insurance Bhaiya Data Loaded:', siteData.articles.length, 'articles');
       }
@@ -850,7 +1113,7 @@ const CharacterGuide = {
     return `
       <div class="bhaiya-mentor-card context-${context}">
         <div class="bhaiya-avatar-wrap">
-          <img src="/logo-md.png" alt="Insurance Bhaiya Guide" class="bhaiya-avatar-img" onerror="this.style.display='none'" />
+          <img src="/logo.png" alt="Insurance Bhaiya Guide" class="bhaiya-avatar-img" onerror="this.style.display='none'" />
           <span class="bhaiya-status-dot"></span>
         </div>
         <div class="bhaiya-speech-bubble">
@@ -5306,6 +5569,7 @@ const SEARCH_ICONS = {
   compare: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>`,
   glossary: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>`,
   scenario: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>`,
+  qa: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
   arrow: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-item-arrow"><polyline points="9 18 15 12 9 6"/></svg>`
 };
 
@@ -5376,6 +5640,14 @@ const PREFILLED_SEARCH_ITEMS = [
     intent: 'Calculator',
     intentClass: 'pill-intent-calc',
     iconType: 'calc'
+  },
+  {
+    title: 'Can Insurance Drop You After a Claim?',
+    url: '/qa/can-insurance-drop-you-after-a-claim',
+    desc: 'Cancellation vs non-renewal: statutory protections and frequency thresholds.',
+    intent: 'Q&A',
+    intentClass: 'pill-intent-qa',
+    iconType: 'qa'
   }
 ];
 
@@ -5402,6 +5674,10 @@ function buildSearchResultsHtml(query) {
     regex.test(a.title) || regex.test(a.description) || regex.test(a.slug)
   ).slice(0, 5);
 
+  const matchedQA = (siteData?.qa || []).filter(q =>
+    regex.test(q.question) || regex.test(q.shortAnswer || '') || regex.test(q.category || '') || regex.test(q.slug)
+  ).slice(0, 4);
+
   const matchedComparisons = (siteData?.comparisons || []).filter(c =>
     regex.test(c.title) || regex.test(c.subtitle || '') || regex.test(c.description || '') || regex.test(c.slug)
   ).slice(0, 3);
@@ -5414,7 +5690,7 @@ function buildSearchResultsHtml(query) {
     regex.test(s.name) || regex.test(s.situation || '') || regex.test(s.coreQuestion || '') || regex.test(s.slug)
   ).slice(0, 3);
 
-  const totalMatches = matchedTools.length + matchedArticles.length + matchedComparisons.length + matchedGlossary.length + matchedScenarios.length;
+  const totalMatches = matchedTools.length + matchedArticles.length + matchedQA.length + matchedComparisons.length + matchedGlossary.length + matchedScenarios.length;
 
   if (totalMatches === 0) {
     return `<div style="padding: 32px 16px; text-align: center; color: var(--color-secondary); font-size: 0.9375rem;">No matching guides, tools, or terms found for "<strong>${escapeHtml(cleanQuery)}</strong>".</div>`;
@@ -5431,6 +5707,18 @@ function buildSearchResultsHtml(query) {
       intent: 'Calculator',
       intentClass: 'pill-intent-calc',
       iconType: 'calc'
+    })).join('');
+  }
+
+  if (matchedQA.length > 0) {
+    html += '<div class="search-section-header">Expert Q&amp;A</div>';
+    html += matchedQA.map(q => renderSearchItemRow({
+      url: `/qa/${q.slug}`,
+      title: q.question,
+      desc: q.shortAnswer,
+      intent: 'Q&A',
+      intentClass: 'pill-intent-qa',
+      iconType: 'qa'
     })).join('');
   }
 
@@ -5764,8 +6052,40 @@ function initArticleFilters() {
       pill.classList.add('pill-accent');
       activeCategory = pill.getAttribute('data-category') || 'all';
       currentVisibleCount = PAGE_SIZE; // Reset visible count to 12
+
+      try {
+        const url = new URL(window.location);
+        if (activeCategory === 'all') {
+          url.searchParams.delete('category');
+        } else {
+          url.searchParams.set('category', activeCategory);
+        }
+        window.history.pushState({ category: activeCategory }, '', url);
+      } catch (err) {}
+
       applyPaginationAndFilters();
     });
+  });
+
+  // Listen to popstate for browser back/forward
+  window.addEventListener('popstate', () => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get('category') || 'all';
+      filterPills.forEach(p => {
+        if ((p.getAttribute('data-category') || 'all') === catParam) {
+          filterPills.forEach(pill => {
+            pill.classList.remove('active');
+            pill.classList.remove('pill-accent');
+          });
+          p.classList.add('active');
+          p.classList.add('pill-accent');
+          activeCategory = catParam;
+        }
+      });
+      currentVisibleCount = PAGE_SIZE;
+      applyPaginationAndFilters();
+    } catch (e) {}
   });
 
   // Hook up live search input
@@ -5999,6 +6319,450 @@ function initMobileNav() {
   }
 }
 
+// ==========================================================================
+// 7. Insurance Q&A Hub Live Search & Smooth Category Filtering
+// ==========================================================================
+
+function initQASearchAndFilters() {
+  const searchInput = document.getElementById('qaSearchInput');
+  const filterPills = document.querySelectorAll('.qa-filter-pill');
+  const cardsGrid = document.getElementById('qaCardsGrid');
+  const cards = Array.from(document.querySelectorAll('.qa-card'));
+  const spotlightBanner = document.getElementById('qaSpotlightCard');
+  const noResults = document.getElementById('qaNoResults');
+  const resetBtn = document.getElementById('qaResetFiltersBtn');
+
+  if (!cards.length && !spotlightBanner) return;
+
+  // 1. Shuffling: Shuffle QA cards on page load (Fisher-Yates)
+  if (cardsGrid && cards.length > 1) {
+    const shuffled = [...cards];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    shuffled.forEach(card => cardsGrid.appendChild(card));
+  }
+
+  // 2. Dynamic Random Spotlight Question on every reload
+  const qaItems = siteData?.qa || FALLBACK_INDEX?.qa || [];
+  if (spotlightBanner && qaItems.length > 0) {
+    const randomSpotlight = qaItems[Math.floor(Math.random() * qaItems.length)];
+    if (randomSpotlight) {
+      const spotTitleLink = spotlightBanner.querySelector('.qa-spotlight-title a');
+      const spotAnswer = spotlightBanner.querySelector('.qa-spotlight-answer');
+      const spotCatPill = spotlightBanner.querySelector('.pill-accent');
+      const spotCta = spotlightBanner.querySelector('.btn-primary');
+      const spotMeta = spotlightBanner.querySelector('span:last-child');
+
+      if (spotTitleLink) {
+        spotTitleLink.href = `/qa/${randomSpotlight.slug}`;
+        spotTitleLink.textContent = randomSpotlight.question;
+      }
+      if (spotAnswer) {
+        spotAnswer.textContent = randomSpotlight.shortAnswer;
+      }
+      if (spotCatPill) {
+        spotCatPill.textContent = `${randomSpotlight.category} Insurance`;
+      }
+      if (spotCta) {
+        spotCta.href = `/qa/${randomSpotlight.slug}`;
+      }
+      if (spotMeta && randomSpotlight.readingTime) {
+        spotMeta.textContent = `${randomSpotlight.readingTime} • ${randomSpotlight.difficulty || 'Intermediate'}`;
+      }
+      spotlightBanner.setAttribute('data-category', (randomSpotlight.category || '').toLowerCase());
+      spotlightBanner.setAttribute('data-slug', randomSpotlight.slug);
+    }
+  }
+
+  let activeCategory = 'all';
+  let searchQuery = '';
+
+  function updateCategoryFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get('category');
+      if (catParam) {
+        const target = catParam.toLowerCase();
+        let found = false;
+        filterPills.forEach(p => {
+          const pCat = (p.getAttribute('data-category') || '').toLowerCase();
+          if (pCat === target) {
+            filterPills.forEach(pill => pill.classList.remove('active'));
+            p.classList.add('active');
+            activeCategory = target;
+            found = true;
+          }
+        });
+        if (!found) activeCategory = 'all';
+      } else {
+        activeCategory = 'all';
+        filterPills.forEach((p, idx) => {
+          if (idx === 0) p.classList.add('active');
+          else p.classList.remove('active');
+        });
+      }
+    } catch (e) {}
+  }
+
+  // Initial category check from URL
+  updateCategoryFromUrl();
+
+  // Listen to popstate (browser back/forward)
+  window.addEventListener('popstate', () => {
+    updateCategoryFromUrl();
+    filterCards();
+  });
+
+  function filterCards() {
+    let visibleCount = 0;
+    const qLower = searchQuery.toLowerCase().trim();
+
+    cards.forEach(card => {
+      const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
+      const cardText = (card.textContent || '').toLowerCase();
+
+      const matchesCat = activeCategory === 'all' || cardCat === activeCategory || cardCat.includes(activeCategory);
+      const matchesQuery = !qLower || cardText.includes(qLower);
+
+      if (matchesCat && matchesQuery) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Handle spotlight banner visibility
+    if (spotlightBanner) {
+      const spotCat = (spotlightBanner.getAttribute('data-category') || spotlightBanner.querySelector('.pill-accent')?.textContent || '').toLowerCase();
+      const spotText = (spotlightBanner.textContent || '').toLowerCase();
+      const spotMatchesCat = activeCategory === 'all' || spotCat.includes(activeCategory);
+      const spotMatchesQuery = !qLower || spotText.includes(qLower);
+
+      if (spotMatchesCat && spotMatchesQuery) {
+        spotlightBanner.style.display = 'block';
+      } else {
+        spotlightBanner.style.display = 'none';
+      }
+    }
+
+    if (noResults) {
+      noResults.style.display = (visibleCount === 0 && (!spotlightBanner || spotlightBanner.style.display === 'none')) ? 'block' : 'none';
+    }
+  }
+
+  // Hook pill clicks with URL history pushState
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      filterPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeCategory = (pill.getAttribute('data-category') || 'all').toLowerCase();
+
+      try {
+        const url = new URL(window.location);
+        if (activeCategory === 'all') {
+          url.searchParams.delete('category');
+        } else {
+          url.searchParams.set('category', activeCategory);
+        }
+        window.history.pushState({ category: activeCategory }, '', url);
+      } catch (err) {}
+
+      filterCards();
+    });
+  });
+
+  // Hook search input
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      filterCards();
+    });
+  }
+
+  // Hook reset button
+  if (resetBtn) {
+    resetBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (searchInput) searchInput.value = '';
+      searchQuery = '';
+      activeCategory = 'all';
+      filterPills.forEach((p, idx) => {
+        if (idx === 0) p.classList.add('active');
+        else p.classList.remove('active');
+      });
+      try {
+        const url = new URL(window.location);
+        url.searchParams.delete('category');
+        window.history.pushState({}, '', url);
+      } catch (err) {}
+      filterCards();
+    });
+  }
+
+  // Initial filter run
+  filterCards();
+}
+
+// ==========================================================================
+// 7b. Side-by-Side Comparisons Hub Live Filtering, URL Sync & Shuffling
+// ==========================================================================
+
+function initCompareFilters() {
+  const cardsGrid = document.getElementById('compareCardsGrid');
+  const filterPills = document.querySelectorAll('#compareFilterGroup .qa-filter-pill');
+  const cards = Array.from(document.querySelectorAll('#compareCardsGrid .apple-card'));
+  const noResults = document.getElementById('compareNoResults');
+
+  if (!cards.length) return;
+
+  // 1. Shuffling: Shuffle compare cards on load
+  if (cardsGrid && cards.length > 1) {
+    const shuffled = [...cards];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    shuffled.forEach(card => cardsGrid.appendChild(card));
+  }
+
+  let activeCategory = 'all';
+
+  function updateCategoryFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get('category');
+      if (catParam) {
+        const target = catParam.toLowerCase();
+        let found = false;
+        filterPills.forEach(p => {
+          const pCat = (p.getAttribute('data-category') || '').toLowerCase();
+          if (pCat === target) {
+            filterPills.forEach(pill => pill.classList.remove('active'));
+            p.classList.add('active');
+            activeCategory = target;
+            found = true;
+          }
+        });
+        if (!found) activeCategory = 'all';
+      } else {
+        activeCategory = 'all';
+        filterPills.forEach((p, idx) => {
+          if (idx === 0) p.classList.add('active');
+          else p.classList.remove('active');
+        });
+      }
+    } catch (e) {}
+  }
+
+  function filterCards() {
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
+      const matchesCat = activeCategory === 'all' || cardCat === activeCategory || cardCat.includes(activeCategory);
+      if (matchesCat) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  }
+
+  updateCategoryFromUrl();
+
+  window.addEventListener('popstate', () => {
+    updateCategoryFromUrl();
+    filterCards();
+  });
+
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      filterPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeCategory = (pill.getAttribute('data-category') || 'all').toLowerCase();
+
+      try {
+        const url = new URL(window.location);
+        if (activeCategory === 'all') {
+          url.searchParams.delete('category');
+        } else {
+          url.searchParams.set('category', activeCategory);
+        }
+        window.history.pushState({ category: activeCategory }, '', url);
+      } catch (err) {}
+
+      filterCards();
+    });
+  });
+
+  filterCards();
+}
+
+// ==========================================================================
+// 7c. Scenarios Hub Market/Category Filtering, URL Sync & Shuffling
+// ==========================================================================
+
+function initScenariosFilters() {
+  const cardsGrid = document.getElementById('scenariosCardsGrid');
+  const filterPills = document.querySelectorAll('#scenariosFilterGroup .qa-filter-pill');
+  const cards = Array.from(document.querySelectorAll('#scenariosCardsGrid .scenario-profile-card'));
+  const noResults = document.getElementById('scenariosNoResults');
+
+  if (!cards.length) return;
+
+  // 1. Shuffling: Shuffle scenario cards on load
+  if (cardsGrid && cards.length > 1) {
+    const shuffled = [...cards];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    shuffled.forEach(card => cardsGrid.appendChild(card));
+  }
+
+  let activeCategory = 'all';
+
+  function updateCategoryFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get('category') || params.get('market');
+      if (catParam) {
+        const target = catParam.toLowerCase();
+        let found = false;
+        filterPills.forEach(p => {
+          const pCat = (p.getAttribute('data-category') || '').toLowerCase();
+          if (pCat === target) {
+            filterPills.forEach(pill => pill.classList.remove('active'));
+            p.classList.add('active');
+            activeCategory = target;
+            found = true;
+          }
+        });
+        if (!found) activeCategory = 'all';
+      } else {
+        activeCategory = 'all';
+        filterPills.forEach((p, idx) => {
+          if (idx === 0) p.classList.add('active');
+          else p.classList.remove('active');
+        });
+      }
+    } catch (e) {}
+  }
+
+  function filterCards() {
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
+      const matchesCat = activeCategory === 'all' || cardCat === activeCategory;
+      if (matchesCat) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  }
+
+  updateCategoryFromUrl();
+
+  window.addEventListener('popstate', () => {
+    updateCategoryFromUrl();
+    filterCards();
+  });
+
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      filterPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeCategory = (pill.getAttribute('data-category') || 'all').toLowerCase();
+
+      try {
+        const url = new URL(window.location);
+        if (activeCategory === 'all') {
+          url.searchParams.delete('category');
+          url.searchParams.delete('market');
+        } else {
+          url.searchParams.set('category', activeCategory);
+        }
+        window.history.pushState({ category: activeCategory }, '', url);
+      } catch (err) {}
+
+      filterCards();
+    });
+  });
+
+  filterCards();
+}
+
+// ==========================================================================
+// 8. Footer Rotating Insurance Q&A Widget (Changes on Every Refresh & Next Button)
+// ==========================================================================
+
+function initFooterRotatingQA() {
+  const container = document.getElementById('footerQASpotlight');
+  if (!container) return;
+
+  const titleLink = document.getElementById('footerQATitleLink');
+  const snippet = document.getElementById('footerQASnippet');
+  const catBadge = document.getElementById('footerQACategory');
+  const ctaLink = document.getElementById('footerQACtaLink');
+  const readTime = document.getElementById('footerQAReadTime');
+  const nextBtn = document.getElementById('footerQANextBtn');
+
+  const qaItems = siteData?.qa || FALLBACK_INDEX?.qa || [];
+  if (!qaItems || qaItems.length === 0) return;
+
+  function updateQuestion() {
+    const randomIndex = Math.floor(Math.random() * qaItems.length);
+    const q = qaItems[randomIndex];
+    if (!q) return;
+
+    if (titleLink && q.question) {
+      titleLink.href = `/qa/${q.slug}`;
+      titleLink.textContent = q.question;
+    }
+    if (snippet && q.shortAnswer) {
+      snippet.textContent = q.shortAnswer;
+    }
+    if (catBadge && q.category) {
+      catBadge.textContent = `${q.category} Insurance`;
+      const catSlug = q.category.toLowerCase();
+      catBadge.className = `footer-qa-badge pill pill-cat-${catSlug}`;
+    }
+    if (ctaLink && q.slug) {
+      ctaLink.href = `/qa/${q.slug}`;
+    }
+    if (readTime) {
+      readTime.textContent = `${q.readingTime || '5 min read'} • Actuarially Verified`;
+    }
+  }
+
+  // Initial random question selection
+  updateQuestion();
+
+  // Next / Shuffle button click listener
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      nextBtn.classList.add('rotating');
+      updateQuestion();
+      setTimeout(() => nextBtn.classList.remove('rotating'), 600);
+    });
+  }
+}
+
 // Bootstrapping
 document.addEventListener('DOMContentLoaded', async () => {
   await initSiteData();
@@ -6011,5 +6775,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   initArticleFilters();
   initToolsHeroSpotlight();
   initPolicyAudit();
+  initQASearchAndFilters();
+  initCompareFilters();
+  initScenariosFilters();
+  initFooterRotatingQA();
   initMobileNav();
 });
