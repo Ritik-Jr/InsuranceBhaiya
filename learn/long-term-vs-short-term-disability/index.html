@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/learn/long-term-vs-short-term-disability">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -108,7 +136,7 @@
     "url": "https://insurancebhaiya.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://insurancebhaiya.com/logo-md.png"
+      "url": "https://insurancebhaiya.com/logo.png"
     }
   },
   "mainEntityOfPage": {
@@ -425,6 +453,9 @@
 <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Long-term disability activates after an elimination period—typically 90 or 180 days—and pays a replacement benefit until age 65 or 67. Because LTD protects against permanent or multi-year physical incapacitation, it is non-negotiable for primary household earners.</p>
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">4. Tax Treatment: Employer-Paid vs Individual Policies</h2>
 <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">If your employer pays the premiums with pre-tax dollars, the disability benefit checks you receive are fully taxable as ordinary income. Conversely, if you purchase an individual LTD policy with after-tax dollars, the benefits disbursed during a disability are 100% tax-free, dramatically increasing your net disposable income.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Your ability to earn an income is your single largest lifetime financial asset. If an illness or injury prevents you from working, disability insurance replaces 50% to 70% of your gross pay. Model your monthly income replacement gap across short-term, long-term, and SSDI tiers with our <a href="/disability-insurance-calculator/" class="article-link">Disability Income Protection Calculator</a>.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Learn why actuaries recommend prioritizing Long-Term Disability over Short-Term Disability in our expert Q&A: <a href="/qa/short-term-vs-long-term-disability-do-you-need-both" class="article-link">Short-Term vs. Long-Term Disability: Do You Need Both?</a>. For self-employed individuals, examine our real-world freelance case analysis in <a href="/scenarios/marco-freelance-berlin" class="article-link">Marco's Freelance Disability Case in Berlin</a>.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Identify coverage loopholes and definition traps in our companion guide on <a href="/learn/own-occupation-disability-insurance" class="article-link">Own-Occupation Disability Insurance</a> and review potential policy riders using our <a href="/coverage-gap-checker/" class="article-link">Coverage Gap Checker</a>.</p>
 
       <!-- Key Takeaways Box -->
       

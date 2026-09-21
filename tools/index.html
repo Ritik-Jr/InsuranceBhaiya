@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/tools">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
@@ -320,24 +348,24 @@
 
     <!-- 1. Flagship Spotlight Bento Hero (Dynamic Random on Every Visit) -->
     
-      <div class="tools-spotlight-hero" id="toolsSpotlightHero" data-slug="policy-review-checklist">
+      <div class="tools-spotlight-hero" id="toolsSpotlightHero" data-slug="term-insurance-calculator">
         <div>
           <div class="tools-spotlight-badge">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
-            <span id="spotlightBadgeText">Actuarial Framework</span>
+            <span id="spotlightBadgeText">Essential</span>
           </div>
           <h2 id="spotlightTitle" style="font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 700; margin-bottom: 14px; letter-spacing: -0.02em;">
-            Policy Review Checklist
+            Term Insurance Calculator
           </h2>
           <p id="spotlightDesc" style="color: var(--color-secondary); font-size: 1.0625rem; line-height: 1.6; margin-bottom: 24px; max-width: 580px;">
-            Guided 10-point policy audit process to prepare targeted questions for your annual renewal.
+            Forecast monthly and annual term premiums tailored to age, health tier, term duration, and coverage sum.
           </p>
           <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-            <a href="/policy-review-checklist/" id="spotlightPrimaryBtn" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 13px 26px; font-weight: 600;">
-              <span>Open Calculator</span>
+            <a href="/term-insurance-calculator/" id="spotlightPrimaryBtn" class="btn btn-primary" style="background: #0071e3; color: #ffffff; padding: 13px 26px; font-weight: 600;">
+              <span>Estimate Term Premium</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
-            <a href="/policy-review-checklist/" id="spotlightSecondaryBtn" class="btn btn-secondary" style="padding: 13px 20px;">
+            <a href="/term-insurance-calculator/" id="spotlightSecondaryBtn" class="btn btn-secondary" style="padding: 13px 20px;">
               Read Methodology
             </a>
           </div>
@@ -359,14 +387,14 @@
           <div class="tools-formula-box">
             <div class="tools-formula-label">Actuarial Methodology</div>
             <p class="tools-formula-desc" id="spotlightFormula">
-              Dynamic actuarial risk model calculating optimal coverage thresholds.
+              Actuarial baseline model factoring age-band mortality curves, term lengths (10, 20, 30 yrs), and lifestyle health classifications.
             </p>
           </div>
 
           <div class="tools-preview-specs">
             <div class="tools-spec-row">
               <span class="spec-label">Domain Focus</span>
-              <span class="spec-value" id="spotlightCategoryBadge">insurance basics</span>
+              <span class="spec-value" id="spotlightCategoryBadge">term insurance</span>
             </div>
             <div class="tools-spec-row">
               <span class="spec-label">Processing</span>
@@ -380,15 +408,46 @@
         </div>
       </div>
 
-      <!-- 2. Grid of All Calculators (Excludes hero card to avoid duplicate) -->
-      <div style="margin-bottom: 32px;">
-        <h2 class="text-title-2" style="margin-bottom: 8px;">All Decision Models</h2>
-        <p class="text-secondary" style="font-size: 0.9375rem;">Interactive widgets for life, health, auto, home, umbrella, and disability planning.</p>
+      <!-- Live Search & Category Filtering Bar -->
+      <div style="margin: 40px 0 20px;">
+        <div class="home-search-container" style="margin: 0 0 16px; max-width: 100%;">
+          <div class="home-search-input-wrap">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="toolsSearchInput" placeholder="Search calculators (e.g. deductible breakeven, out-of-pocket, term rates, rebuild cost)..." autocomplete="off">
+          </div>
+        </div>
+
+        <div class="qa-filter-wrap" id="toolsFilterGroup">
+          
+            <button class="qa-filter-pill active" data-category="all">All</button>
+          
+            <button class="qa-filter-pill " data-category="car-insurance">Auto & Vehicle</button>
+          
+            <button class="qa-filter-pill " data-category="health-insurance">Health & Medical</button>
+          
+            <button class="qa-filter-pill " data-category="life-insurance">Life & Term</button>
+          
+            <button class="qa-filter-pill " data-category="home-insurance">Home & Property</button>
+          
+            <button class="qa-filter-pill " data-category="business-insurance">Business & Disability</button>
+          
+            <button class="qa-filter-pill " data-category="insurance-basics">Planning & Basics</button>
+          
+        </div>
+      </div>
+
+      <!-- 2. Grid of All Calculators -->
+      <div style="margin-bottom: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <h2 class="text-title-2" style="margin-bottom: 4px;">All Decision Models</h2>
+          <p class="text-secondary" style="font-size: 0.9375rem;">Interactive widgets for life, health, auto, home, umbrella, and disability planning.</p>
+        </div>
+        <span class="pill" id="toolsCountBadge" style="font-weight: 600;">20 Calculators</span>
       </div>
 
       <div class="grid-3" id="toolsGrid" style="gap: 20px;">
         
-    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="life-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="life-insurance-calculator" data-category="life-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -427,7 +486,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="term-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="term-insurance-calculator" data-category="term-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -466,7 +525,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-green" data-slug="health-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-green" data-slug="health-insurance-calculator" data-category="health-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -505,7 +564,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="car-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="car-insurance-calculator" data-category="car-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -544,7 +603,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="car-insurance-deductible-calculator">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="car-insurance-deductible-calculator" data-category="car-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -583,7 +642,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="home-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="home-insurance-calculator" data-category="home-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -622,7 +681,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-green" data-slug="premium-calculator">
+    <div class="apple-card apple-calc-card card-pastel-green" data-slug="premium-calculator" data-category="life-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -661,7 +720,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="coverage-calculator">
+    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="coverage-calculator" data-category="business-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -700,7 +759,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="insurance-needs-calculator">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="insurance-needs-calculator" data-category="insurance-basics">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -739,7 +798,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="deductible-calculator">
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="deductible-calculator" data-category="car-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -778,7 +837,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-green" data-slug="inflation-calculator">
+    <div class="apple-card apple-calc-card card-pastel-green" data-slug="inflation-calculator" data-category="disability-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -817,7 +876,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="home-replacement-cost-estimator">
+    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="home-replacement-cost-estimator" data-category="home-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -856,7 +915,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="renters-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="renters-insurance-calculator" data-category="home-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -895,7 +954,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="travel-insurance-checklist">
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="travel-insurance-checklist" data-category="travel-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -934,7 +993,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-green" data-slug="disability-insurance-calculator">
+    <div class="apple-card apple-calc-card card-pastel-green" data-slug="disability-insurance-calculator" data-category="disability-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -973,7 +1032,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="business-insurance-checklist">
+    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="business-insurance-checklist" data-category="business-insurance">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -1012,7 +1071,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="coverage-gap-checker">
+    <div class="apple-card apple-calc-card card-pastel-blue" data-slug="coverage-gap-checker" data-category="insurance-basics">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -1046,7 +1105,41 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="insurance-readiness-quiz">
+    <div class="apple-card apple-calc-card card-pastel-purple" data-slug="policy-review-checklist" data-category="insurance-basics">
+      <div>
+        <div class="apple-calc-header">
+          <div class="apple-calc-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <span class="pill" style="font-size: 0.75rem; background: #ffffff; border-color: rgba(0,0,0,0.08); font-weight: 600; color: var(--color-accent);">
+              Actuarial
+            </span>
+          </div>
+        </div>
+
+        <h3 class="apple-calc-title">
+          <a href="/policy-review-checklist/">
+            Policy Review Checklist
+          </a>
+        </h3>
+
+        <p class="apple-calc-desc">
+          Guided 10-point policy audit process to prepare targeted questions for your annual renewal.
+        </p>
+
+        
+      </div>
+
+      <div style="padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 16px;">
+        <a href="/policy-review-checklist/" class="btn btn-primary" style="width: 100%; justify-content: space-between; background: #0071e3; color: #ffffff; padding: 12px 20px;">
+          <span>Launch Calculator</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="apple-card apple-calc-card card-pastel-green" data-slug="insurance-readiness-quiz" data-category="insurance-basics">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -1080,7 +1173,7 @@
       </div>
     </div>
   
-    <div class="apple-card apple-calc-card card-pastel-green" data-slug="insurance-terminology-quiz">
+    <div class="apple-card apple-calc-card card-pastel-amber" data-slug="insurance-terminology-quiz" data-category="insurance-basics">
       <div>
         <div class="apple-calc-header">
           <div class="apple-calc-icon-box">
@@ -1116,7 +1209,12 @@
   
       </div>
 
-      <!-- Embedded Tools Metadata for Client-Side Randomization -->
+      <div id="toolsNoResults" style="display: none; text-align: center; padding: 48px 20px;">
+        <p style="font-size: 1.125rem; color: var(--color-secondary); margin-bottom: 12px;">No matching insurance calculators found.</p>
+        <button id="toolsResetFiltersBtn" class="btn btn-outline">Clear Search &amp; Show All Tools</button>
+      </div>
+
+      <!-- Embedded Tools Metadata for Client-Side Filtering & Search -->
       <script id="toolsData" type="application/json">
         [{"slug":"life-insurance-calculator","name":"Life Insurance Calculator","category":"life-insurance","shortDescription":"Compute total capital required to settle liabilities and sustain your family's standard of living.","formulaDescription":"Combines 10-year income replacement with outstanding debt, mortgage, and higher-education reserves minus existing liquid assets.","badge":"Popular","ctaText":"Calculate Life Protection","icon":"Heart"},{"slug":"term-insurance-calculator","name":"Term Insurance Calculator","category":"term-insurance","shortDescription":"Forecast monthly and annual term premiums tailored to age, health tier, term duration, and coverage sum.","formulaDescription":"Actuarial baseline model factoring age-band mortality curves, term lengths (10, 20, 30 yrs), and lifestyle health classifications.","badge":"Essential","ctaText":"Estimate Term Premium","icon":"Clock"},{"slug":"health-insurance-calculator","name":"Out-of-Pocket Cost Calculator","category":"health-insurance","shortDescription":"Estimate how medical bills and covered losses are divided across deductibles, copays, coinsurance, and out-of-pocket limits.","formulaDescription":"Models High-Deductible Health Plans (HDHP) vs. Low-Deductible PPOs across low, medium, and catastrophic care consumption scenarios.","badge":"Decision Tool","ctaText":"Simulate Out-of-Pocket Costs","icon":"Activity"},{"slug":"car-insurance-calculator","name":"Car Insurance Coverage Calculator","category":"car-insurance","shortDescription":"Audit your automotive coverage checklist across liability, collision, comprehensive, UM/UIM, and medical defense layers.","formulaDescription":"Blends state risk averages with collision, comprehensive, and comprehensive liability tiers.","badge":"Utility","ctaText":"Assess Coverage Needs","icon":"Car"},{"slug":"car-insurance-deductible-calculator","name":"Car Insurance Deductible Calculator","category":"car-insurance","shortDescription":"Compare vehicle collision and comprehensive deductible options ($250 to $2,500) side by side with breakeven horizons and claim costs.","formulaDescription":"Models physical damage rate elasticities across deductible tiers and calculates your net out-of-pocket outlay and claim-free breakeven horizon.","badge":"Interactive Scenario Lab","ctaText":"Compare Auto Deductibles","icon":"Car"},{"slug":"home-insurance-calculator","name":"Home Insurance Coverage Calculator","category":"home-insurance","shortDescription":"Allocate policy limits across dwelling replacement, other structures, personal property, loss of use, and liability.","formulaDescription":"Separates Dwelling, Other Structures (10%), Personal Property (60%), Loss of Use (20%), and Personal Liability ($300k-$500k).","badge":"Coverage Suite","ctaText":"Calculate Coverage Limits","icon":"Home"},{"slug":"premium-calculator","name":"Universal Premium Calculator","category":"life-insurance","shortDescription":"Calculate annual vs. semi-annual vs. monthly payment savings, installment fees, and payment cash flow impacts.","formulaDescription":"Calculates modal installment surcharges (typically 3-8% annual penalty) when paying monthly rather than annually.","badge":"Cash Flow","ctaText":"Optimize Payment Mode","icon":"CreditCard"},{"slug":"coverage-calculator","name":"Coverage Ratio Calculator","category":"business-insurance","shortDescription":"Assess total asset vulnerability against liability limits to determine whether an umbrella policy is warranted.","formulaDescription":"Balances aggregate personal net worth against current underlying auto and homeowners liability thresholds.","badge":"Risk Audit","ctaText":"Analyze Risk Exposure","icon":"ShieldCheck"},{"slug":"insurance-needs-calculator","name":"Insurance Needs Calculator","category":"insurance-basics","shortDescription":"Comprehensive whole-life risk and coverage radar mapping 9 core insurance sectors to your life situation.","formulaDescription":"D.I.M.E. = Current Non-Mortgage Debt + (Income x Years) + Mortgage Balance + Projected Higher Education Costs.","badge":"Framework","ctaText":"Run D.I.M.E. Audit","icon":"Sliders"},{"slug":"deductible-calculator","name":"Deductible vs Premium Calculator","category":"car-insurance","shortDescription":"Explore how deductibles impact monthly premiums, out-of-pocket claim costs, and your financial breakeven horizon across interactive scenarios.","formulaDescription":"Breakeven Months = (High Deductible - Low Deductible) / (High Premium - Low Premium).","badge":"Optimization","ctaText":"Calculate Breakeven","icon":"Percent"},{"slug":"inflation-calculator","name":"Insurance Inflation Calculator","category":"disability-insurance","shortDescription":"Model the erosive impact of inflation on fixed death benefits and healthcare costs over 10, 20, and 30 years.","formulaDescription":"Future Real Value = Nominal Benefit / (1 + r)^t across custom compound inflation rate assumptions.","badge":"Macro Tool","ctaText":"Model Purchasing Power","icon":"TrendingUp"},{"slug":"home-replacement-cost-estimator","name":"Home Replacement-Cost Estimator","category":"home-insurance","shortDescription":"Estimate what it could realistically cost to rebuild your home from the foundation up using regional construction benchmarks.","formulaDescription":"Computes regional construction cost ranges using structural square footage, stories, foundation type, and architectural finishes.","badge":"Valuation Lab","ctaText":"Estimate Rebuild Cost","icon":"Home"},{"slug":"renters-insurance-calculator","name":"Renters Insurance Coverage Calculator","category":"home-insurance","shortDescription":"Estimate the total replacement value of your personal property room by room and identify policy sub-limit risks.","formulaDescription":"Calculates itemized personal property replacement value across 9 household categories and audits category sub-limits.","badge":"Inventory Lab","ctaText":"Inventory Belongings","icon":"Home"},{"slug":"travel-insurance-checklist","name":"Travel Insurance Coverage Checklist","category":"travel-insurance","shortDescription":"Generate a personalized travel insurance review checklist covering medical evacuation, trip cancellation, delays, and credit card perks.","formulaDescription":"Evaluates international medical gaps, credit card cancellation overlaps, and hazardous activity exclusions.","badge":"Pre-Trip Checklist","ctaText":"Review Travel Risks","icon":"Plane"},{"slug":"disability-insurance-calculator","name":"Disability Income Protection Calculator","category":"disability-insurance","shortDescription":"Calculate your monthly essential expense gap if an illness or accident prevents you from working.","formulaDescription":"Models essential living expenses against after-tax employer group LTD benefits and calculates emergency cash runway.","badge":"Paycheck Defense","ctaText":"Calculate Income Gap","icon":"Activity"},{"slug":"business-insurance-checklist","name":"Business Insurance Needs Checklist","category":"business-insurance","shortDescription":"Identify commercial insurance lines relevant to your business structure, premises, payroll, and operational tech.","formulaDescription":"Maps business entity, industry, staffing, and operations to General Liability, E&O, Cyber, and Workers Comp needs.","badge":"Commercial Audit","ctaText":"Audit Commercial Risks","icon":"Briefcase"},{"slug":"coverage-gap-checker","name":"Coverage Gap Checker","category":"insurance-basics","shortDescription":"Benchmark policy parameters against standard actuarial guidelines to identify areas worth reviewing.","formulaDescription":"","badge":"Actuarial Framework","ctaText":"Open Calculator","icon":"Search"},{"slug":"policy-review-checklist","name":"Policy Review Checklist","category":"insurance-basics","shortDescription":"Guided 10-point policy audit process to prepare targeted questions for your annual renewal.","formulaDescription":"","badge":"Actuarial Framework","ctaText":"Open Calculator","icon":"CheckSquare"},{"slug":"insurance-readiness-quiz","name":"Insurance Readiness Quiz","category":"insurance-basics","shortDescription":"Test your practical insurance IQ through 10 scenario challenges and earn learning XP.","formulaDescription":"","badge":"Actuarial Framework","ctaText":"Open Calculator","icon":"HelpCircle"},{"slug":"insurance-terminology-quiz","name":"Insurance Terminology Quiz","category":"insurance-basics","shortDescription":"Master essential policy contract vocabulary with market-aware definitions.","formulaDescription":"","badge":"Actuarial Framework","ctaText":"Open Calculator","icon":"BookOpen"}]
       </script>

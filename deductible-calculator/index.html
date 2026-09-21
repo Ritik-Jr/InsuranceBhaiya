@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/deductible-calculator/">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
@@ -331,7 +359,7 @@
   </header>
   
 
-  <main class="container-reading">
+  <main class="container container-tool">
     
   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
     <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">

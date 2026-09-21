@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/learn/how-to-know-if-you-are-underinsured">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -108,7 +136,7 @@
     "url": "https://insurancebhaiya.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://insurancebhaiya.com/logo-md.png"
+      "url": "https://insurancebhaiya.com/logo.png"
     }
   },
   "mainEntityOfPage": {
@@ -420,6 +448,10 @@
       <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Underinsurance is one of the most widespread and dangerous financial vulnerabilities in modern households. Over 60% of homes in the United States are underinsured by an average of 20%, according to studies by the <a href="https://www.swissre.com/institute.html" class="article-link">Swiss Re Institute</a>.</p>
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">The 5 Red Flags That You Are Underinsured</h2>
 
+          <ol class="article-list" style="margin: 20px 0 24px 24px; line-height: 1.75; color: var(--color-text);">
+            <li style="margin-bottom: 8px;">1. Home Dwelling Limit Has Not Been Adjusted for Construction Inflation: If your home was insured 5 years ago for $300,000, soaring lumber and contractor labor costs mean rebuilding today would cost $450,000. In a total fire loss, you would face a $150,000 shortfall.</li><li style="margin-bottom: 8px;">2. Carrying State Minimum Auto Liability Limits: If you carry state-mandated limits of $25,000 per person and cause a serious highway pileup, the medical bills will easily exceed $250,000, leaving your house, savings, and future wages subject to garnishment.</li><li style="margin-bottom: 8px;">3. Insuring Only 1x to 2x Annual Salary in Life Insurance: An employer-provided group life policy (typically 1x salary) will only support your surviving family for 12 months. Financial planners universally recommend 8x to 12x gross income in <a href="/learn/term-insurance-guide" class="article-link">term life insurance</a>.</li><li style="margin-bottom: 8px;">4. Zero Disability Income Protection: You are three times more likely to become disabled before age 65 than to pass away prematurely. If you have no Long-Term Disability policy, an illness will eradicate your savings within months.</li><li style="margin-bottom: 8px;">5. No Personal Umbrella Liability Policy: If your home equity, retirement accounts, and liquid investments exceed $300,000, you need an Umbrella Policy. A single slip-and-fall lawsuit on your icy driveway can exceed baseline homeowner liability caps.</li>
+          </ol>
+        
 
           <div class="apple-callout apple-callout-warning" style="background: var(--pastel-blue-bg); border: 1px solid var(--pastel-blue-border); border-left: 4px solid var(--color-accent); border-radius: var(--radius-sm); padding: 22px 24px; margin: 28px 0;">
             <div style="font-weight: 600; font-size: 1rem; color: var(--color-text); margin-bottom: 8px;">The Coinsurance Penalty Trap</div>
@@ -462,6 +494,15 @@
           </div>
         
 
+          <div class="article-calc-embed" style="margin: 32px 0; padding: 24px; background: var(--pastel-blue-bg); border: 1px solid var(--pastel-blue-border); border-radius: var(--radius-md);">
+            <div style="font-weight: 600; font-size: 1.1rem; color: var(--color-text); margin-bottom: 8px;">Calculate Your True Protection Gap</div>
+            <p style="font-size: 0.9375rem; color: var(--color-secondary); margin-bottom: 16px;">Run our comprehensive audit tool to instantly spot deficits across your household portfolio.</p>
+            <a href="/insurance-needs-calculator/" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px; background: #0071e3; color: #ffffff; padding: 10px 20px;">
+              <span>Launch Calculator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        
 
           <div class="faq-section" style="margin: 36px 0;">
             <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 20px;">Frequently Asked Questions</h3>
@@ -566,7 +607,7 @@
           
     <article class="related-big-card">
       <div class="related-big-media">
-        <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="What Happens When Insurance Expires? Renewals, Terms, and Next Steps" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
         <div class="apple-category-badge" style="top: 14px; left: 14px;">
           <span>insurance basics</span>
         </div>
@@ -580,24 +621,24 @@
             </span>
             <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span class="num">8 min read</span>
+              <span class="num">4 min read</span>
             </div>
           </div>
 
           <h3 class="related-big-title">
-            <a href="/learn/what-happens-when-insurance-expires">
-              What Happens When Insurance Expires? Renewals, Terms, and Next Steps
+            <a href="/learn/umbrella-insurance-guide">
+              Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits
             </a>
           </h3>
 
           <p class="related-big-desc">
-            Learn what happens when term life, auto, and home insurance policies reach their expiration dates: automatic renewals, non-renewal notices, conversion privileges, and gap management.
+            Discover why basic home and auto liability limits leave your savings, home equity, and future income vulnerable, and how a personal umbrella policy provides catastrophic protection.
           </p>
         </div>
 
         <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid rgba(0, 0, 0, 0.06); gap: 12px; flex-wrap: wrap;">
-          <span style="font-size: 0.8125rem; color: var(--color-secondary);">By Sophia Lin</span>
-          <a href="/learn/what-happens-when-insurance-expires" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
+          <span style="font-size: 0.8125rem; color: var(--color-secondary);">By Elena Rostova</span>
+          <a href="/learn/umbrella-insurance-guide" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
             <span>Read Complete Guide</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -608,6 +649,43 @@
           
             <div class="related-small-grid">
               
+    <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="what-happens-when-insurance-expires" style="">
+      <div class="apple-article-media">
+        <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="What Happens When Insurance Expires? Renewals, Terms, and Next Steps" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <div class="apple-category-badge" style="top: 12px; left: 12px;">
+          <span>insurance basics</span>
+        </div>
+      </div>
+      <div class="apple-article-body">
+        <div>
+          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
+            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span class="num">8 min read</span>
+            </div>
+          </div>
+
+          <h3 class="apple-article-title">
+            <a href="/learn/what-happens-when-insurance-expires">
+              What Happens When Insurance Expires? Renewals, Terms, and Next Steps
+            </a>
+          </h3>
+
+          <p class="apple-article-desc">
+            Learn what happens when term life, auto, and home insurance policies reach their expiration dates: automatic renewals, non-renewal notices, conversion privileges, and gap management.
+          </p>
+        </div>
+
+        <div class="apple-article-meta">
+          <span>By Sophia Lin</span>
+          <a href="/learn/what-happens-when-insurance-expires" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
+            <span>Read Guide</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  
     <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="agent-vs-broker-vs-insurer" style="">
       <div class="apple-article-media">
         <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Agent vs. Broker vs. Insurer: Who Works for Whom?" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
@@ -638,43 +716,6 @@
         <div class="apple-article-meta">
           <span>By Marcus Vance</span>
           <a href="/learn/agent-vs-broker-vs-insurer" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
-            <span>Read Guide</span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-    </article>
-  
-    <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="coverage-vs-limits" style="">
-      <div class="apple-article-media">
-        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Coverage vs. Limits: Scope vs. Ceiling in Insurance Contracts" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
-        <div class="apple-category-badge" style="top: 12px; left: 12px;">
-          <span>insurance basics</span>
-        </div>
-      </div>
-      <div class="apple-article-body">
-        <div>
-          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
-            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span class="num">7 min read</span>
-            </div>
-          </div>
-
-          <h3 class="apple-article-title">
-            <a href="/learn/coverage-vs-limits">
-              Coverage vs. Limits: Scope vs. Ceiling in Insurance Contracts
-            </a>
-          </h3>
-
-          <p class="apple-article-desc">
-            Learn the distinction between insurance coverage (the scope of protected perils) and coverage limits (the dollar ceiling an insurer will pay).
-          </p>
-        </div>
-
-        <div class="apple-article-meta">
-          <span>By Marcus Vance</span>
-          <a href="/learn/coverage-vs-limits" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
             <span>Read Guide</span>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>

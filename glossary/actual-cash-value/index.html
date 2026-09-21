@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/glossary/actual-cash-value">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
@@ -341,7 +369,7 @@
     <div class="apple-card" style="padding: 32px; margin-bottom: 32px; background: var(--color-surface); border: 1px solid var(--color-border);">
       <h2 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 14px; color: var(--color-text);">Actuarial &amp; Contractual Mechanics</h2>
       <p style="line-height: 1.75; font-size: 1.0625rem; color: var(--color-text); margin: 0;">
-        If your 5-year-old laptop is stolen, ACV pays what a 5-year-old used laptop is worth today (e.g. $300), NOT what it costs to buy a brand new one in the store ($1,500).
+        <a href="/glossary/actual-cash-value" class="article-link">Actual Cash Value (ACV)</a> represents the replacement cost of damaged property minus accumulated physical depreciation and obsolescence. In auto insurance, total loss claims are paid out at ACV. Compare financial differences in our <a href="/compare/actual-cash-value-vs-replacement-cost" class="article-link">Actual Cash Value vs. Replacement Cost Analysis</a> and calculate vehicle coverage on our <a href="/car-insurance-calculator/" class="article-link">Car Insurance Coverage Calculator</a>.
       </p>
     </div>
 
@@ -366,7 +394,7 @@
           <span>Wallet Risk: What Happens If You Get This Wrong?</span>
         </div>
         <p style="margin: 0; line-height: 1.65; color: #78350f; font-size: 0.9375rem;">
-          ACV policies have lower premiums, but &#039;Replacement Cost&#039; policies provide far superior protection if your home or personal property is destroyed.
+          ACV settlements rarely provide enough cash to purchase a brand-new equivalent item or pay off an existing auto loan. Read our claim guide on <a href="/qa/what-is-actual-cash-value-vs-replacement-cost-claim" class="article-link">What is Actual Cash Value vs. Replacement Cost in a Claim?</a> and study <a href="/scenarios/jordan-california-auto-coverage" class="article-link">Jordan&#039;s California Auto Case</a>.
         </p>
       </div>
     

@@ -19,6 +19,13 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits",
+    "slug": "umbrella-insurance-guide",
+    "description": "Discover why basic home and auto liability limits leave your savings, home equity, and future income vulnerable, and how a personal umbrella policy provides catastrophic protection.",
+    "category": "insurance-basics"
+},
+
+    {
       "title": "How to Know If You Are Underinsured: 5 Dangerous Warning Signs",
       "slug": "how-to-know-if-you-are-underinsured",
       "description": "Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.",
@@ -474,6 +481,13 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Does car insurance cover vandalism, and will filing a claim raise your rates?",
+      "slug": "does-car-insurance-cover-vandalism",
+      "shortAnswer": "Yes, car insurance covers vandalism (including keyed paint, slashed tires, broken windows, and graffiti), provided you carry Comprehensive Coverage on your auto policy. Comprehensive coverage pays to repair malicious damage minus your selected deductible. Because vandalism is classified as a non-fault event outside your operational control, filing a single vandalism claim rarely causes substantial rate increases, though multiple claims in a short window or state-specific underwriting rules can affect your renewal tier.",
+      "category": "Auto"
+},
+
       {
           "question": "Can an insurance company drop you or cancel your policy after you file a claim?",
           "slug": "can-insurance-drop-you-after-a-claim",
@@ -6169,15 +6183,154 @@ function initToolsHeroSpotlight() {
     heroSlug = spotlightHero.getAttribute('data-slug') || '';
   }
 
-  // Deduplication: Hide the selected hero tool card in the grid below so it NEVER repeats
+  // Keep all tool cards visible in the grid below for user accessibility
   toolCards.forEach(card => {
-    const cardSlug = card.getAttribute('data-slug');
-    if (cardSlug && cardSlug === heroSlug) {
-      card.style.display = 'none';
-    } else {
-      card.style.display = 'flex';
-    }
+    card.style.display = 'flex';
   });
+}
+
+// ==========================================================================
+// 4c. Live Search & Category Filtering (Tools Hub)
+// ==========================================================================
+
+function initToolsSearchAndFilters() {
+  const searchInput = document.getElementById('toolsSearchInput');
+  const filterPills = document.querySelectorAll('#toolsFilterGroup .qa-filter-pill');
+  const countBadge = document.getElementById('toolsCountBadge');
+  const noResults = document.getElementById('toolsNoResults');
+  const resetBtn = document.getElementById('toolsResetFiltersBtn');
+  const cards = Array.from(document.querySelectorAll('.apple-calc-card'));
+
+  if (!cards.length && !searchInput && !filterPills.length) return;
+
+  let activeCategory = 'all';
+  let searchQuery = '';
+
+  function matchesCategory(toolCat, targetCat) {
+    if (targetCat === 'all') return true;
+    if (!toolCat) return false;
+    const tc = toolCat.toLowerCase();
+    const tgt = targetCat.toLowerCase();
+    if (tc === tgt) return true;
+    if (tgt === 'car-insurance' && (tc.includes('car') || tc.includes('auto') || tc.includes('vehicle'))) return true;
+    if (tgt === 'health-insurance' && (tc.includes('health') || tc.includes('medical') || tc.includes('pocket'))) return true;
+    if (tgt === 'life-insurance' && (tc.includes('life') || tc.includes('term'))) return true;
+    if (tgt === 'home-insurance' && (tc.includes('home') || tc.includes('property') || tc.includes('rebuild') || tc.includes('renter'))) return true;
+    if (tgt === 'business-insurance' && (tc.includes('business') || tc.includes('disability') || tc.includes('commercial') || tc.includes('income'))) return true;
+    if (tgt === 'insurance-basics' && (tc.includes('basic') || tc.includes('travel') || tc.includes('general') || tc.includes('actuarial') || tc.includes('deductible') || tc.includes('premium') || tc.includes('inflation') || tc.includes('quiz') || tc.includes('checklist') || tc.includes('gap'))) return true;
+    return tc.includes(tgt);
+  }
+
+  function updateCategoryFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get('category');
+      if (catParam) {
+        const target = catParam.toLowerCase();
+        let found = false;
+        filterPills.forEach(p => {
+          const pCat = (p.getAttribute('data-category') || '').toLowerCase();
+          if (pCat === target) {
+            filterPills.forEach(pill => pill.classList.remove('active'));
+            p.classList.add('active');
+            activeCategory = target;
+            found = true;
+          }
+        });
+        if (!found) activeCategory = 'all';
+      } else {
+        activeCategory = 'all';
+        filterPills.forEach((p, idx) => {
+          if (idx === 0) p.classList.add('active');
+          else p.classList.remove('active');
+        });
+      }
+    } catch (e) {}
+  }
+
+  updateCategoryFromUrl();
+
+  window.addEventListener('popstate', () => {
+    updateCategoryFromUrl();
+    filterTools();
+  });
+
+  function filterTools() {
+    let visibleCount = 0;
+    const qLower = searchQuery.toLowerCase().trim();
+
+    cards.forEach(card => {
+      const cardCat = (card.getAttribute('data-category') || card.getAttribute('data-slug') || '').toLowerCase();
+      const cardText = (card.textContent || '').toLowerCase();
+
+      const matchesCat = matchesCategory(cardCat, activeCategory);
+      const matchesQuery = !qLower || cardText.includes(qLower);
+
+      if (matchesCat && matchesQuery) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    if (countBadge) {
+      countBadge.textContent = `${visibleCount} ${visibleCount === 1 ? 'Calculator' : 'Calculators'}`;
+    }
+
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  }
+
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      filterPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeCategory = pill.getAttribute('data-category') || 'all';
+
+      try {
+        const url = new URL(window.location);
+        if (activeCategory === 'all') {
+          url.searchParams.delete('category');
+        } else {
+          url.searchParams.set('category', activeCategory);
+        }
+        window.history.pushState({}, '', url);
+      } catch (err) {}
+
+      filterTools();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      filterTools();
+    });
+  }
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      searchQuery = '';
+      activeCategory = 'all';
+      filterPills.forEach((p, idx) => {
+        if (idx === 0) p.classList.add('active');
+        else p.classList.remove('active');
+      });
+      try {
+        const url = new URL(window.location);
+        url.searchParams.delete('category');
+        window.history.pushState({}, '', url);
+      } catch (err) {}
+      filterTools();
+    });
+  }
+
+  // Initial filter run
+  filterTools();
 }
 
 
@@ -6774,6 +6927,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initHomeSearch();
   initArticleFilters();
   initToolsHeroSpotlight();
+  initToolsSearchAndFilters();
   initPolicyAudit();
   initQASearchAndFilters();
   initCompareFilters();

@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/learn/insurance-for-beginners">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -108,7 +136,7 @@
     "url": "https://insurancebhaiya.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://insurancebhaiya.com/logo-md.png"
+      "url": "https://insurancebhaiya.com/logo.png"
     }
   },
   "mainEntityOfPage": {
@@ -420,6 +448,10 @@
       <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">If you feel intimidated by insurance terminology, you are not alone. Insurers frequently use arcane 19th-century legal phrasing. But once you strip away the legalese, every insurance policy is governed by just five fundamental numbers.</p>
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">The 5 Numbers That Rule Every Insurance Policy</h2>
 
+          <ol class="article-list" style="margin: 20px 0 24px 24px; line-height: 1.75; color: var(--color-text);">
+            <li style="margin-bottom: 8px;">The Premium: Your monthly or annual subscription fee. You pay this no matter what to keep the contract valid.</li><li style="margin-bottom: 8px;">The Deductible: The amount of money you must pay out of your own wallet before the insurance company pays a dime.</li><li style="margin-bottom: 8px;">The Copay / Coinsurance: Your percentage share of the bill after your deductible has been met (e.g., insurance pays 80%, you pay 20%).</li><li style="margin-bottom: 8px;">The Out-of-Pocket Maximum: The absolute legal maximum you can spend in a single plan year on covered healthcare. Once reached, the insurer pays 100%.</li><li style="margin-bottom: 8px;">The Coverage Limit: The maximum total dollar amount the insurer will ever pay for a covered incident.</li>
+          </ol>
+        
 
           <div class="apple-callout apple-callout-tip" style="background: var(--pastel-blue-bg); border: 1px solid var(--pastel-blue-border); border-left: 4px solid var(--color-accent); border-radius: var(--radius-sm); padding: 22px 24px; margin: 28px 0;">
             <div style="font-weight: 600; font-size: 1rem; color: var(--color-text); margin-bottom: 8px;">The Golden Rule of Insurance Pricing</div>
@@ -460,7 +492,20 @@
         
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">3 Rookie Mistakes Every Beginner Should Avoid</h2>
 
+          <ul class="article-list" style="margin: 20px 0 24px 24px; line-height: 1.75; color: var(--color-text);">
+            <li style="margin-bottom: 8px;">Buying purely on price: The cheapest policy usually has massive hidden deductibles and narrow provider networks.</li><li style="margin-bottom: 8px;">Choosing state minimum auto liability limits: A $25,000 limit will leave your personal bank account vulnerable if you total a new EV.</li><li style="margin-bottom: 8px;">Failing to review annually: Your coverage needs change whenever you move, marry, get a pay raise, or welcome a child.</li>
+          </ul>
+        
 
+          <div class="article-calc-embed" style="margin: 32px 0; padding: 24px; background: var(--pastel-blue-bg); border: 1px solid var(--pastel-blue-border); border-radius: var(--radius-md);">
+            <div style="font-weight: 600; font-size: 1.1rem; color: var(--color-text); margin-bottom: 8px;">Calculate Your Optimal Deductible</div>
+            <p style="font-size: 0.9375rem; color: var(--color-secondary); margin-bottom: 16px;">Determine whether switching to a high deductible plan mathematically saves you money based on your annual claim probability.</p>
+            <a href="/deductible-calculator/" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px; background: #0071e3; color: #ffffff; padding: 10px 20px;">
+              <span>Launch Calculator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        
 
           <div class="faq-section" style="margin: 36px 0;">
             <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 20px;">Frequently Asked Questions</h3>
@@ -479,6 +524,9 @@
             Plan rules vary by employer benefits and exchange tiers. Review your official Summary of Benefits and Coverage (SBC) document.
           </div>
         
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Starting your insurance journey can feel overwhelming, but understanding four foundational principles will protect you from bad advice: risk pooling, policy limits, deductibles, and premiums. Learn how the transfer of risk operates in <a href="/learn/how-does-insurance-work" class="article-link">How Does Insurance Work?</a> and review the core categories in <a href="/learn/types-of-insurance" class="article-link">Types of Insurance</a>.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Master the financial trade-offs between your monthly check and out-of-pocket costs in <a href="/learn/quote-vs-premium-vs-deductible" class="article-link">Quote vs. Premium vs. Deductible</a> and <a href="/compare/deductible-vs-premium" class="article-link">Deductible vs. Premium</a>.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Test your practical knowledge with our interactive <a href="/insurance-readiness-quiz/" class="article-link">Insurance Readiness Quiz</a> and <a href="/insurance-terminology-quiz/" class="article-link">Insurance Terminology Quiz</a>. When you are ready to review your current policies, use our <a href="/policy-review-checklist/" class="article-link">8-Point Policy Review Checklist</a>.</p>
 
       <!-- Key Takeaways Box -->
       
@@ -565,7 +613,7 @@
           
     <article class="related-big-card">
       <div class="related-big-media">
-        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
         <div class="apple-category-badge" style="top: 14px; left: 14px;">
           <span>insurance basics</span>
         </div>
@@ -579,24 +627,24 @@
             </span>
             <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span class="num">9 min read</span>
+              <span class="num">4 min read</span>
             </div>
           </div>
 
           <h3 class="related-big-title">
-            <a href="/learn/how-to-know-if-you-are-underinsured">
-              How to Know If You Are Underinsured: 5 Dangerous Warning Signs
+            <a href="/learn/umbrella-insurance-guide">
+              Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits
             </a>
           </h3>
 
           <p class="related-big-desc">
-            Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.
+            Discover why basic home and auto liability limits leave your savings, home equity, and future income vulnerable, and how a personal umbrella policy provides catastrophic protection.
           </p>
         </div>
 
         <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid rgba(0, 0, 0, 0.06); gap: 12px; flex-wrap: wrap;">
           <span style="font-size: 0.8125rem; color: var(--color-secondary);">By Elena Rostova</span>
-          <a href="/learn/how-to-know-if-you-are-underinsured" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
+          <a href="/learn/umbrella-insurance-guide" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
             <span>Read Complete Guide</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -607,6 +655,43 @@
           
             <div class="related-small-grid">
               
+    <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="how-to-know-if-you-are-underinsured" style="">
+      <div class="apple-article-media">
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <div class="apple-category-badge" style="top: 12px; left: 12px;">
+          <span>insurance basics</span>
+        </div>
+      </div>
+      <div class="apple-article-body">
+        <div>
+          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
+            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span class="num">9 min read</span>
+            </div>
+          </div>
+
+          <h3 class="apple-article-title">
+            <a href="/learn/how-to-know-if-you-are-underinsured">
+              How to Know If You Are Underinsured: 5 Dangerous Warning Signs
+            </a>
+          </h3>
+
+          <p class="apple-article-desc">
+            Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.
+          </p>
+        </div>
+
+        <div class="apple-article-meta">
+          <span>By Elena Rostova</span>
+          <a href="/learn/how-to-know-if-you-are-underinsured" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
+            <span>Read Guide</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  
     <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="what-happens-when-insurance-expires" style="">
       <div class="apple-article-media">
         <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="What Happens When Insurance Expires? Renewals, Terms, and Next Steps" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
@@ -637,43 +722,6 @@
         <div class="apple-article-meta">
           <span>By Sophia Lin</span>
           <a href="/learn/what-happens-when-insurance-expires" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
-            <span>Read Guide</span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-    </article>
-  
-    <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="agent-vs-broker-vs-insurer" style="">
-      <div class="apple-article-media">
-        <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Agent vs. Broker vs. Insurer: Who Works for Whom?" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
-        <div class="apple-category-badge" style="top: 12px; left: 12px;">
-          <span>insurance basics</span>
-        </div>
-      </div>
-      <div class="apple-article-body">
-        <div>
-          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
-            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span class="num">8 min read</span>
-            </div>
-          </div>
-
-          <h3 class="apple-article-title">
-            <a href="/learn/agent-vs-broker-vs-insurer">
-              Agent vs. Broker vs. Insurer: Who Works for Whom?
-            </a>
-          </h3>
-
-          <p class="apple-article-desc">
-            Demystify the insurance distribution chain: Captive Agents vs Independent Agents vs Insurance Brokers vs Insurers. Learn who owes a fiduciary duty to you.
-          </p>
-        </div>
-
-        <div class="apple-article-meta">
-          <span>By Marcus Vance</span>
-          <a href="/learn/agent-vs-broker-vs-insurer" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
             <span>Read Guide</span>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>

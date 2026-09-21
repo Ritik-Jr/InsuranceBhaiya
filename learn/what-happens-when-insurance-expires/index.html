@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/learn/what-happens-when-insurance-expires">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -108,7 +136,7 @@
     "url": "https://insurancebhaiya.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://insurancebhaiya.com/logo-md.png"
+      "url": "https://insurancebhaiya.com/logo.png"
     }
   },
   "mainEntityOfPage": {
@@ -421,6 +449,10 @@
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">1. Auto and Home Insurance Expiration (Annual Policies)</h2>
 <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Most auto and homeowner policies are issued for 6 or 12 month terms. In the vast majority of cases, they renew automatically:</p>
 
+          <ul class="article-list" style="margin: 20px 0 24px 24px; line-height: 1.75; color: var(--color-text);">
+            <li style="margin-bottom: 8px;">Automatic Renewal: 30 to 45 days before expiration, the carrier mails an updated Declarations Page with the new term's premium. If your payments are on autopay, coverage continues uninterrupted.</li><li style="margin-bottom: 8px;">Non-Renewal Notice: If the carrier decides not to renew your policy (e.g., due to multiple at-fault claims or withdrawal from your geographic market), state law requires 30 to 60 days advance written notice so you can shop for replacement coverage, as regulated by the <a href="https://content.naic.org/" class="article-link">NAIC</a>.</li>
+          </ul>
+        
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">2. What Happens When a Term Life Policy Expires?</h2>
 <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">When a 20- or 30-year <a href="/learn/term-insurance-guide" class="article-link">term life insurance policy</a> reaches the end of its level-premium period, you have three primary options:</p>
 
@@ -559,7 +591,7 @@
           
     <article class="related-big-card">
       <div class="related-big-media">
-        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits" class="related-big-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
         <div class="apple-category-badge" style="top: 14px; left: 14px;">
           <span>insurance basics</span>
         </div>
@@ -573,24 +605,24 @@
             </span>
             <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span class="num">9 min read</span>
+              <span class="num">4 min read</span>
             </div>
           </div>
 
           <h3 class="related-big-title">
-            <a href="/learn/how-to-know-if-you-are-underinsured">
-              How to Know If You Are Underinsured: 5 Dangerous Warning Signs
+            <a href="/learn/umbrella-insurance-guide">
+              Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits
             </a>
           </h3>
 
           <p class="related-big-desc">
-            Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.
+            Discover why basic home and auto liability limits leave your savings, home equity, and future income vulnerable, and how a personal umbrella policy provides catastrophic protection.
           </p>
         </div>
 
         <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 16px; border-top: 1px solid rgba(0, 0, 0, 0.06); gap: 12px; flex-wrap: wrap;">
           <span style="font-size: 0.8125rem; color: var(--color-secondary);">By Elena Rostova</span>
-          <a href="/learn/how-to-know-if-you-are-underinsured" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
+          <a href="/learn/umbrella-insurance-guide" class="btn btn-secondary btn-sm" style="background: #ffffff; border: 1px solid var(--color-border); font-weight: 600;">
             <span>Read Complete Guide</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -601,6 +633,43 @@
           
             <div class="related-small-grid">
               
+    <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="how-to-know-if-you-are-underinsured" style="">
+      <div class="apple-article-media">
+        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="How to Know If You Are Underinsured: 5 Dangerous Warning Signs" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <div class="apple-category-badge" style="top: 12px; left: 12px;">
+          <span>insurance basics</span>
+        </div>
+      </div>
+      <div class="apple-article-body">
+        <div>
+          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
+            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span class="num">9 min read</span>
+            </div>
+          </div>
+
+          <h3 class="apple-article-title">
+            <a href="/learn/how-to-know-if-you-are-underinsured">
+              How to Know If You Are Underinsured: 5 Dangerous Warning Signs
+            </a>
+          </h3>
+
+          <p class="apple-article-desc">
+            Identify the 5 tell-tale diagnostic red flags of underinsurance: building cost inflation gaps, state minimum auto traps, inadequate income replacement, and liability exposure.
+          </p>
+        </div>
+
+        <div class="apple-article-meta">
+          <span>By Elena Rostova</span>
+          <a href="/learn/how-to-know-if-you-are-underinsured" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
+            <span>Read Guide</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  
     <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="agent-vs-broker-vs-insurer" style="">
       <div class="apple-article-media">
         <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Agent vs. Broker vs. Insurer: Who Works for Whom?" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
@@ -631,43 +700,6 @@
         <div class="apple-article-meta">
           <span>By Marcus Vance</span>
           <a href="/learn/agent-vs-broker-vs-insurer" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
-            <span>Read Guide</span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-    </article>
-  
-    <article class="apple-card apple-article-card" data-category="insurance-basics" data-slug="coverage-vs-limits" style="">
-      <div class="apple-article-media">
-        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="Coverage vs. Limits: Scope vs. Ceiling in Insurance Contracts" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
-        <div class="apple-category-badge" style="top: 12px; left: 12px;">
-          <span>insurance basics</span>
-        </div>
-      </div>
-      <div class="apple-article-body">
-        <div>
-          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
-            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span class="num">7 min read</span>
-            </div>
-          </div>
-
-          <h3 class="apple-article-title">
-            <a href="/learn/coverage-vs-limits">
-              Coverage vs. Limits: Scope vs. Ceiling in Insurance Contracts
-            </a>
-          </h3>
-
-          <p class="apple-article-desc">
-            Learn the distinction between insurance coverage (the scope of protected perils) and coverage limits (the dollar ceiling an insurer will pay).
-          </p>
-        </div>
-
-        <div class="apple-article-meta">
-          <span>By Marcus Vance</span>
-          <a href="/learn/coverage-vs-limits" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
             <span>Read Guide</span>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>

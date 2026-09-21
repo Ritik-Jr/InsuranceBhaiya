@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/qa/do-you-need-bodily-injury-insurance-in-florida">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -99,7 +127,7 @@
     },
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Under basic Florida statutory minimums, you do not legally need Bodily Injury (BI) liability insurance to register a vehicle. Florida is one of only two states that does not require all drivers to carry BI coverage, requiring only $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). However, under the Florida Financial Responsibility Law, you ARE legally required to purchase bodily injury liability if you have been convicted of a DUI or were involved in a prior at-fault accident. The Florida No-Fault Anomaly: Do You Need Bodily Injury Insurance in Florida?: Drivers relocating to the Sunshine State frequently ask,  \"do you need bodily injury insurance in florida?\" \n          \n        The statutory answer shocks most out-of-state drivers:  No, Florida law does not require drivers to purchase Bodily Injury (BI) insurance simply to register a vehicle or obtain license plates. \n          \n        Under the Florida Motor Vehicle No-Fault Law, to legally register a standard passenger car, you are only required to show proof of:\n         \n            $10,000 Personal Injury Protection (PIP):  Pays 80% of medical bills and 60% of lost wages for you and your passengers, regardless of who caused the accident. \n            $10,000 Property Damage Liability (PDL):  Pays for damage you cause to other vehicles, guardrails, or buildings. \n         \n        Notice what is missing: coverage for physical injuries you inflict on other human beings. The Catch: Florida Financial Responsibility Law (FRL): While you can legally register a car without Bodily Injury insurance, you cannot escape legal liability if you cause an injury. This is where the  Florida Financial Responsibility Law (F.S. § 324)  triggers:\n          \n        If you are at fault for a car accident that causes bodily injury to another person, you are immediately required to prove financial responsibility. If you do not have at least  $10,000 per person / $20,000 per accident  in Bodily Injury liability coverage at the time of the crash:\n          \n        1.  License & Registration Suspension:  The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) will automatically suspend your driver's license and vehicle tags. \n        2.  Personal Liability Lawsuit:  The injured victim can sue you personally, placing liens on your non-homestead property and garnishing your wages. \n        3.  Mandatory SR-22 / FR-44:  To reinstate your license, you will be forced to buy high-risk bodily injury coverage and file an SR-22 (or FR-44 for DUI offenses) for three consecutive years. Why Uninsured Motorist (UM) Coverage Is Critical in Florida: Because Florida does not mandate Bodily Injury liability for all motorists, an estimated  20% to 25% of Florida drivers carry zero bodily injury coverage .\n          \n        If one of these drivers runs a red light and severely injures you, their $10,000 PIP coverage will pay nothing to you, and their lack of BI insurance leaves you with no insurance claim against them. \n          \n        For this reason, carrying high limits of  Uninsured/Underinsured Motorist (UM/UIM) Coverage  is essential for every Florida family. UM coverage steps into the shoes of the at-fault driver, paying your medical bills, surgical costs, and pain and suffering.",
+      "text": "Under basic Florida statutory minimums, you do not legally need Bodily Injury (BI) liability insurance to register a vehicle. Florida is one of only two states that does not require all drivers to carry BI coverage, requiring only $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). However, under the Florida Financial Responsibility Law, you ARE legally required to purchase bodily injury liability if you have been convicted of a DUI or were involved in a prior at-fault accident. The Florida No-Fault Anomaly: Do You Need Bodily Injury Insurance in Florida?: Drivers relocating to the Sunshine State frequently ask,  \"do you need bodily injury insurance in florida?\" \n          \n        The statutory answer shocks most out-of-state drivers:  No, Florida law does not require drivers to purchase Bodily Injury (BI) insurance simply to register a vehicle or obtain license plates. \n          \n        Under the Florida Motor Vehicle No-Fault Law, to legally register a standard passenger car, you are only required to show proof of:\n         \n            $10,000 Personal Injury Protection (PIP):  Pays 80% of medical bills and 60% of lost wages for you and your passengers, regardless of who caused the accident. \n            $10,000 Property Damage Liability (PDL):  Pays for damage you cause to other vehicles, guardrails, or buildings. \n         \n        Notice what is missing: coverage for physical injuries you inflict on other human beings. The Catch: Florida Financial Responsibility Law (FRL): While you can legally register a car without Bodily Injury insurance, you cannot escape legal liability if you cause an injury. This is where the  Florida Financial Responsibility Law (F.S. § 324)  triggers:\n          \n        If you are at fault for a car accident that causes bodily injury to another person, you are immediately required to prove financial responsibility. If you do not have at least  $10,000 per person / $20,000 per accident  in Bodily Injury liability coverage at the time of the crash:\n          \n        1.  License & Registration Suspension:  The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) will automatically suspend your driver's license and vehicle tags. \n        2.  Personal Liability Lawsuit:  The injured victim can sue you personally, placing liens on your non-homestead property and garnishing your wages. \n        3.  Mandatory SR-22 / FR-44:  To reinstate your license, you will be forced to buy high-risk bodily injury coverage and file an SR-22 (or FR-44 for DUI offenses) for three consecutive years. Why Uninsured Motorist (UM) Coverage Is Critical in Florida: Because Florida does not mandate Bodily Injury liability for all motorists, an estimated  20% to 25% of Florida drivers carry zero bodily injury coverage .\n          \n        If one of these drivers runs a red light and severely injures you, their $10,000 PIP coverage will pay nothing to you, and their lack of BI insurance leaves you with no insurance claim against them. \n          \n        For this reason, carrying high limits of  Uninsured/Underinsured Motorist (UM/UIM) Coverage  is essential for every Florida family. UM coverage steps into the shoes of the at-fault driver, paying your medical bills, surgical costs, and pain and suffering.\n          \n         Related Guidance:  To evaluate your exact financial thresholds, consult our  Complete Car Insurance Guide , model your out-of-pocket numbers on our  Car Insurance Deductible Calculator , and review the side-by-side trade-offs in our  Comprehensive vs. Collision Coverage .",
       "dateCreated": "2026-09-18T00:00:00+00:00",
       "url": "https://insurancebhaiya.com/qa/do-you-need-bodily-injury-insurance-in-florida",
       "author": {
@@ -345,76 +373,79 @@
   </nav>
   
 
-      <header style="margin-bottom: 28px;">
-        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
-          <a href="/qa?category=auto" class="pill pill-cat-auto" style="font-weight: 600;">Auto Insurance</a>
-          <span class="pill" style="font-size: 0.75rem; color: var(--color-success); border-color: rgba(16, 185, 129, 0.2);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Verified Answer
-          </span>
-          <span style="font-size: 0.8125rem; color: var(--color-secondary);">6 min read &bull; Updated September 2026</span>
-        </div>
+      <div class="qa-article-layout">
+        <!-- Main Column -->
+        <article class="qa-main-col">
+          <header style="margin-bottom: 28px;">
+            <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
+              <a href="/qa?category=auto" class="pill pill-cat-auto" style="font-weight: 600;">Auto Insurance</a>
+              <span class="pill" style="font-size: 0.75rem; color: var(--color-success); border-color: rgba(16, 185, 129, 0.2);">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Verified Answer
+              </span>
+              <span style="font-size: 0.8125rem; color: var(--color-secondary);">6 min read &bull; Updated September 2026</span>
+            </div>
 
-        <h1 class="text-title-1" style="font-size: clamp(1.85rem, 3.5vw, 2.5rem); font-weight: 700; line-height: 1.25; margin-bottom: 20px; letter-spacing: -0.025em; color: var(--color-text);">
-          Do you need bodily injury insurance in Florida?
-        </h1>
+            <h1 class="text-title-1" style="font-size: clamp(1.85rem, 3.5vw, 2.5rem); font-weight: 700; line-height: 1.25; margin-bottom: 20px; letter-spacing: -0.025em; color: var(--color-text);">
+              Do you need bodily injury insurance in Florida?
+            </h1>
 
-        <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem; color: var(--color-secondary); padding-bottom: 20px; border-bottom: 1px solid var(--color-border-light); flex-wrap: wrap;">
-          <span>By <strong>Insurance Bhaiya State Compliance Group</strong></span>
-          <span>&bull;</span>
-          <span>Reviewed by <strong>Florida Licensed Property &amp; Casualty Underwriter</strong></span>
-        </div>
-      </header>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem; color: var(--color-secondary); padding-bottom: 20px; border-bottom: 1px solid var(--color-border-light); flex-wrap: wrap;">
+              <span>By <strong>Insurance Bhaiya State Compliance Group</strong></span>
+              <span>&bull;</span>
+              <span>Reviewed by <strong>Florida Licensed Property &amp; Casualty Underwriter</strong></span>
+            </div>
+          </header>
 
-      <!-- 1. Direct Executive Answer Box (Targeted for Google Featured Snippets) -->
-      <div class="qa-direct-answer-box">
-        <div class="qa-direct-answer-header">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
-          <span>Quick Answer / Executive Summary</span>
-        </div>
-        <p class="qa-direct-answer-text">
-          Under basic Florida statutory minimums, you do not legally need Bodily Injury (BI) liability insurance to register a vehicle. Florida is one of only two states that does not require all drivers to carry BI coverage, requiring only $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). However, under the Florida Financial Responsibility Law, you ARE legally required to purchase bodily injury liability if you have been convicted of a DUI or were involved in a prior at-fault accident.
-        </p>
-      </div>
-
-      <!-- 2. Key Takeaways Box -->
-      
-        <div class="qa-takeaways-box">
-          <div class="qa-takeaways-title">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Key Takeaways at a Glance</span>
+          <!-- 1. Direct Executive Answer Box (Targeted for Google Featured Snippets) -->
+          <div class="qa-direct-answer-box" id="quick-answer">
+            <div class="qa-direct-answer-header">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
+              <span>Quick Answer / Executive Summary</span>
+            </div>
+            <p class="qa-direct-answer-text">
+              Under basic Florida statutory minimums, you do not legally need Bodily Injury (BI) liability insurance to register a vehicle. Florida is one of only two states that does not require all drivers to carry BI coverage, requiring only $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL). However, under the Florida Financial Responsibility Law, you ARE legally required to purchase bodily injury liability if you have been convicted of a DUI or were involved in a prior at-fault accident.
+            </p>
           </div>
-          <ul class="qa-takeaways-list">
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>To register a vehicle in Florida, state law strictly mandates only $10,000 PIP and $10,000 PDL—not Bodily Injury (BI) coverage.</span>
-              </li>
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Despite registration rules, driving without bodily injury insurance exposes you to personal bankruptcy if you injure someone in a crash.</span>
-              </li>
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Under Florida&#039;s Financial Responsibility Law (FRL), BI coverage becomes legally mandatory after an at-fault crash or DUI conviction.</span>
-              </li>
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Actuaries and attorneys strongly advise Florida drivers to carry at least $100,000/$300,000 in BI coverage plus Uninsured Motorist (UM) protection.</span>
-              </li>
-            
-          </ul>
-        </div>
-      
 
-      <!-- 3. In-Depth Actuarial & Contractual Sections -->
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">The Florida No-Fault Anomaly: Do You Need Bodily Injury Insurance in Florida?</h2>
-          <div class="qa-section-content">
-            Drivers relocating to the Sunshine State frequently ask, <em>"do you need bodily injury insurance in florida?"</em>
+          <!-- 2. Key Takeaways Box -->
+          
+            <div class="qa-takeaways-box" id="key-takeaways">
+              <div class="qa-takeaways-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Key Takeaways at a Glance</span>
+              </div>
+              <ul class="qa-takeaways-list">
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>To register a vehicle in Florida, state law strictly mandates only $10,000 PIP and $10,000 PDL—not Bodily Injury (BI) coverage.</span>
+                  </li>
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Despite registration rules, driving without bodily injury insurance exposes you to personal bankruptcy if you injure someone in a crash.</span>
+                  </li>
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Under Florida&#039;s Financial Responsibility Law (FRL), BI coverage becomes legally mandatory after an at-fault crash or DUI conviction.</span>
+                  </li>
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Actuaries and attorneys strongly advise Florida drivers to carry at least $100,000/$300,000 in BI coverage plus Uninsured Motorist (UM) protection.</span>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          <!-- 3. In-Depth Actuarial & Contractual Sections -->
+          
+            <section class="qa-section" id="section-1">
+              <h2 class="qa-section-title">The Florida No-Fault Anomaly: Do You Need Bodily Injury Insurance in Florida?</h2>
+              <div class="qa-section-content">
+                Drivers relocating to the Sunshine State frequently ask, <em>"do you need bodily injury insurance in florida?"</em>
         <br><br>
         The statutory answer shocks most out-of-state drivers: <strong>No, Florida law does not require drivers to purchase Bodily Injury (BI) insurance simply to register a vehicle or obtain license plates.</strong>
         <br><br>
@@ -424,147 +455,221 @@
           <li><strong>$10,000 Property Damage Liability (PDL):</strong> Pays for damage you cause to other vehicles, guardrails, or buildings.</li>
         </ul>
         Notice what is missing: coverage for physical injuries you inflict on other human beings.
-          </div>
+              </div>
+              
+            </section>
           
-        </section>
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">The Catch: Florida Financial Responsibility Law (FRL)</h2>
-          <div class="qa-section-content">
-            While you can legally register a car without Bodily Injury insurance, you cannot escape legal liability if you cause an injury. This is where the <strong>Florida Financial Responsibility Law (F.S. § 324)</strong> triggers:
+            <section class="qa-section" id="section-2">
+              <h2 class="qa-section-title">The Catch: Florida Financial Responsibility Law (FRL)</h2>
+              <div class="qa-section-content">
+                While you can legally register a car without Bodily Injury insurance, you cannot escape legal liability if you cause an injury. This is where the <strong>Florida Financial Responsibility Law (F.S. § 324)</strong> triggers:
         <br><br>
         If you are at fault for a car accident that causes bodily injury to another person, you are immediately required to prove financial responsibility. If you do not have at least <strong>$10,000 per person / $20,000 per accident</strong> in Bodily Injury liability coverage at the time of the crash:
         <br><br>
         1. <strong>License & Registration Suspension:</strong> The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) will automatically suspend your driver's license and vehicle tags.<br>
         2. <strong>Personal Liability Lawsuit:</strong> The injured victim can sue you personally, placing liens on your non-homestead property and garnishing your wages.<br>
         3. <strong>Mandatory SR-22 / FR-44:</strong> To reinstate your license, you will be forced to buy high-risk bodily injury coverage and file an SR-22 (or FR-44 for DUI offenses) for three consecutive years.
-          </div>
+              </div>
+              
+            </section>
           
-        </section>
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">Why Uninsured Motorist (UM) Coverage Is Critical in Florida</h2>
-          <div class="qa-section-content">
-            Because Florida does not mandate Bodily Injury liability for all motorists, an estimated <strong>20% to 25% of Florida drivers carry zero bodily injury coverage</strong>.
+            <section class="qa-section" id="section-3">
+              <h2 class="qa-section-title">Why Uninsured Motorist (UM) Coverage Is Critical in Florida</h2>
+              <div class="qa-section-content">
+                Because Florida does not mandate Bodily Injury liability for all motorists, an estimated <strong>20% to 25% of Florida drivers carry zero bodily injury coverage</strong>.
         <br><br>
         If one of these drivers runs a red light and severely injures you, their $10,000 PIP coverage will pay nothing to you, and their lack of BI insurance leaves you with no insurance claim against them. 
         <br><br>
         For this reason, carrying high limits of <strong>Uninsured/Underinsured Motorist (UM/UIM) Coverage</strong> is essential for every Florida family. UM coverage steps into the shoes of the at-fault driver, paying your medical bills, surgical costs, and pain and suffering.
-          </div>
+        <br><br>
+        <strong>Related Guidance:</strong> To evaluate your exact financial thresholds, consult our <a href="/learn/car-insurance-guide">Complete Car Insurance Guide</a>, model your out-of-pocket numbers on our <a href="/car-insurance-deductible-calculator/">Car Insurance Deductible Calculator</a>, and review the side-by-side trade-offs in our <a href="/compare/comprehensive-vs-collision">Comprehensive vs. Collision Coverage</a>.
+              </div>
+              
+            </section>
           
-        </section>
-      
 
-      <!-- 4. Real-World Case Study / Example -->
-      
-        <div class="qa-case-study-box">
-          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;">
-            <div style="display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--color-accent); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em;">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
-              <span>Real-Life Case Incident &amp; Precedent</span>
-            </div>
-            
-              <span class="qa-precedent-badge">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                <span>Precedent: Florida Statute § 324 (Financial Responsibility Act) &amp; DHSMV v. Critchfield</span>
-              </span>
-            
-          </div>
-          <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 10px; color: var(--color-text);">Case Study: Carlos Causes an Injury with State-Minimum Florida Insurance</h3>
-          <p style="font-size: 0.95rem; line-height: 1.65; color: var(--color-secondary); margin-bottom: 12px;"><strong>Scenario:</strong> Carlos carried only Florida&#039;s statutory minimum ($10k PIP / $10k PDL) to save money. He caused a crash that fractured another driver&#039;s pelvis.</p>
-          <div style="background: var(--color-surface-elevated, #ffffff); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid rgba(0,102,204,0.12);">
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--color-text);"><strong>Resolution &amp; Judicial Outcome:</strong> Under Florida Financial Responsibility Law (F.S. § 324) and DHSMV v. Critchfield, when an uninsured or underinsured driver causes bodily injury, their license and registration are revoked unless they satisfy the judgment and post an SR-22 certificate with 10/20/10 BI limits for 3 years. Carlos was forced to enter a court-ordered 10-year repayment plan.</p>
-          </div>
+          <!-- 4. Real-World Case Study / Example -->
           
-            <div class="qa-case-scenario-link" style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed rgba(0,102,204,0.18); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
-              <span style="font-size: 0.8125rem; color: var(--color-secondary);">Related Case Study Simulation:</span>
-              <a href="/scenarios/jordan-california-auto-coverage" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600;">
-                <span>Jordan&#039;s California Auto Dilemma: State Minimum Limits vs Catastrophic Exposure</span>
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            <div class="qa-case-study-box" id="case-study">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--color-accent); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                  <span>Real-Life Case Incident &amp; Precedent</span>
+                </div>
+                
+                  <span class="qa-precedent-badge">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Precedent: Florida Statute § 324 (Financial Responsibility Act) &amp; DHSMV v. Critchfield</span>
+                  </span>
+                
+              </div>
+              <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 10px; color: var(--color-text);">Case Study: Carlos Causes an Injury with State-Minimum Florida Insurance</h3>
+              <p style="font-size: 0.95rem; line-height: 1.65; color: var(--color-secondary); margin-bottom: 12px;"><strong>Scenario:</strong> Carlos carried only Florida&#039;s statutory minimum ($10k PIP / $10k PDL) to save money. He caused a crash that fractured another driver&#039;s pelvis.</p>
+              <div style="background: var(--color-surface-elevated, #ffffff); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--pastel-blue-border);">
+                <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--color-text);"><strong>Resolution &amp; Judicial Outcome:</strong> Under Florida Financial Responsibility Law (F.S. § 324) and DHSMV v. Critchfield, when an uninsured or underinsured driver causes bodily injury, their license and registration are revoked unless they satisfy the judgment and post an SR-22 certificate with 10/20/10 BI limits for 3 years. Carlos was forced to enter a court-ordered 10-year repayment plan.</p>
+              </div>
+              
+                <div class="qa-case-scenario-link" style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--pastel-blue-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                  <span style="font-size: 0.8125rem; color: var(--color-secondary);">Related Case Study Simulation:</span>
+                  <a href="/scenarios/jordan-california-auto-coverage" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600;">
+                    <span>Jordan&#039;s California Auto Dilemma: State Minimum Limits vs Catastrophic Exposure</span>
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              
+            </div>
+          
+
+          <!-- 5. Actionable Next Steps Checklist -->
+          
+            <section class="qa-section" id="action-plan">
+              <h2 class="qa-section-title">What You Should Do: Step-by-Step Action Plan</h2>
+              <div class="qa-action-checklist">
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">1</span>
+                    <span>Review your Florida auto insurance policy declarations page immediately to confirm if &#039;Bodily Injury Liability&#039; is listed.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">2</span>
+                    <span>Do not rely solely on state-minimum $10k PIP / $10k PDL coverage if you own a home or have savings.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">3</span>
+                    <span>Add at least $100,000 per person / $300,000 per accident in Bodily Injury Liability coverage.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">4</span>
+                    <span>Match your BI limits with &#039;Stacked&#039; Uninsured Motorist (UM) coverage to protect yourself against uninsured drivers.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">5</span>
+                    <span>Calculate your Florida insurance rates using our free <a href='/car-insurance-calculator/' class='article-link'>Car Insurance Calculator</a>.</span>
+                  </div>
+                
+              </div>
+            </section>
+          
+
+          <!-- 6. Common Mistakes to Avoid -->
+          
+            <section class="qa-section" id="common-mistakes">
+              <h2 class="qa-section-title">Critical Mistakes to Avoid</h2>
+              <ul style="margin: 12px 0 16px 20px; line-height: 1.8; color: var(--color-text);">
+                
+                  <li style="margin-bottom: 8px;">Believing that carrying &#039;full coverage&#039; in Florida automatically means you have bodily injury protection.</li>
+                
+                  <li style="margin-bottom: 8px;">Confusing Personal Injury Protection (PIP covers YOU) with Bodily Injury Liability (BI covers OTHERS).</li>
+                
+                  <li style="margin-bottom: 8px;">Declining Uninsured Motorist (UM) coverage in a state where 1 in 4 drivers has no bodily injury insurance.</li>
+                
+                  <li style="margin-bottom: 8px;">Waiting until an at-fault accident occurs before learning about Florida&#039;s Financial Responsibility Law.</li>
+                
+              </ul>
+            </section>
+          
+
+          <!-- 7. Helpful Feedback Widget -->
+          <div class="qa-helpful-widget" id="qaHelpfulWidget">
+            <p style="font-size: 1rem; font-weight: 600; margin-bottom: 12px;">Was this explanation helpful?</p>
+            <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+              <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-success); font-weight: 600;\'>✓ Thank you for your feedback!</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h3"/><path d="M14 10V4.5a2.5 2.5 0 0 0-5 0V10"/></svg> <span>Yes, clear &amp; helpful</span></button>
+              <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-secondary);\'>Thank you. We continually refine our actuarial guides.</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3"/><path d="M10 14v5.5a2.5 2.5 0 0 0 5 0V14"/></svg> <span>Could be improved</span></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Right Sticky Navigation & Contextual Sidebar -->
+        <aside class="qa-sidebar">
+          <!-- 1. Table of Contents Card -->
+          <div class="qa-sidebar-card">
+            <div class="qa-sidebar-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Table of Contents</span>
+            </div>
+            <nav class="qa-toc-nav" aria-label="Table of contents">
+              <ul class="qa-toc-list">
+                <li class="qa-toc-item"><a href="#quick-answer" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Quick Answer</span></a></li>
+                <li class="qa-toc-item"><a href="#key-takeaways" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Key Takeaways</span></a></li>
+                
+                  <li class="qa-toc-item"><a href="#section-1" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>The Florida No-Fault Anomaly: Do You Need Bodily Injury Insurance in Florida?</span></a></li>
+                
+                  <li class="qa-toc-item"><a href="#section-2" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>The Catch: Florida Financial Responsibility Law (FRL)</span></a></li>
+                
+                  <li class="qa-toc-item"><a href="#section-3" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Why Uninsured Motorist (UM) Coverage Is Critical in Florida</span></a></li>
+                
+                <li class="qa-toc-item"><a href="#case-study" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Case Precedent</span></a></li>
+                <li class="qa-toc-item"><a href="#action-plan" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Action Plan</span></a></li>
+                <li class="qa-toc-item"><a href="#common-mistakes" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Mistakes to Avoid</span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- 2. Contextual Interactive Calculator Card -->
+          
+            <div class="qa-sidebar-tool-card">
+              <span class="pill pill-accent" style="font-size: 0.6875rem; font-weight: 700; text-transform: uppercase;">Actuarial Model</span>
+              <h4>Auto Insurance Rate Estimator</h4>
+              <p>Model Florida insurance rates with and without bodily injury and stacked uninsured motorist coverage.</p>
+              <a href="/car-insurance-calculator/" class="btn btn-primary btn-sm" style="width: 100%; justify-content: center; background: #0071e3; color: #ffffff;">
+                <span>Launch Free Tool</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
             </div>
+            
+
+          <!-- 3. Reviewer Credentials & Trust Card -->
+          <div class="qa-sidebar-reviewer-card">
+            <div class="qa-sidebar-reviewer-avatar">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="qa-sidebar-reviewer-info">
+              <div class="qa-sidebar-reviewer-name">Florida Licensed Property &amp; Casualty Underwriter</div>
+              <div class="qa-sidebar-reviewer-cred">Independent Actuarial &amp; Contract Compliance Verification &bull; Zero Commission Bias</div>
+            </div>
+          </div>
+
+          <!-- 4. Quick Category Questions -->
           
-        </div>
-      
-
-      <!-- 5. Actionable Next Steps Checklist -->
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">What You Should Do: Step-by-Step Action Plan</h2>
-          <div class="qa-action-checklist">
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">1</span>
-                <span>Review your Florida auto insurance policy declarations page immediately to confirm if &#039;Bodily Injury Liability&#039; is listed.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">2</span>
-                <span>Do not rely solely on state-minimum $10k PIP / $10k PDL coverage if you own a home or have savings.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">3</span>
-                <span>Add at least $100,000 per person / $300,000 per accident in Bodily Injury Liability coverage.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">4</span>
-                <span>Match your BI limits with &#039;Stacked&#039; Uninsured Motorist (UM) coverage to protect yourself against uninsured drivers.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">5</span>
-                <span>Calculate your Florida insurance rates using our free &lt;a href=&#039;/car-insurance-calculator/&#039; class=&#039;article-link&#039;&gt;Car Insurance Calculator&lt;/a&gt;.</span>
-              </div>
-            
+          <div class="qa-sidebar-card">
+            <div class="qa-sidebar-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              <span>Related Auto Q&amp;As</span>
+            </div>
+            <ul class="qa-sidebar-related-list">
+              
+                <li class="qa-sidebar-related-item">
+                  <a href="/qa/are-windshields-covered-by-insurance-in-florida">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>Are windshields covered by insurance in Florida?</span>
+                  </a>
+                </li>
+              
+                <li class="qa-sidebar-related-item">
+                  <a href="/qa/what-happens-if-you-crash-without-insurance">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>What happens legally and financially if you get into a car crash without insurance?</span>
+                  </a>
+                </li>
+              
+                <li class="qa-sidebar-related-item">
+                  <a href="/qa/can-an-insurance-company-sue-you-for-an-accident">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>Can an insurance company sue you for an accident?</span>
+                  </a>
+                </li>
+              
+            </ul>
           </div>
-        </section>
-      
-
-      <!-- 6. Common Mistakes to Avoid -->
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">Critical Mistakes to Avoid</h2>
-          <ul style="margin: 12px 0 16px 20px; line-height: 1.8; color: var(--color-text);">
-            
-              <li style="margin-bottom: 8px;">Believing that carrying &#039;full coverage&#039; in Florida automatically means you have bodily injury protection.</li>
-            
-              <li style="margin-bottom: 8px;">Confusing Personal Injury Protection (PIP covers YOU) with Bodily Injury Liability (BI covers OTHERS).</li>
-            
-              <li style="margin-bottom: 8px;">Declining Uninsured Motorist (UM) coverage in a state where 1 in 4 drivers has no bodily injury insurance.</li>
-            
-              <li style="margin-bottom: 8px;">Waiting until an at-fault accident occurs before learning about Florida&#039;s Financial Responsibility Law.</li>
-            
-          </ul>
-        </section>
-      
-
-      <!-- 7. Calculator / Tool Cross-Promotion Banner -->
-      
-        <div class="apple-card" style="padding: 28px; margin: 40px 0; background: linear-gradient(135deg, #f8faff 0%, #ffffff 100%); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 18px; border: 1px solid rgba(0, 113, 227, 0.16);">
-          <div>
-            <span class="pill pill-accent" style="margin-bottom: 8px; font-size: 0.75rem;">Interactive Actuarial Tool</span>
-            <h3 style="font-size: 1.15rem; font-weight: 600; margin-bottom: 6px;">Auto Insurance Rate Estimator</h3>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); margin: 0; max-width: 520px;">Model Florida insurance rates with and without bodily injury and stacked uninsured motorist coverage.</p>
-          </div>
-          <a href="/car-insurance-calculator/" class="btn btn-primary" style="background: #0071e3; color: #ffffff;">
-            <span>Launch Free Tool</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      
-
-      <!-- 8. Helpful Feedback Widget -->
-      <div class="qa-helpful-widget" id="qaHelpfulWidget">
-        <p style="font-size: 1rem; font-weight: 600; margin-bottom: 12px;">Was this explanation helpful?</p>
-        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-          <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-success); font-weight: 600;\'>✓ Thank you for your feedback!</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h3"/><path d="M14 10V4.5a2.5 2.5 0 0 0-5 0V10"/></svg> <span>Yes, clear &amp; helpful</span></button>
-          <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-secondary);\'>Thank you. We continually refine our actuarial guides.</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3"/><path d="M10 14v5.5a2.5 2.5 0 0 0 5 0V14"/></svg> <span>Could be improved</span></button>
-        </div>
+          
+        </aside>
       </div>
 
-      <!-- 9. People Also Ask / Similar Questions Component -->
+      <!-- People Also Ask / Similar Questions Component -->
       
         <div class="qa-similar-box">
           <div class="qa-similar-header">

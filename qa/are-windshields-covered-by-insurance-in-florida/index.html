@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/qa/are-windshields-covered-by-insurance-in-florida">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -99,7 +127,7 @@
     },
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, windshields are 100% covered with $0 deductible by insurance in Florida, provided you carry Comprehensive Coverage on your auto policy. Under Florida Statute § 627.7288 (the Florida Zero-Deductible Windshield Law), insurance carriers are legally prohibited from applying any deductible to windshield repair or replacement. However, if you carry only basic state-minimum liability insurance (PIP and PDL), windshield damage is NOT covered at all. The Florida Statute § 627.7288: Are Windshields Covered by Insurance in Florida?: Florida motorists dealing with flying highway gravel frequently ask,  \"are windshields covered by insurance in florida?\" \n          \n        Under  Florida Statute § 627.7288  (commonly known as the  Florida Zero-Deductible Windshield Law ), the state legislature enacted a unique consumer safety protection:\n          \n         \"The deductible provisions of any policy of motor vehicle insurance, delivering or issued in this state by an authorized insurer... shall not be applicable to damage to the windshield of any motor vehicle covered under such policy.\" \n          \n        This means that if a rock, road debris, or storm cracks your front windshield, your insurance company must replace it with  $0 out of pocket , regardless of whether your comprehensive deductible is $500 or $1,000. The Two Critical Catches: Comprehensive Coverage and Front Glass Only: While Florida's windshield law is generous, many motorists misunderstand two crucial caveats:\n         \n            Catch 1: You MUST Have Comprehensive Coverage:  The statute does not force insurers to replace windshields for free on every car. It only applies if you have active  Comprehensive Coverage  (or combined additional coverage) on your policy. If you carry only Florida's state-minimum PIP and Property Damage Liability, you have zero glass coverage. \n            Catch 2: Front Windshield Only:  The zero-deductible statute applies strictly to safety glass in the  front windshield . If a thief smashes your side door window, or a fallen tree branch shatters your rear windshield or panoramic sunroof, your standard comprehensive deductible (e.g. $500) applies in full. \n          The 2023 Florida AOB Reforms (Senate Bill 1002): In 2023, the Florida Legislature enacted major glass reforms (Senate Bill 1002) to curb aggressive glass repair scams:\n          \n        -  Ban on Assignment of Benefits (AOB):  Glass repair shops are now legally barred from having policyholders sign over their insurance rights. \n        -  Ban on Gifts and Rebates:  Glass shops can no longer offer cash, steaks, or gift cards to entice motorists to replace windshields. \n        -  ADAS Recalibration Standards:  Modern vehicles with camera sensors require Advanced Driver Assistance Systems (ADAS) calibration. Under the new law, insurers must pay for certified calibration without deductible, and technicians must formally notify you if calibration cannot be completed.",
+      "text": "Yes, windshields are 100% covered with $0 deductible by insurance in Florida, provided you carry Comprehensive Coverage on your auto policy. Under Florida Statute § 627.7288 (the Florida Zero-Deductible Windshield Law), insurance carriers are legally prohibited from applying any deductible to windshield repair or replacement. However, if you carry only basic state-minimum liability insurance (PIP and PDL), windshield damage is NOT covered at all. The Florida Statute § 627.7288: Are Windshields Covered by Insurance in Florida?: Florida motorists dealing with flying highway gravel frequently ask,  \"are windshields covered by insurance in florida?\" \n          \n        Under  Florida Statute § 627.7288  (commonly known as the  Florida Zero-Deductible Windshield Law ), the state legislature enacted a unique consumer safety protection:\n          \n         \"The deductible provisions of any policy of motor vehicle insurance, delivering or issued in this state by an authorized insurer... shall not be applicable to damage to the windshield of any motor vehicle covered under such policy.\" \n          \n        This means that if a rock, road debris, or storm cracks your front windshield, your insurance company must replace it with  $0 out of pocket , regardless of whether your comprehensive deductible is $500 or $1,000. The Two Critical Catches: Comprehensive Coverage and Front Glass Only: While Florida's windshield law is generous, many motorists misunderstand two crucial caveats:\n         \n            Catch 1: You MUST Have Comprehensive Coverage:  The statute does not force insurers to replace windshields for free on every car. It only applies if you have active  Comprehensive Coverage  (or combined additional coverage) on your policy. If you carry only Florida's state-minimum PIP and Property Damage Liability, you have zero glass coverage. \n            Catch 2: Front Windshield Only:  The zero-deductible statute applies strictly to safety glass in the  front windshield . If a thief smashes your side door window, or a fallen tree branch shatters your rear windshield or panoramic sunroof, your standard comprehensive deductible (e.g. $500) applies in full. \n          The 2023 Florida AOB Reforms (Senate Bill 1002): In 2023, the Florida Legislature enacted major glass reforms (Senate Bill 1002) to curb aggressive glass repair scams:\n          \n        -  Ban on Assignment of Benefits (AOB):  Glass repair shops are now legally barred from having policyholders sign over their insurance rights. \n        -  Ban on Gifts and Rebates:  Glass shops can no longer offer cash, steaks, or gift cards to entice motorists to replace windshields. \n        -  ADAS Recalibration Standards:  Modern vehicles with camera sensors require Advanced Driver Assistance Systems (ADAS) calibration. Under the new law, insurers must pay for certified calibration without deductible, and technicians must formally notify you if calibration cannot be completed.\n          \n         Related Guidance:  To evaluate your exact financial thresholds, consult our  Complete Car Insurance Guide , model your out-of-pocket numbers on our  Car Insurance Deductible Calculator , and review the side-by-side trade-offs in our  Comprehensive vs. Collision Coverage .",
       "dateCreated": "2026-09-18T00:00:00+00:00",
       "url": "https://insurancebhaiya.com/qa/are-windshields-covered-by-insurance-in-florida",
       "author": {
@@ -345,221 +373,298 @@
   </nav>
   
 
-      <header style="margin-bottom: 28px;">
-        <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
-          <a href="/qa?category=auto" class="pill pill-cat-auto" style="font-weight: 600;">Auto Insurance</a>
-          <span class="pill" style="font-size: 0.75rem; color: var(--color-success); border-color: rgba(16, 185, 129, 0.2);">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Verified Answer
-          </span>
-          <span style="font-size: 0.8125rem; color: var(--color-secondary);">5 min read &bull; Updated September 2026</span>
-        </div>
+      <div class="qa-article-layout">
+        <!-- Main Column -->
+        <article class="qa-main-col">
+          <header style="margin-bottom: 28px;">
+            <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
+              <a href="/qa?category=auto" class="pill pill-cat-auto" style="font-weight: 600;">Auto Insurance</a>
+              <span class="pill" style="font-size: 0.75rem; color: var(--color-success); border-color: rgba(16, 185, 129, 0.2);">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Verified Answer
+              </span>
+              <span style="font-size: 0.8125rem; color: var(--color-secondary);">5 min read &bull; Updated September 2026</span>
+            </div>
 
-        <h1 class="text-title-1" style="font-size: clamp(1.85rem, 3.5vw, 2.5rem); font-weight: 700; line-height: 1.25; margin-bottom: 20px; letter-spacing: -0.025em; color: var(--color-text);">
-          Are windshields covered by insurance in Florida?
-        </h1>
+            <h1 class="text-title-1" style="font-size: clamp(1.85rem, 3.5vw, 2.5rem); font-weight: 700; line-height: 1.25; margin-bottom: 20px; letter-spacing: -0.025em; color: var(--color-text);">
+              Are windshields covered by insurance in Florida?
+            </h1>
 
-        <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem; color: var(--color-secondary); padding-bottom: 20px; border-bottom: 1px solid var(--color-border-light); flex-wrap: wrap;">
-          <span>By <strong>Insurance Bhaiya Florida Regulatory Group</strong></span>
-          <span>&bull;</span>
-          <span>Reviewed by <strong>Florida Property &amp; Casualty Insurance Specialist</strong></span>
-        </div>
-      </header>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 0.875rem; color: var(--color-secondary); padding-bottom: 20px; border-bottom: 1px solid var(--color-border-light); flex-wrap: wrap;">
+              <span>By <strong>Insurance Bhaiya Florida Regulatory Group</strong></span>
+              <span>&bull;</span>
+              <span>Reviewed by <strong>Florida Property &amp; Casualty Insurance Specialist</strong></span>
+            </div>
+          </header>
 
-      <!-- 1. Direct Executive Answer Box (Targeted for Google Featured Snippets) -->
-      <div class="qa-direct-answer-box">
-        <div class="qa-direct-answer-header">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
-          <span>Quick Answer / Executive Summary</span>
-        </div>
-        <p class="qa-direct-answer-text">
-          Yes, windshields are 100% covered with $0 deductible by insurance in Florida, provided you carry Comprehensive Coverage on your auto policy. Under Florida Statute § 627.7288 (the Florida Zero-Deductible Windshield Law), insurance carriers are legally prohibited from applying any deductible to windshield repair or replacement. However, if you carry only basic state-minimum liability insurance (PIP and PDL), windshield damage is NOT covered at all.
-        </p>
-      </div>
-
-      <!-- 2. Key Takeaways Box -->
-      
-        <div class="qa-takeaways-box">
-          <div class="qa-takeaways-title">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Key Takeaways at a Glance</span>
+          <!-- 1. Direct Executive Answer Box (Targeted for Google Featured Snippets) -->
+          <div class="qa-direct-answer-box" id="quick-answer">
+            <div class="qa-direct-answer-header">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
+              <span>Quick Answer / Executive Summary</span>
+            </div>
+            <p class="qa-direct-answer-text">
+              Yes, windshields are 100% covered with $0 deductible by insurance in Florida, provided you carry Comprehensive Coverage on your auto policy. Under Florida Statute § 627.7288 (the Florida Zero-Deductible Windshield Law), insurance carriers are legally prohibited from applying any deductible to windshield repair or replacement. However, if you carry only basic state-minimum liability insurance (PIP and PDL), windshield damage is NOT covered at all.
+            </p>
           </div>
-          <ul class="qa-takeaways-list">
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Florida Statute § 627.7288 mandates that Comprehensive auto insurance must cover windshield replacement with ZERO deductible ($0 cost).</span>
-              </li>
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>The zero-deductible statutory protection applies EXCLUSIVELY to windshields—not side windows, rear glass, or sunroofs.</span>
-              </li>
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>You must carry Comprehensive coverage; drivers with basic Florida state-minimum PIP/PDL coverage receive $0 for broken glass.</span>
-              </li>
-            
-              <li>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>Recent 2023 Florida legislative reforms (Senate Bill 1002) banned Assignment of Benefits (AOB) and contractor gift card solicitations.</span>
-              </li>
-            
-          </ul>
-        </div>
-      
 
-      <!-- 3. In-Depth Actuarial & Contractual Sections -->
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">The Florida Statute § 627.7288: Are Windshields Covered by Insurance in Florida?</h2>
-          <div class="qa-section-content">
-            Florida motorists dealing with flying highway gravel frequently ask, <em>"are windshields covered by insurance in florida?"</em>
+          <!-- 2. Key Takeaways Box -->
+          
+            <div class="qa-takeaways-box" id="key-takeaways">
+              <div class="qa-takeaways-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Key Takeaways at a Glance</span>
+              </div>
+              <ul class="qa-takeaways-list">
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Florida Statute § 627.7288 mandates that Comprehensive auto insurance must cover windshield replacement with ZERO deductible ($0 cost).</span>
+                  </li>
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>The zero-deductible statutory protection applies EXCLUSIVELY to windshields—not side windows, rear glass, or sunroofs.</span>
+                  </li>
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>You must carry Comprehensive coverage; drivers with basic Florida state-minimum PIP/PDL coverage receive $0 for broken glass.</span>
+                  </li>
+                
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Recent 2023 Florida legislative reforms (Senate Bill 1002) banned Assignment of Benefits (AOB) and contractor gift card solicitations.</span>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          <!-- 3. In-Depth Actuarial & Contractual Sections -->
+          
+            <section class="qa-section" id="section-1">
+              <h2 class="qa-section-title">The Florida Statute § 627.7288: Are Windshields Covered by Insurance in Florida?</h2>
+              <div class="qa-section-content">
+                Florida motorists dealing with flying highway gravel frequently ask, <em>"are windshields covered by insurance in florida?"</em>
         <br><br>
         Under <strong>Florida Statute § 627.7288</strong> (commonly known as the <em>Florida Zero-Deductible Windshield Law</em>), the state legislature enacted a unique consumer safety protection:
         <br><br>
         <em>"The deductible provisions of any policy of motor vehicle insurance, delivering or issued in this state by an authorized insurer... shall not be applicable to damage to the windshield of any motor vehicle covered under such policy."</em>
         <br><br>
         This means that if a rock, road debris, or storm cracks your front windshield, your insurance company must replace it with <strong>$0 out of pocket</strong>, regardless of whether your comprehensive deductible is $500 or $1,000.
-          </div>
+              </div>
+              
+            </section>
           
-        </section>
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">The Two Critical Catches: Comprehensive Coverage and Front Glass Only</h2>
-          <div class="qa-section-content">
-            While Florida's windshield law is generous, many motorists misunderstand two crucial caveats:
+            <section class="qa-section" id="section-2">
+              <h2 class="qa-section-title">The Two Critical Catches: Comprehensive Coverage and Front Glass Only</h2>
+              <div class="qa-section-content">
+                While Florida's windshield law is generous, many motorists misunderstand two crucial caveats:
         <ul style="margin: 12px 0 16px 20px; line-height: 1.7;">
           <li><strong>Catch 1: You MUST Have Comprehensive Coverage:</strong> The statute does not force insurers to replace windshields for free on every car. It only applies if you have active <strong>Comprehensive Coverage</strong> (or combined additional coverage) on your policy. If you carry only Florida's state-minimum PIP and Property Damage Liability, you have zero glass coverage.</li>
           <li><strong>Catch 2: Front Windshield Only:</strong> The zero-deductible statute applies strictly to safety glass in the <strong>front windshield</strong>. If a thief smashes your side door window, or a fallen tree branch shatters your rear windshield or panoramic sunroof, your standard comprehensive deductible (e.g. $500) applies in full.</li>
         </ul>
-          </div>
+              </div>
+              
+            </section>
           
-        </section>
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">The 2023 Florida AOB Reforms (Senate Bill 1002)</h2>
-          <div class="qa-section-content">
-            In 2023, the Florida Legislature enacted major glass reforms (Senate Bill 1002) to curb aggressive glass repair scams:
+            <section class="qa-section" id="section-3">
+              <h2 class="qa-section-title">The 2023 Florida AOB Reforms (Senate Bill 1002)</h2>
+              <div class="qa-section-content">
+                In 2023, the Florida Legislature enacted major glass reforms (Senate Bill 1002) to curb aggressive glass repair scams:
         <br><br>
         - <strong>Ban on Assignment of Benefits (AOB):</strong> Glass repair shops are now legally barred from having policyholders sign over their insurance rights.<br>
         - <strong>Ban on Gifts and Rebates:</strong> Glass shops can no longer offer cash, steaks, or gift cards to entice motorists to replace windshields.<br>
         - <strong>ADAS Recalibration Standards:</strong> Modern vehicles with camera sensors require Advanced Driver Assistance Systems (ADAS) calibration. Under the new law, insurers must pay for certified calibration without deductible, and technicians must formally notify you if calibration cannot be completed.
-          </div>
+        <br><br>
+        <strong>Related Guidance:</strong> To evaluate your exact financial thresholds, consult our <a href="/learn/car-insurance-guide">Complete Car Insurance Guide</a>, model your out-of-pocket numbers on our <a href="/car-insurance-deductible-calculator/">Car Insurance Deductible Calculator</a>, and review the side-by-side trade-offs in our <a href="/compare/comprehensive-vs-collision">Comprehensive vs. Collision Coverage</a>.
+              </div>
+              
+            </section>
           
-        </section>
-      
 
-      <!-- 4. Real-World Case Study / Example -->
-      
-        <div class="qa-case-study-box">
-          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;">
-            <div style="display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--color-accent); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em;">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
-              <span>Real-Life Case Incident &amp; Precedent</span>
-            </div>
-            
-              <span class="qa-precedent-badge">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                <span>Precedent: Florida Statute § 627.7288 (Zero-Deductible Windshield Law) &amp; Senate Bill 1002 (2023 AOB Reform)</span>
-              </span>
-            
-          </div>
-          <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 10px; color: var(--color-text);">Case Study: Vanessa&#039;s Highway Rock Chip Replacement</h3>
-          <p style="font-size: 0.95rem; line-height: 1.65; color: var(--color-secondary); margin-bottom: 12px;"><strong>Scenario:</strong> Vanessa was driving on I-4 near Orlando when a gravel truck cracked her windshield. Her policy had a $500 comprehensive deductible.</p>
-          <div style="background: var(--color-surface-elevated, #ffffff); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid rgba(0,102,204,0.12);">
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--color-text);"><strong>Resolution &amp; Judicial Outcome:</strong> Under Florida Statute § 627.7288 and 2023 Senate Bill 1002 reform, insurers are legally mandated to replace damaged windshields with zero deductible under comprehensive coverage without permitting third-party AOB litigation abuse. Vanessa had her windshield replaced with certified OEM glass at zero out-of-pocket expense.</p>
-          </div>
+          <!-- 4. Real-World Case Study / Example -->
           
-            <div class="qa-case-scenario-link" style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed rgba(0,102,204,0.18); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
-              <span style="font-size: 0.8125rem; color: var(--color-secondary);">Related Case Study Simulation:</span>
-              <a href="/scenarios/jordan-california-auto-coverage" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600;">
-                <span>Jordan&#039;s California Auto Dilemma: Auto Glass Comprehensive Deductible Trade-Offs</span>
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            <div class="qa-case-study-box" id="case-study">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--color-accent); font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                  <span>Real-Life Case Incident &amp; Precedent</span>
+                </div>
+                
+                  <span class="qa-precedent-badge">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Precedent: Florida Statute § 627.7288 (Zero-Deductible Windshield Law) &amp; Senate Bill 1002 (2023 AOB Reform)</span>
+                  </span>
+                
+              </div>
+              <h3 style="font-size: 1.1875rem; font-weight: 600; margin-bottom: 10px; color: var(--color-text);">Case Study: Vanessa&#039;s Highway Rock Chip Replacement</h3>
+              <p style="font-size: 0.95rem; line-height: 1.65; color: var(--color-secondary); margin-bottom: 12px;"><strong>Scenario:</strong> Vanessa was driving on I-4 near Orlando when a gravel truck cracked her windshield. Her policy had a $500 comprehensive deductible.</p>
+              <div style="background: var(--color-surface-elevated, #ffffff); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--pastel-blue-border);">
+                <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--color-text);"><strong>Resolution &amp; Judicial Outcome:</strong> Under Florida Statute § 627.7288 and 2023 Senate Bill 1002 reform, insurers are legally mandated to replace damaged windshields with zero deductible under comprehensive coverage without permitting third-party AOB litigation abuse. Vanessa had her windshield replaced with certified OEM glass at zero out-of-pocket expense.</p>
+              </div>
+              
+                <div class="qa-case-scenario-link" style="margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--pastel-blue-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                  <span style="font-size: 0.8125rem; color: var(--color-secondary);">Related Case Study Simulation:</span>
+                  <a href="/scenarios/jordan-california-auto-coverage" class="card-keyword-link" style="font-size: 0.875rem; font-weight: 600;">
+                    <span>Jordan&#039;s California Auto Dilemma: Auto Glass Comprehensive Deductible Trade-Offs</span>
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              
+            </div>
+          
+
+          <!-- 5. Actionable Next Steps Checklist -->
+          
+            <section class="qa-section" id="action-plan">
+              <h2 class="qa-section-title">What You Should Do: Step-by-Step Action Plan</h2>
+              <div class="qa-action-checklist">
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">1</span>
+                    <span>Check your Florida auto policy declarations page to confirm you carry &#039;Comprehensive&#039; coverage.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">2</span>
+                    <span>Inspect chips immediately; small chips under 6 inches can often be repaired with resin in 20 minutes.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">3</span>
+                    <span>File your glass claim directly through your insurance mobile app or phone line before hiring a technician.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">4</span>
+                    <span>Ensure the mobile glass technician is certified to recalibrate your vehicle&#039;s ADAS forward-facing cameras.</span>
+                  </div>
+                
+                  <div class="qa-action-item">
+                    <span style="width: 24px; height: 24px; border-radius: 50%; background: var(--color-accent-subtle); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">5</span>
+                    <span>Check Florida comprehensive and collision pricing using our <a href='/car-insurance-calculator/' class='article-link'>Car Insurance Calculator</a>.</span>
+                  </div>
+                
+              </div>
+            </section>
+          
+
+          <!-- 6. Common Mistakes to Avoid -->
+          
+            <section class="qa-section" id="common-mistakes">
+              <h2 class="qa-section-title">Critical Mistakes to Avoid</h2>
+              <ul style="margin: 12px 0 16px 20px; line-height: 1.8; color: var(--color-text);">
+                
+                  <li style="margin-bottom: 8px;">Carrying only state-minimum PIP/PDL in Florida and assuming all broken glass is replaced for free by law.</li>
+                
+                  <li style="margin-bottom: 8px;">Allowing parking lot solicitors to inspect your windshield in exchange for gift cards or cash incentives.</li>
+                
+                  <li style="margin-bottom: 8px;">Assuming side windows, sunroofs, and rear glass are exempt from your $500 comprehensive deductible.</li>
+                
+                  <li style="margin-bottom: 8px;">Failing to recalibrate windshield-mounted safety cameras following glass replacement.</li>
+                
+              </ul>
+            </section>
+          
+
+          <!-- 7. Helpful Feedback Widget -->
+          <div class="qa-helpful-widget" id="qaHelpfulWidget">
+            <p style="font-size: 1rem; font-weight: 600; margin-bottom: 12px;">Was this explanation helpful?</p>
+            <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+              <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-success); font-weight: 600;\'>✓ Thank you for your feedback!</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h3"/><path d="M14 10V4.5a2.5 2.5 0 0 0-5 0V10"/></svg> <span>Yes, clear &amp; helpful</span></button>
+              <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-secondary);\'>Thank you. We continually refine our actuarial guides.</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3"/><path d="M10 14v5.5a2.5 2.5 0 0 0 5 0V14"/></svg> <span>Could be improved</span></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Right Sticky Navigation & Contextual Sidebar -->
+        <aside class="qa-sidebar">
+          <!-- 1. Table of Contents Card -->
+          <div class="qa-sidebar-card">
+            <div class="qa-sidebar-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Table of Contents</span>
+            </div>
+            <nav class="qa-toc-nav" aria-label="Table of contents">
+              <ul class="qa-toc-list">
+                <li class="qa-toc-item"><a href="#quick-answer" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Quick Answer</span></a></li>
+                <li class="qa-toc-item"><a href="#key-takeaways" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Key Takeaways</span></a></li>
+                
+                  <li class="qa-toc-item"><a href="#section-1" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>The Florida Statute § 627.7288: Are Windshields Covered by Insurance in Florida?</span></a></li>
+                
+                  <li class="qa-toc-item"><a href="#section-2" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>The Two Critical Catches: Comprehensive Coverage and Front Glass Only</span></a></li>
+                
+                  <li class="qa-toc-item"><a href="#section-3" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>The 2023 Florida AOB Reforms (Senate Bill 1002)</span></a></li>
+                
+                <li class="qa-toc-item"><a href="#case-study" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Case Precedent</span></a></li>
+                <li class="qa-toc-item"><a href="#action-plan" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Action Plan</span></a></li>
+                <li class="qa-toc-item"><a href="#common-mistakes" class="qa-toc-link"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Mistakes to Avoid</span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- 2. Contextual Interactive Calculator Card -->
+          
+            <div class="qa-sidebar-tool-card">
+              <span class="pill pill-accent" style="font-size: 0.6875rem; font-weight: 700; text-transform: uppercase;">Actuarial Model</span>
+              <h4>Auto Insurance Comprehensive &amp; Collision Estimator</h4>
+              <p>Compare comprehensive deductible options and ensure proper Florida glass coverage.</p>
+              <a href="/car-insurance-calculator/" class="btn btn-primary btn-sm" style="width: 100%; justify-content: center; background: #0071e3; color: #ffffff;">
+                <span>Launch Free Tool</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
             </div>
+            
+
+          <!-- 3. Reviewer Credentials & Trust Card -->
+          <div class="qa-sidebar-reviewer-card">
+            <div class="qa-sidebar-reviewer-avatar">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="qa-sidebar-reviewer-info">
+              <div class="qa-sidebar-reviewer-name">Florida Property &amp; Casualty Insurance Specialist</div>
+              <div class="qa-sidebar-reviewer-cred">Independent Actuarial &amp; Contract Compliance Verification &bull; Zero Commission Bias</div>
+            </div>
+          </div>
+
+          <!-- 4. Quick Category Questions -->
           
-        </div>
-      
-
-      <!-- 5. Actionable Next Steps Checklist -->
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">What You Should Do: Step-by-Step Action Plan</h2>
-          <div class="qa-action-checklist">
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">1</span>
-                <span>Check your Florida auto policy declarations page to confirm you carry &#039;Comprehensive&#039; coverage.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">2</span>
-                <span>Inspect chips immediately; small chips under 6 inches can often be repaired with resin in 20 minutes.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">3</span>
-                <span>File your glass claim directly through your insurance mobile app or phone line before hiring a technician.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">4</span>
-                <span>Ensure the mobile glass technician is certified to recalibrate your vehicle&#039;s ADAS forward-facing cameras.</span>
-              </div>
-            
-              <div class="qa-action-item">
-                <span style="width: 24px; height: 24px; border-radius: 50%; background: rgba(0,102,204,0.1); color: var(--color-accent); display: flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 700; flex-shrink: 0;">5</span>
-                <span>Check Florida comprehensive and collision pricing using our &lt;a href=&#039;/car-insurance-calculator/&#039; class=&#039;article-link&#039;&gt;Car Insurance Calculator&lt;/a&gt;.</span>
-              </div>
-            
+          <div class="qa-sidebar-card">
+            <div class="qa-sidebar-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              <span>Related Auto Q&amp;As</span>
+            </div>
+            <ul class="qa-sidebar-related-list">
+              
+                <li class="qa-sidebar-related-item">
+                  <a href="/qa/do-you-need-bodily-injury-insurance-in-florida">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>Do you need bodily injury insurance in Florida?</span>
+                  </a>
+                </li>
+              
+                <li class="qa-sidebar-related-item">
+                  <a href="/qa/why-did-car-insurance-go-up-without-accidents">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>Why did my car insurance premium increase even though I had no accidents or tickets?</span>
+                  </a>
+                </li>
+              
+                <li class="qa-sidebar-related-item">
+                  <a href="/qa/what-is-actual-cash-value-vs-replacement-cost-claim">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    <span>How much does insurance pay out on a claim: Actual Cash Value or Replacement Cost?</span>
+                  </a>
+                </li>
+              
+            </ul>
           </div>
-        </section>
-      
-
-      <!-- 6. Common Mistakes to Avoid -->
-      
-        <section class="qa-section">
-          <h2 class="qa-section-title">Critical Mistakes to Avoid</h2>
-          <ul style="margin: 12px 0 16px 20px; line-height: 1.8; color: var(--color-text);">
-            
-              <li style="margin-bottom: 8px;">Carrying only state-minimum PIP/PDL in Florida and assuming all broken glass is replaced for free by law.</li>
-            
-              <li style="margin-bottom: 8px;">Allowing parking lot solicitors to inspect your windshield in exchange for gift cards or cash incentives.</li>
-            
-              <li style="margin-bottom: 8px;">Assuming side windows, sunroofs, and rear glass are exempt from your $500 comprehensive deductible.</li>
-            
-              <li style="margin-bottom: 8px;">Failing to recalibrate windshield-mounted safety cameras following glass replacement.</li>
-            
-          </ul>
-        </section>
-      
-
-      <!-- 7. Calculator / Tool Cross-Promotion Banner -->
-      
-        <div class="apple-card" style="padding: 28px; margin: 40px 0; background: linear-gradient(135deg, #f8faff 0%, #ffffff 100%); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 18px; border: 1px solid rgba(0, 113, 227, 0.16);">
-          <div>
-            <span class="pill pill-accent" style="margin-bottom: 8px; font-size: 0.75rem;">Interactive Actuarial Tool</span>
-            <h3 style="font-size: 1.15rem; font-weight: 600; margin-bottom: 6px;">Auto Insurance Comprehensive &amp; Collision Estimator</h3>
-            <p style="font-size: 0.875rem; color: var(--color-secondary); margin: 0; max-width: 520px;">Compare comprehensive deductible options and ensure proper Florida glass coverage.</p>
-          </div>
-          <a href="/car-insurance-calculator/" class="btn btn-primary" style="background: #0071e3; color: #ffffff;">
-            <span>Launch Free Tool</span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      
-
-      <!-- 8. Helpful Feedback Widget -->
-      <div class="qa-helpful-widget" id="qaHelpfulWidget">
-        <p style="font-size: 1rem; font-weight: 600; margin-bottom: 12px;">Was this explanation helpful?</p>
-        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-          <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-success); font-weight: 600;\'>✓ Thank you for your feedback!</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h3"/><path d="M14 10V4.5a2.5 2.5 0 0 0-5 0V10"/></svg> <span>Yes, clear &amp; helpful</span></button>
-          <button class="btn btn-outline btn-sm" onclick="this.parentElement.innerHTML='<span style=\'color: var(--color-secondary);\'>Thank you. We continually refine our actuarial guides.</span>'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3"/><path d="M10 14v5.5a2.5 2.5 0 0 0 5 0V14"/></svg> <span>Could be improved</span></button>
-        </div>
+          
+        </aside>
       </div>
 
-      <!-- 9. People Also Ask / Similar Questions Component -->
+      <!-- People Also Ask / Similar Questions Component -->
       
         <div class="qa-similar-box">
           <div class="qa-similar-header">

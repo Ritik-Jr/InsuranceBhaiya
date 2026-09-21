@@ -11,22 +11,50 @@
   <link rel="canonical" href="https://insurancebhaiya.com/learn/own-occupation-disability-insurance">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="googlecc1a0711e704e752" />
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR"></script>
+  
+  <!-- Google Services (Analytics, AdSense, Search Console) - Production Only -->
+  <meta name="google-site-verification" content="googlecc1a0711e704e752" id="gsc-meta-tag" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    (function() {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || 
+                    host === '127.0.0.1' || 
+                    host === '0.0.0.0' || 
+                    host.endsWith('.local') || 
+                    window.location.protocol === 'file:';
 
-    gtag('config', 'G-CPPEHD50XR');
+      if (isLocal) {
+        // Disabled on localhost: remove GSC verification tag from DOM
+        var gsc = document.getElementById('gsc-meta-tag') || document.querySelector('meta[name="google-site-verification"]');
+        if (gsc && gsc.parentNode) gsc.parentNode.removeChild(gsc);
+
+        // Safe stubs so code calling gtag or adsbygoogle doesn't crash on localhost
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function() { /* Analytics disabled on localhost */ };
+        window.adsbygoogle = { push: function() { /* AdSense disabled on localhost */ } };
+        console.info('🛠️ Localhost environment detected: Google Analytics, AdSense, and Search Console tags disabled.');
+      } else {
+        // Production: Load Google Analytics (gtag.js)
+        var gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-CPPEHD50XR';
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CPPEHD50XR');
+
+        // Production: Load Google AdSense
+        var adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }
+    })();
   </script>
-
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5387266499802314"
-       crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="article">
@@ -108,7 +136,7 @@
     "url": "https://insurancebhaiya.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://insurancebhaiya.com/logo-md.png"
+      "url": "https://insurancebhaiya.com/logo.png"
     }
   },
   "mainEntityOfPage": {
@@ -423,6 +451,9 @@
 <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">True Own-Occupation (or 'Pure Own-Occ') states that if an illness or injury prevents you from performing the material and substantial duties of your regular medical specialty, legal practice, or executive position, you are paid the full disability benefit—even if you choose to teach, consult, or work in an entirely different profession.</p>
 <h2 class="article-h2" style="font-size: 1.5rem; font-weight: 600; margin: 36px 0 16px; color: var(--color-text);">3. The Any-Occupation Trap</h2>
 <p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Under an 'Any-Occ' contract, the insurer only pays if you are unable to perform ANY occupation for which you are reasonably suited by education, training, or experience. If a skilled surgeon injures their dominant hand but could theoretically work as an administrator or telemarketer, an Any-Occ policy will deny or terminate benefits.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">The definition of disability in your policy contract dictates whether an insurer will pay your claim. A true 'Own-Occupation' definition pays full monthly benefits if you cannot perform the material duties of your specific specialty, even if you work in another profession. Calculate your monthly living expense replacement needs with our <a href="/disability-insurance-calculator/" class="article-link">Disability Income Protection Calculator</a>.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Understand the differences between group employer plans and private individual disability policies in <a href="/qa/short-term-vs-long-term-disability-do-you-need-both" class="article-link">Short-Term vs. Long-Term Disability: Do You Need Both?</a> and read our general primer on <a href="/learn/long-term-vs-short-term-disability" class="article-link">Long-Term vs. Short-Term Disability</a>.</p>
+<p class="article-p" style="font-size: 1.0625rem; line-height: 1.75; color: var(--color-text); margin-bottom: 20px;">Review policy health exclusions in <a href="/glossary/exclusion" class="article-link">Glossary: Exclusion</a> and audit your overall financial protection using our <a href="/policy-review-checklist/" class="article-link">8-Point Policy Review Checklist</a>.</p>
 
       <!-- Key Takeaways Box -->
       
