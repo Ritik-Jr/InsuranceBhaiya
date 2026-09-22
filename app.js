@@ -19,6 +19,20 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Starting & Running an Insurance Agency: The Complete Guide for New and Growing Owners",
+    "slug": "starting-and-running-an-insurance-agency",
+    "description": "A complete guide to starting an insurance agency and running an insurance agency profitably \u2014 licensing steps, business plans, commissions, client acquisition, and commercial sales.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Insurance Company Reviews: Is [Brand] Insurance Legit? A Consumer's Verification Framework",
+    "slug": "insurance-company-reviews-is-brand-insurance-legit",
+    "description": "Learn how to verify any insurance company's legitimacy using licensing status, financial ratings, and complaint records before you buy, renew, or file a claim.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "Insurance Company Reviews: Is [Brand] Insurance Legit? A Practical Guide to Vetting Any Insurer",
     "slug": "insurance-company-reviews-is-brand-legit",
     "description": "A step-by-step method for checking whether any insurance company, MGA, agency, or quote site is legitimate before you pay a premium or trust it with a claim.",
@@ -488,6 +502,153 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Is Able Auto Insurance Legit?",
+      "slug": "able-auto-insurance",
+      "shortAnswer": "Yes. Able Insurance Agency (also marketed as Able Auto Insurance) is a legitimate, long-established independent insurance agency that has written auto insurance in North and South Carolina since 1989. It's a member of the Professional Insurance Agents of North Carolina and the Auto Insurance Agents of North Carolina, operates multiple physical branch locations, and is BBB accredited, but like any independent agency, it shops your policy across multiple carriers rather than underwriting coverage itself.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How Do You Get a Quote From Erie Insurance?",
+      "slug": "quote-erie-insurance",
+      "shortAnswer": "You can start an Erie Insurance quote online at erieinsurance.com, but the company will connect you with a local independent agent to finalize pricing and bind coverage \u2014 Erie doesn't sell policies entirely online. Erie is a legitimate, well-rated regional insurer, holding an A+ (Superior) rating from AM Best and ranking as the 12th-largest US auto and home insurer by market share, but it's only available in 12 states plus Washington, D.C.",
+      "category": "Auto"
+},
+
+      {
+      "question": "What Is the Haven Insurance Contact Number?",
+      "slug": "haven-insurance-contact-number",
+      "shortAnswer": "For UK motor insurance claims, Haven's claims handling team can be reached at 0345 092 0700 (windscreen claims: 0345 092 0703), while household claims go through 0330 331 0747, according to its underwriting administrator's published claims page. Haven Insurance Company Limited is an active, independent, privately owned UK specialist motor and home insurer covering more than 230,000 policyholders, distributed through Acorn Insurance and a network of around 200 sub-brokers \u2014 it is not the same company as the unrelated, US-based Haven Insurance Group agency in Atlanta.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Accusure Insurance Legit?",
+      "slug": "accusure-insurance",
+      "shortAnswer": "There isn't one single national company behind the name \"Accusure Insurance\" \u2014 it's used by at least two unrelated businesses, including Accu-Sure Insurance Agency in Geneva, New York, and a separate Accusure Insurance partnership licensed across Florida, Georgia, Tennessee, and Michigan. Neither should be confused with Acrisure, a much larger, well-known insurance broker and financial technology company headquartered in Michigan. Each specific business needs to be verified individually before you buy.",
+      "category": "General"
+},
+
+      {
+      "question": "Is The Responsive Auto Insurance Company Legit?",
+      "slug": "the-responsive-auto-insurance",
+      "shortAnswer": "Yes. The Responsive Auto Insurance Company is a legitimate, licensed non-standard auto insurer founded in 2007 and headquartered in Plantation, Florida, specializing in personal auto insurance sold through a network of independent agents across South Florida. It underwrites policies directly rather than just brokering them, and operates several distinct coverage programs to serve different risk profiles.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Smart Auto Insurance Legit?",
+      "slug": "smart-auto-insurance",
+      "shortAnswer": "There isn't one single national company called \"Smart Auto Insurance\" \u2014 the phrase is used generically by several unrelated agencies and products, including a UK motor and gadget insurance brand (Smart Insurance, since transferred to AutoProtect (MBI) Ltd) and various small US agencies marketing themselves with the word 'smart.' Legitimacy has to be checked for the specific business behind whatever quote or policy you actually received, the same way it does for [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit).",
+      "category": "Auto"
+},
+
+      {
+      "question": "What Is My Adrian Flux (MyAccount)?",
+      "slug": "my-adrian-flux",
+      "shortAnswer": "\"My Adrian Flux\" refers to the online customer account portal run by Adrian Flux Insurance Services, the UK's largest specialist motor insurance broker, where policyholders log in to view documents, make payments, and manage renewals. Adrian Flux itself is a long-established, legitimate brokerage founded in 1973, based in King's Lynn, Norfolk, and employing roughly 1,800 staff, specializing in hard-to-insure vehicles like classic cars, modified cars, and kit cars.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Amtex Auto Insurance Legit?",
+      "slug": "amtex-auto-insurance",
+      "shortAnswer": "Yes. Amtex Insurance is a legitimate, family-founded independent insurance agency headquartered in Texas, operating since 1999 with more than 85 locations statewide and an A+ Better Business Bureau rating. It's an independent agency, not an underwriting carrier, meaning it shops your auto, home, renters, commercial, and Mexico travel insurance needs across multiple carriers rather than insuring you directly.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How to start an insurance business",
+      "slug": "how-to-start-an-insurance-agency-business",
+      "shortAnswer": "To start an insurance business, you need to get licensed as a producer in your state (pre-licensing education where required, a passed state exam, and a background check), decide between a captive model (one carrier) or an independent model (multiple carriers, often through a cluster or aggregator), secure errors & omissions (E&O) insurance, get carrier appointments, and write a business plan covering your target market, revenue projections, and client-acquisition strategy before you write your first policy.",
+      "category": "General"
+},
+
+      {
+      "question": "How to sell commercial insurance",
+      "slug": "how-to-sell-commercial-insurance",
+      "shortAnswer": "Selling commercial insurance well means running a real risk assessment (often including a site visit), tailoring coverage across general liability, commercial auto, workers' compensation, and property rather than offering a templated package, and building trust through industry-specific expertise since commercial buyers evaluate an agent on understanding of their business, not just price. Commercial lines pay higher commissions than personal lines (often 10-20% versus 8-15%) but require a longer, more consultative sales cycle.",
+      "category": "General"
+},
+
+      {
+      "question": "How to get clients for insurance business",
+      "slug": "how-to-get-clients-for-insurance-business",
+      "shortAnswer": "The most reliable ways to get clients for an insurance business are local referral partnerships (real estate agents, mortgage brokers, auto dealers), a strong Google Business Profile since most shoppers search \"insurance agency near me,\" cross-selling and account rounding your existing book, niche commercial specialization, and an interactive quote tool on your own website that captures leads instead of losing them.",
+      "category": "General"
+},
+
+      {
+      "question": "Insurance agency business plan",
+      "slug": "insurance-agency-business-plan",
+      "shortAnswer": "A solid insurance agency business plan covers six core pieces: an executive summary of your captive-vs-independent model and target lines, a market analysis of local competition and niches, a carrier strategy, realistic revenue projections built on industry commission ranges (not best-case numbers), a startup and operating budget, and a specific client-acquisition plan. Lenders and carrier appointment committees both use this document to judge whether your numbers are grounded in reality.",
+      "category": "General"
+},
+
+      {
+      "question": "How much do insurance agencies make",
+      "slug": "how-much-do-insurance-agencies-make",
+      "shortAnswer": "How much insurance agencies make depends heavily on whether you mean an individual agent's paycheck or an agency's total business revenue. The U.S. Bureau of Labor Statistics reports a median annual wage of $60,370 for insurance sales agents as of May 2024, but a full agency's income is commission across its entire book of clients \u2014 typically 8-15% on personal auto/home lines and 10-20% on commercial lines, plus contingency bonuses from carriers, and its resale value is usually priced at a multiple of revenue or EBITDA.",
+      "category": "General"
+},
+
+      {
+      "question": "Insurance agencies near me",
+      "slug": "insurance-agencies-near-me-independent-vs-captive",
+      "shortAnswer": "When several insurance agencies near me show up in a search, the fastest way to narrow them down is to sort by captive versus independent: captive agencies near you sell one carrier's products, while independent agencies near you shop your risk across multiple carriers and can usually show you a side-by-side comparison. Confirm licensing for whichever ones you shortlist, then compare at least two independent and one captive quote if you can.",
+      "category": "General"
+},
+
+      {
+      "question": "Insurance agency near me",
+      "slug": "insurance-agency-near-me",
+      "shortAnswer": "When you search for an insurance agency near me, the right choice isn't necessarily the first or highest-rated result \u2014 it's whichever local agency is properly licensed in your state, transparent about which carriers it represents, and has a service record you can independently verify. Use your state Department of Insurance's producer lookup and a review platform filtered to the specific branch before choosing.",
+      "category": "General"
+},
+
+      {
+      "question": "Smart auto insurance",
+      "slug": "what-is-smart-auto-insurance",
+      "shortAnswer": "\"Smart auto insurance\" returns at least three different things depending on what you actually mean: the UK brand \"Smart Insurance,\" whose policies have been administered by AutoProtect (MBI) Ltd since a 2018 acquisition and carries mixed reviews; U.S. comparison platforms like SmartFinancial that shop your quote across multiple partner carriers rather than underwriting policies themselves; and insurance specifically for a Mercedes-Benz Smart Fortwo. None of these are the same product, so the right next step depends on which one prompted your search.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Puffin travel insurance",
+      "slug": "is-puffin-travel-insurance-good",
+      "shortAnswer": "Puffin Travel Insurance is a UK-regulated direct travel and pet insurance brand (a trading name of Puffin Group UK Ltd, authorised and regulated by the Financial Conduct Authority) whose policies are actually underwritten by AXA-group company Inter Partner Assistance S.A., with gadget claims underwritten separately by Great Lakes Insurance UK. It's generally well reviewed for competitive pricing and generous medical and gadget limits, but its cancellation benefit is capped and only pays for a closed list of named reasons, so it's worth reading that section closely before an expensive trip.",
+      "category": "General"
+},
+
+      {
+      "question": "Amtex auto insurance",
+      "slug": "is-amtex-auto-insurance-legit",
+      "shortAnswer": "Amtex Insurance is a real, long-running Texas independent insurance agency \u2014 not a single underwriting carrier \u2014 founded in 1999, headquartered in Houston, and now operating 85+ locations statewide. It shops auto, home, renters, commercial, and Mexico-travel coverage across roughly 30 partner carriers rather than underwriting policies itself, so the legitimacy of any specific policy also depends on which of those partner carriers ends up on your declarations page.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Amigo insurance",
+      "slug": "what-is-amigo-insurance",
+      "shortAnswer": "\"Amigo insurance\" isn't one company \u2014 it's a name shared by at least three unrelated businesses: AmigoMex, which sells short-term auto liability insurance for U.S. and Canadian drivers heading into Mexico and is licensed in Arizona, California, and Texas; Amigo Insurance Agency, a Midwest independent agency network; and various locally branded shops such as Amigos Auto Insurance in the Houston area. None of these are affiliated with each other, so the right first step is confirming the exact legal business name on whatever quote or card you're looking at.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Allstate home insurance quote",
+      "slug": "allstate-home-insurance-quote",
+      "shortAnswer": "You can get an Allstate homeowners insurance quote online at allstate.com, through a local Allstate agent, or by phone, and it typically only takes your address, home details, and a few minutes to generate an initial estimate. The price you're quoted depends on your dwelling's replacement cost (not market value), location-based catastrophe exposure, roof age and material, prior claims history, and any bundling or protective-device discounts, so the number can move once an agent verifies those details.",
+      "category": "Home"
+},
+
+      {
+      "question": "Dairyland insurance phone number",
+      "slug": "dairyland-insurance-phone-number",
+      "shortAnswer": "Dairyland Insurance's officially published numbers are 800-334-0090 for customer service and claims, 888-344-4357 for auto quotes, and 866-324-7952 for motorcycle quotes (quote lines run Mon\u2013Fri 6am\u20139pm and Sat 7am\u20136pm CT). The safest source is always dairylandinsurance.com or your own ID card, since many third-party \"contact\" pages list outdated or incorrect numbers.",
+      "category": "Auto"
+},
+
       {
       "question": "What Is QuoteLab?",
       "slug": "what-is-quotelab",

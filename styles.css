@@ -3182,16 +3182,151 @@ input[type="range"]::-moz-range-thumb:active {
   margin-bottom: 16px;
   color: var(--color-text);
 }
-.article-author-bar {
+/* ==========================================================================
+   Apple-Grade Minimalist Author Component System
+   Supports: .article-author-bar & .article-author-row
+   ========================================================================== */
+.article-author-bar,
+.article-author-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
-  padding: 16px 0;
+  padding: 14px 0;
   border-top: 1px solid var(--color-border-light);
   border-bottom: 1px solid var(--color-border-light);
-  margin-bottom: 24px;
+  margin: 20px 0 28px;
+}
+
+.article-author-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.article-avatar {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0066cc 0%, #2563eb 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: -0.01em;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.2);
+  flex-shrink: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+.article-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.article-author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.author-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.author-name-row .author-name,
+.article-author-info > div:first-child,
+.article-author-row > div:not(.article-avatar) > div:first-child {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.3;
+}
+
+.author-badge-verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #059669;
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: var(--radius-full);
+  padding: 2px 8px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.author-meta-row,
+.article-author-info > div:last-child,
+.article-author-row > div:not(.article-avatar) > div:last-child {
+  font-size: 0.8125rem;
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  line-height: 1.4;
+}
+
+.author-meta-row .author-dot,
+.article-author-row .author-dot,
+.author-dot {
+  color: var(--color-tertiary);
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+.author-trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-secondary);
+  background: var(--color-surface-subtle);
+  border: 1px solid var(--color-border-light);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.author-trust-pill svg {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.author-trust-pill:hover {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+@media (max-width: 640px) {
+  .article-author-bar,
+  .article-author-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .author-trust-pill {
+    align-self: flex-start;
+  }
 }
 .article-hero-media {
   margin: 28px 0 36px;
@@ -5291,8 +5426,28 @@ input[type="range"]::-moz-range-thumb:active {
   color: #f5f5f7;
 }
 
-[data-theme="dark"] .qa-sidebar-tool-card p {
+[data-theme="dark"] .article-author-bar,
+[data-theme="dark"] .article-author-row {
+  border-top-color: rgba(255, 255, 255, 0.08);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] .author-trust-pill {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
   color: #94a3b8;
+}
+
+[data-theme="dark"] .author-trust-pill:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
+  color: #f5f5f7;
+}
+
+[data-theme="dark"] .author-badge-verified {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: rgba(16, 185, 129, 0.3);
+  color: #34d399;
 }
 
 

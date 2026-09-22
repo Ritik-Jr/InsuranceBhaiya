@@ -1,0 +1,190 @@
+{
+  "id": "starting-and-running-an-insurance-agency",
+  "slug": "starting-and-running-an-insurance-agency",
+  "title": "Starting & Running an Insurance Agency: The Complete Guide for New and Growing Owners",
+  "description": "A complete guide to starting an insurance agency and running an insurance agency profitably — licensing steps, business plans, commissions, client acquisition, and commercial sales.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-23",
+  "updatedAt": "2026-09-23",
+  "readingTime": 7,
+  "featured": true,
+  "tags": [
+    "how to start an insurance agency",
+    "insurance agency business plan",
+    "how much do insurance agencies make",
+    "insurance agency near me",
+    "how to sell commercial insurance",
+    "insurance basics"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Starting an insurance agency legally requires a state producer license (pre-licensing hours, a state exam, and a background check), and most states also expect errors & omissions (E&O) insurance and signed carrier appointments before you can bind business.",
+    "Individual insurance sales agents earned a median annual wage of $60,370 as of May 2024 per the U.S. Bureau of Labor Statistics — but that figure describes an employee's paycheck, not what an agency as a business actually generates once you count commissions across a whole book of clients.",
+    "Commission rates vary sharply by line: personal lines like auto and home typically pay roughly 8-15% on new business and 7-12% on renewals, commercial lines often run 10-20%, and life insurance front-loads a much higher first-year commission (55-120%) against a low renewal trail (2-5%).",
+    "A written insurance agency business plan, realistic client-acquisition channels, and a deliberate strategy for commercial lines (which carry higher commissions but a longer, more technical sales cycle) are what separate agencies that survive their first three years from those that don't.",
+    "Whether you're comparing an 'insurance agency near me' as a shopper or building one yourself, the same fundamentals matter: verified licensing, transparent carrier relationships, and a track record you can actually check — see our companion guide on verifying [any insurance company's legitimacy](/learn/insurance-company-reviews-is-brand-insurance-legit)."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I need a college degree to start an insurance agency?",
+      "answer": "No. Most states only require a high school diploma or equivalent, a completed pre-licensing course where required, and a passed state licensing exam to become a producer. A bachelor's degree can help with certain carrier appointments or commercial-lines credibility, but it isn't a legal requirement to get licensed."
+    },
+    {
+      "question": "Is it better to start a captive or an independent insurance agency?",
+      "answer": "A captive agency (representing one carrier) typically offers more built-in training, leads, and brand recognition but lower commission and less control over which products you sell. An independent agency requires you to build carrier relationships yourself, often through a cluster or aggregator, but generally pays higher commissions and lets you shop multiple carriers for each client. The right choice depends on your access to startup capital, risk tolerance, and whether you already have a book of clients or referral relationships to bring with you."
+    },
+    {
+      "question": "How long does it take to become profitable after starting an insurance agency?",
+      "answer": "Most new agency owners report that year one to two is spent building both a client base and renewal commission volume, with year three often cited as the point where renewal income starts to create a more predictable, stabilized income floor. Actual timelines vary widely based on starting capital, existing referral relationships, and whether the agency is captive or independent."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Two very different people search for \"insurance agency\" content: someone comparing a local **insurance agency near me** before buying a policy, and someone seriously considering **starting an insurance agency** of their own. This guide covers both, because the fundamentals overlap more than you'd expect — the same licensing, carrier-relationship, and transparency questions that make a good agency to buy from are exactly what a new agency owner needs to get right on day one. Below, each major section answers one specific, frequently searched question about starting and running an insurance agency, with a link to the full, in-depth answer."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Is an Insurance Agency, and What Does It Take to Start One?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An insurance agency sells and services policies on behalf of one or more underwriting carriers without taking on the underwriting risk itself — that risk sits with the carrier, not the agency. A **captive agency** represents a single carrier (like a State Farm or Allstate exclusive agent); an **independent agency** represents multiple carriers and shops a client's risk across them. If you're evaluating whether a specific company is a legitimate carrier versus an agency that merely places business, our companion guide on [how to verify any insurance company's legitimacy](/learn/insurance-company-reviews-is-brand-insurance-legit) walks through that exact distinction in more detail."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Start an Insurance Business: The Licensing and Setup Checklist"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Requirement",
+        "What It Involves",
+        "Typical Range (varies by state)"
+      ],
+      "rows": [
+        [
+          "Pre-licensing education",
+          "Required study hours before sitting the state exam; some states (e.g., California from Jan. 1, 2026, Washington, Mississippi) have eliminated line-specific hours in favor of a shorter ethics/code course",
+          "0-60 hours; course cost roughly $49-$400"
+        ],
+        [
+          "State licensing exam",
+          "Proctored exam through Prometric or PSI covering state insurance law and the specific line(s) of authority",
+          "$29-$92 exam fee"
+        ],
+        [
+          "Application & fingerprinting",
+          "State Department of Insurance application fee plus a background check in most states",
+          "$10-$225 application; $5-$75 fingerprinting where required"
+        ],
+        [
+          "Errors & omissions (E&O) insurance",
+          "Professional liability coverage protecting the agency against claims of negligent advice or errors in policy placement — required by most carriers before they'll appoint you",
+          "Varies by revenue and lines written"
+        ],
+        [
+          "Carrier appointments",
+          "Formal agreements with each carrier you want to represent, which set your commission schedule",
+          "Varies by carrier; independent agencies often join a cluster or aggregator to access appointments faster"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Once licensed, the practical question in how to start an insurance business becomes a strategic one: captive (one carrier, more built-in support and leads, lower commission) versus independent (multiple carriers, more control and typically higher commission, but you build your own book from scratch and cover your own overhead). Many new independent agents join a cluster or aggregator group in their first year specifically to get carrier appointments and better commission tiers than they could negotiate alone. See the full answer in [how to start an insurance business](/qa/how-to-start-an-insurance-agency-business)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Insurance Agency Business Plan: What to Actually Put In It"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Executive summary** — captive vs. independent model, target lines of business (personal, commercial, life/health, or a mix), and your licensing timeline.",
+        "**Market analysis** — competitor agencies in your area, underserved niches (a specific industry for commercial lines, a specific community, a specific language), and local demand signals.",
+        "**Carrier strategy** — which carriers or cluster/aggregator group you plan to get appointed with, and why those specific carriers fit your target clients.",
+        "**Revenue model and projections** — expected new-business vs. renewal commission mix by line, using realistic industry commission ranges rather than best-case numbers.",
+        "**Startup and operating budget** — licensing costs, E&O insurance, agency management system (AMS) software, marketing, and staffing.",
+        "**Client acquisition plan** — the specific channels you'll use in year one (see the client-acquisition section below) and how you'll measure cost per acquired client."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A complete insurance agency business plan is also what most banks or SBA lenders will want to see if you're financing a captive agency buildout or an independent agency's first-year overhead. Full detail and a section-by-section walkthrough is in [insurance agency business plan](/qa/insurance-agency-business-plan)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Do Insurance Agencies (and the Agents Who Run Them) Actually Make?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It's worth separating two different numbers here. As an employee, the U.S. Bureau of Labor Statistics reports a median annual wage of $60,370 for insurance sales agents as of May 2024, with the lowest 10% earning under $36,390 and the top 10% earning more than $135,660. As a business, an insurance agency's income is a function of its total book of commissionable premium across every client, not one person's paycheck — and if you ever sell the agency, its value is typically priced as a multiple of revenue or EBITDA, with recent market data showing small agencies (under $500k revenue) trading around 4-7x EBITDA and larger, well-run brokerages reaching double-digit multiples. The full breakdown, including commission-rate tables by line of business, is in [how much do insurance agencies make](/qa/how-much-do-insurance-agencies-make)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Get Clients for Your Insurance Business"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Local referral partnerships with real estate agents, mortgage brokers, and auto dealerships whose customers need insurance at the exact moment they're buying.",
+        "A local Google Business Profile and consistent reviews, since a huge share of buyers start with an \"insurance agency near me\" search rather than a brand name.",
+        "Cross-selling and account rounding your existing book (a renters policy client who just bought a car, for instance) rather than only chasing brand-new prospects.",
+        "Niche commercial specialization — becoming the known agency for one industry (contractors, restaurants, trucking) rather than competing as a generalist against every other local shop.",
+        "An embedded, interactive quote or coverage tool on your own site — the kind of calculator that turns an anonymous visitor into a captured lead rather than a bounce."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Full detail on sequencing these channels in your first year is in [how to get clients for insurance business](/qa/how-to-get-clients-for-insurance-business)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Sell Commercial Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial insurance pays higher commissions than personal lines (often 10-20% versus 8-15%) but requires a longer, more consultative sales process: a proper risk assessment, sometimes a site visit, and coverage that's genuinely tailored to the business (general liability, commercial auto, workers' compensation, and property, at minimum) rather than a templated policy. New agents often start with businesses they already have a relationship with, or a specific vertical they understand well, before trying to compete broadly. See the complete walkthrough in [how to sell commercial insurance](/qa/how-to-sell-commercial-insurance)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Finding an Insurance Agency Near You: What Good Local Service Actually Looks Like"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you searched \"insurance agency near me\" or \"insurance agencies near me\" as a shopper rather than an aspiring owner, the checklist is almost identical to what a good new agency should be building toward: verified state licensing, transparency about which carriers they represent, responsive service tied to the specific branch or agent (not just a brand name), and a track record you can independently check rather than take on faith. Our two dedicated answers cover this from the shopper's side: [insurance agency near me](/qa/insurance-agency-near-me) and [insurance agencies near me](/qa/insurance-agencies-near-me-independent-vs-captive)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Licensing rules change — always confirm with your specific state",
+      "text": "Pre-licensing hour requirements and fees shown here are illustrative ranges; several states (California, Washington, Mississippi, among others) have reduced or eliminated line-specific prelicensing hours in recent years. Always confirm current requirements on your state Department of Insurance's website before enrolling in a course or scheduling an exam."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and does not constitute legal, tax, licensing, or business-financing advice. Licensing requirements, commission ranges, and valuation multiples vary by state, carrier, and market conditions, and the figures cited reflect publicly available data as of the publish date above. Consult your state Department of Insurance, a licensed attorney, and an accountant before making decisions about starting or operating an insurance agency."
+    }
+  ]
+}
