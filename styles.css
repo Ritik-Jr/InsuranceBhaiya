@@ -9613,6 +9613,38 @@ body[data-error-theme="speeding"] .error-btn-primary:hover {
     gap: 8px;
   }
 }
+/* ==========================================================================
+   Content Keyword Links & Inline Anchors (Apple-grade Typography)
+   ========================================================================== */
+.article-body a,
+.article-p a,
+.article-list a,
+.apple-callout a,
+.qa-section a,
+.qa-direct-answer-text a,
+.qa-takeaways-list a,
+.qa-case-study-box a:not(.card-keyword-link),
+.qa-action-checklist a,
+.faq-answer a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  font-weight: 500;
+  transition: opacity var(--transition-fast), color var(--transition-fast);
+}
 
-
+.article-body a:hover,
+.article-p a:hover,
+.article-list a:hover,
+.apple-callout a:hover,
+.qa-section a:hover,
+.qa-direct-answer-text a:hover,
+.qa-takeaways-list a:hover,
+.qa-case-study-box a:not(.card-keyword-link):hover,
+.qa-action-checklist a:hover,
+.faq-answer a:hover {
+  opacity: 0.8;
+  color: var(--color-accent-hover, #0056b3);
+}
 

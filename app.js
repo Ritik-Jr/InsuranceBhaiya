@@ -19,6 +19,13 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Insurance Company Reviews: Is [Brand] Insurance Legit? A Practical Guide to Vetting Any Insurer",
+    "slug": "insurance-company-reviews-is-brand-legit",
+    "description": "A step-by-step method for checking whether any insurance company, MGA, agency, or quote site is legitimate before you pay a premium or trust it with a claim.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits",
     "slug": "umbrella-insurance-guide",
     "description": "Discover why basic home and auto liability limits leave your savings, home equity, and future income vulnerable, and how a personal umbrella policy provides catastrophic protection.",
@@ -481,6 +488,62 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "What Is QuoteLab?",
+      "slug": "what-is-quotelab",
+      "shortAnswer": "QuoteLab is an online insurance marketplace and lead-generation platform, not an insurance company. Based in Los Angeles and founded around 2010\u20132012, QuoteLab connects consumers with insurance agents and carriers who then contact them with quotes, primarily for auto insurance. It operates as part of MediaAlpha, a publicly traded (Nasdaq: MAX) customer-acquisition technology company for the insurance industry, which acquired QuoteLab.",
+      "category": "General"
+},
+
+      {
+      "question": "Is Insure 90 a Legitimate Insurance Company?",
+      "slug": "is-insure-90-legit",
+      "shortAnswer": "\"Insure 90\" is not one identifiable, licensed insurance company \u2014 the term is a mix of at least three unrelated things that happen to share similar wording: a legacy insurance-agency software system (I/90, sometimes called Insure90), the insurance concept of a 90% coinsurance requirement, and various small, unrelated quote or agency sites using '90' in their name or marketing. There is no single national carrier operating under this exact brand, so it can't be verified as legitimate or illegitimate as a company \u2014 you need to identify the specific business behind whatever quote or policy you actually received.",
+      "category": "General"
+},
+
+      {
+      "question": "Is Amigo Insurance Legit?",
+      "slug": "is-amigo-insurance-legit",
+      "shortAnswer": "There isn't one single national company called \"Amigo Insurance\" \u2014 the name is used by several unrelated independent insurance agencies across different states, most commonly serving non-standard auto insurance to Spanish-speaking communities. Legitimacy has to be checked agency by agency: some are properly licensed independent agencies placing policies with major carriers, while the name itself offers no guarantee on its own.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Puffin Travel Insurance Legit and Worth Buying?",
+      "slug": "is-puffin-travel-insurance-legit",
+      "shortAnswer": "Yes, Puffin Travel Insurance is a legitimate, UK-regulated travel insurer. It's a trading name of Puffin Group UK Ltd, authorised and regulated by the Financial Conduct Authority, with policies underwritten by Inter Partner Assistance S.A., part of the AXA Group. Independent reviews generally rate it good value, with strong medical and gadget cover limits, though its cancellation cover cap and closed list of covered cancellation reasons are worth checking before you buy.",
+      "category": "General"
+},
+
+      {
+      "question": "Is Essentia Insurance a Legitimate Company?",
+      "slug": "is-essentia-insurance-legit",
+      "shortAnswer": "Yes. Essentia Insurance Company is a legitimate, established insurer based in Glen Allen, Virginia, and a wholly owned subsidiary of Markel Corporation (NYSE: MKL), a large, publicly traded specialty insurance group. Essentia is best known as the exclusive underwriter behind Hagerty's classic car, motorcycle, and classic boat insurance policies, and it carries a strong financial strength rating.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is NYCM a Good Insurance Company?",
+      "slug": "is-nycm-a-good-insurance-company",
+      "shortAnswer": "Yes, for the market it serves. New York Central Mutual (NYCM) consistently earns strong marks for affordability, a favorable NAIC complaint index, and solid AM Best financial strength ratings on both its auto and home insurance lines. Its main limitations are geographic: it only writes policies in New York State, doesn't offer instant online quotes, and has fewer add-on coverage options than larger national carriers.",
+      "category": "General"
+},
+
+      {
+      "question": "Is Bamboo Insurance Admitted in California?",
+      "slug": "is-bamboo-insurance-admitted-in-california",
+      "shortAnswer": "It depends on the specific policy. Bamboo Insurance is a managing general agent (MGA), not an insurance company itself, and it places California homeowners coverage through several different underwriting carriers \u2014 some admitted, some surplus lines (non-admitted). Since 2025 it has expanded admitted capacity through partners like Sutton National and MS Transverse, alongside an E&S 'Signature' surplus-lines product. Always check the underwriting carrier's name on your own declarations page rather than assuming Bamboo's status covers your specific policy.",
+      "category": "Home"
+},
+
+      {
+      "question": "Is Slide Insurance Going Out of Business?",
+      "slug": "is-slide-insurance-going-out-of-business",
+      "shortAnswer": "No. Slide Insurance is not going out of business. It is a publicly traded company (NASDAQ: SLDE) that reported strong quarterly earnings through 2026 and has actively expanded beyond its original Florida homeowners base into California, New York, New Jersey, and Rhode Island. The rumors largely stem from confusion with unrelated Florida market turmoil, including Citizens Property Insurance policyholder shuffles and other insurers' financial troubles.",
+      "category": "Home"
+},
+
       {
       "question": "Does car insurance cover vandalism, and will filing a claim raise your rates?",
       "slug": "does-car-insurance-cover-vandalism",
