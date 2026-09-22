@@ -262,10 +262,21 @@ h4, h5, h6 {
   padding-right: 24px;
 }
 
+.container-compare {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
 /* Standard Main Page Content Padding */
 main.container,
 main.container-reading,
-main.container-tool {
+main.container-tool,
+main.container-compare {
   padding-top: 40px;
   padding-bottom: 80px;
   box-sizing: border-box;
@@ -274,13 +285,15 @@ main.container-tool {
 @media (max-width: 640px) {
   .container,
   .container-reading,
-  .container-tool {
+  .container-tool,
+  .container-compare {
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
   main.container,
   main.container-reading,
-  main.container-tool {
+  main.container-tool,
+  main.container-compare {
     padding-top: 18px !important;
     padding-bottom: 48px !important;
   }
@@ -322,15 +335,19 @@ main.container-tool {
   border-radius: var(--radius-full);
   transition: var(--transition-smooth);
   white-space: nowrap;
+  text-decoration: none !important;
 }
 
 .btn-primary {
   background-color: var(--color-text);
-  color: #ffffff;
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 .btn-primary:hover {
   background-color: #000000;
+  color: #ffffff !important;
+  text-decoration: none !important;
   transform: translateY(-1px);
 }
 
@@ -5004,13 +5021,34 @@ input[type="range"]::-moz-range-thumb:active {
 }
 
 /* 3. The Comparison Matrix Table */
+.compare-scroll-hint {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-secondary);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 680px) {
+  .compare-scroll-hint {
+    display: flex;
+  }
+}
+
 .compare-table-container {
   background: #ffffff;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.03);
-  margin: 36px 0 48px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  margin: 28px 0 40px;
   position: relative;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -5026,20 +5064,15 @@ input[type="range"]::-moz-range-thumb:active {
 }
 
 .compare-matrix-table thead th {
-  position: sticky;
-  top: 58px;
-  z-index: 10;
-  background: rgba(251, 251, 253, 0.96);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: #f8fafc;
   border-bottom: 2px solid var(--color-border);
-  padding: 20px 24px;
+  padding: 16px 20px;
   box-sizing: border-box;
 }
 
 .compare-matrix-table th.col-feature {
   width: 28%;
-  min-width: 180px;
+  min-width: 160px;
   font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -5049,9 +5082,9 @@ input[type="range"]::-moz-range-thumb:active {
 
 .compare-matrix-table th.col-option-a {
   width: 36%;
-  min-width: 240px;
+  min-width: 220px;
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #0071e3;
   border-left: 1px solid var(--color-border-light);
@@ -5059,9 +5092,9 @@ input[type="range"]::-moz-range-thumb:active {
 
 .compare-matrix-table th.col-option-b {
   width: 36%;
-  min-width: 240px;
+  min-width: 220px;
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: #7c3aed;
   border-left: 1px solid var(--color-border-light);
@@ -5076,47 +5109,47 @@ input[type="range"]::-moz-range-thumb:active {
 }
 
 .compare-matrix-table td.cell-feature {
-  padding: 20px 24px;
+  padding: 16px 20px;
   font-weight: 600;
   color: var(--color-text);
   vertical-align: top;
   border-bottom: 1px solid var(--color-border-light);
   background: #fbfbfd;
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
 }
 
 .compare-matrix-table td.cell-option {
-  padding: 20px 24px;
+  padding: 16px 20px;
   color: #334155;
   vertical-align: top;
   border-bottom: 1px solid var(--color-border-light);
   border-left: 1px solid var(--color-border-light);
-  font-size: 0.9375rem;
-  line-height: 1.65;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .compare-matrix-table tr.row-why {
-  background: rgba(0, 113, 227, 0.025);
+  background: linear-gradient(135deg, rgba(0, 113, 227, 0.03) 0%, rgba(240, 247, 255, 0.02) 100%);
 }
 
 .compare-matrix-table tr.row-why td {
-  padding: 14px 24px 18px;
-  border-bottom: 1px solid var(--color-border);
+  padding: 12px 20px 14px;
+  border-bottom: 2px solid var(--color-border);
   color: #475569;
-  font-size: 0.875rem;
-  line-height: 1.6;
+  font-size: 0.84375rem;
+  line-height: 1.55;
 }
 
 .compare-matrix-table .why-label {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.75rem;
+  gap: 5px;
+  font-size: 0.71875rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-accent);
-  margin-right: 8px;
+  margin-right: 6px;
 }
 
 .compare-matrix-table .why-label svg {
@@ -9616,16 +9649,16 @@ body[data-error-theme="speeding"] .error-btn-primary:hover {
 /* ==========================================================================
    Content Keyword Links & Inline Anchors (Apple-grade Typography)
    ========================================================================== */
-.article-body a,
-.article-p a,
-.article-list a,
-.apple-callout a,
-.qa-section a,
-.qa-direct-answer-text a,
-.qa-takeaways-list a,
-.qa-case-study-box a:not(.card-keyword-link),
-.qa-action-checklist a,
-.faq-answer a {
+.article-body a:not(.btn):not(.decision-tool-btn):not(.card-keyword-link):not(.card-title-link):not(.pill):not(.apple-card-link),
+.article-p a:not(.btn):not(.decision-tool-btn),
+.article-list a:not(.btn):not(.decision-tool-btn),
+.apple-callout a:not(.btn):not(.decision-tool-btn),
+.qa-section a:not(.btn):not(.decision-tool-btn):not(.card-keyword-link):not(.card-title-link),
+.qa-direct-answer-text a:not(.btn):not(.decision-tool-btn),
+.qa-takeaways-list a:not(.btn):not(.decision-tool-btn),
+.qa-case-study-box a:not(.btn):not(.decision-tool-btn):not(.card-keyword-link),
+.qa-action-checklist a:not(.btn):not(.decision-tool-btn),
+.faq-answer a:not(.btn):not(.decision-tool-btn) {
   color: var(--color-accent);
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -9634,17 +9667,216 @@ body[data-error-theme="speeding"] .error-btn-primary:hover {
   transition: opacity var(--transition-fast), color var(--transition-fast);
 }
 
-.article-body a:hover,
-.article-p a:hover,
-.article-list a:hover,
-.apple-callout a:hover,
-.qa-section a:hover,
-.qa-direct-answer-text a:hover,
-.qa-takeaways-list a:hover,
-.qa-case-study-box a:not(.card-keyword-link):hover,
-.qa-action-checklist a:hover,
-.faq-answer a:hover {
+.article-body a:not(.btn):not(.decision-tool-btn):not(.card-keyword-link):not(.card-title-link):not(.pill):not(.apple-card-link):hover,
+.article-p a:not(.btn):not(.decision-tool-btn):hover,
+.article-list a:not(.btn):not(.decision-tool-btn):hover,
+.apple-callout a:not(.btn):not(.decision-tool-btn):hover,
+.qa-section a:not(.btn):not(.decision-tool-btn):not(.card-keyword-link):not(.card-title-link):hover,
+.qa-direct-answer-text a:not(.btn):not(.decision-tool-btn):hover,
+.qa-takeaways-list a:not(.btn):not(.decision-tool-btn):hover,
+.qa-case-study-box a:not(.btn):not(.decision-tool-btn):not(.card-keyword-link):hover,
+.qa-action-checklist a:not(.btn):not(.decision-tool-btn):hover,
+.faq-answer a:not(.btn):not(.decision-tool-btn):hover {
   opacity: 0.8;
   color: var(--color-accent-hover, #0056b3);
 }
+
+/* ==========================================================================
+   Modern Apple-Grade Interactive Decision Tool Component
+   ========================================================================== */
+.decision-tool-card {
+  position: relative;
+  margin: 44px 0;
+  padding: 28px 32px;
+  background: linear-gradient(135deg, rgba(240, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.98) 50%, rgba(244, 248, 255, 0.92) 100%);
+  border: 1px solid rgba(0, 113, 227, 0.2);
+  border-radius: var(--radius-lg, 20px);
+  box-shadow: 0 4px 20px -2px rgba(0, 113, 227, 0.08), 0 1px 3px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.28s ease;
+  overflow: hidden;
+}
+
+.decision-tool-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #0071e3 0%, #0056b3 100%);
+  border-radius: 4px 0 0 4px;
+}
+
+.decision-tool-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px -4px rgba(0, 113, 227, 0.16), 0 2px 6px rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 113, 227, 0.38);
+}
+
+.decision-tool-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 1 360px;
+}
+
+.decision-tool-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0071e3 0%, #0056b3 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 14px rgba(0, 113, 227, 0.32);
+  margin-top: 2px;
+}
+
+.decision-tool-svg-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.decision-tool-body {
+  flex: 1;
+}
+
+.decision-tool-pill-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.decision-tool-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  background: rgba(0, 113, 227, 0.08);
+  border: 1px solid rgba(0, 113, 227, 0.22);
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0071e3;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.decision-tool-pulse {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #0071e3;
+  box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.7);
+  animation: decisionToolPulse 2s infinite;
+}
+
+@keyframes decisionToolPulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 6px rgba(0, 113, 227, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 113, 227, 0);
+  }
+}
+
+.decision-tool-tag {
+  font-size: 0.75rem;
+  color: var(--color-secondary);
+  font-weight: 500;
+}
+
+.decision-tool-title {
+  font-size: 1.1875rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 6px 0;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.decision-tool-desc {
+  font-size: 0.875rem;
+  color: var(--color-secondary);
+  line-height: 1.55;
+  margin: 0;
+  max-width: 520px;
+}
+
+.decision-tool-action {
+  display: flex;
+  align-items: center;
+}
+
+.decision-tool-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  padding: 12px 24px !important;
+  background: linear-gradient(135deg, #0071e3 0%, #0056b3 100%) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  border-radius: 9999px !important;
+  white-space: nowrap !important;
+  box-shadow: 0 4px 14px rgba(0, 113, 227, 0.32) !important;
+  transition: all 0.22s ease !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.decision-tool-btn:hover {
+  background: linear-gradient(135deg, #0077ed 0%, #0060c7 100%) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 22px rgba(0, 113, 227, 0.42) !important;
+  opacity: 1 !important;
+}
+
+.decision-tool-btn:hover .decision-tool-arrow {
+  transform: translateX(3px);
+}
+
+.decision-tool-arrow {
+  transition: transform 0.2s ease;
+}
+
+@media (max-width: 640px) {
+  .decision-tool-card {
+    padding: 22px 20px;
+    margin: 32px 0;
+  }
+  .decision-tool-left {
+    gap: 14px;
+  }
+  .decision-tool-icon-wrap {
+    width: 42px;
+    height: 42px;
+  }
+  .decision-tool-action {
+    width: 100%;
+  }
+  .decision-tool-btn {
+    width: 100% !important;
+  }
+}
+
 
