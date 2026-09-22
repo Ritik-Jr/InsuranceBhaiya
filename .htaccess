@@ -2,22 +2,23 @@
   RewriteEngine On
   RewriteBase /
 
-  # 1. Single-hop redirect: http://www.domain -> https://domain (prevents redirect chain)
+  # 1. Single-hop canonical redirect: http:// and/or www -> https://insurancebhaiya.com (zero redirect chains)
   RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP:X-Forwarded-Proto} =http
+  RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+  RewriteRule ^(.*)$ https://insurancebhaiya.com/$1 [R=301,L]
 
-  # 2. Redirect HTTPS www to non-www
-  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+  # 2. Enforce trailing slash on physical directories (canonical URLs)
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^(.*[^/])$ https://insurancebhaiya.com/$1/ [R=301,L]
 
-  # 3. Force HTTPS on non-www
-  RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP:X-Forwarded-Proto} =http
-  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+  # 3. Dynamic Author profiles fallback routing
+  RewriteCond %{REQUEST_URI} ^/author/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^author/.*$ /author/editorial-team/index.html [L]
 
-  # Single Page Application fallback to index.html
+  # 4. Single Page Application fallback to index.html
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
