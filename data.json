@@ -698,6 +698,7 @@
       ]
     },
     {
+      "type": "learn",
       "id": "insurance-company-reviews-is-brand-legit",
       "slug": "insurance-company-reviews-is-brand-legit",
       "title": "Insurance Company Reviews: Is [Brand] Insurance Legit? A Practical Guide to Vetting Any Insurer",
@@ -728,19 +729,19 @@
       "keyTakeaways": [
         "\"Legit\" doesn't mean one thing: carriers, MGAs, independent agencies, and lead-generation marketplaces all turn up in \"is X insurance legit\" searches, and each carries a different kind of risk.",
         "Almost any US insurer or agent can be checked in under two minutes using your state Department of Insurance's license lookup and the NAIC's consumer information tools.",
-        "A company can be fully legitimate and still be a poor fit for you — \"admitted,\" \"surplus lines,\" and \"MGA\" describe how a policy is backed, not whether the company treats claims fairly.",
-        "Financial strength ratings from AM Best or S&P tell you whether an insurer can pay claims; the NAIC complaint index and patterns across review sites tell you whether it tends to pay them without a fight.",
+        "A company can be fully legitimate and still be a poor fit for you — [\"admitted,\"](/glossary/admitted-insurer) [\"surplus lines,\"](/glossary/surplus-lines-insurance) and [\"MGA\"](/glossary/managing-general-agent) describe how a policy is backed, not whether the company treats claims fairly.",
+        "[Financial strength ratings](/glossary/am-best-rating) from AM Best or S&P tell you whether an insurer can pay claims; the [NAIC complaint index](/glossary/naic-complaint-index) and patterns across review sites tell you whether it tends to pay them without a fight.",
         "Generic or catchy-sounding names — things like \"Insure 90\" or \"Smart Auto Insurance\" — are frequently used by several unrelated small agencies at once, so match the exact legal name, license number, and underwriting carrier before you buy, not just the brand name."
       ],
       "sections": [],
       "faqs": [
         {
           "question": "How do I check if an insurance company is licensed in my state?",
-          "answer": "Search the company's exact legal name (not just its marketing brand) on your state Department of Insurance's producer or company lookup tool, or on the NAIC's consumer information site. A licensed insurer will show an active status along with a company or NAIC code you can cross-check against your policy documents."
+          "answer": "Search the company's exact legal name (not just its marketing brand) on your state Department of Insurance's producer or company lookup tool, or on the NAIC's consumer information site. A licensed insurer will show an active status along with a company or NAIC code you can cross-check against your policy documents. External lookup: [NAIC consumer information site](https://content.naic.org/consumer-insurance)."
         },
         {
           "question": "What does it mean if an insurer is 'non-admitted' or 'surplus lines'?",
-          "answer": "A non-admitted, or surplus lines, insurer is not licensed in your state and isn't bound by that state's standard rate filings or backed by its guaranty fund if it becomes insolvent. This is common and legal for hard-to-place risks, such as wildfire-zone homes — see [how this plays out for Bamboo Insurance's California policies](/qa/is-bamboo-insurance-admitted-in-california) — but it means you're taking on more of the financial-strength risk yourself, so checking the carrier's rating matters even more."
+          "answer": "A [non-admitted, or surplus lines,](/glossary/surplus-lines-insurance) insurer is not licensed in your state and isn't bound by that state's standard rate filings or backed by its guaranty fund if it becomes insolvent. This is common and legal for hard-to-place risks, such as wildfire-zone homes — see [how this plays out for Bamboo Insurance's California policies](/qa/is-bamboo-insurance-admitted-in-california) — but it means you're taking on more of the financial-strength risk yourself, so checking the carrier's rating matters even more."
         },
         {
           "question": "Is a cheap quote from an unfamiliar insurance company automatically a scam?",
@@ -764,7 +765,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Before you can judge whether a company is legitimate, it helps to know what kind of company you're actually looking at. \"Insurance\" in a business name can describe four very different roles, and they carry very different levels of risk if something goes wrong."
+          "text": "Before you can judge whether a company is legitimate, it helps to know what kind of company you're actually looking at. \"Insurance\" in a business name can describe four very different roles, and they carry very different levels of risk if something goes wrong, a distinction covered in more depth in [Agent vs. Broker vs. Insurer: Who Works for Whom?](/learn/agent-vs-broker-vs-insurer) and [What Is an Insurer? Carriers, Solvency, and Financial Strength Ratings](/learn/what-is-an-insurer)."
         },
         {
           "type": "table",
@@ -798,7 +799,7 @@
         },
         {
           "type": "paragraph",
-          "text": "None of these four categories is inherently untrustworthy. But \"is X insurance legit\" needs a different answer depending on which category X falls into, which is why the checklist below asks you to identify the type of company first. If you've landed here from a search about a confusingly generic brand name, [Insure 90](/qa/is-insure-90-legit) is a good example of just how tangled that can get."
+          "text": "None of these four categories is inherently untrustworthy. But \"is X insurance legit\" needs a different answer depending on which category X falls into, which is why the checklist below asks you to identify the type of company first, including whether you're dealing with a [managing general agent (MGA)](/glossary/managing-general-agent) rather than the carrier itself. If you've landed here from a search about a confusingly generic brand name, [Insure 90](/qa/is-insure-90-legit) is a good example of just how tangled that can get."
         },
         {
           "type": "heading",
@@ -809,10 +810,10 @@
           "type": "list",
           "ordered": true,
           "items": [
-            "Confirm licensing with your state's Department of Insurance producer or company search, or the NAIC's consumer information tools. A real US insurer or agent has an active license tied to its exact legal entity name — not just a trade name or website domain, which is exactly the problem with a generic name like [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit).",
-            "Check admitted vs. surplus lines (non-admitted) status. Admitted carriers are bound by state rate filings and back the state guaranty fund if they fail; surplus lines carriers aren't. Being non-admitted isn't a scam — it's how many wildfire-, coastal-, and high-risk-zone policies get written, as [Bamboo Insurance's California book](/qa/is-bamboo-insurance-admitted-in-california) and [Slide Insurance's entry into California](/qa/is-slide-insurance-going-out-of-business) both show — but you should know which one you're buying.",
-            "Pull the company's financial strength rating from AM Best, or S&P/Moody's if AM Best doesn't rate it. A rating of B+ or better is generally considered adequate to pay claims; anything lower, or \"not rated,\" deserves a closer look before you commit. [NYCM](/qa/is-nycm-a-good-insurance-company) and [Essentia](/qa/is-essentia-insurance-legit) are both good examples of insurers whose strong ratings are a real, checkable part of the story.",
-            "Read the NAIC complaint index under the exact legal company name, not the marketing name. A score meaningfully above 1.0 means the insurer draws more complaints than the industry average for its size and line of business — [NYCM's favorable complaint index](/qa/is-nycm-a-good-insurance-company) is one reason it consistently ranks well.",
+            "Confirm licensing with your state's Department of Insurance producer or company search, or the NAIC's consumer information tools. A real US insurer or agent has an active license tied to its exact legal entity name, verifiable through the [NAIC's consumer information tools](https://content.naic.org/consumer-insurance), — not just a trade name or website domain, which is exactly the problem with a generic name like [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit).",
+            "Check [admitted](/glossary/admitted-insurer) vs. [surplus lines (non-admitted)](/glossary/surplus-lines-insurance) status. Admitted carriers are bound by state rate filings and back the state guaranty fund if they fail; surplus lines carriers aren't. Being non-admitted isn't a scam — it's how many wildfire-, coastal-, and high-risk-zone policies get written, as [Bamboo Insurance's California book](/qa/is-bamboo-insurance-admitted-in-california) and [Slide Insurance's entry into California](/qa/is-slide-insurance-going-out-of-business) both show — but you should know which one you're buying.",
+            "Pull the company's [AM Best financial strength rating](/glossary/am-best-rating), or S&P/Moody's if AM Best doesn't rate it — lookup available directly at [ambest.com](https://web.ambest.com/ratings/default.aspx). A rating of B+ or better is generally considered adequate to pay claims; anything lower, or \"not rated,\" deserves a closer look before you commit. [NYCM](/qa/is-nycm-a-good-insurance-company) and [Essentia](/qa/is-essentia-insurance-legit) are both good examples of insurers whose strong ratings are a real, checkable part of the story.",
+            "Read the [NAIC complaint index](/glossary/naic-complaint-index) under the exact legal company name, not the marketing name. A score meaningfully above 1.0 means the insurer draws more complaints than the industry average for its size and line of business — [NYCM's favorable complaint index](/qa/is-nycm-a-good-insurance-company) is one reason it consistently ranks well.",
             "Cross-reference at least two independent review sources — the Better Business Bureau, Trustpilot, and your state's own complaint portal all publish different slices of the same picture. Be skeptical of reviews that arrive in a sudden cluster or repeat oddly similar phrasing; that pattern is a known sign of incentivized or fabricated reviews, and it's also why a [lead-generation marketplace like QuoteLab](/qa/what-is-quotelab) is worth reading about before you submit your information anywhere."
           ]
         },
@@ -829,7 +830,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A meaningful share of \"is X legit\" searches aren't actually about one company at all. Names like [\"Insure 90\"](/qa/is-insure-90-legit), [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit), [\"Smart Auto Insurance\"](/qa/smart-auto-insurance), and [\"Accusure Insurance\"](/qa/accusure-insurance) are generic enough that they get reused by multiple unrelated local agencies, legacy software products, or long-closed businesses across different states — sometimes alongside completely unrelated content, like coinsurance terminology that happens to share the same numbers. Searching a brand name alone can point you to the wrong entity entirely, and the same caution applies to quote-comparison sites: a marketplace like [QuoteLab](/qa/what-is-quotelab) is legitimate but is not itself an insurer, which is easy to miss if you don't read past the headline. The fix is always the same: match the exact business name, physical address, and license number on your quote or policy documents against your state's official lookup, rather than trusting the name on a search result or an ad."
+          "text": "A meaningful share of \"is X legit\" searches aren't actually about one company at all. Names like [\"Insure 90\"](/qa/is-insure-90-legit), [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit), [\"Smart Auto Insurance\"](/qa/smart-auto-insurance), and [\"Accusure Insurance\"](/qa/accusure-insurance) are generic enough that they get reused by multiple unrelated local agencies, legacy software products, or long-closed businesses across different states — sometimes alongside completely unrelated content, like coinsurance terminology that happens to share the same numbers. Searching a brand name alone can point you to the wrong entity entirely, and the same caution applies to quote-comparison sites: a marketplace like [QuoteLab](/qa/what-is-quotelab) is legitimate but is not itself an insurer, which is easy to miss if you don't read past the headline. This is also worth understanding through the lens of an [independent agency vs. a managing general agent](/glossary/managing-general-agent) vs. a carrier — see [Independent vs. Captive Insurance Agencies](/qa/insurance-agencies-near-me-independent-vs-captive) for more on how agencies themselves are structured. The fix is always the same: match the exact business name, physical address, and license number on your quote or policy documents against your state's official lookup, rather than trusting the name on a search result or an ad."
         },
         {
           "type": "heading",
@@ -874,9 +875,10 @@
           "ordered": true,
           "items": [
             "Find the actual underwriting carrier's name on your declarations page — it may differ from the brand you searched for or the agency that sold you the policy, the same way a [Hagerty policy is actually underwritten by Essentia](/qa/is-essentia-insurance-legit) or a [Bamboo-sourced quote is actually underwritten by Sutton National or MS Transverse](/qa/is-bamboo-insurance-admitted-in-california).",
-            "Verify that carrier's license and financial strength rating using the steps above.",
+            "Verify that carrier's license and financial strength rating using the steps above, and cross-check reviews via the [Better Business Bureau](https://www.bbb.org/).",
             "Confirm your agent's individual license through the National Insurance Producer Registry (NIPR) or your state's lookup.",
-            "Save your state Department of Insurance's consumer complaint contact information in case you ever need to escalate a claims dispute."
+            "Save your state Department of Insurance's consumer complaint contact information in case you ever need to escalate a claims dispute.",
+            "If you're evaluating an independent agency itself, rather than the carrier behind it, see [Starting & Running an Insurance Agency](/learn/starting-and-running-an-insurance-agency) for how legitimate agencies are actually licensed and structured."
           ]
         },
         {
@@ -6962,118 +6964,158 @@
     },
     {
       "slug": "renewal-notice-from-unfamiliar-insurer",
-      "name": "A Renewal Notice Arrives",
-      "displayTitle": "A Renewal Notice Arrives From an Insurer You've Never Heard Of",
-      "title": "Scenario: A Renewal Notice Arrives From an Insurer You've Never Heard Of",
-      "category": "home-insurance",
-      "age": 35,
-      "location": "United States",
+      "name": "Denise",
+      "displayTitle": "Denise's Insurance Decision",
+      "title": "Denise's Insurance Decision",
+      "category": "General",
+      "age": 52,
+      "location": "Florida, US",
       "market": "US",
-      "avatarBg": "#dcfce7",
-      "situation": "A Florida homeowner's longtime insurer exits the state, and her renewal is picked up by a newer company she doesn't recognize.",
-      "coreQuestion": "What should you do when a renewal notice arrives from an insurer you've never heard of?",
-      "scoutTake": "Under policy regulations, policyholders must audit their declarations page and verify insurer financial ratings.",
+      "avatarBg": "#fce7f3",
+      "situation": "Retired teacher and longtime homeowner in a coastal Florida county. Her insurer of 12 years exited the state citing overall risk exposure, and a company she'd never heard of sent a renewal offer.",
+      "coreQuestion": "My homeowners insurer is leaving Florida and I got a renewal offer from a company I've never heard of — is this a scam, and should I accept it?",
+      "scoutTake": "An unfamiliar name on a Florida renewal notice usually means your old carrier transferred renewal rights, not that you're being scammed — but verify it yourself rather than assuming. See our full breakdown on [whether Slide Insurance is going out of business](/qa/is-slide-insurance-going-out-of-business) and [compare Florida homeowners options](/compare/florida-homeowners-insurance) before accepting or declining.",
       "keyRisks": [
-        "Uncovered loss exposure exceeding existing statutory minimum limits."
+        "Accepting an unverified renewal offer without confirming licensing could leave a coverage gap if the offer is fraudulent",
+        "Letting the old policy lapse while shopping around leaves the home completely uninsured",
+        "Assuming 'unfamiliar' automatically means 'unstable' can lead to overpaying for a legacy brand when a newer, well-rated insurer is actually available"
       ],
       "recommendedStrategy": [
-        "Audit policy coverages, deductibles, and endorsement limits."
+        "Verify the new insurer's license status directly through the Florida Office of Insurance Regulation before accepting or declining",
+        "Check the company's AM Best or Demotech financial-strength rating rather than relying on brand recognition alone",
+        "Get at least one additional quote from a different licensed carrier before the old policy's expiration date"
       ],
-      "estimatedMonthlyCost": "$75 - $150 / month",
+      "estimatedMonthlyCost": "$180 - $260 / month",
       "relatedToolSlug": "home-insurance-calculator",
-      "strategies": []
+      "strategies": [
+        "Confirm licensing on Florida's OIR company lookup before accepting a renewal from an unfamiliar carrier — see our full breakdown on [Slide Insurance's standing](/qa/is-slide-insurance-going-out-of-business).",
+        "Compare admitted carriers, Citizens, and newer entrants side by side using our [Florida homeowners insurance comparison](/compare/florida-homeowners-insurance).",
+        "Re-run your dwelling coverage numbers with our [Home Insurance Cost Calculator](/home-insurance-calculator/) whenever your premium changes significantly."
+      ]
     },
     {
       "slug": "wrong-phone-number-delayed-claim",
-      "name": "Calling the Wrong Insura",
-      "displayTitle": "Calling the Wrong Insurance Phone Number Delays a Claim",
-      "title": "Scenario: Calling the Wrong Insurance Phone Number Delays a Claim",
-      "category": "car-insurance",
-      "age": 35,
-      "location": "United States",
+      "name": "Maria",
+      "displayTitle": "Maria's Insurance Decision",
+      "title": "Maria's Insurance Decision",
+      "category": "General",
+      "age": 34,
+      "location": "Ohio, US",
       "market": "US",
-      "avatarBg": "#ffedd5",
-      "situation": "A driver searches for her insurer's number after an accident, calls a third-party site's outdated listing, and loses 45 minutes.",
-      "coreQuestion": "What should you do when calling the wrong insurance phone number delays a claim?",
-      "scoutTake": "Under policy regulations, policyholders must audit their declarations page and verify insurer financial ratings.",
+      "avatarBg": "#dbeafe",
+      "situation": "Marketing coordinator rear-ended in stopped traffic. Carries a standard full-coverage auto policy and needed to report a claim quickly to arrange a rental car and repair estimate.",
+      "coreQuestion": "I searched online for my insurer's claims number after an accident, called a third-party site's listing, and it was disconnected — how do I avoid losing time reporting a claim?",
+      "scoutTake": "Third-party 'contact number' aggregator sites are frequently outdated or scraped, not verified against the insurer's own current records — this cost Maria 45 minutes she didn't need to lose. Always go to your insurer's own site or your ID card first. See our breakdowns on [Dairyland's real contact channels](/qa/dairyland-insurance-phone-number) and [Haven's contact number](/qa/haven-insurance-contact-number), and run an [8-Point Policy Health Check](/policy-check) before you ever need to make this call.",
       "keyRisks": [
-        "Uncovered loss exposure exceeding existing statutory minimum limits."
+        "Delayed claim reporting can push back rental car authorization and repair scheduling by hours or days",
+        "Third-party 'contact number' aggregator sites are frequently outdated or scraped, not verified against the insurer's own records",
+        "Calling a sales/quotes line instead of claims adds transfer time during an already stressful event"
       ],
       "recommendedStrategy": [
-        "Audit policy coverages, deductibles, and endorsement limits."
+        "Save your insurer's verified claims number, from your ID card or official app, directly into your phone before you ever need it",
+        "File claims through your insurer's official app or online account whenever possible, bypassing the phone number problem entirely",
+        "Keep a written log of contact attempts, times, and reference numbers any time you're reporting an active claim"
       ],
-      "estimatedMonthlyCost": "$75 - $150 / month",
+      "estimatedMonthlyCost": "$140 - $190 / month",
       "relatedToolSlug": "car-insurance-calculator",
-      "strategies": []
+      "strategies": [
+        "Verify your insurer's claims number directly through their official site or app rather than a search-result aggregator — cross-check using our guide on [Dairyland's real contact channels](/qa/dairyland-insurance-phone-number).",
+        "Confirm your coverage limits are adequate before you ever need to call, using our [Car Insurance Coverage Calculator](/car-insurance-calculator/).",
+        "Run an [8-Point Policy Health Check](/policy-check) annually so you already know your coverage and claims process before an accident happens."
+      ]
     },
     {
       "slug": "two-neighbors-different-admitted-status",
-      "name": "Two Neighbors, Two Diffe",
-      "displayTitle": "Two Neighbors, Two Different Wildfire Policy Types",
-      "title": "Scenario: Two Neighbors, Two Different Wildfire Policy Types",
-      "category": "home-insurance",
-      "age": 35,
-      "location": "United States",
+      "name": "Alan",
+      "displayTitle": "Alan's Insurance Decision",
+      "title": "Alan's Insurance Decision",
+      "category": "General",
+      "age": 45,
+      "location": "California, US",
       "market": "US",
-      "avatarBg": "#ffedd5",
-      "situation": "Two Los Angeles neighbors both buy home insurance \"through the same MGA\" months apart, ending up with different admitted status without realizing it.",
-      "coreQuestion": "What should you do when two neighbors, two different wildfire policy types?",
-      "scoutTake": "Under policy regulations, policyholders must audit their declarations page and verify insurer financial ratings.",
+      "avatarBg": "#fee2e2",
+      "situation": "Homeowner in a Los Angeles wildfire-risk zone. Placed coverage through a managing general agency with a surplus-lines (non-admitted) carrier partner after being dropped by his prior admitted insurer.",
+      "coreQuestion": "My neighbor and I both got insurance 'through the same company' but I just learned mine is non-admitted and his is admitted — what does that actually mean if my insurer ever fails?",
+      "scoutTake": "The MGA's brand name on your policy isn't the underwriting carrier — the admitted-vs-surplus-lines distinction only shows up when you check the actual carrier on your declarations page. See our full answer on [whether Bamboo Insurance is admitted in California](/qa/is-bamboo-insurance-admitted-in-california) and [compare wildfire-zone coverage options](/compare/california-wildfire-home-insurance).",
       "keyRisks": [
-        "Uncovered loss exposure exceeding existing statutory minimum limits."
+        "Non-admitted (surplus-lines) policies are not backed by California's guaranty fund (CIGA) if the carrier becomes insolvent",
+        "MGA brand names on marketing materials are not the actual underwriting carrier, which can obscure this distinction",
+        "Wildfire-zone surplus-lines placements can change between neighbors, or even between renewal cycles for the same policyholder"
       ],
       "recommendedStrategy": [
-        "Audit policy coverages, deductibles, and endorsement limits."
+        "Identify the actual underwriting carrier on your declarations page, not the MGA or agency brand name",
+        "Ask directly whether your specific policy is admitted or non-admitted before assuming based on a neighbor's coverage",
+        "Ask about newer admitted-capacity options at each renewal, since availability in wildfire zones has been expanding"
       ],
-      "estimatedMonthlyCost": "$75 - $150 / month",
+      "estimatedMonthlyCost": "$250 - $400 / month",
       "relatedToolSlug": "home-insurance-calculator",
-      "strategies": []
+      "strategies": [
+        "Check whether your specific carrier is admitted or non-admitted using our full breakdown on [Bamboo Insurance's admitted status in California](/qa/is-bamboo-insurance-admitted-in-california).",
+        "Compare admitted vs. surplus-lines wildfire coverage side by side with our [California wildfire insurance comparison](/compare/california-wildfire-home-insurance).",
+        "Re-check your dwelling coverage adequacy using our [Home Insurance Cost Calculator](/home-insurance-calculator/) at every renewal."
+      ]
     },
     {
       "slug": "cross-border-trip-without-mexico-insurance",
-      "name": "Almost Driving Into Mexi",
-      "displayTitle": "Almost Driving Into Mexico Without the Right Insurance",
-      "title": "Scenario: Almost Driving Into Mexico Without the Right Insurance",
-      "category": "car-insurance",
-      "age": 35,
-      "location": "United States",
+      "name": "Kevin",
+      "displayTitle": "Kevin's Insurance Decision",
+      "title": "Kevin's Insurance Decision",
+      "category": "General",
+      "age": 29,
+      "location": "Texas, US",
       "market": "US",
-      "avatarBg": "#dcfce7",
-      "situation": "A driver planning a Mexico trip searches \"Amigo insurance,\" hits confusing results, and nearly skips Mexican auto coverage entirely.",
-      "coreQuestion": "What should you do when almost driving into mexico without the right insurance?",
-      "scoutTake": "Under policy regulations, policyholders must audit their declarations page and verify insurer financial ratings.",
+      "avatarBg": "#d1fae5",
+      "situation": "IT consultant planning a weekend road trip from Texas into Mexico. Assumed his existing U.S. auto policy would cover him across the border.",
+      "coreQuestion": "I'm driving into Mexico this weekend — does my U.S. car insurance cover me, or do I need something else?",
+      "scoutTake": "A standard U.S. auto policy almost never satisfies Mexican law, even with a border-zone rider — and searching a generic name like 'Amigo insurance' can send you to an unrelated company entirely. See [what Amigo Insurance actually refers to](/qa/what-is-amigo-insurance) and [compare Mexico auto insurance options](/compare/mexico-auto-insurance) before you cross the border.",
       "keyRisks": [
-        "Uncovered loss exposure exceeding existing statutory minimum limits."
+        "A standard U.S. auto policy generally does not satisfy Mexican law, even with a border-zone rider",
+        "Mexican authorities can impound a vehicle after an accident without proof of Mexican-admitted liability coverage",
+        "Searching generic brand names like 'Amigo insurance' can return unrelated companies rather than an actual Mexico-insurance provider"
       ],
       "recommendedStrategy": [
-        "Audit policy coverages, deductibles, and endorsement limits."
+        "Buy a short-term Mexican tourist auto policy from a Mexican-admitted carrier before crossing the border",
+        "Confirm the policy explicitly names a Mexican-admitted underwriting carrier, not just a border-zone add-on",
+        "Purchase coverage online in advance rather than waiting to arrange it at the border crossing"
       ],
-      "estimatedMonthlyCost": "$75 - $150 / month",
+      "estimatedMonthlyCost": "$15 - $30 for a weekend trip policy",
       "relatedToolSlug": "car-insurance-calculator",
-      "strategies": []
+      "strategies": [
+        "Confirm whether you actually need a Mexico-specific insurer using our breakdown on [what 'Amigo Insurance' actually refers to](/qa/what-is-amigo-insurance).",
+        "Compare a dedicated Mexico tourist policy against relying on your U.S. policy with our [Mexico auto insurance comparison](/compare/mexico-auto-insurance).",
+        "Check your baseline U.S. liability limits with our [Car Insurance Coverage Calculator](/car-insurance-calculator/) before you travel."
+      ]
     },
     {
       "slug": "sold-my-info-after-one-quote-request",
-      "name": "One Quote Request, a Doz",
-      "displayTitle": "One Quote Request, a Dozen Phone Calls",
-      "title": "Scenario: One Quote Request, a Dozen Phone Calls",
-      "category": "insurance-basics",
-      "age": 35,
-      "location": "United States",
+      "name": "Priya",
+      "displayTitle": "Priya's Insurance Decision",
+      "title": "Priya's Insurance Decision",
+      "category": "General",
+      "age": 26,
+      "location": "Illinois, US",
       "market": "US",
-      "avatarBg": "#fce7f3",
-      "situation": "A shopper fills out a single online auto insurance quote form and is surprised to receive calls from several unrelated agents within the hour.",
-      "coreQuestion": "What should you do when one quote request, a dozen phone calls?",
-      "scoutTake": "Under policy regulations, policyholders must audit their declarations page and verify insurer financial ratings.",
+      "avatarBg": "#e0e7ff",
+      "situation": "First-time car buyer shopping for auto insurance online. Filled out what looked like a single quote form and received calls from several unrelated agents within the hour.",
+      "coreQuestion": "I filled out one online insurance quote form and now several different agents are calling me — did someone sell my information without my consent?",
+      "scoutTake": "Lead-generation quote forms are built to distribute one submission to several participating partners, not just one company — the consent for this is usually in fine print you agreed to when submitting. See [what QuoteLab actually is](/qa/what-is-quotelab) and [how agencies use these platforms to get clients](/qa/how-to-get-clients-for-insurance-business) for both sides of this.",
       "keyRisks": [
-        "Uncovered loss exposure exceeding existing statutory minimum limits."
+        "Lead-generation quote forms typically distribute your information to multiple partner agents and carriers, not just one company",
+        "Consent for this kind of contact is usually buried in fine print you agree to when submitting the form",
+        "Comparison-site quotes can produce more follow-up calls than a single direct-insurer quote request"
       ],
       "recommendedStrategy": [
-        "Audit policy coverages, deductibles, and endorsement limits."
+        "Read the consent disclosure on any quote form before submitting your contact information",
+        "Search for a specific insurer's official site directly if you'd prefer only one company's quote",
+        "Ask unwanted callers to stop contacting you — reputable companies are required to honor that request"
       ],
-      "estimatedMonthlyCost": "$75 - $150 / month",
-      "relatedToolSlug": "policy-check",
-      "strategies": []
+      "estimatedMonthlyCost": "$110 - $160 / month",
+      "relatedToolSlug": "car-insurance-calculator",
+      "strategies": [
+        "Understand what kind of company generated all the calls with our guide on [what QuoteLab actually is](/qa/what-is-quotelab).",
+        "See the lead-generation side of this from an agency's perspective in [how to get clients for insurance business](/qa/how-to-get-clients-for-insurance-business).",
+        "Compare the resulting quotes properly using our [Car Insurance Coverage Calculator](/car-insurance-calculator/) rather than picking based on whoever called first."
+      ]
     }
   ],
   "policyChecklist": [
@@ -7786,7 +7828,7 @@
       "slug": "dairyland-insurance-phone-number",
       "category": "Auto",
       "question": "Dairyland Insurance Phone Number",
-      "shortAnswer": "Dairyland Insurance's main customer service line is 800-334-0090, with a separate auto quote line at 888-344-4357 and a motorcycle quote line at 866-324-7952, per the company's own contact page. Dairyland is a legitimate, licensed non-standard auto insurer and a member of the Sentry Insurance Group, so it's worth confirming any number against the official dairylandinsurance.com site before calling, since search results also surface several unofficial \"support guide\" pages listing a different number.",
+      "shortAnswer": "Dairyland Insurance's main customer service line is 800-334-0090, with a separate auto quote line at 888-344-4357 and a motorcycle quote line at 866-324-7952, per the company's own contact page. Dairyland is a legitimate, licensed non-standard auto insurer and a member of the Sentry Insurance Group, so it's worth confirming any number against the official dairylandinsurance.com site before calling, since search results also surface several unofficial \"support guide\" pages listing a different number. For the broader legitimacy framework this fits into, see [Insurance Company Reviews: Is [Brand] Insurance Legit?](/learn/insurance-company-reviews-is-brand-legit)",
       "readingTime": "4 min read",
       "difficulty": "Beginner"
     },
@@ -7903,7 +7945,7 @@
       "slug": "amtex-auto-insurance",
       "category": "Auto",
       "question": "Is Amtex Auto Insurance Legit?",
-      "shortAnswer": "Yes. Amtex Insurance is a legitimate, family-founded independent insurance agency headquartered in Texas, operating since 1999 with more than 85 locations statewide and an A+ Better Business Bureau rating. It's an independent agency, not an underwriting carrier, meaning it shops your auto, home, renters, commercial, and Mexico travel insurance needs across multiple carriers rather than insuring you directly.",
+      "shortAnswer": "Yes. Amtex Insurance is a legitimate, family-founded independent insurance agency headquartered in Texas, operating since 1999 with more than 85 locations statewide and an A+ Better Business Bureau rating. It's an independent agency, not an underwriting carrier, meaning it shops your auto, home, renters, commercial, and Mexico travel insurance needs across multiple carriers rather than insuring you directly. A shorter, differently-phrased version of the same question is answered in [Is Amtex Auto Insurance Legit?](/qa/is-amtex-auto-insurance-legit).",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
@@ -7911,9 +7953,9 @@
       "id": "qa-67",
       "slug": "my-adrian-flux",
       "category": "Auto",
-      "question": "My Adrian Flux",
-      "shortAnswer": "\"My Adrian Flux\" refers to the online customer account portal for Adrian Flux Insurance Services, a real, long-established UK specialist motor insurance broker founded in 1973 and based in King's Lynn, Norfolk. Adrian Flux is the UK's largest specialist motor insurance broker, covering classic, modified, high-performance, and other hard-to-insure vehicles, though customer reviews on independent platforms are mixed, particularly around claims and cancellation handling.",
-      "readingTime": "4 min read",
+      "question": "What Is My Adrian Flux (MyAccount)?",
+      "shortAnswer": "\"My Adrian Flux\" refers to the online customer account portal run by Adrian Flux Insurance Services, the UK's largest specialist motor insurance broker, where policyholders log in to view documents, make payments, and manage renewals. Adrian Flux itself is a long-established, legitimate brokerage founded in 1973, based in King's Lynn, Norfolk, and employing roughly 1,800 staff, specializing in hard-to-insure vehicles like classic cars, modified cars, and kit cars.",
+      "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
     {
@@ -7921,7 +7963,7 @@
       "slug": "smart-auto-insurance",
       "category": "Auto",
       "question": "Is Smart Auto Insurance Legit?",
-      "shortAnswer": "There isn't one single national company called \"Smart Auto Insurance\" — the phrase is used generically by several unrelated agencies and products, including a UK motor and gadget insurance brand (Smart Insurance, since transferred to AutoProtect (MBI) Ltd) and various small US agencies marketing themselves with the word 'smart.' Legitimacy has to be checked for the specific business behind whatever quote or policy you actually received, the same way it does for [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit).",
+      "shortAnswer": "There isn't one single national company called \"Smart Auto Insurance\" — the phrase is used generically by several unrelated agencies and products, including a UK motor and gadget insurance brand (Smart Insurance, since transferred to AutoProtect (MBI) Ltd) and various small US agencies marketing themselves with the word 'smart.' Legitimacy has to be checked for the specific business behind whatever quote or policy you actually received, the same way it does for [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit). A shorter, differently-worded companion entry is available at [What Is Smart Auto Insurance?](/qa/what-is-smart-auto-insurance).",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
@@ -7929,9 +7971,9 @@
       "id": "qa-69",
       "slug": "the-responsive-auto-insurance",
       "category": "Auto",
-      "question": "The Responsive Auto Insurance",
-      "shortAnswer": "The Responsive Auto Insurance Company is a real, Michigan-focused non-standard auto insurer that sells policies exclusively through a network of independent agents rather than directly to consumers. Be aware that many of the top search results for this exact phrase are AI-generated content-farm pages with no real information about the company — the company's own official site is responsiveauto.com.",
-      "readingTime": "4 min read",
+      "question": "Is The Responsive Auto Insurance Company Legit?",
+      "shortAnswer": "Yes. The Responsive Auto Insurance Company is a legitimate, licensed non-standard auto insurer founded in 2007 and headquartered in Plantation, Florida, specializing in personal auto insurance sold through a network of independent agents across South Florida. It underwrites policies directly rather than just brokering them, and operates several distinct coverage programs to serve different risk profiles. For a Florida-focused verification framework, see [Is Slide Insurance Going Out of Business?](/qa/is-slide-insurance-going-out-of-business), which covers the same state's property-insurance market pressures.",
+      "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
     {
@@ -7939,7 +7981,7 @@
       "slug": "accusure-insurance",
       "category": "General",
       "question": "Is Accusure Insurance Legit?",
-      "shortAnswer": "There isn't one single national company behind the name \"Accusure Insurance\" — it's used by at least two unrelated businesses, including Accu-Sure Insurance Agency in Geneva, New York, and a separate Accusure Insurance partnership licensed across Florida, Georgia, Tennessee, and Michigan. Neither should be confused with Acrisure, a much larger, well-known insurance broker and financial technology company headquartered in Michigan. Each specific business needs to be verified individually before you buy.",
+      "shortAnswer": "There isn't one single national company behind the name \"Accusure Insurance\" — it's used by at least two unrelated businesses, including Accu-Sure Insurance Agency in Geneva, New York, and a separate Accusure Insurance partnership licensed across Florida, Georgia, Tennessee, and Michigan. Neither should be confused with Acrisure, a much larger, well-known insurance broker and financial technology company headquartered in Michigan. Each specific business needs to be verified individually before you buy. The same 'one name, several companies' pattern also shows up with [Insure 90](/qa/is-insure-90-legit) and [Smart Auto Insurance](/qa/smart-auto-insurance).",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
@@ -7947,18 +7989,18 @@
       "id": "qa-71",
       "slug": "haven-insurance-contact-number",
       "category": "Auto",
-      "question": "Haven insurance contact number",
-      "shortAnswer": "Haven Insurance Company Limited is a Gibraltar-registered, UK-regulated non-standard motor insurer (also operating claims handling under the Acorn Insurance name) offering temporary and annual car insurance. Because third-party \"contact number\" listings for Haven are frequently outdated, the safest way to reach them is through your own policy documents, ID card, or their official claims portal rather than a number found on a search-result aggregator.",
-      "readingTime": "4 min read",
+      "question": "What Is the Haven Insurance Contact Number?",
+      "shortAnswer": "For UK motor insurance claims, Haven's claims handling team can be reached at 0345 092 0700 (windscreen claims: 0345 092 0703), while household claims go through 0330 331 0747, according to its underwriting administrator's published claims page. Haven Insurance Company Limited is an active, independent, privately owned UK specialist motor and home insurer covering more than 230,000 policyholders, distributed through Acorn Insurance and a network of around 200 sub-brokers — it is not the same company as the unrelated, US-based Haven Insurance Group agency in Atlanta.",
+      "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
     {
       "id": "qa-72",
       "slug": "quote-erie-insurance",
       "category": "Auto",
-      "question": "Quote Erie insurance",
-      "shortAnswer": "You cannot get an Erie Insurance quote directly online or by calling Erie itself — Erie sells exclusively through independent agents, so getting a quote means finding a licensed Erie agent in one of the 12 states plus Washington, D.C. where Erie operates. Erie holds an A+ (Superior) AM Best rating and consistently ranks among the top insurers for customer satisfaction and low complaint volume.",
-      "readingTime": "4 min read",
+      "question": "How Do You Get a Quote From Erie Insurance?",
+      "shortAnswer": "You can start an Erie Insurance quote online at erieinsurance.com, but the company will connect you with a local independent agent to finalize pricing and bind coverage — Erie doesn't sell policies entirely online. Erie is a legitimate, well-rated regional insurer, holding an A+ (Superior) rating from AM Best and ranking as the 12th-largest US auto and home insurer by market share, but it's only available in 12 states plus Washington, D.C.",
+      "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
     {
