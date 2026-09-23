@@ -503,6 +503,34 @@ const FALLBACK_INDEX = {
   ],
   "qa": [
       {
+      "question": "Essentia insurance",
+      "slug": "essentia-insurance",
+      "shortAnswer": "Essentia Insurance Company is a real specialty insurer, owned by Markel Corporation since 2013, that exclusively underwrites classic car, vintage boat, motorcycle, and other collector-vehicle insurance policies sold through Hagerty Insurance Agency and Hagerty Classic Marine Insurance Agency. If you have a Hagerty-branded classic car or boat policy, Essentia is the company actually underwriting and paying your claims behind the scenes.",
+      "category": "Auto"
+},
+
+      {
+      "question": "NYAIP",
+      "slug": "nyaip",
+      "shortAnswer": "NYAIP stands for the New York Automobile Insurance Plan, the state's assigned-risk auto insurance mechanism for drivers who cannot obtain coverage in the voluntary market. Established under Article 53 of the New York Insurance Law and administered through AIPSO's NYPASS system, NYAIP assigns high-risk drivers to a participating insurance company based on that insurer's market share, at rates typically 60-90% higher than standard voluntary-market policies.",
+      "category": "Auto"
+},
+
+      {
+      "question": "New York Marine and General Insurance Company",
+      "slug": "new-york-marine-and-general-insurance-company",
+      "shortAnswer": "New York Marine and General Insurance Company is a real, New York-domiciled specialty insurer (originally incorporated in 1972 as New York Marine Insurance Company, renamed in 1979) that writes ocean marine, aviation, and general casualty insurance, and has operated as part of ProSight Specialty Insurance Group since 2010. It is a distinct company from NYCM (New York Central Mutual), a separate personal-lines auto and home insurer, despite the similar names and frequent search confusion between the two.",
+      "category": "General"
+},
+
+      {
+      "question": "Plymouth Rock insurance quote",
+      "slug": "plymouth-rock-insurance-quote",
+      "shortAnswer": "You can get a Plymouth Rock Assurance auto or home insurance quote online at their official website, by phone, or through an independent agent, since Plymouth Rock offers multiple purchase channels unlike some regional competitors. Plymouth Rock Assurance Group carries an A- (Excellent) AM Best rating and writes over $1 billion in combined annual auto and homeowners premium, primarily in the Northeast U.S.",
+      "category": "Auto"
+},
+
+      {
       "question": "Is Able Auto Insurance Legit?",
       "slug": "able-auto-insurance",
       "shortAnswer": "Yes. Able Insurance Agency (also marketed as Able Auto Insurance) is a legitimate, long-established independent insurance agency that has written auto insurance in North and South Carolina since 1989. It's a member of the Professional Insurance Agents of North Carolina and the Auto Insurance Agents of North Carolina, operates multiple physical branch locations, and is BBB accredited, but like any independent agency, it shops your policy across multiple carriers rather than underwriting coverage itself.",
