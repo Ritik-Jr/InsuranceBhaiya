@@ -1,8 +1,9 @@
 {
+  "type": "learn",
   "id": "starting-and-running-an-insurance-agency",
   "slug": "starting-and-running-an-insurance-agency",
   "title": "Starting & Running an Insurance Agency: The Complete Guide for New and Growing Owners",
-  "description": "A complete guide to starting an insurance agency and running an insurance agency profitably — licensing steps, business plans, commissions, client acquisition, and commercial sales.",
+  "description": "A complete guide to starting and running an insurance agency: licensing steps, business plans, commissions, client acquisition, and commercial sales.",
   "category": "insurance-basics",
   "author": "Insurance Bhaiya Research Desk",
   "authorRole": "Actuarial Research Fellow",
@@ -136,7 +137,7 @@
     },
     {
       "type": "paragraph",
-      "text": "It's worth separating two different numbers here. As an employee, the U.S. Bureau of Labor Statistics reports a median annual wage of $60,370 for insurance sales agents as of May 2024, with the lowest 10% earning under $36,390 and the top 10% earning more than $135,660. As a business, an insurance agency's income is a function of its total book of commissionable premium across every client, not one person's paycheck — and if you ever sell the agency, its value is typically priced as a multiple of revenue or EBITDA, with recent market data showing small agencies (under $500k revenue) trading around 4-7x EBITDA and larger, well-run brokerages reaching double-digit multiples. The full breakdown, including commission-rate tables by line of business, is in [how much do insurance agencies make](/qa/how-much-do-insurance-agencies-make)."
+      "text": "It's worth separating two different numbers here. As an employee, the U.S. Bureau of Labor Statistics reports a median annual wage of $60,370 for insurance sales agents as of May 2024, with the lowest 10% earning under $36,390 and the top 10% earning more than $135,660. As a business, an insurance agency's income is a function of its total book of commissionable premium across every client, not one person's paycheck — and if you ever sell the agency, its value is typically priced as a multiple of revenue or EBITDA, with recent market data showing small agencies (under $500k revenue) trading around 4-7x EBITDA and larger, well-run brokerages reaching double-digit multiples. The full breakdown, including commission-rate tables by line of business, is in [how much do insurance agencies make](/qa/how-much-do-insurance-agencies-make). Life insurance sits at the extreme end of this range, with first-year commissions of 55-120% of premium against a much lower renewal trail — see our companion guide, [Life Insurance Fundamentals](/learn/life-insurance-fundamentals-worth-it-payouts-ownership), for the consumer side of that same product line."
     },
     {
       "type": "heading",

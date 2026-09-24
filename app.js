@@ -19,6 +19,62 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "First-Party Insurance Claims: What They Are and How to File One",
+    "slug": "first-party-insurance-claims",
+    "description": "What a first-party insurance claim actually is, how it differs from a third-party liability claim, and the practical steps to filing one \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "How to Get Commercial Insurance Quotes: A Step-by-Step Guide",
+    "slug": "quotes-for-commercial-insurance",
+    "description": "How commercial insurance quoting actually works, what information you need ready, and why niche businesses often can't just use an online small-business quote tool \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Boat Rental Insurance: What It Covers for Owners and Renters",
+    "slug": "boat-rental-insurance",
+    "description": "What a boat rental or charter operator's insurance actually needs to cover, and what a renter's own policy typically doesn't \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Hotel Insurance: What It Covers and Why Every Hotel Needs It",
+    "slug": "hotel-insurance",
+    "description": "What a hotel insurance policy actually includes, how it differs from a standard business policy, and what commonly gets missed \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Public Liability Insurance for Gas Engineers: What UK Tradespeople Actually Need",
+    "slug": "gas-engineer-public-liability-insurance",
+    "description": "How much public liability cover a Gas Safe-registered engineer needs, what it covers, and how it differs from professional indemnity insurance \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Compound Insurance: Covering a Multi-Building Commercial Property",
+    "slug": "compound-insurance",
+    "description": "What compound insurance actually covers, who needs it, and how it differs from insuring a single standalone building \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Niche Commercial Insurance: Hotels, Marinas & Malpractice \u2014 A Buyer's Q&A Guide",
+    "slug": "niche-commercial-insurance-hotels-marinas-malpractice",
+    "description": "Answers to the specific questions business owners actually ask about hard-to-place commercial insurance: hotels, boat rentals, aviation liability, malpractice, and first-party property claims.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Life Insurance Fundamentals: Is It Worth It, How Payouts Work, and Who Can Own a Policy",
+    "slug": "life-insurance-fundamentals-worth-it-payouts-ownership",
+    "description": "A complete guide to life insurance fundamentals: whether it's worth it, how much you need, how payouts and ownership rules actually work.",
+    "category": "life-insurance"
+},
+
+    {
     "title": "Starting & Running an Insurance Agency: The Complete Guide for New and Growing Owners",
     "slug": "starting-and-running-an-insurance-agency",
     "description": "A complete guide to starting an insurance agency and running an insurance agency profitably \u2014 licensing steps, business plans, commissions, client acquisition, and commercial sales.",
@@ -502,6 +558,146 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Do California Attorneys Need Malpractice Insurance?",
+      "slug": "attorney-malpractice-insurance-california",
+      "shortAnswer": "California doesn't require most private-practice attorneys to carry malpractice (professional liability) insurance to hold a law license, but it does require disclosure: since 2011, California lawyers who lack malpractice coverage must notify clients in writing, and the State Bar requires every licensed attorney to certify their insurance status when they pay annual dues. In practice, most firms carry it anyway, since a single uninsured malpractice claim can be financially catastrophic for a solo or small-firm practitioner.",
+      "category": "General"
+},
+
+      {
+      "question": "Do You Need a First-Party Insurance Claim Attorney?",
+      "slug": "first-party-insurance-claim-attorney",
+      "shortAnswer": "You generally need a first-party insurance claim attorney when your own insurer has denied a legitimate claim, offered a settlement significantly below what your policy and the actual damage justify, or is delaying the claim without a clear, reasonable explanation \u2014 not for a straightforward claim that's being processed normally. Most attorneys in this space work on contingency (a percentage of any increased recovery), so there's typically no upfront cost to at least get an opinion on whether your case is worth pursuing.",
+      "category": "General"
+},
+
+      {
+      "question": "What Is KYC in Insurance?",
+      "slug": "kyc-insurance",
+      "shortAnswer": "KYC (Know Your Customer) in insurance is the identity-verification and risk-assessment process insurers run on new and existing policyholders to prevent fraud, money laundering, and identity theft, and to comply with anti-money-laundering (AML) regulations. It isn't a product you buy \u2014 \"KYC insurance\" typically refers to this compliance process itself, not a specific insurance policy, though it's an increasingly common step at both purchase and claim time.",
+      "category": "General"
+},
+
+      {
+      "question": "What Is Aviation Products Liability Insurance?",
+      "slug": "aviation-products-liability-insurance",
+      "shortAnswer": "Aviation products liability insurance protects manufacturers, distributors, repair stations, and sellers of aircraft, aircraft parts, or aviation equipment against claims that a defective product caused injury, death, or property damage. Because a single component failure can contribute to a catastrophic accident, this is one of the highest-stakes and most specialized liability lines in commercial insurance, almost always placed through an aviation insurance specialist rather than a general product liability insurer.",
+      "category": "General"
+},
+
+      {
+      "question": "How Do You Make a Successful Water Leak Insurance Claim in the UK?",
+      "slug": "water-leak-insurance-claim-uk",
+      "shortAnswer": "A successful UK water leak claim depends on acting fast to stop further damage, documenting everything (photos, the source of the leak, and any professional trace-and-access report) before repairs begin, and understanding that most UK buildings policies cover sudden, accidental leaks but exclude damage from gradual wear, poor maintenance, or a leak you knew about and didn't fix. This is a first-party claim, filed against your own buildings or contents policy, not a liability claim against someone else.",
+      "category": "Home"
+},
+
+      {
+      "question": "How Do You Get Bond Insurance Quotes?",
+      "slug": "bond-insurance-quotes",
+      "shortAnswer": "A surety bond quote is generated by a surety company (often through a specialist bond agent) based primarily on your personal credit score, business financials, and the specific bond type and amount required \u2014 not a generic online form. Most bond premiums range from about 1% to 15% of the total bond amount depending on credit and bond type, and you can typically get a preliminary quote within a day, though larger contract bonds require a fuller underwriting review.",
+      "category": "General"
+},
+
+      {
+      "question": "What Is Airport Liability Insurance?",
+      "slug": "airport-liability-insurance",
+      "shortAnswer": "Airport liability insurance is a specialized commercial policy covering an airport owner, operator, or ground handler against third-party claims for bodily injury or property damage occurring on airport premises or arising from airport operations \u2014 think a passenger injury in the terminal, a ground vehicle collision on the tarmac, or damage to an aircraft during ground handling. It's a distinct product from standard general liability insurance because aviation-specific risks (aircraft, fueling, ground equipment) usually fall outside a standard commercial general liability policy.",
+      "category": "General"
+},
+
+      {
+      "question": "What Does \"Planned Care\" Mean in an Insurance Policy?",
+      "slug": "planned-care",
+      "shortAnswer": "\"Planned care\" refers to medical treatment that's scheduled in advance rather than needed urgently \u2014 the opposite of emergency or urgent care. In health and travel insurance policies, this distinction matters because planned care (like a pre-scheduled surgery or a known ongoing treatment) is often subject to pre-authorization requirements, waiting periods, or exclusions that emergency care isn't. It isn't the name of a single insurance company; it's a coverage-timing category that appears across many different insurers' policy wording.",
+      "category": "Health"
+},
+
+      {
+      "question": "What Is an Insured Closing Letter?",
+      "slug": "insured-closing-letter",
+      "shortAnswer": "An Insured Closing Letter (ICL), also called a closing protection letter (CPL), is a document a title insurance underwriter issues to a mortgage lender promising to reimburse the lender for certain losses caused by the closing agent's fraud, theft, or failure to follow the lender's written closing instructions. It's a real estate and title insurance term, not a general commercial insurance product \u2014 it protects the lender specifically, not the buyer or seller.",
+      "category": "General"
+},
+
+      {
+      "question": "What Is Cast Insurance in Film and TV Production?",
+      "slug": "cast-insurance",
+      "shortAnswer": "Cast insurance is a specialized production insurance coverage that reimburses a film, TV, commercial, or live production for extra costs \u2014 reshoots, delays, recasting, or cancellation \u2014 if a covered cast member becomes unable to perform due to illness, injury, or death. It's typically one piece of a broader production insurance package that also covers negative film, sets, and equipment. See our broader [niche commercial insurance guide](/learn/niche-commercial-insurance-hotels-marinas-malpractice) for how this fits alongside other specialty lines.",
+      "category": "General"
+},
+
+      {
+      "question": "Colonial Penn life insurance rate chart by age",
+      "slug": "colonial-penn-life-insurance-rate-chart-by-age",
+      "shortAnswer": "Colonial Penn doesn't publish one universal rate chart \u2014 its guaranteed acceptance whole life insurance is priced per \"unit\" of coverage, with the price per unit varying by your age, gender (except in Montana), and state of residence, starting at locked-in rates as low as $9.95 a month for the smallest unit. Because exact per-age pricing varies by state and gender, getting a personalized quote directly from Colonial Penn is the only way to see your actual rate.",
+      "category": "Life"
+},
+
+      {
+      "question": "How long does life insurance last",
+      "slug": "how-long-does-life-insurance-last",
+      "shortAnswer": "It depends on the policy type: term life insurance lasts a fixed period, commonly 10 to 30 years, and simply ends unless renewed or converted; whole life insurance is designed to last your entire lifetime as long as premiums are paid; and universal life insurance is flexible but can lapse before death if its cash value isn't sufficient to cover its internal cost of insurance.",
+      "category": "Life"
+},
+
+      {
+      "question": "How to use life insurance while alive",
+      "slug": "how-to-use-life-insurance-while-alive",
+      "shortAnswer": "You can access value from a life insurance policy while alive in two main ways: borrowing against or withdrawing from a permanent policy's accumulated cash value, or using an accelerated death benefit rider (increasingly common on both term and permanent policies) that pays out a portion of the death benefit early if you're diagnosed with a qualifying terminal or chronic illness. Term life insurance without such a rider generally offers no way to access money while you're alive.",
+      "category": "Life"
+},
+
+      {
+      "question": "How long does life insurance payout take",
+      "slug": "how-long-does-life-insurance-payout-take",
+      "shortAnswer": "Most life insurance claims are paid within 30 to 60 days once the insurer receives complete documentation (typically a certified death certificate and a completed claim form), and many states set a statutory outer limit around 60 days before an insurer can face bad-faith liability for delay. A death occurring within the policy's first two years can take longer, since it may trigger a contestability review of the original application.",
+      "category": "Life"
+},
+
+      {
+      "question": "How much life insurance do I need",
+      "slug": "how-much-life-insurance-do-i-need",
+      "shortAnswer": "A common starting point is 10 to 15 times your annual income, refined using the DIME method: add up your outstanding Debt, the Income you want to replace for a set number of years, your remaining Mortgage balance, and future Education costs for any children, then subtract existing savings and coverage. The right number depends on your specific dependents, debts, and goals more than any single rule of thumb.",
+      "category": "Life"
+},
+
+      {
+      "question": "Is life insurance an asset",
+      "slug": "is-life-insurance-an-asset",
+      "shortAnswer": "It depends on the policy type: a permanent life insurance policy (whole or universal life) builds cash value that you can borrow against, withdraw, or surrender for cash, making it a genuine asset you can list on a personal financial statement. Term life insurance has no cash value while you're alive, so it isn't an asset in the traditional sense \u2014 it only creates value for beneficiaries if a death benefit is actually paid.",
+      "category": "Life"
+},
+
+      {
+      "question": "Can you get life insurance on anyone",
+      "slug": "can-you-get-life-insurance-on-anyone",
+      "shortAnswer": "No \u2014 every U.S. state requires the person buying a life insurance policy to have insurable interest in the person being insured, meaning a genuine financial or family relationship such that the insured person's death would cause real financial hardship. You generally also need the insured person's knowledge and signed consent before a policy can be issued on their life.",
+      "category": "Life"
+},
+
+      {
+      "question": "Is life insurance a scam",
+      "slug": "is-life-insurance-a-scam",
+      "shortAnswer": "No, life insurance is not a scam \u2014 it's a legitimate, heavily regulated financial product, with every carrier licensed at the state level and every state maintaining a guaranty association that backs claims if an insurer fails. The \"scam\" perception usually comes from specific, avoidable problems: a mismatch between the policy type sold and the buyer's actual need, unclear disclosure about cash-value growth, or a policy that lapsed after years of premiums \u2014 not fraud in the product category itself.",
+      "category": "Life"
+},
+
+      {
+      "question": "John Hancock life insurance customer service",
+      "slug": "john-hancock-life-insurance-customer-service",
+      "shortAnswer": "John Hancock routes customer service by product line rather than a single general number: traditional in-force life insurance customer service is 800-505-9427, term life sales support is 866-595-7361, and long-term care customer service is 800-377-7311, all Monday-Friday during Eastern Time business hours. Because these lines are product-specific, using the exact number tied to your policy type \u2014 found on your policy documents \u2014 gets you connected faster than a generic search result.",
+      "category": "Life"
+},
+
+      {
+      "question": "John Hancock life insurance",
+      "slug": "john-hancock-life-insurance",
+      "shortAnswer": "John Hancock is a real, well-established U.S. life insurance brand founded in 1862 and owned by Manulife since 2004, carrying an A+ (Superior) AM Best rating. It offers term, whole, and universal (including indexed and variable) life insurance, and is best known for its Vitality program, which rewards healthy habits with premium discounts of up to 25%, though its J.D. Power customer satisfaction scores run below the industry average.",
+      "category": "Life"
+},
+
       {
       "question": "Essentia insurance",
       "slug": "essentia-insurance",

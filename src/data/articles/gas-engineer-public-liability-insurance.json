@@ -1,0 +1,107 @@
+{
+  "type": "learn",
+  "id": "gas-engineer-public-liability-insurance",
+  "slug": "gas-engineer-public-liability-insurance",
+  "title": "Public Liability Insurance for Gas Engineers: What UK Tradespeople Actually Need",
+  "description": "How much public liability cover a Gas Safe-registered engineer needs, what it covers, and how it differs from professional indemnity insurance — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "gas engineer public liability insurance",
+    "gas safe insurance",
+    "tradesman insurance",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "uk"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Public liability insurance for gas engineers covers third-party injury or property damage claims arising from your work — a customer's home damaged by a gas leak, an injury during installation — not your own tools, van, or professional negligence claims.",
+    "Gas Safe Register itself doesn't legally mandate a specific minimum liability limit, but most letting agents, housing associations, and commercial clients require £2 million to £5 million in cover before they'll hire an engineer, making it a practical necessity even without a strict legal minimum.",
+    "Public liability and professional indemnity insurance cover different things: public liability handles physical injury and property damage, while professional indemnity covers financial loss from a negligent certificate, inspection, or advice — many gas engineers carry both.",
+    "Premiums are driven primarily by your specific work (domestic servicing versus commercial/industrial gas work carries different risk), annual turnover, and claims history, typically ranging from under £100 to several hundred pounds a year for a sole trader.",
+    "This sits alongside employer's liability insurance, which is a legal requirement (not optional) the moment you employ anyone, even a single apprentice, separate from public liability."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does public liability insurance cover me if I make a mistake that damages a customer's boiler?",
+      "answer": "It depends on the nature of the claim. Damage to a third party's property caused by your work is typically covered under public liability. However, the cost of simply redoing faulty work itself, without third-party injury or separate property damage, often falls under a workmanship guarantee or professional indemnity rather than public liability — check your specific policy wording."
+    },
+    {
+      "question": "Can I get gas engineer public liability insurance as a sole trader without employees?",
+      "answer": "Yes, sole traders without employees are a common customer for this exact product, and many insurers offer policies specifically scaled and priced for sole-trader gas engineers."
+    },
+    {
+      "question": "Do I need public liability insurance to register with Gas Safe?",
+      "answer": "Gas Safe Register's own registration process does not itself mandate a specific liability insurance minimum, but nearly every paying client or letting agency will require proof of cover before hiring you, making it a practical requirement in almost all cases."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Gas work carries real consequences when something goes wrong — a leak, an explosion, carbon monoxide exposure — which is exactly why public liability insurance is such a consistently searched topic among Gas Safe-registered engineers. Below are the specific questions engineers actually need answered before choosing a policy."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does Public Liability Insurance Actually Cover for a Gas Engineer?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public liability insurance covers claims made by third parties — customers, members of the public, or anyone not employed by you — for bodily injury or property damage caused by your work. For a gas engineer, that typically means: a gas leak causing property damage or injury, a fire resulting from a faulty installation, or an injury to someone on-site during a job. It does not cover your own tools, van, or health, and it does not cover the cost of redoing faulty work itself — that's a workmanship or professional indemnity matter, covered separately."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is Gas Engineer Public Liability Insurance Actually a Legal Requirement?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gas Safe Register registration itself does not legally mandate carrying a specific minimum level of public liability insurance as a condition of registration. In practice, though, it functions as a near-universal requirement: most letting agents, housing associations, local authorities, and commercial clients contractually require proof of public liability cover — commonly £2 million to £5 million — before they'll engage an engineer at all, which makes it a practical necessity for almost anyone doing paid gas work beyond the smallest domestic jobs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Cover Do You Actually Need?"
+    },
+    {
+      "type": "paragraph",
+      "text": "£2 million is a common baseline for domestic residential work, while £5 million or higher is frequently expected for commercial or industrial gas work, larger housing association contracts, or higher-risk installations. Rather than guessing, check the specific requirement stated in each client or letting agency contract you work under — requirements can genuinely vary between individual clients even within the same trade, and carrying too little cover for a specific contract can mean losing the work entirely, not just facing a coverage gap."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Is This Different From Professional Indemnity Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public liability covers physical injury and property damage to third parties. Professional indemnity covers a different risk entirely: financial loss suffered by a client because of your professional advice, certification, or inspection being negligent — for example, signing off a Landlord Gas Safety Record (CP12) on an installation that later turns out to be unsafe, leading to a financial claim rather than a direct injury claim. Many gas engineers, particularly those doing landlord safety inspections and certification work, carry both public liability and professional indemnity cover together, since each addresses a genuinely different failure mode."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Else Do Gas Engineers Typically Need Alongside Public Liability?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Employer's liability insurance is a legal requirement in the UK the moment you employ anyone, including a single apprentice, and is entirely separate from public liability — it's not optional and carries its own minimum legal limit (£5 million). Tool and equipment cover, van insurance, and business interruption cover are also commonly bundled into a tradesman's insurance package alongside public liability, though each remains a distinct type of protection addressing a different risk."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature and reflects UK market practice as of the publication date. Specific insurance requirements vary by client, contract, and local authority, and Gas Safe Register requirements can be updated. Always confirm current registration and insurance requirements directly with Gas Safe Register and your specific clients or contracts."
+    }
+  ]
+}

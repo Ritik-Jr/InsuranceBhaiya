@@ -1,0 +1,116 @@
+{
+  "type": "learn",
+  "id": "first-party-insurance-claims",
+  "slug": "first-party-insurance-claims",
+  "title": "First-Party Insurance Claims: What They Are and How to File One",
+  "description": "What a first-party insurance claim actually is, how it differs from a third-party liability claim, and the practical steps to filing one — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "first party insurance",
+    "first party insurance claim",
+    "insurance claims",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us",
+    "uk",
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "A first-party insurance claim is one you file against your own policy for your own loss — damage to your home, business property, or vehicle — as distinct from a third-party liability claim someone else files against your insurance for harm you caused them.",
+    "First-party claims are governed by your direct contract with your insurer, and most US states impose a duty of good faith and fair dealing on how insurers must handle them, including specific timelines for acknowledgment, investigation, and payment.",
+    "The core practical steps are consistent across property types: document the loss thoroughly before repairs, report promptly, mitigate further damage, and keep detailed records of every communication and expense.",
+    "A denial or lowball settlement offer doesn't automatically mean the claim is over — requesting a written explanation, getting an independent estimate, and filing a state insurance department complaint are all available steps before considering [hiring a first-party claim attorney](/qa/first-party-insurance-claim-attorney).",
+    "This concept applies across many of the specific claim situations covered elsewhere in this guide, including [water leak claims in the UK](/qa/water-leak-insurance-claim-uk), which is a specific example of a first-party property claim."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is a first-party claim the same as filing a lawsuit against my insurer?",
+      "answer": "No. Filing a first-party claim is simply the normal process of reporting a covered loss and requesting payment under your own policy. It only becomes a legal dispute if the insurer denies or underpays the claim in a way you believe violates the policy or applicable regulations."
+    },
+    {
+      "question": "How long does an insurer have to respond to a first-party claim?",
+      "answer": "This varies by state, but most states set specific deadlines for acknowledging a claim, completing an investigation, and paying undisputed amounts, often ranging from a matter of days to a few weeks depending on the stage. Check your specific state's unfair claims settlement practices act or ask your state Department of Insurance for the applicable deadlines."
+    },
+    {
+      "question": "Can a first-party claim affect my future premiums even if it's paid in full?",
+      "answer": "Yes, potentially — filing a claim, even a legitimate and fully paid one, can affect renewal pricing or, in some cases, renewal eligibility, depending on your insurer, policy type, and state regulations governing non-renewal."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "\"First-party insurance claim\" is one of the foundational concepts underneath a lot of more specific insurance searches — whether you're dealing with storm damage to a commercial building, a leak in your home, or theft from your business. Below are the questions people actually need answered about how these claims work."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Exactly Is a First-Party Insurance Claim?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A first-party claim is one you make against your own insurance policy for a loss you've suffered directly — damage to your own home, business property, or vehicle from a covered peril like fire, storm, theft, or an accidental water leak. This is different from a third-party claim, where someone else (a customer, a member of the public, another driver) files a claim against your liability coverage because you or your business caused them harm. The distinction matters because it determines which part of your policy applies, and because the legal relationship is different: in a first-party claim, you're asking the insurer you've paid premiums to honor its own promise to you."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Duties Does Your Insurer Actually Owe You on a First-Party Claim?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most US states impose a duty of good faith and fair dealing on insurers handling first-party claims, backed by unfair claims settlement practices acts that set specific standards: timely acknowledgment of a reported claim, a reasonable and prompt investigation, and payment of amounts that aren't genuinely in dispute without unreasonable delay. These aren't just best practices — violating them can expose an insurer to bad-faith liability beyond the original claim amount in some states, which is part of why understanding your state's specific claims-handling deadlines is worth doing even before a dispute arises."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Are the Practical Steps to Filing One Successfully?"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Document the loss thoroughly — photos and video of the damage before any cleanup or repair begins, since it's very difficult to reconstruct evidence afterward.",
+        "Report the claim promptly rather than waiting, since delayed reporting can itself become a point of dispute even on an otherwise valid claim.",
+        "Take reasonable steps to prevent further damage (covering a hole in a roof, shutting off a water supply) — most policies require this, and it protects your claim as much as your property.",
+        "Keep a complete, dated log of every communication with your insurer, including names, dates, and what was said or promised.",
+        "Get independent repair or replacement estimates to compare against whatever figure your insurer offers."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Should You Do If a Claim Is Denied or Underpaid?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Start by requesting a written explanation citing the specific policy language the insurer relied on for the denial or reduced offer — insurers are generally required to provide this, and vague verbal explanations aren't enough to evaluate whether the decision is actually correct. From there, an independent damage estimate, a complaint to your state's Department of Insurance if you believe claims-handling regulations were violated, and, if the dispute remains significant, [consulting a first-party claim attorney](/qa/first-party-insurance-claim-attorney) (most work on contingency, so there's typically no upfront cost to get an opinion) are all reasonable next steps in roughly that order."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Does This Play Out for a Specific Type of Property Loss?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The core process is consistent, but the specific documentation and coverage triggers vary by loss type. A UK homeowner dealing with water damage, for example, faces a specific 'sudden versus gradual' distinction that determines coverage — see [how to make a successful water leak insurance claim in the UK](/qa/water-leak-insurance-claim-uk) for that specific walkthrough. A commercial property owner dealing with a covered loss should similarly confirm exactly what their specific policy defines as a covered peril before assuming a loss will be paid."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature and does not constitute legal advice. Claims-handling rights, deadlines, and insurer obligations vary significantly by state, country, and policy type. Consult your policy documents, your state Department of Insurance, or a licensed attorney for guidance specific to your situation."
+    }
+  ]
+}

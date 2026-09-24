@@ -1,0 +1,100 @@
+{
+  "type": "learn",
+  "id": "compound-insurance",
+  "slug": "compound-insurance",
+  "title": "Compound Insurance: Covering a Multi-Building Commercial Property",
+  "description": "What compound insurance actually covers, who needs it, and how it differs from insuring a single standalone building — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "compound insurance",
+    "multi-building insurance",
+    "commercial property insurance",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us",
+    "uk",
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "\"Compound insurance\" generally refers to a single policy covering multiple buildings or structures on one walled, gated, or fenced site — a school, factory, religious compound, embassy, or residential estate — rather than one standalone building.",
+    "It's not a single named insurance product sold under that exact name by every insurer; it's a description of the underwriting structure (one policy, multiple structures, shared perimeter) more than a specific policy form.",
+    "The main advantage over insuring each building separately is administrative simplicity and often better pricing, since the insurer underwrites the whole site as one coordinated risk rather than several unrelated ones.",
+    "Compound insurance still typically includes the standard commercial property building blocks — building/structure coverage, contents, business interruption, and liability — just applied across every structure on the site.",
+    "This shares underwriting logic with other niche commercial lines in this series, like [hotel insurance](/learn/hotel-insurance), where a single business operates across multiple connected structures under one coordinated policy."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is compound insurance the same as a business owner's policy (BOP)?",
+      "answer": "Not necessarily. A BOP is typically designed for a single small business location. Compound insurance describes coverage spanning multiple buildings on one site, which usually requires more detailed, location-by-location underwriting than a standard BOP provides."
+    },
+    {
+      "question": "Can I insure some buildings on my compound and not others?",
+      "answer": "Yes, though it's generally not advisable. Leaving a structure uninsured on an otherwise-insured compound creates a gap where damage originating in the uninsured building (like a fire) may complicate or reduce claims on the insured structures nearby."
+    },
+    {
+      "question": "Does compound insurance include liability coverage for visitors?",
+      "answer": "Often yes, either bundled into the property policy or as a companion general liability policy, but this varies by insurer — always confirm liability coverage is explicitly included rather than assuming it is."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "\"Compound insurance\" is one of the more ambiguous terms in commercial property insurance — it isn't a single, standardized product every insurer sells under that exact name. Instead, it describes a common underwriting situation: a business, institution, or family owns several buildings on one shared, typically enclosed site (a compound), and wants them covered under one coordinated policy rather than several disconnected ones. Below are the questions people actually ask about it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does \"Compound\" Actually Mean in This Context?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A compound is a group of buildings or structures sharing one enclosed site — typically with a shared perimeter wall or fence, shared access points, and often shared utilities or security. Common real-world examples include a school campus with multiple academic buildings, a manufacturing site with a main factory plus several outbuildings, a religious compound with a worship hall and associated residences, an embassy compound, or a large residential estate with a main house and several secondary structures. Insuring all of it under one compound policy is administratively simpler than separately insuring each building."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does a Compound Insurance Policy Typically Cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It generally covers the same core elements as any commercial property policy — physical damage to each building/structure, contents and equipment inside them, and often business interruption if the operation on-site is disrupted — applied consistently across every structure named on the schedule of locations. Liability coverage for injuries occurring anywhere on the compound (a visitor, employee, or contractor injury) is also typically included or added as a companion policy, since a single incident on a multi-building site can otherwise create confusing coverage gaps between separately-insured buildings."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Insure Everything Under One Policy Instead of Several?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Underwriting the whole compound as one coordinated risk typically simplifies claims handling (one insurer, one adjuster, one point of contact regardless of which building is affected), can reduce total premium compared to several disconnected policies with overlapping administrative costs, and avoids coverage gaps at the boundary between buildings — a real risk when, say, a fire spreads from an uninsured outbuilding into a separately-insured main structure. The tradeoff is that a single large policy requires more detailed underwriting information about every structure on-site upfront."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Actually Buys This Kind of Coverage?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compound-style coverage is common for schools and universities, manufacturing and industrial sites, religious institutions, diplomatic and embassy properties, large agricultural operations with multiple structures, and high-value residential estates with several buildings on one enclosed property. It's a specialty underwriting need best handled by a commercial broker experienced in multi-location risk, similar to how [hotel insurance](/learn/hotel-insurance) and [boat rental insurance](/learn/boat-rental-insurance) require brokers who understand those specific trades rather than a generic small-business policy."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. \"Compound insurance\" is not a standardized policy name across the industry, and specific coverage, terminology, and availability vary significantly by insurer, country, and property type. Consult a licensed commercial insurance broker to structure coverage for a specific multi-building property."
+    }
+  ]
+}

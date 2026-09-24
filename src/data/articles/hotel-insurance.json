@@ -1,0 +1,109 @@
+{
+  "type": "learn",
+  "id": "hotel-insurance",
+  "slug": "hotel-insurance",
+  "title": "Hotel Insurance: What It Covers and Why Every Hotel Needs It",
+  "description": "What a hotel insurance policy actually includes, how it differs from a standard business policy, and what commonly gets missed — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "hotel insurance",
+    "hospitality insurance",
+    "commercial property insurance",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us",
+    "uk",
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Hotel insurance is a package of several distinct coverages — property, general liability, business interruption, liquor liability, and often innkeeper's liability for guest belongings — not a single standardized policy every hotel buys off the shelf.",
+    "Because guests, not just employees, are constantly present on the premises, hotels carry significantly higher general liability exposure than most commercial properties, which is reflected directly in underwriting and pricing.",
+    "Innkeeper's liability (covering guest property lost, damaged, or stolen while in the hotel's care) is a distinct legal concept with its own statutory limits in many US states, separate from the hotel's general property or liability coverage.",
+    "Business interruption coverage is arguably the most commonly underinsured piece of a hotel policy, since a fire, storm, or major system failure can shut down revenue for months even when the physical rebuild is covered elsewhere.",
+    "Hotels with a bar, restaurant, pool, or spa each add distinct exposures — liquor liability, food-borne illness, drowning risk, treatment-related injury — that need to be specifically confirmed as included, not assumed."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does hotel insurance cover damage caused by a guest?",
+      "answer": "Property damage caused by a guest (accidental or otherwise) is typically covered under the hotel's own property policy, though the hotel may also have a right to seek reimbursement from the responsible guest separately, depending on the circumstances and applicable law."
+    },
+    {
+      "question": "Is liquor liability automatically included in a hotel policy?",
+      "answer": "Not always — liquor liability is often a separate endorsement or standalone policy rather than automatically bundled into a base hotel package, so any hotel serving alcohol should confirm it's specifically included."
+    },
+    {
+      "question": "How is a boutique hotel's insurance different from a large chain property's?",
+      "answer": "The core coverage types are similar, but a boutique or independent hotel typically has less negotiating leverage and fewer standardized risk-management programs than a large chain, which can affect pricing; specialty hospitality brokers exist specifically to help smaller independent properties access appropriately priced coverage."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A hotel is simultaneously a commercial building, a high-traffic public space, and often a food, beverage, and entertainment venue all at once — which is exactly why a generic small-business policy usually can't price or cover it properly. Below are the specific questions hotel owners and operators need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Coverages Actually Make Up a Hotel Insurance Policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A typical hotel insurance package combines several distinct lines: commercial property coverage (the building, furnishings, and equipment), general liability (guest and visitor injuries on the premises), business interruption (lost income if the hotel has to close after a covered loss), innkeeper's liability (guest belongings lost or stolen while in the hotel's care), and often liquor liability if the hotel serves alcohol. Larger properties typically add umbrella liability for catastrophic claims beyond the primary policy's limits, and cyber liability given the volume of guest payment and personal data hotels handle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Is General Liability Exposure So Much Higher for a Hotel Than a Typical Business?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most commercial properties primarily expose the business to claims from employees (covered separately under workers' compensation) and occasional visitors. A hotel, by contrast, has a constant, rotating population of guests — often hundreds per night — moving through hallways, stairs, pools, parking areas, and public spaces at all hours, which materially increases the statistical likelihood of a slip, fall, or other injury claim relative to a typical office or retail property. This is a core reason hotel liability underwriting looks more like [airport liability insurance](/qa/airport-liability-insurance) than a standard small-business policy — both involve constant high-volume public foot traffic as the central risk driver."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Is Innkeeper's Liability, and Why Does It Matter Separately?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Innkeeper's liability addresses a hotel's legal responsibility for guests' personal property left in their care — items lost, stolen, or damaged from a guest room, or held in a hotel safe or luggage storage. Many US states have specific innkeeper statutes that cap a hotel's liability at a set dollar amount if the hotel provides a safe and posts required notices, which is a very different legal framework from general property or liability coverage, and one that's easy to overlook when assembling a policy — it needs to be specifically confirmed rather than assumed as automatically bundled."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Is Business Interruption Coverage So Often Underinsured?"
+    },
+    {
+      "type": "paragraph",
+      "text": "After a fire, major storm, or significant system failure (a burst pipe flooding multiple floors, for example), a hotel can lose weeks or months of revenue even while the physical rebuild itself is covered by property insurance. Business interruption coverage is meant to replace that lost income and cover ongoing fixed expenses during the closure, but hotel owners frequently underestimate the realistic recovery timeline when setting their coverage period — a policy with only a 3-month interruption period can leave a significant gap if reconstruction or permitting realistically takes twice that long."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Extra Exposures Come From a Bar, Restaurant, Pool, or Spa?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each amenity adds its own distinct risk that needs to be specifically confirmed as covered: a bar or restaurant adds liquor liability (for injuries caused by an intoxicated guest) and food-borne illness exposure; a pool adds drowning and slip-and-fall risk requiring specific coverage and often minimum safety-standard compliance; a spa adds treatment-related injury exposure similar to other personal-service businesses. None of these are automatically assumed to be included in a base hotel policy — each is worth confirming individually with your broker rather than assuming bundled coverage."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Hotel insurance requirements, statutory innkeeper liability limits, and available coverage vary significantly by state, country, and property type. Consult a licensed commercial insurance broker experienced in hospitality risk to structure coverage for a specific property."
+    }
+  ]
+}
