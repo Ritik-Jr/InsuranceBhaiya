@@ -1,0 +1,115 @@
+{
+  "type": "learn",
+  "id": "professional-indemnity-insurance",
+  "slug": "professional-indemnity-insurance",
+  "title": "Professional Indemnity Insurance: What It Covers and Who Needs It",
+  "description": "How professional indemnity insurance works, how it differs from public liability and errors & omissions, and who's typically required to carry it — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "professional indemnity insurance",
+    "errors and omissions insurance",
+    "gas engineer public liability insurance",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "uk",
+    "us",
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Professional indemnity insurance (PI) — called errors & omissions (E&O) insurance in the US — covers financial loss a client suffers because of your professional advice, service, or certification being negligent, not physical injury or property damage.",
+    "It's a distinct coverage from public liability insurance, which handles physical injury and property damage claims; many professionals, including [gas engineers doing certification work](/learn/gas-engineer-public-liability-insurance), need both together rather than one substituting for the other.",
+    "PI is a mandatory condition of practice for many regulated professions — solicitors, accountants, architects, financial advisers — set by their regulatory or professional body, not left entirely to individual choice the way it is for some other trades.",
+    "Like most professional liability lines, PI is typically written on a claims-made basis, meaning run-off or 'tail' cover matters enormously when a professional retires, changes firms, or lets a policy lapse.",
+    "This is the same underlying concept covered for two specific professions elsewhere in this guide — [attorney malpractice insurance](/qa/attorney-malpractice-insurance-california) and [medical malpractice insurance](/learn/medical-malpractice-insurance) — professional indemnity is simply the broader umbrella term, especially common in the UK, covering the same idea across many other professions."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is professional indemnity insurance the same thing as errors & omissions (E&O) insurance?",
+      "answer": "Yes, functionally — \"professional indemnity insurance\" is the term more commonly used in the UK and much of the rest of the world, while \"errors & omissions insurance\" is the more common US term for essentially the same coverage concept."
+    },
+    {
+      "question": "Do freelancers and sole traders need professional indemnity insurance?",
+      "answer": "Often yes, particularly for freelancers offering advice, design, or consulting services, since many corporate clients specifically require proof of PI coverage before engaging an independent contractor, even for relatively small projects."
+    },
+    {
+      "question": "What happens if I stop practicing without buying run-off cover?",
+      "answer": "Without run-off (tail) cover, claims arising from work completed before you stopped practicing can go completely uninsured, which is why regulatory bodies that mandate PI coverage often also require a minimum period of run-off cover when a professional retires or a firm closes."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "\"Professional indemnity insurance\" is the term used across a huge range of professions — architects, accountants, consultants, engineers, surveyors — for essentially the same underlying protection: covering the financial consequences of a professional mistake. Below are the questions professionals and business owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does Professional Indemnity Insurance Actually Cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It covers a client's financial loss resulting from your negligent advice, service, design, or certification — an accountant's error causing a tax penalty, an architect's design flaw causing costly rework, a consultant's bad advice leading to a failed business decision, or an engineer signing off on faulty work. The key distinguishing feature is that the harm is financial rather than physical: no one needs to be injured or any property physically damaged for a PI claim to arise, which is exactly what separates it from public liability or general liability insurance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Is This Different From Public Liability Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public liability insurance covers physical injury or property damage to third parties; professional indemnity covers financial loss from negligent professional advice or work. A [gas engineer](/learn/gas-engineer-public-liability-insurance), for example, needs public liability for a gas leak causing physical damage, but needs professional indemnity separately for a situation where a certificate or inspection they signed off on turns out to be negligently wrong, causing the client financial loss even without any physical incident. Many professionals doing certification, advisory, or design work genuinely need both, rather than treating one as a substitute for the other."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Which Professions Are Actually Required to Carry It?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A number of regulated professions have professional indemnity insurance as a mandatory condition of practice, set by their governing regulatory or professional body rather than left to individual choice — solicitors, chartered accountants, financial advisers, architects, and surveyors are common examples in the UK, with broadly similar mandatory or near-mandatory requirements for equivalent professions (often under the name errors & omissions insurance) in the US. Many other professions carry it voluntarily because clients, particularly larger corporate clients, routinely require proof of coverage before engaging a contractor or consultant."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Does Claims-Made Structure Matter So Much Here Too?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Like most professional liability lines, PI insurance is typically written on a claims-made basis — covering claims made while the policy is active, tied to a retroactive date rather than an unlimited look-back. This makes run-off cover (the equivalent of tail coverage) critical when a professional retires, a firm dissolves, or someone switches insurers, since professional negligence claims can surface years after the work was actually completed, exactly as covered for medical malpractice's tail coverage requirement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Are Limits and Premiums Actually Set?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Coverage limits and pricing are driven primarily by the specific professional activity performed, the typical financial size of the projects or advice involved, and claims history — an architect designing large commercial buildings needs materially higher limits than a sole-practitioner bookkeeper, reflecting the realistic scale of financial loss a mistake in each role could cause. Regulatory bodies that mandate PI coverage often also set minimum required limits specific to that profession, which should be confirmed directly with the relevant regulator rather than assumed."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Part of a Broader Series",
+      "text": "This is one of several niche commercial insurance topics covered in our full guide, [Niche Commercial Insurance: Hotels, Marinas & Malpractice](/learn/niche-commercial-insurance-hotels-marinas-malpractice)."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Professional indemnity insurance requirements, minimum limits, and terminology vary significantly by profession, regulatory body, and country. Consult your relevant professional or regulatory body and a licensed insurance broker for guidance specific to your profession."
+    }
+  ]
+}

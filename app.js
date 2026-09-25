@@ -19,6 +19,69 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "When & How to Hire an Insurance Lawyer (or Insurance Attorney)",
+    "slug": "when-to-hire-an-insurance-lawyer",
+    "description": "When it actually makes sense to hire an insurance lawyer or insurance attorney, what they cost, and how a first-party dispute differs from a third-party auto claim.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Business Life Insurance: Key Person Coverage, Buy-Sell Funding, and Executive Benefits",
+    "slug": "business-life-insurance",
+    "description": "Business life insurance covers key person risk, funds buy-sell agreements, and supports executive benefit plans \u2014 here's how each structure actually works.",
+    "category": "life-insurance"
+},
+
+    {
+    "title": "Loyal American Life Insurance: Who Owns It and What It Actually Sells",
+    "slug": "loyal-american-life-insurance",
+    "description": "Loyal American Life Insurance Company is a real, Cigna-owned carrier focused on Medicare supplement and supplemental health products, not major term life.",
+    "category": "life-insurance"
+},
+
+    {
+    "title": "What a Life Insurance Broker Actually Does, and When You Need One",
+    "slug": "life-insurance-broker",
+    "description": "What a life insurance broker actually does, how they're paid, and when working with one beats buying a policy directly from a single carrier.",
+    "category": "life-insurance"
+},
+
+    {
+    "title": "Professional Indemnity Insurance: What It Covers and Who Needs It",
+    "slug": "professional-indemnity-insurance",
+    "description": "How professional indemnity insurance works, how it differs from public liability and errors & omissions, and who's typically required to carry it \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Event Liability Insurance: What Hotels, Venues, and Planners Need",
+    "slug": "event-liability-insurance",
+    "description": "How event liability and event cancellation insurance work, who's actually required to carry it, and how it fits alongside a hotel or venue's own policy \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Product Liability Insurance: What It Covers and Who Needs It",
+    "slug": "product-liability-insurance",
+    "description": "How product liability insurance works for manufacturers, distributors, and sellers, and how it differs from a specialty line like aviation products liability \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Marina Insurance: Protecting the Property, Not Just the Boats",
+    "slug": "marina-insurance",
+    "description": "What a marina operator's own commercial insurance needs to cover \u2014 docks, storage, fuel operations, and liability \u2014 separate from the watercraft it rents or stores, answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Medical Malpractice Insurance: What It Covers and Who Needs It",
+    "slug": "medical-malpractice-insurance",
+    "description": "How medical malpractice insurance actually works, the difference between claims-made and occurrence policies, and what tail coverage protects against \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "First-Party Insurance Claims: What They Are and How to File One",
     "slug": "first-party-insurance-claims",
     "description": "What a first-party insurance claim actually is, how it differs from a third-party liability claim, and the practical steps to filing one \u2014 answered question by question.",
@@ -558,6 +621,34 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "How Much Does an Insurance Lawyer Cost?",
+      "slug": "how-much-does-an-insurance-lawyer-cost",
+      "shortAnswer": "Most insurance and bad-faith lawyers work on contingency, meaning you pay nothing upfront and nothing at all unless they recover additional money for you \u2014 typically 25%-40% of the extra amount they win, depending on the state, the type of claim, and whether the case settles or goes to trial. Hourly billing is far less common in this practice area and usually only applies to advisory work rather than an active dispute. See our broader guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer) for when this cost is actually worth paying.",
+      "category": "Legal"
+},
+
+      {
+      "question": "Auto Insurance Lawyer vs. Auto Insurance Attorney: Which Do You Actually Need?",
+      "slug": "auto-insurance-lawyer-vs-attorney",
+      "shortAnswer": "\"Auto insurance lawyer\" and \"auto insurance attorney\" are the same profession \u2014 there's no legal distinction between the two words in the US. The real question is what dispute you have: a first-party fight with your own insurer over your own vehicle's damage, or a third-party liability claim against another driver's insurer after they caused an accident. See our companion guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer) for the broader decision framework this fits into.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How does life insurance create an immediate estate",
+      "slug": "how-does-life-insurance-create-an-immediate-estate",
+      "shortAnswer": "Life insurance creates an 'immediate estate' because the full death benefit becomes payable as soon as the policy is in force, even if only one premium payment has been made \u2014 turning a relatively small, single payment into a much larger sum available to beneficiaries right away, rather than requiring years of saving to accumulate the same amount. This is one of the most commonly cited reasons life insurance is used in estate planning: it manufactures instant liquidity.",
+      "category": "Life"
+},
+
+      {
+      "question": "Can you buy life insurance for someone else",
+      "slug": "can-you-buy-life-insurance-for-someone-else",
+      "shortAnswer": "Yes \u2014 you can buy a life insurance policy on someone else, such as a spouse, child, parent, or business partner, as long as you have insurable interest in them and they consent to and sign the application. This is different from asking whether you can insure a random stranger (you can't); buying 'for' someone else, meaning naming them as the insured on a policy you own and pay for, is a routine and common arrangement.",
+      "category": "Life"
+},
+
       {
       "question": "Do California Attorneys Need Malpractice Insurance?",
       "slug": "attorney-malpractice-insurance-california",

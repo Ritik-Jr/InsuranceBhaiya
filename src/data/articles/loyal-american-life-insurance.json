@@ -1,0 +1,97 @@
+{
+  "type": "learn",
+  "id": "loyal-american-life-insurance",
+  "slug": "loyal-american-life-insurance",
+  "title": "Loyal American Life Insurance: Who Owns It and What It Actually Sells",
+  "description": "Loyal American Life Insurance Company is a real, Cigna-owned carrier focused on Medicare supplement and supplemental health products, not major term life.",
+  "category": "life-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 3,
+  "featured": false,
+  "tags": [
+    "loyal american life insurance",
+    "cigna",
+    "medicare supplement",
+    "life-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Loyal American Life Insurance Company is a real, currently licensed and actively filing insurer, incorporated in 1955 and domiciled in Ohio, that operates as part of The Cigna Group's Cigna Healthcare supplemental benefits division.",
+    "Despite the word 'Life' in its name, its core product lines are Medicare supplement insurance, hospital indemnity, lump sum cancer benefits, and critical illness coverage, alongside individual whole life policies typically sized for final-expense coverage.",
+    "Third-party sources commonly cite an A (Excellent) AM Best rating for the entity, but because it's one of several Cigna-affiliated underwriting companies, confirming the specific rating for the exact legal entity issuing your contract is worth doing directly at ambest.com.",
+    "Medicare supplement policies described as 'Loyal American' may actually be underwritten by any of several related Cigna entities (American Retirement Life, Cigna Health and Life, Cigna National Health, or Loyal American itself) depending on your state — checking your actual policy documents matters more than the marketing brand name."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is Loyal American Life Insurance the same company as Cigna?",
+      "answer": "No — Loyal American is a separate, distinct legal entity and licensed insurer, but it operates as a subsidiary within The Cigna Group's Cigna Healthcare supplemental benefits division, so it's Cigna-affiliated rather than simply another name for Cigna itself."
+    },
+    {
+      "question": "Can I buy a large term life policy from Loyal American?",
+      "answer": "Loyal American's life insurance offerings are generally individual whole life policies sized for final-expense coverage rather than large term policies; if you need substantial term coverage, comparing dedicated term life carriers is likely to serve that specific need better."
+    }
+  ],
+  "companionTool": {
+    "slug": "life-insurance-calculator",
+    "title": "Life Insurance Needs Calculator",
+    "description": "Calculate exact capital needed to protect your family with our transparent 10-year income replacement model."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Loyal American Life Insurance Company is a real, actively operating U.S. insurer — not a defunct brand or a scam lookalike. It was incorporated in Ohio in 1955 and continues to file quarterly and annual statutory statements with state insurance regulators as of 2025, confirming it remains a currently licensed carrier."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Ownership: A Cigna Healthcare Subsidiary"
+    },
+    {
+      "type": "paragraph",
+      "text": "Loyal American operates as part of The Cigna Group (NYSE: CI), specifically within Cigna Healthcare's supplemental benefits division. This is the same kind of parent-subsidiary structure covered in our broader guide on [verifying any insurance company's legitimacy](/learn/insurance-company-reviews-is-brand-insurance-legit) — the Loyal American name you see on a policy or marketing material sits underneath a much larger, well-known corporate parent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What It Actually Sells, Despite the 'Life' in Its Name"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Medicare supplement (Medigap) insurance, typically plans A, F, G, and N depending on state availability",
+        "Hospital indemnity insurance",
+        "Lump sum cancer benefit plans",
+        "Critical illness coverage (heart attack, stroke, organ transplant, and similar covered events)",
+        "Individual whole life insurance, generally sized for final-expense coverage rather than large death benefits"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Multiple Cigna Entities Can Appear on the Same Product Line"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cigna's own disclosures note that Medicare supplement policies marketed under its supplemental benefits division may be underwritten by any of several related entities — American Retirement Life Insurance Company, Cigna Health and Life Insurance Company, Cigna Insurance Company, Cigna National Health Insurance Company, or Loyal American Life Insurance Company — depending on the state. This is a common structure for large insurance groups operating across many states with different regulatory environments, and it means the specific underwriting entity on your declarations page, not just the 'Loyal American' or 'Cigna' brand name, is the one whose rating and licensing actually matter for your policy."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Check the Exact Entity Name on Your Policy",
+      "text": "If you're evaluating a Medicare supplement or supplemental health quote associated with Loyal American, confirm the exact underwriting entity listed on the actual policy documents, then verify that specific entity's current AM Best rating and state licensing directly, rather than relying on the parent Cigna brand's reputation alone."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and reflects publicly available information as of the publish date above, including third-party summaries of AM Best ratings that should be independently verified at ambest.com. It does not constitute financial or insurance advice or an endorsement of Loyal American Life Insurance Company or any Cigna-affiliated entity."
+    }
+  ]
+}

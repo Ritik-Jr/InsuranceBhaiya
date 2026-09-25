@@ -1,0 +1,114 @@
+{
+  "type": "learn",
+  "id": "product-liability-insurance",
+  "slug": "product-liability-insurance",
+  "title": "Product Liability Insurance: What It Covers and Who Needs It",
+  "description": "How product liability insurance works for manufacturers, distributors, and sellers, and how it differs from a specialty line like aviation products liability — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "product liability insurance",
+    "manufacturer insurance",
+    "aviation products liability insurance",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us",
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Product liability insurance covers manufacturers, distributors, and sellers against claims that a product they made, distributed, or sold caused injury or property damage — whether from a design defect, a manufacturing flaw, or inadequate warnings and instructions.",
+    "It's usually bundled into a broader commercial general liability (CGL) policy as one specific coverage part, rather than always sold as a fully standalone policy, though larger manufacturers often carry dedicated, higher-limit product liability coverage.",
+    "Liability in a product claim can reach back through the entire supply chain — manufacturer, distributor, and retailer can all potentially be named, which is why even a business that didn't design the product can still face a claim.",
+    "High-consequence industries (medical devices, automotive parts, aviation components, children's products) generally require far higher limits and more specialized underwriting than lower-risk consumer goods.",
+    "[Aviation products liability insurance](/qa/aviation-products-liability-insurance) is a specialty subset of this same core concept, applied specifically to aircraft parts and components, where the long service life of aviation products creates especially significant long-tail exposure."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does product liability insurance cover a product recall?",
+      "answer": "Not automatically — product recall expense (covering the cost of notifying customers and retrieving a defective product) is often a separate coverage or endorsement, distinct from the liability coverage that responds to an actual injury or damage claim."
+    },
+    {
+      "question": "Do service businesses need product liability insurance if they don't manufacture anything?",
+      "answer": "A service business that also sells, installs, or repairs products it didn't manufacture can still face product-related liability claims, particularly if its installation or repair work is implicated, so it's worth evaluating even for businesses that see themselves primarily as service providers."
+    },
+    {
+      "question": "How is completed operations coverage related to product liability?",
+      "answer": "Completed operations liability covers claims arising after a business's work is finished and the customer has taken possession — conceptually similar to product liability but applied to installed work or services rather than a manufactured good, and it's commonly bundled alongside product liability in a CGL policy."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Any business that designs, makes, distributes, or sells a physical product carries some level of product liability exposure, even for products that seem low-risk on their face. Below are the questions businesses actually need answered about this coverage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Kinds of Claims Does Product Liability Insurance Actually Cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It covers three broad categories of claims: design defects (the product's design itself is inherently unsafe, even when made correctly), manufacturing defects (an individual unit was made incorrectly, deviating from the intended design), and marketing or warning defects (inadequate instructions or failure to warn about a known risk). Coverage typically includes both the cost of defending the claim and any resulting settlement or judgment, up to the policy's limits, regardless of whether the underlying claim is ultimately proven."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is This Its Own Standalone Policy, or Part of Something Else?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For most small and mid-sized businesses, product liability is one specific coverage part within a broader commercial general liability (CGL) policy, rather than a completely separate policy purchased on its own. Larger manufacturers, or businesses in higher-risk product categories, often carry dedicated, higher-limit product liability coverage layered on top of or separate from their general CGL policy, since a CGL policy's standard limits are frequently inadequate for a business whose primary risk genuinely is its product."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Can a Retailer Be Sued for a Manufacturer's Defective Product?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Product liability claims can reach across the entire distribution chain under a legal theory called strict liability in many jurisdictions, meaning a manufacturer, distributor, and retailer can each potentially be named in the same lawsuit, even if the retailer had no role in designing or building the product. This is why every business in a product's chain of commerce — not just the original manufacturer — needs to independently evaluate its own product liability exposure rather than assuming liability stops upstream."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Do Some Industries Need Dramatically Higher Limits Than Others?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The realistic worst-case severity of a product failure varies enormously by industry: a defective children's toy, medical device, automotive part, or aviation component can plausibly cause catastrophic, multi-victim harm, while many consumer goods carry a much lower realistic severity ceiling. This is exactly why [aviation products liability insurance](/qa/aviation-products-liability-insurance) exists as its own specialized line rather than being handled under a standard product liability policy — the potential loss severity and the long service life of aviation components require dedicated underwriting expertise most general commercial insurers don't have."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Should a Business Actually Do to Manage This Risk Beyond Buying Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance is one layer of protection, not the whole strategy: maintaining thorough quality control documentation, clear and legally reviewed product warnings and instructions, product recall procedures, and detailed records of design and testing decisions all materially strengthen a business's position if a claim is ever filed, and can meaningfully affect both underwriting terms and claim outcomes."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Part of a Broader Series",
+      "text": "This is one of several niche commercial insurance topics covered in our full guide, [Niche Commercial Insurance: Hotels, Marinas & Malpractice](/learn/niche-commercial-insurance-hotels-marinas-malpractice)."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Product liability insurance requirements, structure, and pricing vary significantly by industry, product type, and jurisdiction. Consult a licensed commercial insurance broker to evaluate product liability exposure specific to your business."
+    }
+  ]
+}

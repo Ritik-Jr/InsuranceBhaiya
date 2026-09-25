@@ -1,0 +1,96 @@
+{
+  "type": "learn",
+  "id": "life-insurance-broker",
+  "slug": "life-insurance-broker",
+  "title": "What a Life Insurance Broker Actually Does, and When You Need One",
+  "description": "What a life insurance broker actually does, how they're paid, and when working with one beats buying a policy directly from a single carrier.",
+  "category": "life-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 3,
+  "featured": false,
+  "tags": [
+    "life insurance broker",
+    "independent life insurance agent",
+    "life insurance commissions",
+    "life-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "A life insurance broker is an independent producer who represents multiple carriers rather than one, and is paid by commission from whichever carrier's policy you ultimately buy — not by a separate fee you pay out of pocket in most cases.",
+    "Brokers add the most value when your health history, coverage amount, or product need (term vs. permanent, business use, high net worth) is complex enough that carrier selection genuinely changes your outcome.",
+    "Life insurance commissions are unusually front-loaded compared to other insurance lines: a first-year commission of 55-120% of premium is common, followed by a much smaller renewal trail, commonly in the 2-5% range.",
+    "A captive agent (representing one carrier) can still be a reasonable choice for simple, standard-risk term coverage, where carrier selection matters less than it does for complex or high-value cases."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does using a life insurance broker cost more than buying directly?",
+      "answer": "Generally no — the broker's commission is built into the premium the carrier charges either way, so using a broker typically doesn't add a separate cost on top of what you'd pay buying directly from that same carrier."
+    },
+    {
+      "question": "How do I find a legitimate, licensed life insurance broker?",
+      "answer": "Check your state's Department of Insurance producer license lookup using the broker's exact legal name, and ask directly which carriers they're appointed with and how many quotes they'll actually generate for your situation."
+    }
+  ],
+  "companionTool": {
+    "slug": "life-insurance-calculator",
+    "title": "Life Insurance Needs Calculator",
+    "description": "Calculate exact capital needed to protect your family with our transparent 10-year income replacement model."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A life insurance broker is an independent insurance producer licensed to sell life insurance from multiple carriers, rather than being contractually tied to just one company the way a captive agent is. This is the same independent-vs-captive distinction covered in our guide on [starting and running an insurance agency](/learn/starting-and-running-an-insurance-agency), applied specifically to life insurance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How a Life Insurance Broker Is Actually Paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokers are compensated through commission built into the policy's premium, paid by whichever carrier underwrites the policy you buy — you generally don't pay the broker a separate fee on top. Life insurance commission structures are notably front-loaded compared to property and casualty lines: a first-year commission of 55-120% of the first year's premium is common, followed by a much smaller ongoing renewal commission, often in the 2-5% range for later years."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When a Broker Adds Real Value"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Complex health history** — a broker can shop your specific health profile across carriers with different underwriting appetites, since one carrier's decline can be another's standard-rate approval.",
+        "**High coverage amounts** — larger policies often benefit from comparing multiple carriers' pricing and financial-strength ratings rather than accepting one company's terms.",
+        "**Business or estate planning use** — key person insurance, buy-sell agreement funding, or estate-liquidity policies often require more sophisticated structuring than a single captive carrier's standard product line offers.",
+        "**Permanent policy comparison** — cash-value growth projections and policy design vary meaningfully across carriers for whole and universal life, making comparison more valuable than for simple term coverage."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When a Captive Agent or Direct Purchase Works Just as Well"
+    },
+    {
+      "type": "paragraph",
+      "text": "For straightforward term life insurance with no unusual health complications, the practical difference between a captive agent's single carrier and a broker's shopped comparison may be small, since term pricing for standard, healthy applicants is relatively competitive across most well-known carriers. In these cases, convenience or an existing relationship with a specific company, such as [John Hancock](/qa/john-hancock-life-insurance), can be a perfectly reasonable basis for choosing where to buy."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Ask Directly How Many Carriers a Broker Actually Represents",
+      "text": "Not all self-described 'brokers' shop a wide panel of carriers — some work primarily with a small handful. Ask specifically which carriers they're appointed with and whether they'll show you more than one quote before assuming you're getting a genuinely shopped comparison."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and does not constitute financial or insurance advice or a recommendation to use a broker versus a captive agent for any specific situation. Compensation structures and carrier appointments vary by broker and by state; confirm current details directly with any producer you're considering working with."
+    }
+  ]
+}

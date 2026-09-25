@@ -1,0 +1,113 @@
+{
+  "type": "learn",
+  "id": "medical-malpractice-insurance",
+  "slug": "medical-malpractice-insurance",
+  "title": "Medical Malpractice Insurance: What It Covers and Who Needs It",
+  "description": "How medical malpractice insurance actually works, the difference between claims-made and occurrence policies, and what tail coverage protects against — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Commercial Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "medical malpractice insurance",
+    "physician liability insurance",
+    "claims-made vs occurrence",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Medical malpractice insurance (also called medical professional liability insurance) covers physicians and other providers against claims of negligence, error, or omission in patient care, including legal defense costs even for claims that are ultimately unsuccessful.",
+    "It isn't legally required in every US state, but it's almost universally required in practice — hospitals, health systems, and insurance networks typically won't grant privileges or contracts without proof of coverage.",
+    "The single most important structural decision is claims-made versus occurrence: an occurrence policy covers an incident whenever the claim is eventually filed, while a claims-made policy only covers claims filed while the policy is active, unless separate tail coverage is purchased.",
+    "Tail coverage (an extended reporting endorsement) is what protects a physician moving practices, retiring, or switching insurers away from a claims-made policy — without it, a legitimate late-filed claim tied to past work can go completely uninsured.",
+    "This shares the same underlying logic as [attorney malpractice insurance](/qa/attorney-malpractice-insurance-california), just applied to clinical rather than legal negligence — both are professional liability lines protecting against claims of professional error, not physical injury or property damage."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Can a hospital's malpractice coverage substitute for my own individual policy?",
+      "answer": "Sometimes hospitals provide group or institutional coverage for employed physicians, but independent contractors and physicians in private practice typically need their own individual policy, and even employed physicians should confirm exactly what the institutional policy covers versus what they may still be personally exposed to."
+    },
+    {
+      "question": "Does malpractice insurance cover claims from care given as a Good Samaritan in an emergency?",
+      "answer": "Many states have Good Samaritan laws providing some liability protection for emergency care given outside a formal treatment setting, but coverage and protections vary significantly by state and situation, so this shouldn't be assumed without checking your specific state's law and policy wording."
+    },
+    {
+      "question": "How much does tail coverage typically cost?",
+      "answer": "Tail coverage cost varies widely based on the physician's specialty, claims history, and how many years the original policy was active, but it's commonly priced as a multiple (often 150-200%) of the physician's final annual claims-made premium, making it a significant expense worth planning for well before a policy switch or retirement."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Medical malpractice is one of the highest-stakes professional liability lines in commercial insurance, given the severity of potential claims and the length of time a claim can remain possible after treatment. Below are the questions physicians and practice owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does Medical Malpractice Insurance Actually Cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It covers claims that a physician or other covered provider's negligence, error, or omission in diagnosing or treating a patient caused harm — a missed diagnosis, a surgical error, medication mistakes, or failure to obtain informed consent, among others. Coverage generally includes both the cost of defending the claim (which can be substantial even when the claim is ultimately found meritless) and any settlement or judgment, up to the policy's limits. It does not cover intentional misconduct or, generally, claims arising from services provided outside the scope of the physician's actual practice and training."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is Medical Malpractice Insurance Legally Required?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It isn't a universal legal requirement across US states — physicians in some states can technically practice without it. In practice, though, coverage is almost always required anyway: hospitals require proof of coverage to grant admitting privileges, health insurance networks require it to credential a provider, and many employment contracts make it a condition of hire. For nearly every practicing physician, this makes the question closer to \"which coverage structure\" rather than \"whether to carry it at all.\""
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What's the Real Difference Between Claims-Made and Occurrence Coverage?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An occurrence policy covers an incident based on when it happened, regardless of when the claim is eventually filed — if you were covered on the date of treatment, you're protected even if the claim surfaces a decade later, and this protection doesn't require renewing the same policy indefinitely. A claims-made policy only covers claims filed while the policy is active (or during a subsequent extended reporting period), which means if you cancel or switch insurers without securing tail coverage, a legitimate claim tied to past treatment can fall into an uninsured gap. Claims-made policies are typically cheaper initially, which is part of why they're common for newer physicians, but that lower cost needs to be weighed against the tail coverage cost that eventually comes due."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Is Tail Coverage, and When Do You Actually Need It?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tail coverage (an extended reporting period endorsement) extends a claims-made policy's protection to claims filed after the policy itself has ended, for incidents that happened while it was active. It becomes essential any time a physician on a claims-made policy retires, changes employers, or switches insurers — without it, all of that physician's past patient care becomes uninsured the moment the original policy lapses. Many employer-provided claims-made policies include a 'free tail' benefit specifically for retirement, death, or permanent disability, but this isn't universal and should be confirmed explicitly before relying on it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Does Pricing Vary by Specialty?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Malpractice premiums vary enormously by specialty, reflecting each specialty's historical claim frequency and severity: high-risk surgical specialties (neurosurgery, obstetrics) generally carry significantly higher premiums than lower-risk specialties (psychiatry, dermatology, general primary care), even for an identical coverage limit. Location also matters significantly, since malpractice litigation environments and jury award patterns vary meaningfully by state and even by county."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Part of a Broader Series",
+      "text": "This is one of several niche commercial insurance topics covered in our full guide, [Niche Commercial Insurance: Hotels, Marinas & Malpractice](/learn/niche-commercial-insurance-hotels-marinas-malpractice)."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature and does not constitute legal, medical, or insurance advice. Medical malpractice insurance requirements, structures, and pricing vary significantly by state, specialty, and individual practice circumstances. Consult a licensed insurance broker specializing in medical professional liability for guidance specific to your practice."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "type": "learn",
+  "id": "business-life-insurance",
+  "slug": "business-life-insurance",
+  "title": "Business Life Insurance: Key Person Coverage, Buy-Sell Funding, and Executive Benefits",
+  "description": "Business life insurance covers key person risk, funds buy-sell agreements, and supports executive benefit plans — here's how each structure actually works.",
+  "category": "life-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 3,
+  "featured": false,
+  "tags": [
+    "business life insurance",
+    "key person insurance",
+    "buy-sell agreement",
+    "life-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Business life insurance isn't one product — it's a category covering at least three distinct uses: key person insurance, buy-sell agreement funding, and executive benefit plans, each structured differently.",
+    "Key person insurance is owned by the business, insures a critical employee or owner, and pays the business itself if that person dies, providing funds to cover lost revenue or the cost of finding a replacement.",
+    "Buy-sell agreement funding uses life insurance to guarantee that surviving business partners have the cash to buy out a deceased partner's ownership stake, rather than being forced to sell the business or bring in an unwanted new co-owner.",
+    "Executive benefit plans, such as a Section 162 bonus arrangement or split-dollar life insurance, use life insurance as a tool to attract and retain key executives with a benefit that's more flexible than a standard retirement plan."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does a business need the employee's consent to buy key person insurance on them?",
+      "answer": "Yes — the insured employee generally must know about and sign the application, the same consent requirement that applies to any life insurance policy on another person, regardless of whether a business or an individual is the owner."
+    },
+    {
+      "question": "Is the death benefit from a business-owned life insurance policy taxable?",
+      "answer": "It depends on the structure and whether specific IRS notice and consent requirements under Internal Revenue Code Section 101(j) were followed for employer-owned life insurance; without proper compliance, the death benefit can lose its normally tax-free treatment, which is why consulting a tax professional before setting up the policy matters."
+    }
+  ],
+  "companionTool": {
+    "slug": "life-insurance-calculator",
+    "title": "Life Insurance Needs Calculator",
+    "description": "Calculate exact capital needed to protect your family with our transparent 10-year income replacement model."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Business life insurance covers several genuinely different arrangements that all happen to use a life insurance policy as the funding mechanism. Understanding which specific need you're solving for determines how the policy should be structured, owned, and who should be named as beneficiary."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Person Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Key person insurance protects a business against the financial impact of losing a critical employee or owner — often a founder, top salesperson, or technical expert whose knowledge or relationships are difficult to replace. The business itself owns the policy, pays the premiums, and is named as the beneficiary, receiving the death benefit directly to help cover lost revenue, recruiting and training costs for a replacement, or to reassure lenders and investors that the business can weather the loss. This is a direct application of the [insurable interest](/qa/can-you-get-life-insurance-on-anyone) concept — a business has a clear financial stake in a key employee's continued life."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Buy-Sell Agreement Funding"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a business has multiple owners, a buy-sell agreement typically specifies what happens to an owner's stake if they die — usually requiring the surviving owners or the business itself to buy out the deceased owner's interest from their estate. Life insurance is the most common funding mechanism, since it guarantees the cash will be available exactly when needed, rather than forcing a rushed sale of business assets or bringing in the deceased owner's heirs as unwanted new co-owners. These arrangements are usually structured either as a 'cross-purchase' plan (each owner buys a policy on each other owner) or an 'entity purchase' plan (the business itself owns policies on each owner)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Executive Benefit Plans"
+    },
+    {
+      "type": "paragraph",
+      "text": "Businesses also use life insurance to attract and retain key executives through structures like a Section 162 bonus plan, where the company pays the premium on a policy owned personally by the executive (treated as a bonus, and usually taxable to the executive), or split-dollar arrangements, where the business and executive share the policy's costs and benefits under a written agreement. These structures give a business a flexible benefit tool outside of standard retirement plans, often used specifically for a small group of top executives rather than all employees."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Structure",
+        "Who Owns the Policy",
+        "Who's Insured",
+        "Who Benefits"
+      ],
+      "rows": [
+        [
+          "Key Person Insurance",
+          "The business",
+          "A critical employee or owner",
+          "The business (lost-revenue protection)"
+        ],
+        [
+          "Buy-Sell (Entity Purchase)",
+          "The business",
+          "Each business owner",
+          "The business, to fund a buyout"
+        ],
+        [
+          "Buy-Sell (Cross-Purchase)",
+          "Each individual owner",
+          "Each other owner",
+          "Surviving owners, to fund a buyout"
+        ],
+        [
+          "Executive Bonus (Sec. 162)",
+          "The executive personally",
+          "The executive",
+          "The executive's own family/estate"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "The Underlying Legal Concepts Are the Same as Personal Life Insurance",
+      "text": "Insurable interest, insurance as an asset via cash value, and payout timing all work the same way for business-owned policies as for personal ones — see [is life insurance an asset](/qa/is-life-insurance-an-asset) and [how does life insurance create an immediate estate](/qa/how-does-life-insurance-create-an-immediate-estate) for the underlying mechanics that apply here too."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and does not constitute legal, tax, or financial advice. Business life insurance structures have significant tax implications (including under Internal Revenue Code Section 101(j) for employer-owned life insurance) that vary by structure and situation. Consult a licensed attorney, accountant, or financial advisor before implementing any business life insurance arrangement."
+    }
+  ]
+}
