@@ -1,0 +1,107 @@
+{
+  "type": "learn",
+  "id": "classic-boat-insurance",
+  "slug": "classic-boat-insurance",
+  "title": "Classic Boat Insurance: Agreed Value for Antique and Collector Vessels",
+  "description": "How classic and antique boat insurance actually works, why agreed value matters so much, and what makes a boat qualify as \"classic\" to an underwriter — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "classic boat insurance",
+    "agreed value insurance",
+    "antique boat insurance",
+    "boat insurance by state"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Classic boat insurance is built around agreed value coverage — you and the insurer agree on the boat's worth upfront, backed by an appraisal, so a total loss pays that full agreed amount rather than a depreciated market value.",
+    "Insurers generally define \"classic\" by a combination of age, original build quality, restoration condition, and rarity, rather than age alone — a well-maintained wooden runabout from the 1950s and a fiberglass boat from the same era are treated very differently.",
+    "This is the same underwriting logic used for classic and collector cars — see [Essentia Insurance](/qa/is-essentia-insurance-legit), the underwriter behind Hagerty's classic car policies, for a closely comparable example on land.",
+    "Because classic boats are frequently wooden-hulled or use period-specific materials, standard marine policies often price or decline coverage poorly, making a specialist classic boat underwriter meaningfully more likely to both offer coverage and price it fairly.",
+    "Usage restrictions — limited annual hours, storage requirements over winter, and sometimes a requirement to use the boat only in fresh or protected waters — are common conditions of a classic boat policy, in exchange for its more favorable agreed-value settlement terms."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I need a professional appraisal to get classic boat insurance?",
+      "answer": "Most classic boat insurers require or strongly recommend a professional appraisal to establish the agreed value at binding, since this figure is what determines your total-loss payout, and a documented appraisal also supports the claim if it's ever needed."
+    },
+    {
+      "question": "Can I still use my classic boat for regular outings?",
+      "answer": "Usually yes, within the policy's specific usage limits — classic boat policies typically permit normal recreational use but may cap annual hours or restrict certain higher-risk activities, so check your specific policy's terms rather than assuming unlimited use."
+    },
+    {
+      "question": "Does classic boat insurance cost more or less than standard boat insurance?",
+      "answer": "It varies — agreed value coverage on a valuable, well-restored classic can cost more in absolute premium than a comparably-priced modern boat, but specialist underwriters familiar with classic vessels often price the risk more fairly than a standard marine insurer forced to guess at an unfamiliar boat type."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An antique wooden runabout, a restored 1960s cruiser, or a rare collector sailboat doesn't fit neatly into a standard boat insurer's pricing model — which is exactly why classic boat insurance exists as its own specialty line. Below are the questions owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Makes Classic Boat Insurance Different From a Standard Policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The core difference is the settlement method: a standard boat policy typically pays actual cash value (market value minus depreciation) in a total loss, while a classic boat policy is written on an agreed value basis — you and the insurer agree on the vessel's worth in advance, backed by an appraisal, and that's the amount paid out if the boat is totaled, with no depreciation deduction. For a vintage or restored boat where market comparables are scarce or misleading, this removes the single biggest source of dispute in a total-loss claim."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Do Insurers Actually Decide What Counts as a \"Classic\" Boat?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rather than a strict age cutoff, most classic boat underwriters look at a combination of factors: the boat's age, its build quality and materials (wooden-hulled boats and certain notable manufacturers are frequently treated as classic even at a relatively younger age than the term might suggest), restoration and maintenance condition, and rarity or collector demand. A well-preserved or expertly restored boat from a respected builder is far more likely to qualify than an old but poorly maintained, common production boat of similar age."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Are Wooden and Period-Specific Boats Often Hard to Insure Normally?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard marine underwriters are generally set up to price modern fiberglass and aluminum hulls, and often either decline wooden-hulled classics entirely or price them poorly, reflecting unfamiliarity with wooden hull maintenance, repair costs, and claims patterns rather than necessarily a genuinely higher risk. A specialist classic boat insurer, by contrast, underwrites this exact category regularly, generally resulting in both more consistent availability of coverage and fairer pricing than trying to fit a wooden classic into a mainstream marine policy built for a different kind of boat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Restrictions Typically Come With This Kind of Policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In exchange for agreed-value terms, classic boat policies commonly include usage conditions: limited annual usage hours, a requirement for proper winter storage or lay-up, and sometimes restrictions to fresh or protected waters rather than open ocean use, depending on the vessel and insurer. These conditions reflect the reality that classic boats are typically used for leisure and preservation rather than heavy regular use, and exceeding them can affect a claim, so it's worth understanding your specific policy's terms rather than assuming unlimited use is covered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Does This Compare to Insuring a Classic Car?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The underlying concept is essentially identical to classic and collector car insurance: agreed value settlement, specialist underwriting, and usage restrictions in exchange for favorable total-loss terms. [Essentia Insurance Company](/qa/is-essentia-insurance-legit), the underwriter behind Hagerty's classic car policies, is a well-documented example of this same model applied on land, and the same appraisal and documentation practices — photos, condition reports, provenance records — that support a strong classic car claim apply equally to a classic boat."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Classic boat insurance eligibility, coverage terms, and usage restrictions vary significantly by insurer and vessel. Consult a licensed marine insurance specialist to evaluate coverage for a specific classic or antique boat."
+    }
+  ]
+}

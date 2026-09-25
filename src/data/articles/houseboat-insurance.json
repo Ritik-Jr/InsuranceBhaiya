@@ -1,0 +1,106 @@
+{
+  "type": "learn",
+  "id": "houseboat-insurance",
+  "slug": "houseboat-insurance",
+  "title": "Houseboat Insurance: Where Marine and Home Insurance Overlap",
+  "description": "What a houseboat policy actually needs to cover as both a boat and a residence, and how full-time liveaboard use changes what you need — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "houseboat insurance",
+    "liveaboard insurance",
+    "boat insurance by state"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Houseboat insurance combines marine coverage (hull, liability on the water) with concepts borrowed from home insurance (personal belongings, appliances, and, for a liveaboard, personal liability similar to a homeowner's or renter's policy).",
+    "Whether you live aboard full-time, part-time, or use the houseboat only for weekend recreation changes what coverage you actually need, and insurers typically ask this directly since it materially affects underwriting.",
+    "A stationary houseboat permanently moored and used purely as a residence is sometimes insured more like a manufactured or mobile home than a boat, depending on the insurer and how the structure is actually used.",
+    "Standard marine liability doesn't automatically include the personal liability protection a homeowner's or renter's policy provides for everyday life — a liveaboard needs to specifically confirm this is included rather than assuming it.",
+    "This sits alongside [marina insurance](/learn/marina-insurance), which covers the dock and marina property itself — a liveaboard renting a permanent slip needs both their own houseboat policy and to understand what the marina's own coverage does and doesn't include."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Can I insure a houseboat under a regular homeowner's policy instead?",
+      "answer": "Generally no — a standard homeowner's policy is built for a land-based dwelling and typically excludes or severely limits coverage for a floating structure, so a dedicated houseboat or marine policy is usually necessary."
+    },
+    {
+      "question": "Does houseboat insurance cover flooding or sinking?",
+      "answer": "This depends on the specific policy and cause — many marine policies cover sinking from a covered peril (storm, collision, mechanical failure) but the specifics vary, so it's worth confirming exactly what's covered and any relevant exclusions directly with your insurer."
+    },
+    {
+      "question": "Is a houseboat treated as real property or personal property for insurance purposes?",
+      "answer": "In most cases, a houseboat is treated as personal property (like a vehicle or vessel) rather than real estate, even when used as a full-time residence, though this can vary by state and specific circumstances — worth confirming with your insurer and local authority if it affects your situation."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A houseboat blurs the line between a boat and a home more than any other vessel type, and that blend creates genuine insurance questions that a standard boat policy or a standard home policy alone can't fully answer. Below are the questions houseboat owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does Houseboat Insurance Actually Combine?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A houseboat policy typically layers marine coverage — hull and machinery damage, liability for accidents on the water, towing and salvage — together with coverage more familiar from a home policy: personal belongings and furnishings aboard, appliances, and, especially for a liveaboard, personal liability protection similar to what a homeowner's or renter's policy provides for everyday incidents. Neither a pure marine policy nor a pure home policy alone typically covers both sides adequately, which is why houseboat insurance exists as its own specific product."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does It Matter Whether You Live Aboard Full-Time?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes, significantly. Insurers generally ask directly whether the houseboat is used purely for weekend recreation, part-time seasonal living, or as a full-time primary residence, because each represents a different risk and coverage need — a full-time liveaboard typically needs meaningfully more personal property and liability coverage (reflecting that most of the owner's belongings and daily life happen aboard) than an occasional weekend user, and this distinction should be disclosed accurately rather than understated, since misrepresenting usage can affect a future claim."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Is a Permanently Moored Houseboat Treated Differently From a Cruising One?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A houseboat that never actually navigates — permanently moored and used purely as a stationary residence — is sometimes underwritten more like a manufactured or floating home than a conventional boat, depending on the specific insurer and local regulations, since the risk profile (no collision or navigation risk, but real fire, flood, and dock-related exposure) looks quite different from a boat that regularly cruises. A houseboat that does travel under its own power needs standard marine hull and liability coverage in addition to the residential-style protections."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does Houseboat Insurance Automatically Include Personal Liability Like a Home Policy Does?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not automatically — standard marine liability is generally built around boating-specific incidents (a collision, an injury while underway), not the broader everyday personal liability a homeowner's or renter's policy provides (a guest injured aboard during a social gathering, for example, outside of any boating activity). A full-time or frequent liveaboard should specifically confirm this broader personal liability protection is included, rather than assuming standard marine liability covers it the same way a home policy would."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Else Should a Liveaboard Specifically Check?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the policy itself, a liveaboard renting a permanent marina slip should understand what the marina's own coverage, discussed in [Marina Insurance](/learn/marina-insurance), does and doesn't cover — the marina's policy generally protects the marina's own property and its liability as a business, not the individual houseboat or its occupant's belongings, which remain the houseboat owner's own responsibility to insure."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Houseboat insurance requirements, structure, and availability vary significantly by insurer, vessel type, and how the houseboat is actually used. Consult a licensed marine insurance specialist to structure coverage for a specific houseboat and living arrangement."
+    }
+  ]
+}

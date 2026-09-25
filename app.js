@@ -19,6 +19,55 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "What Does Health Insurance Actually Cover?",
+    "slug": "what-does-health-insurance-actually-cover",
+    "description": "What health insurance typically covers, what's often excluded, how group plans are structured, and how to verify a health plan's legitimacy before you enroll.",
+    "category": "health-insurance"
+},
+
+    {
+    "title": "Boat Dealers Insurance: Covering Boats You Don't Personally Own",
+    "slug": "boat-dealers-insurance",
+    "description": "What a boat dealership needs beyond a standard commercial policy \u2014 garagekeepers and open lot coverage, demo and transport risk \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Houseboat Insurance: Where Marine and Home Insurance Overlap",
+    "slug": "houseboat-insurance",
+    "description": "What a houseboat policy actually needs to cover as both a boat and a residence, and how full-time liveaboard use changes what you need \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Classic Boat Insurance: Agreed Value for Antique and Collector Vessels",
+    "slug": "classic-boat-insurance",
+    "description": "How classic and antique boat insurance actually works, why agreed value matters so much, and what makes a boat qualify as \"classic\" to an underwriter \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Commercial Boat Insurance: When a Recreational Policy Isn't Enough",
+    "slug": "commercial-boat-insurance",
+    "description": "What commercial boat insurance actually covers, who needs it, and why using a recreational policy for a money-making boat can void your coverage \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "How Much Does Boat Insurance Actually Cost?",
+    "slug": "average-cost-of-boat-insurance",
+    "description": "What actually drives boat insurance pricing \u2014 boat type, value, location, and usage \u2014 and what a realistic budget looks like for different kinds of owners, answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Boat Insurance by State: Requirements & Costs",
+    "slug": "boat-insurance-by-state-requirements-costs",
+    "description": "Is boat insurance actually required in your state, what does it cost, and which specific boats need a different kind of policy entirely \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "When & How to Hire an Insurance Lawyer (or Insurance Attorney)",
     "slug": "when-to-hire-an-insurance-lawyer",
     "description": "When it actually makes sense to hire an insurance lawyer or insurance attorney, what they cost, and how a first-party dispute differs from a third-party auto claim.",
@@ -621,6 +670,55 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Does Health Insurance Cover Weight Loss Drugs (Ozempic, Wegovy) or Bariatric Surgery?",
+      "slug": "does-health-insurance-cover-weight-loss-drugs-bariatric-surgery",
+      "shortAnswer": "It depends heavily on the specific plan and drug. GLP-1 medications prescribed for diabetes (like Ozempic for Type 2 diabetes) are more consistently covered than the same drug class prescribed purely for weight loss (like Wegovy or Zepbound for obesity), and many employer plans explicitly exclude weight-loss-indication GLP-1s due to their high cost, even when the exact same medication would be covered for a diabetes diagnosis. Bariatric surgery is more often covered, but almost always requires prior authorization and documented medical necessity criteria. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework.",
+      "category": "Health"
+},
+
+      {
+      "question": "Does Health Insurance Cover Pregnancy and Maternity Care?",
+      "slug": "does-health-insurance-cover-pregnancy-maternity-care",
+      "shortAnswer": "Yes. Maternity and newborn care is one of the ACA's 10 Essential Health Benefits, so every individual and small-group ACA-compliant plan must cover prenatal visits, labor and delivery, and postpartum care \u2014 and, unlike before 2014, pregnancy can no longer be treated as a pre-existing condition or excluded. The exception again is short-term, limited-duration insurance, which is not required to cover maternity care and commonly excludes it entirely. See [does health insurance cover pre-existing conditions?](/qa/does-health-insurance-cover-pre-existing-conditions) for the broader rule this builds on, and [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the full coverage picture.",
+      "category": "Health"
+},
+
+      {
+      "question": "Does Health Insurance Cover Therapy and Mental Health Treatment?",
+      "slug": "does-health-insurance-cover-therapy-mental-health",
+      "shortAnswer": "Yes, in most cases. Mental health and substance use disorder treatment is one of the 10 Essential Health Benefits required on every ACA-compliant individual and small-group plan, and federal parity law requires group plans that offer mental health benefits to cover them no more restrictively than physical health benefits. The gap most people run into isn't whether therapy is covered, but finding an in-network provider who's actually accepting new patients \u2014 out-of-network mental health care is common and usually far more expensive. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework this fits into.",
+      "category": "Health"
+},
+
+      {
+      "question": "Is Health Insurance Worth It? Cost, Mandates, and When You Can Cancel",
+      "slug": "is-health-insurance-worth-it",
+      "shortAnswer": "For most people, yes \u2014 a single serious illness or injury can cost far more than years of premiums, and going uninsured also exposes you to the full negotiated 'rack rate' of medical care rather than an insurer's discounted rate. Beyond the cost math, a few states, including California, still legally require most residents to carry coverage or pay a tax penalty, separate from whether you personally think it's worth it. You can generally cancel most individual health plans anytime, but doing so outside open enrollment usually means you can't re-enroll in a new marketplace plan until the next open enrollment period unless you qualify for a special enrollment event.",
+      "category": "Health"
+},
+
+      {
+      "question": "Does Health Insurance Cover Car Accidents? And Do You Still Need PIP?",
+      "slug": "does-health-insurance-cover-car-accidents-pip",
+      "shortAnswer": "Yes, health insurance generally does cover injuries from a car accident (or any other auto accident) once it becomes involved, but it usually isn't the first payer. In no-fault and PIP-mandatory states, your auto policy's Personal Injury Protection typically pays first regardless of fault, with health insurance stepping in only after PIP limits are exhausted. Whether you still need PIP if you already have health insurance depends entirely on your state's specific rules \u2014 in many states it's legally required regardless of your other coverage. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage picture.",
+      "category": "Health"
+},
+
+      {
+      "question": "Does Health Insurance Cover Eye Exams, Dermatologist Visits, or Chiropractic Care?",
+      "slug": "does-health-insurance-cover-eye-exams-dermatologist-chiropractic",
+      "shortAnswer": "It depends on the visit type. A dermatologist visit for a medical concern (a suspicious mole, a rash, a skin infection) is typically covered as a specialist visit, usually requiring a referral or higher copay. A routine eye exam for glasses or contacts is usually NOT covered by standard health insurance \u2014 that's what separate vision insurance is for \u2014 though an eye exam related to a medical condition like diabetes often is covered. Chiropractic care coverage varies the most: some plans cover a limited number of visits per year, others exclude it entirely or require it to be billed as physical therapy. Always check your specific plan's Summary of Benefits rather than assuming. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework.",
+      "category": "Health"
+},
+
+      {
+      "question": "Is APWU, Imperial, LifeX, or Innovative Partners Health Insurance Legit?",
+      "slug": "apwu-imperial-lifex-innovative-partners-health-insurance-legit",
+      "shortAnswer": "These four names cover very different situations. APWU Health Plan is a long-established, legitimate FEHB carrier for postal and federal employees. Imperial Health Plan of California is a licensed Medicare Advantage and marketplace HMO. LifeX and Innovative Partners are not licensed insurance companies \u2014 both have drawn active state regulatory warnings or cease-and-desist orders for marketing unlicensed health coverage. Run any unfamiliar name through the same checklist in [is this insurance company legit?](/learn/insurance-company-reviews-is-brand-insurance-legit) before enrolling.",
+      "category": "Health"
+},
+
       {
       "question": "How Much Does an Insurance Lawyer Cost?",
       "slug": "how-much-does-an-insurance-lawyer-cost",

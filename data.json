@@ -281,6 +281,892 @@
   "articles": [
     {
       "type": "learn",
+      "id": "what-does-health-insurance-actually-cover",
+      "slug": "what-does-health-insurance-actually-cover",
+      "title": "What Does Health Insurance Actually Cover?",
+      "description": "What health insurance typically covers, what's often excluded, how group plans are structured, and how to verify a health plan's legitimacy before you enroll.",
+      "category": "health-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 9,
+      "featured": true,
+      "tags": [
+        "health insurance coverage",
+        "level funded health insurance",
+        "is health insurance worth it",
+        "health insurance mandate",
+        "PEO health plan",
+        "HMO vs PPO",
+        "pre-existing conditions",
+        "prior authorization",
+        "health-insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Under the Affordable Care Act, individual and small-group plans must cover 10 categories of Essential Health Benefits, but routine vision and dental for adults, and often chiropractic care, sit outside that list and vary plan to plan — see [does health insurance cover eye exams, dermatologist visits, or chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic)",
+        "Health insurance and auto insurance frequently overlap after a car accident, and figuring out which one pays first (and whether you still need PIP) trips up almost everyone — full breakdown in [does health insurance cover car accidents?](/qa/does-health-insurance-cover-car-accidents-pip)",
+        "\"Is health insurance worth it\" isn't just a cost question — it also depends on your state's individual mandate, your employer's legal obligations, and specific state-mandated benefits like California's new IVF coverage requirement — see [is health insurance worth it?](/qa/is-health-insurance-worth-it)",
+        "Employer-sponsored plans aren't all structured the same way: [level-funded plans](/compare/level-funded-vs-fully-insured-health-insurance) and [PEO health plans](/glossary/peo-health-plan) are increasingly common alternatives to a traditional fully-insured group policy, especially for small and mid-sized businesses.",
+        "Before trusting an unfamiliar health plan name, run it through the same legitimacy checklist used for any insurer — see [is APWU, Imperial, LifeX, or Innovative Partners health insurance legit?](/qa/apwu-imperial-lifex-innovative-partners-health-insurance-legit), since two of those four have drawn active state regulatory action.",
+        "Pregnancy, mental health treatment, and pre-existing conditions are all protected categories on ACA-compliant plans — but short-term, limited-duration insurance is exempt from these protections and commonly excludes all three, a gap covered in [pregnancy and maternity coverage](/qa/does-health-insurance-cover-pregnancy-maternity-care), [therapy and mental health coverage](/qa/does-health-insurance-cover-therapy-mental-health), and [pre-existing conditions](/qa/does-health-insurance-cover-pre-existing-conditions).",
+        "The same medication can be covered or denied purely based on its diagnosis code — a pattern that shows up clearly with GLP-1 weight-loss drugs and bariatric surgery, both of which typically require [prior authorization](/glossary/prior-authorization) — see [does health insurance cover weight loss drugs or bariatric surgery?](/qa/does-health-insurance-cover-weight-loss-drugs-bariatric-surgery).",
+        "Choosing between an [HMO, PPO, EPO, or HDHP](/compare/hmo-vs-ppo-vs-epo-vs-hdhp) and between an [ACA marketplace plan or employer-sponsored coverage](/compare/aca-marketplace-vs-employer-sponsored-health-insurance) are two separate decisions — one is about network flexibility, the other about who's subsidizing your premium."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Do I need a health insurance lawyer or health insurance attorney?",
+          "answer": "Only once your insurer has denied, delayed past its legal deadline, or significantly underpaid a legitimate claim — filing a routine claim doesn't require one. The decision framework is the same regardless of insurance type; see our full guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer)."
+        },
+        {
+          "question": "Does South Carolina have its own state health insurance exchange?",
+          "answer": "No. South Carolina uses the federally-facilitated marketplace at HealthCare.gov rather than running its own state-based exchange, and it has not expanded Medicaid. Residents shopping for an individual ACA plan enroll through HealthCare.gov, an insurance agent, or a certified enrollment counselor — the plans and subsidy rules are otherwise the same as any other federal-marketplace state."
+        },
+        {
+          "question": "What is a PEO health plan, and is it the same as regular employer coverage?",
+          "answer": "A PEO (Professional Employer Organization) health plan is coverage offered through a co-employment arrangement, where the PEO pools many small businesses together to access group rates closer to those of a large employer. See [PEO health plan](/glossary/peo-health-plan) for the full definition and how it differs from a standard small-group policy."
+        }
+      ],
+      "companionTool": {
+        "slug": "health-insurance-calculator",
+        "title": "Out-of-Pocket Cost Calculator",
+        "description": "Estimate how medical bills are divided across deductibles, copays, coinsurance, and out-of-pocket limits."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"What does health insurance actually cover\" sounds like a simple question, but it splits into several genuinely different searches: what's included by law, what's commonly excluded or capped, how it interacts with other coverage after an accident, whether it's worth the cost at all, and how employer-sponsored plans are structured differently than an individual policy. This guide covers the core framework, with links to a full answer on each specific question."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Baseline: Essential Health Benefits"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the Affordable Care Act, every individual and small-group health plan sold in the US must cover 10 categories of Essential Health Benefits: ambulatory patient services, emergency services, hospitalization, maternity and newborn care, mental health and substance use disorder services, prescription drugs, rehabilitative services, laboratory services, preventive and wellness services, and pediatric services including dental and vision. This is the legal floor — large-group and self-funded employer plans aren't bound by the exact same list, which is part of why coverage can vary more than people expect between a marketplace plan and a big employer's plan."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Choosing a Plan Type: HMO, PPO, EPO, or HDHP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Separate from what a plan covers is how its network and cost-sharing are structured. An HMO requires a primary care physician and referrals but has the lowest premiums; a PPO costs more but allows specialist access without referrals and some out-of-network coverage; an EPO sits in between; and an HDHP trades a higher deductible for a lower premium and HSA eligibility. Full side-by-side comparison in [HMO vs. PPO vs. EPO vs. HDHP](/compare/hmo-vs-ppo-vs-epo-vs-hdhp)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Commonly Falls Outside That Floor"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adult routine vision and dental care, chiropractic care, and specialist visits like dermatology are treated inconsistently across plans — sometimes fully covered, sometimes covered only with a referral or annual visit cap, and sometimes excluded from the base plan entirely and offered as a paid add-on rider. See the full plan-by-plan breakdown in [does health insurance cover eye exams, dermatologist visits, or chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Health Insurance After a Car Accident"
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the most searched overlaps is what happens when a car accident causes injuries covered by both your auto policy and your health plan. The order in which each pays, and whether you can drop personal injury protection (PIP) if you already carry health insurance, depends heavily on your state — full detail in [does health insurance cover car accidents?](/qa/does-health-insurance-cover-car-accidents-pip)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Pregnancy, Mental Health, and Pre-Existing Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Three of the most consequential coverage categories are also three of the most protected under the ACA: maternity care, mental health and substance use treatment, and pre-existing conditions generally can't be excluded or denied on an ACA-compliant plan. The catch is that short-term, limited-duration insurance is exempt from all three protections — see [does health insurance cover pregnancy and maternity care?](/qa/does-health-insurance-cover-pregnancy-maternity-care), [does health insurance cover therapy and mental health treatment?](/qa/does-health-insurance-cover-therapy-mental-health), and [does health insurance cover pre-existing conditions?](/qa/does-health-insurance-cover-pre-existing-conditions) for the full detail on each."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Weight-Loss Drugs, Bariatric Surgery, and Prior Authorization"
+        },
+        {
+          "type": "paragraph",
+          "text": "GLP-1 weight-loss medications and bariatric surgery are two of the fastest-growing sources of coverage disputes, largely because [prior authorization](/glossary/prior-authorization) requirements and diagnosis-code-based exclusions make the same treatment covered for one person and denied for another. Full breakdown in [does health insurance cover weight loss drugs or bariatric surgery?](/qa/does-health-insurance-cover-weight-loss-drugs-bariatric-surgery)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Is Health Insurance Worth It, and Are You Required to Have It?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether health insurance is worth its cost depends on your risk tolerance and expected medical usage, but a few states — California among them — still impose their own individual mandate with a tax penalty for going uninsured, separate from the now-zeroed-out federal penalty. Employers face their own separate obligations under the ACA's employer mandate. Some states have also added specific mandated benefits on top of the federal floor — California's SB 729, for example, now requires large-group plans to cover IVF and fertility treatment. The full breakdown of worth-it math, mandates, and cancellation rules is in [is health insurance worth it?](/qa/is-health-insurance-worth-it)"
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "South Carolina Uses the Federal Marketplace",
+          "text": "South Carolina does not run its own state health insurance exchange — residents shopping for an individual plan use the federally-facilitated marketplace at HealthCare.gov, the same system used by most non-expansion states. South Carolina has also not expanded Medicaid, which is part of why marketplace subsidies matter more there than in expansion states."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Employer-Sponsored Plans Are Actually Structured"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not every job-based health plan works the same way behind the scenes. A traditional **fully-insured** plan means the employer pays a fixed premium to a carrier, which assumes all the claims risk. A **level-funded** plan is a hybrid increasingly used by small and mid-sized employers — see the full comparison in [level-funded vs. fully-insured health insurance](/compare/level-funded-vs-fully-insured-health-insurance). A **PEO health plan** is a different structure entirely, where a Professional Employer Organization pools many small businesses together under one master policy to access better group rates — see [PEO health plan](/glossary/peo-health-plan) for how that arrangement works and what to watch for. See how a real small-business owner works through these exact options in [Marcus's small business health plan structure scenario](/scenarios/marcus-small-business-health-plan-structure)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stepping back further, employer-sponsored coverage itself is only one of two main paths to ACA-compliant health insurance — the other being an individual ACA marketplace plan. Full side-by-side comparison, including what happens the moment you lose a job, is in [ACA marketplace plan vs. employer-sponsored health insurance](/compare/aca-marketplace-vs-employer-sponsored-health-insurance). If you're transitioning between the two, [COBRA continuation coverage](/glossary/cobra-continuation-coverage) lets you temporarily keep your old employer plan at full cost rather than switching immediately."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "See These Mechanics Play Out in a Real Scenario",
+          "text": "For a worked example of how deductibles, coinsurance, and the annual out-of-pocket maximum stack together across a real plan year following a diagnosis, see [Priya's health insurance diagnosis coverage scenario](/scenarios/priya-health-insurance-diagnosis-coverage)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Checking Whether a Health Plan Name Is Actually Legitimate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Health insurance brand names get searched heavily by people who were contacted directly by a marketer or found an unfamiliar name on a card or bill. The same [insurance company legitimacy framework](/learn/insurance-company-reviews-is-brand-insurance-legit) — licensing status, financial rating, complaint record — applies here, and it matters more than usual in health insurance, where several recent state regulatory actions have targeted plans marketed as major medical coverage that turned out not to be licensed insurance at all. See the specific findings on four frequently searched names in [is APWU, Imperial, LifeX, or Innovative Partners health insurance legit?](/qa/apwu-imperial-lifex-innovative-partners-health-insurance-legit)"
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature and does not constitute legal, tax, or medical advice. Health insurance mandates, covered benefits, and state exchange structures vary by state and change over time. Confirm current requirements with your state Department of Insurance or healthcare.gov before making coverage decisions."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "boat-dealers-insurance",
+      "slug": "boat-dealers-insurance",
+      "title": "Boat Dealers Insurance: Covering Boats You Don't Personally Own",
+      "description": "What a boat dealership needs beyond a standard commercial policy — garagekeepers and open lot coverage, demo and transport risk — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 6,
+      "featured": false,
+      "tags": [
+        "boat dealers insurance",
+        "garagekeepers insurance",
+        "boat insurance by state"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Boat dealers insurance covers a dealership's unique exposure to customer, consignment, and manufacturer-owned boats that pass through its hands — on the sales lot, in for service, or during test drives — which a standard commercial policy isn't built to price.",
+        "Garagekeepers-style coverage (sometimes called an open lot policy in the marine context) specifically protects boats in the dealer's care, custody, or control that the dealer doesn't personally own — a distinct concept from insuring the dealer's own inventory.",
+        "Demo rides and sea trials, where a prospective buyer or the dealer's own staff operates a boat on the water, create a specific liability exposure that needs to be confirmed as covered, since it isn't automatically the same as a standard sales-floor liability.",
+        "Boats being transported to or from the dealership — by trailer, or occasionally by water — carry transit-specific risk that's often handled under a separate cargo or transit coverage rather than the dealership's general property policy.",
+        "This is the marine equivalent of a car dealership's garage liability and dealer's open lot coverage, applying the same core underwriting logic to boats rather than automobiles."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Does boat dealers insurance cover boats sold on consignment?",
+          "answer": "Yes, typically — garagekeepers or open lot coverage is specifically designed to cover boats in the dealership's care, custody, or control regardless of ownership, which includes consignment vessels, though the specific terms should be confirmed with your policy."
+        },
+        {
+          "question": "Do employees need a special license to operate boats during demo rides?",
+          "answer": "This depends on state and local regulations, which vary, but regardless of licensing requirements, the dealership's insurance should specifically confirm demo ride and sea trial liability is included, since it's a distinct exposure from standard sales-floor operations."
+        },
+        {
+          "question": "Is floor-plan financed inventory automatically insured by the manufacturer?",
+          "answer": "Generally no — floor-plan financing arrangements typically require the dealership itself to carry adequate insurance on the financed inventory as a condition of the financing agreement, rather than the manufacturer providing that coverage."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A boat dealership's insurance needs go well beyond a standard business owner's policy, because so much of its inventory and risk involves vessels the dealership doesn't actually own outright — consignment boats, manufacturer floor-plan inventory, and customer boats in for service or trade-in evaluation. Below are the questions dealership owners actually need answered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Makes a Boat Dealership's Insurance Needs Different From a Typical Business?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A boat dealership routinely has physical custody of vessels it doesn't personally own — manufacturer inventory financed under a floor-plan arrangement, boats taken on consignment from individual sellers, and customer boats brought in for service, trade-in appraisal, or winterization. A standard commercial property policy, built primarily around a business's own owned assets, generally isn't structured to properly cover this \"care, custody, and control\" exposure, which is exactly the gap dealers insurance is built to fill."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Is Garagekeepers or Open Lot Coverage, and Why Does It Matter Here?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Garagekeepers-style coverage, often referred to in the marine context as dealer's open lot coverage, specifically protects boats in the dealership's care, custody, or control against damage or theft while on the property or during service — regardless of who actually owns the boat. This is the specific coverage that responds if a customer's boat is damaged while stored for winterization, or if a consignment vessel is damaged on the sales lot, situations a dealership's own general property coverage typically wouldn't properly address since the dealership doesn't own those specific boats."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Are Demo Rides and Sea Trials Automatically Covered?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not automatically — letting a prospective buyer operate a boat during a sea trial, or having a salesperson take a customer out on a demo ride, creates on-water liability exposure that's distinct from standard sales-floor liability and needs to be specifically confirmed as included in the dealership's policy. Given how routine demo rides are to the sales process, this is one of the most important specific confirmations a boat dealer should get from their broker rather than assuming general liability automatically extends to the water."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What About Boats Being Transported To or From the Dealership?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Boats moving by trailer between a manufacturer, an auction, a customer's home, or the dealership itself carry their own transit-specific risk — a trailer accident, cargo shifting, or damage during loading and unloading — which is typically addressed under a separate inland marine cargo or transit coverage rather than assumed to be covered under the dealership's general property or garagekeepers policy. This needs to be specifically arranged, particularly for a dealership that regularly transports boats over longer distances."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Does This Compare to a Car Dealership's Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The underlying structure closely mirrors automobile dealer insurance: garage liability for the dealership's own operations, garagekeepers/open lot coverage for customer and consignment vehicles in their care, and dealer's open lot property coverage for inventory. Boat dealers insurance simply applies that same well-established framework to marine vessels, layering in the water-specific exposures (sea trials, transport by water, marine mechanical risk) that a land-based auto dealer's policy wouldn't need to address."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Boat dealers insurance requirements and available coverage vary significantly by dealership size, state, and specific operations. Consult a licensed commercial marine insurance broker to structure coverage for a specific dealership."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "houseboat-insurance",
+      "slug": "houseboat-insurance",
+      "title": "Houseboat Insurance: Where Marine and Home Insurance Overlap",
+      "description": "What a houseboat policy actually needs to cover as both a boat and a residence, and how full-time liveaboard use changes what you need — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 6,
+      "featured": false,
+      "tags": [
+        "houseboat insurance",
+        "liveaboard insurance",
+        "boat insurance by state"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Houseboat insurance combines marine coverage (hull, liability on the water) with concepts borrowed from home insurance (personal belongings, appliances, and, for a liveaboard, personal liability similar to a homeowner's or renter's policy).",
+        "Whether you live aboard full-time, part-time, or use the houseboat only for weekend recreation changes what coverage you actually need, and insurers typically ask this directly since it materially affects underwriting.",
+        "A stationary houseboat permanently moored and used purely as a residence is sometimes insured more like a manufactured or mobile home than a boat, depending on the insurer and how the structure is actually used.",
+        "Standard marine liability doesn't automatically include the personal liability protection a homeowner's or renter's policy provides for everyday life — a liveaboard needs to specifically confirm this is included rather than assuming it.",
+        "This sits alongside [marina insurance](/learn/marina-insurance), which covers the dock and marina property itself — a liveaboard renting a permanent slip needs both their own houseboat policy and to understand what the marina's own coverage does and doesn't include."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Can I insure a houseboat under a regular homeowner's policy instead?",
+          "answer": "Generally no — a standard homeowner's policy is built for a land-based dwelling and typically excludes or severely limits coverage for a floating structure, so a dedicated houseboat or marine policy is usually necessary."
+        },
+        {
+          "question": "Does houseboat insurance cover flooding or sinking?",
+          "answer": "This depends on the specific policy and cause — many marine policies cover sinking from a covered peril (storm, collision, mechanical failure) but the specifics vary, so it's worth confirming exactly what's covered and any relevant exclusions directly with your insurer."
+        },
+        {
+          "question": "Is a houseboat treated as real property or personal property for insurance purposes?",
+          "answer": "In most cases, a houseboat is treated as personal property (like a vehicle or vessel) rather than real estate, even when used as a full-time residence, though this can vary by state and specific circumstances — worth confirming with your insurer and local authority if it affects your situation."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A houseboat blurs the line between a boat and a home more than any other vessel type, and that blend creates genuine insurance questions that a standard boat policy or a standard home policy alone can't fully answer. Below are the questions houseboat owners actually need answered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Does Houseboat Insurance Actually Combine?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A houseboat policy typically layers marine coverage — hull and machinery damage, liability for accidents on the water, towing and salvage — together with coverage more familiar from a home policy: personal belongings and furnishings aboard, appliances, and, especially for a liveaboard, personal liability protection similar to what a homeowner's or renter's policy provides for everyday incidents. Neither a pure marine policy nor a pure home policy alone typically covers both sides adequately, which is why houseboat insurance exists as its own specific product."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does It Matter Whether You Live Aboard Full-Time?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes, significantly. Insurers generally ask directly whether the houseboat is used purely for weekend recreation, part-time seasonal living, or as a full-time primary residence, because each represents a different risk and coverage need — a full-time liveaboard typically needs meaningfully more personal property and liability coverage (reflecting that most of the owner's belongings and daily life happen aboard) than an occasional weekend user, and this distinction should be disclosed accurately rather than understated, since misrepresenting usage can affect a future claim."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Is a Permanently Moored Houseboat Treated Differently From a Cruising One?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A houseboat that never actually navigates — permanently moored and used purely as a stationary residence — is sometimes underwritten more like a manufactured or floating home than a conventional boat, depending on the specific insurer and local regulations, since the risk profile (no collision or navigation risk, but real fire, flood, and dock-related exposure) looks quite different from a boat that regularly cruises. A houseboat that does travel under its own power needs standard marine hull and liability coverage in addition to the residential-style protections."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does Houseboat Insurance Automatically Include Personal Liability Like a Home Policy Does?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not automatically — standard marine liability is generally built around boating-specific incidents (a collision, an injury while underway), not the broader everyday personal liability a homeowner's or renter's policy provides (a guest injured aboard during a social gathering, for example, outside of any boating activity). A full-time or frequent liveaboard should specifically confirm this broader personal liability protection is included, rather than assuming standard marine liability covers it the same way a home policy would."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Else Should a Liveaboard Specifically Check?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond the policy itself, a liveaboard renting a permanent marina slip should understand what the marina's own coverage, discussed in [Marina Insurance](/learn/marina-insurance), does and doesn't cover — the marina's policy generally protects the marina's own property and its liability as a business, not the individual houseboat or its occupant's belongings, which remain the houseboat owner's own responsibility to insure."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Houseboat insurance requirements, structure, and availability vary significantly by insurer, vessel type, and how the houseboat is actually used. Consult a licensed marine insurance specialist to structure coverage for a specific houseboat and living arrangement."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "classic-boat-insurance",
+      "slug": "classic-boat-insurance",
+      "title": "Classic Boat Insurance: Agreed Value for Antique and Collector Vessels",
+      "description": "How classic and antique boat insurance actually works, why agreed value matters so much, and what makes a boat qualify as \"classic\" to an underwriter — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 6,
+      "featured": false,
+      "tags": [
+        "classic boat insurance",
+        "agreed value insurance",
+        "antique boat insurance",
+        "boat insurance by state"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Classic boat insurance is built around agreed value coverage — you and the insurer agree on the boat's worth upfront, backed by an appraisal, so a total loss pays that full agreed amount rather than a depreciated market value.",
+        "Insurers generally define \"classic\" by a combination of age, original build quality, restoration condition, and rarity, rather than age alone — a well-maintained wooden runabout from the 1950s and a fiberglass boat from the same era are treated very differently.",
+        "This is the same underwriting logic used for classic and collector cars — see [Essentia Insurance](/qa/is-essentia-insurance-legit), the underwriter behind Hagerty's classic car policies, for a closely comparable example on land.",
+        "Because classic boats are frequently wooden-hulled or use period-specific materials, standard marine policies often price or decline coverage poorly, making a specialist classic boat underwriter meaningfully more likely to both offer coverage and price it fairly.",
+        "Usage restrictions — limited annual hours, storage requirements over winter, and sometimes a requirement to use the boat only in fresh or protected waters — are common conditions of a classic boat policy, in exchange for its more favorable agreed-value settlement terms."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Do I need a professional appraisal to get classic boat insurance?",
+          "answer": "Most classic boat insurers require or strongly recommend a professional appraisal to establish the agreed value at binding, since this figure is what determines your total-loss payout, and a documented appraisal also supports the claim if it's ever needed."
+        },
+        {
+          "question": "Can I still use my classic boat for regular outings?",
+          "answer": "Usually yes, within the policy's specific usage limits — classic boat policies typically permit normal recreational use but may cap annual hours or restrict certain higher-risk activities, so check your specific policy's terms rather than assuming unlimited use."
+        },
+        {
+          "question": "Does classic boat insurance cost more or less than standard boat insurance?",
+          "answer": "It varies — agreed value coverage on a valuable, well-restored classic can cost more in absolute premium than a comparably-priced modern boat, but specialist underwriters familiar with classic vessels often price the risk more fairly than a standard marine insurer forced to guess at an unfamiliar boat type."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An antique wooden runabout, a restored 1960s cruiser, or a rare collector sailboat doesn't fit neatly into a standard boat insurer's pricing model — which is exactly why classic boat insurance exists as its own specialty line. Below are the questions owners actually need answered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Makes Classic Boat Insurance Different From a Standard Policy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The core difference is the settlement method: a standard boat policy typically pays actual cash value (market value minus depreciation) in a total loss, while a classic boat policy is written on an agreed value basis — you and the insurer agree on the vessel's worth in advance, backed by an appraisal, and that's the amount paid out if the boat is totaled, with no depreciation deduction. For a vintage or restored boat where market comparables are scarce or misleading, this removes the single biggest source of dispute in a total-loss claim."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Do Insurers Actually Decide What Counts as a \"Classic\" Boat?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than a strict age cutoff, most classic boat underwriters look at a combination of factors: the boat's age, its build quality and materials (wooden-hulled boats and certain notable manufacturers are frequently treated as classic even at a relatively younger age than the term might suggest), restoration and maintenance condition, and rarity or collector demand. A well-preserved or expertly restored boat from a respected builder is far more likely to qualify than an old but poorly maintained, common production boat of similar age."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Are Wooden and Period-Specific Boats Often Hard to Insure Normally?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard marine underwriters are generally set up to price modern fiberglass and aluminum hulls, and often either decline wooden-hulled classics entirely or price them poorly, reflecting unfamiliarity with wooden hull maintenance, repair costs, and claims patterns rather than necessarily a genuinely higher risk. A specialist classic boat insurer, by contrast, underwrites this exact category regularly, generally resulting in both more consistent availability of coverage and fairer pricing than trying to fit a wooden classic into a mainstream marine policy built for a different kind of boat."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Restrictions Typically Come With This Kind of Policy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In exchange for agreed-value terms, classic boat policies commonly include usage conditions: limited annual usage hours, a requirement for proper winter storage or lay-up, and sometimes restrictions to fresh or protected waters rather than open ocean use, depending on the vessel and insurer. These conditions reflect the reality that classic boats are typically used for leisure and preservation rather than heavy regular use, and exceeding them can affect a claim, so it's worth understanding your specific policy's terms rather than assuming unlimited use is covered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Does This Compare to Insuring a Classic Car?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The underlying concept is essentially identical to classic and collector car insurance: agreed value settlement, specialist underwriting, and usage restrictions in exchange for favorable total-loss terms. [Essentia Insurance Company](/qa/is-essentia-insurance-legit), the underwriter behind Hagerty's classic car policies, is a well-documented example of this same model applied on land, and the same appraisal and documentation practices — photos, condition reports, provenance records — that support a strong classic car claim apply equally to a classic boat."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Classic boat insurance eligibility, coverage terms, and usage restrictions vary significantly by insurer and vessel. Consult a licensed marine insurance specialist to evaluate coverage for a specific classic or antique boat."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "commercial-boat-insurance",
+      "slug": "commercial-boat-insurance",
+      "title": "Commercial Boat Insurance: When a Recreational Policy Isn't Enough",
+      "description": "What commercial boat insurance actually covers, who needs it, and why using a recreational policy for a money-making boat can void your coverage — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 7,
+      "featured": false,
+      "tags": [
+        "commercial boat insurance",
+        "boat insurance by state",
+        "boat rental insurance",
+        "niche commercial insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Commercial boat insurance covers any vessel used to generate income — fishing charters, tour boats, water taxis, dive boats, boat rentals — and is structurally different from a personal recreational boat policy, not just a pricier version of it.",
+        "Using a boat for any paying activity while insured only under a personal recreational policy is one of the most common ways an owner accidentally voids coverage entirely, since nearly all recreational policies specifically exclude commercial use.",
+        "Core commercial coverage includes protection and indemnity (P&I, the marine equivalent of liability insurance), hull coverage for the vessel itself, and often Jones Act or maritime employer's liability coverage if the operation has crew.",
+        "Passenger vessels carrying paying customers typically need to meet US Coast Guard inspection and certification requirements in addition to insurance, and insurers generally expect to see that certification as part of underwriting.",
+        "This is the direct maritime counterpart to [boat rental insurance](/learn/boat-rental-insurance), which specifically covers the bareboat/unsupervised rental model — commercial boat insurance is the broader category covering captained, crewed, and passenger-carrying operations as well."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Do I need commercial boat insurance if I only take paying customers occasionally?",
+          "answer": "Generally yes — even occasional paid use typically falls outside a standard recreational policy's coverage, so it's worth confirming with your insurer or getting a specific commercial endorsement rather than assuming occasional use doesn't count."
+        },
+        {
+          "question": "Does commercial boat insurance cover the boat when it's used recreationally too?",
+          "answer": "Often yes, many commercial marine policies can be structured to cover both commercial and personal use of the same vessel, but this needs to be explicitly arranged rather than assumed — confirm with your broker exactly what activities are covered."
+        },
+        {
+          "question": "What is protection and indemnity (P&I) insurance?",
+          "answer": "P&I insurance is the marine industry's version of liability insurance, covering claims for injury to passengers, crew, or third parties, and certain property damage claims arising from the vessel's operation — it's a foundational coverage for any commercial marine operation."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Any boat that generates income — even occasionally — falls outside what a standard recreational policy is built to cover. Below are the specific questions charter operators, tour companies, and other commercial boat owners actually need answered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Actually Counts as \"Commercial\" Use of a Boat?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Commercial use covers any activity where the boat generates income or is used in connection with a business — fishing charters, sightseeing or dinner cruise tours, water taxi or ferry service, dive charters, boat rentals, and even occasional paid use like renting the boat out for a single event. It doesn't need to be your full-time business; even occasional paid trips on a boat otherwise used recreationally typically trigger the need for commercial coverage for those specific activities."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Can't You Just Use Your Regular Boat Insurance for This?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nearly every standard recreational boat policy contains an explicit commercial use exclusion, meaning any claim arising while the boat was being used commercially — even a single paid charter trip — can be denied outright, regardless of how the accident happened. This is one of the most common and financially painful insurance mistakes among boat owners who start monetizing a boat casually (offering a few paid trips to friends of friends, for example) without realizing their existing policy no longer applies the moment money changes hands for use of the boat."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Does Commercial Boat Insurance Actually Cover?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A commercial marine policy typically bundles hull coverage (physical damage to the vessel), protection and indemnity or P&I coverage (the marine industry's equivalent of liability insurance, covering injury to passengers, crew, and third parties, plus certain property damage), and, for operations with employees or crew, maritime employer's liability or Jones Act coverage, which addresses injury claims from crew members under federal maritime law — a distinct legal framework from standard workers' compensation."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Do You Need Coast Guard Certification Too, Separate From Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For most passenger-carrying commercial operations, yes — the US Coast Guard requires inspection and certification for vessels carrying paying passengers above certain thresholds, and a licensed captain (holding a Coast Guard-issued Merchant Mariner Credential) is generally required to operate it. Insurers underwriting commercial passenger vessels typically expect to see this certification as part of the application, since it's both a legal requirement and a meaningful risk indicator for the underwriter."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Is This Different From Boat Rental Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[Boat rental insurance](/learn/boat-rental-insurance) is really a subset of commercial boat insurance focused specifically on the bareboat rental model — handing an unsupervised vessel over to a renter. Commercial boat insurance is the broader category, also covering captained charters, crewed tours, and other passenger-carrying commercial activity where the operator's own crew remains in control of the vessel, which carries a different liability profile than an unsupervised rental."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Commercial marine insurance requirements, US Coast Guard certification thresholds, and applicable maritime law vary by vessel type, operation, and jurisdiction. Consult a licensed marine insurance broker and confirm current US Coast Guard requirements before operating a commercial vessel."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "average-cost-of-boat-insurance",
+      "slug": "average-cost-of-boat-insurance",
+      "title": "How Much Does Boat Insurance Actually Cost?",
+      "description": "What actually drives boat insurance pricing — boat type, value, location, and usage — and what a realistic budget looks like for different kinds of owners, answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 7,
+      "featured": false,
+      "tags": [
+        "average cost of boat insurance",
+        "boat insurance cost",
+        "boat insurance by state"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "A typical recreational boat policy commonly costs somewhere between roughly $200 and $500 a year, but this range widens dramatically for larger, older, higher-value, or higher-horsepower vessels.",
+        "As a rough industry rule of thumb, annual premium is often estimated at around 1% to 5% of the boat's insured value, though actual pricing depends on many additional factors beyond value alone.",
+        "The boat's type and horsepower matter enormously: a small fishing boat or pontoon is generally far cheaper to insure than a high-horsepower speedboat or a personal watercraft, which insurers price as higher-risk.",
+        "Where you keep and use the boat affects price too — coastal, hurricane-prone, or high-boating-traffic areas generally see higher premiums than inland lakes with lower storm and collision exposure.",
+        "Bundling boat insurance with an existing home or auto policy, completing a boater safety course, and choosing a higher deductible are among the most reliable ways to reduce the premium without cutting meaningful coverage."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Is boat insurance more or less expensive than car insurance?",
+          "answer": "It depends heavily on the specific boat and vehicle being compared, but for a modest recreational boat, annual premiums are often broadly comparable to or somewhat lower than full-coverage auto insurance, while a large or high-performance boat can cost significantly more."
+        },
+        {
+          "question": "Does the boat's age affect the cost?",
+          "answer": "Yes — older boats can sometimes cost more to insure due to higher repair complexity or a smaller pool of replacement parts, though a well-maintained older boat with a clean survey can still be reasonably priced, especially under an agreed-value classic boat policy."
+        },
+        {
+          "question": "Can I get boat insurance for just the boating season?",
+          "answer": "Many insurers offer a lay-up or seasonal discount that reduces coverage (typically to just comprehensive/theft/fire) during the off-season when the boat is stored and not in use, rather than a policy that fully cancels and restarts each year."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Boat insurance pricing varies more than most people expect, because a boat policy is really pricing several different risks at once — collision, weather, theft, liability — across an enormous range of vessel types and values. Below are the specific questions owners actually need answered before budgeting for a policy."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What's a Realistic Budget for a Typical Recreational Boat?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a typical mid-size recreational boat, annual premiums commonly fall somewhere between roughly $200 and $500, though this is a general range rather than a guarantee — a small, low-horsepower boat can cost meaningfully less, while a large, high-value, or high-performance vessel can cost several times more. A frequently cited industry rule of thumb estimates premium at roughly 1% to 5% of the boat's insured value per year, which is a useful starting point for a rough estimate before getting an actual quote."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Does Boat Type and Horsepower Change the Price So Much?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurers price boats largely around how much damage they can realistically cause and how likely they are to be involved in a claim. A small, low-horsepower fishing boat or pontoon is generally viewed as lower risk than a high-horsepower speedboat or a personal watercraft (jet ski), both because higher-powered vessels are statistically involved in more serious accidents and because they're frequently used in ways — higher speed, more aggressive maneuvering — that increase claim frequency and severity."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does Where You Keep or Use the Boat Actually Matter?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes, significantly. Coastal areas exposed to hurricanes and severe storms generally carry higher premiums than inland lakes, reflecting the real difference in weather-related claim risk. High-traffic boating areas can also see higher collision-related pricing than quieter waterways. If you dock at a marina rather than trailer the boat home, your specific storage arrangement — covered separately from the boat's own policy in [Marina Insurance](/learn/marina-insurance) — can factor into overall risk as well."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Does This Change for a Classic, Houseboat, or Commercial Vessel?"
+        },
+        {
+          "type": "paragraph",
+          "text": "These standard cost drivers apply to an ordinary recreational boat, but specialty vessels are priced under entirely different logic: a [classic or collector boat](/learn/classic-boat-insurance) is typically insured on an agreed-value basis reflecting its appraised worth rather than standard depreciation, a [houseboat used as a residence](/learn/houseboat-insurance) blends marine and property insurance cost factors, and a [commercial boat](/learn/commercial-boat-insurance) generating income is priced against business liability exposure rather than personal recreational use — each is genuinely a different pricing conversation, not just a variation on the same number."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Are the Most Reliable Ways to Lower the Premium?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Bundle your boat policy with an existing home or auto policy through the same insurer, which frequently unlocks a multi-policy discount",
+            "Complete a boater safety course, since many insurers offer a discount for certified operators",
+            "Choose a higher deductible if you can comfortably cover it out of pocket in the event of a claim",
+            "Ask about a lay-up period discount if the boat is stored, unused, and de-winterized for part of the year",
+            "Compare quotes from more than one insurer, since boat insurance pricing can vary meaningfully between carriers for the identical vessel and profile"
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Boat insurance costs vary significantly by insurer, vessel, location, and individual risk factors, and published averages should be treated as general guidance rather than a specific quote. Get a personalized quote from a licensed marine insurance provider for an accurate estimate."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "boat-insurance-by-state-requirements-costs",
+      "slug": "boat-insurance-by-state-requirements-costs",
+      "title": "Boat Insurance by State: Requirements & Costs",
+      "description": "Is boat insurance actually required in your state, what does it cost, and which specific boats need a different kind of policy entirely — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 14,
+      "featured": true,
+      "tags": [
+        "boat insurance by state",
+        "is boat insurance required",
+        "boat insurance cost",
+        "niche commercial insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Boat insurance is not legally required for most recreational boat owners in most US states — only a small number of states, Arkansas among them, mandate liability coverage, and even then usually only above a specific engine horsepower threshold.",
+        "Even where it's not required by state law, a lender financing your boat and a marina renting you a slip will almost always require proof of insurance as a condition of the loan or the lease, which functions as a practical requirement for most owners.",
+        "Average recreational boat insurance costs commonly range from roughly $200 to $500 a year for a typical boat, though this varies enormously by boat type, value, state, and usage — see our [full cost breakdown](/learn/average-cost-of-boat-insurance) for the specific factors.",
+        "A standard recreational boat policy usually doesn't extend to renting the boat out, running boat tours, ferrying paying passengers, storing boats for sale, or living aboard full-time — each of those needs its own specific policy type, covered in the linked spokes below.",
+        "Marina insurance (covering the docks and marina property itself) is a completely different product from insuring the boats that use the marina — see our dedicated [Marina Insurance](/learn/marina-insurance) guide for that side of the equation."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Is boat insurance mandatory everywhere in the US?",
+          "answer": "No. Only a small number of states, including Arkansas, have a specific legal mandate, and it's typically tied to engine horsepower rather than applying to every boat. Most states leave the decision to the owner, though lenders and marinas frequently require it in practice."
+        },
+        {
+          "question": "Do I need boat insurance to register a boat?",
+          "answer": "In most states, no — boat registration is generally a separate process from insurance, and proof of insurance usually isn't required to register a recreational vessel, unlike car registration in many states."
+        },
+        {
+          "question": "Does my homeowner's insurance cover my boat?",
+          "answer": "Sometimes, but usually only for very small boats (often under a specific horsepower or value threshold) and only for limited coverage. Most boats, especially anything with meaningful horsepower or value, need a dedicated boat policy rather than relying on a homeowner's policy."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Do I need boat insurance?\" doesn't have one national answer — it genuinely depends on your state, your boat's engine size, whether it's financed, and where you keep it. This guide walks through what's actually required where, what it costs, and which specific situations (a classic boat, a houseboat, a dealership, a charter business) need an entirely different kind of policy than a standard recreational boat owner."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Is Boat Insurance Legally Required?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In most US states, no — there's no blanket state law requiring recreational boat owners to carry insurance, which surprises a lot of people used to auto insurance being mandatory almost everywhere. Arkansas is a notable exception: under Arkansas Code § 27-101-207, boats with an engine over 50 horsepower must carry liability insurance, a requirement confirmed directly in the state's official boater education handbook. Utah has a broadly similar horsepower-based mandate. Beyond these specific exceptions, most states leave the insurance decision to the owner, the lender, and the marina — not the state itself."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "So Why Do So Many Boat Owners Carry Insurance Anyway?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Even in a state with no legal mandate, two practical forces push most owners toward carrying coverage: a bank or credit union financing the boat purchase will almost always require comprehensive and collision coverage as a loan condition, the same way an auto lender does, and a marina renting out a slip will typically require proof of liability insurance before granting dockage — see our [Marina Insurance](/learn/marina-insurance) guide for the marina's own side of that requirement. On top of that, a serious boating accident can create real financial and even legal exposure regardless of whether insurance was technically mandatory beforehand."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Is Boat Insurance Required in Your State?"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "State",
+            "State-Mandated for Recreational Boats?",
+            "What to Know"
+          ],
+          "rows": [
+            [
+              "Florida",
+              "No blanket mandate",
+              "No state law requires liability coverage for most recreational boats, but marinas and lenders commonly require it, and Florida's boating accident reporting rules create financial exposure after a serious incident."
+            ],
+            [
+              "California",
+              "No blanket mandate",
+              "No state-level insurance requirement for recreational vessels; registration through the DMV doesn't require proof of insurance."
+            ],
+            [
+              "Texas",
+              "No blanket mandate",
+              "Texas Parks and Wildlife Department vessel registration doesn't require proof of insurance for most recreational boats."
+            ],
+            [
+              "Massachusetts",
+              "No blanket mandate",
+              "No statewide insurance requirement for recreational boat registration, though marina and lender requirements are common."
+            ],
+            [
+              "Michigan",
+              "No blanket mandate",
+              "No state law mandates recreational boat insurance; the Secretary of State's registration process doesn't require it."
+            ],
+            [
+              "Arkansas",
+              "Yes, conditionally",
+              "Boats with an engine over 50 horsepower must carry liability insurance under Arkansas Code § 27-101-207."
+            ],
+            [
+              "South Carolina",
+              "No blanket mandate",
+              "No statewide insurance requirement, though the South Carolina Department of Natural Resources recommends coverage."
+            ],
+            [
+              "Illinois",
+              "No blanket mandate",
+              "No state-level insurance mandate for recreational watercraft registration."
+            ],
+            [
+              "Arizona",
+              "No blanket mandate",
+              "No statewide insurance requirement for recreational boat registration through Arizona Game and Fish."
+            ],
+            [
+              "Alabama",
+              "No blanket mandate",
+              "No state law requires liability coverage for most recreational boats registered in Alabama."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Requirements Change — Always Verify Directly",
+          "text": "Boating laws are set and updated at the state level. Before assuming your state has no requirement, confirm current rules directly with your state's boating registration authority (often the state's Department of Natural Resources, Parks and Wildlife Department, or equivalent) rather than relying solely on this table."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Does Boat Insurance Actually Cost?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recreational boat insurance commonly runs somewhere between roughly $200 and $500 a year for a typical mid-size boat, though the real number depends heavily on the boat's type, age, and value, where it's used and stored, and the coverage limits chosen. A full breakdown of what actually drives that price — and how it differs for larger, high-value, or high-risk vessels — is covered in [How Much Does Boat Insurance Actually Cost?](/learn/average-cost-of-boat-insurance)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does a Standard Boat Policy Cover Every Situation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "No — a standard recreational boat policy is built around personal, non-commercial use, and several common situations fall outside it entirely, each needing its own specific coverage:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "[Commercial Boat Insurance](/learn/commercial-boat-insurance) — for charters, tours, ferrying passengers, or any boat used to generate income",
+            "[Classic Boat Insurance](/learn/classic-boat-insurance) — for antique, wooden, or collector vessels valued differently than a standard boat",
+            "[Houseboat Insurance](/learn/houseboat-insurance) — for a vessel used as a full- or part-time residence, which blends marine and home insurance concepts",
+            "[Boat Dealers Insurance](/learn/boat-dealers-insurance) — for businesses that sell, display, or transport boats they don't personally own",
+            "[Marina Insurance](/learn/marina-insurance) — for the dock, storage yard, and marina property itself, separate from any individual boat's coverage"
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature and reflects publicly available information as of the publication date. Boat insurance requirements, statutory thresholds, and registration rules vary by state and can change. Always confirm current requirements directly with your state's boating registration authority before assuming a state does or doesn't require coverage."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "when-to-hire-an-insurance-lawyer",
       "slug": "when-to-hire-an-insurance-lawyer",
       "title": "When & How to Hire an Insurance Lawyer (or Insurance Attorney)",
@@ -2168,7 +3054,7 @@
       "author": "Insurance Bhaiya Research Desk",
       "authorRole": "Actuarial Research Fellow",
       "publishedAt": "2026-09-24",
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-09-26",
       "readingTime": 6,
       "featured": true,
       "tags": [
@@ -2301,6 +3187,15 @@
         {
           "type": "paragraph",
           "text": "A few more common questions round out this topic. Buying a policy where someone else is the insured — a spouse, a child, a business partner — is routine and different from the insurable-interest question above; see [can you buy life insurance for someone else](/qa/can-you-buy-life-insurance-for-someone-else). The reason a single premium can create a payout many times its size is the same 'immediate estate' leverage effect covered in [how does life insurance create an immediate estate](/qa/how-does-life-insurance-create-an-immediate-estate). Businesses use this same product for key person coverage, buy-sell funding, and executive benefits — see [business life insurance](/learn/business-life-insurance). And a third frequently searched company, [Loyal American Life Insurance](/learn/loyal-american-life-insurance), turns out to be a real Cigna Healthcare subsidiary focused mainly on Medicare supplement products rather than large life policies."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "If a Death Claim Gets Denied"
+        },
+        {
+          "type": "paragraph",
+          "text": "A denial during the contestability period, a dispute over a beneficiary designation, or a suicide-exclusion denial are the most common reasons someone searches for legal help with a life insurance claim. See our companion guide on [when and how to hire an insurance lawyer](/learn/when-and-how-to-hire-an-insurance-lawyer), and specifically [life insurance lawyer](/qa/life-insurance-lawyer), for how these disputes actually get resolved."
         },
         {
           "type": "callout",
@@ -7994,6 +8889,129 @@
           "whyItMatters": "A generic pitch that skips this industry-specific assessment step signals the agent hasn't actually evaluated the real risk."
         }
       ]
+    },
+    {
+      "slug": "level-funded-vs-fully-insured-health-insurance",
+      "title": "Level-Funded vs. Fully-Insured Health Insurance",
+      "subtitle": "A hybrid self-funding structure increasingly used by small and mid-sized employers, versus the traditional fixed-premium group plan.",
+      "category": "Health Insurance",
+      "decisionSummary": "Level-funded plans generally make sense for employers with 10 to 250+ employees, a reasonably healthy workforce, and enough cash reserve to weather a bad claims year — the upside is a potential year-end refund and more claims-data visibility. A fully-insured plan is the safer, more predictable choice for smaller groups, employers who can't absorb claims-cost volatility, or those in states with limited level-funded carrier options. A [PEO health plan](/glossary/peo-health-plan) is a third structural option worth comparing for very small employers who want group-rate access without taking on funding risk directly. Model your total exposure either way with our [Coverage Ratio Calculator](/coverage-calculator/).",
+      "options": {
+        "optionA": "Level-Funded Health Insurance",
+        "optionB": "Fully-Insured Health Insurance"
+      },
+      "rows": [
+        {
+          "feature": "How Premiums Are Structured",
+          "optionA": "Employer pays a fixed monthly amount covering expected claims, administrative fees, and stop-loss insurance premium — but the claims portion is really the employer's own money, held and managed by the carrier or a third-party administrator.",
+          "optionB": "Employer pays a single fixed premium to the carrier, which fully assumes the risk of paying all claims regardless of how much employees actually use.",
+          "whyItMatters": "Under level-funding, the employer bears more of the actual claims risk (with a stop-loss ceiling), while a fully-insured plan transfers essentially all risk to the carrier for a flat, predictable cost."
+        },
+        {
+          "feature": "Year-End Financial Outcome",
+          "optionA": "If actual claims come in under the projected amount, the employer typically receives some or all of the difference back as a refund or credit; the exact terms vary by carrier contract.",
+          "optionB": "No refund mechanism — the premium paid is the premium paid, regardless of whether claims were higher or lower than expected that year.",
+          "whyItMatters": "Level-funding gives a healthy workforce the potential upside of lower net costs over time, while fully-insured plans trade that upside for total cost predictability."
+        },
+        {
+          "feature": "Claims Data Visibility",
+          "optionA": "Employers typically receive more detailed, ongoing claims utilization data, which can inform wellness programs and future plan design.",
+          "optionB": "Limited claims data is shared with the employer, since the carrier bears the risk and has less obligation to disclose utilization detail.",
+          "whyItMatters": "More visibility helps larger employers manage costs proactively, but it also means seeing sensitive aggregate health trends across the workforce."
+        },
+        {
+          "feature": "Regulatory Treatment",
+          "optionA": "Often treated similarly to self-funded plans for certain state-mandate purposes, potentially exempting the plan from some state-specific benefit mandates under ERISA preemption — though this varies and is a frequent point of legal scrutiny.",
+          "optionB": "Fully subject to state insurance mandates and regulations applicable to fully-insured group policies in that state.",
+          "whyItMatters": "An employer considering level-funding specifically to avoid a state benefit mandate should get legal confirmation first, since regulators in several states have pushed back on this exact strategy."
+        },
+        {
+          "feature": "Best Fit By Employer Size",
+          "optionA": "Generally most viable for employers with roughly 10 to 250+ employees and a reasonably predictable, healthy claims history.",
+          "optionB": "Available at any group size, and typically the only realistic option for very small employers (fewer than 10-15 employees) due to stop-loss underwriting minimums on level-funded plans.",
+          "whyItMatters": "A very small employer often can't access competitive level-funded stop-loss coverage at all, making fully-insured (or a [PEO health plan](/glossary/peo-health-plan)) the more realistic path."
+        }
+      ]
+    },
+    {
+      "slug": "hmo-vs-ppo-vs-epo-vs-hdhp",
+      "title": "HMO vs. PPO vs. EPO vs. HDHP: Which Health Plan Type Should You Choose?",
+      "subtitle": "The four most common health plan network structures, and how each affects your referrals, out-of-network access, and monthly cost.",
+      "category": "Health Insurance",
+      "decisionSummary": "Choose a **PPO** if out-of-network flexibility and no-referral specialist access matter more to you than lower premiums. Choose an **HMO** if you want the lowest premium and don't mind coordinating all care through a primary care physician. Choose an **EPO** as a middle ground if you're comfortable with no out-of-network coverage but don't want referral requirements. Choose an **HDHP** paired with an HSA if you're healthy, want to build tax-advantaged savings, and can comfortably cover a higher deductible if something happens. See [does health insurance cover eye exams, dermatologist visits, or chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic) for how referral rules under HMOs specifically affect specialist coverage, and model your numbers with our [Out-of-Pocket Cost Calculator](/health-insurance-calculator/).",
+      "options": {
+        "optionA": "HMO (Health Maintenance Organization)",
+        "optionB": "PPO (Preferred Provider Organization)"
+      },
+      "rows": [
+        {
+          "feature": "Primary Care Physician Requirement",
+          "optionA": "Required — you must select a PCP who coordinates and refers you to specialists.",
+          "optionB": "Not required — you can generally see any provider, including specialists, without a referral.",
+          "whyItMatters": "An HMO's referral requirement can delay specialist access but also keeps your care coordinated through one provider who knows your full history."
+        },
+        {
+          "feature": "Out-of-Network Coverage",
+          "optionA": "Generally none, except emergencies — out-of-network care is typically not covered at all.",
+          "optionB": "Covered, usually at a higher cost-share than in-network care.",
+          "whyItMatters": "If you travel frequently, live between two cities, or want flexibility to see specialists outside your immediate network, an HMO's rigid network can be a real limitation."
+        },
+        {
+          "feature": "Typical Monthly Premium",
+          "optionA": "Lowest of the common plan types.",
+          "optionB": "Higher than HMO and EPO, reflecting the added flexibility.",
+          "whyItMatters": "The premium difference is the direct cost of network flexibility — pay more for PPO freedom, or less for HMO's tighter coordination."
+        },
+        {
+          "feature": "Best Fit",
+          "optionA": "People who want the lowest premium and are comfortable with a single coordinating primary care physician.",
+          "optionB": "People who want maximum flexibility to see specialists directly or use out-of-network providers occasionally.",
+          "whyItMatters": "Matching the plan type to how you actually use healthcare (versus just picking the cheapest premium) avoids frustration later, like discovering a preferred specialist isn't reachable without a referral."
+        }
+      ]
+    },
+    {
+      "slug": "aca-marketplace-vs-employer-sponsored-health-insurance",
+      "title": "ACA Marketplace Plan vs. Employer-Sponsored Health Insurance",
+      "subtitle": "Two very different paths to ACA-compliant coverage, and what changes when you're choosing between them.",
+      "category": "Health Insurance",
+      "decisionSummary": "If you have access to an employer plan that's both affordable (generally under roughly 9% of household income for employee-only coverage) and meets minimum value, it's usually the better deal, since your employer typically subsidizes a large share of the premium. If you don't have employer coverage, are self-employed, or your employer's plan is unaffordable, a marketplace plan — potentially with income-based subsidies — is the alternative, and losing employer coverage is itself a special enrollment event that opens a marketplace window outside the annual one. See [is health insurance worth it?](/qa/is-health-insurance-worth-it) for the mandate and cancellation rules that apply either way, and [COBRA continuation coverage](/glossary/cobra-continuation-coverage) for a third option when transitioning between the two.",
+      "options": {
+        "optionA": "ACA Marketplace Plan",
+        "optionB": "Employer-Sponsored Health Insurance"
+      },
+      "rows": [
+        {
+          "feature": "Who Pays the Premium",
+          "optionA": "You pay the full premium yourself, though income-based subsidies (premium tax credits) reduce the cost for many enrollees.",
+          "optionB": "Employer typically subsidizes a significant share of the premium, especially for employee-only coverage; you pay the remaining payroll-deducted portion.",
+          "whyItMatters": "An employer subsidy is effectively money you'd have to replace out of pocket on a marketplace plan, which is why employer coverage is usually cheaper even before comparing plan quality."
+        },
+        {
+          "feature": "Enrollment Timing",
+          "optionA": "Enroll during the annual open enrollment period, or a special enrollment period triggered by a qualifying life event (job loss, marriage, new child, etc.).",
+          "optionB": "Enroll during your employer's designated open enrollment period, or within a limited window after being newly hired or after a qualifying life event.",
+          "whyItMatters": "Both paths are locked to specific windows outside of qualifying events — you generally can't switch on demand, so timing a transition matters."
+        },
+        {
+          "feature": "Plan Choice",
+          "optionA": "Choose from all marketplace carriers and metal tiers (Bronze, Silver, Gold, Platinum) available in your area.",
+          "optionB": "Limited to whatever plan options your specific employer offers, often just one to a handful of choices.",
+          "whyItMatters": "Marketplace plans offer more choice but require you to do the comparison work yourself; employer plans are simpler but less flexible."
+        },
+        {
+          "feature": "Cost Stability If You Lose the Job",
+          "optionA": "Not applicable — you keep the marketplace plan regardless of employment status, as long as premiums are paid.",
+          "optionB": "Coverage typically ends when employment ends, though [COBRA continuation coverage](/glossary/cobra-continuation-coverage) allows temporarily keeping the same plan at full, unsubsidized cost.",
+          "whyItMatters": "Losing a job means losing the employer subsidy either way — COBRA keeps the same plan but at a much higher cost, while a marketplace plan (potentially with subsidies) may end up cheaper post-employment."
+        },
+        {
+          "feature": "Small Business Alternative Structures",
+          "optionA": "Not applicable to individual marketplace plans.",
+          "optionB": "Small employers sometimes use a [PEO health plan](/glossary/peo-health-plan) or a [level-funded plan](/compare/level-funded-vs-fully-insured-health-insurance) instead of a standard fully-insured group policy to manage cost.",
+          "whyItMatters": "The 'employer-sponsored' label covers several underlying structures with different cost and flexibility trade-offs, not just one standard product."
+        }
+      ]
     }
   ],
   "glossary": [
@@ -8883,6 +9901,311 @@
           "answer": "Yes. Many international, travel, and supplementary private health plans impose sub-limits on room and board charges (e.g., $500/day maximum), physical therapy sessions (e.g., $1,000/year cap), or prescription medications."
         }
       ]
+    },
+    {
+      "slug": "insurance-discovery",
+      "term": "Insurance Discovery",
+      "title": "What Is Insurance Discovery? Definition & How It Protects Patients",
+      "description": "Insurance discovery is how healthcare providers find a patient's active coverage when it wasn't reported or was incomplete, preventing an unnecessary self-pay bill.",
+      "ukTerm": "Coverage Discovery",
+      "category": "Costs & Claims",
+      "simpleDefinition": "The process healthcare providers use to find a patient's active insurance coverage when it wasn't provided, was incomplete, or was thought to not exist at all.",
+      "scoutExplanation": "[Insurance discovery](/glossary/insurance-discovery) is mostly a provider-side, behind-the-scenes process rather than something a patient does themselves. When someone shows up at a hospital or clinic without insurance information — an unconscious emergency patient, someone who forgot their card, or someone who genuinely didn't realize they still had active Medicaid or a parent's plan covering them — billing offices run an insurance discovery search across multiple payer databases to find any billable coverage before writing the balance off as bad debt or billing the patient directly. It's different from ordinary eligibility verification, which just confirms whether a known policy is currently active; discovery works with limited information (name, date of birth, address) to find coverage nobody knew to check for.",
+      "example": "Maria is brought to the ER unconscious after a car accident and can't provide any insurance information. The hospital's billing office runs an insurance discovery search using her name and date of birth, and finds that she's still covered under her employer's health plan from a job she started two weeks earlier — coverage she didn't even know had activated yet. The claim is billed correctly to that plan instead of becoming Maria's direct financial responsibility.",
+      "whyItMatters": "For patients, insurance discovery working correctly is what stands between a medical bill going to your actual insurer versus landing on you personally as self-pay. If you've ever been surprised that a hospital found coverage you forgot you had, this is the process responsible — and it's also why keeping your insurance information current with providers reduces the risk of an unnecessary self-pay bill while discovery is still running its course. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage picture this process protects.",
+      "relatedTerms": [
+        "eligibility-verification",
+        "coordination-of-benefits",
+        "explanation-of-benefits",
+        "prior-authorization"
+      ],
+      "miniQuiz": {
+        "question": "What is the main difference between insurance discovery and standard eligibility verification?",
+        "options": [
+          {
+            "text": "They are the same process with different names",
+            "correct": false,
+            "explanation": "Not quite — verification checks a known policy, while discovery searches for coverage that isn't already on file."
+          },
+          {
+            "text": "Eligibility verification confirms a known policy is active; discovery searches for coverage nobody has reported yet",
+            "correct": true,
+            "explanation": "Exactly right. Verification is a lookup against a known payer; discovery is an exhaustive search when that information is missing or incomplete."
+          },
+          {
+            "text": "Discovery only applies to dental insurance",
+            "correct": false,
+            "explanation": "Incorrect. Insurance discovery is most commonly used in general medical and hospital billing, not limited to dental coverage."
+          },
+          {
+            "text": "Discovery is something only patients can request, not providers",
+            "correct": false,
+            "explanation": "Incorrect. Insurance discovery is almost always run by the provider's billing office or a third-party revenue-cycle vendor, not initiated by the patient."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Insurance discovery sits behind the scenes of nearly every hospital or clinic billing office, but it directly affects whether a patient's bill lands correctly on an insurer or incorrectly on the patient themselves."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How the Discovery Process Actually Works"
+        },
+        {
+          "type": "paragraph",
+          "text": "When a patient's insurance information is missing, incomplete, or apparently non-existent, a provider's billing office runs a discovery search using limited identifying details — name, date of birth, address — against multiple payer databases simultaneously. This differs from routine eligibility verification, which simply confirms whether a policy the patient already reported is currently active. Discovery is used specifically when there's no known policy to check in the first place, most commonly for unconscious emergency patients, forgotten insurance cards, or coverage a patient didn't realize had recently activated."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why This Matters Even If You Never See It Happen"
+        },
+        {
+          "type": "paragraph",
+          "text": "If discovery finds active coverage, the claim gets billed to that payer instead of becoming the patient's direct financial responsibility or being written off as uncompensated care. Keeping your insurance information current with providers — even ones you don't visit often — shortens how long a bill might sit in limbo while a discovery search runs its course. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage picture this process protects."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This entry is educational and general in nature. Specific billing and insurance discovery practices vary by provider, health system, and revenue-cycle vendor."
+        }
+      ]
+    },
+    {
+      "slug": "peo-health-plan",
+      "term": "PEO Health Plan",
+      "title": "What Is a PEO Health Plan? Definition & How Co-Employment Works",
+      "description": "A PEO health plan pools employees from many small businesses under one master policy through co-employment, giving small employers large-group-style pricing and benefits.",
+      "ukTerm": "Umbrella Group Scheme",
+      "category": "Policy Structure",
+      "simpleDefinition": "A health plan offered through a Professional Employer Organization (PEO), which pools employees from many small businesses together under one master policy to access group rates closer to those of a large employer.",
+      "scoutExplanation": "A [PEO health plan](/glossary/peo-health-plan) works through what's called a co-employment arrangement: your business enters a contract with a PEO, which becomes the official 'employer of record' for HR, payroll, and benefits purposes, while your company keeps control of day-to-day work direction. Because the PEO combines employees from many client businesses into one large risk pool, even a five-person company can access benefits and pricing normally reserved for employers with hundreds of workers — a meaningfully different structure from a standard small-group policy purchased directly from a carrier, and from a [level-funded plan](/compare/level-funded-vs-fully-insured-health-insurance), which stays entirely within one employer's own risk pool.",
+      "example": "A 12-person marketing agency can't get competitive group health rates on its own. It partners with a PEO, which combines the agency's employees with those of hundreds of other small client businesses into one large pool, letting the agency offer employees a large-employer-style plan (often including better provider networks and lower per-employee costs) that it couldn't have accessed independently.",
+      "whyItMatters": "If you're a small-business owner comparing benefits options, a PEO plan can meaningfully close the pricing and plan-quality gap with larger employers, but it also means giving up some administrative control since the PEO becomes your employees' legal employer for benefits purposes — and if your business ever leaves the PEO arrangement, you'll typically need to set up a new standalone plan rather than simply keeping the same policy. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for how PEO coverage compares on actual benefits.",
+      "relatedTerms": [
+        "level-funded-health-insurance",
+        "group-health-insurance",
+        "co-employment",
+        "small-group-plan"
+      ],
+      "miniQuiz": {
+        "question": "What makes a PEO health plan different from a standard small-group health policy?",
+        "options": [
+          {
+            "text": "PEO plans only cover Medicare-eligible employees",
+            "correct": false,
+            "explanation": "Incorrect. PEO plans are unrelated to Medicare eligibility and are used for working-age employees of small businesses."
+          },
+          {
+            "text": "The PEO pools employees from many small businesses into one large risk pool under co-employment",
+            "correct": true,
+            "explanation": "Correct. This pooling is what lets small employers access pricing and benefits closer to a large group plan."
+          },
+          {
+            "text": "A PEO plan is always more expensive than a direct small-group policy",
+            "correct": false,
+            "explanation": "Not necessarily — PEO pooling often lowers per-employee cost precisely because the risk pool is larger, though results vary by PEO and industry."
+          },
+          {
+            "text": "A PEO plan requires the business to become fully self-funded",
+            "correct": false,
+            "explanation": "Incorrect. The PEO, not the individual client business, holds the master policy and manages the funding structure."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A PEO health plan is one of the main ways a small business can access benefits and pricing that would otherwise only be realistic for a much larger employer."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Co-Employment Structure, Explained"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entering a PEO arrangement means signing a co-employment contract: the PEO becomes the official 'employer of record' for payroll, tax filings, and benefits administration, while your business keeps full control over hiring, firing, and day-to-day work direction. Because the PEO combines employees from potentially hundreds of small client businesses into one large risk pool, even a very small company can access provider networks and per-employee pricing normally reserved for large employers."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How This Compares to Other Small-Business Options"
+        },
+        {
+          "type": "paragraph",
+          "text": "A PEO plan is a structurally different path than a standard small-group policy or a [level-funded health plan](/compare/level-funded-vs-fully-insured-health-insurance) — those keep your business as the sole legal policyholder, while a PEO plan sits under one much larger master policy shared across many employers. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) and [Marcus's small business health plan structure scenario](/scenarios/marcus-small-business-health-plan-structure) for how a real small employer weighs this decision."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "What Happens If You Leave the PEO",
+          "text": "If your business ever exits a PEO arrangement, you typically can't simply keep the same policy — you'll need to set up a new standalone group plan, which is worth planning for well before any transition."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This entry is educational and general in nature. PEO contract terms, benefits, and pricing structures vary significantly by provider and should be reviewed with a licensed benefits advisor."
+        }
+      ]
+    },
+    {
+      "slug": "cobra-continuation-coverage",
+      "term": "COBRA Continuation Coverage",
+      "title": "What Is COBRA Continuation Coverage? Definition, Cost & Eligibility",
+      "description": "COBRA lets you temporarily keep your employer's exact health plan after a qualifying event like job loss, by paying the full premium yourself plus a small admin fee.",
+      "ukTerm": "N/A (US-specific benefit)",
+      "category": "Policy Structure",
+      "simpleDefinition": "A federal law letting you temporarily keep your employer's group health plan after leaving a job, by paying the full premium yourself, usually plus a small administrative fee.",
+      "scoutExplanation": "[COBRA continuation coverage](/glossary/cobra-continuation-coverage) is triggered by specific 'qualifying events' — voluntary or involuntary job loss (other than for gross misconduct), a reduction in work hours that ends benefits eligibility, divorce, a dependent aging out of coverage, or the covered employee's death. It applies to employers with 20 or more employees under the federal law (many states have a 'mini-COBRA' equivalent for smaller employers). The coverage itself is identical to what you had as an active employee — same network, same benefits — but you now pay the full premium the employer used to subsidize, plus up to a 2% administrative fee, which is why COBRA premiums often come as a shock compared to the payroll-deducted amount you were used to seeing.",
+      "example": "After being laid off, David elects COBRA to keep his family on the same health plan while job hunting. His premium jumps from the $180/month he used to see deducted from his paycheck to $850/month, because he's now paying the portion his employer used to cover plus his own share, plus a 2% administrative fee — but he keeps the exact same doctors and network without any gap in coverage.",
+      "whyItMatters": "COBRA is rarely the cheapest option, but it's often the only way to keep the exact same doctors and coverage with zero gap after a qualifying event — comparing its actual cost against a marketplace plan (which a job loss also qualifies you for, via special enrollment) is worth doing before defaulting to COBRA automatically. See [level-funded vs. fully-insured health insurance](/compare/level-funded-vs-fully-insured-health-insurance) and [PEO health plan](/glossary/peo-health-plan) for how the employer-side plan structure you're leaving affects what continuation coverage actually looks like.",
+      "relatedTerms": [
+        "peo-health-plan",
+        "level-funded-health-insurance",
+        "qualifying-life-event",
+        "special-enrollment-period"
+      ],
+      "miniQuiz": {
+        "question": "Why do COBRA premiums typically feel much higher than what someone paid as an active employee?",
+        "options": [
+          {
+            "text": "COBRA plans always have worse benefits than the original employer plan",
+            "correct": false,
+            "explanation": "Incorrect. COBRA coverage is identical to the active-employee plan — same network and benefits, just a different cost structure."
+          },
+          {
+            "text": "The person now pays both their own share and the portion their employer used to subsidize, plus an admin fee",
+            "correct": true,
+            "explanation": "Correct. Employers typically cover a large share of premiums for active employees; COBRA removes that subsidy, so the full cost (plus up to 2%) falls on the individual."
+          },
+          {
+            "text": "COBRA always charges a higher rate than the market rate for the same plan",
+            "correct": false,
+            "explanation": "Incorrect. COBRA premiums reflect the plan's actual group cost plus a capped admin fee, not an inflated market rate."
+          },
+          {
+            "text": "COBRA is only available at premium, upgraded coverage tiers",
+            "correct": false,
+            "explanation": "Incorrect. COBRA simply continues the exact same plan the person already had — there's no tier upgrade involved."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "COBRA is often misunderstood as a separate insurance product, when it's really a legal right to temporarily keep the exact plan you already had."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Triggers COBRA Eligibility"
+        },
+        {
+          "type": "paragraph",
+          "text": "COBRA applies after specific 'qualifying events': voluntary or involuntary job loss (other than for gross misconduct), a reduction in work hours that ends benefits eligibility, divorce, a dependent aging out of coverage, or the covered employee's death. It applies to employers with 20 or more employees under the federal law, and many states have a 'mini-COBRA' equivalent extending similar rights to employees of smaller employers."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why the Premium Jumps So Much"
+        },
+        {
+          "type": "paragraph",
+          "text": "Employers typically subsidize a large share of active employees' premiums. Under COBRA, that subsidy disappears — you pay the full premium the plan actually costs, plus up to a 2% administrative fee, which is why a COBRA bill often looks dramatically higher than what used to come out of a paycheck for the same exact coverage."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "COBRA Isn't Your Only Option"
+        },
+        {
+          "type": "paragraph",
+          "text": "Losing job-based coverage also opens a special enrollment window for an ACA marketplace plan, which — especially with income-based subsidies — can sometimes end up cheaper than COBRA for the same transition period. See [ACA marketplace plan vs. employer-sponsored health insurance](/compare/aca-marketplace-vs-employer-sponsored-health-insurance) for a full side-by-side comparison before defaulting to COBRA automatically."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This entry is educational and general in nature and does not constitute legal advice. COBRA eligibility windows, costs, and state mini-COBRA rules vary; confirm your specific situation with your plan administrator or a benefits professional."
+        }
+      ]
+    },
+    {
+      "slug": "prior-authorization",
+      "term": "Prior Authorization",
+      "title": "What Is Prior Authorization? Definition & Why Claims Get Denied Without It",
+      "description": "Prior authorization is the approval an insurer requires before certain treatments, procedures, or medications are covered — skipping it is a leading cause of claim denials.",
+      "ukTerm": "Pre-Authorisation",
+      "category": "Costs & Claims",
+      "simpleDefinition": "Approval your health insurer requires before it will pay for certain treatments, procedures, or medications — obtained before the care happens, not after.",
+      "scoutExplanation": "[Prior authorization](/glossary/prior-authorization) exists so insurers can review whether a specific treatment meets their medical necessity criteria before agreeing to pay for it, and it's most commonly required for expensive procedures (like bariatric surgery), higher levels of mental health care (like inpatient or residential treatment), certain specialty medications (including many GLP-1 weight-loss drugs), and imaging like MRIs or CT scans. The request is typically submitted by your provider's office, not by you directly, but the outcome directly affects your wallet: skipping a required prior authorization is one of the most common reasons an otherwise legitimate claim gets denied outright, regardless of whether the care itself was medically appropriate.",
+      "example": "Before scheduling bariatric surgery, Elena's surgeon's office submits a prior authorization request documenting her BMI, comorbidities, and prior weight-loss attempts. The insurer approves it in advance, confirming the surgery will be covered before Elena undergoes the procedure — if the office had skipped this step, the claim could have been denied afterward even though Elena met all the medical criteria.",
+      "whyItMatters": "A denied prior authorization isn't necessarily the final word — most plans have a formal appeals process, and getting the plan's specific written medical policy criteria (not just the denial letter) is usually the fastest way to understand what additional documentation could change the outcome. See [does health insurance cover weight loss drugs or bariatric surgery?](/qa/does-health-insurance-cover-weight-loss-drugs-bariatric-surgery) and [does health insurance cover therapy and mental health treatment?](/qa/does-health-insurance-cover-therapy-mental-health) for two of the most common real-world prior authorization scenarios.",
+      "relatedTerms": [
+        "medical-necessity",
+        "explanation-of-benefits",
+        "peo-health-plan",
+        "insurance-discovery"
+      ],
+      "miniQuiz": {
+        "question": "What typically happens if a provider skips a required prior authorization before a procedure?",
+        "options": [
+          {
+            "text": "The claim is automatically covered since the procedure already happened",
+            "correct": false,
+            "explanation": "Incorrect. Skipping a required prior authorization is one of the most common reasons a claim is denied outright, regardless of medical necessity."
+          },
+          {
+            "text": "The claim is commonly denied, even if the treatment was medically appropriate",
+            "correct": true,
+            "explanation": "Correct. Prior authorization is a procedural requirement separate from medical necessity — missing it can result in denial even for appropriate care."
+          },
+          {
+            "text": "The patient automatically qualifies for a full refund from the provider",
+            "correct": false,
+            "explanation": "Incorrect. Skipping prior authorization affects insurance coverage, not the provider's billing obligations."
+          },
+          {
+            "text": "Prior authorization only applies to prescription drugs, not procedures",
+            "correct": false,
+            "explanation": "Incorrect. Prior authorization commonly applies to surgeries, imaging, higher levels of mental health care, and specialty medications alike."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Prior authorization is one of the most common reasons an otherwise medically appropriate claim gets denied — not because the care was wrong, but because a required approval step was skipped."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Actually Requires Prior Authorization"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurers typically require prior authorization for expensive or higher-risk categories of care: major surgeries like bariatric procedures, higher levels of mental health treatment such as inpatient or residential care, certain specialty medications including many GLP-1 weight-loss drugs, and advanced imaging like MRIs and CT scans. The request is almost always submitted by the treating provider's office, not the patient directly, and reviewed against the insurer's specific written medical necessity criteria before treatment happens."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Skipping It Is So Costly"
+        },
+        {
+          "type": "paragraph",
+          "text": "A missing prior authorization is a procedural failure, separate from whether the underlying care was medically necessary — which is exactly why it can result in a full claim denial even for entirely appropriate treatment. See [does health insurance cover weight loss drugs or bariatric surgery?](/qa/does-health-insurance-cover-weight-loss-drugs-bariatric-surgery) and [does health insurance cover therapy and mental health treatment?](/qa/does-health-insurance-cover-therapy-mental-health) for two of the most common real-world scenarios where this comes up."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "If You're Denied",
+          "text": "Ask your insurer for their specific written medical policy criteria for that treatment, not just the denial letter — it's usually the fastest way to see exactly what documentation an appeal would need."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This entry is educational and general in nature. Prior authorization requirements vary by insurer, plan, state, and treatment type."
+        }
+      ]
     }
   ],
   "scenarios": [
@@ -9156,6 +10479,68 @@
         "See the lead-generation side of this from an agency's perspective in [how to get clients for insurance business](/qa/how-to-get-clients-for-insurance-business).",
         "Compare the resulting quotes properly using our [Car Insurance Coverage Calculator](/car-insurance-calculator/) rather than picking based on whoever called first."
       ]
+    },
+    {
+      "slug": "priya-health-insurance-diagnosis-coverage",
+      "name": "Priya",
+      "displayTitle": "Priya's Insurance Decision",
+      "title": "Priya's Insurance Decision",
+      "category": "General",
+      "age": 34,
+      "location": "Texas, US",
+      "market": "US",
+      "avatarBg": "#dbeafe",
+      "situation": "Marketing manager on an employer-sponsored PPO with a $2,500 deductible and $6,000 out-of-pocket maximum, recently diagnosed with a condition requiring an in-network specialist, monthly medication, and physical therapy.",
+      "coreQuestion": "Diagnosed mid-year with a condition needing specialist visits, ongoing medication, and physical therapy — how much will Priya actually pay out of pocket, and in what order does her coverage kick in?",
+      "scoutTake": "Priya's situation is a textbook illustration of how deductible, coinsurance, and out-of-pocket maximum stack together in a single plan year. Because her diagnosis happened mid-year, all of her costs for the rest of the year count toward the same $2,500 deductible and $6,000 out-of-pocket max — meaning a bad month early on can make the rest of the year far cheaper than people expect. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for how these mechanics interact with specific benefit categories, and confirm whether her physical therapy visits are capped annually using [does health insurance cover chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic) as a reference point for how visit caps commonly work.",
+      "keyRisks": [
+        "Physical therapy visit caps that could leave later sessions in the year fully out-of-pocket even after the deductible is met",
+        "A specialist referral requirement under her plan type that, if skipped, could result in a claim denial rather than just a higher copay",
+        "Prescription costs that may sit in a separate drug-specific deductible or tier structure rather than counting toward the same $2,500 medical deductible"
+      ],
+      "recommendedStrategy": [
+        "Confirm whether prescription costs apply to the same deductible or a separate pharmacy deductible before assuming all costs stack together",
+        "Get the required referral from her primary care physician before the first specialist visit to avoid a coverage denial",
+        "Track running totals toward both the deductible and out-of-pocket maximum using the plan's online member portal, since hitting the $6,000 out-of-pocket max means 100% coverage for the rest of the plan year"
+      ],
+      "estimatedMonthlyCost": "$180 - $420 / month until the $6,000 out-of-pocket maximum is reached, then $0 in cost-sharing for the remainder of the plan year",
+      "relatedToolSlug": "health-insurance-calculator",
+      "strategies": [
+        "Request an itemized breakdown from the insurer showing exactly how much of the deductible and out-of-pocket maximum has been met so far, using our [Out-of-Pocket Cost Calculator](/health-insurance-calculator/) to project the rest of the year.",
+        "Ask the physical therapy provider directly how many visits per year are covered under Priya's specific plan before scheduling an extended treatment course, referencing the visit-cap pattern in [does health insurance cover chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic).",
+        "If Priya later considers a job change, check whether COBRA or a new employer's plan would reset her deductible and out-of-pocket progress — see [COBRA continuation coverage](/glossary/cobra-continuation-coverage) for how that transition works."
+      ]
+    },
+    {
+      "slug": "marcus-small-business-health-plan-structure",
+      "name": "Marcus",
+      "displayTitle": "Marcus's Insurance Decision",
+      "title": "Marcus's Insurance Decision",
+      "category": "General",
+      "age": 41,
+      "location": "Ohio, US",
+      "market": "US",
+      "avatarBg": "#dcfce7",
+      "situation": "Owner of a 14-employee logistics company currently offering no group health plan, losing candidates to competitors that offer benefits, and comparing structural options for the first time.",
+      "coreQuestion": "With 14 employees and no benefits history, should Marcus set up a standard fully-insured small-group plan, join a PEO, or consider level-funding — and what does each actually cost and risk?",
+      "scoutTake": "At 14 employees, Marcus sits right at the edge of what most level-funded carriers will underwrite, which narrows his realistic choice mostly to a standard fully-insured small-group plan or a PEO health plan. See [level-funded vs. fully-insured health insurance](/compare/level-funded-vs-fully-insured-health-insurance) for why group size matters so much here, and [PEO health plan](/glossary/peo-health-plan) for how the co-employment pooling structure could get Marcus large-employer-style pricing despite his small headcount. Either path is far better for recruiting than his current no-benefits position, given how much [does health insurance cover pregnancy and maternity care?](/qa/does-health-insurance-cover-pregnancy-maternity-care) and similar core-benefit questions come up in candidate conversations.",
+      "keyRisks": [
+        "Setting up a standard small-group plan without shopping multiple carriers, potentially overpaying for comparable coverage",
+        "Underestimating the loss of direct HR control that comes with a PEO's co-employment structure",
+        "Choosing based on premium alone without comparing network quality and the specific benefit exclusions (like GLP-1 weight-loss drug coverage) each option applies"
+      ],
+      "recommendedStrategy": [
+        "Get quotes for a standard fully-insured small-group plan from at least three carriers before comparing further",
+        "Request a detailed PEO proposal showing exactly which benefits, network, and pricing employees would get under the pooled structure, using [PEO health plan](/glossary/peo-health-plan) as a framework for the right questions to ask",
+        "Compare both proposals against the [ACA marketplace vs. employer-sponsored coverage](/compare/aca-marketplace-vs-employer-sponsored-health-insurance) baseline to sanity-check whether employer-sponsored coverage of either type is actually the better deal for his specific employee group"
+      ],
+      "estimatedMonthlyCost": "$450 - $650 per employee per month for a standard small-group plan; often 10-20% lower per employee under a well-negotiated PEO arrangement, depending on the PEO's overall risk pool",
+      "relatedToolSlug": "health-insurance-calculator",
+      "strategies": [
+        "Shop at least three fully-insured small-group carrier quotes before deciding, using our [Out-of-Pocket Cost Calculator](/health-insurance-calculator/) to compare real employee cost-sharing, not just the headline premium.",
+        "Ask any PEO candidate directly how co-employment would affect Marcus's existing HR processes and who becomes the employer of record, referencing [PEO health plan](/glossary/peo-health-plan) for the specific trade-offs to probe.",
+        "If Marcus's business ever separates from a PEO later, plan ahead for the transition using [COBRA continuation coverage](/glossary/cobra-continuation-coverage) as a reference point for how continuation options work when an employer-sponsored plan changes."
+      ]
     }
   ],
   "policyChecklist": [
@@ -9408,8 +10793,8 @@
       "id": "qa-02",
       "slug": "does-health-insurance-cover-pre-existing-conditions",
       "category": "Health",
-      "question": "Does health insurance cover pre-existing conditions, and can an insurer deny you?",
-      "shortAnswer": "Under the Affordable Care Act (ACA), major medical individual and employer health plans cannot deny coverage, charge higher premiums, or exclude treatment for pre-existing conditions. However, non-ACA plans such as short-term health insurance, health sharing ministries, and travel medical policies can and routinely do deny or restrict pre-existing condition coverage.",
+      "question": "Does Health Insurance Cover Pre-Existing Conditions?",
+      "shortAnswer": "Yes, for any ACA-compliant plan. Since 2014, the Affordable Care Act has prohibited every individual, small-group, and large-group ACA-compliant health plan from denying coverage, charging higher premiums, or excluding benefits based on a pre-existing condition — this applies regardless of how serious the condition is. The major exception is short-term, limited-duration health insurance, which is not ACA-compliant and can still deny coverage or exclude a pre-existing condition entirely. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for how this fits into the broader coverage picture.",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
@@ -10303,6 +11688,69 @@
       "shortAnswer": "Most insurance and bad-faith lawyers work on contingency, meaning you pay nothing upfront and nothing at all unless they recover additional money for you — typically 25%-40% of the extra amount they win, depending on the state, the type of claim, and whether the case settles or goes to trial. Hourly billing is far less common in this practice area and usually only applies to advisory work rather than an active dispute. See our broader guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer) for when this cost is actually worth paying.",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-102",
+      "slug": "apwu-imperial-lifex-innovative-partners-health-insurance-legit",
+      "category": "Health",
+      "question": "Is APWU, Imperial, LifeX, or Innovative Partners Health Insurance Legit?",
+      "shortAnswer": "These four names cover very different situations. APWU Health Plan is a long-established, legitimate FEHB carrier for postal and federal employees. Imperial Health Plan of California is a licensed Medicare Advantage and marketplace HMO. LifeX and Innovative Partners are not licensed insurance companies — both have drawn active state regulatory warnings or cease-and-desist orders for marketing unlicensed health coverage. Run any unfamiliar name through the same checklist in [is this insurance company legit?](/learn/insurance-company-reviews-is-brand-insurance-legit) before enrolling.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-103",
+      "slug": "does-health-insurance-cover-eye-exams-dermatologist-chiropractic",
+      "category": "Health",
+      "question": "Does Health Insurance Cover Eye Exams, Dermatologist Visits, or Chiropractic Care?",
+      "shortAnswer": "It depends on the visit type. A dermatologist visit for a medical concern (a suspicious mole, a rash, a skin infection) is typically covered as a specialist visit, usually requiring a referral or higher copay. A routine eye exam for glasses or contacts is usually NOT covered by standard health insurance — that's what separate vision insurance is for — though an eye exam related to a medical condition like diabetes often is covered. Chiropractic care coverage varies the most: some plans cover a limited number of visits per year, others exclude it entirely or require it to be billed as physical therapy. Always check your specific plan's Summary of Benefits rather than assuming. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-104",
+      "slug": "does-health-insurance-cover-car-accidents-pip",
+      "category": "Health",
+      "question": "Does Health Insurance Cover Car Accidents? And Do You Still Need PIP?",
+      "shortAnswer": "Yes, health insurance generally does cover injuries from a car accident (or any other auto accident) once it becomes involved, but it usually isn't the first payer. In no-fault and PIP-mandatory states, your auto policy's Personal Injury Protection typically pays first regardless of fault, with health insurance stepping in only after PIP limits are exhausted. Whether you still need PIP if you already have health insurance depends entirely on your state's specific rules — in many states it's legally required regardless of your other coverage. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage picture.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-105",
+      "slug": "is-health-insurance-worth-it",
+      "category": "Health",
+      "question": "Is Health Insurance Worth It? Cost, Mandates, and When You Can Cancel",
+      "shortAnswer": "For most people, yes — a single serious illness or injury can cost far more than years of premiums, and going uninsured also exposes you to the full negotiated 'rack rate' of medical care rather than an insurer's discounted rate. Beyond the cost math, a few states, including California, still legally require most residents to carry coverage or pay a tax penalty, separate from whether you personally think it's worth it. You can generally cancel most individual health plans anytime, but doing so outside open enrollment usually means you can't re-enroll in a new marketplace plan until the next open enrollment period unless you qualify for a special enrollment event.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-106",
+      "slug": "does-health-insurance-cover-therapy-mental-health",
+      "category": "Health",
+      "question": "Does Health Insurance Cover Therapy and Mental Health Treatment?",
+      "shortAnswer": "Yes, in most cases. Mental health and substance use disorder treatment is one of the 10 Essential Health Benefits required on every ACA-compliant individual and small-group plan, and federal parity law requires group plans that offer mental health benefits to cover them no more restrictively than physical health benefits. The gap most people run into isn't whether therapy is covered, but finding an in-network provider who's actually accepting new patients — out-of-network mental health care is common and usually far more expensive. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework this fits into.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-107",
+      "slug": "does-health-insurance-cover-pregnancy-maternity-care",
+      "category": "Health",
+      "question": "Does Health Insurance Cover Pregnancy and Maternity Care?",
+      "shortAnswer": "Yes. Maternity and newborn care is one of the ACA's 10 Essential Health Benefits, so every individual and small-group ACA-compliant plan must cover prenatal visits, labor and delivery, and postpartum care — and, unlike before 2014, pregnancy can no longer be treated as a pre-existing condition or excluded. The exception again is short-term, limited-duration insurance, which is not required to cover maternity care and commonly excludes it entirely. See [does health insurance cover pre-existing conditions?](/qa/does-health-insurance-cover-pre-existing-conditions) for the broader rule this builds on, and [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the full coverage picture.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-108",
+      "slug": "does-health-insurance-cover-weight-loss-drugs-bariatric-surgery",
+      "category": "Health",
+      "question": "Does Health Insurance Cover Weight Loss Drugs (Ozempic, Wegovy) or Bariatric Surgery?",
+      "shortAnswer": "It depends heavily on the specific plan and drug. GLP-1 medications prescribed for diabetes (like Ozempic for Type 2 diabetes) are more consistently covered than the same drug class prescribed purely for weight loss (like Wegovy or Zepbound for obesity), and many employer plans explicitly exclude weight-loss-indication GLP-1s due to their high cost, even when the exact same medication would be covered for a diabetes diagnosis. Bariatric surgery is more often covered, but almost always requires prior authorization and documented medical necessity criteria. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
     }
   ]
 }

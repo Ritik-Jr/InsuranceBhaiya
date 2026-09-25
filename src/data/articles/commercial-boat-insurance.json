@@ -1,0 +1,107 @@
+{
+  "type": "learn",
+  "id": "commercial-boat-insurance",
+  "slug": "commercial-boat-insurance",
+  "title": "Commercial Boat Insurance: When a Recreational Policy Isn't Enough",
+  "description": "What commercial boat insurance actually covers, who needs it, and why using a recreational policy for a money-making boat can void your coverage — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "commercial boat insurance",
+    "boat insurance by state",
+    "boat rental insurance",
+    "niche commercial insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Commercial boat insurance covers any vessel used to generate income — fishing charters, tour boats, water taxis, dive boats, boat rentals — and is structurally different from a personal recreational boat policy, not just a pricier version of it.",
+    "Using a boat for any paying activity while insured only under a personal recreational policy is one of the most common ways an owner accidentally voids coverage entirely, since nearly all recreational policies specifically exclude commercial use.",
+    "Core commercial coverage includes protection and indemnity (P&I, the marine equivalent of liability insurance), hull coverage for the vessel itself, and often Jones Act or maritime employer's liability coverage if the operation has crew.",
+    "Passenger vessels carrying paying customers typically need to meet US Coast Guard inspection and certification requirements in addition to insurance, and insurers generally expect to see that certification as part of underwriting.",
+    "This is the direct maritime counterpart to [boat rental insurance](/learn/boat-rental-insurance), which specifically covers the bareboat/unsupervised rental model — commercial boat insurance is the broader category covering captained, crewed, and passenger-carrying operations as well."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I need commercial boat insurance if I only take paying customers occasionally?",
+      "answer": "Generally yes — even occasional paid use typically falls outside a standard recreational policy's coverage, so it's worth confirming with your insurer or getting a specific commercial endorsement rather than assuming occasional use doesn't count."
+    },
+    {
+      "question": "Does commercial boat insurance cover the boat when it's used recreationally too?",
+      "answer": "Often yes, many commercial marine policies can be structured to cover both commercial and personal use of the same vessel, but this needs to be explicitly arranged rather than assumed — confirm with your broker exactly what activities are covered."
+    },
+    {
+      "question": "What is protection and indemnity (P&I) insurance?",
+      "answer": "P&I insurance is the marine industry's version of liability insurance, covering claims for injury to passengers, crew, or third parties, and certain property damage claims arising from the vessel's operation — it's a foundational coverage for any commercial marine operation."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Any boat that generates income — even occasionally — falls outside what a standard recreational policy is built to cover. Below are the specific questions charter operators, tour companies, and other commercial boat owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Actually Counts as \"Commercial\" Use of a Boat?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial use covers any activity where the boat generates income or is used in connection with a business — fishing charters, sightseeing or dinner cruise tours, water taxi or ferry service, dive charters, boat rentals, and even occasional paid use like renting the boat out for a single event. It doesn't need to be your full-time business; even occasional paid trips on a boat otherwise used recreationally typically trigger the need for commercial coverage for those specific activities."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Can't You Just Use Your Regular Boat Insurance for This?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nearly every standard recreational boat policy contains an explicit commercial use exclusion, meaning any claim arising while the boat was being used commercially — even a single paid charter trip — can be denied outright, regardless of how the accident happened. This is one of the most common and financially painful insurance mistakes among boat owners who start monetizing a boat casually (offering a few paid trips to friends of friends, for example) without realizing their existing policy no longer applies the moment money changes hands for use of the boat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does Commercial Boat Insurance Actually Cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A commercial marine policy typically bundles hull coverage (physical damage to the vessel), protection and indemnity or P&I coverage (the marine industry's equivalent of liability insurance, covering injury to passengers, crew, and third parties, plus certain property damage), and, for operations with employees or crew, maritime employer's liability or Jones Act coverage, which addresses injury claims from crew members under federal maritime law — a distinct legal framework from standard workers' compensation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Do You Need Coast Guard Certification Too, Separate From Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For most passenger-carrying commercial operations, yes — the US Coast Guard requires inspection and certification for vessels carrying paying passengers above certain thresholds, and a licensed captain (holding a Coast Guard-issued Merchant Mariner Credential) is generally required to operate it. Insurers underwriting commercial passenger vessels typically expect to see this certification as part of the application, since it's both a legal requirement and a meaningful risk indicator for the underwriter."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Is This Different From Boat Rental Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "[Boat rental insurance](/learn/boat-rental-insurance) is really a subset of commercial boat insurance focused specifically on the bareboat rental model — handing an unsupervised vessel over to a renter. Commercial boat insurance is the broader category, also covering captained charters, crewed tours, and other passenger-carrying commercial activity where the operator's own crew remains in control of the vessel, which carries a different liability profile than an unsupervised rental."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Commercial marine insurance requirements, US Coast Guard certification thresholds, and applicable maritime law vary by vessel type, operation, and jurisdiction. Consult a licensed marine insurance broker and confirm current US Coast Guard requirements before operating a commercial vessel."
+    }
+  ]
+}

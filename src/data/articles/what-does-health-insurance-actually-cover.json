@@ -1,0 +1,167 @@
+{
+  "type": "learn",
+  "id": "what-does-health-insurance-actually-cover",
+  "slug": "what-does-health-insurance-actually-cover",
+  "title": "What Does Health Insurance Actually Cover?",
+  "description": "What health insurance typically covers, what's often excluded, how group plans are structured, and how to verify a health plan's legitimacy before you enroll.",
+  "category": "health-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 9,
+  "featured": true,
+  "tags": [
+    "health insurance coverage",
+    "level funded health insurance",
+    "is health insurance worth it",
+    "health insurance mandate",
+    "PEO health plan",
+    "HMO vs PPO",
+    "pre-existing conditions",
+    "prior authorization",
+    "health-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Under the Affordable Care Act, individual and small-group plans must cover 10 categories of Essential Health Benefits, but routine vision and dental for adults, and often chiropractic care, sit outside that list and vary plan to plan — see [does health insurance cover eye exams, dermatologist visits, or chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic)",
+    "Health insurance and auto insurance frequently overlap after a car accident, and figuring out which one pays first (and whether you still need PIP) trips up almost everyone — full breakdown in [does health insurance cover car accidents?](/qa/does-health-insurance-cover-car-accidents-pip)",
+    "\"Is health insurance worth it\" isn't just a cost question — it also depends on your state's individual mandate, your employer's legal obligations, and specific state-mandated benefits like California's new IVF coverage requirement — see [is health insurance worth it?](/qa/is-health-insurance-worth-it)",
+    "Employer-sponsored plans aren't all structured the same way: [level-funded plans](/compare/level-funded-vs-fully-insured-health-insurance) and [PEO health plans](/glossary/peo-health-plan) are increasingly common alternatives to a traditional fully-insured group policy, especially for small and mid-sized businesses.",
+    "Before trusting an unfamiliar health plan name, run it through the same legitimacy checklist used for any insurer — see [is APWU, Imperial, LifeX, or Innovative Partners health insurance legit?](/qa/apwu-imperial-lifex-innovative-partners-health-insurance-legit), since two of those four have drawn active state regulatory action.",
+    "Pregnancy, mental health treatment, and pre-existing conditions are all protected categories on ACA-compliant plans — but short-term, limited-duration insurance is exempt from these protections and commonly excludes all three, a gap covered in [pregnancy and maternity coverage](/qa/does-health-insurance-cover-pregnancy-maternity-care), [therapy and mental health coverage](/qa/does-health-insurance-cover-therapy-mental-health), and [pre-existing conditions](/qa/does-health-insurance-cover-pre-existing-conditions).",
+    "The same medication can be covered or denied purely based on its diagnosis code — a pattern that shows up clearly with GLP-1 weight-loss drugs and bariatric surgery, both of which typically require [prior authorization](/glossary/prior-authorization) — see [does health insurance cover weight loss drugs or bariatric surgery?](/qa/does-health-insurance-cover-weight-loss-drugs-bariatric-surgery).",
+    "Choosing between an [HMO, PPO, EPO, or HDHP](/compare/hmo-vs-ppo-vs-epo-vs-hdhp) and between an [ACA marketplace plan or employer-sponsored coverage](/compare/aca-marketplace-vs-employer-sponsored-health-insurance) are two separate decisions — one is about network flexibility, the other about who's subsidizing your premium."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I need a health insurance lawyer or health insurance attorney?",
+      "answer": "Only once your insurer has denied, delayed past its legal deadline, or significantly underpaid a legitimate claim — filing a routine claim doesn't require one. The decision framework is the same regardless of insurance type; see our full guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer)."
+    },
+    {
+      "question": "Does South Carolina have its own state health insurance exchange?",
+      "answer": "No. South Carolina uses the federally-facilitated marketplace at HealthCare.gov rather than running its own state-based exchange, and it has not expanded Medicaid. Residents shopping for an individual ACA plan enroll through HealthCare.gov, an insurance agent, or a certified enrollment counselor — the plans and subsidy rules are otherwise the same as any other federal-marketplace state."
+    },
+    {
+      "question": "What is a PEO health plan, and is it the same as regular employer coverage?",
+      "answer": "A PEO (Professional Employer Organization) health plan is coverage offered through a co-employment arrangement, where the PEO pools many small businesses together to access group rates closer to those of a large employer. See [PEO health plan](/glossary/peo-health-plan) for the full definition and how it differs from a standard small-group policy."
+    }
+  ],
+  "companionTool": {
+    "slug": "health-insurance-calculator",
+    "title": "Out-of-Pocket Cost Calculator",
+    "description": "Estimate how medical bills are divided across deductibles, copays, coinsurance, and out-of-pocket limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "\"What does health insurance actually cover\" sounds like a simple question, but it splits into several genuinely different searches: what's included by law, what's commonly excluded or capped, how it interacts with other coverage after an accident, whether it's worth the cost at all, and how employer-sponsored plans are structured differently than an individual policy. This guide covers the core framework, with links to a full answer on each specific question."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Baseline: Essential Health Benefits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the Affordable Care Act, every individual and small-group health plan sold in the US must cover 10 categories of Essential Health Benefits: ambulatory patient services, emergency services, hospitalization, maternity and newborn care, mental health and substance use disorder services, prescription drugs, rehabilitative services, laboratory services, preventive and wellness services, and pediatric services including dental and vision. This is the legal floor — large-group and self-funded employer plans aren't bound by the exact same list, which is part of why coverage can vary more than people expect between a marketplace plan and a big employer's plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Choosing a Plan Type: HMO, PPO, EPO, or HDHP"
+    },
+    {
+      "type": "paragraph",
+      "text": "Separate from what a plan covers is how its network and cost-sharing are structured. An HMO requires a primary care physician and referrals but has the lowest premiums; a PPO costs more but allows specialist access without referrals and some out-of-network coverage; an EPO sits in between; and an HDHP trades a higher deductible for a lower premium and HSA eligibility. Full side-by-side comparison in [HMO vs. PPO vs. EPO vs. HDHP](/compare/hmo-vs-ppo-vs-epo-vs-hdhp)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Commonly Falls Outside That Floor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Adult routine vision and dental care, chiropractic care, and specialist visits like dermatology are treated inconsistently across plans — sometimes fully covered, sometimes covered only with a referral or annual visit cap, and sometimes excluded from the base plan entirely and offered as a paid add-on rider. See the full plan-by-plan breakdown in [does health insurance cover eye exams, dermatologist visits, or chiropractic care?](/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Health Insurance After a Car Accident"
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the most searched overlaps is what happens when a car accident causes injuries covered by both your auto policy and your health plan. The order in which each pays, and whether you can drop personal injury protection (PIP) if you already carry health insurance, depends heavily on your state — full detail in [does health insurance cover car accidents?](/qa/does-health-insurance-cover-car-accidents-pip)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pregnancy, Mental Health, and Pre-Existing Conditions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Three of the most consequential coverage categories are also three of the most protected under the ACA: maternity care, mental health and substance use treatment, and pre-existing conditions generally can't be excluded or denied on an ACA-compliant plan. The catch is that short-term, limited-duration insurance is exempt from all three protections — see [does health insurance cover pregnancy and maternity care?](/qa/does-health-insurance-cover-pregnancy-maternity-care), [does health insurance cover therapy and mental health treatment?](/qa/does-health-insurance-cover-therapy-mental-health), and [does health insurance cover pre-existing conditions?](/qa/does-health-insurance-cover-pre-existing-conditions) for the full detail on each."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Weight-Loss Drugs, Bariatric Surgery, and Prior Authorization"
+    },
+    {
+      "type": "paragraph",
+      "text": "GLP-1 weight-loss medications and bariatric surgery are two of the fastest-growing sources of coverage disputes, largely because [prior authorization](/glossary/prior-authorization) requirements and diagnosis-code-based exclusions make the same treatment covered for one person and denied for another. Full breakdown in [does health insurance cover weight loss drugs or bariatric surgery?](/qa/does-health-insurance-cover-weight-loss-drugs-bariatric-surgery)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is Health Insurance Worth It, and Are You Required to Have It?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether health insurance is worth its cost depends on your risk tolerance and expected medical usage, but a few states — California among them — still impose their own individual mandate with a tax penalty for going uninsured, separate from the now-zeroed-out federal penalty. Employers face their own separate obligations under the ACA's employer mandate. Some states have also added specific mandated benefits on top of the federal floor — California's SB 729, for example, now requires large-group plans to cover IVF and fertility treatment. The full breakdown of worth-it math, mandates, and cancellation rules is in [is health insurance worth it?](/qa/is-health-insurance-worth-it)"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "South Carolina Uses the Federal Marketplace",
+      "text": "South Carolina does not run its own state health insurance exchange — residents shopping for an individual plan use the federally-facilitated marketplace at HealthCare.gov, the same system used by most non-expansion states. South Carolina has also not expanded Medicaid, which is part of why marketplace subsidies matter more there than in expansion states."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Employer-Sponsored Plans Are Actually Structured"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every job-based health plan works the same way behind the scenes. A traditional **fully-insured** plan means the employer pays a fixed premium to a carrier, which assumes all the claims risk. A **level-funded** plan is a hybrid increasingly used by small and mid-sized employers — see the full comparison in [level-funded vs. fully-insured health insurance](/compare/level-funded-vs-fully-insured-health-insurance). A **PEO health plan** is a different structure entirely, where a Professional Employer Organization pools many small businesses together under one master policy to access better group rates — see [PEO health plan](/glossary/peo-health-plan) for how that arrangement works and what to watch for. See how a real small-business owner works through these exact options in [Marcus's small business health plan structure scenario](/scenarios/marcus-small-business-health-plan-structure)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stepping back further, employer-sponsored coverage itself is only one of two main paths to ACA-compliant health insurance — the other being an individual ACA marketplace plan. Full side-by-side comparison, including what happens the moment you lose a job, is in [ACA marketplace plan vs. employer-sponsored health insurance](/compare/aca-marketplace-vs-employer-sponsored-health-insurance). If you're transitioning between the two, [COBRA continuation coverage](/glossary/cobra-continuation-coverage) lets you temporarily keep your old employer plan at full cost rather than switching immediately."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "See These Mechanics Play Out in a Real Scenario",
+      "text": "For a worked example of how deductibles, coinsurance, and the annual out-of-pocket maximum stack together across a real plan year following a diagnosis, see [Priya's health insurance diagnosis coverage scenario](/scenarios/priya-health-insurance-diagnosis-coverage)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Checking Whether a Health Plan Name Is Actually Legitimate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Health insurance brand names get searched heavily by people who were contacted directly by a marketer or found an unfamiliar name on a card or bill. The same [insurance company legitimacy framework](/learn/insurance-company-reviews-is-brand-insurance-legit) — licensing status, financial rating, complaint record — applies here, and it matters more than usual in health insurance, where several recent state regulatory actions have targeted plans marketed as major medical coverage that turned out not to be licensed insurance at all. See the specific findings on four frequently searched names in [is APWU, Imperial, LifeX, or Innovative Partners health insurance legit?](/qa/apwu-imperial-lifex-innovative-partners-health-insurance-legit)"
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature and does not constitute legal, tax, or medical advice. Health insurance mandates, covered benefits, and state exchange structures vary by state and change over time. Confirm current requirements with your state Department of Insurance or healthcare.gov before making coverage decisions."
+    }
+  ]
+}

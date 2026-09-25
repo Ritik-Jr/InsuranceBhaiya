@@ -1,0 +1,106 @@
+{
+  "type": "learn",
+  "id": "boat-dealers-insurance",
+  "slug": "boat-dealers-insurance",
+  "title": "Boat Dealers Insurance: Covering Boats You Don't Personally Own",
+  "description": "What a boat dealership needs beyond a standard commercial policy — garagekeepers and open lot coverage, demo and transport risk — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "boat dealers insurance",
+    "garagekeepers insurance",
+    "boat insurance by state"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Boat dealers insurance covers a dealership's unique exposure to customer, consignment, and manufacturer-owned boats that pass through its hands — on the sales lot, in for service, or during test drives — which a standard commercial policy isn't built to price.",
+    "Garagekeepers-style coverage (sometimes called an open lot policy in the marine context) specifically protects boats in the dealer's care, custody, or control that the dealer doesn't personally own — a distinct concept from insuring the dealer's own inventory.",
+    "Demo rides and sea trials, where a prospective buyer or the dealer's own staff operates a boat on the water, create a specific liability exposure that needs to be confirmed as covered, since it isn't automatically the same as a standard sales-floor liability.",
+    "Boats being transported to or from the dealership — by trailer, or occasionally by water — carry transit-specific risk that's often handled under a separate cargo or transit coverage rather than the dealership's general property policy.",
+    "This is the marine equivalent of a car dealership's garage liability and dealer's open lot coverage, applying the same core underwriting logic to boats rather than automobiles."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does boat dealers insurance cover boats sold on consignment?",
+      "answer": "Yes, typically — garagekeepers or open lot coverage is specifically designed to cover boats in the dealership's care, custody, or control regardless of ownership, which includes consignment vessels, though the specific terms should be confirmed with your policy."
+    },
+    {
+      "question": "Do employees need a special license to operate boats during demo rides?",
+      "answer": "This depends on state and local regulations, which vary, but regardless of licensing requirements, the dealership's insurance should specifically confirm demo ride and sea trial liability is included, since it's a distinct exposure from standard sales-floor operations."
+    },
+    {
+      "question": "Is floor-plan financed inventory automatically insured by the manufacturer?",
+      "answer": "Generally no — floor-plan financing arrangements typically require the dealership itself to carry adequate insurance on the financed inventory as a condition of the financing agreement, rather than the manufacturer providing that coverage."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A boat dealership's insurance needs go well beyond a standard business owner's policy, because so much of its inventory and risk involves vessels the dealership doesn't actually own outright — consignment boats, manufacturer floor-plan inventory, and customer boats in for service or trade-in evaluation. Below are the questions dealership owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Makes a Boat Dealership's Insurance Needs Different From a Typical Business?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A boat dealership routinely has physical custody of vessels it doesn't personally own — manufacturer inventory financed under a floor-plan arrangement, boats taken on consignment from individual sellers, and customer boats brought in for service, trade-in appraisal, or winterization. A standard commercial property policy, built primarily around a business's own owned assets, generally isn't structured to properly cover this \"care, custody, and control\" exposure, which is exactly the gap dealers insurance is built to fill."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Is Garagekeepers or Open Lot Coverage, and Why Does It Matter Here?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Garagekeepers-style coverage, often referred to in the marine context as dealer's open lot coverage, specifically protects boats in the dealership's care, custody, or control against damage or theft while on the property or during service — regardless of who actually owns the boat. This is the specific coverage that responds if a customer's boat is damaged while stored for winterization, or if a consignment vessel is damaged on the sales lot, situations a dealership's own general property coverage typically wouldn't properly address since the dealership doesn't own those specific boats."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Are Demo Rides and Sea Trials Automatically Covered?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not automatically — letting a prospective buyer operate a boat during a sea trial, or having a salesperson take a customer out on a demo ride, creates on-water liability exposure that's distinct from standard sales-floor liability and needs to be specifically confirmed as included in the dealership's policy. Given how routine demo rides are to the sales process, this is one of the most important specific confirmations a boat dealer should get from their broker rather than assuming general liability automatically extends to the water."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What About Boats Being Transported To or From the Dealership?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Boats moving by trailer between a manufacturer, an auction, a customer's home, or the dealership itself carry their own transit-specific risk — a trailer accident, cargo shifting, or damage during loading and unloading — which is typically addressed under a separate inland marine cargo or transit coverage rather than assumed to be covered under the dealership's general property or garagekeepers policy. This needs to be specifically arranged, particularly for a dealership that regularly transports boats over longer distances."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Does This Compare to a Car Dealership's Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The underlying structure closely mirrors automobile dealer insurance: garage liability for the dealership's own operations, garagekeepers/open lot coverage for customer and consignment vehicles in their care, and dealer's open lot property coverage for inventory. Boat dealers insurance simply applies that same well-established framework to marine vessels, layering in the water-specific exposures (sea trials, transport by water, marine mechanical risk) that a land-based auto dealer's policy wouldn't need to address."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Boat dealers insurance requirements and available coverage vary significantly by dealership size, state, and specific operations. Consult a licensed commercial marine insurance broker to structure coverage for a specific dealership."
+    }
+  ]
+}
