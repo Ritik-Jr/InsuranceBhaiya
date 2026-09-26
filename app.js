@@ -19,6 +19,41 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Car Insurance Basics: Registration Requirements, Cost Factors, and How Claims Work",
+    "slug": "car-insurance-basics-registration-cost-claims",
+    "description": "Car insurance basics covering state registration requirements, what actually drives cost, and how claims, rentals, and coverage gaps really work.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Dental Insurance Waiting Periods Explained: What They Are and How to Avoid Getting Stuck",
+    "slug": "dental-insurance-waiting-periods-explained",
+    "description": "How dental insurance waiting periods work by service tier, why they exist, and the specific situations where you can avoid or reduce them.",
+    "category": "health-insurance"
+},
+
+    {
+    "title": "Dental Procedure Costs With & Without Insurance: Braces, Crowns, and Fillings",
+    "slug": "dental-procedure-costs-with-and-without-insurance",
+    "description": "What braces, crowns, and fillings actually cost with and without dental insurance, plus whether you can legally carry two dental plans at once \u2014 answered question by question.",
+    "category": "health-insurance"
+},
+
+    {
+    "title": "Boat Insurance and Hurricane Season: What's Actually Covered",
+    "slug": "boat-insurance-and-hurricane-season",
+    "description": "How named storm deductibles work, what a hurricane plan requirement actually means for your coverage, and what happens if you don't follow it \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Personal Watercraft (Jet Ski) Insurance: What's Different From a Boat Policy",
+    "slug": "personal-watercraft-jet-ski-insurance",
+    "description": "Why jet skis and other personal watercraft are underwritten differently than boats, what a PWC policy actually needs to cover, and where state insurance mandates most often apply \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "Insuring a Car That's Not in Your Name: What You Need to Know",
     "slug": "insuring-a-car-thats-not-in-your-name",
     "description": "Can you insure a car that isn't titled to you? Usually yes, if you have insurable interest. Here's how it works, state by state, and how to get covered.",
@@ -684,6 +719,216 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Can I drive without insurance in FL",
+      "slug": "can-i-drive-without-insurance-in-fl",
+      "shortAnswer": "No \u2014 driving without Florida's required PIP and property damage liability insurance is illegal and can result in your driver's license and vehicle registration being suspended for up to three years, plus reinstatement fees of $150, $250, or $500 depending on whether it's a first, second, or subsequent offense.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Are you required to have car insurance in Florida",
+      "slug": "are-you-required-to-have-car-insurance-in-florida",
+      "shortAnswer": "Yes \u2014 Florida requires at least $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL) to register and operate any vehicle with four or more wheels. Unusually among U.S. states, Florida does not require bodily injury liability insurance for most drivers, relying instead on its no-fault PIP system, though BIL can become required after certain violations or convictions.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you need insurance to register a car in Indiana",
+      "slug": "do-you-need-insurance-to-register-a-car-in-indiana",
+      "shortAnswer": "Yes \u2014 Indiana requires proof of at least 25/50/25 liability insurance ($25,000 bodily injury per person, $50,000 per accident, $25,000 property damage) before you can register a vehicle at the Indiana Bureau of Motor Vehicles (BMV). Unlike New York or Florida, Indiana doesn't require no-fault PIP coverage, since it's an at-fault (tort) state.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you drive without insurance in NY",
+      "slug": "can-you-drive-without-insurance-in-ny",
+      "shortAnswer": "No \u2014 driving without the required insurance in New York is illegal and carries escalating penalties: if your registration is revoked for a lapse, you face daily fines starting at $8 per day for the first 30 days, rising to $10 and then $12 per day in following 30-day periods, potentially totaling close to $1,000 within 90 days, plus license and registration suspension until compliant coverage is shown.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Are car insurance companies open on Saturdays",
+      "slug": "are-car-insurance-companies-open-on-saturdays",
+      "shortAnswer": "It depends on the company and the department: most major insurers' claims lines operate 24/7, including Saturdays, since accidents don't follow business hours, but sales, underwriting, and general customer service departments often have limited or no weekend hours, especially at smaller regional insurers or local agent offices.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you need insurance to register a car in California",
+      "slug": "do-you-need-insurance-to-register-a-car-in-california",
+      "shortAnswer": "Yes \u2014 California requires proof of financial responsibility, almost always satisfied with an auto insurance policy, before you can register a vehicle. As of January 1, 2025, the minimum liability limits are 30/60/15 under Senate Bill 1107, up from the previous 15/30/5 that had been in place since 1967.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you need insurance to register a car in NY",
+      "slug": "do-you-need-insurance-to-register-a-car-in-ny",
+      "shortAnswer": "Yes \u2014 New York requires proof of a New York-issued auto insurance policy, from an insurer licensed by the state's Department of Financial Services, before you can register any vehicle. The minimum coverage is 25/50/10 for bodily injury and property damage liability, plus at least $50,000 in no-fault personal injury protection (PIP) and $25,000/$50,000 in uninsured motorist coverage.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is car insurance cheaper on older cars",
+      "slug": "is-car-insurance-cheaper-on-older-cars",
+      "shortAnswer": "Generally yes, but mainly for the comprehensive and collision portions of your policy, since those are priced based on your vehicle's actual cash value \u2014 an older car worth less costs less to insure for physical damage, and may not be worth carrying that coverage on at all. Your liability coverage cost, which is based mainly on you as a driver rather than the car's value, typically doesn't change much with the vehicle's age.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does my personal auto insurance cover business use",
+      "slug": "does-my-personal-auto-insurance-cover-business-use",
+      "shortAnswer": "Generally no \u2014 a standard personal auto policy typically excludes or sharply limits coverage for business use beyond an ordinary commute, including ridesharing, food or package delivery, and using your vehicle primarily for work purposes. You usually need a rideshare endorsement, a commercial auto policy, or a business-use endorsement specifically added to cover these activities.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Why is car insurance so expensive in California",
+      "slug": "why-is-car-insurance-so-expensive-in-california",
+      "shortAnswer": "California car insurance is expensive due to a combination of new, higher mandatory minimum coverage limits (30/60/15 as of January 1, 2025, up from 15/30/5), a high rate of litigation and uninsured drivers, rising catastrophe losses (wildfire in particular), and a dense, high-traffic driving environment \u2014 full coverage in California averaged around $2,575 a year in recent industry data, well above the national average.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you get auto insurance with a suspended license",
+      "slug": "can-you-get-auto-insurance-with-a-suspended-license",
+      "shortAnswer": "Yes, you can generally still get auto insurance with a suspended license, though your options narrow and premiums typically rise \u2014 many standard insurers will decline or non-renew, pushing drivers toward non-standard or high-risk carriers, and an SR-22 or FR-44 filing is often required to prove financial responsibility before the license can be reinstated.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you register a car without insurance",
+      "slug": "can-you-register-a-car-without-insurance",
+      "shortAnswer": "In nearly every U.S. state, no \u2014 you must show proof of insurance (or an approved alternative like a cash bond or self-insurance certificate) before a vehicle can be registered. The rare exceptions are states or situations that allow demonstrating financial responsibility through a large cash deposit with the state, a surety bond, or self-insurance for large fleets, none of which are practical options for a typical individual driver.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does car insurance cover repairs",
+      "slug": "does-car-insurance-cover-repairs",
+      "shortAnswer": "It depends on which coverage caused the damage and which coverages you carry: liability-only insurance never covers repairs to your own vehicle, regardless of fault, while collision coverage pays for repairs after a crash and comprehensive coverage pays for non-collision damage like theft, weather, or animal strikes \u2014 both are optional add-ons, not automatically included, and both are subject to your chosen deductible.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How long will insurance pay for rental car after accident",
+      "slug": "how-long-will-insurance-pay-for-rental-car-after-accident",
+      "shortAnswer": "Most rental reimbursement coverage pays for a rental car for up to 30 days (some policies extend to 45 days), subject to a daily dollar cap commonly in the $30-70 range and an overall per-claim maximum often between $900 and $1,500. Coverage ends as soon as your car is repaired and returned to you, or, if your car is declared a total loss, typically about 7 days after a final settlement offer is made.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you pause car insurance",
+      "slug": "can-you-pause-car-insurance",
+      "shortAnswer": "You generally can't simply stop paying for car insurance while a vehicle stays actively registered, since that creates an illegal coverage lapse in most states. If you won't be driving for an extended period, the actual options are switching to a cheaper storage or non-owner policy, or formally surrendering your registration and license plates with the DMV, which removes the insurance requirement entirely until you re-register.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Best rate on car insurance",
+      "slug": "best-rate-on-car-insurance",
+      "shortAnswer": "There's no single company with the 'best rate' for everyone \u2014 your actual price depends on your driving record, location, vehicle, coverage limits, credit-based insurance score (in most states), and available discounts, all of which vary by insurer's own pricing model. The most reliable way to find your best rate is comparing quotes from at least three to five insurers with identical coverage limits and deductibles, rather than trusting any single company's advertising.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Car insurance lawyer",
+      "slug": "car-insurance-lawyer",
+      "shortAnswer": "A car insurance lawyer (also searched as car insurance attorney or attorneys) helps when a claim is denied, underpaid, delayed in bad faith, or when a serious injury exceeds available policy limits. Most straightforward claims don't need one, but disputed liability, bad-faith denials, and injury cases where the at-fault driver's coverage is inadequate are the situations where hiring one typically pays for itself.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does Dental Insurance Cover Teeth Whitening or Veneers?",
+      "slug": "does-dental-insurance-cover-teeth-whitening-or-veneers",
+      "shortAnswer": "No \u2014 professional teeth whitening ($400-$800 in-office, or $100-$400 for a take-home kit) and veneers ($800-$2,500 per tooth) are almost universally classified as cosmetic procedures and excluded from standard dental insurance plans, unlike functional procedures such as [crowns](/qa/how-much-is-a-crown-without-insurance) or [fillings](/qa/how-much-does-fillings-cost-with-insurance), which restore a damaged tooth rather than change its appearance. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how cosmetic costs compare to covered restorative procedures.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a Deep Cleaning Cost With Insurance?",
+      "slug": "how-much-does-a-deep-cleaning-cost-with-insurance",
+      "shortAnswer": "A deep cleaning (scaling and root planing) typically costs $150-$350 per quadrant of the mouth without insurance, or $600-$1,400 for a full mouth across all four quadrants. Most dental PPO plans classify it as a periodontal service rather than routine preventive cleaning, reimbursed at 50-80% depending on the plan, leaving a patient-owed balance of roughly $75-$300 total after coverage. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this compares to a routine cleaning and other basic services.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a Dental Bridge Cost Without Insurance?",
+      "slug": "how-much-does-a-dental-bridge-cost-without-insurance",
+      "shortAnswer": "A traditional three-unit dental bridge (replacing one missing tooth by anchoring to the two teeth on either side) typically costs $2,000-$5,000 without insurance, depending on the material and number of anchor teeth involved. That's generally less than a [dental implant](/qa/how-much-does-a-dental-implant-cost-without-insurance) for a single missing tooth, but see the [full comparison](/compare/dental-implant-vs-dental-bridge) before deciding, since a bridge requires reshaping the healthy teeth on either side.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a Dental Implant Cost Without Insurance?",
+      "slug": "how-much-does-a-dental-implant-cost-without-insurance",
+      "shortAnswer": "A single dental implant \u2014 the titanium post, abutment, and crown together \u2014 typically costs $3,000 to $5,000+ per tooth without insurance, making it the most expensive option among common tooth-replacement procedures. Most dental PPO plans either exclude implants entirely or cover only the crown portion, which is very different from how they treat a [standalone crown](/qa/how-much-is-a-crown-without-insurance) on a natural tooth. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how implants compare to bridges and other replacement options.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a Root Canal Cost With Insurance?",
+      "slug": "how-much-does-a-root-canal-cost-with-insurance",
+      "shortAnswer": "Without insurance, a root canal typically costs $700-$1,000 on a front tooth, $800-$1,200 on a premolar, and $1,000-$1,800 on a molar (which has more canals to treat). With a standard dental PPO, root canals are usually classified as a major service at 50-70% coinsurance after the deductible, leaving a patient-owed balance of roughly $300-$700 \u2014 before the [crown that usually follows](/qa/how-much-is-a-crown-without-insurance) is even factored in. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this stacks against extraction and fillings.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a Tooth Extraction Cost Without Insurance?",
+      "slug": "how-much-does-a-tooth-extraction-cost-without-insurance",
+      "shortAnswer": "A simple extraction of a visible, fully erupted tooth typically costs $150-$300 without insurance. A surgical extraction \u2014 needed for a broken tooth or one that hasn't fully emerged, including most wisdom teeth \u2014 runs $300-$800+ per tooth depending on how impacted it is and whether sedation is used. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this compares to a filling, crown, or root canal on the same tooth.",
+      "category": "Health"
+},
+
+      {
+      "question": "Can You Have Two Dental Insurance Plans?",
+      "slug": "can-you-have-two-dental-insurance-plans",
+      "shortAnswer": "Yes \u2014 whether you search \"can you have two dental insurance plans\" or \"can I have two dental insurance plans,\" the answer is the same: there's no legal restriction on holding two at once. What changes is how the bill gets paid \u2014 coordination of benefits (COB) rules decide which plan pays first and cap the combined payout at 100% of the bill, not 200%. See the [full dental cost guide](/learn/dental-procedure-costs-with-and-without-insurance) for what this means for specific procedures like crowns and braces.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does Fillings Cost With Insurance?",
+      "slug": "how-much-does-fillings-cost-with-insurance",
+      "shortAnswer": "With a standard dental PPO plan, a filling classified as a \"basic service\" is typically reimbursed at 70-80% coinsurance after your deductible, leaving you owing roughly $30 to $80 per filling \u2014 compared to $150 to $400 with no coverage at all. See the [complete cost comparison guide](/learn/dental-procedure-costs-with-and-without-insurance) for how this compares to crowns and braces.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Is a Crown Without Insurance?",
+      "slug": "how-much-is-a-crown-without-insurance",
+      "shortAnswer": "A single dental crown without insurance typically costs $1,000 to $2,500 per tooth, depending on the material and whether it's placed on a front or back tooth. If a root canal is needed first, that adds another $700-$1,500+ on top. See the [full cost breakdown across common dental procedures](/learn/dental-procedure-costs-with-and-without-insurance) for how a crown compares to fillings and braces.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does It Cost for Braces Without Insurance?",
+      "slug": "how-much-does-it-cost-for-braces-without-insurance",
+      "shortAnswer": "Full braces without any dental insurance typically cost $3,000 to $7,000 for traditional metal brackets and $4,000 to $8,000 or more for Invisalign-style clear aligners, with the final number driven mainly by treatment length and case complexity rather than bracket type. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this stacks up against crowns and fillings.",
+      "category": "Health"
+},
+
+      {
+      "question": "What Is Uninsured Boater Coverage?",
+      "slug": "uninsured-boater-coverage",
+      "shortAnswer": "Uninsured boater coverage pays for your injuries and, in some policies, property damage if you're hit by another boater who doesn't carry insurance \u2014 the marine equivalent of uninsured motorist coverage on an auto policy. It's an especially important add-on given how many states, as covered in our [state-by-state requirements guide](/learn/boat-insurance-by-state-requirements-costs), don't legally require other boaters to carry any insurance at all, which means the other party in a collision may have nothing to pay a claim with.",
+      "category": "General"
+},
+
+      {
+      "question": "Does Boat Insurance Cover Your Trailer?",
+      "slug": "does-boat-insurance-cover-your-trailer",
+      "shortAnswer": "Many boat insurance policies include limited trailer coverage automatically, but often only up to a modest sub-limit (commonly a few thousand dollars), and it doesn't automatically extend to liability for an accident caused while towing the trailer on the road \u2014 that's typically handled by your auto policy instead. Always check your specific policy's trailer sub-limit and confirm which policy (boat or auto) actually covers a towing-related accident, rather than assuming either one automatically covers everything.",
+      "category": "General"
+},
+
+      {
+      "question": "How Much Boat Liability Insurance Do You Actually Need?",
+      "slug": "how-much-boat-liability-insurance-do-you-need",
+      "shortAnswer": "Even in states with no legal minimum, most marine insurance professionals recommend at least $300,000 to $500,000 in boat liability coverage for a typical recreational boat, and $1 million or more if your boat is larger, faster, or frequently carries passengers \u2014 since a serious on-water collision, especially one causing injury, can easily exceed a low minimum limit. Since most states don't mandate a specific amount (see our [state requirements table](/learn/boat-insurance-by-state-requirements-costs)), this is largely a personal risk decision, not a legal compliance question.",
+      "category": "General"
+},
+
       {
       "question": "Can I Add Someone Else's Car to My Insurance?",
       "slug": "can-i-add-someone-elses-car-to-my-insurance",

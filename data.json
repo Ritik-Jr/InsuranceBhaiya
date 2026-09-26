@@ -281,6 +281,745 @@
   "articles": [
     {
       "type": "learn",
+      "id": "car-insurance-basics-registration-cost-claims",
+      "slug": "car-insurance-basics-registration-cost-claims",
+      "title": "Car Insurance Basics: Registration Requirements, Cost Factors, and How Claims Work",
+      "description": "Car insurance basics covering state registration requirements, what actually drives cost, and how claims, rentals, and coverage gaps really work.",
+      "category": "car-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26",
+      "readingTime": 3,
+      "featured": true,
+      "tags": [
+        "car insurance requirements by state",
+        "do you need insurance to register a car",
+        "why is car insurance expensive",
+        "car insurance claims",
+        "car-insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Every state ties vehicle registration to proof of insurance, but the specific minimums vary sharply — New York and Florida require no-fault personal injury protection on top of liability, while Indiana requires only liability coverage.",
+        "California's minimum liability limits doubled on January 1, 2025 (from 15/30/5 to 30/60/15) under Senate Bill 1107 — the first increase in nearly 60 years, and a major driver of recent premium increases alongside the state's dense traffic and high litigation costs.",
+        "Florida is one of the only states that doesn't require bodily injury liability insurance for most drivers, relying instead on no-fault PIP — an unusual structure worth understanding before assuming Florida's 'low' minimums mean weak coverage overall.",
+        "How long an insurer pays for a rental car depends entirely on which coverage is paying: your own rental reimbursement add-on has a fixed daily and total cap, while a claim against an at-fault driver's insurer typically covers a 'reasonable period' tied to actual repair time.",
+        "Standard car insurance covers accident and covered-peril damage, not mechanical breakdown or normal wear — a distinction that surprises many drivers expecting a repair claim to be covered when the actual cause was a worn-out part."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Which state has the highest minimum car insurance requirements?",
+          "answer": "Requirements vary by category — New York's $50,000 no-fault PIP requirement is among the highest for that specific coverage, while other states set higher bodily injury liability minimums. There's no single state with the highest minimum across every coverage type; it depends on which coverage you're comparing."
+        },
+        {
+          "question": "Do I need car insurance if I don't drive my car regularly?",
+          "answer": "In most states, yes — insurance is generally tied to active vehicle registration, not how often you drive, so a registered vehicle typically needs continuous coverage. Some states allow you to avoid this by formally declaring a vehicle non-operational and surrendering the plates instead."
+        }
+      ],
+      "companionTool": {
+        "slug": "car-insurance-calculator",
+        "title": "Car Insurance Coverage Calculator",
+        "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Car insurance searches cluster around three practical questions: *do I legally need this to register my car, and how much* (which varies significantly by state), *why does this cost so much* (especially in high-cost states like California), and *how do claims, rentals, and coverage gaps actually work* once something happens. This guide covers all three, with a link to the full answer on each specific question."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "State Registration Requirements at a Glance"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "State",
+            "Minimum Liability",
+            "No-Fault PIP Required?",
+            "Full Answer"
+          ],
+          "rows": [
+            [
+              "New York",
+              "25/50/10 + $25,000 UM",
+              "Yes — $50,000 minimum",
+              "/qa/do-you-need-insurance-to-register-a-car-in-ny"
+            ],
+            [
+              "California",
+              "30/60/15 (since Jan. 1, 2025)",
+              "No",
+              "/qa/do-you-need-insurance-to-register-a-car-in-california"
+            ],
+            [
+              "Texas",
+              "30/60/25",
+              "No",
+              "/qa/do-you-need-insurance-to-register-a-car-in-texas"
+            ],
+            [
+              "Indiana",
+              "25/50/25",
+              "No",
+              "/qa/do-you-need-insurance-to-register-a-car-in-indiana"
+            ],
+            [
+              "Florida",
+              "$10,000 PIP + $10,000 PDL (no BIL required)",
+              "Yes — $10,000 minimum",
+              "/qa/are-you-required-to-have-car-insurance-in-florida"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Every one of these states requires proof of insurance before you can register a vehicle at all — see [can you register a car without insurance](/qa/can-you-register-a-car-without-insurance) for the rare exceptions (self-insurance, cash deposits, declaring a vehicle non-operational) that apply almost nowhere in practice."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Driving Without Insurance: What Actually Happens"
+        },
+        {
+          "type": "paragraph",
+          "text": "Getting caught driving without the required insurance carries real, escalating penalties that vary by state — see the specifics for [driving without insurance in New York](/qa/can-you-drive-without-insurance-in-ny) and [driving without insurance in Florida](/qa/can-i-drive-without-insurance-in-fl)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Car Insurance Costs What It Does"
+        },
+        {
+          "type": "paragraph",
+          "text": "California is the most frequently searched example of a state where cost has become its own topic — see [why is car insurance so expensive in California](/qa/why-is-car-insurance-so-expensive-in-california) for the specific regulatory, litigation, and traffic-density factors behind it. Beyond state-specific factors, two universal questions come up constantly: [is car insurance cheaper on older cars](/qa/is-car-insurance-cheaper-on-older-cars), and how to actually find [the best rate on car insurance](/qa/best-rate-on-car-insurance) rather than just the first quote you're offered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What a Standard Policy Does and Doesn't Cover"
+        },
+        {
+          "type": "paragraph",
+          "text": "A standard personal auto policy covers accident and named-peril damage, not everything you might assume. See whether [car insurance covers repairs](/qa/does-car-insurance-cover-repairs) (it depends heavily on what caused the damage), whether [your personal policy covers business use](/qa/does-my-personal-auto-insurance-cover-business-use) of your vehicle (usually not, without an endorsement), and [how long insurance actually pays for a rental car](/qa/how-long-will-insurance-pay-for-rental-car-after-accident) after an accident."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Coverage in Non-Standard Situations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Life doesn't always fit the standard policy template. See whether [you can get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license), whether [you can pause car insurance](/qa/can-you-pause-car-insurance) instead of canceling outright, and [whether car insurance companies are open on Saturdays](/qa/are-car-insurance-companies-open-on-saturdays) when you need help outside a standard workweek."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When You Might Need a Car Insurance Lawyer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most car insurance questions don't require legal help, but disputed claims, denied coverage, or serious injury cases sometimes do — see [car insurance lawyer](/qa/car-insurance-lawyer) for when hiring one actually makes sense."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "State Minimums Are a Legal Floor, Not a Safety Recommendation",
+          "text": "Every state's minimum liability requirement is the least you're legally allowed to carry, not the amount that would actually protect your finances after a serious accident — this is especially true in states like Florida and Indiana, which don't require bodily injury liability or PIP at meaningfully protective levels."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and does not constitute legal or financial advice. Insurance minimums, registration rules, and penalties change over time and vary by state; confirm current requirements directly with your state's Department of Motor Vehicles or Department of Insurance before making coverage decisions."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "dental-insurance-waiting-periods-explained",
+      "slug": "dental-insurance-waiting-periods-explained",
+      "title": "Dental Insurance Waiting Periods Explained: What They Are and How to Avoid Getting Stuck",
+      "description": "How dental insurance waiting periods work by service tier, why they exist, and the specific situations where you can avoid or reduce them.",
+      "category": "health-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26",
+      "readingTime": 6,
+      "featured": false,
+      "tags": [
+        "dental insurance waiting period",
+        "dental insurance",
+        "orthodontic waiting period",
+        "health-insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Waiting periods exist specifically to prevent someone from buying a dental plan right after discovering they need an expensive procedure, then canceling once it's covered.",
+        "Preventive care (cleanings, exams, X-rays) usually has no waiting period at all, basic services (fillings) often have 0-6 months, and major services (crowns, [root canals](/qa/how-much-does-a-root-canal-cost-with-insurance), [bridges](/qa/how-much-does-a-dental-bridge-cost-without-insurance)) and orthodontics commonly carry 6-12 month waiting periods.",
+        "Employer-sponsored group dental plans frequently waive waiting periods entirely, especially if you're enrolling during your employer's initial open enrollment window rather than joining later.",
+        "Some standalone individual dental plans offer a \"no waiting period\" option, but typically offset that convenience with a lower first-year annual maximum or a higher premium.",
+        "A waiting period doesn't reset every year — once satisfied on a specific plan, it generally stays satisfied for as long as you keep continuous coverage on that plan, though switching insurers can restart the clock."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Can a waiting period ever be waived if I switch dental insurers?",
+          "answer": "Sometimes — some insurers waive or reduce a new waiting period if you can show proof of continuous prior dental coverage without a significant gap, similar in concept to creditable coverage rules in health insurance, but this isn't universal and needs to be confirmed with the new insurer directly before assuming it applies."
+        },
+        {
+          "question": "Do waiting periods apply to accidents, like a tooth knocked out in an accident?",
+          "answer": "Many plans include an exception waiving the waiting period specifically for accidental dental injury, treating it differently from a pre-existing condition that was simply discovered after enrolling — check your specific plan's accident provision, since this exception isn't automatic on every plan."
+        }
+      ],
+      "companionTool": {
+        "slug": "health-insurance-calculator",
+        "title": "Out-of-Pocket Cost Calculator",
+        "description": "Estimate your out-of-pocket cost for a procedure once your plan's waiting period and coinsurance both apply."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A waiting period is the length of time you must be enrolled in a dental plan before it will pay for a specific category of treatment — and it's one of the most common reasons someone buys dental insurance right before a known procedure, only to discover the plan won't actually pay for it yet. This guide breaks down how waiting periods work by service tier, why insurers use them, and the specific situations where you can reduce or avoid one."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Waiting Periods Exist in the First Place"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike medical insurance, most dental insurance is optional and individually chosen, which creates an incentive problem: without a waiting period, someone could enroll in a plan the week before a scheduled crown or root canal, receive the benefit, and cancel the plan shortly afterward, having paid only one or two months of premium against a claim worth many times that. Waiting periods exist specifically to prevent this pattern, spreading the cost of expensive, predictable procedures across a base of members who pay in consistently rather than opportunistically."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Waiting Periods Typically Break Down by Service Tier"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Service Tier",
+            "Typical Waiting Period",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "Preventive",
+              "None — usually covered from day one",
+              "Routine cleanings, exams, X-rays"
+            ],
+            [
+              "Basic",
+              "0-6 months",
+              "Fillings, simple extractions"
+            ],
+            [
+              "Major",
+              "6-12 months",
+              "Crowns, root canals, bridges, [dental implants](/qa/how-much-does-a-dental-implant-cost-without-insurance)"
+            ],
+            [
+              "Orthodontic",
+              "12 months (if offered at all)",
+              "[Braces, Invisalign](/compare/traditional-braces-vs-invisalign)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "title": "These are typical ranges, not universal rules",
+          "text": "Exact waiting periods vary by insurer and plan tier — some lower-cost plans extend basic-service waiting periods to a full 6 months, while some richer employer plans waive waiting periods for every tier. Always check your specific plan's schedule of benefits rather than assuming the ranges above apply exactly."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When Waiting Periods Are Commonly Waived"
+        },
+        {
+          "type": "paragraph",
+          "text": "Employer-sponsored group dental plans frequently waive most or all waiting periods, particularly for employees who enroll during the company's initial open enrollment window when first becoming eligible, rather than joining later during a special enrollment period. This is one of the more overlooked reasons a workplace dental benefit is often worth more than its premium suggests compared to an individual plan bought on the open market, which almost always enforces standard waiting periods on major and orthodontic services."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "\"No Waiting Period\" Plans: What You're Actually Trading Off"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some standalone individual dental insurers advertise plans with no waiting period at all, which sounds like a clear win if you need a procedure soon. In practice, these plans typically offset that flexibility with a much lower first-year annual maximum (sometimes capped at a few hundred dollars in year one before rising in later years) or a higher premium than a comparable plan with standard waiting periods — insurers still need to manage the same adverse-selection risk, they just do it through the benefit structure instead of a delay. Read the first-year annual maximum carefully before assuming a no-waiting-period plan solves the timing problem for free."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does the Waiting Period Clock Ever Reset?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Once satisfied on a given plan, a waiting period generally doesn't reapply for as long as you maintain continuous coverage on that same plan or employer group — it's a one-time hurdle per plan, not an annual requirement. Switching to a new insurer, however, typically restarts the clock on that new plan's own waiting periods, unless the new insurer specifically offers a continuity-of-coverage waiver for members transferring without a significant coverage gap, which isn't universal and needs to be confirmed directly with the new plan before switching if a major procedure is anticipated soon."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature and does not constitute insurance advice. Waiting period lengths, exceptions, and continuity-of-coverage rules vary significantly by insurer, plan, and state. Confirm your specific plan's waiting period schedule in its summary of benefits before making enrollment or treatment-timing decisions."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "dental-procedure-costs-with-and-without-insurance",
+      "slug": "dental-procedure-costs-with-and-without-insurance",
+      "title": "Dental Procedure Costs With & Without Insurance: Braces, Crowns, and Fillings",
+      "description": "What braces, crowns, and fillings actually cost with and without dental insurance, plus whether you can legally carry two dental plans at once — answered question by question.",
+      "category": "health-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 11,
+      "featured": false,
+      "tags": [
+        "dental insurance",
+        "braces cost",
+        "crown cost",
+        "fillings cost",
+        "two dental insurance plans",
+        "tooth extraction cost",
+        "root canal cost",
+        "dental implant cost",
+        "dental bridge cost",
+        "deep cleaning cost",
+        "teeth whitening insurance",
+        "dental insurance waiting period",
+        "health-insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Braces without insurance typically run $3,000-$7,000 for traditional metal braces and $4,000-$8,000+ for Invisalign, while a crown without insurance usually falls between $1,000 and $2,500 depending on the material and whether it's placed on a front or back tooth.",
+        "Most dental PPO plans cover fillings under \"basic services\" at 70-80% co-insurance after the deductible, meaning a patient typically pays $30-$80 out of pocket per filling once insurance applies, versus $150-$400 with no coverage at all.",
+        "Orthodontic coverage is usually a separate rider with its own lifetime maximum (commonly $1,000-$3,000) that applies once per lifetime per covered person, so it doesn't reset annually the way basic and preventive benefits do.",
+        "You can legally hold two dental insurance plans at once, and coordination of benefits (COB) rules — not a blanket doubling of coverage — determine how much of the remaining bill the second plan actually pays.",
+        "California's higher regional labor and lab costs generally push orthodontic pricing above national averages, so a Los Angeles or Bay Area quote for braces is a poor proxy for what someone in a lower-cost state would pay for the identical treatment plan."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Does dental insurance cover the full cost of braces?",
+          "answer": "No. Orthodontic benefits are typically paid at 50% co-insurance up to a separate lifetime maximum, commonly $1,000 to $3,000, so even a well-insured patient usually still owes several thousand dollars out of pocket for a full course of treatment."
+        },
+        {
+          "question": "Is it worth getting dental insurance just for a crown or root canal?",
+          "answer": "It depends on your plan's waiting period and annual maximum. Many plans impose a 6- to 12-month waiting period before major services like crowns are covered, and annual maximums (often $1,000-$2,000) can be reached quickly by a single major procedure, so run the math on your specific plan's numbers before assuming coverage will offset the full premium cost."
+        },
+        {
+          "question": "Will having two dental insurance plans mean I pay nothing out of pocket?",
+          "answer": "Not necessarily. Coordination of benefits caps the combined payout from both plans at 100% of the allowed charge, not 200%, so the second plan typically closes some or all of the remaining gap rather than creating a duplicate payment or profit."
+        }
+      ],
+      "companionTool": {
+        "slug": "health-insurance-calculator",
+        "title": "Out-of-Pocket Cost Calculator",
+        "description": "Estimate how a dental or medical bill splits across your deductible, copay, coinsurance, and out-of-pocket maximum."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dental cost searches almost always come from one of two places: someone staring at a treatment estimate trying to figure out whether the number in front of them is normal, or someone trying to decide whether buying (or adding a second) dental plan is even worth it before a big procedure. Below are the specific cost questions people actually search, answered with real dollar ranges and the plan mechanics that explain why the final bill lands where it does."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Does It Cost for Braces Without Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Without any orthodontic coverage, traditional metal braces typically cost $3,000 to $7,000 for a full course of treatment (usually 18-30 months), with ceramic braces running somewhat higher and [clear aligner systems like Invisalign](/compare/traditional-braces-vs-invisalign) commonly landing at $4,000-$8,000 or more depending on case complexity. The total is driven mainly by treatment length and case severity rather than the type of bracket alone — a straightforward bite correction on a teenager costs meaningfully less than a complex adult case involving jaw alignment or [extractions](/qa/how-much-does-a-tooth-extraction-cost-without-insurance). Many orthodontic offices offer in-house 0%-interest payment plans spread over the treatment period specifically because so many patients pay this bill without insurance — see the [complete braces pricing and payment-plan breakdown](/qa/how-much-does-it-cost-for-braces-without-insurance) for the material-by-material numbers."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Is a Crown Without Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A single [dental crown without insurance](/qa/how-much-is-a-crown-without-insurance) generally costs $1,000 to $2,500 per tooth, with the exact figure driven by material choice — porcelain-fused-to-metal crowns typically sit at the lower end, all-ceramic or zirconia crowns run higher, and gold crowns (still used on back molars for durability) vary with current metal prices. Front teeth crowns are often priced slightly higher than back-tooth crowns because of the additional cosmetic shading and layering work needed to match adjacent teeth. If a [root canal](/qa/how-much-does-a-root-canal-cost-with-insurance) is required before the crown is placed, that adds a separate $700-$1,500+ depending on the tooth's number of canals, on top of the crown cost itself — and if the tooth can't be saved at all, a [surgical extraction](/qa/how-much-does-a-tooth-extraction-cost-without-insurance) followed by a [bridge or implant](/compare/dental-implant-vs-dental-bridge) becomes the alternative path."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Procedure",
+            "Typical Cost Without Insurance",
+            "Typical Out-of-Pocket With PPO Insurance*"
+          ],
+          "rows": [
+            [
+              "Basic filling (1-2 surfaces)",
+              "$150 - $400",
+              "$30 - $80 after deductible (70-80% coinsurance)"
+            ],
+            [
+              "Single dental crown",
+              "$1,000 - $2,500",
+              "$300 - $750 after deductible (50-70% coinsurance, often a \"major service\")"
+            ],
+            [
+              "Root canal (molar)",
+              "$1,000 - $1,800",
+              "$300 - $700 after deductible"
+            ],
+            [
+              "Full braces (traditional metal)",
+              "$3,000 - $7,000",
+              "$1,500 - $5,500 after 50% orthodontic coinsurance up to lifetime max"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "title": "Why the ranges are wide",
+          "text": "*Out-of-pocket figures assume a standard employer PPO plan with a $50-$100 deductible, an annual maximum of $1,000-$2,000, and no waiting period already satisfied. Your actual cost depends heavily on whether you've met your deductible, how much of your annual maximum is already used, and your specific plan's coinsurance tier for that procedure category."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Does Fillings Cost With Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[Fillings](/qa/how-much-does-fillings-cost-with-insurance) are classified as a \"basic service\" on most dental PPO plans, which typically pays 70-80% of the allowed amount once your annual deductible (commonly $25-$100) is met — leaving a patient-owed balance of roughly $30-$80 for a standard one- or two-surface filling, versus $150-$400 with no coverage at all. Composite (tooth-colored) fillings on front teeth are sometimes reimbursed at a lower rate than amalgam fillings on some older plan designs, so it's worth confirming your specific plan's coverage for the material your dentist plans to use, particularly on a back molar where amalgam is still common. Basic services like this are a different coverage tier entirely from periodontal treatment — if a cleaning has progressed to a [deep cleaning](/qa/how-much-does-a-deep-cleaning-cost-with-insurance) because of gum disease, expect a noticeably different coinsurance rate than the one that applies to a routine filling."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Can You Have Two Dental Insurance Plans?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yes — [there's no legal restriction on holding two dental insurance plans](/qa/can-you-have-two-dental-insurance-plans) at the same time, and it's fairly common for a married couple to each be covered under their own employer's plan plus their spouse's as a dependent. What changes is how the bill gets paid: insurers use coordination of benefits (COB) rules to decide which plan pays first (the \"primary\" plan, typically the one tied to your own employment) and which pays second (\"secondary\"), rather than each plan independently paying its full share as if the other didn't exist."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Does Coordination of Benefits Actually Work With Two Plans?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The primary plan processes the claim first and pays its normal share under its own coinsurance and deductible rules. The claim (and the remaining balance) then goes to the secondary plan, which typically pays up to its own coverage percentage of the allowed amount — but the combined payment from both plans is capped at 100% of the total allowed charge, not 200%. In practice this means a second plan is most valuable for closing the specific gap left by the first plan's deductible, coinsurance percentage, or annual maximum, rather than doubling your total reimbursement. For a dependent child covered under both parents' plans, the \"birthday rule\" is the common COB standard: whichever parent's birthday falls earlier in the calendar year is typically the primary plan. See the [full coordination-of-benefits walkthrough](/qa/can-you-have-two-dental-insurance-plans), including the divorced-parent exception to the birthday rule, for the complete picture."
+        },
+        {
+          "type": "list",
+          "style": "number",
+          "items": [
+            "Tell your dentist's office about both plans before treatment so they can bill the correct primary plan first.",
+            "Confirm which plan is primary — usually determined by your own employer-sponsored plan taking priority over a spouse's plan, or the birthday rule for dependent children.",
+            "Let the primary plan's Explanation of Benefits (EOB) process fully before the secondary plan is billed for the remainder.",
+            "Check both plans' combined annual maximum situations separately — a second plan's own annual maximum is a genuinely separate pool, even though COB caps total reimbursement at 100% of the bill."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Do Braces Cost in California With Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In California, particularly in higher-cost metro areas like Los Angeles, San Francisco, and San Diego, orthodontic pricing tends to run above the national average due to higher orthodontist overhead, staff wages, and lab fees — a full course of traditional braces frequently lands in the $4,500-$8,000 range before insurance, compared to the $3,000-$7,000 national range cited earlier. With a standard orthodontic rider (typically 50% coinsurance up to a $1,000-$2,500 lifetime maximum), a California patient still commonly owes $3,000-$6,000 out of pocket even with coverage, since the lifetime maximum doesn't scale up for regional cost differences the way the treatment price itself does. Getting a specific written treatment plan and cost estimate from a California-licensed orthodontist — rather than relying on a national average — is the only reliable way to know your actual number. [One San Diego family's real numbers](/scenarios/elena-california-braces-insurance-gap) walk through exactly how this gap plays out when a 50% orthodontic rider meets above-average California pricing."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Do Annual and Lifetime Maximums Matter More Than the Coinsurance Percentage?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A plan advertising \"80% coverage on basic services\" sounds generous, but most dental plans cap total annual payout at $1,000-$2,000 regardless of coinsurance percentage — a figure that hasn't kept pace with dental cost inflation the way medical insurance maximums have, since dental plans were historically designed as a cost-sharing benefit rather than true catastrophic protection. This is also why orthodontic coverage is carved out into its own separate lifetime maximum rather than pulling from the same annual pool as fillings and cleanings — without that separation, one course of braces would exhaust several years of basic-service coverage in a single claim. Before assuming a dental plan will meaningfully offset a large treatment plan like a full mouth of crowns or a complete orthodontic case, check the specific annual and lifetime maximum dollar figures on your plan summary, not just the advertised coinsurance percentage — and confirm your [plan's waiting period](/learn/dental-insurance-waiting-periods-explained) for that service tier has actually been satisfied, since a major-service claim filed too early is one of the most common and entirely avoidable reasons a claim gets denied."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What About Extractions, Implants, Bridges, and Cleanings?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The four procedures above cover most search intent, but they're not the only dental costs people budget for. A [tooth extraction without insurance](/qa/how-much-does-a-tooth-extraction-cost-without-insurance) is often the lower-cost path when a tooth is too damaged to save with a filling or crown — $150-$300 for a simple extraction, or $300-$800+ if it's surgical, which describes most impacted wisdom teeth. [Jake's case study](/scenarios/jake-austin-wisdom-teeth-no-insurance) shows what that actually looks like for a 20-year-old who aged off his parents' plan and had to budget for four impacted wisdom teeth with zero coverage. If a missing tooth needs to be replaced afterward, the choice is usually between a [dental implant](/qa/how-much-does-a-dental-implant-cost-without-insurance) ($3,000-$5,000+, surgical, leaves neighboring teeth untouched) and a [dental bridge](/qa/how-much-does-a-dental-bridge-cost-without-insurance) ($2,000-$5,000, no surgery, but permanently reshapes the two healthy anchor teeth) — see the [full implant-vs-bridge comparison](/compare/dental-implant-vs-dental-bridge) for how insurance treats each differently."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two other cost questions come up constantly alongside these procedures. If a routine cleaning has progressed into gum disease territory, a [deep cleaning](/qa/how-much-does-a-deep-cleaning-cost-with-insurance) is billed and reimbursed on a completely different tier than the twice-yearly cleaning most plans cover near 100% — expect per-quadrant pricing and standard basic- or major-service coinsurance instead. And on the opposite end of the spectrum, [teeth whitening and veneers](/qa/does-dental-insurance-cover-teeth-whitening-or-veneers) are almost universally excluded from dental insurance altogether, since coverage is built around restoring function, not improving appearance — no coinsurance tier applies to either one, full stop."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Which of These Questions Are Covered in Depth Elsewhere?"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "[How Much Does It Cost for Braces Without Insurance?](/qa/how-much-does-it-cost-for-braces-without-insurance) — the full breakdown of metal, ceramic, and clear-aligner pricing, plus how in-house payment plans work",
+            "[How Much Is a Crown Without Insurance?](/qa/how-much-is-a-crown-without-insurance) — material-by-material pricing and what's typically excluded from the initial quote",
+            "[How Much Does Fillings Cost With Insurance?](/qa/how-much-does-fillings-cost-with-insurance) — how surface count, material, and your deductible interact to set your actual bill",
+            "[Can You Have Two Dental Insurance Plans?](/qa/can-you-have-two-dental-insurance-plans) — how coordination of benefits actually works when you're covered by more than one plan",
+            "[Elena's California Braces Case Study](/scenarios/elena-california-braces-insurance-gap) — a real-numbers walkthrough of why a 50% orthodontic rider still left a San Diego family owing nearly $6,000",
+            "[How Much Does a Tooth Extraction Cost Without Insurance?](/qa/how-much-does-a-tooth-extraction-cost-without-insurance) — simple vs. surgical pricing and what sedation adds",
+            "[How Much Does a Root Canal Cost With Insurance?](/qa/how-much-does-a-root-canal-cost-with-insurance) — pricing by tooth location and why a crown almost always follows",
+            "[Traditional Braces vs. Invisalign: Cost & Coverage Compared](/compare/traditional-braces-vs-invisalign) — why both draw from the exact same orthodontic lifetime maximum",
+            "[How Much Does a Dental Implant Cost Without Insurance?](/qa/how-much-does-a-dental-implant-cost-without-insurance) — why implants are priced and covered differently than a standalone crown",
+            "[Jake's Wisdom Teeth Case Study](/scenarios/jake-austin-wisdom-teeth-no-insurance) — how a 20-year-old without dental coverage actually budgeted for surgical extraction",
+            "[How Much Does a Dental Bridge Cost Without Insurance?](/qa/how-much-does-a-dental-bridge-cost-without-insurance) — pricing for the multi-crown alternative to an implant",
+            "[Dental Implant vs. Dental Bridge: Cost & Coverage Compared](/compare/dental-implant-vs-dental-bridge) — surgery-free and cheaper vs. surgical and longer-lasting",
+            "[How Much Does a Deep Cleaning Cost With Insurance?](/qa/how-much-does-a-deep-cleaning-cost-with-insurance) — why periodontal treatment is priced and covered differently than a routine cleaning",
+            "[Does Dental Insurance Cover Teeth Whitening or Veneers?](/qa/does-dental-insurance-cover-teeth-whitening-or-veneers) — why cosmetic work is excluded even on comprehensive plans",
+            "[Dental Insurance Waiting Periods Explained](/learn/dental-insurance-waiting-periods-explained) — how long you have to wait before major and orthodontic benefits actually apply"
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature and does not constitute dental, financial, or insurance advice. Procedure costs and plan reimbursement percentages vary significantly by provider, geographic region, specific plan design, and individual treatment complexity. Confirm exact costs and coverage details with your dentist's billing office and your specific dental plan's summary of benefits before treatment."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "boat-insurance-and-hurricane-season",
+      "slug": "boat-insurance-and-hurricane-season",
+      "title": "Boat Insurance and Hurricane Season: What's Actually Covered",
+      "description": "How named storm deductibles work, what a hurricane plan requirement actually means for your coverage, and what happens if you don't follow it — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 7,
+      "featured": false,
+      "tags": [
+        "boat insurance hurricane",
+        "named storm deductible",
+        "boat insurance by state",
+        "boat insurance florida"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Most boat policies in hurricane-exposed states apply a separate, higher named storm deductible — often expressed as a percentage of the boat's insured value rather than a flat dollar amount — that applies specifically to hurricane and tropical storm damage.",
+        "Many marine policies require a specific written hurricane plan (haul-out location, mooring method, or a professional relocation arrangement) as a condition of coverage, and failing to follow it can affect a claim even if the loss itself would otherwise be covered.",
+        "Some insurers offer a haul-out or hurricane-preparation reimbursement benefit, covering part of the cost of professionally moving or securing a boat ahead of a named storm, since it's often cheaper for the insurer than paying a full storm-damage claim.",
+        "The Atlantic hurricane season officially runs June 1 through November 1, and many marine policies tie navigation limits, deductibles, or coverage conditions directly to this window rather than applying uniformly year-round.",
+        "This is a major factor behind the cost differences seen across the states in our main [Boat Insurance by State](/learn/boat-insurance-by-state-requirements-costs) guide, since coastal, hurricane-exposed states generally carry higher premiums and deductibles than inland states with no storm surge exposure."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Does a named storm deductible apply if my boat is damaged by an ordinary summer thunderstorm?",
+          "answer": "No — a named storm deductible specifically applies to damage from an officially named tropical storm or hurricane; an ordinary storm, even a severe one, would typically fall under your policy's standard deductible instead."
+        },
+        {
+          "question": "What happens if I don't follow my policy's hurricane plan?",
+          "answer": "This varies by insurer and the specific circumstances, but failing to follow a required hurricane plan can affect how a claim is handled, potentially including a reduced payout or a coverage dispute, even if the underlying storm damage would otherwise be covered — review your specific plan requirements and follow them closely."
+        },
+        {
+          "question": "Can I get boat insurance in Florida without named storm coverage at all?",
+          "answer": "Some insurers offer this option, typically at a lower premium, but it leaves you with no coverage at all for hurricane and tropical storm damage — a meaningful risk trade-off worth discussing carefully with a licensed marine insurance broker before choosing it."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For boat owners in coastal states, hurricane season isn't a side note in the policy — it's frequently the single biggest factor in both the premium and the fine print. Below are the questions owners in storm-exposed areas actually need answered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Is a Named Storm Deductible, and How Is It Different From a Regular One?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A named storm deductible is a separate, typically higher deductible that applies specifically to damage caused by a hurricane or tropical storm that's been officially named, as distinct from your policy's standard deductible for an ordinary collision, fire, or theft claim. It's frequently expressed as a percentage of the boat's insured value (commonly in the range of a few percent, though this varies by insurer and has trended higher after severe storm seasons) rather than a flat dollar figure, which means it scales directly with how valuable your boat is."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Is a \"Hurricane Plan,\" and Why Does the Policy Require One?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many marine insurers in hurricane-prone states require policyholders to have a specific, written hurricane plan on file — detailing where the boat will be hauled out and secured, or how it will be moved to safer waters, once a hurricane watch or warning is issued. This isn't just paperwork: insurers generally expect the plan to actually be followed when a storm approaches, and failing to execute it (leaving a boat in a vulnerable slip when the plan called for a haul-out, for example) can affect how a subsequent storm-damage claim is handled, even if the underlying loss would otherwise be covered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does the Insurer Ever Help Pay for Storm Preparation Itself?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many marine insurers offer a hurricane haul-out or storm-preparation reimbursement benefit, covering a meaningful portion (commonly around half) of the reasonable cost of professionally hauling, moving, or securing a boat ahead of a named storm, sometimes up to a set dollar cap per storm or policy period. This exists because paying a few hundred dollars toward preventive haul-out costs is almost always cheaper for the insurer than paying out a full storm-damage claim, so it's genuinely worth asking your insurer specifically about this benefit rather than assuming it isn't offered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does This Only Matter in Florida, or Elsewhere Too?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Named storm provisions and elevated hurricane-season pricing aren't unique to Florida — they apply broadly across the Southern hurricane belt from the Gulf Coast up through the Mid-Atlantic and into parts of the Northeast, including states like Massachusetts and South Carolina covered in our [state-by-state requirements table](/learn/boat-insurance-by-state-requirements-costs). The Atlantic hurricane season officially runs from June 1 through November 1, and many policies specifically tie navigation restrictions, haul-out requirements, or deductible timing to that exact window."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Can You Reduce Storm-Related Costs Without Giving Up Coverage Entirely?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some owners choose to specifically exclude named storm coverage from their policy in exchange for a lower premium, betting instead on a reliable haul-out plan and protected storage — a real option, but one that leaves genuine storm damage completely uninsured if that plan fails. A more moderate approach many owners take instead is keeping named storm coverage but choosing a well-protected marina or storage location, which some insurers factor favorably into pricing given the lower realistic storm exposure."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Part of a Broader Series",
+          "text": "This is one of several topics covered in our full guide, [Boat Insurance by State: Requirements & Costs](/learn/boat-insurance-by-state-requirements-costs)."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Named storm deductibles, hurricane plan requirements, and haul-out reimbursement benefits vary significantly by insurer and policy. Review your specific policy's hurricane and named storm provisions directly with your insurer well before hurricane season begins."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "personal-watercraft-jet-ski-insurance",
+      "slug": "personal-watercraft-jet-ski-insurance",
+      "title": "Personal Watercraft (Jet Ski) Insurance: What's Different From a Boat Policy",
+      "description": "Why jet skis and other personal watercraft are underwritten differently than boats, what a PWC policy actually needs to cover, and where state insurance mandates most often apply — answered question by question.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-25",
+      "updatedAt": "2026-09-25",
+      "readingTime": 6,
+      "featured": false,
+      "tags": [
+        "personal watercraft insurance",
+        "jet ski insurance",
+        "boat insurance by state"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Personal watercraft (PWC) — jet skis, WaveRunners, Sea-Doos — are generally priced as higher-risk than an equivalent-value boat, reflecting real differences in how they're operated: higher speed, sharper maneuvering, and a statistically higher rate of collision and injury claims.",
+        "Where a state does mandate boat insurance based on engine horsepower, like Arkansas, PWC frequently exceed that threshold even though they're physically small, which surprises a lot of owners who assume a mandate only applies to \"real\" boats.",
+        "A standard homeowner's policy essentially never extends meaningful coverage to a PWC, and many boat policies specifically sub-limit or exclude PWC unless it's separately scheduled, so this needs to be confirmed rather than assumed.",
+        "Multiple PWC, or a PWC plus a separate boat, are often more efficiently insured under one combined marine policy with each vessel scheduled individually, rather than as completely separate standalone policies.",
+        "Rental PWC operations fall under [commercial boat insurance](/learn/commercial-boat-insurance) rather than a personal PWC policy, since renting out watercraft for payment is commercial use regardless of how small or simple the vessel is."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Do all states that require boat insurance also require PWC insurance?",
+          "answer": "It depends on how the specific state law is written — states that base their requirement on engine horsepower rather than vessel type generally apply the same rule to PWC that exceed the threshold, while states with no boat insurance mandate at all typically have no separate PWC-specific mandate either."
+        },
+        {
+          "question": "Is a PWC more likely to be stolen than a boat?",
+          "answer": "PWC are often considered a higher theft risk than larger boats due to their smaller size, ease of trailering, and resale demand, which can be a factor insurers weigh when pricing physical damage coverage."
+        },
+        {
+          "question": "Can I insure a jet ski I only use a few times a year?",
+          "answer": "Yes — many insurers offer lay-up or seasonal adjustments similar to boat policies, reducing coverage to essentials like theft and fire protection during the off-season, though liability coverage requirements may still apply whenever the PWC is actually in use."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A jet ski looks nothing like a boat, but from a pure risk perspective, insurers often treat it as riskier than one — not less. Below are the specific questions PWC owners actually need answered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why Is a Jet Ski Often More Expensive to Insure Than a Comparably Priced Boat?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Personal watercraft are typically ridden more aggressively than boats — higher speeds, sharper turns, closer proximity to other vessels and swimmers — and are statistically involved in a higher rate of collision and injury claims relative to their value. Insurers price this real difference in claims experience directly into PWC premiums, which is why a jet ski can sometimes cost more to insure per dollar of value than a larger, slower recreational boat."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does a State's Boat Insurance Mandate Actually Apply to a Jet Ski?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Often yes, and this catches a lot of owners off guard. Where a state ties its insurance mandate to engine horsepower rather than boat type or size — Arkansas's 50-horsepower threshold under Arkansas Code § 27-101-207 is a documented example — many personal watercraft models exceed that threshold despite being physically small, meaning the same legal requirement that applies to a large boat can apply equally to a jet ski. Always check your specific state's threshold against your PWC's actual engine specifications rather than assuming a small vessel is automatically exempt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Will My Homeowner's or Standard Boat Policy Already Cover It?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Generally no, or only very partially. A standard homeowner's policy essentially never provides meaningful coverage for a PWC, similar to how it typically doesn't adequately cover a larger boat. And even an existing boat policy frequently applies a specific sub-limit to, or fully excludes, a PWC unless it's separately scheduled and disclosed on the policy — this needs to be specifically confirmed with your insurer rather than assumed to be automatically bundled in."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Should You Actually Look for in a Dedicated PWC Policy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A proper PWC policy should include liability coverage for injury or property damage you cause to others, physical damage coverage for the watercraft itself (theft, collision, fire), and, given how frequently PWC are operated near other riders and swimmers, adequate liability limits reflecting the realistic severity of an on-water collision injury claim. If you own multiple PWC, or a PWC alongside a larger boat, ask about scheduling everything under one combined marine policy, which is often more efficient than several completely separate policies."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What If You're Renting PWC Out Rather Than Just Owning One?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Renting personal watercraft to paying customers is commercial use, regardless of how small or simple the vessel is, and needs to be covered under [commercial boat insurance](/learn/commercial-boat-insurance) rather than a personal PWC policy, which will typically exclude commercial rental activity the same way a standard recreational boat policy does."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Part of a Broader Series",
+          "text": "This is one of several topics covered in our full guide, [Boat Insurance by State: Requirements & Costs](/learn/boat-insurance-by-state-requirements-costs)."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature. Personal watercraft insurance requirements, state mandates, and coverage availability vary by state, insurer, and specific vessel. Consult a licensed marine insurance provider and confirm current requirements with your state's boating authority."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "insuring-a-car-thats-not-in-your-name",
       "slug": "insuring-a-car-thats-not-in-your-name",
       "title": "Insuring a Car That's Not in Your Name: What You Need to Know",
@@ -1415,7 +2154,7 @@
       "authorRole": "Actuarial Research Fellow",
       "publishedAt": "2026-09-25",
       "updatedAt": "2026-09-25",
-      "readingTime": 14,
+      "readingTime": 20,
       "featured": true,
       "tags": [
         "boat insurance by state",
@@ -1467,7 +2206,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In most US states, no — there's no blanket state law requiring recreational boat owners to carry insurance, which surprises a lot of people used to auto insurance being mandatory almost everywhere. Arkansas is a notable exception: under Arkansas Code § 27-101-207, boats with an engine over 50 horsepower must carry liability insurance, a requirement confirmed directly in the state's official boater education handbook. Utah has a broadly similar horsepower-based mandate. Beyond these specific exceptions, most states leave the insurance decision to the owner, the lender, and the marina — not the state itself."
+          "text": "In most US states, no — there's no blanket state law requiring recreational boat owners to carry insurance, which surprises a lot of people used to auto insurance being mandatory almost everywhere. Arkansas is a notable exception: under Arkansas Code § 27-101-207, boats with an engine over 50 horsepower must carry liability insurance, a requirement confirmed directly in the state's official boater education handbook. Utah has a broadly similar horsepower-based mandate. Beyond these specific exceptions, most states leave the insurance decision to the owner, the lender, and the marina — not the state itself. This also means a meaningful share of boaters on the water carry no insurance at all — see [What Is Uninsured Boater Coverage?](/qa/uninsured-boater-coverage) for how to protect yourself against that specific gap."
         },
         {
           "type": "heading",
@@ -1556,7 +2295,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Recreational boat insurance commonly runs somewhere between roughly $200 and $500 a year for a typical mid-size boat, though the real number depends heavily on the boat's type, age, and value, where it's used and stored, and the coverage limits chosen. A full breakdown of what actually drives that price — and how it differs for larger, high-value, or high-risk vessels — is covered in [How Much Does Boat Insurance Actually Cost?](/learn/average-cost-of-boat-insurance)"
+          "text": "Recreational boat insurance commonly runs somewhere between roughly $200 and $500 a year for a typical mid-size boat, though the real number depends heavily on the boat's type, age, and value, where it's used and stored, and the coverage limits chosen. A full breakdown of what actually drives that price — and how it differs for larger, high-value, or high-risk vessels — is covered in [How Much Does Boat Insurance Actually Cost?](/learn/average-cost-of-boat-insurance) Coastal and hurricane-exposed states carry a specific added cost factor of their own — see [Boat Insurance and Hurricane Season](/learn/boat-insurance-and-hurricane-season) — and choosing an adequate liability limit is a separate decision from the premium itself, covered in [How Much Boat Liability Insurance Do You Actually Need?](/qa/how-much-boat-liability-insurance-do-you-need)"
         },
         {
           "type": "heading",
@@ -1575,8 +2314,22 @@
             "[Classic Boat Insurance](/learn/classic-boat-insurance) — for antique, wooden, or collector vessels valued differently than a standard boat",
             "[Houseboat Insurance](/learn/houseboat-insurance) — for a vessel used as a full- or part-time residence, which blends marine and home insurance concepts",
             "[Boat Dealers Insurance](/learn/boat-dealers-insurance) — for businesses that sell, display, or transport boats they don't personally own",
-            "[Marina Insurance](/learn/marina-insurance) — for the dock, storage yard, and marina property itself, separate from any individual boat's coverage"
+            "[Marina Insurance](/learn/marina-insurance) — for the dock, storage yard, and marina property itself, separate from any individual boat's coverage",
+            "[Personal Watercraft (Jet Ski) Insurance](/learn/personal-watercraft-jet-ski-insurance) — for jet skis and other PWC, which are priced and often legally treated differently than boats",
+            "[Does Boat Insurance Cover Your Trailer?](/qa/does-boat-insurance-cover-your-trailer) — for the practical split between your boat and auto policy",
+            "[Uninsured Boater Coverage](/qa/uninsured-boater-coverage) — for protection when the other boater in an accident has no insurance of their own",
+            "[How Much Boat Liability Insurance Do You Actually Need?](/qa/how-much-boat-liability-insurance-do-you-need) — for choosing a limit beyond any state minimum",
+            "[Boat Insurance and Hurricane Season](/learn/boat-insurance-and-hurricane-season) — for named storm deductibles and hurricane plan requirements"
           ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Do Real Owners Actually Work Through These Decisions?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A few more specific comparisons and real-world scenarios round out this guide: [Agreed Value vs. Actual Cash Value Boat Insurance](/compare/agreed-value-vs-actual-cash-value-boat-insurance) covers how a total loss actually gets paid, [Liability-Only vs. Full Coverage Boat Insurance](/compare/liability-only-vs-full-coverage-boat-insurance) covers the core coverage-level decision, and [Bareboat Charter vs. Captained Charter Insurance](/compare/bareboat-vs-captained-charter-insurance) covers the two commercial charter models. To see these decisions play out for real owners, read [Maria: Buying Her First Boat in Florida](/scenarios/maria-first-boat-florida) and [Tom: Retiring Onto a Liveaboard Houseboat](/scenarios/tom-liveaboard-houseboat-retirement)."
         },
         {
           "type": "disclaimer",
@@ -3614,7 +4367,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A denial during the contestability period, a dispute over a beneficiary designation, or a suicide-exclusion denial are the most common reasons someone searches for legal help with a life insurance claim. See our companion guide on [when and how to hire an insurance lawyer](/learn/when-and-how-to-hire-an-insurance-lawyer), and specifically [life insurance lawyer](/qa/life-insurance-lawyer), for how these disputes actually get resolved."
+          "text": "A denial during the contestability period, a dispute over a beneficiary designation, or a suicide-exclusion denial are the most common reasons someone searches for legal help with a life insurance claim. The general decision framework for when hiring an attorney actually makes sense — versus when it's an unnecessary cost — is the same one covered in [car insurance lawyer](/qa/car-insurance-lawyer): a denial you believe is wrong, or a dispute significant enough that professional negotiation is likely to recover more than the fee costs."
         },
         {
           "type": "callout",
@@ -3829,7 +4582,7 @@
       "author": "Insurance Bhaiya Research Desk",
       "authorRole": "Actuarial Research Fellow",
       "publishedAt": "2026-09-22",
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-26",
       "readingTime": 11,
       "featured": true,
       "tags": [
@@ -4043,7 +4796,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This same legitimacy framework applies just as directly to life insurers — see [John Hancock](/qa/john-hancock-life-insurance) and [Colonial Penn](/qa/colonial-penn-life-insurance-rate-chart-by-age) checked the same way in our companion guide, [Life Insurance Fundamentals](/learn/life-insurance-fundamentals-worth-it-payouts-ownership)."
+          "text": "This same legitimacy framework applies just as directly to life insurers — see [John Hancock](/qa/john-hancock-life-insurance) and [Colonial Penn](/qa/colonial-penn-life-insurance-rate-chart-by-age) checked the same way in our companion guide, [Life Insurance Fundamentals](/learn/life-insurance-fundamentals-worth-it-payouts-ownership). If a claim with any of these companies is ever denied outright, [when hiring a car insurance lawyer actually makes sense](/qa/car-insurance-lawyer) covers the general decision framework, which applies across insurance lines."
         },
         {
           "type": "disclaimer",
@@ -9431,6 +10184,203 @@
           "whyItMatters": "The 'employer-sponsored' label covers several underlying structures with different cost and flexibility trade-offs, not just one standard product."
         }
       ]
+    },
+    {
+      "slug": "agreed-value-vs-actual-cash-value-boat-insurance",
+      "title": "Agreed Value vs. Actual Cash Value: Boat Insurance",
+      "subtitle": "The single biggest decision in a boat policy's fine print — how a total loss actually gets paid.",
+      "category": "Boat & Marine Insurance",
+      "decisionSummary": "Agreed value coverage locks in your boat's insured worth at binding, backed by an appraisal, so a total loss pays that full amount with no depreciation deduction — the standard approach for a [classic or collector boat](/learn/classic-boat-insurance). Actual cash value (ACV) instead pays market value minus depreciation, which is cheaper upfront but can leave a meaningful gap on an older or well-maintained boat. This is the same underlying choice covered for [classic cars](/compare/agreed-value-vs-actual-cash-value-classic-car-insurance) and for [replacement cost vs. actual cash value on a home](/compare/actual-cash-value-vs-replacement-cost) — it's a pattern that repeats across nearly every kind of property insurance. Model your own numbers with our [Home Insurance Coverage Calculator](/home-insurance-calculator/) for the general concept, and see our full [Boat Insurance by State](/learn/boat-insurance-by-state-requirements-costs) guide for how this fits into the bigger picture.",
+      "options": {
+        "optionA": "Agreed Value",
+        "optionB": "Actual Cash Value (ACV)"
+      },
+      "rows": [
+        {
+          "feature": "How a total loss is paid",
+          "optionA": "The pre-agreed, appraised amount — no depreciation deducted",
+          "optionB": "Current market value minus depreciation for age and condition",
+          "whyItMatters": "On an older boat, ACV depreciation can leave a payout well below what it would cost to buy a comparable replacement."
+        },
+        {
+          "feature": "Typical premium",
+          "optionA": "Generally higher, reflecting the guaranteed full payout",
+          "optionB": "Generally lower, reflecting the insurer's reduced exposure",
+          "whyItMatters": "The lower ACV premium is a real trade-off against a smaller total-loss payout, not free savings."
+        },
+        {
+          "feature": "Appraisal requirement",
+          "optionA": "Usually required at binding to establish the agreed value",
+          "optionB": "Not typically required; value is assessed at claim time instead",
+          "whyItMatters": "Agreed value avoids a valuation dispute exactly when you can least afford one — during a claim."
+        },
+        {
+          "feature": "Best fit",
+          "optionA": "Classic, antique, or well-restored boats where market comparables are scarce or misleading",
+          "optionB": "Newer boats with a well-established, liquid resale market and predictable depreciation",
+          "whyItMatters": "A boat with thin market data is exactly where ACV's 'market value' becomes the most contestable number in a claim."
+        }
+      ]
+    },
+    {
+      "slug": "liability-only-vs-full-coverage-boat-insurance",
+      "title": "Liability-Only vs. Full Coverage Boat Insurance",
+      "subtitle": "What you give up to lower the premium, and when that trade-off actually makes sense.",
+      "category": "Boat & Marine Insurance",
+      "decisionSummary": "Liability-only boat insurance pays for injury or property damage you cause to others, and is the minimum most owners consider even where it's not legally required — see our [state-by-state requirements guide](/learn/boat-insurance-by-state-requirements-costs) for where it is. Full coverage adds physical damage protection for your own boat (collision, theft, storm, fire), which matters far more once a boat is financed or holds meaningful value. Choosing the right liability limit within either option is its own separate decision, covered in [How Much Boat Liability Insurance Do You Actually Need?](/qa/how-much-boat-liability-insurance-do-you-need), and full coverage in a hurricane-exposed state comes with its own named storm considerations — see [Boat Insurance and Hurricane Season](/learn/boat-insurance-and-hurricane-season).",
+      "options": {
+        "optionA": "Liability-Only",
+        "optionB": "Full Coverage"
+      },
+      "rows": [
+        {
+          "feature": "What it pays for",
+          "optionA": "Injury or property damage you cause to others",
+          "optionB": "Liability, plus physical damage to your own boat (collision, theft, fire, weather)",
+          "whyItMatters": "Liability-only leaves you personally responsible for repairing or replacing your own boat after a covered loss."
+        },
+        {
+          "feature": "Required if the boat is financed",
+          "optionA": "Rarely acceptable to a lender on its own",
+          "optionB": "Typically required by the lender as a loan condition",
+          "whyItMatters": "A lender wants its collateral (the boat) protected, not just your liability to others."
+        },
+        {
+          "feature": "Typical premium",
+          "optionA": "Lower, since it excludes the boat's own physical damage risk",
+          "optionB": "Higher, scaling with the boat's insured value and risk profile",
+          "whyItMatters": "The savings from liability-only are real, but they come with real uninsured exposure to your own asset."
+        },
+        {
+          "feature": "Best fit",
+          "optionA": "An older, low-value, unfinanced boat where the owner can self-insure the boat's own value",
+          "optionB": "A financed, high-value, or heavily used boat where a total loss would be a significant financial hit",
+          "whyItMatters": "The right choice usually comes down to whether you could comfortably absorb replacing the boat entirely out of pocket."
+        }
+      ]
+    },
+    {
+      "slug": "bareboat-vs-captained-charter-insurance",
+      "title": "Bareboat Charter vs. Captained Charter Insurance",
+      "subtitle": "Handing over the wheel versus keeping your own crew in control changes the entire liability picture.",
+      "category": "Boat & Marine Insurance",
+      "decisionSummary": "A bareboat charter hands an unsupervised vessel directly to the renter, which is the core model covered in [Boat Rental Insurance](/learn/boat-rental-insurance); a captained charter keeps the operator's own trained crew in control, which falls under the broader [Commercial Boat Insurance](/learn/commercial-boat-insurance) umbrella alongside tours, dive charters, and water taxis. Insurers price and underwrite these very differently because the operational control — and therefore who's actually making the moment-to-moment decisions on the water — sits with a different party in each model. A single business offering both needs both structures reflected accurately in its policy, not one generic commercial marine form assumed to cover everything.",
+      "options": {
+        "optionA": "Bareboat Charter",
+        "optionB": "Captained Charter"
+      },
+      "rows": [
+        {
+          "feature": "Who operates the vessel",
+          "optionA": "The renter, unsupervised, after the operator hands over the boat",
+          "optionB": "The operator's own trained crew or licensed captain",
+          "whyItMatters": "Operational control is the single biggest factor in how liability is assessed after an incident."
+        },
+        {
+          "feature": "Typical insurance structure",
+          "optionA": "Boat rental insurance, often with a damage waiver or renter-deductible arrangement",
+          "optionB": "Commercial marine liability (P&I) with crew coverage, similar to a tour or water taxi operation",
+          "whyItMatters": "Using the wrong structure for the wrong model can leave a claim unresponsive exactly when it's needed."
+        },
+        {
+          "feature": "Renter's personal liability exposure",
+          "optionA": "Often significant — many rental agreements make the renter responsible for damage up to a deductible or full value",
+          "optionB": "Generally lower — the crew, not the passenger, is operating and responsible for the vessel",
+          "whyItMatters": "A renter should read a bareboat agreement's damage terms closely before assuming the operator's policy covers them fully."
+        },
+        {
+          "feature": "Coast Guard certification needs",
+          "optionA": "Generally less stringent, since no paying-passenger crew operation is involved",
+          "optionB": "Often required for passenger-carrying operations above certain thresholds",
+          "whyItMatters": "Certification requirements directly affect what an insurer will underwrite and at what price."
+        }
+      ]
+    },
+    {
+      "slug": "traditional-braces-vs-invisalign",
+      "title": "Traditional Metal Braces vs. Invisalign: Cost & Insurance Coverage Compared",
+      "subtitle": "Both draw from the same orthodontic insurance dollar — the real trade-off is total cost, visibility, and how disciplined you'll be about wearing removable aligners, not just the sticker price.",
+      "category": "Health Insurance",
+      "decisionSummary": "For a straightforward correction and the lowest total cost, traditional metal braces remain the more budget-friendly choice, and the [cost breakdown for braces without insurance](/qa/how-much-does-it-cost-for-braces-without-insurance) applies directly to them. Invisalign generally costs more but offers a near-invisible, removable alternative that many adults specifically want enough to justify the premium. Critically, both draw from the exact same orthodontic insurance rider and its [separate lifetime maximum](/learn/dental-procedure-costs-with-and-without-insurance) — choosing Invisalign doesn't unlock a bigger insurance benefit, it just means your fixed insurance dollars cover a smaller share of a larger total bill. If cost is the deciding factor, run both quotes against your plan's actual lifetime maximum, as shown in the [California braces case study](/scenarios/elena-california-braces-insurance-gap), before choosing based on appearance alone.",
+      "options": {
+        "optionA": "Traditional Metal Braces",
+        "optionB": "Invisalign (Clear Aligners)"
+      },
+      "rows": [
+        {
+          "feature": "Typical total cost without insurance",
+          "optionA": "$3,000 - $7,000",
+          "optionB": "$4,000 - $8,000+",
+          "whyItMatters": "Invisalign is priced by the number of aligner trays a case requires, so more complex corrections cost more than the baseline range — often exceeding metal braces for the same correction."
+        },
+        {
+          "feature": "Insurance coverage",
+          "optionA": "Same orthodontic rider: typically 50% coinsurance up to a $1,000-$2,500 lifetime maximum",
+          "optionB": "Same orthodontic rider applies identically — Invisalign is not treated as cosmetic-only by most PPO plans",
+          "whyItMatters": "Because both draw from the same fixed lifetime maximum, the insurance dollar amount doesn't change based on which option you pick — only how much of the (higher) Invisalign total that fixed amount actually offsets."
+        },
+        {
+          "feature": "Treatment length",
+          "optionA": "18-30 months typical",
+          "optionB": "12-24 months typical for moderate cases, but extends significantly if aligners aren't worn the required 20-22 hours/day",
+          "whyItMatters": "Metal braces don't depend on patient compliance to stay on schedule, while Invisalign's timeline is directly tied to how consistently the trays are worn — inconsistent wear is the most common reason Invisalign treatment runs longer than quoted."
+        },
+        {
+          "feature": "Visibility & daily life",
+          "optionA": "Clearly visible; some dietary restrictions (no sticky or hard foods); fixed in place",
+          "optionB": "Nearly invisible; removable for eating and brushing; no food restrictions but must be worn nearly full-time",
+          "whyItMatters": "This is usually the actual deciding factor for adults weighing the cost premium — the removability and appearance of Invisalign is what justifies the extra cost for many patients, not clinical superiority."
+        },
+        {
+          "feature": "Best suited for",
+          "optionA": "Complex bite corrections, younger patients, and anyone prioritizing lowest total cost",
+          "optionB": "Mild-to-moderate corrections in disciplined adult patients who prioritize appearance and removability over cost",
+          "whyItMatters": "Severe crowding, significant bite misalignment, or cases requiring precise tooth rotation are often better suited to fixed brackets, which orthodontists can adjust with more direct control than aligner trays allow."
+        }
+      ]
+    },
+    {
+      "slug": "dental-implant-vs-dental-bridge",
+      "title": "Dental Implant vs. Dental Bridge: Cost & Insurance Coverage Compared",
+      "subtitle": "An implant costs more upfront and requires surgery, but leaves your healthy neighboring teeth untouched — a bridge is cheaper and non-surgical, but requires permanently reshaping two healthy teeth.",
+      "category": "Health Insurance",
+      "decisionSummary": "For a single missing tooth, a [dental bridge](/qa/how-much-does-a-dental-bridge-cost-without-insurance) is generally the lower-cost, non-surgical option, while a [dental implant](/qa/how-much-does-a-dental-implant-cost-without-insurance) costs more and requires surgery but avoids altering the adjacent healthy teeth. Insurance coverage rarely settles this decision cleanly either way — many plans cover a bridge's crowns at the standard major-service rate while excluding some or all of an implant's surgical placement, which can make the bridge look cheaper on paper even when the implant might be the better long-term investment for a healthy adjacent tooth structure. Run both total costs, including what your specific plan actually reimburses for each, using the [Out-of-Pocket Cost Calculator](/health-insurance-calculator/) before deciding.",
+      "options": {
+        "optionA": "Dental Implant",
+        "optionB": "Dental Bridge"
+      },
+      "rows": [
+        {
+          "feature": "Typical total cost without insurance",
+          "optionA": "$3,000 - $5,000+ per tooth",
+          "optionB": "$2,000 - $5,000 for a standard three-unit bridge",
+          "whyItMatters": "An implant is usually the more expensive option per missing tooth, though a bridge spanning multiple missing teeth in a row can close the price gap or exceed it."
+        },
+        {
+          "feature": "Insurance coverage",
+          "optionA": "Often excluded or partially covered — many plans reimburse only the crown portion, not the surgical post",
+          "optionB": "Typically covered as a major service, similar to how a standalone crown is reimbursed",
+          "whyItMatters": "This is frequently the deciding factor in practice — a bridge's more predictable insurance treatment can make its effective out-of-pocket cost lower even when the sticker prices are similar."
+        },
+        {
+          "feature": "Impact on neighboring teeth",
+          "optionA": "None — adjacent teeth are left completely untouched",
+          "optionB": "Requires permanently reshaping the two healthy teeth on either side of the gap to accept crowns",
+          "whyItMatters": "This is an irreversible step for a bridge — if either anchor tooth were otherwise healthy, it's now committed to wearing a crown indefinitely, which some patients and dentists weigh heavily against the cost savings."
+        },
+        {
+          "feature": "Procedure & timeline",
+          "optionA": "Requires a surgical placement, then a healing period of several months before the crown is attached",
+          "optionB": "No surgery; typically completed in two to three visits over a few weeks",
+          "whyItMatters": "A bridge is the faster path to a finished, functional tooth if timeline matters more than the long-term trade-offs, such as before a specific event or due to a medical condition that complicates oral surgery."
+        },
+        {
+          "feature": "Long-term durability",
+          "optionA": "Can last 15-25+ years or longer with proper care, since the implant post integrates with the jawbone",
+          "optionB": "Typically lasts 10-15 years before needing replacement, particularly if decay develops under one of the anchor crowns",
+          "whyItMatters": "Over a longer time horizon, an implant's higher upfront cost is sometimes offset by needing fewer future replacements compared to a bridge, which relies on the health of its two anchor teeth."
+        }
+      ]
     }
   ],
   "glossary": [
@@ -10960,6 +11910,138 @@
         "Ask any PEO candidate directly how co-employment would affect Marcus's existing HR processes and who becomes the employer of record, referencing [PEO health plan](/glossary/peo-health-plan) for the specific trade-offs to probe.",
         "If Marcus's business ever separates from a PEO later, plan ahead for the transition using [COBRA continuation coverage](/glossary/cobra-continuation-coverage) as a reference point for how continuation options work when an employer-sponsored plan changes."
       ]
+    },
+    {
+      "slug": "maria-first-boat-florida",
+      "name": "Maria",
+      "displayTitle": "Maria's Insurance Decision",
+      "title": "Maria's Insurance Decision",
+      "category": "General",
+      "age": 34,
+      "location": "Tampa, FL",
+      "market": "US",
+      "avatarBg": "#dbeafe",
+      "situation": "First-time boat buyer, just purchased a financed 24-foot center console for weekend fishing and beach trips, docked at a local marina.",
+      "coreQuestion": "Is boat insurance actually required in Florida, and what should I realistically budget for it?",
+      "scoutTake": "Florida doesn't legally mandate boat insurance — see our full [Boat Insurance by State](/learn/boat-insurance-by-state-requirements-costs) guide — but Maria's boat is financed and dockside at a marina, and both her lender and the marina will require proof of coverage regardless of state law. Because she's in a hurricane-exposed state, she also needs to understand [named storm deductibles and hurricane plan requirements](/learn/boat-insurance-and-hurricane-season) before her first June-through-November season. Her liability limit deserves real thought too, not just the bare minimum — see [How Much Boat Liability Insurance Do You Actually Need?](/qa/how-much-boat-liability-insurance-do-you-need).",
+      "keyRisks": [
+        "A serious on-water collision or passenger injury exceeding a low liability limit",
+        "Hurricane or named storm damage while the boat is docked, without a hurricane plan on file",
+        "An uninsured boater causing an accident, since Florida doesn't require other boaters to carry coverage either",
+        "The lender's loan agreement requiring specific physical damage coverage Maria hasn't yet confirmed she has"
+      ],
+      "recommendedStrategy": [
+        "Full coverage boat insurance (not liability-only), since the boat is financed and the lender will require physical damage protection — see [Liability-Only vs. Full Coverage Boat Insurance](/compare/liability-only-vs-full-coverage-boat-insurance)",
+        "A liability limit meaningfully above Florida's non-existent state minimum, sized to her actual assets",
+        "Uninsured boater coverage, given how common uninsured boating is in a state with no mandate — see [Uninsured Boater Coverage](/qa/uninsured-boater-coverage)",
+        "A written hurricane plan on file with her insurer before her first storm season, including her marina's haul-out procedure"
+      ],
+      "estimatedMonthlyCost": "$25 - $55 / month",
+      "relatedToolSlug": "car-insurance-calculator",
+      "strategies": [
+        "Confirm her lender's specific physical damage and liability requirements in writing before finalizing coverage.",
+        "Set liability limits closer to $300,000-$500,000 rather than any bare minimum, given her personal asset exposure — model this with our [Insurance Needs Calculator](/insurance-needs-calculator/).",
+        "Add uninsured boater coverage given how many recreational boaters in Florida carry no insurance at all.",
+        "Review her policy's named storm deductible and haul-out reimbursement benefit before hurricane season begins, and confirm her marina's own hurricane procedure separately in [Marina Insurance](/learn/marina-insurance)."
+      ]
+    },
+    {
+      "slug": "tom-liveaboard-houseboat-retirement",
+      "name": "Tom",
+      "displayTitle": "Tom's Insurance Decision",
+      "title": "Tom's Insurance Decision",
+      "category": "General",
+      "age": 67,
+      "location": "Lake Norman, NC",
+      "market": "US",
+      "avatarBg": "#fef3c7",
+      "situation": "Recently retired, selling his house and moving full-time onto a 42-foot houseboat permanently moored at a marina slip.",
+      "coreQuestion": "If I'm going to live on this houseboat full-time, does my old homeowner's insurance transfer over, or do I need something completely different?",
+      "scoutTake": "A standard homeowner's policy doesn't extend to a floating structure — Tom needs a dedicated [Houseboat Insurance](/learn/houseboat-insurance) policy that blends marine coverage with the personal property and liability protection his old home policy used to provide. Because he's moving aboard full-time rather than using it occasionally, he needs to disclose that liveaboard status accurately, since it changes how much personal property and personal liability coverage he actually needs. He should also understand what his marina's own policy does and doesn't cover for him as a slip tenant — see [Marina Insurance](/learn/marina-insurance) — and, since his houseboat is permanently moored rather than cruising, confirm with his insurer whether it's underwritten more like a floating home or a conventional vessel.",
+      "keyRisks": [
+        "Personal belongings and everyday liability (a guest injured aboard, for example) not being covered if he assumes marine liability alone is enough",
+        "Understating full-time liveaboard status to save on premium, which can jeopardize a future claim",
+        "Assuming the marina's own insurance covers his personal property or the houseboat itself, when it typically only covers the marina's own dock and premises",
+        "Fire, storm, or sinking risk without confirming exactly what perils his specific stationary-houseboat policy actually covers"
+      ],
+      "recommendedStrategy": [
+        "A dedicated houseboat policy disclosing full-time liveaboard use, including personal property and personal liability coverage comparable to what a homeowner's policy would have provided",
+        "Confirmation from his insurer on whether the permanently moored structure is underwritten as a floating home or a conventional vessel, since this affects which perils are actually covered",
+        "His own contents and liability coverage, independent of whatever his marina's policy covers for its own property",
+        "A clear understanding of any usage or navigation restrictions tied to his specific liveaboard policy"
+      ],
+      "estimatedMonthlyCost": "$60 - $120 / month",
+      "relatedToolSlug": "home-insurance-calculator",
+      "strategies": [
+        "Get houseboat-specific quotes rather than assuming a marine policy or homeowner's policy alone will work — see [Houseboat Insurance](/learn/houseboat-insurance) for what to ask.",
+        "Disclose full-time liveaboard status accurately, even if it means a higher premium than understating it would.",
+        "Confirm personal liability coverage extends to everyday incidents aboard, not just boating-specific accidents.",
+        "Ask his marina directly what its own policy covers for slip tenants, and don't assume it extends to his personal belongings or the houseboat itself — see [Marina Insurance](/learn/marina-insurance)."
+      ]
+    },
+    {
+      "slug": "elena-california-braces-insurance-gap",
+      "name": "Elena",
+      "displayTitle": "Elena's Insurance Decision",
+      "title": "Elena's Insurance Decision",
+      "category": "General",
+      "age": 42,
+      "location": "San Diego, California",
+      "market": "US",
+      "avatarBg": "#e0f2fe",
+      "situation": "Elena's 14-year-old son needs a full course of orthodontic treatment to correct a significant overbite. She has an employer-sponsored dental PPO with an orthodontic rider covering 50% coinsurance up to a $1,500 lifetime maximum per covered person. Her son's San Diego orthodontist quoted $6,800 for traditional metal braces — near the higher end of California pricing, which runs above the national average due to regional labor and lab costs.",
+      "coreQuestion": "My insurance covers half the cost of braces — so why do I still owe almost $6,000 out of pocket?",
+      "scoutTake": "Elena's plan isn't underperforming — this is exactly how orthodontic riders are designed to work. The 50% coinsurance applies, but only up to the $1,500 lifetime maximum, meaning insurance contributes a flat $1,500 regardless of the total treatment cost, not 50% of the full $6,800 bill. See the [complete dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this lifetime-maximum structure differs from the annual maximums that apply to fillings and crowns. Because California orthodontic pricing runs above the national average, the gap between the quoted price and the fixed lifetime maximum is wider here than it would be in a lower-cost state for the identical treatment plan. Before assuming a second plan would help, it's worth running the [coordination of benefits math](/qa/can-you-have-two-dental-insurance-plans) — a second plan's own separate lifetime maximum could meaningfully close this specific gap if her spouse has dental coverage through a different employer.",
+      "keyRisks": [
+        "The $1,500 lifetime maximum is a flat dollar cap, not a percentage of the total bill, so a higher California quote widens the out-of-pocket gap compared to the national average price for the same treatment.",
+        "The lifetime maximum applies per person, per lifetime — not annually — so it can't be \"saved up\" or reset if a second child in the family also needs orthodontic treatment on the same plan.",
+        "Financing the remaining ~$5,300 through a third-party medical credit line rather than the orthodontist's own in-house plan could add interest charges if not paid off within a promotional period."
+      ],
+      "recommendedStrategy": [
+        "Confirm the exact remaining lifetime maximum on the plan's summary of benefits before treatment starts, since prior orthodontic claims for other family members reduce the same shared or per-person cap.",
+        "Ask the orthodontist's office about their in-house 0%-interest payment plan for the roughly $5,300 balance before considering third-party financing that may carry interest.",
+        "If her spouse has separate employer dental coverage, check whether adding the son to that plan as a secondary payer would meaningfully offset the remaining balance under coordination of benefits rules."
+      ],
+      "estimatedMonthlyCost": "$220 - $440 / month if the remaining balance is financed interest-free over a 24-month treatment period",
+      "relatedToolSlug": "health-insurance-calculator",
+      "strategies": [
+        "Get the treatment plan's exact total price in writing before applying insurance, since California pricing can vary meaningfully between orthodontists even in the same metro area.",
+        "Use the [Out-of-Pocket Cost Calculator](/health-insurance-calculator/) to model how the lifetime maximum and coinsurance interact against the total quoted price.",
+        "If a second dental plan is available through a spouse's employer, compare its own premium cost against the specific dollar gap it would close under coordination of benefits.",
+        "Ask whether starting treatment near the end of one plan year versus early in the next affects which year's benefits apply, if the orthodontic rider has any annual component alongside the lifetime maximum."
+      ]
+    },
+    {
+      "slug": "jake-austin-wisdom-teeth-no-insurance",
+      "name": "Jake",
+      "displayTitle": "Jake's Insurance Decision",
+      "title": "Jake's Insurance Decision",
+      "category": "General",
+      "age": 20,
+      "location": "Austin, Texas",
+      "market": "US",
+      "avatarBg": "#fee2e2",
+      "situation": "Jake aged off his parents' dental plan at 19 and is now a full-time college student without dental coverage of his own. An oral surgeon confirmed all four of his wisdom teeth are impacted and recommended removal before they cause further crowding and pain. The surgical quote, including IV sedation, came to $2,200 with no insurance to offset it.",
+      "coreQuestion": "I just aged off my parents' dental plan — how do people actually afford wisdom teeth removal without insurance?",
+      "scoutTake": "Jake's situation is extremely common — dental coverage for young adults has one of the largest gaps of any age group, since most employer plans don't start until a first full-time job, and standard Medicaid dental benefits for adults are limited or nonexistent in many states. The $2,200 figure is consistent with typical [surgical extraction pricing for impacted teeth](/qa/how-much-does-a-tooth-extraction-cost-without-insurance) — it isn't inflated. Before assuming the full amount is unavoidable, it's worth checking whether his university offers a student health plan with a dental rider, since many schools bundle at least basic dental coverage into student health fees that students don't realize they already have. A dental school clinic, where supervised students perform the procedure under a licensed instructor at a meaningfully reduced rate, is also a realistic option worth calling ahead about, particularly in a city like Austin with nearby dental training programs.",
+      "keyRisks": [
+        "Delaying impacted wisdom tooth removal can allow the teeth to push against neighboring molars, sometimes causing additional decay or crowding that raises the eventual total treatment cost.",
+        "A standalone dental insurance plan purchased right before a known procedure will almost certainly impose a waiting period on oral surgery, meaning it won't help with this specific procedure even if purchased today.",
+        "Financing the full $2,200 through a general medical credit card rather than the oral surgeon's own payment plan could add double-digit interest if not paid off within a promotional window."
+      ],
+      "recommendedStrategy": [
+        "Check with the university's student health center about any dental rider or negotiated discount included in student health fees before assuming zero coverage exists.",
+        "Call a nearby dental school or hygiene program to ask about supervised-student pricing for extractions, which is often 40-60% below private-practice rates for the same procedure.",
+        "Ask the oral surgeon's own office about an in-house 0%-interest payment plan before considering third-party medical financing that may carry interest after a promotional period."
+      ],
+      "estimatedMonthlyCost": "$150 - $300 / month if the $2,200 total is financed interest-free over a 12-month in-house payment plan",
+      "relatedToolSlug": "health-insurance-calculator",
+      "strategies": [
+        "Compare the university student health plan's dental rider, if any, against the full $2,200 quote before ruling out coverage entirely.",
+        "Request quotes from at least one dental school clinic in addition to the private oral surgeon, since teaching clinics often price the same procedure significantly lower.",
+        "Use the [Out-of-Pocket Cost Calculator](/health-insurance-calculator/) to compare financed monthly payments against saving up and delaying by a few months, if delay is medically reasonable per the surgeon.",
+        "Ask specifically about the [sedation cost breakdown](/qa/how-much-does-a-tooth-extraction-cost-without-insurance), since IV sedation for four teeth in one visit is often the single largest line item after the extractions themselves."
+      ]
     }
   ],
   "policyChecklist": [
@@ -12296,6 +13378,276 @@
       "shortAnswer": "Usually yes, if you have insurable interest in that vehicle — most commonly because you live at the same address as the car, help pay for it, or are the primary driver. Insurers generally want the vehicle garaged at the same address as the policy, so adding a car that's kept somewhere else entirely can trigger extra questions or a decline.",
       "readingTime": "4 min read",
       "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-123",
+      "slug": "how-much-boat-liability-insurance-do-you-need",
+      "category": "General",
+      "question": "How Much Boat Liability Insurance Do You Actually Need?",
+      "shortAnswer": "Even in states with no legal minimum, most marine insurance professionals recommend at least $300,000 to $500,000 in boat liability coverage for a typical recreational boat, and $1 million or more if your boat is larger, faster, or frequently carries passengers — since a serious on-water collision, especially one causing injury, can easily exceed a low minimum limit. Since most states don't mandate a specific amount (see our [state requirements table](/learn/boat-insurance-by-state-requirements-costs)), this is largely a personal risk decision, not a legal compliance question.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-124",
+      "slug": "does-boat-insurance-cover-your-trailer",
+      "category": "General",
+      "question": "Does Boat Insurance Cover Your Trailer?",
+      "shortAnswer": "Many boat insurance policies include limited trailer coverage automatically, but often only up to a modest sub-limit (commonly a few thousand dollars), and it doesn't automatically extend to liability for an accident caused while towing the trailer on the road — that's typically handled by your auto policy instead. Always check your specific policy's trailer sub-limit and confirm which policy (boat or auto) actually covers a towing-related accident, rather than assuming either one automatically covers everything.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-125",
+      "slug": "uninsured-boater-coverage",
+      "category": "General",
+      "question": "What Is Uninsured Boater Coverage?",
+      "shortAnswer": "Uninsured boater coverage pays for your injuries and, in some policies, property damage if you're hit by another boater who doesn't carry insurance — the marine equivalent of uninsured motorist coverage on an auto policy. It's an especially important add-on given how many states, as covered in our [state-by-state requirements guide](/learn/boat-insurance-by-state-requirements-costs), don't legally require other boaters to carry any insurance at all, which means the other party in a collision may have nothing to pay a claim with.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-126",
+      "slug": "how-much-does-it-cost-for-braces-without-insurance",
+      "category": "Health",
+      "question": "How Much Does It Cost for Braces Without Insurance?",
+      "shortAnswer": "Full braces without any dental insurance typically cost $3,000 to $7,000 for traditional metal brackets and $4,000 to $8,000 or more for Invisalign-style clear aligners, with the final number driven mainly by treatment length and case complexity rather than bracket type. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this stacks up against crowns and fillings.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-127",
+      "slug": "how-much-is-a-crown-without-insurance",
+      "category": "Health",
+      "question": "How Much Is a Crown Without Insurance?",
+      "shortAnswer": "A single dental crown without insurance typically costs $1,000 to $2,500 per tooth, depending on the material and whether it's placed on a front or back tooth. If a root canal is needed first, that adds another $700-$1,500+ on top. See the [full cost breakdown across common dental procedures](/learn/dental-procedure-costs-with-and-without-insurance) for how a crown compares to fillings and braces.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-128",
+      "slug": "how-much-does-fillings-cost-with-insurance",
+      "category": "Health",
+      "question": "How Much Does Fillings Cost With Insurance?",
+      "shortAnswer": "With a standard dental PPO plan, a filling classified as a \"basic service\" is typically reimbursed at 70-80% coinsurance after your deductible, leaving you owing roughly $30 to $80 per filling — compared to $150 to $400 with no coverage at all. See the [complete cost comparison guide](/learn/dental-procedure-costs-with-and-without-insurance) for how this compares to crowns and braces.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-129",
+      "slug": "can-you-have-two-dental-insurance-plans",
+      "category": "Health",
+      "question": "Can You Have Two Dental Insurance Plans?",
+      "shortAnswer": "Yes — whether you search \"can you have two dental insurance plans\" or \"can I have two dental insurance plans,\" the answer is the same: there's no legal restriction on holding two at once. What changes is how the bill gets paid — coordination of benefits (COB) rules decide which plan pays first and cap the combined payout at 100% of the bill, not 200%. See the [full dental cost guide](/learn/dental-procedure-costs-with-and-without-insurance) for what this means for specific procedures like crowns and braces.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-130",
+      "slug": "how-much-does-a-tooth-extraction-cost-without-insurance",
+      "category": "Health",
+      "question": "How Much Does a Tooth Extraction Cost Without Insurance?",
+      "shortAnswer": "A simple extraction of a visible, fully erupted tooth typically costs $150-$300 without insurance. A surgical extraction — needed for a broken tooth or one that hasn't fully emerged, including most wisdom teeth — runs $300-$800+ per tooth depending on how impacted it is and whether sedation is used. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this compares to a filling, crown, or root canal on the same tooth.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-131",
+      "slug": "how-much-does-a-root-canal-cost-with-insurance",
+      "category": "Health",
+      "question": "How Much Does a Root Canal Cost With Insurance?",
+      "shortAnswer": "Without insurance, a root canal typically costs $700-$1,000 on a front tooth, $800-$1,200 on a premolar, and $1,000-$1,800 on a molar (which has more canals to treat). With a standard dental PPO, root canals are usually classified as a major service at 50-70% coinsurance after the deductible, leaving a patient-owed balance of roughly $300-$700 — before the [crown that usually follows](/qa/how-much-is-a-crown-without-insurance) is even factored in. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this stacks against extraction and fillings.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-132",
+      "slug": "how-much-does-a-dental-implant-cost-without-insurance",
+      "category": "Health",
+      "question": "How Much Does a Dental Implant Cost Without Insurance?",
+      "shortAnswer": "A single dental implant — the titanium post, abutment, and crown together — typically costs $3,000 to $5,000+ per tooth without insurance, making it the most expensive option among common tooth-replacement procedures. Most dental PPO plans either exclude implants entirely or cover only the crown portion, which is very different from how they treat a [standalone crown](/qa/how-much-is-a-crown-without-insurance) on a natural tooth. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how implants compare to bridges and other replacement options.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-133",
+      "slug": "how-much-does-a-dental-bridge-cost-without-insurance",
+      "category": "Health",
+      "question": "How Much Does a Dental Bridge Cost Without Insurance?",
+      "shortAnswer": "A traditional three-unit dental bridge (replacing one missing tooth by anchoring to the two teeth on either side) typically costs $2,000-$5,000 without insurance, depending on the material and number of anchor teeth involved. That's generally less than a [dental implant](/qa/how-much-does-a-dental-implant-cost-without-insurance) for a single missing tooth, but see the [full comparison](/compare/dental-implant-vs-dental-bridge) before deciding, since a bridge requires reshaping the healthy teeth on either side.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-134",
+      "slug": "how-much-does-a-deep-cleaning-cost-with-insurance",
+      "category": "Health",
+      "question": "How Much Does a Deep Cleaning Cost With Insurance?",
+      "shortAnswer": "A deep cleaning (scaling and root planing) typically costs $150-$350 per quadrant of the mouth without insurance, or $600-$1,400 for a full mouth across all four quadrants. Most dental PPO plans classify it as a periodontal service rather than routine preventive cleaning, reimbursed at 50-80% depending on the plan, leaving a patient-owed balance of roughly $75-$300 total after coverage. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how this compares to a routine cleaning and other basic services.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-135",
+      "slug": "does-dental-insurance-cover-teeth-whitening-or-veneers",
+      "category": "Health",
+      "question": "Does Dental Insurance Cover Teeth Whitening or Veneers?",
+      "shortAnswer": "No — professional teeth whitening ($400-$800 in-office, or $100-$400 for a take-home kit) and veneers ($800-$2,500 per tooth) are almost universally classified as cosmetic procedures and excluded from standard dental insurance plans, unlike functional procedures such as [crowns](/qa/how-much-is-a-crown-without-insurance) or [fillings](/qa/how-much-does-fillings-cost-with-insurance), which restore a damaged tooth rather than change its appearance. See the [full dental cost comparison](/learn/dental-procedure-costs-with-and-without-insurance) for how cosmetic costs compare to covered restorative procedures.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-136",
+      "slug": "car-insurance-lawyer",
+      "category": "Auto",
+      "question": "Car insurance lawyer",
+      "shortAnswer": "A car insurance lawyer (also searched as car insurance attorney or attorneys) helps when a claim is denied, underpaid, delayed in bad faith, or when a serious injury exceeds available policy limits. Most straightforward claims don't need one, but disputed liability, bad-faith denials, and injury cases where the at-fault driver's coverage is inadequate are the situations where hiring one typically pays for itself.",
+      "readingTime": "4 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-137",
+      "slug": "best-rate-on-car-insurance",
+      "category": "Auto",
+      "question": "Best rate on car insurance",
+      "shortAnswer": "There's no single company with the 'best rate' for everyone — your actual price depends on your driving record, location, vehicle, coverage limits, credit-based insurance score (in most states), and available discounts, all of which vary by insurer's own pricing model. The most reliable way to find your best rate is comparing quotes from at least three to five insurers with identical coverage limits and deductibles, rather than trusting any single company's advertising.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-138",
+      "slug": "can-you-pause-car-insurance",
+      "category": "Auto",
+      "question": "Can you pause car insurance",
+      "shortAnswer": "You generally can't simply stop paying for car insurance while a vehicle stays actively registered, since that creates an illegal coverage lapse in most states. If you won't be driving for an extended period, the actual options are switching to a cheaper storage or non-owner policy, or formally surrendering your registration and license plates with the DMV, which removes the insurance requirement entirely until you re-register.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-139",
+      "slug": "how-long-will-insurance-pay-for-rental-car-after-accident",
+      "category": "Auto",
+      "question": "How long will insurance pay for rental car after accident",
+      "shortAnswer": "Most rental reimbursement coverage pays for a rental car for up to 30 days (some policies extend to 45 days), subject to a daily dollar cap commonly in the $30-70 range and an overall per-claim maximum often between $900 and $1,500. Coverage ends as soon as your car is repaired and returned to you, or, if your car is declared a total loss, typically about 7 days after a final settlement offer is made.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-140",
+      "slug": "does-car-insurance-cover-repairs",
+      "category": "Auto",
+      "question": "Does car insurance cover repairs",
+      "shortAnswer": "It depends on which coverage caused the damage and which coverages you carry: liability-only insurance never covers repairs to your own vehicle, regardless of fault, while collision coverage pays for repairs after a crash and comprehensive coverage pays for non-collision damage like theft, weather, or animal strikes — both are optional add-ons, not automatically included, and both are subject to your chosen deductible.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-141",
+      "slug": "can-you-register-a-car-without-insurance",
+      "category": "Auto",
+      "question": "Can you register a car without insurance",
+      "shortAnswer": "In nearly every U.S. state, no — you must show proof of insurance (or an approved alternative like a cash bond or self-insurance certificate) before a vehicle can be registered. The rare exceptions are states or situations that allow demonstrating financial responsibility through a large cash deposit with the state, a surety bond, or self-insurance for large fleets, none of which are practical options for a typical individual driver.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-142",
+      "slug": "can-you-get-auto-insurance-with-a-suspended-license",
+      "category": "Auto",
+      "question": "Can you get auto insurance with a suspended license",
+      "shortAnswer": "Yes, you can generally still get auto insurance with a suspended license, though your options narrow and premiums typically rise — many standard insurers will decline or non-renew, pushing drivers toward non-standard or high-risk carriers, and an SR-22 or FR-44 filing is often required to prove financial responsibility before the license can be reinstated.",
+      "readingTime": "4 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-143",
+      "slug": "why-is-car-insurance-so-expensive-in-california",
+      "category": "Auto",
+      "question": "Why is car insurance so expensive in California",
+      "shortAnswer": "California car insurance is expensive due to a combination of new, higher mandatory minimum coverage limits (30/60/15 as of January 1, 2025, up from 15/30/5), a high rate of litigation and uninsured drivers, rising catastrophe losses (wildfire in particular), and a dense, high-traffic driving environment — full coverage in California averaged around $2,575 a year in recent industry data, well above the national average.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-144",
+      "slug": "does-my-personal-auto-insurance-cover-business-use",
+      "category": "Auto",
+      "question": "Does my personal auto insurance cover business use",
+      "shortAnswer": "Generally no — a standard personal auto policy typically excludes or sharply limits coverage for business use beyond an ordinary commute, including ridesharing, food or package delivery, and using your vehicle primarily for work purposes. You usually need a rideshare endorsement, a commercial auto policy, or a business-use endorsement specifically added to cover these activities.",
+      "readingTime": "4 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-145",
+      "slug": "is-car-insurance-cheaper-on-older-cars",
+      "category": "Auto",
+      "question": "Is car insurance cheaper on older cars",
+      "shortAnswer": "Generally yes, but mainly for the comprehensive and collision portions of your policy, since those are priced based on your vehicle's actual cash value — an older car worth less costs less to insure for physical damage, and may not be worth carrying that coverage on at all. Your liability coverage cost, which is based mainly on you as a driver rather than the car's value, typically doesn't change much with the vehicle's age.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-146",
+      "slug": "do-you-need-insurance-to-register-a-car-in-ny",
+      "category": "Auto",
+      "question": "Do you need insurance to register a car in NY",
+      "shortAnswer": "Yes — New York requires proof of a New York-issued auto insurance policy, from an insurer licensed by the state's Department of Financial Services, before you can register any vehicle. The minimum coverage is 25/50/10 for bodily injury and property damage liability, plus at least $50,000 in no-fault personal injury protection (PIP) and $25,000/$50,000 in uninsured motorist coverage.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-147",
+      "slug": "do-you-need-insurance-to-register-a-car-in-california",
+      "category": "Auto",
+      "question": "Do you need insurance to register a car in California",
+      "shortAnswer": "Yes — California requires proof of financial responsibility, almost always satisfied with an auto insurance policy, before you can register a vehicle. As of January 1, 2025, the minimum liability limits are 30/60/15 under Senate Bill 1107, up from the previous 15/30/5 that had been in place since 1967.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-148",
+      "slug": "are-car-insurance-companies-open-on-saturdays",
+      "category": "Auto",
+      "question": "Are car insurance companies open on Saturdays",
+      "shortAnswer": "It depends on the company and the department: most major insurers' claims lines operate 24/7, including Saturdays, since accidents don't follow business hours, but sales, underwriting, and general customer service departments often have limited or no weekend hours, especially at smaller regional insurers or local agent offices.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-149",
+      "slug": "can-you-drive-without-insurance-in-ny",
+      "category": "Auto",
+      "question": "Can you drive without insurance in NY",
+      "shortAnswer": "No — driving without the required insurance in New York is illegal and carries escalating penalties: if your registration is revoked for a lapse, you face daily fines starting at $8 per day for the first 30 days, rising to $10 and then $12 per day in following 30-day periods, potentially totaling close to $1,000 within 90 days, plus license and registration suspension until compliant coverage is shown.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-150",
+      "slug": "do-you-need-insurance-to-register-a-car-in-indiana",
+      "category": "Auto",
+      "question": "Do you need insurance to register a car in Indiana",
+      "shortAnswer": "Yes — Indiana requires proof of at least 25/50/25 liability insurance ($25,000 bodily injury per person, $50,000 per accident, $25,000 property damage) before you can register a vehicle at the Indiana Bureau of Motor Vehicles (BMV). Unlike New York or Florida, Indiana doesn't require no-fault PIP coverage, since it's an at-fault (tort) state.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-151",
+      "slug": "are-you-required-to-have-car-insurance-in-florida",
+      "category": "Auto",
+      "question": "Are you required to have car insurance in Florida",
+      "shortAnswer": "Yes — Florida requires at least $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL) to register and operate any vehicle with four or more wheels. Unusually among U.S. states, Florida does not require bodily injury liability insurance for most drivers, relying instead on its no-fault PIP system, though BIL can become required after certain violations or convictions.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-152",
+      "slug": "can-i-drive-without-insurance-in-fl",
+      "category": "Auto",
+      "question": "Can I drive without insurance in FL",
+      "shortAnswer": "No — driving without Florida's required PIP and property damage liability insurance is illegal and can result in your driver's license and vehicle registration being suspended for up to three years, plus reinstatement fees of $150, $250, or $500 depending on whether it's a first, second, or subsequent offense.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
     }
   ]
 }

@@ -1,0 +1,112 @@
+{
+  "type": "learn",
+  "id": "personal-watercraft-jet-ski-insurance",
+  "slug": "personal-watercraft-jet-ski-insurance",
+  "title": "Personal Watercraft (Jet Ski) Insurance: What's Different From a Boat Policy",
+  "description": "Why jet skis and other personal watercraft are underwritten differently than boats, what a PWC policy actually needs to cover, and where state insurance mandates most often apply — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "personal watercraft insurance",
+    "jet ski insurance",
+    "boat insurance by state"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Personal watercraft (PWC) — jet skis, WaveRunners, Sea-Doos — are generally priced as higher-risk than an equivalent-value boat, reflecting real differences in how they're operated: higher speed, sharper maneuvering, and a statistically higher rate of collision and injury claims.",
+    "Where a state does mandate boat insurance based on engine horsepower, like Arkansas, PWC frequently exceed that threshold even though they're physically small, which surprises a lot of owners who assume a mandate only applies to \"real\" boats.",
+    "A standard homeowner's policy essentially never extends meaningful coverage to a PWC, and many boat policies specifically sub-limit or exclude PWC unless it's separately scheduled, so this needs to be confirmed rather than assumed.",
+    "Multiple PWC, or a PWC plus a separate boat, are often more efficiently insured under one combined marine policy with each vessel scheduled individually, rather than as completely separate standalone policies.",
+    "Rental PWC operations fall under [commercial boat insurance](/learn/commercial-boat-insurance) rather than a personal PWC policy, since renting out watercraft for payment is commercial use regardless of how small or simple the vessel is."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do all states that require boat insurance also require PWC insurance?",
+      "answer": "It depends on how the specific state law is written — states that base their requirement on engine horsepower rather than vessel type generally apply the same rule to PWC that exceed the threshold, while states with no boat insurance mandate at all typically have no separate PWC-specific mandate either."
+    },
+    {
+      "question": "Is a PWC more likely to be stolen than a boat?",
+      "answer": "PWC are often considered a higher theft risk than larger boats due to their smaller size, ease of trailering, and resale demand, which can be a factor insurers weigh when pricing physical damage coverage."
+    },
+    {
+      "question": "Can I insure a jet ski I only use a few times a year?",
+      "answer": "Yes — many insurers offer lay-up or seasonal adjustments similar to boat policies, reducing coverage to essentials like theft and fire protection during the off-season, though liability coverage requirements may still apply whenever the PWC is actually in use."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A jet ski looks nothing like a boat, but from a pure risk perspective, insurers often treat it as riskier than one — not less. Below are the specific questions PWC owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Is a Jet Ski Often More Expensive to Insure Than a Comparably Priced Boat?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Personal watercraft are typically ridden more aggressively than boats — higher speeds, sharper turns, closer proximity to other vessels and swimmers — and are statistically involved in a higher rate of collision and injury claims relative to their value. Insurers price this real difference in claims experience directly into PWC premiums, which is why a jet ski can sometimes cost more to insure per dollar of value than a larger, slower recreational boat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does a State's Boat Insurance Mandate Actually Apply to a Jet Ski?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Often yes, and this catches a lot of owners off guard. Where a state ties its insurance mandate to engine horsepower rather than boat type or size — Arkansas's 50-horsepower threshold under Arkansas Code § 27-101-207 is a documented example — many personal watercraft models exceed that threshold despite being physically small, meaning the same legal requirement that applies to a large boat can apply equally to a jet ski. Always check your specific state's threshold against your PWC's actual engine specifications rather than assuming a small vessel is automatically exempt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Will My Homeowner's or Standard Boat Policy Already Cover It?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Generally no, or only very partially. A standard homeowner's policy essentially never provides meaningful coverage for a PWC, similar to how it typically doesn't adequately cover a larger boat. And even an existing boat policy frequently applies a specific sub-limit to, or fully excludes, a PWC unless it's separately scheduled and disclosed on the policy — this needs to be specifically confirmed with your insurer rather than assumed to be automatically bundled in."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Should You Actually Look for in a Dedicated PWC Policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A proper PWC policy should include liability coverage for injury or property damage you cause to others, physical damage coverage for the watercraft itself (theft, collision, fire), and, given how frequently PWC are operated near other riders and swimmers, adequate liability limits reflecting the realistic severity of an on-water collision injury claim. If you own multiple PWC, or a PWC alongside a larger boat, ask about scheduling everything under one combined marine policy, which is often more efficient than several completely separate policies."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What If You're Renting PWC Out Rather Than Just Owning One?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Renting personal watercraft to paying customers is commercial use, regardless of how small or simple the vessel is, and needs to be covered under [commercial boat insurance](/learn/commercial-boat-insurance) rather than a personal PWC policy, which will typically exclude commercial rental activity the same way a standard recreational boat policy does."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Part of a Broader Series",
+      "text": "This is one of several topics covered in our full guide, [Boat Insurance by State: Requirements & Costs](/learn/boat-insurance-by-state-requirements-costs)."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Personal watercraft insurance requirements, state mandates, and coverage availability vary by state, insurer, and specific vessel. Consult a licensed marine insurance provider and confirm current requirements with your state's boating authority."
+    }
+  ]
+}

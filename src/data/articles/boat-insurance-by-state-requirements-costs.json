@@ -9,7 +9,7 @@
   "authorRole": "Actuarial Research Fellow",
   "publishedAt": "2026-09-25",
   "updatedAt": "2026-09-25",
-  "readingTime": 14,
+  "readingTime": 20,
   "featured": true,
   "tags": [
     "boat insurance by state",
@@ -61,7 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In most US states, no — there's no blanket state law requiring recreational boat owners to carry insurance, which surprises a lot of people used to auto insurance being mandatory almost everywhere. Arkansas is a notable exception: under Arkansas Code § 27-101-207, boats with an engine over 50 horsepower must carry liability insurance, a requirement confirmed directly in the state's official boater education handbook. Utah has a broadly similar horsepower-based mandate. Beyond these specific exceptions, most states leave the insurance decision to the owner, the lender, and the marina — not the state itself."
+      "text": "In most US states, no — there's no blanket state law requiring recreational boat owners to carry insurance, which surprises a lot of people used to auto insurance being mandatory almost everywhere. Arkansas is a notable exception: under Arkansas Code § 27-101-207, boats with an engine over 50 horsepower must carry liability insurance, a requirement confirmed directly in the state's official boater education handbook. Utah has a broadly similar horsepower-based mandate. Beyond these specific exceptions, most states leave the insurance decision to the owner, the lender, and the marina — not the state itself. This also means a meaningful share of boaters on the water carry no insurance at all — see [What Is Uninsured Boater Coverage?](/qa/uninsured-boater-coverage) for how to protect yourself against that specific gap."
     },
     {
       "type": "heading",
@@ -150,7 +150,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Recreational boat insurance commonly runs somewhere between roughly $200 and $500 a year for a typical mid-size boat, though the real number depends heavily on the boat's type, age, and value, where it's used and stored, and the coverage limits chosen. A full breakdown of what actually drives that price — and how it differs for larger, high-value, or high-risk vessels — is covered in [How Much Does Boat Insurance Actually Cost?](/learn/average-cost-of-boat-insurance)"
+      "text": "Recreational boat insurance commonly runs somewhere between roughly $200 and $500 a year for a typical mid-size boat, though the real number depends heavily on the boat's type, age, and value, where it's used and stored, and the coverage limits chosen. A full breakdown of what actually drives that price — and how it differs for larger, high-value, or high-risk vessels — is covered in [How Much Does Boat Insurance Actually Cost?](/learn/average-cost-of-boat-insurance) Coastal and hurricane-exposed states carry a specific added cost factor of their own — see [Boat Insurance and Hurricane Season](/learn/boat-insurance-and-hurricane-season) — and choosing an adequate liability limit is a separate decision from the premium itself, covered in [How Much Boat Liability Insurance Do You Actually Need?](/qa/how-much-boat-liability-insurance-do-you-need)"
     },
     {
       "type": "heading",
@@ -169,8 +169,22 @@
         "[Classic Boat Insurance](/learn/classic-boat-insurance) — for antique, wooden, or collector vessels valued differently than a standard boat",
         "[Houseboat Insurance](/learn/houseboat-insurance) — for a vessel used as a full- or part-time residence, which blends marine and home insurance concepts",
         "[Boat Dealers Insurance](/learn/boat-dealers-insurance) — for businesses that sell, display, or transport boats they don't personally own",
-        "[Marina Insurance](/learn/marina-insurance) — for the dock, storage yard, and marina property itself, separate from any individual boat's coverage"
+        "[Marina Insurance](/learn/marina-insurance) — for the dock, storage yard, and marina property itself, separate from any individual boat's coverage",
+        "[Personal Watercraft (Jet Ski) Insurance](/learn/personal-watercraft-jet-ski-insurance) — for jet skis and other PWC, which are priced and often legally treated differently than boats",
+        "[Does Boat Insurance Cover Your Trailer?](/qa/does-boat-insurance-cover-your-trailer) — for the practical split between your boat and auto policy",
+        "[Uninsured Boater Coverage](/qa/uninsured-boater-coverage) — for protection when the other boater in an accident has no insurance of their own",
+        "[How Much Boat Liability Insurance Do You Actually Need?](/qa/how-much-boat-liability-insurance-do-you-need) — for choosing a limit beyond any state minimum",
+        "[Boat Insurance and Hurricane Season](/learn/boat-insurance-and-hurricane-season) — for named storm deductibles and hurricane plan requirements"
       ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Do Real Owners Actually Work Through These Decisions?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A few more specific comparisons and real-world scenarios round out this guide: [Agreed Value vs. Actual Cash Value Boat Insurance](/compare/agreed-value-vs-actual-cash-value-boat-insurance) covers how a total loss actually gets paid, [Liability-Only vs. Full Coverage Boat Insurance](/compare/liability-only-vs-full-coverage-boat-insurance) covers the core coverage-level decision, and [Bareboat Charter vs. Captained Charter Insurance](/compare/bareboat-vs-captained-charter-insurance) covers the two commercial charter models. To see these decisions play out for real owners, read [Maria: Buying Her First Boat in Florida](/scenarios/maria-first-boat-florida) and [Tom: Retiring Onto a Liveaboard Houseboat](/scenarios/tom-liveaboard-houseboat-retirement)."
     },
     {
       "type": "disclaimer",

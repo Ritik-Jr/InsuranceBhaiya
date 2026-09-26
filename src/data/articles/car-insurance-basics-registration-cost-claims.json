@@ -1,0 +1,160 @@
+{
+  "type": "learn",
+  "id": "car-insurance-basics-registration-cost-claims",
+  "slug": "car-insurance-basics-registration-cost-claims",
+  "title": "Car Insurance Basics: Registration Requirements, Cost Factors, and How Claims Work",
+  "description": "Car insurance basics covering state registration requirements, what actually drives cost, and how claims, rentals, and coverage gaps really work.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-09-26",
+  "readingTime": 3,
+  "featured": true,
+  "tags": [
+    "car insurance requirements by state",
+    "do you need insurance to register a car",
+    "why is car insurance expensive",
+    "car insurance claims",
+    "car-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Every state ties vehicle registration to proof of insurance, but the specific minimums vary sharply — New York and Florida require no-fault personal injury protection on top of liability, while Indiana requires only liability coverage.",
+    "California's minimum liability limits doubled on January 1, 2025 (from 15/30/5 to 30/60/15) under Senate Bill 1107 — the first increase in nearly 60 years, and a major driver of recent premium increases alongside the state's dense traffic and high litigation costs.",
+    "Florida is one of the only states that doesn't require bodily injury liability insurance for most drivers, relying instead on no-fault PIP — an unusual structure worth understanding before assuming Florida's 'low' minimums mean weak coverage overall.",
+    "How long an insurer pays for a rental car depends entirely on which coverage is paying: your own rental reimbursement add-on has a fixed daily and total cap, while a claim against an at-fault driver's insurer typically covers a 'reasonable period' tied to actual repair time.",
+    "Standard car insurance covers accident and covered-peril damage, not mechanical breakdown or normal wear — a distinction that surprises many drivers expecting a repair claim to be covered when the actual cause was a worn-out part."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Which state has the highest minimum car insurance requirements?",
+      "answer": "Requirements vary by category — New York's $50,000 no-fault PIP requirement is among the highest for that specific coverage, while other states set higher bodily injury liability minimums. There's no single state with the highest minimum across every coverage type; it depends on which coverage you're comparing."
+    },
+    {
+      "question": "Do I need car insurance if I don't drive my car regularly?",
+      "answer": "In most states, yes — insurance is generally tied to active vehicle registration, not how often you drive, so a registered vehicle typically needs continuous coverage. Some states allow you to avoid this by formally declaring a vehicle non-operational and surrendering the plates instead."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Car insurance searches cluster around three practical questions: *do I legally need this to register my car, and how much* (which varies significantly by state), *why does this cost so much* (especially in high-cost states like California), and *how do claims, rentals, and coverage gaps actually work* once something happens. This guide covers all three, with a link to the full answer on each specific question."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "State Registration Requirements at a Glance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "State",
+        "Minimum Liability",
+        "No-Fault PIP Required?",
+        "Full Answer"
+      ],
+      "rows": [
+        [
+          "New York",
+          "25/50/10 + $25,000 UM",
+          "Yes — $50,000 minimum",
+          "/qa/do-you-need-insurance-to-register-a-car-in-ny"
+        ],
+        [
+          "California",
+          "30/60/15 (since Jan. 1, 2025)",
+          "No",
+          "/qa/do-you-need-insurance-to-register-a-car-in-california"
+        ],
+        [
+          "Texas",
+          "30/60/25",
+          "No",
+          "/qa/do-you-need-insurance-to-register-a-car-in-texas"
+        ],
+        [
+          "Indiana",
+          "25/50/25",
+          "No",
+          "/qa/do-you-need-insurance-to-register-a-car-in-indiana"
+        ],
+        [
+          "Florida",
+          "$10,000 PIP + $10,000 PDL (no BIL required)",
+          "Yes — $10,000 minimum",
+          "/qa/are-you-required-to-have-car-insurance-in-florida"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Every one of these states requires proof of insurance before you can register a vehicle at all — see [can you register a car without insurance](/qa/can-you-register-a-car-without-insurance) for the rare exceptions (self-insurance, cash deposits, declaring a vehicle non-operational) that apply almost nowhere in practice."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Driving Without Insurance: What Actually Happens"
+    },
+    {
+      "type": "paragraph",
+      "text": "Getting caught driving without the required insurance carries real, escalating penalties that vary by state — see the specifics for [driving without insurance in New York](/qa/can-you-drive-without-insurance-in-ny) and [driving without insurance in Florida](/qa/can-i-drive-without-insurance-in-fl)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Car Insurance Costs What It Does"
+    },
+    {
+      "type": "paragraph",
+      "text": "California is the most frequently searched example of a state where cost has become its own topic — see [why is car insurance so expensive in California](/qa/why-is-car-insurance-so-expensive-in-california) for the specific regulatory, litigation, and traffic-density factors behind it. Beyond state-specific factors, two universal questions come up constantly: [is car insurance cheaper on older cars](/qa/is-car-insurance-cheaper-on-older-cars), and how to actually find [the best rate on car insurance](/qa/best-rate-on-car-insurance) rather than just the first quote you're offered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What a Standard Policy Does and Doesn't Cover"
+    },
+    {
+      "type": "paragraph",
+      "text": "A standard personal auto policy covers accident and named-peril damage, not everything you might assume. See whether [car insurance covers repairs](/qa/does-car-insurance-cover-repairs) (it depends heavily on what caused the damage), whether [your personal policy covers business use](/qa/does-my-personal-auto-insurance-cover-business-use) of your vehicle (usually not, without an endorsement), and [how long insurance actually pays for a rental car](/qa/how-long-will-insurance-pay-for-rental-car-after-accident) after an accident."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Coverage in Non-Standard Situations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Life doesn't always fit the standard policy template. See whether [you can get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license), whether [you can pause car insurance](/qa/can-you-pause-car-insurance) instead of canceling outright, and [whether car insurance companies are open on Saturdays](/qa/are-car-insurance-companies-open-on-saturdays) when you need help outside a standard workweek."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When You Might Need a Car Insurance Lawyer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most car insurance questions don't require legal help, but disputed claims, denied coverage, or serious injury cases sometimes do — see [car insurance lawyer](/qa/car-insurance-lawyer) for when hiring one actually makes sense."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "State Minimums Are a Legal Floor, Not a Safety Recommendation",
+      "text": "Every state's minimum liability requirement is the least you're legally allowed to carry, not the amount that would actually protect your finances after a serious accident — this is especially true in states like Florida and Indiana, which don't require bodily injury liability or PIP at meaningfully protective levels."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and does not constitute legal or financial advice. Insurance minimums, registration rules, and penalties change over time and vary by state; confirm current requirements directly with your state's Department of Motor Vehicles or Department of Insurance before making coverage decisions."
+    }
+  ]
+}
