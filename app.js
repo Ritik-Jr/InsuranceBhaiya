@@ -19,6 +19,20 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Insuring a Car That's Not in Your Name: What You Need to Know",
+    "slug": "insuring-a-car-thats-not-in-your-name",
+    "description": "Can you insure a car that isn't titled to you? Usually yes, if you have insurable interest. Here's how it works, state by state, and how to get covered.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Contractors All Risk & Contract Works Insurance (UK): The Complete Guide",
+    "slug": "contractors-all-risk-contract-works-insurance-uk",
+    "description": "A plain-English guide to contractors all risk and contract works insurance in the UK \u2014 what's covered, what's excluded, hired-in plant, and what it costs.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "What Does Health Insurance Actually Cover?",
     "slug": "what-does-health-insurance-actually-cover",
     "description": "What health insurance typically covers, what's often excluded, how group plans are structured, and how to verify a health plan's legitimacy before you enroll.",
@@ -670,6 +684,104 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Can I Add Someone Else's Car to My Insurance?",
+      "slug": "can-i-add-someone-elses-car-to-my-insurance",
+      "shortAnswer": "Usually yes, if you have insurable interest in that vehicle \u2014 most commonly because you live at the same address as the car, help pay for it, or are the primary driver. Insurers generally want the vehicle garaged at the same address as the policy, so adding a car that's kept somewhere else entirely can trigger extra questions or a decline.",
+      "category": "Auto"
+},
+
+      {
+      "question": "What Is a Named Non-Owner Car Insurance Policy?",
+      "slug": "what-is-a-named-non-owner-car-insurance-policy",
+      "shortAnswer": "A named non-owner car insurance policy provides liability coverage for a specific driver rather than a specific vehicle. It's designed for people who drive regularly \u2014 a borrowed car, a company car, frequent rentals \u2014 but don't own a car themselves. It does not cover damage to whatever car you're driving; it only covers your legal liability if you cause an accident.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can You Get Insurance on a Car That's Not in Your Name?",
+      "slug": "can-you-get-insurance-car-not-your-name",
+      "shortAnswer": "Yes \u2014 the most common way is either being added to the owner's existing policy as a listed driver or co-named insured, or taking out a named non-owner policy if you don't live with the owner. Which one applies depends on whether you share a household with the titleholder and how often you actually drive the car.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does contractors all risk insurance cover theft of materials on site?",
+      "slug": "does-contractors-all-risk-insurance-cover-theft-of-materials",
+      "shortAnswer": "Usually yes, but with conditions: most [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies cover theft of materials and fixed plant, but only if there's evidence of forcible and violent entry to a secured site or store, and unfixed materials often carry a lower sub-limit than the main contract works sum insured.",
+      "category": "General"
+},
+
+      {
+      "question": "What's the difference between contract works insurance and public liability insurance?",
+      "slug": "contract-works-insurance-vs-public-liability-insurance",
+      "shortAnswer": "[Contract works insurance](/qa/what-is-contract-works-insurance) protects the building or structure you're constructing against loss or damage. Public liability insurance protects you if the works injure a third party or damage someone else's property. They cover entirely different risks and most contractors need both, usually bundled together inside a [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policy.",
+      "category": "General"
+},
+
+      {
+      "question": "Do I need contract works insurance for a self-build?",
+      "slug": "do-i-need-contract-works-insurance-for-a-self-build",
+      "shortAnswer": "Yes \u2014 in almost all self-build cases you need dedicated [contract works insurance](/qa/what-is-contract-works-insurance), because standard home insurance typically excludes an uninhabited property mid-construction, and most self-build mortgage lenders make it a condition of releasing each stage of funds.",
+      "category": "Home"
+},
+
+      {
+      "question": "What does contractors all risk insurance not cover?",
+      "slug": "what-does-contractors-all-risk-insurance-not-cover",
+      "shortAnswer": "Standard [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies typically exclude faulty design, workmanship and materials themselves, ordinary wear and tear, uninsured sub-contractor negligence unless extended, hired-in plant unless separately added, and consequential losses such as delay penalties unless a specific extension is bought.",
+      "category": "General"
+},
+
+      {
+      "question": "How much does contractors all risk insurance cost?",
+      "slug": "how-much-does-contractors-all-risk-insurance-cost",
+      "shortAnswer": "There's no single price \u2014 [contractors all risk](/qa/what-is-contractors-all-risk-insurance) premiums are driven by contract value, the type of works, project duration, site location, and claims history. Small domestic jobs can see premiums from a few hundred pounds for the whole build period, while larger commercial contracts are usually priced as a percentage of contract value and reviewed project-by-project.",
+      "category": "General"
+},
+
+      {
+      "question": "How long does contract works insurance last?",
+      "slug": "how-long-does-contract-works-insurance-last",
+      "shortAnswer": "Contract works insurance normally runs from the start of works until practical completion or handover, with an option to extend through a defects or maintenance period, commonly 12 months, so that damage arising from rectifying snagging items is also covered. It can also be extended if a project overruns its original completion date.",
+      "category": "General"
+},
+
+      {
+      "question": "Does contractors all risk insurance cover sub-contractors?",
+      "slug": "does-contractors-all-risk-insurance-cover-subcontractors",
+      "shortAnswer": "Only if the policy is specifically extended to include them. Many [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies exclude losses caused by uninsured sub-contractors' negligence by default, so main contractors need to confirm sub-contractors either hold their own cover or are added to the main CAR policy.",
+      "category": "General"
+},
+
+      {
+      "question": "What is contractors all risk insurance UK?",
+      "slug": "what-is-contractors-all-risk-insurance-uk",
+      "shortAnswer": "In the UK, contractors all risk (CAR) insurance is the standard policy structure used across residential, commercial, and civil engineering projects, combining [contract works cover](/qa/what-is-contract-works-insurance), plant cover, and liability protection in one contract. It's frequently a condition of funding, of the main building contract (such as JCT terms), or of a client's procurement requirements.",
+      "category": "General"
+},
+
+      {
+      "question": "What is hired in plant insurance?",
+      "slug": "what-is-hired-in-plant-insurance",
+      "shortAnswer": "Hired-in plant insurance covers equipment you've rented for a project \u2014 excavators, generators, cherry pickers, scaffold towers \u2014 rather than machinery you own outright. Most [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies automatically cover a contractor's own plant, but hired equipment is frequently excluded or capped low unless this section is added separately.",
+      "category": "General"
+},
+
+      {
+      "question": "What is contractors all risk insurance?",
+      "slug": "what-is-contractors-all-risk-insurance",
+      "shortAnswer": "Contractors all risk (CAR) insurance is a combined construction policy that bundles [contract works cover](/qa/what-is-contract-works-insurance) for the physical building, cover for the contractor's plant and tools, and third-party liability protection into one contract. It's written on an 'all risks' basis, meaning it covers any cause of loss unless that cause is specifically excluded.",
+      "category": "General"
+},
+
+      {
+      "question": "What is contract works insurance?",
+      "slug": "what-is-contract-works-insurance",
+      "shortAnswer": "Contract works insurance covers the physical building or structure being built \u2014 including materials on site, partly finished work, and temporary structures like scaffolding \u2014 against loss or damage before the project is handed over. It's often bought as a standalone policy on smaller jobs, or as one section of a full [contractors all risk](/learn/contractors-all-risk-contract-works-insurance-uk) policy on larger ones.",
+      "category": "General"
+},
+
       {
       "question": "Does Health Insurance Cover Weight Loss Drugs (Ozempic, Wegovy) or Bariatric Surgery?",
       "slug": "does-health-insurance-cover-weight-loss-drugs-bariatric-surgery",

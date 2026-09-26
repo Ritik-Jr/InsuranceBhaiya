@@ -281,6 +281,425 @@
   "articles": [
     {
       "type": "learn",
+      "id": "insuring-a-car-thats-not-in-your-name",
+      "slug": "insuring-a-car-thats-not-in-your-name",
+      "title": "Insuring a Car That's Not in Your Name: What You Need to Know",
+      "description": "Can you insure a car that isn't titled to you? Usually yes, if you have insurable interest. Here's how it works, state by state, and how to get covered.",
+      "category": "car-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26",
+      "readingTime": 6,
+      "featured": false,
+      "tags": [
+        "car insurance",
+        "non-owner insurance",
+        "insurable interest",
+        "named non-owner policy",
+        "borrowed car insurance",
+        "registered owner"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "You generally need 'insurable interest' in a vehicle to insure it — but that doesn't always mean you must be the registered owner or titleholder.",
+        "Most standard auto policies extend 'permissive use' to occasional drivers, but that is not the same as being the primary insured on someone else's car.",
+        "If you regularly drive a car you don't own, a named non-owner policy or adding yourself to the owner's existing policy is usually more reliable than relying on permissive use.",
+        "Rules vary by state and by insurer, so what's routine in one state (like insuring a family member's car) can be restricted or flatly rejected elsewhere.",
+        "Skipping this step to save a few minutes on the phone can leave you facing a denied claim exactly when you need the coverage most."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Do I have to be the registered owner to insure a car?",
+          "answer": "No. You need insurable interest — a genuine financial stake in the vehicle — which can come from shared residency, a loan co-signature, or regularly driving the car with the owner's permission, not necessarily from holding the title."
+        },
+        {
+          "question": "Will my rates be higher if I don't own the car I'm insuring?",
+          "answer": "Sometimes. Insurers may view an unusual owner-insured mismatch as added risk, and named non-owner policies price differently than standard policies. Compare quotes with the [Car Insurance Calculator](/car-insurance-calculator/) before assuming either option is cheaper."
+        },
+        {
+          "question": "Can I insure my child's or parent's car if we live in the same house?",
+          "answer": "Usually yes. Shared-household relationships are the most straightforward form of insurable interest, and most insurers will add a resident family member to an existing policy without issue."
+        },
+        {
+          "question": "What documents prove insurable interest?",
+          "answer": "A loan or lease agreement with your name on it, a shared lease or mortgage, a marriage certificate, or a bill of sale for a car mid-transfer are all commonly accepted proof."
+        }
+      ],
+      "companionTool": {
+        "slug": "car-insurance-calculator",
+        "title": "Car Insurance Coverage Calculator",
+        "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "It's one of the most common questions in personal auto insurance: you drive a car every day, help make the payments, or borrowed it long-term from a parent, partner, or friend — but the title and registration are in someone else's name. Can you actually put your name on the insurance policy? For the most part, yes. But 'yes' comes with real conditions that insurers take seriously, and getting it wrong can mean a denied claim later."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Can You Insure a Car That Isn't Titled to You?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In most states, you can be the named insured on a policy covering a vehicle you don't own — as long as you can demonstrate [insurable interest](/glossary/insurable-interest) in it. Insurable interest simply means you would suffer a genuine financial loss if the car were damaged, stolen, or totaled. Insurers underwrite the relationship between you and the vehicle, not just whose name sits on the DMV title."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Counts as Insurable Interest?"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "You're a spouse or domestic partner sharing a household with the registered owner",
+            "You co-signed the auto loan or lease on the vehicle",
+            "You're financially responsible for a family member's car (an aging parent, a college student, etc.)",
+            "You regularly borrow and drive the car with the owner's permission",
+            "You've bought the car in a private sale but the title hasn't finished transferring yet"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3 Ways to Get Covered on a Car That's Not Yours"
+        },
+        {
+          "type": "list",
+          "style": "number",
+          "items": [
+            "Add yourself to the owner's existing policy as a listed driver or co-named insured, if you live at the same address",
+            "Take out a [named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy) if you don't live with the owner but drive the car often",
+            "Have the title changed to add you as a registered co-owner, then insure the car normally under your own policy"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Named Non-Owner Policies Explained"
+        },
+        {
+          "type": "paragraph",
+          "text": "A named non-owner policy is built for exactly this situation: you drive a vehicle regularly but don't own it and don't share a home address with the owner. It typically provides liability coverage that follows you as a driver rather than a specific car, which can also satisfy an SR-22 requirement. It does not, however, pay to repair or replace the car itself. For the step-by-step process of actually getting one bound, see [can you get insurance on a car that's not your name](/qa/can-you-get-insurance-car-not-your-name)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Dimension",
+            "Add Yourself to Owner's Policy",
+            "Named Non-Owner Policy",
+            "Retitle the Car"
+          ],
+          "rows": [
+            [
+              "Best for",
+              "Living in the same household as the owner",
+              "Driving a car you don't own and don't live with the owner",
+              "Permanently taking over the vehicle"
+            ],
+            [
+              "Liability coverage",
+              "Yes, full liability limits",
+              "Yes, liability only",
+              "Yes, full liability limits"
+            ],
+            [
+              "Covers damage to the car itself",
+              "Often yes, if comp/collision is on the policy",
+              "No — liability and sometimes rental reimbursement only",
+              "Yes, if you add comprehensive and collision"
+            ],
+            [
+              "Typical cost impact",
+              "Owner's premium may rise modestly",
+              "Usually cheaper than a standard auto policy",
+              "Priced entirely on your own driving profile"
+            ],
+            [
+              "Satisfies an SR-22 filing",
+              "Sometimes, depends on state",
+              "Yes, commonly used for this",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does It Matter Whose Name Is on the Title vs. the Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Title and registration answer 'who legally owns this car,' which matters to the DMV and any lender. Insurance answers a different question: 'who is the financial risk we're underwriting.' The two do not have to match, but insurers will ask about the relationship, and lenders may require the titleholder to also carry comprehensive and collision coverage on their own policy."
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "title": "Misrepresentation Can Void Your Coverage",
+          "text": "Insurers can deny a claim — or rescind the policy entirely — if they later discover you insured a car you had no genuine insurable interest in and misstated the relationship on the application, such as claiming to be a resident of a household you don't actually live in."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "State-by-State Differences"
+        },
+        {
+          "type": "paragraph",
+          "text": "A handful of states and individual insurers place extra restrictions on who can be listed as the principal operator or named insured on a vehicle they don't own or reside with, particularly for high-value or newer vehicles. Don't assume the rule that applied to a friend in another state applies to you — confirm directly with the insurer before assuming you're covered."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step-by-Step: How to Get Covered"
+        },
+        {
+          "type": "list",
+          "style": "number",
+          "items": [
+            "Confirm your relationship to the vehicle and gather proof: a loan or lease document, a marriage certificate, a shared lease, or a bill of sale",
+            "Call the current insurer (if there is one) and ask whether you can be added as a listed driver or co-named insured",
+            "If you don't live with the owner or won't drive the car full-time, ask specifically about a named non-owner policy instead",
+            "Get quotes from at least three insurers, since appetite for this situation varies company to company",
+            "Get the change in writing and request an updated declarations page showing your name before you start driving"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Common Mistakes to Avoid"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Assuming the owner's 'permissive use' clause is the same as you being insured yourself — it's meant for occasional, not regular, use",
+            "Leaving your name off the policy entirely and hoping the owner's coverage will apply every time you drive",
+            "Understating your address or how often you drive the car in an attempt to lower the quote",
+            "Forgetting to update coverage the moment you actually purchase, inherit, or take permanent possession of the vehicle"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "tip",
+          "title": "Buying a Car Privately? Watch the Handoff Gap",
+          "text": "If you're buying a car privately and the title hasn't transferred yet, ask the seller to keep their policy active through closing, then bind your own policy the same day you take possession. That closes the coverage gap most private-sale buyers never think about."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related Reading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Still have a specific version of this question? See [can I insure a car not in my name](/qa/can-i-insure-a-car-not-in-my-name), [can you insure a car not in your name](/qa/can-you-insure-a-car-not-in-your-name), [can you get insurance on a car that's not your name](/qa/can-you-get-insurance-car-not-your-name), [what is a named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy), and [can I add someone else's car to my insurance](/qa/can-i-add-someone-elses-car-to-my-insurance). You can also run the numbers with the [Car Insurance Calculator](/car-insurance-calculator/)."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "contractors-all-risk-contract-works-insurance-uk",
+      "slug": "contractors-all-risk-contract-works-insurance-uk",
+      "title": "Contractors All Risk & Contract Works Insurance (UK): The Complete Guide",
+      "description": "A plain-English guide to contractors all risk and contract works insurance in the UK — what's covered, what's excluded, hired-in plant, and what it costs.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-26",
+      "updatedAt": "2026-09-26",
+      "readingTime": 5,
+      "featured": false,
+      "tags": [
+        "contractors all risk",
+        "contract works insurance",
+        "construction insurance",
+        "hired in plant",
+        "uk"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Contractors all risk (CAR) insurance is a single package combining contract works cover, plant/tools, and third-party liability for a construction project.",
+        "Contract works insurance specifically protects the physical works under construction — materials, structures, and site-fixed items — against loss or damage before completion.",
+        "Hired-in plant insurance is a distinct add-on that most standard CAR policies do not automatically include, and hire firms often require proof of it before releasing equipment.",
+        "Cover is usually arranged per-project or as an annual renewable policy for contractors who run several jobs a year.",
+        "Standard exclusions include faulty design/workmanship (the resulting damage to other parts of the works may still be covered), wear and tear, and uninsured sub-contractor negligence unless specifically extended."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "What is contract works insurance?",
+          "answer": "Contract works insurance covers the physical building or structure under construction — including materials on site and temporary works — against loss or damage before the project reaches practical completion. It can be bought standalone or as one section of a [contractors all risk](/compare/contract-works-vs-contractors-all-risk) policy."
+        },
+        {
+          "question": "What is contractors all risk insurance?",
+          "answer": "Contractors all risk (CAR) insurance is a combined construction policy that bundles contract works cover, cover for the contractor's plant and tools, and third-party liability protection into a single policy written on an 'all risks unless excluded' basis."
+        },
+        {
+          "question": "What is hired in plant insurance?",
+          "answer": "Hired-in plant insurance covers equipment you've rented for a project — such as excavators, generators, or access platforms — rather than machinery you own. It's frequently missing from standard CAR policies and often required by the plant hire firm before they'll release the equipment."
+        },
+        {
+          "question": "What is contractors all risk insurance UK?",
+          "answer": "In the UK, contractors all risk insurance is the standard policy structure used across residential, commercial, and civil engineering projects to protect the works, on-site plant, and third-party liability in one contract, and it's frequently a condition of funding or of the building contract itself (e.g. JCT contracts)."
+        },
+        {
+          "question": "Does contractors all risk insurance cover sub-contractors?",
+          "answer": "Only if the policy is specifically extended to include them. Many CAR policies exclude losses caused by uninsured sub-contractors' negligence by default, so main contractors should confirm sub-contractors either hold their own cover or are named on the CAR policy."
+        },
+        {
+          "question": "How long does contract works insurance last?",
+          "answer": "Cover typically runs from the start of works to practical completion, with an option to extend through a defects or maintenance period (commonly 12 months) so that any damage arising from rectification work is also covered."
+        },
+        {
+          "question": "Is hired-in plant insurance the same as contractors all risk insurance?",
+          "answer": "No. Hired-in plant insurance is a specific add-on or section that covers rented equipment; contractors all risk is the broader combined policy that contract works, owned plant, and liability sit under. You often need to add hired-in plant cover separately even if you already hold a CAR policy."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If you're a builder, developer, or project manager in the UK, two terms come up constantly in tender documents and insurer quotes: [contract works insurance](/qa/what-is-contract-works-insurance) and contractors all risk insurance. They sound interchangeable — and in casual conversation, most people use them that way — but they aren't quite the same product. This guide untangles the difference, explains where hired-in plant insurance fits in, and sets realistic cost expectations."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Is Contractors All Risk Insurance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Contractors all risk insurance (CAR)** is a combined policy built for construction and civil engineering projects. Rather than buying separate covers for the works, the site plant, and public liability, a CAR policy bundles them into one contract, usually written on an 'all risks' basis — meaning it covers any cause of loss unless that cause is specifically excluded, rather than only naming perils it will pay out for. A typical CAR policy brings together three sections: [contract works cover](/glossary/contract-works) for the physical building or structure being created, cover for the contractor's own plant and equipment on site, and third-party liability protection if the works injure someone or damage neighbouring property."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Does Contract Works Insurance Cover?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contract works insurance is the section of a CAR policy — or, on smaller jobs, a standalone policy in its own right — that protects the works themselves while they're incomplete and vulnerable. That includes materials on site awaiting installation, partially built structures, temporary works such as scaffolding and site hoardings, and, depending on the wording, the value of free-issue materials supplied by the client. Cover generally runs from the start of works until practical completion or handover, and can usually be extended through a defects/maintenance period."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Dimension",
+            "Contract Works Insurance",
+            "Contractors All Risk (CAR)"
+          ],
+          "rows": [
+            [
+              "Scope",
+              "The physical works, materials and temporary structures only",
+              "Works, plant/tools, and third-party liability combined"
+            ],
+            [
+              "Typical buyer",
+              "Small contractors, self-builders, single-project jobs",
+              "Main contractors, developers, multi-trade projects"
+            ],
+            [
+              "Liability cover",
+              "Not included — bought separately",
+              "Usually built in as a policy section"
+            ],
+            [
+              "Plant cover",
+              "Not included by default",
+              "Owned plant often included; hired-in plant usually an add-on"
+            ],
+            [
+              "Best fit",
+              "Domestic extensions, single-trade jobs, short projects",
+              "Larger sites, multiple contractors, higher-value builds"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "info",
+          "title": "Standalone policy or CAR section?",
+          "text": "For a single domestic loft conversion or extension, a standalone contract works policy is often cheaper and simpler. For anything involving multiple trades, hired equipment, or public access near the site, the liability protection inside a full CAR policy usually earns its premium back the first time something goes wrong."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Hired-In Plant Insurance: The Overlooked Gap"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here's where a lot of contractors get caught out. [Hired in plant insurance](/glossary/hired-in-plant-insurance) covers equipment you've rented — excavators, generators, cherry pickers, scaffold towers — rather than plant you own outright. Most CAR policies automatically cover the contractor's *own* plant, but hired equipment is frequently excluded or capped at a low limit unless you specifically add this section. Plant hire companies know this, which is why many will not release equipment without evidence of hired-in plant cover, sometimes referencing the industry-standard CPA (Construction Plant-hire Association) conditions of hire, which typically make the hirer responsible for loss or damage to the machine from the moment it leaves the depot."
+        },
+        {
+          "type": "callout",
+          "style": "warning",
+          "title": "Check the hire agreement, not just your policy",
+          "text": "Plant hire contracts often shift liability for damage, loss, and even loss of hire income onto the contractor regardless of fault. Read the small print before you sign for the delivery — your CAR policy needs to match what the hire agreement actually makes you responsible for."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Who Actually Needs This Cover"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Main and principal contractors running multi-trade construction sites",
+            "Sole traders and small building firms taking on extensions, renovations, or new-builds",
+            "Developers who need cover in place before a bank or client will release funds",
+            "Anyone hiring plant or machinery for a project, even for a single day",
+            "Sub-contractors who are contractually required to carry their own contract works or liability cover"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What's Typically Excluded"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Faulty design, workmanship, or materials themselves — though resulting damage to other, undamaged parts of the works is usually still covered",
+            "Wear and tear, corrosion, and gradual deterioration",
+            "Losses arising from the contractor's own insolvency or contract disputes",
+            "Uninsured sub-contractors' negligence, unless the policy is extended to include them",
+            "Consequential loss such as delay penalties, unless a specific extension is purchased"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "danger",
+          "title": "Design exclusions catch people out",
+          "text": "If a structural fault causes a wall to collapse, the cost of re-doing the faulty work itself is generally excluded — but the damage that fault caused to the rest of the building is often still claimable. Get the exact wording confirmed in writing before you rely on this distinction."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Does Contractors All Risk Insurance Cost?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Premiums are driven by the contract value, the type of works (a loft conversion prices very differently to groundworks or roofing), project duration, location, and claims history. As a rough non-commissioned benchmark, small domestic jobs might see premiums from a few hundred pounds for the full build period, while larger commercial contracts are typically priced as a percentage of contract value, often reviewed project-by-project. Adding hired-in plant cover or extending liability limits will move the price. Use our [construction insurance cost calculator](/construction-insurance-calculator/) to sanity-check a quote against your project size before you sign."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "what-does-health-insurance-actually-cover",
       "slug": "what-does-health-insurance-actually-cover",
       "title": "What Does Health Insurance Actually Cover?",
@@ -10919,17 +11338,17 @@
       "id": "qa-16",
       "slug": "can-i-insure-a-car-not-in-my-name",
       "category": "Auto",
-      "question": "Can I insure a car not in my name?",
-      "shortAnswer": "Yes, you can insure a car not in your name, but it is challenging because insurance companies require an 'insurable interest'—a demonstrable financial stake in the vehicle. While most standard insurers prefer the registered owner and policyholder to match, you can legally obtain coverage by being added as a primary driver to the owner's policy, proving joint residency, purchasing a non-owner car insurance policy, or having the owner list you as an additional interest.",
-      "readingTime": "6 min read",
-      "difficulty": "Intermediate"
+      "question": "Can I Insure a Car That's Not in My Name?",
+      "shortAnswer": "Yes, in most cases. You can insure a car that isn't titled in your name as long as you have insurable interest in it — for example, you drive it daily, help pay for it, or live in the same household as the registered owner. Insurers underwrite your relationship to the vehicle, not just the name on the title, though a few states and companies apply extra restrictions.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
     },
     {
       "id": "qa-17",
       "slug": "can-you-insure-a-car-not-in-your-name",
       "category": "Auto",
-      "question": "Can you insure a car not in your name?",
-      "shortAnswer": "Yes, you can insure a car not in your name under specific legal arrangements, though underwriters generally require the policyholder to hold an insurable interest in the automobile. Common pathways include adding your name to the existing owner's policy, naming the legal titleholder as an additional insured or loss payee on your policy, or purchasing non-owner liability coverage.",
+      "question": "Can You Insure a Car That's Not in Your Name?",
+      "shortAnswer": "Legally, yes — most states allow it, but it isn't automatic. Insurers must be satisfied that you have insurable interest in the vehicle, and a number of states and individual carriers add overlay rules about who can be the principal operator or named insured on a car registered to someone else. The rules that apply to a friend or relative in another state may not apply to you.",
       "readingTime": "5 min read",
       "difficulty": "Intermediate"
     },
@@ -11750,6 +12169,132 @@
       "question": "Does Health Insurance Cover Weight Loss Drugs (Ozempic, Wegovy) or Bariatric Surgery?",
       "shortAnswer": "It depends heavily on the specific plan and drug. GLP-1 medications prescribed for diabetes (like Ozempic for Type 2 diabetes) are more consistently covered than the same drug class prescribed purely for weight loss (like Wegovy or Zepbound for obesity), and many employer plans explicitly exclude weight-loss-indication GLP-1s due to their high cost, even when the exact same medication would be covered for a diabetes diagnosis. Bariatric surgery is more often covered, but almost always requires prior authorization and documented medical necessity criteria. See [what does health insurance actually cover?](/learn/what-does-health-insurance-actually-cover) for the broader coverage framework.",
       "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-109",
+      "slug": "what-is-contract-works-insurance",
+      "category": "General",
+      "question": "What is contract works insurance?",
+      "shortAnswer": "Contract works insurance covers the physical building or structure being built — including materials on site, partly finished work, and temporary structures like scaffolding — against loss or damage before the project is handed over. It's often bought as a standalone policy on smaller jobs, or as one section of a full [contractors all risk](/learn/contractors-all-risk-contract-works-insurance-uk) policy on larger ones.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-110",
+      "slug": "what-is-contractors-all-risk-insurance",
+      "category": "General",
+      "question": "What is contractors all risk insurance?",
+      "shortAnswer": "Contractors all risk (CAR) insurance is a combined construction policy that bundles [contract works cover](/qa/what-is-contract-works-insurance) for the physical building, cover for the contractor's plant and tools, and third-party liability protection into one contract. It's written on an 'all risks' basis, meaning it covers any cause of loss unless that cause is specifically excluded.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-111",
+      "slug": "what-is-hired-in-plant-insurance",
+      "category": "General",
+      "question": "What is hired in plant insurance?",
+      "shortAnswer": "Hired-in plant insurance covers equipment you've rented for a project — excavators, generators, cherry pickers, scaffold towers — rather than machinery you own outright. Most [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies automatically cover a contractor's own plant, but hired equipment is frequently excluded or capped low unless this section is added separately.",
+      "readingTime": "3 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-112",
+      "slug": "what-is-contractors-all-risk-insurance-uk",
+      "category": "General",
+      "question": "What is contractors all risk insurance UK?",
+      "shortAnswer": "In the UK, contractors all risk (CAR) insurance is the standard policy structure used across residential, commercial, and civil engineering projects, combining [contract works cover](/qa/what-is-contract-works-insurance), plant cover, and liability protection in one contract. It's frequently a condition of funding, of the main building contract (such as JCT terms), or of a client's procurement requirements.",
+      "readingTime": "3 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-113",
+      "slug": "does-contractors-all-risk-insurance-cover-subcontractors",
+      "category": "General",
+      "question": "Does contractors all risk insurance cover sub-contractors?",
+      "shortAnswer": "Only if the policy is specifically extended to include them. Many [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies exclude losses caused by uninsured sub-contractors' negligence by default, so main contractors need to confirm sub-contractors either hold their own cover or are added to the main CAR policy.",
+      "readingTime": "3 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-114",
+      "slug": "how-long-does-contract-works-insurance-last",
+      "category": "General",
+      "question": "How long does contract works insurance last?",
+      "shortAnswer": "Contract works insurance normally runs from the start of works until practical completion or handover, with an option to extend through a defects or maintenance period, commonly 12 months, so that damage arising from rectifying snagging items is also covered. It can also be extended if a project overruns its original completion date.",
+      "readingTime": "3 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-115",
+      "slug": "how-much-does-contractors-all-risk-insurance-cost",
+      "category": "General",
+      "question": "How much does contractors all risk insurance cost?",
+      "shortAnswer": "There's no single price — [contractors all risk](/qa/what-is-contractors-all-risk-insurance) premiums are driven by contract value, the type of works, project duration, site location, and claims history. Small domestic jobs can see premiums from a few hundred pounds for the whole build period, while larger commercial contracts are usually priced as a percentage of contract value and reviewed project-by-project.",
+      "readingTime": "3 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-116",
+      "slug": "what-does-contractors-all-risk-insurance-not-cover",
+      "category": "General",
+      "question": "What does contractors all risk insurance not cover?",
+      "shortAnswer": "Standard [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies typically exclude faulty design, workmanship and materials themselves, ordinary wear and tear, uninsured sub-contractor negligence unless extended, hired-in plant unless separately added, and consequential losses such as delay penalties unless a specific extension is bought.",
+      "readingTime": "4 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-117",
+      "slug": "do-i-need-contract-works-insurance-for-a-self-build",
+      "category": "Home",
+      "question": "Do I need contract works insurance for a self-build?",
+      "shortAnswer": "Yes — in almost all self-build cases you need dedicated [contract works insurance](/qa/what-is-contract-works-insurance), because standard home insurance typically excludes an uninhabited property mid-construction, and most self-build mortgage lenders make it a condition of releasing each stage of funds.",
+      "readingTime": "3 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-118",
+      "slug": "contract-works-insurance-vs-public-liability-insurance",
+      "category": "General",
+      "question": "What's the difference between contract works insurance and public liability insurance?",
+      "shortAnswer": "[Contract works insurance](/qa/what-is-contract-works-insurance) protects the building or structure you're constructing against loss or damage. Public liability insurance protects you if the works injure a third party or damage someone else's property. They cover entirely different risks and most contractors need both, usually bundled together inside a [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policy.",
+      "readingTime": "3 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-119",
+      "slug": "does-contractors-all-risk-insurance-cover-theft-of-materials",
+      "category": "General",
+      "question": "Does contractors all risk insurance cover theft of materials on site?",
+      "shortAnswer": "Usually yes, but with conditions: most [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies cover theft of materials and fixed plant, but only if there's evidence of forcible and violent entry to a secured site or store, and unfixed materials often carry a lower sub-limit than the main contract works sum insured.",
+      "readingTime": "3 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-120",
+      "slug": "can-you-get-insurance-car-not-your-name",
+      "category": "Auto",
+      "question": "Can You Get Insurance on a Car That's Not in Your Name?",
+      "shortAnswer": "Yes — the most common way is either being added to the owner's existing policy as a listed driver or co-named insured, or taking out a named non-owner policy if you don't live with the owner. Which one applies depends on whether you share a household with the titleholder and how often you actually drive the car.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-121",
+      "slug": "what-is-a-named-non-owner-car-insurance-policy",
+      "category": "Auto",
+      "question": "What Is a Named Non-Owner Car Insurance Policy?",
+      "shortAnswer": "A named non-owner car insurance policy provides liability coverage for a specific driver rather than a specific vehicle. It's designed for people who drive regularly — a borrowed car, a company car, frequent rentals — but don't own a car themselves. It does not cover damage to whatever car you're driving; it only covers your legal liability if you cause an accident.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-122",
+      "slug": "can-i-add-someone-elses-car-to-my-insurance",
+      "category": "Auto",
+      "question": "Can I Add Someone Else's Car to My Insurance?",
+      "shortAnswer": "Usually yes, if you have insurable interest in that vehicle — most commonly because you live at the same address as the car, help pay for it, or are the primary driver. Insurers generally want the vehicle garaged at the same address as the policy, so adding a car that's kept somewhere else entirely can trigger extra questions or a decline.",
+      "readingTime": "4 min read",
       "difficulty": "Intermediate"
     }
   ]

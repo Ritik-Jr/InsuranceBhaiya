@@ -1,0 +1,196 @@
+{
+  "type": "learn",
+  "id": "contractors-all-risk-contract-works-insurance-uk",
+  "slug": "contractors-all-risk-contract-works-insurance-uk",
+  "title": "Contractors All Risk & Contract Works Insurance (UK): The Complete Guide",
+  "description": "A plain-English guide to contractors all risk and contract works insurance in the UK — what's covered, what's excluded, hired-in plant, and what it costs.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-09-26",
+  "readingTime": 5,
+  "featured": false,
+  "tags": [
+    "contractors all risk",
+    "contract works insurance",
+    "construction insurance",
+    "hired in plant",
+    "uk"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Contractors all risk (CAR) insurance is a single package combining contract works cover, plant/tools, and third-party liability for a construction project.",
+    "Contract works insurance specifically protects the physical works under construction — materials, structures, and site-fixed items — against loss or damage before completion.",
+    "Hired-in plant insurance is a distinct add-on that most standard CAR policies do not automatically include, and hire firms often require proof of it before releasing equipment.",
+    "Cover is usually arranged per-project or as an annual renewable policy for contractors who run several jobs a year.",
+    "Standard exclusions include faulty design/workmanship (the resulting damage to other parts of the works may still be covered), wear and tear, and uninsured sub-contractor negligence unless specifically extended."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What is contract works insurance?",
+      "answer": "Contract works insurance covers the physical building or structure under construction — including materials on site and temporary works — against loss or damage before the project reaches practical completion. It can be bought standalone or as one section of a [contractors all risk](/compare/contract-works-vs-contractors-all-risk) policy."
+    },
+    {
+      "question": "What is contractors all risk insurance?",
+      "answer": "Contractors all risk (CAR) insurance is a combined construction policy that bundles contract works cover, cover for the contractor's plant and tools, and third-party liability protection into a single policy written on an 'all risks unless excluded' basis."
+    },
+    {
+      "question": "What is hired in plant insurance?",
+      "answer": "Hired-in plant insurance covers equipment you've rented for a project — such as excavators, generators, or access platforms — rather than machinery you own. It's frequently missing from standard CAR policies and often required by the plant hire firm before they'll release the equipment."
+    },
+    {
+      "question": "What is contractors all risk insurance UK?",
+      "answer": "In the UK, contractors all risk insurance is the standard policy structure used across residential, commercial, and civil engineering projects to protect the works, on-site plant, and third-party liability in one contract, and it's frequently a condition of funding or of the building contract itself (e.g. JCT contracts)."
+    },
+    {
+      "question": "Does contractors all risk insurance cover sub-contractors?",
+      "answer": "Only if the policy is specifically extended to include them. Many CAR policies exclude losses caused by uninsured sub-contractors' negligence by default, so main contractors should confirm sub-contractors either hold their own cover or are named on the CAR policy."
+    },
+    {
+      "question": "How long does contract works insurance last?",
+      "answer": "Cover typically runs from the start of works to practical completion, with an option to extend through a defects or maintenance period (commonly 12 months) so that any damage arising from rectification work is also covered."
+    },
+    {
+      "question": "Is hired-in plant insurance the same as contractors all risk insurance?",
+      "answer": "No. Hired-in plant insurance is a specific add-on or section that covers rented equipment; contractors all risk is the broader combined policy that contract works, owned plant, and liability sit under. You often need to add hired-in plant cover separately even if you already hold a CAR policy."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "If you're a builder, developer, or project manager in the UK, two terms come up constantly in tender documents and insurer quotes: [contract works insurance](/qa/what-is-contract-works-insurance) and contractors all risk insurance. They sound interchangeable — and in casual conversation, most people use them that way — but they aren't quite the same product. This guide untangles the difference, explains where hired-in plant insurance fits in, and sets realistic cost expectations."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Is Contractors All Risk Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Contractors all risk insurance (CAR)** is a combined policy built for construction and civil engineering projects. Rather than buying separate covers for the works, the site plant, and public liability, a CAR policy bundles them into one contract, usually written on an 'all risks' basis — meaning it covers any cause of loss unless that cause is specifically excluded, rather than only naming perils it will pay out for. A typical CAR policy brings together three sections: [contract works cover](/glossary/contract-works) for the physical building or structure being created, cover for the contractor's own plant and equipment on site, and third-party liability protection if the works injure someone or damage neighbouring property."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does Contract Works Insurance Cover?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract works insurance is the section of a CAR policy — or, on smaller jobs, a standalone policy in its own right — that protects the works themselves while they're incomplete and vulnerable. That includes materials on site awaiting installation, partially built structures, temporary works such as scaffolding and site hoardings, and, depending on the wording, the value of free-issue materials supplied by the client. Cover generally runs from the start of works until practical completion or handover, and can usually be extended through a defects/maintenance period."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dimension",
+        "Contract Works Insurance",
+        "Contractors All Risk (CAR)"
+      ],
+      "rows": [
+        [
+          "Scope",
+          "The physical works, materials and temporary structures only",
+          "Works, plant/tools, and third-party liability combined"
+        ],
+        [
+          "Typical buyer",
+          "Small contractors, self-builders, single-project jobs",
+          "Main contractors, developers, multi-trade projects"
+        ],
+        [
+          "Liability cover",
+          "Not included — bought separately",
+          "Usually built in as a policy section"
+        ],
+        [
+          "Plant cover",
+          "Not included by default",
+          "Owned plant often included; hired-in plant usually an add-on"
+        ],
+        [
+          "Best fit",
+          "Domestic extensions, single-trade jobs, short projects",
+          "Larger sites, multiple contractors, higher-value builds"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "info",
+      "title": "Standalone policy or CAR section?",
+      "text": "For a single domestic loft conversion or extension, a standalone contract works policy is often cheaper and simpler. For anything involving multiple trades, hired equipment, or public access near the site, the liability protection inside a full CAR policy usually earns its premium back the first time something goes wrong."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Hired-In Plant Insurance: The Overlooked Gap"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here's where a lot of contractors get caught out. [Hired in plant insurance](/glossary/hired-in-plant-insurance) covers equipment you've rented — excavators, generators, cherry pickers, scaffold towers — rather than plant you own outright. Most CAR policies automatically cover the contractor's *own* plant, but hired equipment is frequently excluded or capped at a low limit unless you specifically add this section. Plant hire companies know this, which is why many will not release equipment without evidence of hired-in plant cover, sometimes referencing the industry-standard CPA (Construction Plant-hire Association) conditions of hire, which typically make the hirer responsible for loss or damage to the machine from the moment it leaves the depot."
+    },
+    {
+      "type": "callout",
+      "style": "warning",
+      "title": "Check the hire agreement, not just your policy",
+      "text": "Plant hire contracts often shift liability for damage, loss, and even loss of hire income onto the contractor regardless of fault. Read the small print before you sign for the delivery — your CAR policy needs to match what the hire agreement actually makes you responsible for."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Actually Needs This Cover"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Main and principal contractors running multi-trade construction sites",
+        "Sole traders and small building firms taking on extensions, renovations, or new-builds",
+        "Developers who need cover in place before a bank or client will release funds",
+        "Anyone hiring plant or machinery for a project, even for a single day",
+        "Sub-contractors who are contractually required to carry their own contract works or liability cover"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What's Typically Excluded"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Faulty design, workmanship, or materials themselves — though resulting damage to other, undamaged parts of the works is usually still covered",
+        "Wear and tear, corrosion, and gradual deterioration",
+        "Losses arising from the contractor's own insolvency or contract disputes",
+        "Uninsured sub-contractors' negligence, unless the policy is extended to include them",
+        "Consequential loss such as delay penalties, unless a specific extension is purchased"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "danger",
+      "title": "Design exclusions catch people out",
+      "text": "If a structural fault causes a wall to collapse, the cost of re-doing the faulty work itself is generally excluded — but the damage that fault caused to the rest of the building is often still claimable. Get the exact wording confirmed in writing before you rely on this distinction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Does Contractors All Risk Insurance Cost?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Premiums are driven by the contract value, the type of works (a loft conversion prices very differently to groundworks or roofing), project duration, location, and claims history. As a rough non-commissioned benchmark, small domestic jobs might see premiums from a few hundred pounds for the full build period, while larger commercial contracts are typically priced as a percentage of contract value, often reviewed project-by-project. Adding hired-in plant cover or extending liability limits will move the price. Use our [construction insurance cost calculator](/construction-insurance-calculator/) to sanity-check a quote against your project size before you sign."
+    }
+  ]
+}

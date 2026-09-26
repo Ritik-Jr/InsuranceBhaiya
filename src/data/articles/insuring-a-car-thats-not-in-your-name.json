@@ -1,0 +1,223 @@
+{
+  "type": "learn",
+  "id": "insuring-a-car-thats-not-in-your-name",
+  "slug": "insuring-a-car-thats-not-in-your-name",
+  "title": "Insuring a Car That's Not in Your Name: What You Need to Know",
+  "description": "Can you insure a car that isn't titled to you? Usually yes, if you have insurable interest. Here's how it works, state by state, and how to get covered.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-09-26",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "car insurance",
+    "non-owner insurance",
+    "insurable interest",
+    "named non-owner policy",
+    "borrowed car insurance",
+    "registered owner"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "You generally need 'insurable interest' in a vehicle to insure it — but that doesn't always mean you must be the registered owner or titleholder.",
+    "Most standard auto policies extend 'permissive use' to occasional drivers, but that is not the same as being the primary insured on someone else's car.",
+    "If you regularly drive a car you don't own, a named non-owner policy or adding yourself to the owner's existing policy is usually more reliable than relying on permissive use.",
+    "Rules vary by state and by insurer, so what's routine in one state (like insuring a family member's car) can be restricted or flatly rejected elsewhere.",
+    "Skipping this step to save a few minutes on the phone can leave you facing a denied claim exactly when you need the coverage most."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I have to be the registered owner to insure a car?",
+      "answer": "No. You need insurable interest — a genuine financial stake in the vehicle — which can come from shared residency, a loan co-signature, or regularly driving the car with the owner's permission, not necessarily from holding the title."
+    },
+    {
+      "question": "Will my rates be higher if I don't own the car I'm insuring?",
+      "answer": "Sometimes. Insurers may view an unusual owner-insured mismatch as added risk, and named non-owner policies price differently than standard policies. Compare quotes with the [Car Insurance Calculator](/car-insurance-calculator/) before assuming either option is cheaper."
+    },
+    {
+      "question": "Can I insure my child's or parent's car if we live in the same house?",
+      "answer": "Usually yes. Shared-household relationships are the most straightforward form of insurable interest, and most insurers will add a resident family member to an existing policy without issue."
+    },
+    {
+      "question": "What documents prove insurable interest?",
+      "answer": "A loan or lease agreement with your name on it, a shared lease or mortgage, a marriage certificate, or a bill of sale for a car mid-transfer are all commonly accepted proof."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "It's one of the most common questions in personal auto insurance: you drive a car every day, help make the payments, or borrowed it long-term from a parent, partner, or friend — but the title and registration are in someone else's name. Can you actually put your name on the insurance policy? For the most part, yes. But 'yes' comes with real conditions that insurers take seriously, and getting it wrong can mean a denied claim later."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Can You Insure a Car That Isn't Titled to You?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In most states, you can be the named insured on a policy covering a vehicle you don't own — as long as you can demonstrate [insurable interest](/glossary/insurable-interest) in it. Insurable interest simply means you would suffer a genuine financial loss if the car were damaged, stolen, or totaled. Insurers underwrite the relationship between you and the vehicle, not just whose name sits on the DMV title."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Counts as Insurable Interest?"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "You're a spouse or domestic partner sharing a household with the registered owner",
+        "You co-signed the auto loan or lease on the vehicle",
+        "You're financially responsible for a family member's car (an aging parent, a college student, etc.)",
+        "You regularly borrow and drive the car with the owner's permission",
+        "You've bought the car in a private sale but the title hasn't finished transferring yet"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3 Ways to Get Covered on a Car That's Not Yours"
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": [
+        "Add yourself to the owner's existing policy as a listed driver or co-named insured, if you live at the same address",
+        "Take out a [named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy) if you don't live with the owner but drive the car often",
+        "Have the title changed to add you as a registered co-owner, then insure the car normally under your own policy"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Named Non-Owner Policies Explained"
+    },
+    {
+      "type": "paragraph",
+      "text": "A named non-owner policy is built for exactly this situation: you drive a vehicle regularly but don't own it and don't share a home address with the owner. It typically provides liability coverage that follows you as a driver rather than a specific car, which can also satisfy an SR-22 requirement. It does not, however, pay to repair or replace the car itself. For the step-by-step process of actually getting one bound, see [can you get insurance on a car that's not your name](/qa/can-you-get-insurance-car-not-your-name)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dimension",
+        "Add Yourself to Owner's Policy",
+        "Named Non-Owner Policy",
+        "Retitle the Car"
+      ],
+      "rows": [
+        [
+          "Best for",
+          "Living in the same household as the owner",
+          "Driving a car you don't own and don't live with the owner",
+          "Permanently taking over the vehicle"
+        ],
+        [
+          "Liability coverage",
+          "Yes, full liability limits",
+          "Yes, liability only",
+          "Yes, full liability limits"
+        ],
+        [
+          "Covers damage to the car itself",
+          "Often yes, if comp/collision is on the policy",
+          "No — liability and sometimes rental reimbursement only",
+          "Yes, if you add comprehensive and collision"
+        ],
+        [
+          "Typical cost impact",
+          "Owner's premium may rise modestly",
+          "Usually cheaper than a standard auto policy",
+          "Priced entirely on your own driving profile"
+        ],
+        [
+          "Satisfies an SR-22 filing",
+          "Sometimes, depends on state",
+          "Yes, commonly used for this",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does It Matter Whose Name Is on the Title vs. the Insurance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Title and registration answer 'who legally owns this car,' which matters to the DMV and any lender. Insurance answers a different question: 'who is the financial risk we're underwriting.' The two do not have to match, but insurers will ask about the relationship, and lenders may require the titleholder to also carry comprehensive and collision coverage on their own policy."
+    },
+    {
+      "type": "callout",
+      "style": "warning",
+      "title": "Misrepresentation Can Void Your Coverage",
+      "text": "Insurers can deny a claim — or rescind the policy entirely — if they later discover you insured a car you had no genuine insurable interest in and misstated the relationship on the application, such as claiming to be a resident of a household you don't actually live in."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "State-by-State Differences"
+    },
+    {
+      "type": "paragraph",
+      "text": "A handful of states and individual insurers place extra restrictions on who can be listed as the principal operator or named insured on a vehicle they don't own or reside with, particularly for high-value or newer vehicles. Don't assume the rule that applied to a friend in another state applies to you — confirm directly with the insurer before assuming you're covered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step-by-Step: How to Get Covered"
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": [
+        "Confirm your relationship to the vehicle and gather proof: a loan or lease document, a marriage certificate, a shared lease, or a bill of sale",
+        "Call the current insurer (if there is one) and ask whether you can be added as a listed driver or co-named insured",
+        "If you don't live with the owner or won't drive the car full-time, ask specifically about a named non-owner policy instead",
+        "Get quotes from at least three insurers, since appetite for this situation varies company to company",
+        "Get the change in writing and request an updated declarations page showing your name before you start driving"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": [
+        "Assuming the owner's 'permissive use' clause is the same as you being insured yourself — it's meant for occasional, not regular, use",
+        "Leaving your name off the policy entirely and hoping the owner's coverage will apply every time you drive",
+        "Understating your address or how often you drive the car in an attempt to lower the quote",
+        "Forgetting to update coverage the moment you actually purchase, inherit, or take permanent possession of the vehicle"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "tip",
+      "title": "Buying a Car Privately? Watch the Handoff Gap",
+      "text": "If you're buying a car privately and the title hasn't transferred yet, ask the seller to keep their policy active through closing, then bind your own policy the same day you take possession. That closes the coverage gap most private-sale buyers never think about."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Related Reading"
+    },
+    {
+      "type": "paragraph",
+      "text": "Still have a specific version of this question? See [can I insure a car not in my name](/qa/can-i-insure-a-car-not-in-my-name), [can you insure a car not in your name](/qa/can-you-insure-a-car-not-in-your-name), [can you get insurance on a car that's not your name](/qa/can-you-get-insurance-car-not-your-name), [what is a named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy), and [can I add someone else's car to my insurance](/qa/can-i-add-someone-elses-car-to-my-insurance). You can also run the numbers with the [Car Insurance Calculator](/car-insurance-calculator/)."
+    }
+  ]
+}
