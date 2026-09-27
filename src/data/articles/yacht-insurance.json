@@ -1,0 +1,106 @@
+{
+  "type": "learn",
+  "id": "yacht-insurance",
+  "slug": "yacht-insurance",
+  "title": "Yacht Insurance: How Larger Vessels Are Underwritten Differently",
+  "description": "Where a boat legally becomes a yacht for insurance purposes, why crew and captain requirements matter so much, and what changes about the underwriting process — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "yacht insurance",
+    "boat insurance by state",
+    "commercial boat insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "There's no single universal length that legally defines a \"yacht,\" but most marine insurers begin treating a vessel as a yacht risk somewhere in the 35 to 50-foot range, or at a specific value threshold, whichever triggers first.",
+    "Yacht policies typically require a formal, current marine survey before binding, and often periodically thereafter, reflecting the much higher insured values and more complex systems involved.",
+    "Crew and captain requirements become a real underwriting factor at yacht scale — some policies require a licensed, experienced captain to be aboard for the vessel to be covered while underway, especially for larger or higher-value yachts.",
+    "Chartering a privately owned yacht to others, even occasionally, moves the vessel into [commercial boat insurance](/learn/commercial-boat-insurance) territory rather than a personal yacht policy, the same commercial-use distinction that applies to smaller recreational boats.",
+    "Agreed value settlement, covered generally in [Agreed Value vs. Actual Cash Value Boat Insurance](/compare/agreed-value-vs-actual-cash-value-boat-insurance), is even more standard at yacht scale, given how much harder it is to establish a fair market value for a large, customized vessel after a total loss."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does a yacht need different liability coverage than a smaller boat?",
+      "answer": "Yes, typically much higher limits — given the greater potential severity of an accident involving a larger, faster, or more complex vessel, and the higher asset base yacht owners generally have to protect, liability limits on yacht policies are commonly set well above what's typical for a smaller recreational boat."
+    },
+    {
+      "question": "Is a yacht survey a one-time requirement, or does it need to be repeated?",
+      "answer": "This varies by insurer, but many yacht policies require a survey to be updated periodically, particularly for older vessels or at specific renewal intervals, rather than relying indefinitely on a survey from many years earlier."
+    },
+    {
+      "question": "Can a first-time yacht buyer with limited boating experience actually get coverage?",
+      "answer": "Often yes, but it may require additional conditions — a captain requirement, a training period, or graduated coverage as experience builds — rather than being declined outright; discussing your specific experience level openly with a yacht insurance broker typically surfaces workable options."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "At a certain size and value, a boat stops being underwritten like a boat and starts being underwritten like a yacht — a shift that changes the survey requirements, the crew expectations, and the whole shape of the policy. Below are the questions yacht owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "At What Point Does a Boat Actually Become a \"Yacht\" for Insurance Purposes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "There's no single legally binding length or value that universally defines a yacht — different insurers, marinas, and even different countries draw the line differently. In practice, most marine insurers begin applying yacht-specific underwriting somewhere in the 35 to 50-foot range, or once a vessel's insured value crosses a specific dollar threshold, whichever comes first. Below that range, a vessel is typically underwritten as a standard recreational or high-value boat policy rather than a distinct yacht product."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Does a Formal Marine Survey Matter So Much More at This Scale?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Given the significantly higher insured values and more complex onboard systems — navigation electronics, generators, stabilizers, multiple engines — yacht insurers typically require a current, formal marine survey before binding coverage, and often at renewal intervals thereafter, rather than relying on the owner's own description of the vessel's condition. This survey drives both the initial agreed value and the underwriting terms, making it a meaningfully more involved process than insuring a smaller recreational boat."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Do You Actually Need a Licensed Captain Aboard for Coverage to Apply?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For larger or higher-value yachts, some policies specifically require a licensed, experienced captain to be operating the vessel for coverage to fully apply, particularly if the owner doesn't have extensive documented experience operating a vessel of that size and complexity. This is a meaningful underwriting condition worth confirming explicitly — operating a yacht without meeting a policy's specific captain or experience requirement can jeopardize a claim even if the incident itself had nothing to do with operator error."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens if You Want to Charter Your Yacht Out Occasionally?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The same commercial-use principle that applies to a smaller recreational boat applies at yacht scale too: chartering a privately owned yacht to paying guests, even occasionally, moves that activity outside a personal yacht policy's coverage and into [commercial boat insurance](/learn/commercial-boat-insurance) territory, typically requiring a specific charter endorsement or a fully separate commercial policy. A yacht owner considering occasional chartering to offset ownership costs should discuss this specifically with their broker before assuming a personal policy extends to it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Is Agreed Value Even More Standard for Yachts Than for Smaller Boats?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Establishing a fair market value after a total loss is genuinely difficult for a large, often highly customized yacht, where comparable sales data is thin and individual configuration, equipment, and condition vary enormously between vessels. This is exactly why [agreed value settlement](/compare/agreed-value-vs-actual-cash-value-boat-insurance), backed by that formal survey, is close to the industry standard at yacht scale rather than one option among several, removing much of the valuation dispute that would otherwise dominate a total-loss claim."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Yacht insurance underwriting, survey requirements, and crew conditions vary significantly by insurer, vessel size and value, and intended use. Consult a licensed yacht insurance specialist to structure coverage for a specific vessel."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "type": "learn",
+  "id": "bike-shop-insurance",
+  "slug": "bike-shop-insurance",
+  "title": "Bike Shop Insurance: The Coverage Every Bicycle Retailer, Repair Shop & Rental Business Needs",
+  "description": "Bike shop insurance explained: general and product liability, customer bikes in your care, inventory, e-bike battery risk, rentals and building a policy.",
+  "category": "business-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "bike shop insurance",
+    "bicycle shop insurance",
+    "bike repair shop insurance",
+    "bicycle rental insurance",
+    "e-bike shop insurance",
+    "bailee coverage"
+  ],
+  "coverImage": "/images/category-business.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "A bike shop needs a layered policy: general liability, product liability, commercial property (inventory and tools), and coverage for customer bikes in your care, known as bailee's customer insurance.",
+    "Many shops buy a Business Owner's Policy (BOP) as the base, then add product liability limits, e-bike and battery coverage, rental liability and workers' compensation.",
+    "Customer bikes left for repair usually aren't covered by a standard property policy, which only covers your own business property. A $9,000 e-MTB lost in a shop fire can become your problem.",
+    "Product liability covers injuries from bikes you sold, assembled or repaired. A loose quick-release or a faulty brake adjustment can lead to a six-figure lawsuit.",
+    "The [SBA](https://www.sba.gov/business-guide/launch-your-business/get-business-insurance) lists general liability, product liability, commercial property and BOPs as core small-business coverages. Workers' comp is required by state law once you have employees."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does a bike shop need product liability insurance?",
+      "answer": "Yes. Most injury claims against bike shops involve something the shop sold, assembled or repaired. Product and completed-operations liability covers those claims and is often included in general liability, but check that the limit is high enough."
+    },
+    {
+      "question": "Are customer bikes covered if my shop burns down?",
+      "answer": "Not automatically. Standard commercial property covers your own property. Customer bikes need bailee's customer coverage, usually through an inland marine endorsement."
+    },
+    {
+      "question": "Is a BOP enough for a bike shop?",
+      "answer": "It's a strong base, but most shops still need bailee coverage, workers' comp, commercial auto and extra rental or e-bike endorsements. See [BOP explained](/learn/bop-business-owners-policy-explained/)."
+    },
+    {
+      "question": "Do bike rental businesses need special insurance?",
+      "answer": "Yes. Rental liability is often excluded from base policies. You need a rental endorsement or a specialty policy, and waivers and helmet policies strengthen your position."
+    }
+  ],
+  "companionTool": {
+    "slug": "coverage-calculator",
+    "title": "Coverage Ratio Calculator",
+    "description": "Assess enterprise asset vulnerability against commercial liability limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A bicycle shop combines retail, a repair workshop, often a rental fleet and group rides, and increasingly a stock of lithium-ion batteries. Each of those activities brings a different risk, so **bike shop insurance** is really a bundle of policies. This guide shows you how to build that bundle. It connects our [Motorcycle, Dirt Bike & Powersport Insurance hub](/learn/motorcycle-dirt-bike-powersport-insurance/) to the business side of cycling. Your customers' own cover is explained in [bicycle insurance](/learn/bicycle-insurance/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The 8 Coverages in a Complete Bike Shop Insurance Program"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage",
+        "What It Protects Against",
+        "Why Bike Shops Need It",
+        "Learn More"
+      ],
+      "rows": [
+        [
+          "General liability",
+          "Customer slips, trips and property damage on premises or on group rides",
+          "Showroom traffic, test rides, shop events",
+          "[Commercial general liability guide](/learn/commercial-general-liability-guide/)"
+        ],
+        [
+          "Product & completed-operations liability",
+          "Injuries caused by bikes, parts or repairs you sold or performed",
+          "Assembly errors, brake or headset work, e-bike conversions",
+          "[Product liability insurance](/learn/product-liability-insurance/)"
+        ],
+        [
+          "Commercial property",
+          "Inventory, tools, fixtures and building improvements (fire, theft, vandalism)",
+          "High-value stock concentrated in one space",
+          "[Commercial property insurance guide](/learn/commercial-property-insurance-guide/)"
+        ],
+        [
+          "Bailee's customer / inland marine",
+          "Customer bikes in your care, custody or control",
+          "Service bays full of other people's $3,000 to $12,000 bikes",
+          "[Inland marine insurance explained](/learn/inland-marine-insurance-explained/)"
+        ],
+        [
+          "Business interruption",
+          "Lost income while you're closed after a covered loss",
+          "Peak-season fire or flood",
+          "Usually bundled in a BOP"
+        ],
+        [
+          "Workers' compensation",
+          "Employee injuries from tools, lifting and test rides",
+          "Required by state law once you hire staff",
+          "State requirement"
+        ],
+        [
+          "Commercial auto",
+          "Vans used for deliveries, events and mobile repair",
+          "Personal auto policies exclude most business use",
+          "[Does personal auto insurance cover business use?](/qa/does-my-personal-auto-insurance-cover-business-use/)"
+        ],
+        [
+          "Crime & cyber",
+          "Employee theft, card-data breaches, POS ransomware",
+          "Retail payments and online sales",
+          "Add-on or standalone"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Start With a BOP, Then Fill the Gaps",
+      "text": "A [Business Owner's Policy](/learn/bop-business-owners-policy-explained/) bundles general liability, commercial property and business interruption at a discount. Most bike shops then add a bailee endorsement, higher product liability limits, workers' comp and commercial auto. The [business insurance checklist](/business-insurance-checklist/) helps you map each one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Customer Bikes in Your Care: The Most-Missed Coverage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard commercial property insurance covers **your** business personal property. Customer bikes in your service bay usually aren't your property. If a fire, burst pipe or break-in destroys them, the customers expect you to pay. Your policy may treat those bikes as 'property of others' with a small sub-limit, or [exclude](/glossary/exclusion/) them entirely. **Bailee's customer coverage**, usually written as an [inland marine](/learn/inland-marine-insurance-explained/) form or endorsement, fills that gap whether or not you were negligent. Size the limit to your busiest week. Ten e-MTBs at $8,000 each is $80,000 of exposure."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "E-Bikes, Batteries and Fire Risk"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lithium-ion batteries have changed how insurers look at bike shops. Charging, storing and repairing e-bike batteries adds fire exposure. Some insurers now ask about charging practices, battery storage and whether you do conversions or battery repairs. Expect questions like these, and be ready to show controls: dedicated charging areas, fire-rated storage, no overnight unattended charging, and certified batteries only. Product liability matters here too. If you sold or serviced a battery that later catches fire in a customer's home, the claim can come back to you. See [product liability insurance](/learn/product-liability-insurance/)."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Aftermarket Conversions Can Void Coverage",
+      "text": "Fitting non-certified conversion kits or unlocking speed limiters can breach policy warranties or fall under product-liability exclusions. Get your insurer's written position before you offer these services."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Rentals, Tours and Group Rides"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Rental fleet:** Rental liability is often excluded from a base BOP. You need a rental endorsement plus solid waivers, and waivers alone aren't a substitute for insurance.",
+        "**Guided tours and MTB skills clinics:** These count as professional services. Consider professional liability as well. See [professional indemnity insurance](/learn/professional-indemnity-insurance/).",
+        "**Shop group rides and races:** Organized events may need their own cover. See [event liability insurance](/learn/event-liability-insurance/).",
+        "**Powersport crossover:** Shops that sell or service dirt bikes, ATVs or motorcycles need powersport dealer coverage, which is priced differently. Compare the retail risk profiles of [dirt bike insurance coverage](/learn/dirt-bike-insurance-coverage/) and [quad bike & ATV insurance](/learn/quad-bike-atv-insurance/)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Does Bike Shop Insurance Cost?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Premiums scale with revenue, payroll, inventory value, square footage, claims history and the services you offer. Repair-only shops pay the least. Shops with rentals, tours, e-bike battery work or powersport sales pay the most. The best way to get an accurate number is to request quotes on identical limits. See [quotes for commercial insurance](/learn/quotes-for-commercial-insurance/) and how other trades compare in [commercial insurance by industry](/compare/commercial-insurance-by-industry). Use the [coverage calculator](/coverage-calculator/) to check that your property limits match your real inventory value."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bike Shop Insurance Buying Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Value your inventory at peak season, not the annual average.",
+        "Count your maximum customer-bike exposure in a busy week and set your bailee limit to match.",
+        "List every service you offer (repairs, fits, rentals, tours, e-bike and battery work) and disclose each to your insurer.",
+        "Confirm product and completed-operations limits. Many shops choose $1M per occurrence / $2M aggregate or higher.",
+        "Buy workers' comp once you hire, and commercial auto for any shop vehicle.",
+        "Review the whole program each year with the [policy review checklist](/policy-review-checklist/)."
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "business-insurance-checklist",
+      "title": "Business Insurance Needs Checklist",
+      "description": "Walk through liability, property, bailee, workers' comp and auto exposures specific to your shop."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sources & Further Reading"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[U.S. Small Business Administration: Get business insurance](https://www.sba.gov/business-guide/launch-your-business/get-business-insurance)",
+        "[Insurance Information Institute: Bicycle safety and insurance](https://www.iii.org/article/bicycle-safety-and-insurance)",
+        "[CPSC: Micromobility products and lithium-ion battery safety](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Micromobility-Information-Center)"
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Commercial coverage forms, endorsements and state workers' compensation rules vary. Work with a licensed commercial agent or broker. Insurance Bhaiya receives no commissions."
+    }
+  ]
+}

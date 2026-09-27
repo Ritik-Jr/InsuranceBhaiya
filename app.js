@@ -19,6 +19,69 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "How Much Is Motorcycle Insurance? Average Cost by Age, Bike Type & State (2026)",
+    "slug": "average-cost-of-motorcycle-insurance",
+    "description": "How much is motorcycle insurance? See 2026 average costs for minimum and full coverage by age, bike type and state, plus the 7 factors that set your price.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Bike Shop Insurance: The Coverage Every Bicycle Retailer, Repair Shop & Rental Business Needs",
+    "slug": "bike-shop-insurance",
+    "description": "Bike shop insurance explained: general and product liability, customer bikes in your care, inventory, e-bike battery risk, rentals and building a policy.",
+    "category": "business-insurance"
+},
+
+    {
+    "title": "Bicycle Insurance Explained: Mountain Bike & MTB Insurance vs Homeowners and Renters Cover",
+    "slug": "bicycle-insurance",
+    "description": "Bicycle insurance explained: when homeowners or renters covers your bike, when a mountain bike (MTB) policy is worth it, and how theft and crash claims pay.",
+    "category": "property-insurance"
+},
+
+    {
+    "title": "Quad Bike Insurance (ATV & UTV): Coverage, Legal Requirements & Costs Explained",
+    "slug": "quad-bike-atv-insurance",
+    "description": "Quad bike and ATV insurance explained: when it's legally required, what liability, theft and collision cover pays, farm-use gaps, and how to keep premiums low.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Dirt Bike Insurance Coverage: What It Pays, What It Excludes & Insurance for Motocross Bikes",
+    "slug": "dirt-bike-insurance-coverage",
+    "description": "Dirt bike insurance coverage explained: liability, theft, collision and medical options, why homeowners won't pay, and how motocross bike insurance works.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Motorcycle, Dirt Bike & Powersport Insurance: The Complete Rider's Guide (Laws, Coverage & Costs)",
+    "slug": "motorcycle-dirt-bike-powersport-insurance",
+    "description": "Motorcycle, dirt bike, ATV and bicycle insurance explained: which states require it, what theft and crash cover pays, real costs and the traps to avoid.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Yacht Insurance: How Larger Vessels Are Underwritten Differently",
+    "slug": "yacht-insurance",
+    "description": "Where a boat legally becomes a yacht for insurance purposes, why crew and captain requirements matter so much, and what changes about the underwriting process \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Pontoon Boat Insurance: How It's Underwritten Differently",
+    "slug": "pontoon-boat-insurance",
+    "description": "Why pontoon boats are often cheaper to insure than a comparable speedboat, what passenger capacity has to do with your premium, and what commonly gets missed \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "AccuSure Insurance: A Real Multi-State Agency, Not a Single Carrier",
+    "slug": "accusure-insurance",
+    "description": "AccuSure Insurance is a real independent agency licensed across several states, placing policies with multiple carriers rather than underwriting its own.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "Why the Same Scan Costs Different Prices: Site-of-Service Billing Explained",
     "slug": "site-of-service-medical-billing-explained",
     "description": "Why an identical MRI, CT scan, or X-ray can cost two to four times more depending on where it's performed, and how to use that fact to lower a medical bill.",
@@ -768,6 +831,111 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Do you need insurance for an electric bike?",
+      "slug": "do-you-need-insurance-for-an-electric-bike",
+      "shortAnswer": "In most US states, no. Class 1, 2 and 3 e-bikes are treated like regular bicycles, so no license, registration or insurance is required. There are exceptions. **New Jersey** now requires e-bikes to be registered, and requires insurance for faster or throttle 'motorized bicycles', from July 2026. E-bikes that exceed the class limits are often treated as mopeds or motorcycles, which do need insurance. Even when the law doesn't require it, check whether your homeowners or renters policy covers your e-bike, because many treat it as a motorized vehicle.",
+      "category": "General"
+},
+
+      {
+      "question": "Does homeowners insurance cover ATVs and dirt bikes?",
+      "slug": "does-homeowners-insurance-cover-atvs-and-dirt-bikes",
+      "shortAnswer": "Usually not, or only in very narrow cases. Standard homeowners policies contain a motorized land vehicle exclusion. It generally removes coverage for the ATV or dirt bike itself (theft, fire, damage) and for injuries it causes away from your property. Some policies give limited liability for recreational vehicles used on the insured premises, and some insurers sell an endorsement to extend it. For real protection, most riders need a separate [ATV](/learn/quad-bike-atv-insurance/) or [dirt bike](/learn/dirt-bike-insurance-coverage/) policy.",
+      "category": "Home"
+},
+
+      {
+      "question": "Does motorcycle insurance cover passengers?",
+      "slug": "does-motorcycle-insurance-cover-passengers",
+      "shortAnswer": "Sometimes, but not automatically. If you cause a crash, your passenger's injuries are usually paid by **guest passenger liability**. Depending on your state and insurer, that coverage is either built into your bodily injury liability or sold as a separate add-on. **Medical payments** or **PIP** can pay your passenger's bills regardless of fault, and **uninsured/underinsured motorist** coverage helps when another driver is to blame. Check your declarations page before anyone climbs on the back.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do dirt bikes need insurance, and what states require dirt bike insurance?",
+      "slug": "do-dirt-bikes-need-insurance",
+      "shortAnswer": "Usually not on private land, but it depends on the state and where you ride. Most states don't require insurance on a dirt bike ridden only off-road on property you own. Some require liability coverage once you ride on public land or on property that isn't yours, or once the bike is registered. Pennsylvania and New York are among them. A dirt bike plated for street use (a dual-sport) needs regular [motorcycle insurance](/learn/motorcycle-dirt-bike-powersport-insurance/) in nearly every state.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How much is motorcycle insurance in Ohio?",
+      "slug": "how-much-is-motorcycle-insurance-in-ohio",
+      "shortAnswer": "Minimum-liability motorcycle insurance in Ohio is estimated at roughly $115 to $315 a year for many riders, according to [MotoInsure's Ohio data](https://motoinsure.co/states/ohio/). Full coverage typically costs a few hundred dollars more, depending on the bike and rider. Ohio's legal minimum is 25/50/25 liability under [Ohio Revised Code \u00a74509.51](https://codes.ohio.gov/ohio-revised-code/section-4509.51). Young riders, new endorsements and sport bikes push the price well above these ranges.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How much is motorcycle insurance in Colorado?",
+      "slug": "how-much-is-motorcycle-insurance-in-colorado",
+      "shortAnswer": "Motorcycle insurance in Colorado averages roughly $117 a year (about $10 a month) for minimum liability and about $567 a year (about $47 a month) for full coverage, according to [MoneyGeek's 2026 rate analysis](https://www.moneygeek.com/insurance/motorcycle/best-cheap-motorcycle-insurance-in-colorado/). Colorado's legal minimum is 25/50/15 liability. Your real price depends mostly on your bike type, age, riding record and ZIP code. Young riders on sport bikes can pay several times the average.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does motorcycle insurance cover theft?",
+      "slug": "does-motorcycle-insurance-cover-theft",
+      "shortAnswer": "Yes, but only if your policy includes comprehensive coverage. Comprehensive pays to replace a stolen motorcycle, or repair theft damage, up to the bike's [actual cash value](/glossary/actual-cash-value/) minus your deductible. A liability-only policy, which is all most states require, pays nothing when your bike is stolen. Aftermarket parts are covered only up to your custom parts and equipment limit.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you need insurance on a motorcycle in Florida?",
+      "slug": "do-you-need-insurance-on-a-motorcycle-in-florida",
+      "shortAnswer": "Not to register or ride it. Florida is one of the only states where motorcycles don't need insurance at registration, because its PIP no-fault law covers only vehicles with four or more wheels. But the state's Financial Responsibility Law still applies to riders. If you cause a crash with injuries while uninsured, you can lose your license and registration and must then show $10,000/$20,000/$10,000 liability coverage. Riders over 21 who skip a helmet must also carry at least $10,000 in medical benefits.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you get motorcycle insurance without a license?",
+      "slug": "can-you-get-motorcycle-insurance-without-a-license",
+      "shortAnswer": "Yes, often you can. Many insurers will sell [motorcycle insurance](/learn/motorcycle-dirt-bike-powersport-insurance/) to an owner who has only a learner's permit, or to an unlicensed owner who lists a licensed rider or insures a stored bike. What you can't do is ride legally, or rely on a claim being paid, while you're unlicensed. Expect higher premiums, operator exclusions, and a requirement to add your endorsement once you pass your test.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is On-Water Towing Assistance Worth Adding to Your Boat Policy?",
+      "slug": "on-water-towing-assistance-boat-insurance",
+      "shortAnswer": "For most boat owners, yes \u2014 on-water towing assistance is a relatively low-cost add-on (or a separate membership through a service like TowBoatUS or Sea Tow) that covers the cost of a tow if your boat breaks down, runs out of fuel, or goes aground, which can otherwise cost several hundred to over a thousand dollars for a single on-water tow. It's a genuinely different coverage from wreck removal after a serious accident, which is addressed separately in [Boat Insurance Claims: What to Expect After an Accident](/learn/boat-insurance-claims-what-to-expect).",
+      "category": "General"
+},
+
+      {
+      "question": "Does Boating Under the Influence Affect Your Insurance Claim?",
+      "slug": "boating-under-the-influence-insurance-claim",
+      "shortAnswer": "Yes, significantly. Nearly every boat insurance policy contains an intoxicated-operation exclusion, meaning a claim arising while the operator was boating under the influence (BUI) can be denied outright, regardless of how the accident happened. This is separate from, and in addition to, the criminal and civil consequences of a BUI charge itself, and it applies whether the policy is a standard recreational policy or a [commercial marine policy](/learn/commercial-boat-insurance).",
+      "category": "General"
+},
+
+      {
+      "question": "How Much Does a Blood Test or Lab Work Cost With Insurance?",
+      "slug": "how-much-does-a-blood-test-or-lab-work-cost-with-insurance",
+      "shortAnswer": "A basic blood panel ordered as part of routine preventive care is typically covered at $0 out of pocket on most ACA-compliant plans, since standard preventive lab screening falls under the same no-cost-sharing rule that applies to a [screening colonoscopy](/qa/how-much-does-a-colonoscopy-cost-with-insurance). A blood test ordered to investigate a specific symptom, by contrast, is billed as diagnostic and typically costs $20-$100 per test with insurance after your deductible, or $200-$1,000+ self-pay for a full diagnostic panel \u2014 and where the blood is drawn and processed matters as much as which tests are ordered.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a Colonoscopy Cost With Insurance?",
+      "slug": "how-much-does-a-colonoscopy-cost-with-insurance",
+      "shortAnswer": "A screening colonoscopy for an average-risk adult should cost $0 out of pocket on most private plans, including when a polyp is found and removed during the procedure \u2014 federal guidance treats polyp removal as an integral part of the screening itself. In practice, some patients are still incorrectly billed as if the procedure were diagnostic, so a $0 result isn't automatic just because you're entitled to it. Without insurance, a colonoscopy typically costs $1,250-$4,800 depending on facility type \u2014 the same [site-of-service gap](/learn/site-of-service-medical-billing-explained) that affects an MRI or CT scan applies here too.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does an Ultrasound Cost With Insurance?",
+      "slug": "how-much-does-an-ultrasound-cost-with-insurance",
+      "shortAnswer": "Without insurance, a standard diagnostic ultrasound typically costs $200-$1,000 depending on the body area and complexity, with a routine pregnancy ultrasound often at the lower end and a specialized cardiac echocardiogram at the higher end. With insurance, expect a $25-$75 copay or standard coinsurance after your deductible \u2014 and as with [MRI](/qa/how-much-does-an-mri-cost-without-insurance) and [CT scans](/qa/how-much-is-a-ct-scan-with-insurance), whether it's done at a hospital or an independent facility changes the number more than the scan itself does.",
+      "category": "Health"
+},
+
+      {
+      "question": "CAIC insurance",
+      "slug": "caic-insurance",
+      "shortAnswer": "CAIC stands for California Automobile Insurance Company, a real, licensed insurer incorporated in 1975 (originally as Mercury Indemnity Company, renamed CAIC in 1988) and operating as a wholly owned subsidiary of Mercury General Corporation, a well-established, publicly traded insurance group. CAIC writes both auto and homeowners/condo/renters insurance in California and is subject to the same California Department of Insurance rate-approval process as any other admitted carrier.",
+      "category": "Auto"
+},
+
       {
       "question": "Does Health Insurance Cover Surrogacy or Surrogate Pregnancy?",
       "slug": "does-health-insurance-cover-surrogacy-or-surrogate-pregnancy",

@@ -1,0 +1,233 @@
+{
+  "type": "learn",
+  "id": "quad-bike-atv-insurance",
+  "slug": "quad-bike-atv-insurance",
+  "title": "Quad Bike Insurance (ATV & UTV): Coverage, Legal Requirements & Costs Explained",
+  "description": "Quad bike and ATV insurance explained: when it's legally required, what liability, theft and collision cover pays, farm-use gaps, and how to keep premiums low.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "quad bike insurance",
+    "ATV insurance",
+    "UTV insurance",
+    "side-by-side insurance",
+    "four-wheeler insurance",
+    "farm ATV insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Quad bike insurance (called ATV insurance in the US) is a specialty powersport policy. Liability, comprehensive, collision, medical payments and guest-rider cover are sold as separate building blocks.",
+    "It isn't legally required everywhere. Pennsylvania requires liability for ATVs ridden off your own land, several states require it on public land or for road-registered use, and most don't require it on private property.",
+    "Homeowners policies commonly exclude ATVs off the premises and may exclude them entirely. Farm ATVs need a farm policy or a specific endorsement.",
+    "ATVs cause an annual average of more than 800 deaths and about 100,000 ER-treated injuries in the US (CPSC), which makes liability and medical cover the most valuable parts of the policy.",
+    "Road-registered quads in the UK and street-legal UTVs in US states that allow them must meet motor-vehicle insurance rules."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does homeowners insurance cover an ATV or quad bike?",
+      "answer": "Sometimes, only on your property and only for limited liability, depending on your policy form. Theft of the quad and off-premises injuries are commonly excluded. A standalone ATV policy or endorsement closes the gap."
+    },
+    {
+      "question": "Which states require ATV insurance?",
+      "answer": "Requirements are usually tied to where you ride. Pennsylvania requires liability insurance for ATVs ridden on land you don't own or lease, and New York generally requires it off the owner's property. Other states require it on public land or for road-registered use. See [do dirt bikes need insurance](/qa/do-dirt-bikes-need-insurance/) for the patterns."
+    },
+    {
+      "question": "Is UTV (side-by-side) insurance different from quad bike insurance?",
+      "answer": "The coverage blocks are the same, but UTVs are usually worth more, carry passengers and are more often street-registered where local law allows. Expect higher physical-damage premiums, and treat passenger liability as essential."
+    },
+    {
+      "question": "Does quad bike insurance cover theft?",
+      "answer": "Only if you add comprehensive. Payouts are typically actual cash value minus your deductible, with accessories covered up to a sub-limit. The mechanics mirror [does motorcycle insurance cover theft](/qa/does-motorcycle-insurance-cover-theft/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Whether you call it a quad bike, an ATV, a four-wheeler or (for the side-by-side kind) a UTV, the insurance question is the same. Who pays when the machine rolls, gets stolen or hurts someone? The answer is usually not your homeowners policy and not your car policy. This guide covers **quad bike insurance** from end to end. It's part of our [Motorcycle, Dirt Bike & Powersport Insurance hub](/learn/motorcycle-dirt-bike-powersport-insurance/). Two-wheel off-road riders should also read [dirt bike insurance coverage](/learn/dirt-bike-insurance-coverage/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is ATV or Quad Bike Insurance Legally Required?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It depends on where you ride. Across states, the patterns look like this:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Where You Ride",
+        "Typical Legal Requirement",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Your own land",
+          "No insurance mandate in most states",
+          "Most states"
+        ],
+        [
+          "Land you don't own or lease",
+          "Liability insurance required in some states",
+          "[Pennsylvania DCNR rule](https://www.pa.gov/services/dcnr/register-or-title-your-atv) (no minimum amount set)"
+        ],
+        [
+          "Public trails, state parks, OHV areas",
+          "Registration or permit required, and sometimes proof of insurance",
+          "[Colorado OHV registration](https://cpw.state.co.us/register-off-highway-vehicle) (no insurance mandate); New York registration with liability generally required off owner property"
+        ],
+        [
+          "Public roads (where legal)",
+          "Full motor-vehicle registration and liability minimums",
+          "Street-legal UTVs in states that permit them; road-registered quads in the UK"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The same logic applies to two-wheelers. For a pattern-by-pattern list of states, see [what states require dirt bike insurance](/qa/do-dirt-bikes-need-insurance/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Quad Bike Insurance Covers"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Bodily injury & property damage liability:** Covers injuries to other people and damage to their property. This is the most important coverage given ATV injury rates.",
+        "**Guest passenger / guest rider liability:** Covers injuries to people riding with you or borrowing the machine. It's often excluded unless you add it.",
+        "**Comprehensive:** Covers theft, fire, vandalism, flood and damage while trailered. It works the same way as [motorcycle theft coverage](/qa/does-motorcycle-insurance-cover-theft/).",
+        "**Collision:** Covers rollover and crash damage to your quad, minus your [deductible](/glossary/deductible/).",
+        "**Medical payments:** Pays small medical bills for you and your passengers regardless of fault.",
+        "**Accessories:** Covers winches, plows, racks, sprayers and aftermarket wheels. Check the sub-limit.",
+        "**Total loss valuation:** Usually [actual cash value](/glossary/actual-cash-value/). Some insurers offer new-vehicle replacement for the first year or two."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "The Injury Numbers Behind ATV Liability",
+      "text": "The [CPSC](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/ATV-Safety-Information-Center) reports an annual average of more than 800 deaths and roughly 100,000 emergency-department-treated injuries involving off-highway vehicles, with children among the victims. If someone is hurt on your quad, a six-figure claim is realistic. Low liability limits, or none, put your savings at risk. See [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Farm and Work Quads: The Coverage Gap Nobody Mentions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quads are workhorses on farms, ranches and large properties. A recreational ATV policy may exclude or limit business use, and a standard homeowners form may exclude the vehicle completely. Farm quads are usually covered in one of three ways:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Farm or ranch policy:** Scheduled farm equipment plus farm liability. Make sure the ATV is listed by VIN.",
+        "**Commercial or inland marine equipment floater:** Covers mobile equipment wherever it goes. See [inland marine insurance explained](/learn/inland-marine-insurance-explained/).",
+        "**Commercial general liability:** Covers businesses whose employees use quads, such as landscaping, surveying or events. See the [commercial general liability guide](/learn/commercial-general-liability-guide/). Employee injuries usually fall under workers' compensation instead."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Does Quad Bike Insurance Cost?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Liability-only ATV cover is generally one of the cheapest powersport policies, because the machines rarely operate in traffic. Full coverage on a new sport quad or a high-end UTV rises with the machine's value. The main rating factors are machine value, engine size, use (recreational, farm or racing), the rider's age, storage security and deductible. Weigh deductible options with the [deductible vs premium calculator](/deductible-calculator/). For comparison with road bikes, see motorcycle premiums in [Colorado](/qa/how-much-is-motorcycle-insurance-in-colorado/) and [Ohio](/qa/how-much-is-motorcycle-insurance-in-ohio/)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Ways to Lower Your ATV Premium",
+      "text": "Store the quad in a locked building and add a ground anchor or GPS tracker (ask whether your insurer gives a discount). Bundle it with your home or auto policy, choose a higher deductible, drop collision on older machines, and complete an ATV safety course. Keep youth riders on youth-sized machines. The CPSC advises against children under 16 riding adult-size ATVs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Quad Bike Insurance vs Homeowners vs Car Insurance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Scenario",
+        "Homeowners",
+        "Car Policy",
+        "Quad / ATV Policy"
+      ],
+      "rows": [
+        [
+          "Quad stolen from your shed",
+          "Often excluded (motorized vehicle)",
+          "No",
+          "Yes, with comprehensive"
+        ],
+        [
+          "Guest injured on a public trail",
+          "Usually excluded off premises",
+          "No",
+          "Yes, with liability / guest cover"
+        ],
+        [
+          "Rollover damage to the quad",
+          "No",
+          "No",
+          "Yes, with collision"
+        ],
+        [
+          "Quad used on the farm",
+          "Varies, often limited",
+          "No",
+          "Limited. A farm policy may be needed"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Exclusions drive every row of that table. Learn to spot them in [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance/), and if you're thinking about adding ATV cover to an existing policy, read [what is an insurance endorsement](/learn/what-is-an-insurance-endorsement/)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-gap-checker",
+      "title": "Coverage Gap Checker",
+      "description": "Spot the gaps between your homeowners, farm and powersport policies before a rollover or theft does."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sources & Further Reading"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[CPSC: OHV & ATV Safety Information Center](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/ATV-Safety-Information-Center)",
+        "[Pennsylvania DCNR: Register or title your ATV](https://www.pa.gov/services/dcnr/register-or-title-your-atv)",
+        "[New York DMV: ATVs, information for owners and operators](https://dmv.ny.gov/more-info/atvs-information-for-owners-and-operators)",
+        "[Colorado Parks & Wildlife: Register an OHV](https://cpw.state.co.us/register-off-highway-vehicle)"
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "ATV laws vary by state, county and land manager and change often. Confirm current requirements with your state agency. Insurance Bhaiya receives no commissions."
+    }
+  ]
+}

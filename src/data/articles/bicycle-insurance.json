@@ -1,0 +1,203 @@
+{
+  "type": "learn",
+  "id": "bicycle-insurance",
+  "slug": "bicycle-insurance",
+  "title": "Bicycle Insurance Explained: Mountain Bike & MTB Insurance vs Homeowners and Renters Cover",
+  "description": "Bicycle insurance explained: when homeowners or renters covers your bike, when a mountain bike (MTB) policy is worth it, and how theft and crash claims pay.",
+  "category": "property-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "bicycle insurance",
+    "mountain bike insurance",
+    "mtb bike insurance",
+    "e-bike insurance",
+    "bike theft insurance",
+    "cycling liability insurance"
+  ],
+  "coverImage": "/images/category-property.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "No US state requires bicycle insurance. Your homeowners or renters policy usually covers a stolen bike as personal property, minus your deductible, per the [Insurance Information Institute](https://www.iii.org/article/bicycle-safety-and-insurance).",
+    "Homeowners and renters policies rarely pay for crash damage to your own bike, and a high deductible can wipe out a theft payout on a mid-priced bike.",
+    "Standalone bicycle and mountain bike insurance adds crash damage, race and event cover, low deductibles and sometimes replacement-cost payouts.",
+    "E-bikes are the gray zone. Some homeowners forms treat them as motorized vehicles and exclude them, so ask your insurer in writing.",
+    "Your homeowners or renters liability coverage often protects you if your cycling injures someone. Car insurance and UM coverage may help if a driver hits you."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is bicycle insurance worth it?",
+      "answer": "It's worth it for bikes over roughly $2,000, riders with high home deductibles, and anyone who wants crash-damage cover. For cheaper bikes, your homeowners or renters policy, or simply a good lock, is often enough."
+    },
+    {
+      "question": "Does renters insurance cover a stolen bike?",
+      "answer": "Usually yes, as personal property, including theft away from home, minus your deductible. See [does renters insurance cover theft outside the home](/qa/does-renters-insurance-cover-theft-outside-home/)."
+    },
+    {
+      "question": "What does mountain bike insurance cover that homeowners doesn't?",
+      "answer": "Mainly crash damage to your own bike, race and event use, low deductibles and replacement-cost payouts. Homeowners generally covers theft and named perils only."
+    },
+    {
+      "question": "Are e-bikes covered by homeowners insurance?",
+      "answer": "Sometimes. Some insurers treat e-bikes as motorized vehicles and exclude them. Confirm in writing, or buy a standalone e-bike policy."
+    }
+  ],
+  "companionTool": {
+    "slug": "home-insurance-calculator",
+    "title": "Replacement Cost Calculator",
+    "description": "Audit commercial and residential properties against actual structural rebuild costs."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A good trail bike now costs as much as a used motorcycle, and a carbon road bike can cost more. Bikes are also among the most frequently stolen personal items, and they're easy to crash. Still, most riders have never checked whether their existing policy covers the bike. This guide explains how **bicycle insurance** works, when standalone **mountain bike insurance** makes sense, and how to avoid a denied or tiny claim. It sits within our [Motorcycle, Dirt Bike & Powersport Insurance hub](/learn/motorcycle-dirt-bike-powersport-insurance/), because many riders own both kinds of bike."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does Homeowners or Renters Insurance Cover Your Bicycle?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Usually, for theft and named perils. A bicycle counts as personal property under Coverage C of a homeowners policy, or under the personal property section of a renters policy. If it's stolen, or destroyed by a covered peril like fire, the insurer pays minus your [deductible](/glossary/deductible/). Most policies cover personal property worldwide, so a bike stolen outside a café is generally covered too. Read [does renters insurance cover theft outside the home](/qa/does-renters-insurance-cover-theft-outside-home/) for the details, and [home insurance fundamentals](/learn/home-insurance-fundamentals/) for the wider picture."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Bike Value",
+        "Homeowners/Renters Deductible",
+        "Theft Payout (ACV Policy)",
+        "Verdict"
+      ],
+      "rows": [
+        [
+          "$800 commuter",
+          "$1,000",
+          "$0",
+          "Not worth claiming. A standalone policy or self-insuring makes more sense"
+        ],
+        [
+          "$2,500 trail bike (2 yrs old)",
+          "$1,000",
+          "About $1,000 after depreciation and deductible",
+          "Partial protection. Consider an endorsement or standalone cover"
+        ],
+        [
+          "$6,000 carbon MTB",
+          "$500",
+          "About $3,800 to $5,500 depending on ACV vs replacement cost",
+          "Covered, but check sub-limits and claim impact on your home premium"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether you get [replacement cost](/glossary/replacement-cost/) or [actual cash value](/glossary/actual-cash-value/) makes a big difference for bikes, which lose value quickly. See [actual cash value vs replacement cost](/compare/actual-cash-value-vs-replacement-cost/). Run your contents limits through the [renters insurance calculator](/renters-insurance-calculator/) or the [home insurance calculator](/home-insurance-calculator/)."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Why Small Bike Claims Can Cost You More",
+      "text": "A $1,200 theft claim on your homeowners policy goes on your claims history and can raise your premium for years. That can cost more than the claim paid. Read [can insurance drop you after a claim](/qa/can-insurance-drop-you-after-a-claim/) before filing a small one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Standalone Bicycle and Mountain Bike Insurance Adds"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Crash damage:** Repairs to your frame, fork and wheels after a crash, which homeowners and renters don't cover. This is the main reason MTB riders buy it.",
+        "**Low or zero deductibles:** Typically $0 to $250, compared with $500 to $2,500 on a home policy.",
+        "**Replacement cost or agreed value:** Pays to replace the bike like-for-like rather than its depreciated value.",
+        "**Race and event cover:** Covers damage during sanctioned events, which some policies exclude.",
+        "**Travel cover:** Covers the bike in transit and on bike trips abroad. Pair it with a trip policy from our [travel insurance guide](/learn/travel-insurance-guide/).",
+        "**Cycling liability and medical payments:** Some policies add their own liability and uninsured-motorist-style cover for riders hit by drivers.",
+        "**Components and gear:** Covers wheelsets, power meters, GPS units, helmets and clothing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "MTB Bike Insurance: Is It Worth It?"
+    },
+    {
+      "type": "paragraph",
+      "text": "**Mountain bike insurance** pays off when three things are true: the bike is worth more than about $2,000, your home deductible is $1,000 or more, and you ride technical terrain where crash damage is likely. Use this rule of thumb. If the annual premium is less than about 5% to 8% of the bike's value and it covers crash damage, it's usually worth it. The alternative is scheduling the bike on your home policy with a scheduled personal property endorsement or rider. That usually removes the deductible for theft but still won't cover crashes. See [what is an insurance rider](/learn/what-is-an-insurance-rider/) and [what is an insurance endorsement](/learn/what-is-an-insurance-endorsement/)."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "E-Bikes: Check Before You Assume",
+      "text": "Many homeowners policies exclude 'motorized land vehicles', and some insurers apply that exclusion to e-bikes, especially throttle or faster-class models. Ask your insurer in writing. If the e-bike is excluded, a standalone e-bike policy is the fix. A high-powered e-moto that needs registration is closer to a motorcycle. See [can you get motorcycle insurance without a license](/qa/can-you-get-motorcycle-insurance-without-a-license/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Pays If You're Hit, or You Hit Someone?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**A driver hits you:** The driver's bodily injury and property damage liability should pay. In some states your own auto policy's PIP or UM coverage can also help, even though you were on a bike. See [does health insurance cover car accidents and PIP](/qa/does-health-insurance-cover-car-accidents-pip/).",
+        "**You injure a pedestrian:** Your homeowners or renters personal liability usually responds. The III notes that these policies also carry no-fault medical payments to others, typically $1,000 to $5,000.",
+        "**Big liability exposure:** Add a [personal umbrella policy](/learn/umbrella-insurance-guide/) if your assets exceed your liability limit."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Bike Theft Claim Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Record your frame serial number, keep receipts and take photos now, before anything happens.",
+        "Lock the bike with a quality lock through the frame and a wheel. Some standalone policies require an approved lock.",
+        "If it's stolen, file a police report immediately and get the report number.",
+        "Compare the bike's value with your deductible and claim-history impact before filing on a home policy.",
+        "Submit the police report, receipts and photos to your insurer. Keep copies. See [what is an insurance claim](/learn/what-is-an-insurance-claim/)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Run a bike shop rather than just ride? See [bike shop insurance](/learn/bike-shop-insurance/). Moving up to motorized two-wheelers? Start with [does motorcycle insurance cover theft](/qa/does-motorcycle-insurance-cover-theft/) and [dirt bike insurance coverage](/learn/dirt-bike-insurance-coverage/)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "renters-insurance-calculator",
+      "title": "Renters Insurance Coverage Calculator",
+      "description": "Check whether your personal property limit and deductible actually protect a high-value bicycle."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sources & Further Reading"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[Insurance Information Institute: Bicycle safety and insurance](https://www.iii.org/article/bicycle-safety-and-insurance)",
+        "[NHTSA: Bicycle safety](https://www.nhtsa.gov/road-safety/bicycle-safety)",
+        "[NAIC: What you should know about auto insurance coverage](https://content.naic.org/article/what-you-should-know-about-auto-insurance-coverage)"
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Coverage for bicycles and e-bikes varies by insurer and policy form. Read your declarations and exclusions, or ask your insurer in writing. Insurance Bhaiya receives no commissions."
+    }
+  ]
+}
