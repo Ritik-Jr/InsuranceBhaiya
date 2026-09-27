@@ -822,6 +822,12 @@ main.container-compare {
   color: var(--color-text);
 }
 
+/* Safeguard for legacy mobile-drawer markup */
+.mobile-drawer,
+.drawer-backdrop {
+  display: none !important;
+}
+
 .mobile-drawer-overlay {
   position: fixed;
   inset: 0;
