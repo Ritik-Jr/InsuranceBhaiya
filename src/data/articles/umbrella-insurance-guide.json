@@ -52,7 +52,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "Most consumers assume that having car insurance and homeowners insurance means their personal balance sheet is completely protected. Unfortunately, standard policies have rigid dollar ceilings—typically capping bodily injury liability at $300,000 to $500,000. In a multi-vehicle highway collision or catastrophic swimming pool accident, legal judgments can effortlessly climb past $1,500,000. When that happens, your primary insurer hands over the policy max and walks away, leaving your liquid savings, retirement accounts, home equity, and future paychecks exposed to court garnishment."
+      "text": "Most consumers assume that having car insurance and [homeowners insurance](/learn/home-insurance-fundamentals/) means their personal balance sheet is completely protected. Unfortunately, standard policies have rigid dollar ceilings—typically capping bodily injury liability at $300,000 to $500,000. In a multi-vehicle highway collision or catastrophic swimming pool accident, legal judgments can effortlessly climb past $1,500,000. When that happens, your primary insurer hands over the policy max and walks away, leaving your liquid savings, retirement accounts, home equity, and future paychecks exposed to court garnishment."
     },
     {
       "type": "heading",
@@ -61,7 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Personal Umbrella Insurance (also known as excess liability coverage) acts as an overarching shield that sits directly above your foundational insurance layers. It does not replace your auto, home, or watercraft insurance; rather, it activates the exact moment their underlying liability limits are exhausted."
+      "text": "Personal Umbrella Insurance (also known as [excess liability](/glossary/umbrella-insurance/) coverage) acts as an overarching shield that sits directly above your foundational insurance layers. It does not replace your auto, home, or watercraft insurance; rather, it activates the exact moment their underlying [liability limits](/learn/what-is-a-coverage-limit/) are exhausted."
     },
     {
       "type": "callout",
@@ -76,7 +76,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Because umbrella insurance is priced as secondary risk, insurance underwriters require you to maintain minimum baseline liability coverage on your primary policies before they issue an umbrella contract:"
+      "text": "Because umbrella insurance is priced as secondary risk, insurance [underwriters](/learn/what-is-insurance-underwriting/) require you to maintain minimum baseline liability coverage on your primary policies before they issue an umbrella contract:"
     },
     {
       "type": "table",
@@ -161,7 +161,7 @@
     },
     {
       "type": "disclaimer",
-      "text": "Umbrella policies do not cover business activities, intentional criminal acts, professional malpractice, or damage to your own personal property. Check our [Coverage Gap Checker](/coverage-gap-checker) for commercial extensions."
+      "text": "Umbrella policies do not cover business activities, intentional criminal acts, professional malpractice, or damage to your own personal property. Check our [Coverage Gap Checker](/coverage-gap-checker/) for commercial extensions."
     }
   ]
 }

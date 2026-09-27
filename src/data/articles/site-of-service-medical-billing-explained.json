@@ -1,0 +1,142 @@
+{
+  "type": "learn",
+  "id": "site-of-service-medical-billing-explained",
+  "slug": "site-of-service-medical-billing-explained",
+  "title": "Why the Same Scan Costs Different Prices: Site-of-Service Billing Explained",
+  "description": "Why an identical MRI, CT scan, or X-ray can cost two to four times more depending on where it's performed, and how to use that fact to lower a medical bill.",
+  "category": "health-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "site of service billing",
+    "hospital facility fee",
+    "MRI cost",
+    "CT scan cost",
+    "health-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Site-of-service billing means the identical procedure — the same equipment, the same test, sometimes even the same radiologist reading the result — is priced differently purely based on which type of facility performed it.",
+    "Hospital outpatient departments generally negotiate higher reimbursement rates with insurers than freestanding, independent facilities do for the same CPT billing code, largely to offset broader hospital overhead the standalone facility doesn't carry.",
+    "This gap shows up most dramatically on advanced imaging — an [MRI](/qa/how-much-does-an-mri-cost-without-insurance/) or [CT scan](/qa/how-much-is-a-ct-scan-with-insurance/) can cost two to four times more at a hospital than at an independent imaging center — but it also applies to smaller procedures like an [X-ray](/qa/how-much-does-an-x-ray-cost-without-insurance/).",
+    "The same underlying logic is why [urgent care costs so much less than an ER visit](/compare/urgent-care-vs-emergency-room-cost-insurance/) for an identical minor condition — the ER's facility fee structure is priced like a hospital department because it is one.",
+    "For a non-urgent, schedulable procedure, asking your ordering physician for a referral to an independent facility rather than accepting a hospital's own imaging department by default is the single most effective way to lower a self-pay or high-deductible bill."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is a hospital-owned outpatient clinic the same as a hospital for billing purposes, even if it's in a separate building?",
+      "answer": "Often yes — many hospital systems own outpatient clinics and imaging centers that are physically separate from the main hospital building but are still billed under the hospital's higher facility rates, sometimes without making that ownership obvious to patients. Asking directly whether a facility is hospital-owned, not just where it's physically located, is the more reliable question."
+    },
+    {
+      "question": "Does site-of-service billing apply the same way to routine doctor visits, not just imaging?",
+      "answer": "Yes, though the dollar gap is usually smaller — a routine visit to a hospital-owned primary care or specialist clinic can carry an added facility fee that an independent physician's private practice doesn't charge, even for an identical office visit."
+    },
+    {
+      "question": "Can I find out a facility's price before I schedule a procedure?",
+      "answer": "In many cases yes — federal hospital price transparency rules require hospitals to publish standard charges for common procedures, and many independent imaging centers will quote a self-pay or cash price directly over the phone, so it's worth asking both a hospital's billing department and at least one independent facility before scheduling anything non-urgent."
+    }
+  ],
+  "companionTool": {
+    "slug": "health-insurance-calculator",
+    "title": "Out-of-Pocket Cost Calculator",
+    "description": "Estimate how a procedure's cost changes across different deductible and coinsurance scenarios."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "It's one of the more counterintuitive facts in U.S. healthcare pricing: the exact same MRI, on the exact same machine model, read by an equally qualified radiologist, can cost two to four times more depending on which building it happens in. This isn't a pricing error or a scam — it's a deliberate, well-documented billing practice called site-of-service differentiation, and understanding it is one of the most useful things a patient can know before scheduling almost any non-emergency procedure."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Site-of-Service Billing Actually Means"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurers negotiate separate reimbursement rates with different types of facilities for the identical billing code (the CPT code that describes a specific procedure). A hospital outpatient department typically negotiates a higher rate for that same code than an independent, freestanding facility does — a doctor's private office, a standalone imaging center, or an [urgent care](/qa/how-much-is-urgent-care-with-insurance/) clinic not owned by a hospital system. The procedure itself doesn't change; only the facility type performing it does, and that alone can shift the price dramatically."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Hospitals Charge More for the Same Thing"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most commonly cited justification is that hospitals carry costs an independent facility doesn't: 24/7 emergency readiness, uncompensated care for uninsured patients, more complex regulatory and accreditation requirements, and broader overhead across an entire hospital system rather than a single specialty. Whether or not this fully explains the size of the gap in every case is genuinely debated among health policy researchers, but from a patient's perspective, the practical reality is the same regardless of the underlying justification: where you go changes what you pay, often more than what's actually being done to you."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Procedure",
+        "Typical Freestanding/Independent Price",
+        "Typical Hospital Outpatient Price"
+      ],
+      "rows": [
+        [
+          "X-ray (single view)",
+          "$100 - $400",
+          "$250 - $1,000+"
+        ],
+        [
+          "MRI (no contrast)",
+          "$400 - $1,200",
+          "$1,500 - $3,000+"
+        ],
+        [
+          "CT scan",
+          "$300 - $1,500",
+          "Often 2-4x the freestanding price for the same scan"
+        ],
+        [
+          "Urgent care vs. ER visit",
+          "$100 - $300 (urgent care)",
+          "$1,000 - $2,500+ (ER, non-emergency condition)"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "info",
+      "title": "This table shows typical ranges, not guarantees",
+      "text": "Exact prices vary significantly by region, specific facility, and your individual plan's negotiated rates. Use these ranges to know what questions to ask, not as a quote for your specific situation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Actually Use This When Scheduling a Procedure"
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": [
+        "Ask your ordering physician directly whether they can refer you to an independent, non-hospital-owned facility rather than defaulting to wherever they usually send patients.",
+        "Ask any facility directly whether it's owned by a hospital system, since hospital-owned outpatient clinics aren't always obviously branded as part of the hospital.",
+        "For a non-urgent procedure, call at least one independent facility and ask for their self-pay or cash price, even if you have insurance — sometimes the cash price is lower than your coinsurance share would be at a hospital.",
+        "Check whether a hospital publishes its standard charges under federal price transparency requirements before assuming there's no way to compare prices in advance.",
+        "Accept that for anything genuinely urgent or emergent, the nearest appropriate facility is the right choice regardless of billing structure — this strategy applies only to schedulable, non-emergency care."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Where This Shows Up Most Across Common Procedures"
+    },
+    {
+      "type": "paragraph",
+      "text": "This same dynamic explains several of the most commonly searched medical cost questions: why an [MRI](/qa/how-much-does-an-mri-cost-without-insurance/) or [CT scan](/qa/how-much-is-a-ct-scan-with-insurance/) varies so much in price by location, why a simple [X-ray](/qa/how-much-does-an-x-ray-cost-without-insurance/) can still carry a meaningful facility-fee swing, and why [urgent care costs so much less than an ER visit](/compare/urgent-care-vs-emergency-room-cost-insurance/) for treating the identical minor condition. In every one of these cases, the underlying procedure is comparable — it's the facility billing behind it that changes the number on your bill."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature and does not constitute medical or insurance advice. Facility pricing, hospital ownership structures, and price transparency requirements vary by region and change over time. Confirm current pricing directly with a specific facility and your insurer before scheduling a procedure."
+    }
+  ]
+}

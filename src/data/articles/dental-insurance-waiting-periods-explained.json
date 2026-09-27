@@ -24,7 +24,7 @@
   "language": "en",
   "keyTakeaways": [
     "Waiting periods exist specifically to prevent someone from buying a dental plan right after discovering they need an expensive procedure, then canceling once it's covered.",
-    "Preventive care (cleanings, exams, X-rays) usually has no waiting period at all, basic services (fillings) often have 0-6 months, and major services (crowns, [root canals](/qa/how-much-does-a-root-canal-cost-with-insurance), [bridges](/qa/how-much-does-a-dental-bridge-cost-without-insurance)) and orthodontics commonly carry 6-12 month waiting periods.",
+    "Preventive care (cleanings, exams, X-rays) usually has no waiting period at all, basic services (fillings) often have 0-6 months, and major services (crowns, [root canals](/qa/how-much-does-a-root-canal-cost-with-insurance/), [bridges](/qa/how-much-does-a-dental-bridge-cost-without-insurance/)) and orthodontics commonly carry 6-12 month waiting periods.",
     "Employer-sponsored group dental plans frequently waive waiting periods entirely, especially if you're enrolling during your employer's initial open enrollment window rather than joining later.",
     "Some standalone individual dental plans offer a \"no waiting period\" option, but typically offset that convenience with a lower first-year annual maximum or a higher premium.",
     "A waiting period doesn't reset every year — once satisfied on a specific plan, it generally stays satisfied for as long as you keep continuous coverage on that plan, though switching insurers can restart the clock."
@@ -48,7 +48,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "A waiting period is the length of time you must be enrolled in a dental plan before it will pay for a specific category of treatment — and it's one of the most common reasons someone buys dental insurance right before a known procedure, only to discover the plan won't actually pay for it yet. This guide breaks down how waiting periods work by service tier, why insurers use them, and the specific situations where you can reduce or avoid one."
+      "text": "A waiting period is the length of time you must be enrolled in a dental plan before it will pay for a specific category of treatment — and it's one of the most common reasons someone buys [dental insurance](/learn/dental-procedure-costs-with-and-without-insurance/) right before a known procedure, only to discover the plan won't actually pay for it yet. This guide breaks down how waiting periods work by service tier, why insurers use them, and the specific situations where you can reduce or avoid one."
     },
     {
       "type": "heading",
@@ -57,7 +57,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Unlike medical insurance, most dental insurance is optional and individually chosen, which creates an incentive problem: without a waiting period, someone could enroll in a plan the week before a scheduled crown or root canal, receive the benefit, and cancel the plan shortly afterward, having paid only one or two months of premium against a claim worth many times that. Waiting periods exist specifically to prevent this pattern, spreading the cost of expensive, predictable procedures across a base of members who pay in consistently rather than opportunistically."
+      "text": "Unlike medical insurance, most dental insurance is optional and individually chosen, which creates an incentive problem: without a waiting period, someone could enroll in a plan the week before a scheduled crown or root canal, receive the benefit, and cancel the plan shortly afterward, having paid only one or two months of [premium](/glossary/premium/) against a claim worth many times that. Waiting periods exist specifically to prevent this pattern, spreading the cost of expensive, predictable procedures across a base of members who pay in consistently rather than opportunistically."
     },
     {
       "type": "heading",
@@ -85,12 +85,12 @@
         [
           "Major",
           "6-12 months",
-          "Crowns, root canals, bridges, [dental implants](/qa/how-much-does-a-dental-implant-cost-without-insurance)"
+          "Crowns, root canals, bridges, [dental implants](/qa/how-much-does-a-dental-implant-cost-without-insurance/)"
         ],
         [
           "Orthodontic",
           "12 months (if offered at all)",
-          "[Braces, Invisalign](/compare/traditional-braces-vs-invisalign)"
+          "[Braces, Invisalign](/compare/traditional-braces-vs-invisalign/)"
         ]
       ]
     },
@@ -107,7 +107,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Employer-sponsored group dental plans frequently waive most or all waiting periods, particularly for employees who enroll during the company's initial open enrollment window when first becoming eligible, rather than joining later during a special enrollment period. This is one of the more overlooked reasons a workplace dental benefit is often worth more than its premium suggests compared to an individual plan bought on the open market, which almost always enforces standard waiting periods on major and orthodontic services."
+      "text": "[Employer-sponsored](/compare/aca-marketplace-vs-employer-sponsored-health-insurance/) group dental plans frequently waive most or all waiting periods, particularly for employees who enroll during the company's initial open enrollment window when first becoming eligible, rather than joining later during a special enrollment period. This is one of the more overlooked reasons a workplace dental benefit is often worth more than its premium suggests compared to an individual plan bought on the open market, which almost always enforces standard waiting periods on major and orthodontic services."
     },
     {
       "type": "heading",

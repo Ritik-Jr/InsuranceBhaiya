@@ -19,6 +19,55 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Why the Same Scan Costs Different Prices: Site-of-Service Billing Explained",
+    "slug": "site-of-service-medical-billing-explained",
+    "description": "Why an identical MRI, CT scan, or X-ray can cost two to four times more depending on where it's performed, and how to use that fact to lower a medical bill.",
+    "category": "health-insurance"
+},
+
+    {
+    "title": "Medical Procedure Costs With & Without Insurance: Urgent Care, MRI, CT Scans, and Surrogacy",
+    "slug": "medical-procedure-costs-with-and-without-insurance",
+    "description": "What urgent care, an MRI, and a CT scan actually cost with and without insurance, plus a state-by-state look at surrogacy costs and insurance requirements in California and New York.",
+    "category": "health-insurance"
+},
+
+    {
+    "title": "Boat Insurance Proof of Coverage: What a Marina or Lender Actually Wants to See",
+    "slug": "boat-insurance-proof-of-coverage",
+    "description": "What a certificate of insurance actually needs to show, why 'additional insured' status matters for a marina, and what to do if your documentation doesn't satisfy a lender or slip agreement \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Boat Insurance Claims: What to Expect After an Accident",
+    "slug": "boat-insurance-claims-what-to-expect",
+    "description": "What actually happens after you report a boat insurance claim, how a marine surveyor's role differs from an auto adjuster's, and when the dispute is serious enough to need a lawyer \u2014 answered question by question.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "10 Quotes About Life Insurance Worth Actually Thinking About",
+    "slug": "quote-about-life-insurance",
+    "description": "A curated collection of quotes about life insurance from business and insurance figures, with context on what each one actually gets right.",
+    "category": "life-insurance"
+},
+
+    {
+    "title": "Security Plan Life Insurance: A Real Citizens, Inc. Subsidiary Serving the Gulf South",
+    "slug": "security-plan-life-insurance",
+    "description": "Security Plan Life Insurance Company is a real, licensed final expense insurer, a Citizens Inc. subsidiary serving Louisiana, Mississippi, and Arkansas.",
+    "category": "life-insurance"
+},
+
+    {
+    "title": "Open Care Life Insurance: What It Actually Is, and Why Search Results Are So Mixed",
+    "slug": "open-care-life-insurance",
+    "description": "Open Care is a real Florida-based insurance agency selling final expense life insurance to seniors, not a carrier itself, despite heavy TV advertising.",
+    "category": "life-insurance"
+},
+
+    {
     "title": "Car Insurance Basics: Registration Requirements, Cost Factors, and How Claims Work",
     "slug": "car-insurance-basics-registration-cost-claims",
     "description": "Car insurance basics covering state registration requirements, what actually drives cost, and how claims, rentals, and coverage gaps really work.",
@@ -719,6 +768,76 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Does Health Insurance Cover Surrogacy or Surrogate Pregnancy?",
+      "slug": "does-health-insurance-cover-surrogacy-or-surrogate-pregnancy",
+      "shortAnswer": "Not automatically, and not the arrangement itself. Standard health insurance never covers surrogate compensation, agency fees, or legal costs regardless of the plan. Whether it covers the surrogate's own pregnancy-related medical care depends entirely on whether her specific policy contains a gestational-carrier or surrogacy exclusion clause \u2014 a common feature on individual and employer plans that most people never notice until it matters. See [California's](/scenarios/meera-california-surrogacy-insurance-gap) and [New York's](/qa/how-much-does-surrogacy-cost-with-insurance-in-new-york) very different approaches to this exact problem for how it plays out state by state.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does a PET Scan Cost With Insurance?",
+      "slug": "how-much-does-a-pet-scan-cost-with-insurance",
+      "shortAnswer": "Without insurance, a PET scan typically costs $1,000-$6,000 or more \u2014 noticeably higher than an [MRI](/qa/how-much-does-an-mri-cost-without-insurance) or [CT scan](/qa/how-much-is-a-ct-scan-with-insurance) \u2014 because it requires a radioactive tracer that's produced and shipped shortly before the scan. With insurance, most plans place PET scans in the same advanced-imaging coinsurance tier as MRI and CT, but they almost always require prior authorization first, since PET is frequently used for cancer staging and treatment monitoring rather than routine diagnosis.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does an X-Ray Cost Without Insurance?",
+      "slug": "how-much-does-an-x-ray-cost-without-insurance",
+      "shortAnswer": "Without insurance, a single-view X-ray typically costs $100-$400 at a freestanding imaging center or urgent care clinic, and $250-$1,000+ for the identical X-ray billed through a hospital outpatient or ER department. As with an [MRI](/qa/how-much-does-an-mri-cost-without-insurance) or [CT scan](/qa/how-much-is-a-ct-scan-with-insurance), site of service \u2014 not the body part \u2014 is the biggest single driver of the price. See the [full medical cost comparison](/learn/medical-procedure-costs-with-and-without-insurance) for how it fits alongside other diagnostic procedures.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does Surrogacy Cost With Insurance in New York?",
+      "slug": "how-much-does-surrogacy-cost-with-insurance-in-new-york",
+      "shortAnswer": "Total surrogacy costs in New York typically run $100,000-$225,000+, even with insurance factored in. What makes New York distinct is the Child-Parent Security Act (CPSA), which legally requires intended parents to provide the surrogate with comprehensive health insurance through 12 months postpartum plus a $750,000 life insurance policy \u2014 insurance requirements that are optional industry practice in most other states, not statutory ones. See the [full medical cost comparison](/learn/medical-procedure-costs-with-and-without-insurance), including [how California's surrogacy costs compare](/scenarios/meera-california-surrogacy-insurance-gap), for the bigger picture.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Does an MRI Cost Without Insurance?",
+      "slug": "how-much-does-an-mri-cost-without-insurance",
+      "shortAnswer": "Without insurance, an MRI typically costs $400-$1,200 at a freestanding imaging center, or $1,500-$3,000+ for the identical scan at a hospital outpatient department \u2014 the site of service matters more than the body part being scanned. Contrast dye commonly adds $100-$300. See the [full medical cost comparison](/learn/medical-procedure-costs-with-and-without-insurance) for how this compares to a [CT scan](/qa/how-much-is-a-ct-scan-with-insurance) and an urgent care visit.",
+      "category": "Health"
+},
+
+      {
+      "question": "How Much Is Urgent Care With Insurance?",
+      "slug": "how-much-is-urgent-care-with-insurance",
+      "shortAnswer": "With insurance, an in-network urgent care visit typically costs a flat copay of $25-$100, or the full negotiated rate (commonly $150-$300) toward your deductible if you're on a high-deductible health plan. That copay covers only the base evaluation \u2014 any test, X-ray, or procedure performed during the same visit is billed separately. See the [full medical cost comparison](/learn/medical-procedure-costs-with-and-without-insurance) for how this stacks up against an ER visit, MRI, or CT scan.",
+      "category": "Health"
+},
+
+      {
+      "question": "What Happens to Boat Insurance When You Sell Your Boat?",
+      "slug": "what-happens-to-boat-insurance-when-you-sell-your-boat",
+      "shortAnswer": "Your boat insurance policy doesn't automatically transfer to a new owner when you sell \u2014 you need to formally cancel or update it, and the buyer needs their own separate policy before taking possession. If you're financed and a lender is listed as loss payee, they'll need to confirm the loan is satisfied as part of the sale, and if you're buying a replacement boat, ask your insurer about transferring your policy to the new vessel rather than starting from scratch.",
+      "category": "General"
+},
+
+      {
+      "question": "Do You Need Boat Insurance If You Only Trailer and Never Dock?",
+      "slug": "boat-insurance-trailer-only-no-dock",
+      "shortAnswer": "Yes, it's still worth carrying, even though a trailer-only boat that's never docked at a marina faces less exposure than one kept in the water full-time. You still face on-water liability risk every time you launch, theft and storage risk while trailered at home, and, in a state like Arkansas, a legal insurance mandate tied to your engine's horsepower regardless of how you store the boat \u2014 see our [state-by-state requirements guide](/learn/boat-insurance-by-state-requirements-costs).",
+      "category": "General"
+},
+
+      {
+      "question": "Health Plus telephone number",
+      "slug": "health-plus-telephone-number",
+      "shortAnswer": "\"Health Plus\" isn't one company \u2014 it's a name used by at least two distinct historical Medicaid managed-care organizations: Health Plus of New York (Brooklyn-based, founded 1984, acquired by Amerigroup in 2012 and later rebranded Empire BlueCross BlueShield HealthPlus) and HealthPlus of Michigan (Flint-based, sold its Medicaid business to Molina Healthcare in 2015). Because both have been acquired or rebranded, the safest way to find a current number is through your specific state's Medicaid marketplace site rather than an old third-party listing.",
+      "category": "Health"
+},
+
+      {
+      "question": "Life insurance lawyer",
+      "slug": "life-insurance-lawyer",
+      "shortAnswer": "A life insurance lawyer (also searched as life insurance attorney) helps when a death claim is denied during the contestability period, a beneficiary designation is disputed among multiple claimants, or an insurer applies a suicide or misrepresentation exclusion you believe doesn't actually apply. Most straightforward, undisputed claims don't need one \u2014 the same decision framework covered in car insurance lawyer applies here: hire one when the dispute is significant enough that professional negotiation is likely to recover more than the fee costs.",
+      "category": "Life"
+},
+
       {
       "question": "Can I drive without insurance in FL",
       "slug": "can-i-drive-without-insurance-in-fl",

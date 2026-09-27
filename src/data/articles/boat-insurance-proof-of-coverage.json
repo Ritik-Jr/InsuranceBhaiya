@@ -1,0 +1,107 @@
+{
+  "type": "learn",
+  "id": "boat-insurance-proof-of-coverage",
+  "slug": "boat-insurance-proof-of-coverage",
+  "title": "Boat Insurance Proof of Coverage: What a Marina or Lender Actually Wants to See",
+  "description": "What a certificate of insurance actually needs to show, why 'additional insured' status matters for a marina, and what to do if your documentation doesn't satisfy a lender or slip agreement — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-09-26",
+  "readingTime": 6,
+  "featured": false,
+  "tags": [
+    "boat insurance proof of coverage",
+    "certificate of insurance",
+    "marina insurance",
+    "boat insurance by state"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "A certificate of insurance (COI) is the standard document marinas and lenders actually ask for — a one-page summary showing your insurer, policy number, coverage limits, and effective dates, not your full policy contract.",
+    "Many marinas require the marina itself to be listed as an 'additional insured' on your liability coverage, which is a specific request your insurer needs to process, not something a standard certificate automatically includes.",
+    "A lender financing your boat typically wants proof of physical damage coverage (not just liability) at a level tied to the loan balance, and often wants to be listed as a 'loss payee' so any claim payout is directed appropriately if the boat is a total loss.",
+    "Requesting an updated certificate is usually fast — most insurers can issue one within a business day — but additional-insured and loss-payee endorsements can take longer, so it's worth requesting them well before a marina or loan deadline.",
+    "This is the practical, paperwork side of the coverage decisions covered in [Boat Insurance by State: Requirements & Costs](/learn/boat-insurance-by-state-requirements-costs/) and [Marina Insurance](/learn/marina-insurance/) — having the right coverage doesn't help if you can't produce the right document to prove it."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Can I generate my own certificate of insurance, or does the insurer have to issue it?",
+      "answer": "Your insurer or licensed agent must issue the certificate — it's an official document verifying your actual coverage, so it can't be self-generated. Many insurers now offer instant COI generation through an online account portal."
+    },
+    {
+      "question": "Does being listed as an additional insured cost extra?",
+      "answer": "This varies by insurer — some include a limited number of additional-insured endorsements at no extra charge, while others may charge a modest fee, particularly for multiple endorsements. Ask your insurer directly what applies to your policy."
+    },
+    {
+      "question": "What happens if my certificate of insurance expires while I still have coverage?",
+      "answer": "A certificate typically reflects your policy's current term and needs to be reissued at each renewal — an expired certificate doesn't mean your actual coverage lapsed, but you'll need an updated certificate to satisfy an ongoing marina or lender requirement."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Having adequate boat insurance and being able to prove it on demand are two different things, and a lot of owners get caught out by the second part right before a marina or loan deadline. Below are the questions owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Is a Certificate of Insurance, and Why Isn't My Full Policy Enough?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A certificate of insurance (COI) is a standardized, one-page summary document showing your insurer's name, policy number, coverage types and limits, and the policy's effective and expiration dates. Marinas and lenders ask for this specific document rather than your full policy contract because it's quick to review and verify, while a full policy can run dozens of pages. Your insurer or agent can typically generate a COI within a business day upon request, and many now offer this through an online account portal."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Does a Marina Specifically Want to Be Listed as an \"Additional Insured\"?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Being named as an [additional insured](/learn/named-insured-vs-additional-insured/) on your liability coverage means the marina itself is protected under your policy if your boat causes damage or injury on their property — for example, if your boat breaks loose during a storm and damages a neighboring vessel or the dock itself. This is a specific endorsement your insurer needs to add to your policy, not something a standard certificate automatically includes, so if a marina's slip agreement requires it, you'll need to explicitly request it rather than assuming a basic COI satisfies the requirement. See [Marina Insurance](/learn/marina-insurance/) for the marina's own side of this requirement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Does a Lender Actually Want to See, Beyond Just Liability Coverage?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A lender financing your boat is primarily concerned with protecting its collateral — the boat itself — so it typically requires proof of physical damage coverage (comprehensive and collision-equivalent marine coverage) at a level adequate to cover the outstanding loan balance, not just liability coverage. Many lenders also want to be listed as a loss payee, meaning if the boat is a total loss, the insurance payout is directed to satisfy the loan balance first, with any remainder going to you. This is a different, and usually additional, request from what a marina typically asks for."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Far in Advance Should You Request This Documentation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A basic certificate of insurance is usually fast to obtain, often same-day or within one business day. Additional-insured and loss-payee [endorsements](/learn/what-is-an-insurance-endorsement/), however, sometimes require [underwriting](/learn/what-is-insurance-underwriting/) review and can take longer, particularly if it's your insurer's first time processing that specific request for your policy. Request any required endorsements as soon as you sign a slip agreement or finance a boat, rather than waiting until the week a deadline is due."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What If Your Current Coverage Doesn't Actually Meet the Requirement?"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a marina or lender's specific requirement (a liability limit, an additional-insured endorsement, a physical damage coverage level) exceeds what your current policy provides, you'll need to increase your coverage before the documentation will satisfy the request — simply asking for a certificate won't create coverage that doesn't exist. This is a good moment to revisit whether your overall coverage, including your [liability limit](/qa/how-much-boat-liability-insurance-do-you-need/), is actually adequate for your situation, not just the minimum needed to satisfy a specific requirement."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature. Certificate of insurance requirements, additional-insured and loss-payee endorsement processes, and lender requirements vary by insurer, marina, and lender. Confirm specific documentation requirements directly with your marina, lender, and insurance provider."
+    }
+  ]
+}

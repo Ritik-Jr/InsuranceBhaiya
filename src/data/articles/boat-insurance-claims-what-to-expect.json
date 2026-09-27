@@ -1,0 +1,106 @@
+{
+  "type": "learn",
+  "id": "boat-insurance-claims-what-to-expect",
+  "slug": "boat-insurance-claims-what-to-expect",
+  "title": "Boat Insurance Claims: What to Expect After an Accident",
+  "description": "What actually happens after you report a boat insurance claim, how a marine surveyor's role differs from an auto adjuster's, and when the dispute is serious enough to need a lawyer — answered question by question.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Boat & Marine Insurance Group",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-09-26",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "boat insurance claims",
+    "boat insurance by state",
+    "marine survey"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "A boat insurance claim follows the same general first-party process covered in [First-Party Insurance Claims](/learn/first-party-insurance-claims/) — report promptly, document before repairs, mitigate further loss — but with marine-specific steps layered on top.",
+    "Most marine insurers assign a marine surveyor rather than a generic auto-style adjuster for anything beyond minor cosmetic damage, since assessing hull, rigging, and mechanical damage requires specialized expertise.",
+    "Salvage and wreck removal are frequently handled as their own distinct coverage line within a boat policy, separate from the hull damage claim itself, and many state and federal rules require a sunk or grounded vessel to be removed regardless of insurance status.",
+    "If your named storm deductible, uninsured boater coverage, or agreed value settlement is in dispute, understanding which specific coverage applies — see [Boat Insurance and Hurricane Season](/learn/boat-insurance-and-hurricane-season/) and [Uninsured Boater Coverage](/qa/uninsured-boater-coverage/) — is the first step before assuming the claim is simply being handled badly.",
+    "A denied or significantly underpaid boat claim follows the same escalation logic as any other first-party dispute — see [When & How to Hire an Insurance Lawyer](/learn/when-to-hire-an-insurance-lawyer/) for the specific signs it's time to bring in professional help."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does boat insurance cover the cost of removing a sunk boat even if I don't want to repair it?",
+      "answer": "Often yes, if wreck removal is included as a specific coverage line — many owners are legally required to remove a sunk or grounded vessel from navigable waters regardless of whether they plan to repair or replace it, which is exactly why this coverage matters even on an older boat you might otherwise total out."
+    },
+    {
+      "question": "Can I choose my own marine surveyor, or does the insurer assign one?",
+      "answer": "The insurer typically assigns the surveyor for the claim itself, but you're generally entitled to get your own independent survey or appraisal if you disagree with the insurer's findings, similar to getting an independent repair estimate on a home or auto claim."
+    },
+    {
+      "question": "Does a boat insurance claim affect my premium the same way an auto claim does?",
+      "answer": "Often yes — a paid claim, even a legitimate one, can affect renewal pricing or eligibility depending on your insurer and state, similar to how auto and home claims can affect future premiums."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Filing a boat claim shares the same DNA as any first-party insurance claim, but the water changes a few things — who inspects the damage, what \"total loss\" actually means for a boat, and what happens when the vessel itself needs to be removed from the water. Below are the questions boat owners actually need answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Are the First Steps After a Boating Accident or Loss?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The core first-party process is the same one covered in [First-Party Insurance Claims](/learn/first-party-insurance-claims/): report the loss promptly, photograph and document everything before repairs begin, and take reasonable steps to prevent further damage — which on the water can mean anything from pumping out a slowly flooding hull to arranging an emergency haul-out. Report the claim to your insurer as soon as it's safe to do so, and if the accident involved another vessel or an injury, exchange registration and insurance information the same way you would after a car accident."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Actually Inspects the Damage — an Adjuster or a Surveyor?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For anything beyond minor, purely cosmetic damage, most marine insurers assign a marine surveyor rather than a generalist claims adjuster. A marine survey is a specialized inspection covering hull integrity, mechanical and electrical systems, rigging (on a [sailboat](/compare/sailboat-vs-powerboat-insurance/)), and structural soundness — expertise a typical auto-focused adjuster doesn't have. The surveyor's report typically drives both the repair estimate and, for a serious loss, the total-loss determination, so it's worth being present during the survey if possible and raising any concerns about the vessel's history or prior condition directly with the surveyor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens if the Boat Sinks or Runs Aground?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wreck removal and salvage are commonly handled as a distinct coverage line within a boat policy, separate from hull damage coverage itself, and it's worth confirming this limit specifically rather than assuming it's unlimited or automatically bundled at an adequate level. Many states and the federal government require a sunk, grounded, or abandoned vessel to be removed from navigable waters regardless of whether insurance covers the cost, which is exactly why this specific coverage matters — without it, an owner can be personally on the hook for removal costs even after their [hull coverage](/compare/liability-only-vs-full-coverage-boat-insurance/) has paid out."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Does a Total Loss Actually Get Settled?"
+    },
+    {
+      "type": "paragraph",
+      "text": "This depends entirely on how your policy is structured: an [agreed value policy](/compare/agreed-value-vs-actual-cash-value-boat-insurance/) pays the pre-appraised amount with no depreciation, while an [actual cash value policy](/compare/agreed-value-vs-actual-cash-value-boat-insurance/) pays current market value minus depreciation — and this is exactly where a claim dispute most often arises, since \"market value\" for an unusual or well-maintained boat can be genuinely contestable. If your accident happened during hurricane season, also confirm whether a [named storm deductible](/learn/boat-insurance-and-hurricane-season/) applies, since it can meaningfully change your net settlement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When Does a Boat Claim Dispute Need a Lawyer, Rather Than Just Patience?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A boat claim dispute follows the same escalation logic as any other first-party insurance dispute: a denial that seems to contradict your actual policy wording, a settlement offer far below an independent survey or appraisal, or an insurer that's gone silent past your state's claims-handling deadlines are all signs worth taking seriously. The full decision framework — including what a lawyer actually costs and when a public adjuster might be enough instead — is covered in [When & How to Hire an Insurance Lawyer](/learn/when-to-hire-an-insurance-lawyer/)."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and general in nature and does not constitute legal advice. Boat insurance claims processes, wreck removal requirements, and settlement methods vary by insurer, policy, and jurisdiction. Consult your policy documents and a licensed marine insurance professional for guidance specific to your claim."
+    }
+  ]
+}

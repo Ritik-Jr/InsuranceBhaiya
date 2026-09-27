@@ -21,7 +21,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "An insurance policy is a legally binding written contract between the [policyholder](/learn/what-is-a-policyholder) and the [insurer](/learn/what-is-an-insurer). It establishes the explicit conditions, perils, and monetary ceilings under which the insurance company will disburse funds for covered damages or liabilities."
+      "text": "An insurance policy is a legally binding written contract between the [policyholder](/learn/what-is-a-policyholder/) and the [insurer](/learn/what-is-an-insurer/). It establishes the explicit conditions, perils, and monetary ceilings under which the insurance company will disburse funds for covered damages or liabilities."
     },
     {
       "type": "heading",
@@ -76,7 +76,7 @@
       "type": "callout",
       "variant": "info",
       "title": "The Most Important Page: The Dec Page",
-      "text": "The Declarations Page is the very first document in your policy packet. Always review this page immediately upon renewal to ensure your [deductibles](/learn/what-is-a-deductible) and [coverage limits](/learn/what-is-a-coverage-limit) match what you were quoted."
+      "text": "The Declarations Page is the very first document in your policy packet. Always review this page immediately upon renewal to ensure your [deductibles](/learn/what-is-a-deductible/) and [coverage limits](/learn/what-is-a-coverage-limit/) match what you were quoted."
     },
     {
       "type": "heading",
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Before archiving your policy packet, run an audit using our [Policy Checklist](/policy-check) to cross-reference liability limits and verify that no unendorsed exclusions leave you vulnerable."
+      "text": "Before archiving your policy packet, run an audit using our [Policy Checklist](/policy-check/) to cross-reference liability limits and verify that no unendorsed exclusions leave you vulnerable."
     },
     {
       "type": "faq",

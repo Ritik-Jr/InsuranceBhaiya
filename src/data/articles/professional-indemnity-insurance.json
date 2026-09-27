@@ -26,10 +26,10 @@
   "language": "en",
   "keyTakeaways": [
     "Professional indemnity insurance (PI) — called errors & omissions (E&O) insurance in the US — covers financial loss a client suffers because of your professional advice, service, or certification being negligent, not physical injury or property damage.",
-    "It's a distinct coverage from public liability insurance, which handles physical injury and property damage claims; many professionals, including [gas engineers doing certification work](/learn/gas-engineer-public-liability-insurance), need both together rather than one substituting for the other.",
+    "It's a distinct coverage from public liability insurance, which handles physical injury and property damage claims; many professionals, including [gas engineers doing certification work](/learn/gas-engineer-public-liability-insurance/), need both together rather than one substituting for the other.",
     "PI is a mandatory condition of practice for many regulated professions — solicitors, accountants, architects, financial advisers — set by their regulatory or professional body, not left entirely to individual choice the way it is for some other trades.",
     "Like most professional liability lines, PI is typically written on a claims-made basis, meaning run-off or 'tail' cover matters enormously when a professional retires, changes firms, or lets a policy lapse.",
-    "This is the same underlying concept covered for two specific professions elsewhere in this guide — [attorney malpractice insurance](/qa/attorney-malpractice-insurance-california) and [medical malpractice insurance](/learn/medical-malpractice-insurance) — professional indemnity is simply the broader umbrella term, especially common in the UK, covering the same idea across many other professions."
+    "This is the same underlying concept covered for two specific professions elsewhere in this guide — [attorney malpractice insurance](/qa/attorney-malpractice-insurance-california/) and [medical malpractice insurance](/learn/medical-malpractice-insurance/) — professional indemnity is simply the broader umbrella term, especially common in the UK, covering the same idea across many other professions."
   ],
   "sections": [],
   "faqs": [
@@ -63,7 +63,7 @@
     },
     {
       "type": "paragraph",
-      "text": "It covers a client's financial loss resulting from your negligent advice, service, design, or certification — an accountant's error causing a tax penalty, an architect's design flaw causing costly rework, a consultant's bad advice leading to a failed business decision, or an engineer signing off on faulty work. The key distinguishing feature is that the harm is financial rather than physical: no one needs to be injured or any property physically damaged for a PI claim to arise, which is exactly what separates it from public liability or general liability insurance."
+      "text": "It covers a client's financial loss resulting from your negligent advice, service, design, or certification — an accountant's error causing a tax penalty, an architect's design flaw causing costly rework, a consultant's bad advice leading to a failed business decision, or an engineer signing off on faulty work. The key distinguishing feature is that the harm is financial rather than physical: no one needs to be injured or any property physically damaged for a PI claim to arise, which is exactly what separates it from [public liability](/qa/contract-works-insurance-vs-public-liability-insurance/) or [general liability insurance](/learn/commercial-general-liability-guide/)."
     },
     {
       "type": "heading",
@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Public liability insurance covers physical injury or property damage to third parties; professional indemnity covers financial loss from negligent professional advice or work. A [gas engineer](/learn/gas-engineer-public-liability-insurance), for example, needs public liability for a gas leak causing physical damage, but needs professional indemnity separately for a situation where a certificate or inspection they signed off on turns out to be negligently wrong, causing the client financial loss even without any physical incident. Many professionals doing certification, advisory, or design work genuinely need both, rather than treating one as a substitute for the other."
+      "text": "Public liability insurance covers physical injury or property damage to third parties; professional indemnity covers financial loss from negligent professional advice or work. A [gas engineer](/learn/gas-engineer-public-liability-insurance/), for example, needs public liability for a gas leak causing physical damage, but needs professional indemnity separately for a situation where a certificate or inspection they signed off on turns out to be negligently wrong, causing the client financial loss even without any physical incident. Many professionals doing certification, advisory, or design work genuinely need both, rather than treating one as a substitute for the other."
     },
     {
       "type": "heading",
@@ -81,7 +81,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A number of regulated professions have professional indemnity insurance as a mandatory condition of practice, set by their governing regulatory or professional body rather than left to individual choice — solicitors, chartered accountants, financial advisers, architects, and surveyors are common examples in the UK, with broadly similar mandatory or near-mandatory requirements for equivalent professions (often under the name errors & omissions insurance) in the US. Many other professions carry it voluntarily because clients, particularly larger corporate clients, routinely require proof of coverage before engaging a contractor or consultant."
+      "text": "A number of regulated professions have professional indemnity insurance as a mandatory condition of practice, set by their governing regulatory or professional body rather than left to individual choice — solicitors, chartered accountants, financial advisers, architects, and surveyors are common examples in the UK, with broadly similar mandatory or near-mandatory requirements for equivalent professions (often under the name errors & omissions insurance) in the US. Many other professions carry it voluntarily because clients, particularly larger corporate clients, routinely require [proof of coverage](/learn/boat-insurance-proof-of-coverage/) before engaging a contractor or consultant."
     },
     {
       "type": "heading",
@@ -99,13 +99,13 @@
     },
     {
       "type": "paragraph",
-      "text": "Coverage limits and pricing are driven primarily by the specific professional activity performed, the typical financial size of the projects or advice involved, and claims history — an architect designing large commercial buildings needs materially higher limits than a sole-practitioner bookkeeper, reflecting the realistic scale of financial loss a mistake in each role could cause. Regulatory bodies that mandate PI coverage often also set minimum required limits specific to that profession, which should be confirmed directly with the relevant regulator rather than assumed."
+      "text": "[Coverage limits](/learn/what-is-a-coverage-limit/) and pricing are driven primarily by the specific professional activity performed, the typical financial size of the projects or advice involved, and claims history — an architect designing large commercial buildings needs materially higher limits than a sole-practitioner bookkeeper, reflecting the realistic scale of financial loss a mistake in each role could cause. Regulatory bodies that mandate PI coverage often also set minimum required limits specific to that profession, which should be confirmed directly with the relevant regulator rather than assumed."
     },
     {
       "type": "callout",
       "variant": "tip",
       "title": "Part of a Broader Series",
-      "text": "This is one of several niche commercial insurance topics covered in our full guide, [Niche Commercial Insurance: Hotels, Marinas & Malpractice](/learn/niche-commercial-insurance-hotels-marinas-malpractice)."
+      "text": "This is one of several niche commercial insurance topics covered in our full guide, [Niche Commercial Insurance: Hotels, Marinas & Malpractice](/learn/niche-commercial-insurance-hotels-marinas-malpractice/)."
     },
     {
       "type": "disclaimer",

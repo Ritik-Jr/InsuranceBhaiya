@@ -21,7 +21,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "Most people never open their insurance policy envelope until disaster strikes—and by then, discovering an unexpected exclusion or sub-limit is too late. Reading an insurance policy does not require a law degree if you follow this structured 6-step roadmap."
+      "text": "Most people never open their insurance policy envelope until disaster strikes—and by then, discovering an unexpected exclusion or [sub-limit](/glossary/sub-limit/) is too late. Reading an insurance policy does not require a law degree if you follow this structured 6-step roadmap."
     },
     {
       "type": "heading",
@@ -44,7 +44,7 @@
       "type": "callout",
       "variant": "tip",
       "title": "Use Our Interactive Checklist",
-      "text": "Run through our [8-Point Policy Health Check](/policy-check) to systematically score your current policy against consumer protection best practices."
+      "text": "Run through our [8-Point Policy Health Check](/policy-check/) to systematically score your current policy against consumer protection best practices."
     },
     {
       "type": "faq",

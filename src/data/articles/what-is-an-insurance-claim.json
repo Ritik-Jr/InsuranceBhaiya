@@ -21,7 +21,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "An insurance claim is a formal, legal request submitted by a [policyholder](/learn/what-is-a-policyholder) to an [insurance carrier](/learn/what-is-an-insurer) requesting financial reimbursement or defense for a covered loss or liability incident."
+      "text": "An insurance claim is a formal, legal request submitted by a [policyholder](/learn/what-is-a-policyholder/) to an [insurance carrier](/learn/what-is-an-insurer/) requesting financial reimbursement or defense for a covered loss or liability incident."
     },
     {
       "type": "heading",
@@ -33,9 +33,9 @@
       "ordered": true,
       "items": [
         "First Notice of Loss (FNOL): The insured contacts the carrier via app, phone, or portal to report the date, time, location, and nature of the damage.",
-        "Assignment of Claims Adjuster: The carrier assigns a licensed adjuster to inspect damage, review police reports, and verify that the cause of loss is not [excluded](/learn/what-is-an-exclusion-in-insurance).",
+        "Assignment of Claims Adjuster: The carrier assigns a licensed adjuster to inspect damage, review police reports, and verify that the cause of loss is not [excluded](/learn/what-is-an-exclusion-in-insurance/).",
         "Scope of Loss & Repair Estimation: The adjuster drafts an itemized estimate calculating materials, labor, and depreciation (Actual Cash Value vs Replacement Cost).",
-        "Deductible Application: The predetermined [deductible](/learn/what-is-a-deductible) is subtracted from the total settlement figure.",
+        "Deductible Application: The predetermined [deductible](/learn/what-is-a-deductible/) is subtracted from the total settlement figure.",
         "Disbursement & Subrogation: The insurer issues payment to the policyholder or contractor, and then seeks recovery (subrogation) from any at-fault third party."
       ]
     },

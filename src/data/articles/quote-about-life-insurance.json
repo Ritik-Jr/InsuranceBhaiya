@@ -1,0 +1,101 @@
+{
+  "type": "learn",
+  "id": "quote-about-life-insurance",
+  "slug": "quote-about-life-insurance",
+  "title": "10 Quotes About Life Insurance Worth Actually Thinking About",
+  "description": "A curated collection of quotes about life insurance from business and insurance figures, with context on what each one actually gets right.",
+  "category": "life-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27",
+  "readingTime": 3,
+  "featured": false,
+  "tags": [
+    "life insurance quotes",
+    "life insurance basics",
+    "life-insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "The most quoted lines about life insurance tend to cluster around one idea: it's the one financial product you buy for someone else's benefit, not your own.",
+    "Several widely circulated 'insurance quotes' attributed to famous business figures are difficult to verify to an original, primary source — treat attribution with some skepticism rather than assuming every widely shared quote is authentic.",
+    "The most useful quotes for actually explaining life insurance to someone tend to be the plainest ones, not the most clever ones.",
+    "A good quote can motivate someone to get coverage, but it can't substitute for actually calculating [how much life insurance you need](/qa/how-much-life-insurance-do-i-need/)."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Who actually said 'the best time to buy life insurance is when you don't need it'?",
+      "answer": "This line is widely used across the insurance industry without a single, clearly verified original author — it functions more as an industry aphorism than a quote from one specific, documented source."
+    },
+    {
+      "question": "Are these quotes useful for actually deciding how much coverage to buy?",
+      "answer": "No — they're useful for motivation or explaining the concept simply, but the actual coverage amount should come from a specific calculation like the DIME method, covered in how much life insurance do I need."
+    }
+  ],
+  "companionTool": {
+    "slug": "life-insurance-calculator",
+    "title": "Life Insurance Needs Calculator",
+    "description": "Calculate exact capital needed to protect your family with our transparent 10-year income replacement model."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "People search for quotes about life insurance for a few different reasons: to explain the concept simply to someone else, to find something motivating before finally buying a policy, or out of general curiosity about how the idea has been described over time. Here are ten that come up often, with some honest context on each."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "On Buying It for Someone Else"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "\"Life insurance is not for the person who dies. It's for those who go on living.\" — This captures the core mechanism better than almost any other framing: the insured person never benefits directly, which is exactly why insurable interest law (see [can you get life insurance on anyone](/qa/can-you-get-life-insurance-on-anyone/)) requires a real relationship between the buyer and the insured.",
+        "\"You buy life insurance so that other people don't have to suffer the consequences of your death.\" — A blunter version of the same idea, often used by financial educators to reframe the purchase away from 'am I going to die soon' and toward 'who depends on my income.'"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "On Procrastination"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "\"The best time to buy life insurance is when you don't need it.\" — Widely repeated in the insurance industry, this reflects a real underwriting fact: coverage gets more expensive and harder to qualify for as you age or develop health conditions, so waiting has a real cost.",
+        "\"Nobody plans to fail, they fail to plan.\" — Often attributed to Benjamin Franklin, though the specific attribution is difficult to verify to a primary source; regardless of origin, it's frequently used in life insurance marketing to nudge procrastinators."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "On What It Actually Represents"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "\"Life insurance is the cheapest way to purchase peace of mind.\" — A marketing-friendly line, but genuinely defensible: relative to the size of the eventual payout, term life premiums are low compared to most other financial products.",
+        "\"Insurance is the only product that both the seller and buyer hope is never actually used.\" — A common industry saying capturing the odd psychology of buying protection you hope never pays out."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "A Quote Isn't a Coverage Calculation",
+      "text": "Every one of these quotes can help motivate a decision, but none of them tells you how much coverage you actually need. See [how much life insurance do I need](/qa/how-much-life-insurance-do-i-need/) for the actual math."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Several quotes and attributions in this article are widely circulated but difficult to verify to a single, original primary source, which is common for aphorisms in the insurance and financial industries. This article is for general interest and does not constitute financial advice."
+    }
+  ]
+}

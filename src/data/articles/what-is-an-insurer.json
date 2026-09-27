@@ -21,7 +21,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "An insurer—frequently referred to as an insurance carrier or underwriting company—is the licensed financial institution that assumes contractual liability for covered losses, collects [premiums](/learn/what-is-an-insurance-premium), and holds legal responsibility for settling [claims](/learn/what-is-an-insurance-claim)."
+      "text": "An insurer—frequently referred to as an insurance carrier or underwriting company—is the licensed financial institution that assumes contractual liability for covered losses, collects [premiums](/learn/what-is-an-insurance-premium/), and holds legal responsibility for settling [claims](/learn/what-is-an-insurance-claim/)."
     },
     {
       "type": "heading",
@@ -75,7 +75,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If an admitted carrier becomes insolvent, state statutory safety nets known as State Guaranty Associations step in. These associations transfer active policies to solvent carriers or pay claims up to statutory state caps (typically $300,000 to $500,000 per policyholder), coordinated via the [National Organization of Life & Health Insurance Guaranty Associations (NOLHGA)](https://www.nolhga.com/)."
+      "text": "If an [admitted carrier](/scenarios/two-neighbors-different-admitted-status/) becomes insolvent, state statutory safety nets known as State Guaranty Associations step in. These associations transfer active policies to solvent carriers or pay claims up to statutory state caps (typically $300,000 to $500,000 per policyholder), coordinated via the [National Organization of Life & Health Insurance Guaranty Associations (NOLHGA)](https://www.nolhga.com/)."
     },
     {
       "type": "faq",
