@@ -19,6 +19,20 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Homeowners & Property Insurance Essentials: Who Insures What, and Where the Gaps Hide",
+    "slug": "homeowners-and-property-insurance-essentials",
+    "description": "Bundling home and auto, leasehold and body corporate rules, boiler cover, Hialeah quotes, California wildfire zones and Farm Bureau coverage explained.",
+    "category": "home-insurance"
+},
+
+    {
+    "title": "Gap Insurance: Is It Worth It and How Much Does It Cost?",
+    "slug": "gap-insurance-worth-it-and-cost",
+    "description": "Gap insurance pays what you still owe after a total loss. Learn when gap insurance is worth it, what it costs, and where to buy it cheaply.",
+    "category": "car-insurance"
+},
+
+    {
     "title": "How Much Is Motorcycle Insurance? Average Cost by Age, Bike Type & State (2026)",
     "slug": "average-cost-of-motorcycle-insurance",
     "description": "How much is motorcycle insurance? See 2026 average costs for minimum and full coverage by age, bike type and state, plus the 7 factors that set your price.",
@@ -831,6 +845,76 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "What Does Farm Bureau Homeowners Insurance Cover?",
+      "slug": "what-does-farm-bureau-homeowners-insurance-cover",
+      "shortAnswer": "Farm Bureau homeowners policies typically cover the dwelling, other structures such as sheds and detached garages, personal property, loss of use (additional living expenses), personal liability and medical payments to others. There is no single national Farm Bureau policy, though: Farm Bureau insurers are separate state-based companies, so exact forms, endorsements and discounts depend on your state. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how these coverages fit together.",
+      "category": "Home"
+},
+
+      {
+      "question": "How Do You Get Home Insurance in a High Fire Risk Area in California?",
+      "slug": "california-home-insurance-in-high-fire-risk-areas",
+      "shortAnswer": "Start with the standard market, because California's Sustainable Insurance Strategy is bringing more insurers back into wildfire-distressed areas, and document wildfire mitigation such as ember-resistant vents, a Class A roof and defensible space to earn discounts. If no admitted insurer will write you, the California FAIR Plan is the insurer of last resort, and many owners pair it with a difference-in-conditions (DIC) policy to fill its gaps. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for the wider picture.",
+      "category": "Home"
+},
+
+      {
+      "question": "Does House Insurance Cover Boiler Breakdown?",
+      "slug": "does-house-insurance-cover-boiler",
+      "shortAnswer": "Generally not for breakdown. Standard house insurance pays for a boiler damaged by an insured event such as fire, a storm, an escape of water, or accidental damage if you have that add-on, but it excludes a boiler that fails through wear and tear, age or poor maintenance. Breakdown cover comes from home emergency cover, a boiler cover plan, a manufacturer warranty or an equipment breakdown endorsement. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how this fits with the rest of a home policy.",
+      "category": "Home"
+},
+
+      {
+      "question": "Do I Need Home Insurance If I Have Body Corporate?",
+      "slug": "do-i-need-home-insurance-if-i-have-body-corporate",
+      "shortAnswer": "Usually yes, in the form of contents insurance. Body corporate (strata or owners corporation) insurance covers the building, common property and the scheme's public liability, but it generally does not cover your belongings, some internal items depending on the state, or your personal liability inside your lot. Owner-occupiers typically add contents cover and investors add landlord insurance. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how this compares with leasehold and US condo structures.",
+      "category": "Home"
+},
+
+      {
+      "question": "Do I Need Building Insurance for a Leasehold Flat?",
+      "slug": "do-i-need-building-insurance-for-a-leasehold-flat",
+      "shortAnswer": "Usually you need it to exist, but you do not buy it yourself. In England and Wales the freeholder, residents' management company or managing agent normally arranges one block buildings policy for the whole structure and common parts, and you pay your share through the service charge. Buildings insurance is not required by law, but your lease and mortgage lender almost always require it, and you still need your own contents insurance. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how this compares with other property types.",
+      "category": "Home"
+},
+
+      {
+      "question": "Home and Auto Insurance Near Me: How Do I Find and Price a Bundle?",
+      "slug": "home-and-auto-insurance-near-me",
+      "shortAnswer": "The fastest way to find home and auto insurance near you is to quote three routes side by side: a local captive agent (one company), an independent agent or broker (several companies), and a direct online quote. Bundling both policies with one insurer commonly earns a multi-policy discount, often somewhere between 5% and 25%, but the bundle only wins if its total price beats two separate policies. See the full [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how the home half should be sized.",
+      "category": "Home"
+},
+
+      {
+      "question": "How to cancel gap insurance and get a refund",
+      "slug": "how-to-cancel-gap-insurance-and-get-a-refund",
+      "shortAnswer": "To cancel gap insurance and get a refund, contact whoever sold it (the dealer, lender, or insurer) after you pay off the loan, refinance, or sell the car, and request a pro-rata refund of the unused portion in writing, with proof of payoff. Refunds generally apply only if you prepaid the coverage; if it was financed into your loan, ask the lender to apply the refund to your balance. Rules and deadlines vary by state and contract.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you buy gap insurance after buying a car",
+      "slug": "can-you-buy-gap-insurance-after-buying-a-car",
+      "shortAnswer": "Often yes, but it depends on the seller. Many insurers let you add gap to an existing policy only if the car is new or recently purchased and may cap how long after purchase you can add it, while lenders and credit unions may sell it during or shortly after financing. Dealerships usually sell it at signing. Eligibility windows and vehicle-age limits vary, so ask your insurer directly rather than assuming it's too late.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How much is gap insurance for a car",
+      "slug": "how-much-is-gap-insurance-for-a-car",
+      "shortAnswer": "How much gap insurance for a car costs depends mostly on where you buy it: as an add-on to your auto insurance it typically runs about $20 to $60 a year, while a dealership contract commonly costs $400 to $700 as a one-time charge, often rolled into your loan so you pay interest on it. Lenders and credit unions vary. Ranges shift by insurer, vehicle, and state, so get quotes from your own insurer before agreeing to a dealership price.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is gap insurance worth it",
+      "slug": "is-gap-insurance-worth-it",
+      "shortAnswer": "Gap insurance is worth it when you owe more on your car than it's worth, which is common with a down payment under about 20%, a loan of 60 months or longer, a fast-depreciating model, or negative equity rolled in from a trade-in. It's usually not worth it with a large down payment, a short loan, or a car already worth more than your balance. Because add-on gap can cost only about $20 to $60 a year, the downside of buying it when unsure is small.",
+      "category": "Auto"
+},
+
       {
       "question": "Do you need insurance for an electric bike?",
       "slug": "do-you-need-insurance-for-an-electric-bike",

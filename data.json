@@ -281,6 +281,432 @@
   "articles": [
     {
       "type": "learn",
+      "id": "homeowners-and-property-insurance-essentials",
+      "slug": "homeowners-and-property-insurance-essentials",
+      "title": "Homeowners & Property Insurance Essentials: Who Insures What, and Where the Gaps Hide",
+      "description": "Bundling home and auto, leasehold and body corporate rules, boiler cover, Hialeah quotes, California wildfire zones and Farm Bureau coverage explained.",
+      "category": "home-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "readingTime": 12,
+      "featured": false,
+      "tags": [
+        "home and auto insurance near me",
+        "leasehold flat buildings insurance",
+        "body corporate insurance",
+        "home insurance quotes Hialeah",
+        "boiler cover home insurance",
+        "California high fire risk home insurance",
+        "Farm Bureau homeowners insurance",
+        "home-insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us",
+        "uk",
+        "au"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Home insurance is really a stack of layers - the building, the fixtures inside it, your belongings, and your liability - and the most expensive mistakes happen when you assume someone else's policy covers a layer that is actually yours.",
+        "If you own a leasehold flat in England or Wales, the freeholder almost always arranges the block buildings policy and you pay through your service charge, but you still need your own contents cover for everything inside the flat.",
+        "Body corporate (strata) insurance in Australia covers the building and common property, not your belongings or your liability inside your lot, so most owner-occupiers still need a contents policy and landlords need landlord cover.",
+        "A standard house policy pays for a boiler damaged by an insured event like fire or a storm, but not for a boiler that simply wears out - breakdown protection is a separate add-on, warranty or service plan.",
+        "In high-risk markets like Florida and California, roof age, wind or wildfire mitigation, and whether you are stuck in the state insurer of last resort (Citizens or the FAIR Plan) matter more to your premium than almost anything else on the application."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Does bundling home and auto insurance always save money?",
+          "answer": "Usually, but not always. Multi-policy discounts commonly land somewhere between 5% and 25% depending on the insurer and state, yet the cheapest home policy and the cheapest auto policy sometimes come from two different companies. Price the bundle and the two separate policies side by side before assuming the bundle wins, and use the [Home Insurance Coverage Calculator](/home-insurance-calculator/) to make sure the home half is sized correctly first."
+        },
+        {
+          "question": "Is buildings insurance a legal requirement for a leasehold flat?",
+          "answer": "Not by law in England and Wales, but it is almost always a condition of your lease and your mortgage. In practice the freeholder or managing agent arranges it for the whole block and the cost is recharged through your service charge, so check your lease to confirm who is responsible."
+        },
+        {
+          "question": "Can a standard home policy replace flood or earthquake cover?",
+          "answer": "No. In the US, flood and earthquake damage are excluded from standard homeowners policies and need separate policies or endorsements, which is why the [replacement cost estimator](/home-replacement-cost-estimator/) and a written exclusions review belong in every renewal."
+        }
+      ],
+      "companionTool": {
+        "slug": "home-insurance-calculator",
+        "title": "Home Insurance Coverage Calculator",
+        "description": "Allocate policy limits across dwelling replacement, other structures, personal property, loss of use, and liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Searches about home insurance look scattered - someone in Florida wants quotes, someone in a London flat wonders whether they need their own buildings policy, someone in Brisbane asks whether the body corporate has them covered, and someone in California is trying to keep any coverage at all. Underneath, they are all asking the same question: which layer of this property is insured by whom, and what falls through the gap? This guide walks through seven of the most common versions of that question, with the mechanics that explain each answer. For the basic building blocks, the [Home Insurance Coverage Calculator](/home-insurance-calculator/) shows how a standard policy splits across dwelling, other structures, belongings, loss of use and liability."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Home and Auto Insurance Near Me: Is Bundling Worth It?"
+        },
+        {
+          "type": "paragraph",
+          "text": "People who search for [home and auto insurance near me](/qa/home-and-auto-insurance-near-me) are usually deciding between three routes: a captive agent who sells one company's products, an independent agent or broker who can quote several, or a direct online quote. Bundling a home and auto policy with the same insurer typically earns a multi-policy discount, commonly somewhere in the 5% to 25% range depending on the carrier and state, and it also means one claims relationship, one renewal date and one bill. The trade-off is that a bundle is only a bargain if the underlying rates are competitive, so always price the bundle against two separate policies. Sizing matters as much as price: a cheap bundle built on a dwelling limit that is too low is the costliest kind of savings, so run your numbers through the [Home Replacement-Cost Estimator](/home-replacement-cost-estimator/) first and read [agent vs broker vs insurer](/learn/agent-vs-broker-vs-insurer) to understand who you are actually buying from. Some regional insurers, including several Farm Bureau companies, add an account discount when home and auto sit under the same membership - more on that [below](/qa/what-does-farm-bureau-homeowners-insurance-cover)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Do I Need Building Insurance for a Leasehold Flat?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In England and Wales, a leasehold flat owner usually does not arrange buildings insurance personally. The freeholder, a residents' management company or the managing agent buys one block policy covering the structure and common parts, and each leaseholder pays a share through the service charge. Buildings insurance is not required by statute, but it is normally required by the lease and by your mortgage lender, so the practical answer to [do I need building insurance for a leasehold flat](/qa/do-i-need-building-insurance-for-a-leasehold-flat) is: you need it to exist, but you rarely need to buy it. What you do need is your own contents insurance, and ideally a policy that adds accidental damage to internal fixtures and trace-and-access cover for finding leaks. There is one important exception - if you share the freehold, the leaseholders arrange the block policy themselves, so read the insurance clause in your lease."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Do I Need Home Insurance If I Have Body Corporate?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Australian version of the same question - [do I need home insurance if I have body corporate](/qa/do-i-need-home-insurance-if-i-have-body-corporate) - has a similar answer. Body corporate (also called strata or owners corporation) insurance is compulsory for the scheme and covers the building, common property and the scheme's public liability. It generally does not cover your furniture and belongings, certain internal items such as carpets, curtains and some fixtures depending on the state, or your personal liability inside your lot. Owner-occupiers therefore typically need a contents policy, and investors need landlord insurance. Excess rules also catch people out: when damage affects only one lot, the lot owner may be asked to pay the excess, and a leak that originates in your unit can leave you responsible for the neighbour's claim."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Property type",
+            "Who usually insures the structure",
+            "What you still need yourself"
+          ],
+          "rows": [
+            [
+              "US owner-occupied house",
+              "You (homeowners policy, Coverage A)",
+              "Everything: dwelling, belongings, liability, plus separate flood or earthquake cover if exposed"
+            ],
+            [
+              "Leasehold flat (England and Wales)",
+              "Freeholder or management company (block policy, paid via service charge)",
+              "Contents cover, ideally with accidental damage and trace-and-access"
+            ],
+            [
+              "Strata or body corporate unit (Australia)",
+              "Body corporate or owners corporation",
+              "Contents cover (owners) or landlord insurance (investors), plus personal liability"
+            ],
+            [
+              "US condo unit",
+              "Association master policy covers the building, per the bylaws",
+              "An HO-6 policy for interiors, belongings, liability and loss assessment"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "tip",
+          "title": "Read the insurance clause before you buy anything",
+          "text": "In every one of these structures the answer to 'who insures the building?' is written in a document - your lease, your scheme's by-laws, your condo declaration or your mortgage terms. Five minutes with that clause settles the question better than any general guide, including this one. See the [Policy Review Checklist](/policy-review-checklist/) for a structured way to audit what you find."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Home Insurance Quotes in Hialeah: Why Two Neighbours Get Very Different Numbers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anyone comparing [home insurance quotes in Hialeah](/scenarios/yesenia-hialeah-home-insurance-quotes) is shopping in one of the most expensive property insurance markets in the country. Miami-Dade quotes are driven less by square footage than by roof age and material, the year the home was built, and how well it resists wind. Two inspections do most of the work: a 4-point inspection (roof, electrical, plumbing, HVAC), typically required for older homes, and a wind mitigation inspection, which commonly costs roughly $75 to $150 and can unlock meaningful credits on the wind portion of the premium. Many private carriers hesitate on shingle roofs beyond roughly 15 years, and the state insurer of last resort, Citizens Property Insurance, has been cutting rates in 2026 and depopulating back to private carriers - so compare private quotes against Citizens rather than defaulting to it. Flood is a separate policy in Florida, always."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Does House Insurance Cover Boiler Breakdown?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Generally no. [Does house insurance cover a boiler](/qa/does-house-insurance-cover-boiler) depends on why it failed. If a boiler is damaged by fire, a storm, an escape of water, or (with accidental damage cover) a knock during DIY, the buildings part of a home policy typically pays. If it stops working because it is old, worn out or poorly maintained, that is wear and tear, a standard exclusion on almost every policy. Breakdown protection comes from home emergency cover, a boiler cover plan, a manufacturer warranty or an equipment breakdown endorsement, and many of those require a documented annual service. In a leasehold flat, whether the boiler counts as part of the building or as your own fixture also depends on the lease, which is one more reason to check who insures what."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "California Home Insurance in High Fire Risk Areas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Owners searching for [California home insurance in high fire risk areas](/qa/california-home-insurance-in-high-fire-risk-areas) face a market in transition. After years of non-renewals, the state's Sustainable Insurance Strategy allows insurers to use forward-looking catastrophe models in exchange for writing more policies in wildfire-distressed areas, and the Safer from Wildfires regulation requires insurers and the FAIR Plan to recognise verified mitigation such as ember-resistant vents, Class A roofing and defensible space. The FAIR Plan remains the insurer of last resort with basic fire-focused coverage, and many owners pair it with a difference-in-conditions (DIC) policy to fill the gaps. Reports indicate the FAIR Plan's approved average dwelling rate increase of about 29.1% takes effect October 15, 2026, so this is the moment to document mitigation work and re-shop the policy - confirm current figures with the FAIR Plan or the California Department of Insurance."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Does Farm Bureau Homeowners Insurance Cover?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no single national Farm Bureau policy. Farm Bureau insurers are separate state-based companies, so the answer to [what does Farm Bureau homeowners insurance cover](/qa/what-does-farm-bureau-homeowners-insurance-cover) depends on your state's company. The common core matches any standard homeowners policy: dwelling, other structures such as sheds and detached garages, personal property, loss of use (additional living expenses), personal liability and medical payments to others. Many Farm Bureau companies also offer optional endorsements such as extended replacement cost, scheduled personal property for jewellery and similar items, and equipment or home systems cover, and some add account discounts for bundling with auto. Flood and earthquake remain separate, and farm buildings and livestock generally need a farm or ranch policy rather than a standard homeowners form."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Pattern Behind All Seven Questions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice the recurring structure: a policy pays for sudden, accidental loss to the specific layer it insures, and excludes wear and tear, gradual damage and the layers someone else insures. Understanding [replacement cost versus actual cash value](/compare/actual-cash-value-vs-replacement-cost), knowing what an [exclusion](/glossary/exclusion) is, and choosing a [deductible](/glossary/deductible) you could actually pay on a bad day will do more for you than chasing a marginally cheaper quote. If a claim ever goes sideways, the process in [first-party insurance claims](/learn/first-party-insurance-claims) applies to home losses too, and [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer) explains when a dispute needs professional help. And if a single loss could exceed your policy's liability limits, check whether an [umbrella policy](/learn/umbrella-insurance-guide) makes sense using the [Coverage Ratio Calculator](/coverage-calculator/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Which of These Questions Are Covered in Depth Elsewhere?"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "[Home and Auto Insurance Near Me: How to Find and Price a Bundle](/qa/home-and-auto-insurance-near-me) - agent types, bundling discounts and the checks that stop a cheap bundle from being underinsured",
+            "[Do I Need Building Insurance for a Leasehold Flat?](/qa/do-i-need-building-insurance-for-a-leasehold-flat) - who arranges the block policy, what it covers, and your rights to see it",
+            "[Do I Need Home Insurance If I Have Body Corporate?](/qa/do-i-need-home-insurance-if-i-have-body-corporate) - what strata cover leaves out and who pays the excess",
+            "[Yesenia's Hialeah Home Insurance Quotes](/scenarios/yesenia-hialeah-home-insurance-quotes) - a real-numbers walk-through of roof age, inspections and the Citizens comparison",
+            "[Does House Insurance Cover Boiler Breakdown?](/qa/does-house-insurance-cover-boiler) - covered perils, wear and tear, and the breakdown options that actually pay",
+            "[California Home Insurance in High Fire Risk Areas](/qa/california-home-insurance-in-high-fire-risk-areas) - FAIR Plan, DIC layering and wildfire mitigation credits",
+            "[What Does Farm Bureau Homeowners Insurance Cover?](/qa/what-does-farm-bureau-homeowners-insurance-cover) - the state-by-state structure, core coverages and common endorsements"
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and general in nature and does not constitute insurance, legal or financial advice. Property insurance rules, premiums and regulations vary by country, state, insurer and policy wording, and market conditions such as California FAIR Plan and Florida Citizens rates change frequently. Confirm details with your policy documents, your lease or scheme rules, your insurer and a licensed professional in your jurisdiction."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "gap-insurance-worth-it-and-cost",
+      "slug": "gap-insurance-worth-it-and-cost",
+      "title": "Gap Insurance: Is It Worth It and How Much Does It Cost?",
+      "description": "Gap insurance pays what you still owe after a total loss. Learn when gap insurance is worth it, what it costs, and where to buy it cheaply.",
+      "category": "car-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "readingTime": 5,
+      "featured": true,
+      "tags": [
+        "gap insurance",
+        "is gap insurance worth it",
+        "how much is gap insurance for a car",
+        "gap insurance cost",
+        "car-insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "us"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Gap insurance pays the difference between what your car was worth (its actual cash value) and what you still owe on the loan or lease when the car is totaled or stolen — nothing more.",
+        "Gap insurance is worth it when you owe more than the car is worth: a small down payment, a loan of 60 months or longer, a fast-depreciating model, or negative equity rolled in from a trade-in. It is usually not worth it with a large down payment or a short loan.",
+        "Where you buy it matters far more than the product itself: an add-on to your auto policy typically runs about $20 to $60 a year, while a dealership contract commonly costs $400 to $700 up front and is often rolled into the loan, so you pay interest on it.",
+        "Most people only need gap coverage for one to three years, until the car is worth more than the balance, and prepaid gap is generally refundable pro rata if you pay off, refinance, or sell early.",
+        "Gap insurance often does not cover your collision or comprehensive deductible, late payments and fees, or add-ons like extended warranties, so read the contract rather than assuming it makes you whole."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Is gap insurance required by law?",
+          "answer": "No state requires it. It's optional insurance, though a lender or leasing company may require it as a condition of financing, and many leases already include it."
+        },
+        {
+          "question": "Does gap insurance pay if my car is repaired instead of totaled?",
+          "answer": "No. Gap only applies when the car is declared a total loss or stolen and not recovered. Repairable damage is handled by your collision or comprehensive coverage."
+        },
+        {
+          "question": "How long do I need gap insurance?",
+          "answer": "Typically one to three years, or until your loan balance drops below the car's actual cash value. Check your payoff against a current valuation periodically, then cancel if you no longer need it."
+        }
+      ],
+      "companionTool": {
+        "slug": "car-insurance-calculator",
+        "title": "Car Insurance Coverage Calculator",
+        "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gap insurance is one of the most misunderstood add-ons in car buying. Dealers pitch it as essential, some drivers assume it's a scam, and both are wrong in specific situations. This guide covers the two questions people actually search — **is gap insurance worth it** and **how much is gap insurance for a car** — plus the practical follow-ups: where to buy it, whether you can add it later, how it differs from new car replacement coverage, and how to cancel it for a refund."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Gap Insurance Actually Does"
+        },
+        {
+          "type": "paragraph",
+          "text": "When a car is totaled or stolen, your collision or comprehensive coverage pays its actual cash value (ACV) — what the car was worth the moment before the loss — minus your deductible. If you owe more than that on your loan or lease, you're personally responsible for the difference. Gap (guaranteed asset protection) coverage pays that shortfall. It protects the loan, not the car."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Worked Example",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Loan payoff at the time of the total loss",
+              "$32,600"
+            ],
+            [
+              "Car's actual cash value (ACV)",
+              "$27,500"
+            ],
+            [
+              "Collision deductible",
+              "$500"
+            ],
+            [
+              "Paid by your auto insurer (ACV minus deductible)",
+              "$27,000"
+            ],
+            [
+              "Remaining loan balance without gap insurance",
+              "$5,600"
+            ],
+            [
+              "Typically paid by gap (payoff minus ACV)",
+              "$5,100"
+            ],
+            [
+              "Typically left for you (the deductible, if your gap contract excludes it)",
+              "$500"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice that gap pays nothing if the ACV already covers the loan. It only matters in the early years, when depreciation outpaces your loan paydown. You also need comprehensive and collision coverage for gap to have anything to sit on top of — see [does car insurance cover repairs](/qa/does-car-insurance-cover-repairs) for how those two coverages work."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Is Gap Insurance Worth It?"
+        },
+        {
+          "type": "paragraph",
+          "text": "It depends entirely on whether you're likely to owe more than the car is worth. A quick test: if your loan balance is higher than what the car would sell for today, you're 'upside down' and gap has real value. Our full breakdown is in [is gap insurance worth it](/qa/is-gap-insurance-worth-it)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Usually worth it:** down payment under about 20%, loan term of 60 months or longer, a model that depreciates quickly, negative equity rolled in from a trade-in, or a lease that doesn't already include it.",
+            "**Usually not worth it:** a large down payment, a short loan, a car that's already worth more than you owe, or a vehicle you bought outright."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Is Gap Insurance for a Car?"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Where You Buy It",
+            "Typical Cost",
+            "How You Pay"
+          ],
+          "rows": [
+            [
+              "Add-on to your auto insurance policy",
+              "About $20–$60 per year",
+              "Added to your regular premium"
+            ],
+            [
+              "Lender, bank, or credit union",
+              "Varies by institution",
+              "Often a flat fee or added to the loan"
+            ],
+            [
+              "Car dealership",
+              "About $400–$700 total",
+              "One-time charge, frequently rolled into the loan (you pay interest on it)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The same core protection can cost ten times more at a dealership. The full comparison, including what drives the price up or down, is in [how much is gap insurance for a car](/qa/how-much-is-gap-insurance-for-a-car). To see what your insurer would actually charge, use our [Car Insurance Coverage Calculator](/car-insurance-calculator/) and read [the best rate on car insurance](/qa/best-rate-on-car-insurance) for how to compare quotes properly."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Can You Buy Gap Insurance After You've Already Bought the Car?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Often yes, but the window depends on who sells it. Insurer add-ons commonly require a fairly new vehicle and may limit how long after purchase you can add coverage, while lender and dealership products may only be offered at signing. See [can you buy gap insurance after buying a car](/qa/can-you-buy-gap-insurance-after-buying-a-car)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Gap Insurance vs. New Car Replacement Coverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "These two are frequently confused. Gap pays off your loan; new car replacement pays toward a brand-new equivalent car, usually only in the first year or two of ownership. See the side-by-side in [gap insurance vs. new car replacement coverage](/compare/gap-insurance-vs-new-car-replacement)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How to Cancel Gap Insurance and Get a Refund"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you prepaid gap and then pay off the loan early, refinance, or trade the car in, you can generally get a pro-rata refund of the unused portion, but you usually have to ask. Walkthrough: [how to cancel gap insurance and get a refund](/qa/how-to-cancel-gap-insurance-and-get-a-refund)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Gap Insurance Usually Does Not Cover"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Your collision or comprehensive deductible (some contracts include a small deductible credit; many don't)",
+            "Late payments, missed-payment fees, and related loan charges",
+            "Credit insurance and similar charges rolled into the loan",
+            "Extended warranties and service contracts financed with the car",
+            "A rental car while yours is being replaced — see [how long insurance pays for a rental car after an accident](/qa/how-long-will-insurance-pay-for-rental-car-after-accident)"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "See It in Action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Meet Tyler, who financed a $34,000 SUV with nothing down and had it totaled nine months later: [Tyler's gap insurance scenario](/scenarios/tyler-totaled-suv-gap-insurance)."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Compare the Seller, Not Just the Product",
+          "text": "If a dealer quotes a gap price, ask what an add-on to your own auto policy would cost before signing. If a claim is ever denied, [when hiring a car insurance lawyer actually makes sense](/qa/car-insurance-lawyer) covers the decision framework."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "car-insurance-calculator",
+          "title": "Car Insurance Coverage Calculator",
+          "description": "Check your coverage limits and see how adding gap coverage or changing your deductible affects your premium."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gap insurance is one piece of the bigger picture in our [Car Insurance Basics guide](/learn/car-insurance-basics-registration-cost-claims). Older, paid-off cars are a different story — see [is car insurance cheaper on older cars](/qa/is-car-insurance-cheaper-on-older-cars). If you're weighing where to buy, our [independent agency vs. direct insurer comparison](/compare/agency-vs-direct-insurance) and [insurer comparison](/compare/car-insurance-companies) help, and our [legitimacy framework](/learn/insurance-company-reviews-is-brand-insurance-legit) shows how to vet an unfamiliar gap provider."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This article is educational and is not financial, legal, or insurance advice. Gap products, prices, eligibility windows, and refund rules vary by insurer, lender, dealer, and state; confirm the terms in your own contract before buying or canceling."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "average-cost-of-motorcycle-insurance",
       "slug": "average-cost-of-motorcycle-insurance",
       "title": "How Much Is Motorcycle Insurance? Average Cost by Age, Bike Type & State (2026)",
@@ -2941,7 +3367,7 @@
       "author": "Insurance Bhaiya Research Desk",
       "authorRole": "Actuarial Research Fellow",
       "publishedAt": "2026-09-26",
-      "updatedAt": "2026-09-26",
+      "updatedAt": "2026-09-28",
       "readingTime": 3,
       "featured": true,
       "tags": [
@@ -3032,7 +3458,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Every one of these states requires proof of insurance before you can register a vehicle at all — see [can you register a car without insurance](/qa/can-you-register-a-car-without-insurance/) for the rare exceptions (self-insurance, cash deposits, declaring a vehicle non-operational) that apply almost nowhere in practice."
+          "text": "Every one of these states requires proof of insurance before you can register a vehicle at all — see [can you register a car without insurance](/qa/can-you-register-a-car-without-insurance) for the rare exceptions (self-insurance, cash deposits, declaring a vehicle non-operational) that apply almost nowhere in practice."
         },
         {
           "type": "heading",
@@ -3041,7 +3467,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Getting caught driving without the required insurance carries real, escalating penalties that vary by state — see the specifics for [driving without insurance in New York](/qa/can-you-drive-without-insurance-in-ny/) and [driving without insurance in Florida](/qa/can-i-drive-without-insurance-in-fl/)."
+          "text": "Getting caught driving without the required insurance carries real, escalating penalties that vary by state — see the specifics for [driving without insurance in New York](/qa/can-you-drive-without-insurance-in-ny) and [driving without insurance in Florida](/qa/can-i-drive-without-insurance-in-fl)."
         },
         {
           "type": "heading",
@@ -3050,7 +3476,7 @@
         },
         {
           "type": "paragraph",
-          "text": "California is the most frequently searched example of a state where cost has become its own topic — see [why is car insurance so expensive in California](/qa/why-is-car-insurance-so-expensive-in-california/) for the specific regulatory, litigation, and traffic-density factors behind it. Beyond state-specific factors, two universal questions come up constantly: [is car insurance cheaper on older cars](/qa/is-car-insurance-cheaper-on-older-cars/), and how to actually find [the best rate on car insurance](/qa/best-rate-on-car-insurance/) rather than just the first quote you're offered."
+          "text": "California is the most frequently searched example of a state where cost has become its own topic — see [why is car insurance so expensive in California](/qa/why-is-car-insurance-so-expensive-in-california) for the specific regulatory, litigation, and traffic-density factors behind it. Beyond state-specific factors, two universal questions come up constantly: [is car insurance cheaper on older cars](/qa/is-car-insurance-cheaper-on-older-cars), and how to actually find [the best rate on car insurance](/qa/best-rate-on-car-insurance) rather than just the first quote you're offered."
         },
         {
           "type": "heading",
@@ -3059,7 +3485,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A standard personal auto policy covers accident and named-peril damage, not everything you might assume. See whether [car insurance covers repairs](/qa/does-car-insurance-cover-repairs/) (it depends heavily on what caused the damage), whether [your personal policy covers business use](/qa/does-my-personal-auto-insurance-cover-business-use/) of your vehicle (usually not, without an endorsement), and [how long insurance actually pays for a rental car](/qa/how-long-will-insurance-pay-for-rental-car-after-accident/) after an accident."
+          "text": "A standard personal auto policy covers accident and named-peril damage, not everything you might assume. See whether [car insurance covers repairs](/qa/does-car-insurance-cover-repairs) (it depends heavily on what caused the damage), whether [your personal policy covers business use](/qa/does-my-personal-auto-insurance-cover-business-use) of your vehicle (usually not, without an endorsement), and [how long insurance actually pays for a rental car](/qa/how-long-will-insurance-pay-for-rental-car-after-accident) after an accident. If you're financing a newer car, also see whether [gap insurance is worth it](/learn/gap-insurance-worth-it-and-cost) to cover a loan shortfall after a total loss."
         },
         {
           "type": "heading",
@@ -3068,7 +3494,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Life doesn't always fit the standard policy template. See whether [you can get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license/), whether [you can pause car insurance](/qa/can-you-pause-car-insurance/) instead of canceling outright, and [whether car insurance companies are open on Saturdays](/qa/are-car-insurance-companies-open-on-saturdays/) when you need help outside a standard workweek."
+          "text": "Life doesn't always fit the standard policy template. See whether [you can get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license), whether [you can pause car insurance](/qa/can-you-pause-car-insurance) instead of canceling outright, and [whether car insurance companies are open on Saturdays](/qa/are-car-insurance-companies-open-on-saturdays) when you need help outside a standard workweek."
         },
         {
           "type": "heading",
@@ -3077,7 +3503,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Most car insurance questions don't require legal help, but disputed claims, denied coverage, or serious injury cases sometimes do — see [car insurance lawyer](/qa/car-insurance-lawyer/) for when hiring one actually makes sense."
+          "text": "Most car insurance questions don't require legal help, but disputed claims, denied coverage, or serious injury cases sometimes do — see [car insurance lawyer](/qa/car-insurance-lawyer) for when hiring one actually makes sense."
         },
         {
           "type": "callout",
@@ -13345,6 +13771,49 @@
           "whyItMatters": "Riders frequently lose thousands of dollars in upgrades at claim time because they never raised their custom parts limit."
         }
       ]
+    },
+    {
+      "slug": "gap-insurance-vs-new-car-replacement",
+      "title": "Gap Insurance vs. New Car Replacement Coverage",
+      "subtitle": "How paying off a loan after a total loss differs from paying toward a brand-new replacement car.",
+      "category": "Car Insurance",
+      "decisionSummary": "If your main worry is owing more than the car is worth, [gap insurance](/learn/gap-insurance-worth-it-and-cost) is the cheaper, more targeted fix. If you want a brand-new equivalent car after a total loss in the first year or two, new car replacement coverage is the better fit, though it usually costs more and applies only to newer cars. Price both through your own insurer with our [Car Insurance Coverage Calculator](/car-insurance-calculator/) and see [is gap insurance worth it](/qa/is-gap-insurance-worth-it) before adding either.",
+      "options": {
+        "optionA": "Gap Insurance",
+        "optionB": "New Car Replacement Coverage"
+      },
+      "rows": [
+        {
+          "feature": "What It Pays After a Total Loss",
+          "optionA": "The difference between your car's actual cash value and your loan or lease balance.",
+          "optionB": "Toward the cost of a brand-new car of the same make and model, up to the policy's terms.",
+          "whyItMatters": "Gap protects the loan; replacement coverage protects your ability to get a new car, which is a different goal."
+        },
+        {
+          "feature": "Who Benefits Most",
+          "optionA": "Buyers who owe more than the car is worth, such as low down payments or long loans.",
+          "optionB": "Owners of new cars who want a like-new replacement rather than a depreciated payout.",
+          "whyItMatters": "If you paid cash or owe little, gap does nothing, while replacement coverage can still be valuable."
+        },
+        {
+          "feature": "Eligibility Window",
+          "optionA": "Generally as long as you have a loan or lease and comprehensive and collision coverage; some sellers limit when you can add it.",
+          "optionB": "Usually limited to new or nearly new cars, often within the first one to two years or a mileage cap, varying by insurer.",
+          "whyItMatters": "Replacement coverage expires as the car ages, while gap can be dropped once you're no longer upside down."
+        },
+        {
+          "feature": "Typical Cost",
+          "optionA": "About $20–$60 per year as an insurer add-on; $400–$700 one-time at many dealerships.",
+          "optionB": "Generally a higher add-on premium than gap, varying by insurer and vehicle.",
+          "whyItMatters": "Gap is usually the cheaper protection, so it makes sense to start there if the loan gap is your main worry."
+        },
+        {
+          "feature": "Available Where",
+          "optionA": "Insurers, lenders, credit unions, and dealerships.",
+          "optionB": "Mostly offered as an endorsement by certain auto insurers, not by every company.",
+          "whyItMatters": "If your insurer doesn't offer replacement coverage, gap may be the only option available to you."
+        }
+      ]
     }
   ],
   "glossary": [
@@ -15273,6 +15742,69 @@
         "Accessories are covered only up to your custom parts limit. Raise it on the day you buy upgrades.",
         "Always challenge a low valuation with real local comparables, and ask for your deductible back when the other driver was at fault."
       ]
+    },
+    {
+      "slug": "tyler-totaled-suv-gap-insurance",
+      "name": "Tyler",
+      "displayTitle": "Tyler's Insurance Decision",
+      "title": "Tyler's Insurance Decision",
+      "category": "General",
+      "age": 31,
+      "location": "Ohio, US",
+      "market": "US",
+      "avatarBg": "#e0f2fe",
+      "situation": "Marketing analyst who financed a $34,000 SUV with nothing down on a 72-month loan. The SUV was totaled nine months later, when he owed $32,600 and the car's actual cash value was $27,500.",
+      "coreQuestion": "My SUV was totaled and my insurer's payout doesn't cover my loan. Would gap insurance have paid the rest, and what do I still owe?",
+      "scoutTake": "Without gap, Tyler's insurer pays the $27,000 (ACV minus a $500 deductible), leaving him a $5,600 loan balance on a car he no longer has. With a typical gap contract he would owe only the $500 deductible if the contract excludes it. This is exactly the profile where [gap insurance is worth it](/qa/is-gap-insurance-worth-it): no down payment and a long loan. The good news is that gap is often cheap, see [how much gap insurance costs for a car](/qa/how-much-is-gap-insurance-for-a-car), and you can check your coverage with our [Car Insurance Coverage Calculator](/car-insurance-calculator/). Read the full breakdown in [Gap Insurance: Is It Worth It and How Much Does It Cost?](/learn/gap-insurance-worth-it-and-cost).",
+      "keyRisks": [
+        "Owing thousands on a car that no longer exists after a total loss with no gap coverage",
+        "A long loan with no down payment keeps the balance above the car's value for years",
+        "Gap contracts often exclude the deductible, late fees, and add-ons, so a shortfall can remain even with gap"
+      ],
+      "recommendedStrategy": [
+        "Price gap through your own auto insurer before signing with a dealership, and compare against lender or credit union options",
+        "Read the contract for the deductible, fee, and add-on exclusions",
+        "Re-check your loan balance against the car's value each year and drop gap once you're no longer upside down"
+      ],
+      "estimatedMonthlyCost": "$2 - $5 / month as an insurer add-on",
+      "relatedToolSlug": "car-insurance-calculator",
+      "strategies": [
+        "Get an insurer quote for gap coverage using our [Car Insurance Coverage Calculator](/car-insurance-calculator/) before agreeing to a dealership contract.",
+        "Keep a cash cushion for the deductible, and model it with our [Deductible Breakeven Calculator](/deductible-calculator/).",
+        "Compare side by side with [gap insurance vs. new car replacement coverage](/compare/gap-insurance-vs-new-car-replacement), and review your setup with our [8-Point Policy Health Check](/policy-check)."
+      ]
+    },
+    {
+      "slug": "yesenia-hialeah-home-insurance-quotes",
+      "name": "Yesenia",
+      "displayTitle": "Yesenia's Insurance Decision",
+      "title": "Yesenia's Insurance Decision",
+      "category": "General",
+      "age": 39,
+      "location": "Hialeah, Florida",
+      "market": "US",
+      "avatarBg": "#ffedd5",
+      "situation": "Yesenia is buying a 1988 concrete-block home in Hialeah with a 17-year-old shingle roof. Her first three quotes range from roughly $6,500 to over $11,000 a year, one carrier declined the roof outright, and her mortgage pre-approval assumed a much lower insurance figure. She is comparing private carriers against Citizens Property Insurance and does not know why quotes for the same house differ so much.",
+      "coreQuestion": "Why do my home insurance quotes in Hialeah range from $6,500 to $11,000 for the same house, and one company will not even write it?",
+      "scoutTake": "Yesenia's spread is normal for Miami-Dade, and it is driven by a few underwriting variables rather than the house's size. The biggest is the roof: many private carriers hesitate on shingle roofs beyond roughly 15 years, some price a roof past 10 years as though replacement is coming, and some settle roof claims on actual cash value instead of full replacement cost - see [replacement cost versus actual cash value](/compare/actual-cash-value-vs-replacement-cost) for why that matters at claim time. The second lever is a wind mitigation inspection, which typically costs roughly $75 to $150 and documents roof shape, roof-to-wall connections and opening protection so the wind portion of the premium can be credited. A 4-point inspection covering roof, electrical, plumbing and HVAC is usually needed for a home this age. Finally, Citizens, Florida's insurer of last resort, has been reducing rates in 2026 and has larger cuts reported for Miami-Dade, so it works as a benchmark - but only qualifies as an option when private quotes are well above its rate. Read the full [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how these layers fit together, and size the dwelling limit with the [Home Replacement-Cost Estimator](/home-replacement-cost-estimator/) before you compare.",
+      "keyRisks": [
+        "A roof near the end of its insurable life can trigger a declined application, a surcharge, or an actual cash value roof settlement, which turns a roof claim into a large out-of-pocket loss.",
+        "Flood is excluded from a standard Florida homeowners policy, so a home in an unmapped or low-risk-looking zone can still carry uninsured water risk without a separate flood policy.",
+        "Budgeting the mortgage on a national-average insurance figure can leave the monthly escrow far higher than planned once the real Hialeah premium is added."
+      ],
+      "recommendedStrategy": [
+        "Order the wind mitigation inspection and 4-point inspection before final quotes so every carrier prices the real features of the house, and ask for the reports to be reused across quotes where the carrier allows it.",
+        "Get at least three private quotes and compare them against Citizens, holding dwelling limit, deductibles (including the separate hurricane deductible) and liability limits constant.",
+        "Price a roof replacement or repair against the premium and settlement-terms savings, since a newer roof often changes both eligibility and cost."
+      ],
+      "estimatedMonthlyCost": "$540 - $920 / month in insurance escrow at Yesenia's quoted range, before flood insurance",
+      "relatedToolSlug": "home-insurance-calculator",
+      "strategies": [
+        "Run the dwelling replacement figure through the [Home Replacement-Cost Estimator](/home-replacement-cost-estimator/) so the coverage limit is based on rebuild cost, not purchase price.",
+        "Use the [Home Insurance Coverage Calculator](/home-insurance-calculator/) to check that other structures, belongings and liability limits are sensible before comparing price.",
+        "Compare a higher hurricane deductible against the premium reduction, using the logic in [deductible vs premium](/compare/deductible-vs-premium), and only choose one you could actually pay after a storm.",
+        "Get a separate flood quote regardless of zone, and if the property later ends up in a state insurer of last resort, read how the [California FAIR Plan works in a similar situation](/qa/california-home-insurance-in-high-fire-risk-areas)."
+      ]
     }
   ],
   "policyChecklist": [
@@ -17103,6 +17635,96 @@
       "question": "Do you need insurance for an electric bike?",
       "shortAnswer": "In most US states, no. Class 1, 2 and 3 e-bikes are treated like regular bicycles, so no license, registration or insurance is required. There are exceptions. **New Jersey** now requires e-bikes to be registered, and requires insurance for faster or throttle 'motorized bicycles', from July 2026. E-bikes that exceed the class limits are often treated as mopeds or motorcycles, which do need insurance. Even when the law doesn't require it, check whether your homeowners or renters policy covers your e-bike, because many treat it as a motorized vehicle.",
       "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-178",
+      "slug": "is-gap-insurance-worth-it",
+      "category": "Auto",
+      "question": "Is gap insurance worth it",
+      "shortAnswer": "Gap insurance is worth it when you owe more on your car than it's worth, which is common with a down payment under about 20%, a loan of 60 months or longer, a fast-depreciating model, or negative equity rolled in from a trade-in. It's usually not worth it with a large down payment, a short loan, or a car already worth more than your balance. Because add-on gap can cost only about $20 to $60 a year, the downside of buying it when unsure is small.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-179",
+      "slug": "how-much-is-gap-insurance-for-a-car",
+      "category": "Auto",
+      "question": "How much is gap insurance for a car",
+      "shortAnswer": "How much gap insurance for a car costs depends mostly on where you buy it: as an add-on to your auto insurance it typically runs about $20 to $60 a year, while a dealership contract commonly costs $400 to $700 as a one-time charge, often rolled into your loan so you pay interest on it. Lenders and credit unions vary. Ranges shift by insurer, vehicle, and state, so get quotes from your own insurer before agreeing to a dealership price.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-180",
+      "slug": "can-you-buy-gap-insurance-after-buying-a-car",
+      "category": "Auto",
+      "question": "Can you buy gap insurance after buying a car",
+      "shortAnswer": "Often yes, but it depends on the seller. Many insurers let you add gap to an existing policy only if the car is new or recently purchased and may cap how long after purchase you can add it, while lenders and credit unions may sell it during or shortly after financing. Dealerships usually sell it at signing. Eligibility windows and vehicle-age limits vary, so ask your insurer directly rather than assuming it's too late.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-181",
+      "slug": "how-to-cancel-gap-insurance-and-get-a-refund",
+      "category": "Auto",
+      "question": "How to cancel gap insurance and get a refund",
+      "shortAnswer": "To cancel gap insurance and get a refund, contact whoever sold it (the dealer, lender, or insurer) after you pay off the loan, refinance, or sell the car, and request a pro-rata refund of the unused portion in writing, with proof of payoff. Refunds generally apply only if you prepaid the coverage; if it was financed into your loan, ask the lender to apply the refund to your balance. Rules and deadlines vary by state and contract.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-182",
+      "slug": "home-and-auto-insurance-near-me",
+      "category": "Home",
+      "question": "Home and Auto Insurance Near Me: How Do I Find and Price a Bundle?",
+      "shortAnswer": "The fastest way to find home and auto insurance near you is to quote three routes side by side: a local captive agent (one company), an independent agent or broker (several companies), and a direct online quote. Bundling both policies with one insurer commonly earns a multi-policy discount, often somewhere between 5% and 25%, but the bundle only wins if its total price beats two separate policies. See the full [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how the home half should be sized.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-183",
+      "slug": "do-i-need-building-insurance-for-a-leasehold-flat",
+      "category": "Home",
+      "question": "Do I Need Building Insurance for a Leasehold Flat?",
+      "shortAnswer": "Usually you need it to exist, but you do not buy it yourself. In England and Wales the freeholder, residents' management company or managing agent normally arranges one block buildings policy for the whole structure and common parts, and you pay your share through the service charge. Buildings insurance is not required by law, but your lease and mortgage lender almost always require it, and you still need your own contents insurance. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how this compares with other property types.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-184",
+      "slug": "do-i-need-home-insurance-if-i-have-body-corporate",
+      "category": "Home",
+      "question": "Do I Need Home Insurance If I Have Body Corporate?",
+      "shortAnswer": "Usually yes, in the form of contents insurance. Body corporate (strata or owners corporation) insurance covers the building, common property and the scheme's public liability, but it generally does not cover your belongings, some internal items depending on the state, or your personal liability inside your lot. Owner-occupiers typically add contents cover and investors add landlord insurance. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how this compares with leasehold and US condo structures.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-185",
+      "slug": "does-house-insurance-cover-boiler",
+      "category": "Home",
+      "question": "Does House Insurance Cover Boiler Breakdown?",
+      "shortAnswer": "Generally not for breakdown. Standard house insurance pays for a boiler damaged by an insured event such as fire, a storm, an escape of water, or accidental damage if you have that add-on, but it excludes a boiler that fails through wear and tear, age or poor maintenance. Breakdown cover comes from home emergency cover, a boiler cover plan, a manufacturer warranty or an equipment breakdown endorsement. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how this fits with the rest of a home policy.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-186",
+      "slug": "california-home-insurance-in-high-fire-risk-areas",
+      "category": "Home",
+      "question": "How Do You Get Home Insurance in a High Fire Risk Area in California?",
+      "shortAnswer": "Start with the standard market, because California's Sustainable Insurance Strategy is bringing more insurers back into wildfire-distressed areas, and document wildfire mitigation such as ember-resistant vents, a Class A roof and defensible space to earn discounts. If no admitted insurer will write you, the California FAIR Plan is the insurer of last resort, and many owners pair it with a difference-in-conditions (DIC) policy to fill its gaps. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for the wider picture.",
+      "readingTime": "7 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-187",
+      "slug": "what-does-farm-bureau-homeowners-insurance-cover",
+      "category": "Home",
+      "question": "What Does Farm Bureau Homeowners Insurance Cover?",
+      "shortAnswer": "Farm Bureau homeowners policies typically cover the dwelling, other structures such as sheds and detached garages, personal property, loss of use (additional living expenses), personal liability and medical payments to others. There is no single national Farm Bureau policy, though: Farm Bureau insurers are separate state-based companies, so exact forms, endorsements and discounts depend on your state. See the [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how these coverages fit together.",
+      "readingTime": "5 min read",
       "difficulty": "Beginner"
     }
   ]
