@@ -73,10 +73,14 @@ const KEYWORDS = [
   ['/learn/agent-vs-broker-vs-insurer/', 2, ['insurance broker', 'independent agent', 'agent vs broker', 'agent vs. broker']],
   ['/learn/insurance-company-reviews-is-brand-insurance-legit/', 3, ['insurance company reviews', 'legitimate insurer', 'legitimate insurance company', 'verify an insurer', 'verify the insurer', 'insurer is legit']],
   ['/learn/when-to-hire-an-insurance-lawyer/', 3, ['insurance lawyer', 'insurance attorney', 'hire a lawyer', 'hire an attorney']],
+  ['/learn/can-you-have-multiple-insurance-policies-at-once/', 3, ['can you have multiple insurance policies at once', 'multiple insurance policies at once', 'multiple insurance policies', 'having two insurance policies']],
+  ['/learn/what-is-coordination-of-benefits/', 3, ['what is coordination of benefits', 'coordination of benefits rules', 'how coordination of benefits works', '=COB rules']],
   // ---- Learn: auto ----
   ['/learn/car-insurance-guide/', 2, ['state minimum liability', 'state minimums', 'state minimum coverage', 'full coverage', 'full-coverage']],
   ['/learn/car-insurance-basics-registration-cost-claims/', 2, ['car insurance basics', 'car insurance cost factors']],
   ['/learn/insuring-a-car-thats-not-in-your-name/', 3, ["car that's not in your name", 'car not in your name', 'car not in my name', "car that isn't in your name"]],
+  ['/learn/no-fault-vs-at-fault-car-insurance-states/', 3, ['no-fault vs at-fault car insurance states', 'no-fault vs at-fault', 'no-fault states', 'which states are no-fault', 'at-fault states']],
+  ['/learn/new-york-no-fault-insurance/', 3, ['new york state no fault insurance', 'new york no-fault insurance', 'new york no-fault', 'ny no-fault', 'new york no-fault system']],
   // ---- Learn: health ----
   ['/learn/health-insurance-basics/', 2, ['health insurance basics', 'how health insurance works', 'explanation of benefits']],
   ['/learn/us-health-insurance-guide/', 2, ['high-deductible health plan', 'health savings account', '=HDHP', '=HSA']],
@@ -98,8 +102,10 @@ const KEYWORDS = [
   ['/learn/quote-about-life-insurance/', 2, ['quotes about life insurance', 'life insurance sayings']],
   ['/learn/long-term-vs-short-term-disability/', 2, ['long-term disability', 'short-term disability', 'income protection']],
   ['/learn/own-occupation-disability-insurance/', 3, ['own-occupation', 'any-occupation']],
+  ['/learn/workers-compensation-insurance-exemptions/', 3, ["workers' compensation insurance exemptions", 'workers compensation insurance exemptions', 'workers comp exemptions', 'workers compensation exemptions']],
   // ---- Learn: home / property / specialty ----
   ['/learn/home-insurance-fundamentals/', 2, ['homeowners insurance', "homeowner's insurance", 'market value', 'dwelling coverage']],
+  ['/learn/renters-insurance-whats-covered-and-whats-not/', 3, ["renters insurance: what's covered and what's not", "renters insurance what's covered", "what does renters insurance cover", 'what renters insurance covers']],
   ['/learn/umbrella-insurance-guide/', 3, ['umbrella insurance', 'umbrella policy', 'personal umbrella', 'umbrella coverage']],
   ['/learn/pet-insurance-explained/', 2, ['pet insurance', 'vet bills', 'veterinary bills']],
   ['/learn/travel-insurance-guide/', 2, ['travel insurance', 'medical evacuation', 'trip delay', 'trip interruption']],
@@ -213,7 +219,7 @@ const KEYWORDS = [
   ['/qa/does-car-insurance-cover-repairs/', 3, ['car repairs', 'repair shop', 'auto repairs']],
   ['/qa/does-car-insurance-cover-vandalism/', 3, ['vandalism', 'vandalized']],
   ['/qa/does-dental-insurance-cover-teeth-whitening-or-veneers/', 3, ['teeth whitening', 'veneer', 'cosmetic dentistry']],
-  ['/qa/does-health-insurance-cover-car-accidents-pip/', 3, ['personal injury protection', '=PIP', 'medpay', 'med pay']],
+  ['/qa/does-health-insurance-cover-car-accidents-pip/', 2, ['health insurance cover car accidents']],
   ['/qa/does-health-insurance-cover-er-visits-out-of-network/', 3, ['out-of-network', 'surprise billing', 'no surprises act', 'surprise bill']],
   ['/qa/does-health-insurance-cover-eye-exams-dermatologist-chiropractic/', 3, ['eye exam', 'dermatologist', 'chiropractic', 'chiropractor']],
   ['/qa/does-health-insurance-cover-pre-existing-conditions/', 3, ['pre-existing condition', 'preexisting condition']],
@@ -284,6 +290,27 @@ const KEYWORDS = [
   ['/qa/why-did-car-insurance-go-up-without-accidents/', 3, ['rate increase', 'premium increase', 'car insurance went up', 'rates went up', 'rates go up']],
   ['/qa/why-is-car-insurance-so-expensive-in-california/', 3, ['california car insurance', 'car insurance in california', 'prop 103', 'proposition 103']],
   ['/qa/short-term-vs-long-term-disability-do-you-need-both/', 3, ['short-term and long-term disability', 'both short- and long-term']],
+  ['/qa/is-texas-a-no-fault-state/', 3, ['is texas a no fault state', 'is texas a no-fault state', 'is texas an at-fault state', 'is texas an at fault state']],
+  ['/qa/is-georgia-a-no-fault-state/', 3, ['is georgia a no fault state', 'is georgia a no-fault state', 'georgia at-fault state']],
+  ['/qa/is-colorado-a-no-fault-state/', 3, ['is colorado a no fault state', 'is colorado a no-fault state']],
+  ['/qa/is-uninsured-motorist-coverage-required-in-georgia/', 3, ['is uninsured motorist coverage required in georgia', 'uninsured motorist coverage in georgia', 'georgia uninsured motorist']],
+  ['/qa/how-to-file-a-no-fault-insurance-claim-in-new-york/', 3, ['how to file a no-fault insurance claim in new york', 'file a no-fault claim in new york', 'file a no-fault claim in ny']],
+  ['/qa/does-renters-insurance-cover-bike-theft/', 3, ['does renters insurance cover bike theft', 'bicycle theft renters insurance', 'bike theft covered by renters insurance']],
+  ['/qa/does-renters-insurance-cover-water-damage-from-a-leak/', 3, ['does renters insurance cover water damage from a leak', 'water damage from a leak renters insurance', 'renters insurance water leak']],
+  ['/qa/does-renters-insurance-cover-dog-bites/', 3, ['does renters insurance cover dog bites', 'renters insurance dog bite', 'dog bite liability']],
+  ['/qa/does-renters-insurance-cover-mold/', 3, ['does renters insurance cover mold', 'renters insurance mold damage']],
+  ['/qa/does-renters-insurance-cover-flood-or-earthquake-damage/', 3, ['does renters insurance cover flood or earthquake damage', 'renters insurance flood damage']],
+  ['/qa/does-renters-insurance-cover-roommates-belongings/', 3, ["does renters insurance cover roommate's belongings", 'does renters insurance cover roommates belongings', 'renters insurance roommate']],
+  ['/qa/how-much-renters-insurance-coverage-do-you-need/', 3, ['how much renters insurance coverage do you need', 'how much renters insurance do i need']],
+  ['/qa/are-independent-contractors-exempt-from-workers-compensation/', 3, ['are independent contractors exempt from workers compensation', 'independent contractors exempt from workers comp']],
+  ['/qa/are-sole-proprietors-required-to-have-workers-compensation-insurance/', 3, ['are sole proprietors required to have workers compensation insurance', 'sole proprietors workers comp']],
+  ['/qa/how-many-employees-before-you-need-workers-compensation-insurance/', 3, ['how many employees before you need workers compensation insurance', 'how many employees before workers comp']],
+  ['/qa/are-life-insurance-agents-exempt-from-workers-compensation/', 3, ['are life insurance agents exempt from workers compensation']],
+  ['/qa/hurt-at-work-employer-exempt-from-workers-compensation/', 3, ['hurt at work employer exempt from workers compensation', 'injured at work employer exempt from workers comp']],
+  ['/qa/can-you-have-two-health-insurances/', 3, ['can you have two health insurances', 'can you have 2 health insurances', 'two health insurance plans', 'two health insurances']],
+  ['/qa/can-i-have-multiple-life-insurance-policies/', 3, ['can i have multiple life insurance policies', 'multiple life insurance policies']],
+  ['/qa/can-you-have-two-auto-insurance-policies/', 3, ['can you have two auto insurance policies', 'two car insurance policies', 'two auto policies on one car']],
+  ['/qa/can-you-have-multiple-disability-insurance-policies/', 3, ['can you have multiple disability insurance policies', 'multiple disability insurance policies']],
 
   // ---- Compare ----
   ['/compare/aca-marketplace-vs-employer-sponsored-health-insurance/', 3, ['aca marketplace', 'marketplace plan', 'healthcare.gov', 'employer-sponsored', 'affordable care act', '=ACA']],
@@ -316,7 +343,10 @@ const KEYWORDS = [
   ['/compare/travel-insurance-cancellation-cover/', 3, ['cancel for any reason', '=CFAR', 'trip cancellation', 'cancellation cover']],
   ['/compare/urgent-care-vs-emergency-room-cost-insurance/', 3, ['urgent care vs emergency room', 'urgent care vs. emergency room', 'emergency room', 'ER visit']],
   ['/compare/verify-independent-insurance-agency-license/', 3, ['license lookup', 'producer license', "agent's license", 'verify a license', 'state license']],
-  ['/compare/verify-insurance-quote-site-before-entering-information/', 3, ['quote site', 'lead generator', 'lead-generation', 'lead generation', 'comparison site']],
+  ['/compare/verify-insurance-quote-site-before-entering-information/', 3, ['quote site', 'lead generator', 'lead-generation', 'lead generation', 'comparison site', 'verify insurance quote site']],
+  ['/compare/pip-vs-medpay/', 3, ['pip vs medpay', 'pip vs. medpay', 'personal injury protection vs medpay', 'medpay vs pip', 'pip vs med pay']],
+  ['/compare/renters-insurance-vs-landlord-insurance/', 3, ['renters insurance vs landlord insurance', 'renters vs landlord insurance', 'landlord vs renters insurance']],
+  ['/compare/workers-compensation-vs-individual-disability-insurance/', 3, ["workers' compensation vs individual disability insurance", 'workers comp vs disability insurance', 'workers comp vs individual disability']],
 
   // ---- Scenarios ----
   ['/scenarios/alex-first-mortgage-london/', 3, ['first mortgage', 'mortgage protection', 'buildings insurance']],
@@ -335,6 +365,8 @@ const KEYWORDS = [
   ['/scenarios/tom-liveaboard-houseboat-retirement/', 3, ['liveaboard', 'live aboard']],
   ['/scenarios/two-neighbors-different-admitted-status/', 3, ['admitted insurer', 'admitted carrier', 'admitted status']],
   ['/scenarios/wrong-phone-number-delayed-claim/', 3, ['wrong phone number', 'claims phone number', 'claims number', 'delayed claim']],
+  ['/scenarios/uninsured-driver-crash-georgia-um-claim/', 3, ['uninsured driver crash in georgia', 'atlanta uninsured driver scenario', 'atlanta uninsured driver crash']],
+  ['/scenarios/marcus-texas-non-subscriber-workers-comp/', 3, ['texas non-subscriber', 'texas non-subscriber workers comp', 'texas non subscriber workers comp']],
 
   // ---- Glossary ----
   ['/glossary/actual-cash-value/', 2, ['actual cash value', '=ACV']],
@@ -361,6 +393,8 @@ const KEYWORDS = [
   ['/glossary/subrogation/', 3, ['subrogation']],
   ['/glossary/total-and-permanent-disability/', 3, ['total and permanent disability', '=TPD']],
   ['/glossary/umbrella-insurance/', 2, ['excess liability']],
+  ['/glossary/personal-injury-protection/', 3, ['personal injury protection', '=PIP', 'pip coverage']],
+  ['/glossary/tort-threshold/', 3, ['tort threshold', 'verbal threshold', 'monetary tort threshold']],
 
   // ---- Category hubs & tools (low weight, capped) ----
   ['/insurance/car-insurance/', 1, ['car insurance', 'auto insurance']],
@@ -396,7 +430,7 @@ const REDIRECTS = {
   '/glossary/am-best-rating/': '/learn/what-is-an-insurer/',
   '/glossary/co-employment/': '/glossary/peo-health-plan/',
   '/glossary/contract-works/': '/qa/what-is-contract-works-insurance/',
-  '/glossary/coordination-of-benefits/': '/qa/can-you-have-two-health-insurances/',
+  '/glossary/coordination-of-benefits/': '/learn/what-is-coordination-of-benefits/',
   '/glossary/coverage/': '/learn/coverage-vs-limits/',
   '/glossary/death-benefit/': '/learn/what-is-life-insurance/',
   '/glossary/depreciation/': '/glossary/actual-cash-value/',
@@ -444,6 +478,8 @@ const GLOSSARY_TITLES = {
   'subrogation': 'What Is Subrogation in Insurance? Definition & Example',
   'total-and-permanent-disability': 'What Is Total and Permanent Disability (TPD)?',
   'umbrella-insurance': 'Umbrella Policy Meaning: Excess Liability Definition',
+  'personal-injury-protection': 'What Is Personal Injury Protection (PIP)? Definition & States',
+  'tort-threshold': 'What Is a Tort Threshold? Definition, Verbal vs Monetary',
 };
 
 const QA_TITLES = {

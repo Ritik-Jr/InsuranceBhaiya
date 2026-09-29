@@ -1,0 +1,136 @@
+{
+  "type": "learn",
+  "id": "what-is-coordination-of-benefits",
+  "slug": "what-is-coordination-of-benefits",
+  "title": "What Is Coordination of Benefits? How Two Health Plans Actually Pay a Claim",
+  "description": "Coordination of benefits decides which health plan pays first when you have two. Learn the birthday rule, primary vs. secondary, and how claims split.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-29",
+  "updatedAt": "2026-09-29",
+  "readingTime": 4,
+  "featured": false,
+  "tags": [
+    "coordination of benefits",
+    "birthday rule",
+    "dual health insurance",
+    "insurance-basics"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "us"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Coordination of benefits (COB) is the set of rules health plans use to decide which plan pays first (primary) and which pays what's left (secondary) when someone is covered by more than one plan.",
+    "COB exists specifically to prevent double payment: combined payments from both plans generally can't exceed the actual cost of the care, keeping insurance aligned with the principle of indemnity.",
+    "For a dependent child covered by both parents' plans, the 'birthday rule' usually decides which parent's plan is primary: whichever parent's birthday falls earlier in the calendar year (month and day only, not year).",
+    "COBRA continuation coverage is secondary to an active employer-sponsored plan, and a non-health payer like auto accident insurance or workers' compensation is usually primary over health insurance for a related claim."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does coordination of benefits apply to Medicare?",
+      "answer": "Yes, in a modified form — Medicare has its own coordination rules, often called Medicare Secondary Payer rules, that determine when Medicare pays first versus when an employer plan or other coverage pays first."
+    },
+    {
+      "question": "What happens if I don't tell my insurer about my other health plan?",
+      "answer": "Claims can be delayed or initially processed incorrectly, since the primary plan may not know to expect a secondary payer. Most plans ask about other coverage during enrollment or claims processing specifically to apply COB correctly."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "If you're covered by two health insurance plans at once, something has to decide which one actually pays first and how much each one covers. That something is coordination of benefits (COB), and understanding it is the key to answering [can you have two health insurances](/qa/can-you-have-two-health-insurances/) without assuming it means double payment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Basic Mechanism: Primary Pays First, Secondary Fills the Gap"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary plan processes your claim as though it were your only coverage. The secondary plan then evaluates what's left, covering some or all of the remaining eligible amount, provided it's also a covered expense under that plan's own terms. Combined, the two plans generally can't pay more than the actual bill — COB is what prevents overpayment, not what creates it."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "What Happens"
+      ],
+      "rows": [
+        [
+          "1. Bill arrives",
+          "Provider bills the primary plan first"
+        ],
+        [
+          "2. Primary pays",
+          "Primary plan pays its normal share, as if it were the only coverage"
+        ],
+        [
+          "3. Balance goes to secondary",
+          "Remaining eligible balance is submitted to the secondary plan"
+        ],
+        [
+          "4. Secondary pays what it can",
+          "Secondary plan covers some or all of the rest, up to its own limits and covered-expense rules"
+        ],
+        [
+          "5. Total capped at the bill",
+          "Combined payment from both plans generally can't exceed the actual cost of care"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Primary vs. Secondary Is Decided"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**For you:** your own employer-sponsored plan is typically primary for you.",
+        "**For your spouse:** their own employer-sponsored plan is typically primary for them.",
+        "**For dependent children:** the birthday rule usually applies (see below).",
+        "**COBRA vs. active coverage:** if you have COBRA continuation coverage plus another active employer-sponsored plan, the active employer plan is primary and COBRA is secondary.",
+        "**No clear rule applies:** the plan that has covered you longer is typically treated as primary.",
+        "**Non-health payers:** for injuries covered by something like auto accident insurance or workers' compensation, that non-health payer is usually primary over your regular health plan."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Birthday Rule, Explained"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a dependent child is covered under both parents' health plans, insurers need a consistent way to decide whose plan pays first. The birthday rule, developed by the National Association of Insurance Commissioners, resolves this by comparing birthdays: whichever parent's birthday (month and day only — the birth year doesn't matter) falls earlier in the calendar year has the primary plan for the child. If both parents share a birthday, the plan that has covered either parent longer is usually treated as primary. For divorced or separated parents, a custody order or court decree often overrides the birthday rule entirely, typically prioritizing the custodial parent's plan first."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Tell Both Insurers About Your Other Coverage",
+      "text": "COB only works correctly if both plans know about each other. Disclose other coverage when you enroll and whenever it changes (marriage, divorce, a new job, a child aging off a plan), since undisclosed coverage is one of the most common reasons COB claims get delayed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Coordination of Benefits Is Not"
+    },
+    {
+      "type": "paragraph",
+      "text": "COB is not a way to get paid twice, and it's not the same as [multiple life insurance policies](/qa/can-i-have-multiple-life-insurance-policies/) paying independently — life insurance has no coordination at all because a death benefit isn't reimbursement for a variable loss. COB is also different from [subrogation](/glossary/subrogation/), where an insurer recovers money from an at-fault third party after paying a claim; COB coordinates between your own plans, while subrogation involves someone else's liability."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This article is educational and is not insurance or legal advice. Exact coordination of benefits rules vary by state, plan type, and specific plan documents; confirm your own plans' COB provisions with each insurer or your benefits administrator."
+    }
+  ]
+}

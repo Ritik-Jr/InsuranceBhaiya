@@ -19,6 +19,48 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "What Is Coordination of Benefits? How Two Health Plans Actually Pay a Claim",
+    "slug": "what-is-coordination-of-benefits",
+    "description": "Coordination of benefits decides which health plan pays first when you have two. Learn the birthday rule, primary vs. secondary, and how claims split.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Can You Have Multiple Insurance Policies at Once? Health, Life, Auto, and Disability",
+    "slug": "can-you-have-multiple-insurance-policies-at-once",
+    "description": "Yes, you can have multiple insurance policies, but the rules differ by type. See how health, life, auto, and disability coverage stack.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Workers' Compensation Insurance Exemptions: Who Doesn't Have to Carry It, and What That Means If You Get Hurt",
+    "slug": "workers-compensation-insurance-exemptions",
+    "description": "Which businesses and workers are exempt from mandatory workers' compensation coverage, why life insurance agents are a special case, and what actually protects your income if you're hurt on a job that has no workers' comp behind it.",
+    "category": "disability-insurance"
+},
+
+    {
+    "title": "Renters Insurance: What's Covered & What's Not",
+    "slug": "renters-insurance-whats-covered-and-whats-not",
+    "description": "A plain-language, question-by-question guide to what a standard renters insurance policy actually pays for \u2014 and the specific situations, like mold, floods, and roommates' belongings, where it doesn't.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "New York State No-Fault Insurance Explained: $50,000 PIP, Deadlines & When You Can Sue",
+    "slug": "new-york-no-fault-insurance",
+    "description": "New York no-fault insurance explained: what the $50,000 PIP covers, the 30-day deadline, the serious injury threshold, who's excluded and when you can sue.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "No-Fault vs At-Fault Car Insurance States: Which One Is Yours and Who Pays After a Crash?",
+    "slug": "no-fault-vs-at-fault-car-insurance-states",
+    "description": "No-fault vs at-fault car insurance states explained: the full list of no-fault states, how PIP and tort thresholds work, and who pays your bills after a crash.",
+    "category": "car-insurance"
+},
+
+    {
     "title": "Homeowners & Property Insurance Essentials: Who Insures What, and Where the Gaps Hide",
     "slug": "homeowners-and-property-insurance-essentials",
     "description": "Bundling home and auto, leasehold and body corporate rules, boiler cover, Hialeah quotes, California wildfire zones and Farm Bureau coverage explained.",
@@ -845,6 +887,146 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Can you have multiple disability insurance policies",
+      "slug": "can-you-have-multiple-disability-insurance-policies",
+      "shortAnswer": "Yes \u2014 owning multiple disability insurance policies, often called 'stacking,' is legal and common, especially among higher earners whose employer group long-term disability plan caps out well below what they'd need. But insurers coordinate: your combined monthly benefit across all policies typically can't exceed roughly 60% to 70% of your income, so stacking raises your total coverage up to that ceiling rather than multiplying it without limit.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Can you have two auto insurance policies",
+      "slug": "can-you-have-two-auto-insurance-policies",
+      "shortAnswer": "Yes, it's legal, but it rarely makes sense on the same car. Auto insurance follows the indemnity principle, meaning you can be reimbursed for your actual loss but not paid twice for it, so you can't file the same claim with two insurers and collect from both. Most insurers also decline to knowingly insure a vehicle that's already covered elsewhere. Having two separate policies for two different vehicles is normal and not the same situation.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can I have multiple life insurance policies",
+      "slug": "can-i-have-multiple-life-insurance-policies",
+      "shortAnswer": "Yes \u2014 there's no legal limit on how many life insurance policies you can own, from one or several insurers. Unlike health insurance, life insurance doesn't coordinate benefits: if you have three valid, in-force policies when you die, each pays its full death benefit independently. The real constraint is financial underwriting, since insurers cap your total coverage as a multiple of income, commonly 20 to 30 times annual income depending on your age, and check the MIB database for existing coverage you disclose.",
+      "category": "Life"
+},
+
+      {
+      "question": "What Happens If You're Hurt at Work and Your Employer Is Exempt From Workers' Compensation?",
+      "slug": "hurt-at-work-employer-exempt-from-workers-compensation",
+      "shortAnswer": "There is no automatic wage-replacement or guaranteed medical benefit the way there would be under workers' compensation. Your own health insurance may cover the medical bills, though some plans exclude work-related injuries, and lost income is only protected if you separately carry individual disability insurance or an occupational accident policy. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for why exemptions exist in the first place.",
+      "category": "Disability"
+},
+
+      {
+      "question": "How Many Employees Before You Need Workers' Compensation Insurance?",
+      "slug": "how-many-employees-before-you-need-workers-compensation-insurance",
+      "shortAnswer": "It depends entirely on the state - some states, like New York, require coverage starting with a business's very first employee, while others set the threshold at three, four or five employees. A handful of industries, especially construction, often face a lower threshold or no threshold at all regardless of the general state rule. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for the exemption categories that apply even above the threshold.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Are Independent Contractors Exempt From Workers' Compensation?",
+      "slug": "are-independent-contractors-exempt-from-workers-compensation",
+      "shortAnswer": "Only if the classification actually holds up under the state's control test - a written contract calling someone an independent contractor is not, by itself, enough. States look at who controls the hours, methods, tools and supervision of the work, and a worker treated like an employee in practice can be reclassified as one after an injury, regardless of the contract's wording. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for how this compares to other exemption categories.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Are Sole Proprietors Required to Have Workers' Compensation Insurance?",
+      "slug": "are-sole-proprietors-required-to-have-workers-compensation-insurance",
+      "shortAnswer": "Generally no, for the owner personally - a sole proprietor with no employees is exempt from covering themselves in almost every state. The moment a sole proprietor hires even one employee, most states require workers' compensation for that employee, even though the owner themselves usually remains optional. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for how this compares to other business structures.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Are Life Insurance Agents Exempt From Workers' Compensation?",
+      "slug": "are-life-insurance-agents-exempt-from-workers-compensation",
+      "shortAnswer": "Sometimes, but only under state law, not federal law. The IRS's federal statutory nonemployee category covers direct sellers, licensed real estate agents and certain companion sitters - it does not include insurance agents. Several states, however, write their own separate workers' compensation exemption for insurance agents, including life insurance agents, paid solely by commission under a written contract, closely mirroring how they treat real estate agents. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for how this fits alongside other exemption categories.",
+      "category": "Disability"
+},
+
+      {
+      "question": "How Much Renters Insurance Coverage Do You Actually Need?",
+      "slug": "how-much-renters-insurance-coverage-do-you-need",
+      "shortAnswer": "Your personal property coverage should equal roughly what it would actually cost to replace everything you own \u2014 most renters underestimate this until they build an actual home inventory, since clothing, furniture, kitchenware, and electronics add up faster than expected. Beyond that, most advisors recommend at least $100,000 in liability coverage as a baseline, more if you have significant assets to protect or own a dog from a higher-risk breed category.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Roommates' Belongings?",
+      "slug": "does-renters-insurance-cover-roommates-belongings",
+      "shortAnswer": "No, not automatically. A standard renters insurance policy generally only covers the belongings of the person or people specifically named on the policy \u2014 an unnamed roommate's belongings aren't covered by your policy, even though you share the same apartment. Roommates who each want their belongings protected typically each need their own separate renters policy, or need to be specifically added as a co-insured on one shared policy.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Flood or Earthquake Damage?",
+      "slug": "does-renters-insurance-cover-flood-or-earthquake-damage",
+      "shortAnswer": "No. Flood damage (from an outside water source like heavy rain, a rising river, or storm surge) and earthquake damage are both excluded from virtually every standard renters insurance policy. Coverage for each has to be purchased separately \u2014 flood coverage through the National Flood Insurance Program or a private flood insurer, and earthquake coverage through a specific earthquake endorsement or standalone policy.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Mold?",
+      "slug": "does-renters-insurance-cover-mold",
+      "shortAnswer": "Only sometimes \u2014 renters insurance typically covers mold damage to your personal belongings when it results directly from a sudden, covered peril, such as mold that develops shortly after a burst pipe you reported promptly. It generally does not cover mold from long-term humidity, a slow undetected leak, or poor building maintenance, which insurers treat as a gradual, preventable issue rather than a sudden accident.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Dog Bites?",
+      "slug": "does-renters-insurance-cover-dog-bites",
+      "shortAnswer": "Usually yes \u2014 dog bites are typically covered under the personal liability section of a standard renters policy, which commonly includes at least $100,000 in liability coverage as a baseline. The major exception is breed restrictions: many insurers exclude or surcharge specific breeds considered higher-risk, such as pit bulls, Rottweilers, and Doberman Pinschers, and some policies limit coverage based on where the bite occurred.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Water Damage From a Leak?",
+      "slug": "does-renters-insurance-cover-water-damage-from-a-leak",
+      "shortAnswer": "Usually yes, if the leak is sudden and accidental \u2014 a burst pipe or a neighbor's washing machine overflowing, for example \u2014 renters insurance covers the resulting damage to your personal belongings, though it doesn't cover the building's own repair (that's your landlord's responsibility). It generally doesn't cover damage from a slow, long-term leak you knew about and didn't report, or flooding from an outside water source, which is excluded separately.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Bike Theft?",
+      "slug": "does-renters-insurance-cover-bike-theft",
+      "shortAnswer": "Yes. A standard renters insurance policy covers bicycle theft under the personal property section, whether the bike is stolen from inside your apartment, a locked storage area, or a public bike rack. However, your payout is typically based on actual cash value (accounting for depreciation), capped by a bike-specific sub-limit often around $1,500, and reduced by your deductible \u2014 so a high-value bike may need additional coverage to be fully protected.",
+      "category": "Renters"
+},
+
+      {
+      "question": "How to file a no-fault insurance claim in New York",
+      "slug": "how-to-file-a-no-fault-insurance-claim-in-new-york",
+      "shortAnswer": "To file a no-fault claim in New York, notify the insurer of the car you were in (or that hit you, if you were a pedestrian) and submit a completed **Application for Motor Vehicle No-Fault Benefits (form NF-2) within 30 days** of the crash. Then make sure your medical providers send bills within 45 days, and send proof of lost wages within 90 days. File an MV-104 accident report with the DMV within 10 days if anyone was hurt or damage exceeds $1,000. Missing these deadlines is the number one reason no-fault claims are denied.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is uninsured motorist coverage required in Georgia?",
+      "slug": "is-uninsured-motorist-coverage-required-in-georgia",
+      "shortAnswer": "Yes, by default, though you can opt out. Under [O.C.G.A. \u00a733-7-11](https://law.justia.com/codes/georgia/title-33/chapter-7/section-33-7-11/), every Georgia auto policy must include uninsured motorist (UM) coverage of at least 25/50/25 unless you reject it in writing. If you don't choose a type, Georgia defaults to **'added-on' (excess) UM**, which pays on top of the at-fault driver's liability limits. That's usually the better deal. You can also choose cheaper 'reduced-by' UM or reject UM entirely, but you have to do it in writing.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Colorado a no-fault state?",
+      "slug": "is-colorado-a-no-fault-state",
+      "shortAnswer": "No. Colorado is an **at-fault (tort) state**. It used to be a no-fault state, but that system ended in 2003. Today the driver who causes a crash is responsible for injuries and damage through their liability insurance, and Colorado requires at least 25/50/15 liability. Insurers must include $5,000 of medical payments (MedPay) coverage unless you reject it in writing, which gives you fault-free help with medical bills. You can't recover damages if you're as much at fault as the other driver, or more.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Georgia a no-fault state?",
+      "slug": "is-georgia-a-no-fault-state",
+      "shortAnswer": "No. Georgia is an **at-fault (tort) state**, not a no-fault state. The driver who causes a crash is responsible for the other people's injuries and property damage through their liability insurance. Georgia requires 25/50/25 liability. Uninsured motorist coverage is automatically part of every policy unless you reject it in writing. Georgia's 50% comparative fault rule means you recover nothing if you're 50% or more to blame.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is Texas a no-fault state, or an at-fault state?",
+      "slug": "is-texas-a-no-fault-state",
+      "shortAnswer": "No, Texas is not a no-fault state. Texas is an **at-fault (tort) state**. The driver who causes a crash, and their liability insurance, pays for the other people's injuries and property damage. Every Texas driver must carry at least 30/60/25 liability. Insurers must also offer personal injury protection (PIP) and uninsured motorist coverage, and both are included unless you reject them in writing. Texas uses a 51% comparative fault rule, so you can't recover damages if you're 51% or more to blame.",
+      "category": "Auto"
+},
+
       {
       "question": "What Does Farm Bureau Homeowners Insurance Cover?",
       "slug": "what-does-farm-bureau-homeowners-insurance-cover",
@@ -7926,6 +8108,7 @@ function initQASearchAndFilters() {
 
   // Initial category check from URL
   updateCategoryFromUrl();
+  filterCards();
 
   // Listen to popstate (browser back/forward)
   window.addEventListener('popstate', () => {

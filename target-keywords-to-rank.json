@@ -1,0 +1,4597 @@
+{
+  "Read Me": [
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "What this workbook contains:"
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "• Sheet 'Hub-Spoke Map (Exact Keywords)' — every one of the 253 keywords/questions from your uploaded file, clustered into 29 real hub (master) topics, ranked by total search volume. This is the priority list: these are the exact keywords to use verbatim as spoke titles/H2s/FAQ questions."
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "• Sheet '100-Day Calendar' — Days 1-29 use those 29 real hubs (highest volume first). Days 30-100 use 71 additional hub topics that round out standard insurance categories (life, health, car, home, disability, business) but have NO exact keyword in your dataset — their spokes are AI-suggested placeholders flagged in red and must be run through keyword research + a site search before drafting (see the updated SKILL.md)."
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "Why not exactly 5-10 real-keyword spokes on every one of 100 days:"
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "Your file has 253 total keywords. Spread across 100 days at 5-10 spokes/day requires 500-1,000 spoke topics — about 2-4x what the data supports. Days 1-29 use every real keyword (grouped so each hub gets 5-10 spokes where possible; a few thin hubs are flagged). Days 30-100 extend into adjacent, non-duplicate topics so the streak keeps moving, but treat those as a draft backlog, not verified demand."
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "Before publishing each day:"
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "1. Confirm the hub/spoke keyword is not already covered on insurancebhaiya.com (search the site + check its sitemap — I could not crawl the live site in this session; see SKILL.md 'Duplicate-Content Check')."
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "2. Interlink: every spoke's answer should link back to its master hub article, and the hub article should link out to all its spokes. Also cross-link to the most relevant hub from an adjacent category (e.g., 'Gap Insurance' <-> 'Full Coverage vs Liability-Only')."
+    },
+    {
+      "Insurance Bhaiya — 100-Day Hub & Spoke Content Plan": "3. For Days 30-100, re-run keyword research on the AI-suggested spoke before writing — replace with the real long-tail keyword if one exists."
+    }
+  ],
+  "100-Day Calendar": [
+    {
+      "Day": 1,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 32,
+      "Total Hub Search Volume": 65260,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "insure 90",
+        "dairyland insurance phone number",
+        "allstate home insurance quote",
+        "amigo insurance",
+        "amtex auto insurance",
+        "puffin travel insurance",
+        "my adrian flux",
+        "smart auto insurance",
+        "the responsive auto insurance",
+        "accusure insurance",
+        "haven insurance contact number",
+        "quote erie insurance",
+        "able auto insurance",
+        "insura",
+        "balance care insurance",
+        "essentia insurance",
+        "all drivers insurance",
+        "nyaip",
+        "plymouth rock insurance quote",
+        "caic insurance",
+        "new york marine and general insurance company",
+        "essentia ins co",
+        "new self login",
+        "nychcc",
+        "a plus auto insurance",
+        "health plus telephone number",
+        "a auto buyers insurance",
+        "is slide insurance going out of business",
+        "is bamboo insurance admitted in california",
+        "a & b insurance",
+        "what is quotelab",
+        "is nycm a good insurance company"
+      ]
+    },
+    {
+      "Day": 2,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Starting & Running an Insurance Agency",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 7,
+      "Total Hub Search Volume": 38910,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "insurance agency near me",
+        "insurance agencies near me",
+        "how much do insurance agencies make",
+        "insurance agency business plan",
+        "how to get clients for insurance business",
+        "how to sell commercial insurance",
+        "how to start an insurance business"
+      ]
+    },
+    {
+      "Day": 3,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 22,
+      "Total Hub Search Volume": 33520,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "john hancock life insurance",
+        "open care life insurance",
+        "john hancock life insurance customer service",
+        "life insurance broker",
+        "business life insurance",
+        "life insurance lawyer",
+        "loyal american life insurance",
+        "colonial penn life insurance rate chart by age",
+        "life insurance attorney",
+        "can you get life insurance on anyone",
+        "is life insurance a scam",
+        "can you take out life insurance on anyone",
+        "can you take out a life insurance policy on anyone",
+        "is life insurance an asset",
+        "how much life insurance do i need",
+        "security plan life insurance",
+        "quote about life insurance",
+        "can you buy life insurance for someone else",
+        "how does life insurance create an immediate estate",
+        "how long does life insurance payout take",
+        "how to use life insurance while alive",
+        "how long does life insurance last"
+      ]
+    },
+    {
+      "Day": 4,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 18,
+      "Total Hub Search Volume": 29250,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "cast insurance",
+        "insured closing letter",
+        "compound insurance",
+        "gas engineer public liability insurance",
+        "hotel insurance",
+        "planned care",
+        "boat rental insurance",
+        "quotes for commercial insurance",
+        "airport liability insurance",
+        "first party insurance",
+        "bond insurance quotes",
+        "how to make a successful water leak insurance claim uk",
+        "aviation products liability insurance",
+        "kyc insurance",
+        "first party insurance claim attorney",
+        "first party insurance claim",
+        "attorney malpractice insurance california",
+        "new york preventive health center"
+      ]
+    },
+    {
+      "Day": 5,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "When & How to Hire an Insurance Lawyer",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 4,
+      "Total Hub Search Volume": 17000,
+      "Notes / Action Needed": "Only 4 exact keyword(s) found — add 1+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "insurance lawyer",
+        "insurance attorney",
+        "auto insurance lawyer",
+        "auto insurance attorney"
+      ]
+    },
+    {
+      "Day": 6,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "What Does Health Insurance Actually Cover?",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 21,
+      "Total Hub Search Volume": 16920,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "apwu health insurance",
+        "imperial health insurance",
+        "lifex health insurance",
+        "health insurance discovery",
+        "health insurance attorney",
+        "health insurance lawyer",
+        "level funded health insurance",
+        "innovative partners health insurance",
+        "south carolina health insurance exchange",
+        "is health insurance worth it",
+        "does health insurance cover eye exams",
+        "can i cancel health insurance anytime",
+        "do i need pip insurance if i have health insurance",
+        "does health insurance cover car accidents",
+        "are employers required to offer health insurance",
+        "does health insurance cover chiropractic",
+        "does health insurance cover dermatologist",
+        "does health insurance cover auto accidents",
+        "is it mandatory to have health insurance in california",
+        "what insurance cover ivf in california",
+        "what is a peo insurance plan"
+      ]
+    },
+    {
+      "Day": 7,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Car Insurance Basics: Registration, Cost & Claims",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 20,
+      "Total Hub Search Volume": 11670,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "car insurance lawyer",
+        "car insurance attorney",
+        "car insurance attorneys",
+        "best rate on car insurance",
+        "can you pause car insurance",
+        "how long will insurance pay for rental car after accident",
+        "does car insurance cover repairs",
+        "can you register a car without insurance",
+        "can you get auto insurance with a suspended license",
+        "why is car insurance so expensive in california",
+        "does my personal auto insurance cover business use",
+        "is car insurance cheaper on older cars",
+        "do you need insurance to register a car in ny",
+        "do you need insurance to register a car in california",
+        "are car insurance companies open on saturdays",
+        "why is insurance so expensive in california",
+        "can you drive without insurance in ny",
+        "do you need insurance to register a car in indiana",
+        "are you required to have car insurance in florida",
+        "can i drive without insurance in fl"
+      ]
+    },
+    {
+      "Day": 8,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Boat Insurance by State: Requirements & Costs",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 24,
+      "Total Hub Search Volume": 11020,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "boat insurance in florida",
+        "boat insurance california",
+        "boat insurance texas",
+        "commercial boat insurance",
+        "average cost of boat insurance",
+        "classic boat insurance",
+        "boat insurance massachusetts",
+        "boat insurance michigan",
+        "how much is boat insurance in florida",
+        "arkansas boat insurance",
+        "boat dealers insurance",
+        "boat insurance arkansas",
+        "houseboat insurance",
+        "marina insurance",
+        "arizona boat insurance",
+        "best boat insurance south carolina",
+        "do you need boat insurance in illinois",
+        "how much is boat insurance in south carolina",
+        "is boat insurance required in alabama",
+        "is boat insurance required in florida",
+        "do you have to have boat insurance in illinois",
+        "is boat insurance mandatory",
+        "is boat insurance required in michigan",
+        "do you need boat insurance in california"
+      ]
+    },
+    {
+      "Day": 9,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Dental Procedure Costs With & Without Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": 10620,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "how much does it cost for braces without insurance",
+        "how much is a crown without insurance",
+        "how much does fillings cost with insurance",
+        "can you have two dental insurance plans",
+        "can i have two dental insurance plans",
+        "how much do braces cost in california with insurance"
+      ]
+    },
+    {
+      "Day": 10,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Contractors All Risk & Contract Works Insurance (UK)",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 4,
+      "Total Hub Search Volume": 10300,
+      "Notes / Action Needed": "Only 4 exact keyword(s) found — add 1+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "contract works insurance",
+        "contractors all risk insurance",
+        "hired in plant insurance",
+        "what is contractors all risk insurance uk"
+      ]
+    },
+    {
+      "Day": 11,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 25,
+      "Total Hub Search Volume": 9440,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "bicycle insurance",
+        "jetski insurance",
+        "mountain bike insurance",
+        "do boats require insurance",
+        "can i get motorcycle insurance without a license",
+        "can you get motorcycle insurance without a license",
+        "do you need insurance on a motorcycle in florida",
+        "does motorcycle insurance cover theft",
+        "how much is jet ski insurance",
+        "do you need insurance for a motorcycle in florida",
+        "insurance for motocross bikes",
+        "do motorcycles need insurance in florida",
+        "do you need insurance for a jet ski",
+        "how much is motorcycle insurance in colorado",
+        "how much is motorcycle insurance in ohio",
+        "bike shop insurance",
+        "dirt bike insurance coverage",
+        "mtb bike insurance",
+        "quad bike insurance",
+        "sundays bike insurance",
+        "do you need insurance for a dirt bike",
+        "do you have to have insurance for a jet ski",
+        "can you insure a motorcycle without a license",
+        "do dirt bikes need insurance",
+        "what states require dirt bike insurance"
+      ]
+    },
+    {
+      "Day": 12,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Insuring a Car That's Not in Your Name",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 3,
+      "Total Hub Search Volume": 8880,
+      "Notes / Action Needed": "Only 3 exact keyword(s) found — add 2+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "can i insure a car not in my name",
+        "can you insure a car not in your name",
+        "can you get insurance car not your name"
+      ]
+    },
+    {
+      "Day": 13,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Medical Procedure Costs With & Without Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 5,
+      "Total Hub Search Volume": 8080,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "how much is urgent care with insurance",
+        "how much does an mri cost without insurance",
+        "how much is a ct scan with insurance",
+        "how much does surrogacy cost with insurance in california",
+        "how much does surrogacy cost with insurance in new york"
+      ]
+    },
+    {
+      "Day": 14,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Gap Insurance: Is It Worth It & How Much Does It Cost",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 2,
+      "Total Hub Search Volume": 5880,
+      "Notes / Action Needed": "Only 2 exact keyword(s) found — add 3+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "is gap insurance worth it",
+        "how much is gap insurance for a car"
+      ]
+    },
+    {
+      "Day": 15,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Homeowners & Property Insurance Essentials",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 7,
+      "Total Hub Search Volume": 4170,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "home and auto insurance near me",
+        "do i need building insurance for a leasehold flat",
+        "do i need home insurance if i have body corporate",
+        "home insurance quotes hialeah",
+        "does house insurance cover boiler",
+        "california home insurance in high fire risk areas",
+        "what does farm bureau homeowners insurance cover"
+      ]
+    },
+    {
+      "Day": 16,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "No-Fault vs At-Fault Car Insurance States",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 7,
+      "Total Hub Search Volume": 3190,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "is texas a no fault state",
+        "is georgia a no fault state",
+        "is colorado a no fault state",
+        "is texas an at fault state",
+        "is uninsured motorist coverage required in georgia",
+        "new york state no fault insurance",
+        "how to file a no-fault insurance claim in new york"
+      ]
+    },
+    {
+      "Day": 17,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Renters Insurance: What's Covered & What's Not",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 1,
+      "Total Hub Search Volume": 2900,
+      "Notes / Action Needed": "Only 1 exact keyword(s) found — add 4+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "does renters insurance cover bike theft"
+      ]
+    },
+    {
+      "Day": 18,
+      "Category": "disability-insurance",
+      "Master (Hub) Topic": "Workers' Compensation Insurance Exemptions",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 1,
+      "Total Hub Search Volume": 2900,
+      "Notes / Action Needed": "Only 1 exact keyword(s) found — add 4+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "workers life"
+      ]
+    },
+    {
+      "Day": 19,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Can You Have Multiple Insurance Policies at Once?",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": 2700,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "can you have two health insurances",
+        "can i have multiple life insurance policies",
+        "can you have 2 health insurances",
+        "can you have two medical insurance plans",
+        "can i have 2 health insurance plans",
+        "can i have 2 medical insurance plans"
+      ]
+    },
+    {
+      "Day": 20,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Aircraft & Aviation Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 9,
+      "Total Hub Search Volume": 2650,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "experimental aircraft insurance",
+        "airplane insurance cost",
+        "seaplane insurance",
+        "cessna insurance",
+        "private pilot insurance",
+        "how much is aircraft insurance",
+        "how much is plane insurance",
+        "how much does airplane insurance cost",
+        "how much is aviation insurance"
+      ]
+    },
+    {
+      "Day": 21,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 7,
+      "Total Hub Search Volume": 2020,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "insurance 1 day",
+        "bartender insurance for 1 day",
+        "dj insurance for one day",
+        "party rental insurance",
+        "birthday party insurance",
+        "dj insurance one day",
+        "bartender insurance for wedding"
+      ]
+    },
+    {
+      "Day": 22,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "RV, Auto Compliance & State Programs",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 4,
+      "Total Hub Search Volume": 1980,
+      "Notes / Action Needed": "Only 4 exact keyword(s) found — add 1+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "florida compliant drivers program",
+        "california evidence of liability insurance",
+        "california rv insurance",
+        "california private mortgage insurance"
+      ]
+    },
+    {
+      "Day": 23,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Car Insurance for High-Risk & Convicted Drivers",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 2,
+      "Total Hub Search Volume": 1920,
+      "Notes / Action Needed": "Only 2 exact keyword(s) found — add 3+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "which insurance companies do not ask about criminal convictions",
+        "are cat n cars more expensive to insure"
+      ]
+    },
+    {
+      "Day": 24,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance for Sole Traders & Self-Employed (UK)",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 4,
+      "Total Hub Search Volume": 1830,
+      "Notes / Action Needed": "Only 4 exact keyword(s) found — add 1+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "do i need public liability insurance as a sole trader",
+        "what insurance does a sole trader need",
+        "do sole traders need insurance",
+        "what insurance do i need as a sole trader"
+      ]
+    },
+    {
+      "Day": 25,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Business Insurance: Coverage & Requirements",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": 1560,
+      "Notes / Action Needed": null,
+      "Spokes": [
+        "marine business insurance",
+        "does business insurance cover theft",
+        "does business insurance cover lawsuits",
+        "how much business insurance do i need",
+        "who is exempt from workers' compensation insurance california",
+        "can you cancel business insurance at any time"
+      ]
+    },
+    {
+      "Day": 26,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Liability Insurance: What It Covers",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 1,
+      "Total Hub Search Volume": 1300,
+      "Notes / Action Needed": "Only 1 exact keyword(s) found — add 4+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "does liability insurance cover theft"
+      ]
+    },
+    {
+      "Day": 27,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Pet Insurance: Coverage, Costs & Exclusions",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 3,
+      "Total Hub Search Volume": 1300,
+      "Notes / Action Needed": "Only 3 exact keyword(s) found — add 2+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "does pet insurance cover desexing",
+        "does pet insurance cover cremation",
+        "does pet insurance cover dental"
+      ]
+    },
+    {
+      "Day": 28,
+      "Category": "disability-insurance",
+      "Master (Hub) Topic": "Personal Accident Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 1,
+      "Total Hub Search Volume": 320,
+      "Notes / Action Needed": "Only 1 exact keyword(s) found — add 4+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "what is personal accident insurance"
+      ]
+    },
+    {
+      "Day": 29,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Title Insurance: Do You Need It?",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 1,
+      "Total Hub Search Volume": 260,
+      "Notes / Action Needed": "Only 1 exact keyword(s) found — add 4+ supplemental spoke questions on this topic before publishing (see SKILL.md step 2).",
+      "Spokes": [
+        "is title insurance worth it"
+      ]
+    },
+    {
+      "Day": 30,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Term vs. Whole Life Insurance: Which Should You Choose?",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is term vs. whole life insurance?",
+        "How much does term vs. whole life insurance cost?",
+        "Do I need term vs. whole life insurance?",
+        "What does term vs. whole life insurance cover and exclude?",
+        "How to choose the best term vs. whole life insurance plan",
+        "Common mistakes people make with term vs. whole life insurance"
+      ]
+    },
+    {
+      "Day": 31,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Life Insurance Riders Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is life insurance riders explained?",
+        "How much does life insurance riders explained cost?",
+        "Do I need life insurance riders explained?",
+        "What does life insurance riders explained cover and exclude?",
+        "How to choose the best life insurance riders explained plan",
+        "Common mistakes people make with life insurance riders explained"
+      ]
+    },
+    {
+      "Day": 32,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Life Insurance for New Parents",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is life insurance for new parents?",
+        "How much does life insurance for new parents cost?",
+        "Do I need life insurance for new parents?",
+        "What does life insurance for new parents cover and exclude?",
+        "How to choose the best life insurance for new parents plan",
+        "Common mistakes people make with life insurance for new parents"
+      ]
+    },
+    {
+      "Day": 33,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Life Insurance and Divorce: What Changes",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is life insurance and divorce?",
+        "How much does life insurance and divorce cost?",
+        "Do I need life insurance and divorce?",
+        "What does life insurance and divorce cover and exclude?",
+        "How to choose the best life insurance and divorce plan",
+        "Common mistakes people make with life insurance and divorce"
+      ]
+    },
+    {
+      "Day": 34,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Naming & Changing Life Insurance Beneficiaries",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is naming & changing life insurance beneficiaries?",
+        "How much does naming & changing life insurance beneficiaries cost?",
+        "Do I need naming & changing life insurance beneficiaries?",
+        "What does naming & changing life insurance beneficiaries cover and exclude?",
+        "How to choose the best naming & changing life insurance beneficiaries plan",
+        "Common mistakes people make with naming & changing life insurance beneficiaries"
+      ]
+    },
+    {
+      "Day": 35,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Employer Group Life Insurance: Is It Enough?",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is employer group life insurance?",
+        "How much does employer group life insurance cost?",
+        "Do I need employer group life insurance?",
+        "What does employer group life insurance cover and exclude?",
+        "How to choose the best employer group life insurance plan",
+        "Common mistakes people make with employer group life insurance"
+      ]
+    },
+    {
+      "Day": 36,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "Life Insurance for Seniors Over 60",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is life insurance for seniors over 60?",
+        "How much does life insurance for seniors over 60 cost?",
+        "Do I need life insurance for seniors over 60?",
+        "What does life insurance for seniors over 60 cover and exclude?",
+        "How to choose the best life insurance for seniors over 60 plan",
+        "Common mistakes people make with life insurance for seniors over 60"
+      ]
+    },
+    {
+      "Day": 37,
+      "Category": "life-insurance",
+      "Master (Hub) Topic": "No-Medical-Exam Life Insurance: Pros & Cons",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is no-medical-exam life insurance?",
+        "How much does no-medical-exam life insurance cost?",
+        "Do I need no-medical-exam life insurance?",
+        "What does no-medical-exam life insurance cover and exclude?",
+        "How to choose the best no-medical-exam life insurance plan",
+        "Common mistakes people make with no-medical-exam life insurance"
+      ]
+    },
+    {
+      "Day": 38,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Understanding Deductibles & Copays in Health Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is understanding deductibles & copays in health insurance?",
+        "How much does understanding deductibles & copays in health insurance cost?",
+        "Do I need understanding deductibles & copays in health insurance?",
+        "What does understanding deductibles & copays in health insurance cover and exclude?",
+        "How to choose the best understanding deductibles & copays in health insurance plan",
+        "Common mistakes people make with understanding deductibles & copays in health insurance"
+      ]
+    },
+    {
+      "Day": 39,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "HSA vs. FSA: Which Health Account Fits You",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is hsa vs. fsa?",
+        "How much does hsa vs. fsa cost?",
+        "Do I need hsa vs. fsa?",
+        "What does hsa vs. fsa cover and exclude?",
+        "How to choose the best hsa vs. fsa plan",
+        "Common mistakes people make with hsa vs. fsa"
+      ]
+    },
+    {
+      "Day": 40,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "COBRA Coverage After Losing Your Job",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is cobra coverage after losing your job?",
+        "How much does cobra coverage after losing your job cost?",
+        "Do I need cobra coverage after losing your job?",
+        "What does cobra coverage after losing your job cover and exclude?",
+        "How to choose the best cobra coverage after losing your job plan",
+        "Common mistakes people make with cobra coverage after losing your job"
+      ]
+    },
+    {
+      "Day": 41,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Health Insurance Open Enrollment: What to Know",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is health insurance open enrollment?",
+        "How much does health insurance open enrollment cost?",
+        "Do I need health insurance open enrollment?",
+        "What does health insurance open enrollment cover and exclude?",
+        "How to choose the best health insurance open enrollment plan",
+        "Common mistakes people make with health insurance open enrollment"
+      ]
+    },
+    {
+      "Day": 42,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Getting Covered With a Pre-Existing Condition",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is getting covered with a pre-existing condition?",
+        "How much does getting covered with a pre-existing condition cost?",
+        "Do I need getting covered with a pre-existing condition?",
+        "What does getting covered with a pre-existing condition cover and exclude?",
+        "How to choose the best getting covered with a pre-existing condition plan",
+        "Common mistakes people make with getting covered with a pre-existing condition"
+      ]
+    },
+    {
+      "Day": 43,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Short-Term Health Insurance Plans Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is short-term health insurance plans explained?",
+        "How much does short-term health insurance plans explained cost?",
+        "Do I need short-term health insurance plans explained?",
+        "What does short-term health insurance plans explained cover and exclude?",
+        "How to choose the best short-term health insurance plans explained plan",
+        "Common mistakes people make with short-term health insurance plans explained"
+      ]
+    },
+    {
+      "Day": 44,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "ACA Marketplace Health Insurance Basics",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is aca marketplace health insurance basics?",
+        "How much does aca marketplace health insurance basics cost?",
+        "Do I need aca marketplace health insurance basics?",
+        "What does aca marketplace health insurance basics cover and exclude?",
+        "How to choose the best aca marketplace health insurance basics plan",
+        "Common mistakes people make with aca marketplace health insurance basics"
+      ]
+    },
+    {
+      "Day": 45,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Medicare vs. Medicaid: Key Differences",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is medicare vs. medicaid?",
+        "How much does medicare vs. medicaid cost?",
+        "Do I need medicare vs. medicaid?",
+        "What does medicare vs. medicaid cover and exclude?",
+        "How to choose the best medicare vs. medicaid plan",
+        "Common mistakes people make with medicare vs. medicaid"
+      ]
+    },
+    {
+      "Day": 46,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Health Insurance Options for the Self-Employed",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is health insurance options for the self-employed?",
+        "How much does health insurance options for the self-employed cost?",
+        "Do I need health insurance options for the self-employed?",
+        "What does health insurance options for the self-employed cover and exclude?",
+        "How to choose the best health insurance options for the self-employed plan",
+        "Common mistakes people make with health insurance options for the self-employed"
+      ]
+    },
+    {
+      "Day": 47,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Standalone Dental Insurance Plans Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is standalone dental insurance plans explained?",
+        "How much does standalone dental insurance plans explained cost?",
+        "Do I need standalone dental insurance plans explained?",
+        "What does standalone dental insurance plans explained cover and exclude?",
+        "How to choose the best standalone dental insurance plans explained plan",
+        "Common mistakes people make with standalone dental insurance plans explained"
+      ]
+    },
+    {
+      "Day": 48,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Vision Insurance: What's Covered",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is vision insurance?",
+        "How much does vision insurance cost?",
+        "Do I need vision insurance?",
+        "What does vision insurance cover and exclude?",
+        "How to choose the best vision insurance plan",
+        "Common mistakes people make with vision insurance"
+      ]
+    },
+    {
+      "Day": 49,
+      "Category": "health-insurance",
+      "Master (Hub) Topic": "Mental Health Coverage Under Health Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is mental health coverage under health insurance?",
+        "How much does mental health coverage under health insurance cost?",
+        "Do I need mental health coverage under health insurance?",
+        "What does mental health coverage under health insurance cover and exclude?",
+        "How to choose the best mental health coverage under health insurance plan",
+        "Common mistakes people make with mental health coverage under health insurance"
+      ]
+    },
+    {
+      "Day": 50,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Full Coverage vs. Liability-Only Car Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is full coverage vs. liability-only car insurance?",
+        "How much does full coverage vs. liability-only car insurance cost?",
+        "Do I need full coverage vs. liability-only car insurance?",
+        "What does full coverage vs. liability-only car insurance cover and exclude?",
+        "How to choose the best full coverage vs. liability-only car insurance plan",
+        "Common mistakes people make with full coverage vs. liability-only car insurance"
+      ]
+    },
+    {
+      "Day": 51,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Car Insurance After a DUI",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is car insurance after a dui?",
+        "How much does car insurance after a dui cost?",
+        "Do I need car insurance after a dui?",
+        "What does car insurance after a dui cover and exclude?",
+        "How to choose the best car insurance after a dui plan",
+        "Common mistakes people make with car insurance after a dui"
+      ]
+    },
+    {
+      "Day": 52,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "SR-22 Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is sr-22 insurance explained?",
+        "How much does sr-22 insurance explained cost?",
+        "Do I need sr-22 insurance explained?",
+        "What does sr-22 insurance explained cover and exclude?",
+        "How to choose the best sr-22 insurance explained plan",
+        "Common mistakes people make with sr-22 insurance explained"
+      ]
+    },
+    {
+      "Day": 53,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Car Insurance for Teen & New Drivers",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is car insurance for teen & new drivers?",
+        "How much does car insurance for teen & new drivers cost?",
+        "Do I need car insurance for teen & new drivers?",
+        "What does car insurance for teen & new drivers cover and exclude?",
+        "How to choose the best car insurance for teen & new drivers plan",
+        "Common mistakes people make with car insurance for teen & new drivers"
+      ]
+    },
+    {
+      "Day": 54,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Car Insurance for Electric Vehicles",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is car insurance for electric vehicles?",
+        "How much does car insurance for electric vehicles cost?",
+        "Do I need car insurance for electric vehicles?",
+        "What does car insurance for electric vehicles cover and exclude?",
+        "How to choose the best car insurance for electric vehicles plan",
+        "Common mistakes people make with car insurance for electric vehicles"
+      ]
+    },
+    {
+      "Day": 55,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Rideshare Insurance for Uber & Lyft Drivers",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is rideshare insurance for uber & lyft drivers?",
+        "How much does rideshare insurance for uber & lyft drivers cost?",
+        "Do I need rideshare insurance for uber & lyft drivers?",
+        "What does rideshare insurance for uber & lyft drivers cover and exclude?",
+        "How to choose the best rideshare insurance for uber & lyft drivers plan",
+        "Common mistakes people make with rideshare insurance for uber & lyft drivers"
+      ]
+    },
+    {
+      "Day": 56,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Comprehensive vs. Collision Coverage",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is comprehensive vs. collision coverage?",
+        "How much does comprehensive vs. collision coverage cost?",
+        "Do I need comprehensive vs. collision coverage?",
+        "What does comprehensive vs. collision coverage cover and exclude?",
+        "How to choose the best comprehensive vs. collision coverage plan",
+        "Common mistakes people make with comprehensive vs. collision coverage"
+      ]
+    },
+    {
+      "Day": 57,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Uninsured & Underinsured Motorist Coverage",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is uninsured & underinsured motorist coverage?",
+        "How much does uninsured & underinsured motorist coverage cost?",
+        "Do I need uninsured & underinsured motorist coverage?",
+        "What does uninsured & underinsured motorist coverage cover and exclude?",
+        "How to choose the best uninsured & underinsured motorist coverage plan",
+        "Common mistakes people make with uninsured & underinsured motorist coverage"
+      ]
+    },
+    {
+      "Day": 58,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "How the Car Insurance Claims Process Works",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how the car insurance claims process works?",
+        "How much does how the car insurance claims process works cost?",
+        "Do I need how the car insurance claims process works?",
+        "What does how the car insurance claims process works cover and exclude?",
+        "How to choose the best how the car insurance claims process works plan",
+        "Common mistakes people make with how the car insurance claims process works"
+      ]
+    },
+    {
+      "Day": 59,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "How Insurers Calculate Your Car Insurance Premium",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how insurers calculate your car insurance premium?",
+        "How much does how insurers calculate your car insurance premium cost?",
+        "Do I need how insurers calculate your car insurance premium?",
+        "What does how insurers calculate your car insurance premium cover and exclude?",
+        "How to choose the best how insurers calculate your car insurance premium plan",
+        "Common mistakes people make with how insurers calculate your car insurance premium"
+      ]
+    },
+    {
+      "Day": 60,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Classic & Collector Car Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is classic & collector car insurance?",
+        "How much does classic & collector car insurance cost?",
+        "Do I need classic & collector car insurance?",
+        "What does classic & collector car insurance cover and exclude?",
+        "How to choose the best classic & collector car insurance plan",
+        "Common mistakes people make with classic & collector car insurance"
+      ]
+    },
+    {
+      "Day": 61,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Insurance Requirements for Leased Cars",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance requirements for leased cars?",
+        "How much does insurance requirements for leased cars cost?",
+        "Do I need insurance requirements for leased cars?",
+        "What does insurance requirements for leased cars cover and exclude?",
+        "How to choose the best insurance requirements for leased cars plan",
+        "Common mistakes people make with insurance requirements for leased cars"
+      ]
+    },
+    {
+      "Day": 62,
+      "Category": "car-insurance",
+      "Master (Hub) Topic": "Non-Owner Car Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is non-owner car insurance explained?",
+        "How much does non-owner car insurance explained cost?",
+        "Do I need non-owner car insurance explained?",
+        "What does non-owner car insurance explained cover and exclude?",
+        "How to choose the best non-owner car insurance explained plan",
+        "Common mistakes people make with non-owner car insurance explained"
+      ]
+    },
+    {
+      "Day": 63,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "The Homeowners Insurance Claims Process",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is the homeowners insurance claims process?",
+        "How much does the homeowners insurance claims process cost?",
+        "Do I need the homeowners insurance claims process?",
+        "What does the homeowners insurance claims process cover and exclude?",
+        "How to choose the best the homeowners insurance claims process plan",
+        "Common mistakes people make with the homeowners insurance claims process"
+      ]
+    },
+    {
+      "Day": 64,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Flood Insurance: What Homeowners Need to Know",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is flood insurance?",
+        "How much does flood insurance cost?",
+        "Do I need flood insurance?",
+        "What does flood insurance cover and exclude?",
+        "How to choose the best flood insurance plan",
+        "Common mistakes people make with flood insurance"
+      ]
+    },
+    {
+      "Day": 65,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Earthquake Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is earthquake insurance explained?",
+        "How much does earthquake insurance explained cost?",
+        "Do I need earthquake insurance explained?",
+        "What does earthquake insurance explained cover and exclude?",
+        "How to choose the best earthquake insurance explained plan",
+        "Common mistakes people make with earthquake insurance explained"
+      ]
+    },
+    {
+      "Day": 66,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Landlord Insurance for Rental Properties",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is landlord insurance for rental properties?",
+        "How much does landlord insurance for rental properties cost?",
+        "Do I need landlord insurance for rental properties?",
+        "What does landlord insurance for rental properties cover and exclude?",
+        "How to choose the best landlord insurance for rental properties plan",
+        "Common mistakes people make with landlord insurance for rental properties"
+      ]
+    },
+    {
+      "Day": 67,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Condo (HO-6) Insurance Basics",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is condo (ho-6) insurance basics?",
+        "How much does condo (ho-6) insurance basics cost?",
+        "Do I need condo (ho-6) insurance basics?",
+        "What does condo (ho-6) insurance basics cover and exclude?",
+        "How to choose the best condo (ho-6) insurance basics plan",
+        "Common mistakes people make with condo (ho-6) insurance basics"
+      ]
+    },
+    {
+      "Day": 68,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Umbrella Insurance: Extra Liability Protection",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is umbrella insurance?",
+        "How much does umbrella insurance cost?",
+        "Do I need umbrella insurance?",
+        "What does umbrella insurance cover and exclude?",
+        "How to choose the best umbrella insurance plan",
+        "Common mistakes people make with umbrella insurance"
+      ]
+    },
+    {
+      "Day": 69,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Home Warranty vs. Homeowners Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is home warranty vs. homeowners insurance?",
+        "How much does home warranty vs. homeowners insurance cost?",
+        "Do I need home warranty vs. homeowners insurance?",
+        "What does home warranty vs. homeowners insurance cover and exclude?",
+        "How to choose the best home warranty vs. homeowners insurance plan",
+        "Common mistakes people make with home warranty vs. homeowners insurance"
+      ]
+    },
+    {
+      "Day": 70,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "What Affects Your Renters Insurance Cost",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is what affects your renters insurance cost?",
+        "How much does what affects your renters insurance cost cost?",
+        "Do I need what affects your renters insurance cost?",
+        "What does what affects your renters insurance cost cover and exclude?",
+        "How to choose the best what affects your renters insurance cost plan",
+        "Common mistakes people make with what affects your renters insurance cost"
+      ]
+    },
+    {
+      "Day": 71,
+      "Category": "home-insurance",
+      "Master (Hub) Topic": "Mobile & Manufactured Home Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is mobile & manufactured home insurance?",
+        "How much does mobile & manufactured home insurance cost?",
+        "Do I need mobile & manufactured home insurance?",
+        "What does mobile & manufactured home insurance cover and exclude?",
+        "How to choose the best mobile & manufactured home insurance plan",
+        "Common mistakes people make with mobile & manufactured home insurance"
+      ]
+    },
+    {
+      "Day": 72,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "General Liability Insurance for Small Business",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is general liability insurance for small business?",
+        "How much does general liability insurance for small business cost?",
+        "Do I need general liability insurance for small business?",
+        "What does general liability insurance for small business cover and exclude?",
+        "How to choose the best general liability insurance for small business plan",
+        "Common mistakes people make with general liability insurance for small business"
+      ]
+    },
+    {
+      "Day": 73,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Professional Liability (E&O) Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is professional liability (e&o) insurance explained?",
+        "How much does professional liability (e&o) insurance explained cost?",
+        "Do I need professional liability (e&o) insurance explained?",
+        "What does professional liability (e&o) insurance explained cover and exclude?",
+        "How to choose the best professional liability (e&o) insurance explained plan",
+        "Common mistakes people make with professional liability (e&o) insurance explained"
+      ]
+    },
+    {
+      "Day": 74,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Commercial Auto Insurance for Company Vehicles",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is commercial auto insurance for company vehicles?",
+        "How much does commercial auto insurance for company vehicles cost?",
+        "Do I need commercial auto insurance for company vehicles?",
+        "What does commercial auto insurance for company vehicles cover and exclude?",
+        "How to choose the best commercial auto insurance for company vehicles plan",
+        "Common mistakes people make with commercial auto insurance for company vehicles"
+      ]
+    },
+    {
+      "Day": 75,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Cyber Liability Insurance for Small Business",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is cyber liability insurance for small business?",
+        "How much does cyber liability insurance for small business cost?",
+        "Do I need cyber liability insurance for small business?",
+        "What does cyber liability insurance for small business cover and exclude?",
+        "How to choose the best cyber liability insurance for small business plan",
+        "Common mistakes people make with cyber liability insurance for small business"
+      ]
+    },
+    {
+      "Day": 76,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Business Interruption Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is business interruption insurance explained?",
+        "How much does business interruption insurance explained cost?",
+        "Do I need business interruption insurance explained?",
+        "What does business interruption insurance explained cover and exclude?",
+        "How to choose the best business interruption insurance explained plan",
+        "Common mistakes people make with business interruption insurance explained"
+      ]
+    },
+    {
+      "Day": 77,
+      "Category": "disability-insurance",
+      "Master (Hub) Topic": "Workers' Compensation Basics by State",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is workers' compensation basics by state?",
+        "How much does workers' compensation basics by state cost?",
+        "Do I need workers' compensation basics by state?",
+        "What does workers' compensation basics by state cover and exclude?",
+        "How to choose the best workers' compensation basics by state plan",
+        "Common mistakes people make with workers' compensation basics by state"
+      ]
+    },
+    {
+      "Day": 78,
+      "Category": "disability-insurance",
+      "Master (Hub) Topic": "Short-Term vs. Long-Term Disability Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is short-term vs. long-term disability insurance?",
+        "How much does short-term vs. long-term disability insurance cost?",
+        "Do I need short-term vs. long-term disability insurance?",
+        "What does short-term vs. long-term disability insurance cover and exclude?",
+        "How to choose the best short-term vs. long-term disability insurance plan",
+        "Common mistakes people make with short-term vs. long-term disability insurance"
+      ]
+    },
+    {
+      "Day": 79,
+      "Category": "disability-insurance",
+      "Master (Hub) Topic": "Social Security Disability vs. Private Disability Insurance",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is social security disability vs. private disability insurance?",
+        "How much does social security disability vs. private disability insurance cost?",
+        "Do I need social security disability vs. private disability insurance?",
+        "What does social security disability vs. private disability insurance cover and exclude?",
+        "How to choose the best social security disability vs. private disability insurance plan",
+        "Common mistakes people make with social security disability vs. private disability insurance"
+      ]
+    },
+    {
+      "Day": 80,
+      "Category": "disability-insurance",
+      "Master (Hub) Topic": "Disability Insurance for the Self-Employed",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is disability insurance for the self-employed?",
+        "How much does disability insurance for the self-employed cost?",
+        "Do I need disability insurance for the self-employed?",
+        "What does disability insurance for the self-employed cover and exclude?",
+        "How to choose the best disability insurance for the self-employed plan",
+        "Common mistakes people make with disability insurance for the self-employed"
+      ]
+    },
+    {
+      "Day": 81,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Travel Insurance Basics: What It Covers",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is travel insurance basics?",
+        "How much does travel insurance basics cost?",
+        "Do I need travel insurance basics?",
+        "What does travel insurance basics cover and exclude?",
+        "How to choose the best travel insurance basics plan",
+        "Common mistakes people make with travel insurance basics"
+      ]
+    },
+    {
+      "Day": 82,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Trip Cancellation Insurance Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is trip cancellation insurance explained?",
+        "How much does trip cancellation insurance explained cost?",
+        "Do I need trip cancellation insurance explained?",
+        "What does trip cancellation insurance explained cover and exclude?",
+        "How to choose the best trip cancellation insurance explained plan",
+        "Common mistakes people make with trip cancellation insurance explained"
+      ]
+    },
+    {
+      "Day": 83,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Travel Medical Insurance for Trips Abroad",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is travel medical insurance for trips abroad?",
+        "How much does travel medical insurance for trips abroad cost?",
+        "Do I need travel medical insurance for trips abroad?",
+        "What does travel medical insurance for trips abroad cover and exclude?",
+        "How to choose the best travel medical insurance for trips abroad plan",
+        "Common mistakes people make with travel medical insurance for trips abroad"
+      ]
+    },
+    {
+      "Day": 84,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "How to Choose the Right Pet Insurance Plan",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how to choose the right pet insurance plan?",
+        "How much does how to choose the right pet insurance plan cost?",
+        "Do I need how to choose the right pet insurance plan?",
+        "What does how to choose the right pet insurance plan cover and exclude?",
+        "How to choose the best how to choose the right pet insurance plan plan",
+        "Common mistakes people make with how to choose the right pet insurance plan"
+      ]
+    },
+    {
+      "Day": 85,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Pet Insurance & Pre-Existing Conditions",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is pet insurance & pre-existing conditions?",
+        "How much does pet insurance & pre-existing conditions cost?",
+        "Do I need pet insurance & pre-existing conditions?",
+        "What does pet insurance & pre-existing conditions cover and exclude?",
+        "How to choose the best pet insurance & pre-existing conditions plan",
+        "Common mistakes people make with pet insurance & pre-existing conditions"
+      ]
+    },
+    {
+      "Day": 86,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "How Insurance Premiums Are Actually Priced",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how insurance premiums are actually priced?",
+        "How much does how insurance premiums are actually priced cost?",
+        "Do I need how insurance premiums are actually priced?",
+        "What does how insurance premiums are actually priced cover and exclude?",
+        "How to choose the best how insurance premiums are actually priced plan",
+        "Common mistakes people make with how insurance premiums are actually priced"
+      ]
+    },
+    {
+      "Day": 87,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Deductibles Explained Simply",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance deductibles explained simply?",
+        "How much does insurance deductibles explained simply cost?",
+        "Do I need insurance deductibles explained simply?",
+        "What does insurance deductibles explained simply cover and exclude?",
+        "How to choose the best insurance deductibles explained simply plan",
+        "Common mistakes people make with insurance deductibles explained simply"
+      ]
+    },
+    {
+      "Day": 88,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Riders & Endorsements Explained",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance riders & endorsements explained?",
+        "How much does insurance riders & endorsements explained cost?",
+        "Do I need insurance riders & endorsements explained?",
+        "What does insurance riders & endorsements explained cover and exclude?",
+        "How to choose the best insurance riders & endorsements explained plan",
+        "Common mistakes people make with insurance riders & endorsements explained"
+      ]
+    },
+    {
+      "Day": 89,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "How to File Any Insurance Claim, Step by Step",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how to file any insurance claim, step by step?",
+        "How much does how to file any insurance claim, step by step cost?",
+        "Do I need how to file any insurance claim, step by step?",
+        "What does how to file any insurance claim, step by step cover and exclude?",
+        "How to choose the best how to file any insurance claim, step by step plan",
+        "Common mistakes people make with how to file any insurance claim, step by step"
+      ]
+    },
+    {
+      "Day": 90,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "How to Switch Insurance Providers Without a Coverage Gap",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how to switch insurance providers without a coverage gap?",
+        "How much does how to switch insurance providers without a coverage gap cost?",
+        "Do I need how to switch insurance providers without a coverage gap?",
+        "What does how to switch insurance providers without a coverage gap cover and exclude?",
+        "How to choose the best how to switch insurance providers without a coverage gap plan",
+        "Common mistakes people make with how to switch insurance providers without a coverage gap"
+      ]
+    },
+    {
+      "Day": 91,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "How Your Credit Affects Your Insurance Rates",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how your credit affects your insurance rates?",
+        "How much does how your credit affects your insurance rates cost?",
+        "Do I need how your credit affects your insurance rates?",
+        "What does how your credit affects your insurance rates cover and exclude?",
+        "How to choose the best how your credit affects your insurance rates plan",
+        "Common mistakes people make with how your credit affects your insurance rates"
+      ]
+    },
+    {
+      "Day": 92,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Recognizing & Reporting Insurance Fraud",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is recognizing & reporting insurance fraud?",
+        "How much does recognizing & reporting insurance fraud cost?",
+        "Do I need recognizing & reporting insurance fraud?",
+        "What does recognizing & reporting insurance fraud cover and exclude?",
+        "How to choose the best recognizing & reporting insurance fraud plan",
+        "Common mistakes people make with recognizing & reporting insurance fraud"
+      ]
+    },
+    {
+      "Day": 93,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Bundling Insurance Policies to Save Money",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is bundling insurance policies to save money?",
+        "How much does bundling insurance policies to save money cost?",
+        "Do I need bundling insurance policies to save money?",
+        "What does bundling insurance policies to save money cover and exclude?",
+        "How to choose the best bundling insurance policies to save money plan",
+        "Common mistakes people make with bundling insurance policies to save money"
+      ]
+    },
+    {
+      "Day": 94,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "How to Read Your Insurance Declarations Page",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is how to read your insurance declarations page?",
+        "How much does how to read your insurance declarations page cost?",
+        "Do I need how to read your insurance declarations page?",
+        "What does how to read your insurance declarations page cover and exclude?",
+        "How to choose the best how to read your insurance declarations page plan",
+        "Common mistakes people make with how to read your insurance declarations page"
+      ]
+    },
+    {
+      "Day": 95,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Choosing the Right Insurance Deductible for You",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is choosing the right insurance deductible for you?",
+        "How much does choosing the right insurance deductible for you cost?",
+        "Do I need choosing the right insurance deductible for you?",
+        "What does choosing the right insurance deductible for you cover and exclude?",
+        "How to choose the best choosing the right insurance deductible for you plan",
+        "Common mistakes people make with choosing the right insurance deductible for you"
+      ]
+    },
+    {
+      "Day": 96,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Checklist for Newlyweds",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance checklist for newlyweds?",
+        "How much does insurance checklist for newlyweds cost?",
+        "Do I need insurance checklist for newlyweds?",
+        "What does insurance checklist for newlyweds cover and exclude?",
+        "How to choose the best insurance checklist for newlyweds plan",
+        "Common mistakes people make with insurance checklist for newlyweds"
+      ]
+    },
+    {
+      "Day": 97,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Checklist for First-Time Homeowners",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance checklist for first-time homeowners?",
+        "How much does insurance checklist for first-time homeowners cost?",
+        "Do I need insurance checklist for first-time homeowners?",
+        "What does insurance checklist for first-time homeowners cover and exclude?",
+        "How to choose the best insurance checklist for first-time homeowners plan",
+        "Common mistakes people make with insurance checklist for first-time homeowners"
+      ]
+    },
+    {
+      "Day": 98,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Checklist for New Parents",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance checklist for new parents?",
+        "How much does insurance checklist for new parents cost?",
+        "Do I need insurance checklist for new parents?",
+        "What does insurance checklist for new parents cover and exclude?",
+        "How to choose the best insurance checklist for new parents plan",
+        "Common mistakes people make with insurance checklist for new parents"
+      ]
+    },
+    {
+      "Day": 99,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Checklist for College Students",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance checklist for college students?",
+        "How much does insurance checklist for college students cost?",
+        "Do I need insurance checklist for college students?",
+        "What does insurance checklist for college students cover and exclude?",
+        "How to choose the best insurance checklist for college students plan",
+        "Common mistakes people make with insurance checklist for college students"
+      ]
+    },
+    {
+      "Day": 100,
+      "Category": "insurance-basics",
+      "Master (Hub) Topic": "Insurance Needs at Every Life Stage",
+      "Content Type": "Master Blog (/learn)",
+      "# Spokes": 6,
+      "Total Hub Search Volume": "N/A",
+      "Notes / Action Needed": "No exact keyword in dataset for this hub — run keyword research + insurancebhaiya.com search before drafting.",
+      "Spokes": [
+        "What is insurance needs at every life stage?",
+        "How much does insurance needs at every life stage cost?",
+        "Do I need insurance needs at every life stage?",
+        "What does insurance needs at every life stage cover and exclude?",
+        "How to choose the best insurance needs at every life stage plan",
+        "Common mistakes people make with insurance needs at every life stage"
+      ]
+    }
+  ],
+  "Hub-Spoke Map (Exact Keywords)": [
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "insure 90",
+      "Search Intent": "Informational",
+      "Monthly Volume": 18100,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 2.32
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "dairyland insurance phone number",
+      "Search Intent": "Informational / Navigational",
+      "Monthly Volume": 8100,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.04
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "allstate home insurance quote",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 6600,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 122.82
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "amigo insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 5400,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 6.14
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "amtex auto insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 4400,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 8.77
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "puffin travel insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 3600,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 2.67
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "my adrian flux",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 2.9
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "smart auto insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 26.44
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "the responsive auto insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.61
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "accusure insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 5.82
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "haven insurance contact number",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 10.98
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "quote erie insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 1300,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 21.87
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "able auto insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 9.93
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "insura",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 31.17
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "balance care insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 0,
+      "CPC (USD)": 3.73
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "essentia insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 3.8
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "all drivers insurance",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 10.68
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "nyaip",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 12.12
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "plymouth rock insurance quote",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 16.8
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "caic insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.1
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "new york marine and general insurance company",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.51
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "essentia ins co",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 3.7
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "new self login",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 7.5
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "nychcc",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 4.38
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "a plus auto insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 5,
+      "CPC (USD)": 14.54
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "health plus telephone number",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 6.01
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "a auto buyers insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 9.98
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "is slide insurance going out of business",
+      "Search Intent": "Informational",
+      "Monthly Volume": 110,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 7.34
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "is bamboo insurance admitted in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 110,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 9.15
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "a & b insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 110,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 9.56
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "what is quotelab",
+      "Search Intent": "Informational / Navigational",
+      "Monthly Volume": 50,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 17.3
+    },
+    {
+      "Priority Rank": 1,
+      "Hub (Master Topic)": "Insurance Company Reviews: Is [Brand] Insurance Legit?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 65260,
+      "Spoke Keyword (exact)": "is nycm a good insurance company",
+      "Search Intent": "Informational",
+      "Monthly Volume": 40,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 6.35
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "insurance agency near me",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 27100,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 16.2
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "insurance agencies near me",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 8100,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 16.2
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "how much do insurance agencies make",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 2.5
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "insurance agency business plan",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 5.63
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "how to get clients for insurance business",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 12.66
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "how to sell commercial insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 5.04
+    },
+    {
+      "Priority Rank": 2,
+      "Hub (Master Topic)": "Starting & Running an Insurance Agency",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 38910,
+      "Spoke Keyword (exact)": "how to start an insurance business",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 3.26
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "john hancock life insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 6600,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 6.08
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "open care life insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 4400,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 4.78
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "john hancock life insurance customer service",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.4
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "life insurance broker",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 18.27
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "business life insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 17.61
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "life insurance lawyer",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 24.24
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "loyal american life insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 4.2
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "colonial penn life insurance rate chart by age",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 3.21
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "life insurance attorney",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1300,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 24.24
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "can you get life insurance on anyone",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 6.29
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "is life insurance a scam",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 8.11
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "can you take out life insurance on anyone",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 4.04
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "can you take out a life insurance policy on anyone",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 4.04
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "is life insurance an asset",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 6.3
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "how much life insurance do i need",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 15.1
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "security plan life insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 6.26
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "quote about life insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 29.52
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "can you buy life insurance for someone else",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 4.83
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "how does life insurance create an immediate estate",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.91
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "how long does life insurance payout take",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.29
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "how to use life insurance while alive",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 3.99
+    },
+    {
+      "Priority Rank": 3,
+      "Hub (Master Topic)": "Life Insurance Fundamentals: Worth It, Payouts & Ownership",
+      "Category": "life-insurance",
+      "Hub Total Volume": 33520,
+      "Spoke Keyword (exact)": "how long does life insurance last",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 10.75
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "cast insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 8100,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 5.02
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "insured closing letter",
+      "Search Intent": "Informational",
+      "Monthly Volume": 6600,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 2.32
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "compound insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 3600,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 4.66
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "gas engineer public liability insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 40.53
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "hotel insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 11.9
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "planned care",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 4.36
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "boat rental insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 4.33
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "quotes for commercial insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 2,
+      "CPC (USD)": 35.79
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "airport liability insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 2.63
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "first party insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 15.77
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "bond insurance quotes",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 21
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "how to make a successful water leak insurance claim uk",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 2.62
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "aviation products liability insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 6.1
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "kyc insurance",
+      "Search Intent": "Informational / Transactional",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.68
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "first party insurance claim attorney",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 1,
+      "CPC (USD)": 19.37
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "first party insurance claim",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 22.4
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "attorney malpractice insurance california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 30.47
+    },
+    {
+      "Priority Rank": 4,
+      "Hub (Master Topic)": "Niche Commercial Insurance: Hotels, Marinas & Malpractice",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 29250,
+      "Spoke Keyword (exact)": "new york preventive health center",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.52
+    },
+    {
+      "Priority Rank": 5,
+      "Hub (Master Topic)": "When & How to Hire an Insurance Lawyer",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 17000,
+      "Spoke Keyword (exact)": "insurance lawyer",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 8100,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 26.47
+    },
+    {
+      "Priority Rank": 5,
+      "Hub (Master Topic)": "When & How to Hire an Insurance Lawyer",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 17000,
+      "Spoke Keyword (exact)": "insurance attorney",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 5400,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 29.2
+    },
+    {
+      "Priority Rank": 5,
+      "Hub (Master Topic)": "When & How to Hire an Insurance Lawyer",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 17000,
+      "Spoke Keyword (exact)": "auto insurance lawyer",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 71.42
+    },
+    {
+      "Priority Rank": 5,
+      "Hub (Master Topic)": "When & How to Hire an Insurance Lawyer",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 17000,
+      "Spoke Keyword (exact)": "auto insurance attorney",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 71.42
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "apwu health insurance",
+      "Search Intent": "Informational / Transactional",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 3.28
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "imperial health insurance",
+      "Search Intent": "Navigational",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 4.58
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "lifex health insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 6.03
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "health insurance discovery",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 12.46
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "health insurance attorney",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 5.82
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "health insurance lawyer",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 6.51
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "level funded health insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.12
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "innovative partners health insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 3.45
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "south carolina health insurance exchange",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 5.24
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "is health insurance worth it",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.31
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "does health insurance cover eye exams",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 4.72
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "can i cancel health insurance anytime",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 7.8
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "do i need pip insurance if i have health insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 5.53
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "does health insurance cover car accidents",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 76.93
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "are employers required to offer health insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 2.97
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "does health insurance cover chiropractic",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 4.79
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "does health insurance cover dermatologist",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 5.01
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "does health insurance cover auto accidents",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 76.93
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "is it mandatory to have health insurance in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 110,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 3.6
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "what insurance cover ivf in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 90,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 3.21
+    },
+    {
+      "Priority Rank": 6,
+      "Hub (Master Topic)": "What Does Health Insurance Actually Cover?",
+      "Category": "health-insurance",
+      "Hub Total Volume": 16920,
+      "Spoke Keyword (exact)": "what is a peo insurance plan",
+      "Search Intent": "Informational",
+      "Monthly Volume": 30,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 7.34
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "car insurance lawyer",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 3600,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 71.42
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "car insurance attorney",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 71.42
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "car insurance attorneys",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 71.42
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "best rate on car insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 47.98
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "can you pause car insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 18.3
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "how long will insurance pay for rental car after accident",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 19.92
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "does car insurance cover repairs",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 2.88
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "can you register a car without insurance",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 22.37
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "can you get auto insurance with a suspended license",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 17.82
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "why is car insurance so expensive in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 18.35
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "does my personal auto insurance cover business use",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 11.62
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "is car insurance cheaper on older cars",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 17.76
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "do you need insurance to register a car in ny",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 18.37
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "do you need insurance to register a car in california",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 110,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 16.95
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "are car insurance companies open on saturdays",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 70,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 33.24
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "why is insurance so expensive in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 70,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 18.58
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "can you drive without insurance in ny",
+      "Search Intent": "Informational",
+      "Monthly Volume": 50,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 17.68
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "do you need insurance to register a car in indiana",
+      "Search Intent": "Informational / Transactional",
+      "Monthly Volume": 50,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 24.94
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "are you required to have car insurance in florida",
+      "Search Intent": "Informational",
+      "Monthly Volume": 40,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 20.65
+    },
+    {
+      "Priority Rank": 7,
+      "Hub (Master Topic)": "Car Insurance Basics: Registration, Cost & Claims",
+      "Category": "car-insurance",
+      "Hub Total Volume": 11670,
+      "Spoke Keyword (exact)": "can i drive without insurance in fl",
+      "Search Intent": "Informational",
+      "Monthly Volume": 30,
+      "Difficulty (0-100)": 2,
+      "CPC (USD)": 31.35
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat insurance in florida",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 1000,
+      "Difficulty (0-100)": 27,
+      "CPC (USD)": 28.3
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat insurance california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 15,
+      "CPC (USD)": 14.36
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat insurance texas",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 26,
+      "CPC (USD)": 35.72
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "commercial boat insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 16,
+      "CPC (USD)": 8.96
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "average cost of boat insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 29,
+      "CPC (USD)": 15.19
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "classic boat insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 17,
+      "CPC (USD)": 12.66
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat insurance massachusetts",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 29.19
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat insurance michigan",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 30.45
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "how much is boat insurance in florida",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 29,
+      "CPC (USD)": 7.23
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "arkansas boat insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 33.6
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat dealers insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 10.44
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "boat insurance arkansas",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 5,
+      "CPC (USD)": 38.59
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "houseboat insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 10.63
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "marina insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 6.31
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "arizona boat insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 2,
+      "CPC (USD)": 29.23
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "best boat insurance south carolina",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 35.96
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "do you need boat insurance in illinois",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 17.14
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "how much is boat insurance in south carolina",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 10.94
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "is boat insurance required in alabama",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 17.85
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "is boat insurance required in florida",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 2.58
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "do you have to have boat insurance in illinois",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 17.43
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "is boat insurance mandatory",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 15.69
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "is boat insurance required in michigan",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 1,
+      "CPC (USD)": 7.08
+    },
+    {
+      "Priority Rank": 8,
+      "Hub (Master Topic)": "Boat Insurance by State: Requirements & Costs",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 11020,
+      "Spoke Keyword (exact)": "do you need boat insurance in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 70,
+      "Difficulty (0-100)": 5,
+      "CPC (USD)": 3.7
+    },
+    {
+      "Priority Rank": 9,
+      "Hub (Master Topic)": "Dental Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 10620,
+      "Spoke Keyword (exact)": "how much does it cost for braces without insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 3600,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 3.37
+    },
+    {
+      "Priority Rank": 9,
+      "Hub (Master Topic)": "Dental Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 10620,
+      "Spoke Keyword (exact)": "how much is a crown without insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 3600,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 3.3
+    },
+    {
+      "Priority Rank": 9,
+      "Hub (Master Topic)": "Dental Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 10620,
+      "Spoke Keyword (exact)": "how much does fillings cost with insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 4.33
+    },
+    {
+      "Priority Rank": 9,
+      "Hub (Master Topic)": "Dental Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 10620,
+      "Spoke Keyword (exact)": "can you have two dental insurance plans",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 3.8
+    },
+    {
+      "Priority Rank": 9,
+      "Hub (Master Topic)": "Dental Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 10620,
+      "Spoke Keyword (exact)": "can i have two dental insurance plans",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 4.03
+    },
+    {
+      "Priority Rank": 9,
+      "Hub (Master Topic)": "Dental Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 10620,
+      "Spoke Keyword (exact)": "how much do braces cost in california with insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 90,
+      "Difficulty (0-100)": 0,
+      "CPC (USD)": 4.17
+    },
+    {
+      "Priority Rank": 10,
+      "Hub (Master Topic)": "Contractors All Risk & Contract Works Insurance (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 10300,
+      "Spoke Keyword (exact)": "contract works insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 10.4
+    },
+    {
+      "Priority Rank": 10,
+      "Hub (Master Topic)": "Contractors All Risk & Contract Works Insurance (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 10300,
+      "Spoke Keyword (exact)": "contractors all risk insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 23.38
+    },
+    {
+      "Priority Rank": 10,
+      "Hub (Master Topic)": "Contractors All Risk & Contract Works Insurance (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 10300,
+      "Spoke Keyword (exact)": "hired in plant insurance",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 13.45
+    },
+    {
+      "Priority Rank": 10,
+      "Hub (Master Topic)": "Contractors All Risk & Contract Works Insurance (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 10300,
+      "Spoke Keyword (exact)": "what is contractors all risk insurance uk",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 4.46
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "bicycle insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 26,
+      "CPC (USD)": 2.05
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "jetski insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 720,
+      "Difficulty (0-100)": 21,
+      "CPC (USD)": 20.89
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "mountain bike insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 2.95
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do boats require insurance",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 26,
+      "CPC (USD)": 18.48
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "can i get motorcycle insurance without a license",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 8.93
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "can you get motorcycle insurance without a license",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 8.37
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do you need insurance on a motorcycle in florida",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 22.36
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "does motorcycle insurance cover theft",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 18.29
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "how much is jet ski insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 8.02
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do you need insurance for a motorcycle in florida",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 26.14
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "insurance for motocross bikes",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 18.47
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do motorcycles need insurance in florida",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 32.33
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do you need insurance for a jet ski",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 1,
+      "CPC (USD)": 14.46
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "how much is motorcycle insurance in colorado",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 15.19
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "how much is motorcycle insurance in ohio",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 11.1
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "bike shop insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 13.26
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "dirt bike insurance coverage",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 18.47
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "mtb bike insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 2.48
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "quad bike insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.02
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "sundays bike insurance",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 16.56
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do you need insurance for a dirt bike",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 15.45
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do you have to have insurance for a jet ski",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 16.9
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "can you insure a motorcycle without a license",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 9.71
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "do dirt bikes need insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 5,
+      "CPC (USD)": 20.07
+    },
+    {
+      "Priority Rank": 11,
+      "Hub (Master Topic)": "Motorcycle, Dirt Bike & Powersport Insurance",
+      "Category": "car-insurance",
+      "Hub Total Volume": 9440,
+      "Spoke Keyword (exact)": "what states require dirt bike insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 15.61
+    },
+    {
+      "Priority Rank": 12,
+      "Hub (Master Topic)": "Insuring a Car That's Not in Your Name",
+      "Category": "car-insurance",
+      "Hub Total Volume": 8880,
+      "Spoke Keyword (exact)": "can i insure a car not in my name",
+      "Search Intent": "Informational",
+      "Monthly Volume": 4400,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 15.49
+    },
+    {
+      "Priority Rank": 12,
+      "Hub (Master Topic)": "Insuring a Car That's Not in Your Name",
+      "Category": "car-insurance",
+      "Hub Total Volume": 8880,
+      "Spoke Keyword (exact)": "can you insure a car not in your name",
+      "Search Intent": "Informational",
+      "Monthly Volume": 3600,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 14.03
+    },
+    {
+      "Priority Rank": 12,
+      "Hub (Master Topic)": "Insuring a Car That's Not in Your Name",
+      "Category": "car-insurance",
+      "Hub Total Volume": 8880,
+      "Spoke Keyword (exact)": "can you get insurance car not your name",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 16.92
+    },
+    {
+      "Priority Rank": 13,
+      "Hub (Master Topic)": "Medical Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 8080,
+      "Spoke Keyword (exact)": "how much is urgent care with insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 2.31
+    },
+    {
+      "Priority Rank": 13,
+      "Hub (Master Topic)": "Medical Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 8080,
+      "Spoke Keyword (exact)": "how much does an mri cost without insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 2.37
+    },
+    {
+      "Priority Rank": 13,
+      "Hub (Master Topic)": "Medical Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 8080,
+      "Spoke Keyword (exact)": "how much is a ct scan with insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2400,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 9.06
+    },
+    {
+      "Priority Rank": 13,
+      "Hub (Master Topic)": "Medical Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 8080,
+      "Spoke Keyword (exact)": "how much does surrogacy cost with insurance in california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 2.99
+    },
+    {
+      "Priority Rank": 13,
+      "Hub (Master Topic)": "Medical Procedure Costs With & Without Insurance",
+      "Category": "health-insurance",
+      "Hub Total Volume": 8080,
+      "Spoke Keyword (exact)": "how much does surrogacy cost with insurance in new york",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 0,
+      "CPC (USD)": 2.66
+    },
+    {
+      "Priority Rank": 14,
+      "Hub (Master Topic)": "Gap Insurance: Is It Worth It & How Much Does It Cost",
+      "Category": "car-insurance",
+      "Hub Total Volume": 5880,
+      "Spoke Keyword (exact)": "is gap insurance worth it",
+      "Search Intent": "Informational",
+      "Monthly Volume": 5400,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 2.26
+    },
+    {
+      "Priority Rank": 14,
+      "Hub (Master Topic)": "Gap Insurance: Is It Worth It & How Much Does It Cost",
+      "Category": "car-insurance",
+      "Hub Total Volume": 5880,
+      "Spoke Keyword (exact)": "how much is gap insurance for a car",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 4.59
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "home and auto insurance near me",
+      "Search Intent": "Transactional",
+      "Monthly Volume": 1900,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 24.78
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "do i need building insurance for a leasehold flat",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 4.28
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "do i need home insurance if i have body corporate",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 7.27
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "home insurance quotes hialeah",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 8.55
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "does house insurance cover boiler",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 3.41
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "california home insurance in high fire risk areas",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 6.95
+    },
+    {
+      "Priority Rank": 15,
+      "Hub (Master Topic)": "Homeowners & Property Insurance Essentials",
+      "Category": "home-insurance",
+      "Hub Total Volume": 4170,
+      "Spoke Keyword (exact)": "what does farm bureau homeowners insurance cover",
+      "Search Intent": "Informational",
+      "Monthly Volume": 50,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 6.95
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "is texas a no fault state",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1300,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 11.29
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "is georgia a no fault state",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 27.69
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "is colorado a no fault state",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 15.17
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "is texas an at fault state",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 16.05
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "is uninsured motorist coverage required in georgia",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 10.33
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "new york state no fault insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 10.02
+    },
+    {
+      "Priority Rank": 16,
+      "Hub (Master Topic)": "No-Fault vs At-Fault Car Insurance States",
+      "Category": "car-insurance",
+      "Hub Total Volume": 3190,
+      "Spoke Keyword (exact)": "how to file a no-fault insurance claim in new york",
+      "Search Intent": "Informational",
+      "Monthly Volume": 30,
+      "Difficulty (0-100)": 7,
+      "CPC (USD)": 13.69
+    },
+    {
+      "Priority Rank": 17,
+      "Hub (Master Topic)": "Renters Insurance: What's Covered & What's Not",
+      "Category": "home-insurance",
+      "Hub Total Volume": 2900,
+      "Spoke Keyword (exact)": "does renters insurance cover bike theft",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 24,
+      "CPC (USD)": 7.53
+    },
+    {
+      "Priority Rank": 18,
+      "Hub (Master Topic)": "Workers' Compensation Insurance Exemptions",
+      "Category": "disability-insurance",
+      "Hub Total Volume": 2900,
+      "Spoke Keyword (exact)": "workers life",
+      "Search Intent": "Informational",
+      "Monthly Volume": 2900,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 6.51
+    },
+    {
+      "Priority Rank": 19,
+      "Hub (Master Topic)": "Can You Have Multiple Insurance Policies at Once?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2700,
+      "Spoke Keyword (exact)": "can you have two health insurances",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1300,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 5.21
+    },
+    {
+      "Priority Rank": 19,
+      "Hub (Master Topic)": "Can You Have Multiple Insurance Policies at Once?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2700,
+      "Spoke Keyword (exact)": "can i have multiple life insurance policies",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 15.21
+    },
+    {
+      "Priority Rank": 19,
+      "Hub (Master Topic)": "Can You Have Multiple Insurance Policies at Once?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2700,
+      "Spoke Keyword (exact)": "can you have 2 health insurances",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.21
+    },
+    {
+      "Priority Rank": 19,
+      "Hub (Master Topic)": "Can You Have Multiple Insurance Policies at Once?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2700,
+      "Spoke Keyword (exact)": "can you have two medical insurance plans",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 7.17
+    },
+    {
+      "Priority Rank": 19,
+      "Hub (Master Topic)": "Can You Have Multiple Insurance Policies at Once?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2700,
+      "Spoke Keyword (exact)": "can i have 2 health insurance plans",
+      "Search Intent": "Informational",
+      "Monthly Volume": 40,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 7.88
+    },
+    {
+      "Priority Rank": 19,
+      "Hub (Master Topic)": "Can You Have Multiple Insurance Policies at Once?",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2700,
+      "Spoke Keyword (exact)": "can i have 2 medical insurance plans",
+      "Search Intent": "Informational",
+      "Monthly Volume": 30,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 7.88
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "experimental aircraft insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 5,
+      "CPC (USD)": 7.46
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "airplane insurance cost",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 4.38
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "seaplane insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 3.25
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "cessna insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 3,
+      "CPC (USD)": 6.75
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "private pilot insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.37
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "how much is aircraft insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 2.26
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "how much is plane insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 90,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 2.56
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "how much does airplane insurance cost",
+      "Search Intent": "Informational",
+      "Monthly Volume": 50,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 3.01
+    },
+    {
+      "Priority Rank": 20,
+      "Hub (Master Topic)": "Aircraft & Aviation Insurance Explained",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2650,
+      "Spoke Keyword (exact)": "how much is aviation insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 40,
+      "Difficulty (0-100)": 5,
+      "CPC (USD)": 2.74
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "insurance 1 day",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 14.19
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "bartender insurance for 1 day",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 5.48
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "dj insurance for one day",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 6.73
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "party rental insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 9,
+      "CPC (USD)": 7.94
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "birthday party insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 3.67
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "dj insurance one day",
+      "Search Intent": "Informational",
+      "Monthly Volume": 210,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 6.73
+    },
+    {
+      "Priority Rank": 21,
+      "Hub (Master Topic)": "One-Day & Event Insurance (Bartenders, DJs, Parties)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 2020,
+      "Spoke Keyword (exact)": "bartender insurance for wedding",
+      "Search Intent": "Informational",
+      "Monthly Volume": 170,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 3.62
+    },
+    {
+      "Priority Rank": 22,
+      "Hub (Master Topic)": "RV, Auto Compliance & State Programs",
+      "Category": "car-insurance",
+      "Hub Total Volume": 1980,
+      "Spoke Keyword (exact)": "florida compliant drivers program",
+      "Search Intent": "Informational",
+      "Monthly Volume": 880,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 13.32
+    },
+    {
+      "Priority Rank": 22,
+      "Hub (Master Topic)": "RV, Auto Compliance & State Programs",
+      "Category": "car-insurance",
+      "Hub Total Volume": 1980,
+      "Spoke Keyword (exact)": "california evidence of liability insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 5.8
+    },
+    {
+      "Priority Rank": 22,
+      "Hub (Master Topic)": "RV, Auto Compliance & State Programs",
+      "Category": "car-insurance",
+      "Hub Total Volume": 1980,
+      "Spoke Keyword (exact)": "california rv insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 8,
+      "CPC (USD)": 12.16
+    },
+    {
+      "Priority Rank": 22,
+      "Hub (Master Topic)": "RV, Auto Compliance & State Programs",
+      "Category": "car-insurance",
+      "Hub Total Volume": 1980,
+      "Spoke Keyword (exact)": "california private mortgage insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 4,
+      "CPC (USD)": 5.56
+    },
+    {
+      "Priority Rank": 23,
+      "Hub (Master Topic)": "Car Insurance for High-Risk & Convicted Drivers",
+      "Category": "car-insurance",
+      "Hub Total Volume": 1920,
+      "Spoke Keyword (exact)": "which insurance companies do not ask about criminal convictions",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1600,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 2.16
+    },
+    {
+      "Priority Rank": 23,
+      "Hub (Master Topic)": "Car Insurance for High-Risk & Convicted Drivers",
+      "Category": "car-insurance",
+      "Hub Total Volume": 1920,
+      "Spoke Keyword (exact)": "are cat n cars more expensive to insure",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 13,
+      "CPC (USD)": 2.66
+    },
+    {
+      "Priority Rank": 24,
+      "Hub (Master Topic)": "Insurance for Sole Traders & Self-Employed (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1830,
+      "Spoke Keyword (exact)": "do i need public liability insurance as a sole trader",
+      "Search Intent": "Informational / Commercial",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 7.6
+    },
+    {
+      "Priority Rank": 24,
+      "Hub (Master Topic)": "Insurance for Sole Traders & Self-Employed (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1830,
+      "Spoke Keyword (exact)": "what insurance does a sole trader need",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 12.98
+    },
+    {
+      "Priority Rank": 24,
+      "Hub (Master Topic)": "Insurance for Sole Traders & Self-Employed (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1830,
+      "Spoke Keyword (exact)": "do sole traders need insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 6.88
+    },
+    {
+      "Priority Rank": 24,
+      "Hub (Master Topic)": "Insurance for Sole Traders & Self-Employed (UK)",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1830,
+      "Spoke Keyword (exact)": "what insurance do i need as a sole trader",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 12.98
+    },
+    {
+      "Priority Rank": 25,
+      "Hub (Master Topic)": "Business Insurance: Coverage & Requirements",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1560,
+      "Spoke Keyword (exact)": "marine business insurance",
+      "Search Intent": "Commercial",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 22,
+      "CPC (USD)": 15.05
+    },
+    {
+      "Priority Rank": 25,
+      "Hub (Master Topic)": "Business Insurance: Coverage & Requirements",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1560,
+      "Spoke Keyword (exact)": "does business insurance cover theft",
+      "Search Intent": "Informational",
+      "Monthly Volume": 480,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 9.55
+    },
+    {
+      "Priority Rank": 25,
+      "Hub (Master Topic)": "Business Insurance: Coverage & Requirements",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1560,
+      "Spoke Keyword (exact)": "does business insurance cover lawsuits",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 4.41
+    },
+    {
+      "Priority Rank": 25,
+      "Hub (Master Topic)": "Business Insurance: Coverage & Requirements",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1560,
+      "Spoke Keyword (exact)": "how much business insurance do i need",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 8.04
+    },
+    {
+      "Priority Rank": 25,
+      "Hub (Master Topic)": "Business Insurance: Coverage & Requirements",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1560,
+      "Spoke Keyword (exact)": "who is exempt from workers' compensation insurance california",
+      "Search Intent": "Informational",
+      "Monthly Volume": 140,
+      "Difficulty (0-100)": 14,
+      "CPC (USD)": 8.36
+    },
+    {
+      "Priority Rank": 25,
+      "Hub (Master Topic)": "Business Insurance: Coverage & Requirements",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1560,
+      "Spoke Keyword (exact)": "can you cancel business insurance at any time",
+      "Search Intent": "Informational",
+      "Monthly Volume": 70,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 26.45
+    },
+    {
+      "Priority Rank": 26,
+      "Hub (Master Topic)": "Liability Insurance: What It Covers",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1300,
+      "Spoke Keyword (exact)": "does liability insurance cover theft",
+      "Search Intent": "Informational",
+      "Monthly Volume": 1300,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 8.85
+    },
+    {
+      "Priority Rank": 27,
+      "Hub (Master Topic)": "Pet Insurance: Coverage, Costs & Exclusions",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1300,
+      "Spoke Keyword (exact)": "does pet insurance cover desexing",
+      "Search Intent": "Informational",
+      "Monthly Volume": 590,
+      "Difficulty (0-100)": 12,
+      "CPC (USD)": 3.58
+    },
+    {
+      "Priority Rank": 27,
+      "Hub (Master Topic)": "Pet Insurance: Coverage, Costs & Exclusions",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1300,
+      "Spoke Keyword (exact)": "does pet insurance cover cremation",
+      "Search Intent": "Informational",
+      "Monthly Volume": 390,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 2.14
+    },
+    {
+      "Priority Rank": 27,
+      "Hub (Master Topic)": "Pet Insurance: Coverage, Costs & Exclusions",
+      "Category": "insurance-basics",
+      "Hub Total Volume": 1300,
+      "Spoke Keyword (exact)": "does pet insurance cover dental",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 11,
+      "CPC (USD)": 3.14
+    },
+    {
+      "Priority Rank": 28,
+      "Hub (Master Topic)": "Personal Accident Insurance Explained",
+      "Category": "disability-insurance",
+      "Hub Total Volume": 320,
+      "Spoke Keyword (exact)": "what is personal accident insurance",
+      "Search Intent": "Informational",
+      "Monthly Volume": 320,
+      "Difficulty (0-100)": 10,
+      "CPC (USD)": 11.42
+    },
+    {
+      "Priority Rank": 29,
+      "Hub (Master Topic)": "Title Insurance: Do You Need It?",
+      "Category": "home-insurance",
+      "Hub Total Volume": 260,
+      "Spoke Keyword (exact)": "is title insurance worth it",
+      "Search Intent": "Informational",
+      "Monthly Volume": 260,
+      "Difficulty (0-100)": 6,
+      "CPC (USD)": 2.64
+    }
+  ]
+}

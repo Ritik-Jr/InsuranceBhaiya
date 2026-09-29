@@ -1,0 +1,254 @@
+{
+  "type": "learn",
+  "id": "new-york-no-fault-insurance",
+  "slug": "new-york-no-fault-insurance",
+  "title": "New York State No-Fault Insurance Explained: $50,000 PIP, Deadlines & When You Can Sue",
+  "description": "New York no-fault insurance explained: what the $50,000 PIP covers, the 30-day deadline, the serious injury threshold, who's excluded and when you can sue.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-09-29",
+  "updatedAt": "2026-09-29",
+  "readingTime": 11,
+  "featured": true,
+  "tags": [
+    "new york no fault insurance",
+    "new york state no fault",
+    "ny no-fault",
+    "ny pip",
+    "serious injury threshold new york",
+    "no-fault claim new york"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "New York is a no-fault state. Your own policy's personal injury protection pays up to $50,000 per person in 'basic economic loss' after a crash, whoever caused it ([NY Insurance Law §5102](https://www.nysenate.gov/legislation/laws/ISC/5102)).",
+    "That $50,000 covers medical bills, lost earnings up to $2,000 a month for up to three years, and up to $25 a day in other reasonable expenses for one year.",
+    "You must file your no-fault application within 30 days of the crash, submit medical bills within 45 days, and submit lost-wage claims within 90 days (per [NY DFS Regulation 68](https://www.dfs.ny.gov/apps_and_licensing/property_insurers/nofault_faqs_reg68)).",
+    "You can sue the at-fault driver for pain and suffering only if you meet New York's 'serious injury' [tort threshold](/glossary/tort-threshold/), such as a fracture, significant disfigurement or permanent limitation.",
+    "Car damage is still fault-based in New York. No-fault only covers injuries."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "How does New York State no-fault insurance work?",
+      "answer": "After a crash, your own insurer pays your medical bills, lost wages (up to $2,000 a month) and other expenses up to $50,000, whoever caused the crash. In exchange, you can only sue the at-fault driver for pain and suffering if you meet the serious injury threshold."
+    },
+    {
+      "question": "How long do I have to file a no-fault claim in New York?",
+      "answer": "Thirty days from the crash to submit your no-fault application, 45 days for medical bills and 90 days for lost wages. Details are in [how to file a no-fault insurance claim in New York](/qa/how-to-file-a-no-fault-insurance-claim-in-new-york/)."
+    },
+    {
+      "question": "Does New York no-fault cover car damage?",
+      "answer": "No. Vehicle damage is handled by fault: the at-fault driver's property damage liability or your own collision coverage."
+    },
+    {
+      "question": "Does New York no-fault cover motorcycle accidents?",
+      "answer": "Not for the motorcycle rider or passenger. Riders rely on MedPay, health insurance and the at-fault driver's liability. A pedestrian hit by a motorcycle, however, can generally claim no-fault benefits."
+    },
+    {
+      "question": "Can I sue after a no-fault accident in New York?",
+      "answer": "Yes, if your injury is a 'serious injury' under Insurance Law §5102(d), such as a fracture, significant disfigurement or permanent limitation, or for economic losses above your no-fault benefits. See [tort threshold](/glossary/tort-threshold/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "If you drive in New York, **no-fault insurance** is the first thing that kicks in after a crash. It's also the part of the system people misunderstand most. It doesn't mean nobody is blamed, and it doesn't pay to fix your car. What it does is make your own insurer pay your medical bills and lost wages quickly, up to $50,000, without waiting to sort out who caused the crash. In return, New York limits when you can sue for pain and suffering. This guide walks you through exactly what New York State no-fault covers, who it leaves out, and the deadlines that can cost you your benefits. It's part of our [no-fault vs at-fault car insurance states hub](/learn/no-fault-vs-at-fault-car-insurance-states/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What New York No-Fault Insurance Covers"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Benefit",
+        "What It Pays",
+        "Limit"
+      ],
+      "rows": [
+        [
+          "Medical and rehab expenses",
+          "Hospital, doctor, surgery, therapy, prescriptions, ambulance, X-rays, prosthetics",
+          "Part of the $50,000 total, paid under New York's fee schedule"
+        ],
+        [
+          "Lost earnings",
+          "Wages you lose because of the injury (generally 80% of earnings)",
+          "Up to $2,000 a month, for up to 3 years"
+        ],
+        [
+          "Other reasonable expenses",
+          "Household help, transport to medical appointments and similar costs",
+          "Up to $25 a day, for up to 1 year"
+        ],
+        [
+          "Death benefit",
+          "Paid to the estate if the injured person dies",
+          "Set by regulation (commonly $2,000)"
+        ],
+        [
+          "Optional additional PIP (OBEL)",
+          "Extra coverage for lost earnings or therapy",
+          "An additional $25,000 can be purchased"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Source: [New York Insurance Law §5102](https://www.nysenate.gov/legislation/laws/ISC/5102). Everything is subject to the overall $50,000 per-person limit (plus any optional coverage you buy). For how PIP works in general, see [personal injury protection (PIP)](/glossary/personal-injury-protection/)."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "$50,000 Goes Faster Than You Think",
+      "text": "A trauma admission, surgery and three months of physical therapy can use up most of $50,000, and lost wages come out of the same pot. If you earn a good income or have a physically demanding job, ask about the optional extra $25,000 (OBEL). Check your overall exposure with [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Is Covered, and Who Isn't"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Covered:** you and relatives living in your household (even as passengers in other cars, in most cases), passengers in your car, and pedestrians your car hits.",
+        "**Not covered by NY no-fault:** motorcycle riders and their passengers, who rely on MedPay, health insurance and the at-fault driver's liability instead. See [motorcycle insurance vs car insurance](/compare/motorcycle-insurance-vs-car-insurance/).",
+        "**Commonly excluded:** people injured while driving intoxicated, while committing a felony, while racing, or while knowingly riding in a stolen car.",
+        "**No-fault doesn't cover** vehicle damage. That's handled by fault, through the other driver's property damage liability or your own [collision coverage](/compare/comprehensive-vs-collision/)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "New York's Minimum Car Insurance Requirements"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Bodily injury liability:** $25,000 per person and $50,000 per accident ($50,000/$100,000 for death)",
+        "**Property damage liability:** $10,000",
+        "**Personal injury protection (no-fault):** $50,000",
+        "**Uninsured motorist:** $25,000/$50,000"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "You can't register a car in New York without this coverage. See [do you need insurance to register a car in NY](/qa/do-you-need-insurance-to-register-a-car-in-ny/) and [can you drive without insurance in NY](/qa/can-you-drive-without-insurance-in-ny/). A $10,000 property damage limit is very low for New York City traffic, so most drivers should raise it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Deadlines That Can Cost You Everything"
+    },
+    {
+      "type": "paragraph",
+      "text": "New York no-fault is generous, but it's strict about timing. Under [DFS Regulation 68](https://www.dfs.ny.gov/apps_and_licensing/property_insurers/nofault_faqs_reg68):"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**30 days:** submit written notice of claim (the no-fault application, form NF-2) to the insurer.",
+        "**45 days:** your medical providers must submit bills for treatment.",
+        "**90 days:** submit proof of lost earnings and other expenses.",
+        "**10 days:** file a DMV accident report (MV-104) if anyone was injured or property damage exceeds $1,000."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurers can deny late claims, although a reasonable justification for delay can sometimes rescue one. The full step-by-step process is in [how to file a no-fault insurance claim in New York](/qa/how-to-file-a-no-fault-insurance-claim-in-new-york/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When Can You Sue in New York? The Serious Injury Threshold"
+    },
+    {
+      "type": "paragraph",
+      "text": "No-fault replaces most small injury lawsuits. You can step outside it and sue the at-fault driver for pain and suffering, and for economic losses above $50,000, only if you have a **'serious injury'** under [Insurance Law §5102(d)](https://www.nysenate.gov/legislation/laws/ISC/5102). That means death, dismemberment, significant disfigurement, a fracture, loss of a fetus, permanent loss of use of a body organ, member, function or system, permanent consequential limitation of use of a body organ or member, significant limitation of use of a body function or system, or an injury that prevents you from performing substantially all your usual daily activities for at least 90 of the 180 days after the crash. This kind of rule is called a verbal [tort threshold](/glossary/tort-threshold/)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once you clear it, New York uses **pure comparative negligence**. You can recover even if you were partly at fault, reduced by your share ([Bloomberg Law chart](https://pro.bloomberglaw.com/insights/litigation/contributory-and-comparative-negligence-by-state/)). That's more forgiving than the 50% and 51% bars in at-fault states like [Georgia](/qa/is-georgia-a-no-fault-state/) and [Texas](/qa/is-texas-a-no-fault-state/)."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Denied or Underpaid? You Have Options",
+      "text": "If your no-fault insurer denies treatment or cuts off benefits (often after an independent medical exam), you can challenge it through no-fault arbitration or in court. See [what to do when an insurer denies or delays](/qa/can-i-sue-my-insurance-company-for-taking-too-long/), and consider [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "New York No-Fault vs At-Fault States"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "New York (no-fault)",
+        "Texas / Georgia / Colorado (at-fault)"
+      ],
+      "rows": [
+        [
+          "Who pays your injuries first",
+          "Your own PIP, up to $50,000",
+          "The at-fault driver's liability insurer (after fault is set)"
+        ],
+        [
+          "Right to sue for pain and suffering",
+          "Only with a serious injury",
+          "Any injury"
+        ],
+        [
+          "Fault rule for lawsuits",
+          "Pure comparative",
+          "50% or 51% bar"
+        ],
+        [
+          "Fault-free medical cover",
+          "Mandatory PIP",
+          "Optional PIP (TX) or MedPay (CO default $5,000). See [PIP vs MedPay](/compare/pip-vs-medpay/)"
+        ]
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Coverage Calculator",
+      "description": "Model New York liability, PIP and supplementary UM limits that protect your income and savings."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Sources & Further Reading"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[New York Insurance Law §5102: Basic economic loss and serious injury definitions](https://www.nysenate.gov/legislation/laws/ISC/5102)",
+        "[NY DFS: FAQ on No-Fault Regulation 68 (30/45/90-day deadlines)](https://www.dfs.ny.gov/apps_and_licensing/property_insurers/nofault_faqs_reg68)",
+        "[NY DFS: Auto insurance resource center](https://www.dfs.ny.gov/consumers/auto_insurance/Auto_resource_center)",
+        "[Bloomberg Law: Comparative negligence by state](https://pro.bloomberglaw.com/insights/litigation/contributory-and-comparative-negligence-by-state/)"
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "This guide explains New York's no-fault system in general terms and isn't legal advice. Benefit limits, fee schedules and deadlines are set by statute and regulation and can change. Talk to a licensed New York attorney or your insurer about a specific claim."
+    }
+  ]
+}
