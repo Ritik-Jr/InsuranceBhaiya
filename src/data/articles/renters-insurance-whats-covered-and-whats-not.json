@@ -9,7 +9,7 @@
   "authorRole": "Actuarial Research Fellow",
   "publishedAt": "2026-09-27",
   "updatedAt": "2026-09-27",
-  "readingTime": 12,
+  "readingTime": 15,
   "featured": true,
   "tags": [
     "renters insurance",
@@ -45,14 +45,14 @@
     }
   ],
   "companionTool": {
-    "slug": "insurance-needs-calculator",
-    "title": "Insurance Needs Calculator",
-    "description": "Calculate your total protection requirement across life, health, and personal liability."
+    "slug": "renters-insurance-calculator",
+    "title": "Renters Insurance Calculator",
+    "description": "Calculate your exact personal property replacement value and recommended liability limits before buying."
   },
   "content": [
     {
       "type": "paragraph",
-      "text": "Renters insurance is inexpensive, widely underused, and surprisingly misunderstood — most people either assume it covers almost nothing beyond a break-in, or assume it covers almost everything the way [homeowners insurance](/learn/home-insurance-fundamentals/) does. Neither is quite right. This guide walks through exactly what a standard policy includes, using the same question-and-answer format as each linked page, so you can find your specific situation quickly."
+      "text": "Renters insurance is inexpensive, widely underused, and surprisingly misunderstood — most people either assume it covers almost nothing beyond a break-in, or assume it covers almost everything the way homeowners insurance does. Neither is quite right. This guide walks through exactly what a standard policy includes, using the same question-and-answer format as each linked page, so you can find your specific situation quickly."
     },
     {
       "type": "heading",
@@ -61,7 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Nearly every renters policy bundles three distinct coverages: personal property coverage, which pays to repair or replace your belongings after a covered loss like fire, theft, or [vandalism](/qa/does-car-insurance-cover-vandalism/); personal liability coverage, which pays if you, a family member, or a pet injures someone or damages their property, plus your legal defense costs if you're sued; and additional living expenses (ALE) coverage, which pays for a hotel and related costs if a covered loss makes your rental temporarily unlivable. Understanding which of these three buckets a specific claim falls into is the fastest way to predict whether it's covered."
+      "text": "Nearly every renters policy bundles three distinct coverages: personal property coverage, which pays to repair or replace your belongings after a covered loss like [fire](/qa/does-renters-insurance-cover-fire-damage/), theft, or [vandalism](/qa/does-renters-insurance-cover-vandalism/); personal liability coverage, which pays if you, a family member, or a pet injures someone or damages their property, plus your legal defense costs if you're sued; and additional living expenses (ALE) coverage, which pays for a hotel and related costs if a covered loss makes your rental temporarily unlivable. Understanding which of these three buckets a specific claim falls into is the fastest way to predict whether it's covered."
     },
     {
       "type": "heading",
@@ -70,7 +70,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Yes, generally — personal property coverage isn't limited to things inside your unit. A bike [stolen from a public rack](/qa/does-renters-insurance-cover-bike-theft/), a laptop stolen from a coffee shop, or luggage stolen while traveling are all typically covered the same way as something stolen from inside your home, just subject to an off-premises [sub-limit](/glossary/sub-limit/), commonly around 10% of your total personal property coverage. This surprises a lot of renters who assume coverage stops at their front door."
+      "text": "Yes, generally — personal property coverage isn't limited to things inside your unit. A bike [stolen from a public rack](/qa/does-renters-insurance-cover-bike-theft/), personal items [stolen from your car](/qa/does-renters-insurance-cover-theft-from-your-car/), or [stolen packages](/qa/does-renters-insurance-cover-stolen-packages/) taken from your porch are all typically covered the same way as something stolen from inside your home, just subject to an off-premises sub-limit, commonly around 10% of your total personal property coverage. This surprises a lot of renters who assume coverage stops at their front door."
     },
     {
       "type": "heading",
@@ -79,7 +79,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The most expensive surprises in [renters insurance](/qa/does-renters-insurance-cover-theft-outside-home/) aren't obscure — they're a small number of well-known, consistently excluded categories. [Flood and earthquake damage](/qa/does-renters-insurance-cover-flood-or-earthquake-damage/) are excluded from nearly every standard policy and require separate coverage. [Mold](/qa/does-renters-insurance-cover-mold/) is covered only when it results directly from a sudden, covered peril — not from long-term humidity or neglected maintenance. And [water damage from a leak](/qa/does-renters-insurance-cover-water-damage-from-a-leak/) depends heavily on whether the leak was sudden and accidental or a slow, known problem."
+      "text": "The most expensive surprises in renters insurance aren't obscure — they're a small number of well-known, consistently excluded categories. [Flood and earthquake damage](/qa/does-renters-insurance-cover-flood-or-earthquake-damage/) are excluded from nearly every standard policy and require separate coverage. [Mold](/qa/does-renters-insurance-cover-mold/) is covered only when it results directly from a sudden, covered peril — not from long-term humidity or neglected maintenance. And [water damage from a leak](/qa/does-renters-insurance-cover-water-damage-from-a-leak/) depends heavily on whether the leak was sudden and accidental or a slow, known problem."
     },
     {
       "type": "table",
@@ -118,6 +118,31 @@
           "Your roommate's belongings are stolen too",
           "Only if they're specifically named on your policy",
           "[Does Renters Insurance Cover Roommates' Belongings?](/qa/does-renters-insurance-cover-roommates-belongings/)"
+        ],
+        [
+          "Fire damages your belongings",
+          "Yes, a core named peril regardless of where the fire started",
+          "[Does Renters Insurance Cover Fire Damage?](/qa/does-renters-insurance-cover-fire-damage/)"
+        ],
+        [
+          "Vandalism damages your belongings",
+          "Yes, subject to a police report requirement",
+          "[Does Renters Insurance Cover Vandalism?](/qa/does-renters-insurance-cover-vandalism/)"
+        ],
+        [
+          "Something is stolen from your car",
+          "Yes for belongings, but not the car's own damage",
+          "[Does Renters Insurance Cover Theft From Your Car?](/qa/does-renters-insurance-cover-theft-from-your-car/)"
+        ],
+        [
+          "A delivered package is stolen from your door",
+          "Generally yes, though the deductible often makes filing not worthwhile",
+          "[Does Renters Insurance Cover Stolen Packages?](/qa/does-renters-insurance-cover-stolen-packages/)"
+        ],
+        [
+          "You hold two policies on one or separate apartments",
+          "Legal across distinct residences; restricted by pro-rata contribution on the same unit",
+          "[Can You Have Two Renters Insurance Policies?](/qa/can-you-have-two-renters-insurance-policies/)"
         ]
       ]
     },
@@ -138,6 +163,15 @@
     {
       "type": "paragraph",
       "text": "Rather than guessing, the right amount of personal property coverage is whatever it would actually cost to replace everything you own, which is usually higher than people initially estimate once clothing, furniture, and electronics are added up. See [How Much Renters Insurance Coverage Do You Actually Need?](/qa/how-much-renters-insurance-coverage-do-you-need/) for a practical way to estimate this rather than picking a number arbitrarily."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What About Students, and a Few Other Common Situations?"
+    },
+    {
+      "type": "paragraph",
+      "text": "One more question worth answering directly: [Do College Students Need Their Own Renters Insurance?](/qa/do-college-students-need-their-own-renters-insurance/) covers the common gap between a parent's dorm extension and an off-campus lease, which trips up a lot of first-time renters. Similarly, renters who maintain multiple residences or dual apartments often wonder whether [you can have two renters insurance policies](/qa/can-you-have-two-renters-insurance-policies/) without running afoul of other-insurance clauses or duplicate indemnity rules."
     },
     {
       "type": "disclaimer",

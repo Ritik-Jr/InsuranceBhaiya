@@ -888,6 +888,83 @@ const FALLBACK_INDEX = {
   ],
   "qa": [
       {
+      "question": "Can you have pet insurance from two different companies",
+      "slug": "can-you-have-pet-insurance-from-two-different-companies",
+      "shortAnswer": "Yes, it's legal to buy two pet insurance policies on the same animal, but like most property and health-style coverage, pet insurance is reimbursement-based, so submitting the same vet bill to both insurers generally won't get you paid twice for it. Many insurers ask about existing pet insurance coverage on the application, and some policies include a coordination provision similar to health insurance's coordination of benefits.",
+      "category": "General"
+},
+
+      {
+      "question": "Can you have two renters insurance policies",
+      "slug": "can-you-have-two-renters-insurance-policies",
+      "shortAnswer": "Yes, it's legal, but renters insurance is also indemnity-based, so two policies covering the same rented home won't pay you twice for the same loss. This differs from two roommates each holding their own renters policy for their own belongings in a shared unit, which is common and simply means two separate people are each insuring their own property, not duplicating coverage on the same items.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Can you have two homeowners insurance policies",
+      "slug": "can-you-have-two-homeowners-insurance-policies",
+      "shortAnswer": "Yes, it's legal to hold two homeowners insurance policies on the same house, but insurers won't pay the same loss twice. If both policies cover the same peril, they typically apply a 'contribution clause' and split the claim between them rather than each paying in full, and insurers can flag unexplained duplicate coverage as a possible fraud risk. Two policies covering genuinely different things, like separate dwelling and high-value-items coverage, is a different and more common situation.",
+      "category": "Home"
+},
+
+      {
+      "question": "Can a Corporate Officer Opt Out of Workers' Compensation Coverage?",
+      "slug": "can-a-corporate-officer-opt-out-of-workers-compensation",
+      "shortAnswer": "In most states, yes, but only by filing a formal election with the state and only while meeting an ownership threshold - commonly around 10% of company stock, though the exact number varies and has been trending lower in several states in recent years. Some states cap how many officers can elect out at the same time, particularly in construction, while others place no cap outside specific high-risk industries. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for how this compares to other exemption categories.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Do I Need Workers' Compensation Insurance for a Nanny or Housekeeper?",
+      "slug": "workers-compensation-insurance-for-nanny-or-housekeeper",
+      "shortAnswer": "In roughly 20 states, yes, once your household employee crosses that state's specific hours or wage threshold - commonly 40 hours a week, or in California, more than 52 hours and $100 in wages within a 90-day period. Other states exclude domestic workers from their workers' compensation mandate entirely, though carrying voluntary coverage is still widely recommended even where it isn't required. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for how household employment compares to other exemption categories.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Are Real Estate Agents Exempt From Workers' Compensation?",
+      "slug": "are-real-estate-agents-exempt-from-workers-compensation",
+      "shortAnswer": "In most states, yes - licensed real estate agents paid solely by commission under a written contract are the textbook example of a workers' compensation exemption, and they're also one of the IRS's three federal statutory nonemployee categories. But the exemption isn't universal: a few states, including California, specifically require real estate brokers to carry workers' compensation for their agents regardless of independent contractor status. See the [full workers' compensation exemptions guide](/learn/workers-compensation-insurance-exemptions) for how this compares to the [similar carve-out some states extend to insurance agents](/qa/are-life-insurance-agents-exempt-from-workers-compensation).",
+      "category": "Disability"
+},
+
+      {
+      "question": "Do College Students Need Their Own Renters Insurance?",
+      "slug": "do-college-students-need-their-own-renters-insurance",
+      "shortAnswer": "It depends on where they live: a full-time student living in an on-campus dorm is often covered, at a reduced level, under a parent's homeowners or renters policy as a dependent, while a student living off-campus in their own lease typically needs their own separate renters policy, since a parent's dorm-extension coverage usually doesn't apply to an off-campus apartment.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Stolen Packages?",
+      "slug": "does-renters-insurance-cover-stolen-packages",
+      "shortAnswer": "Generally yes \u2014 a package stolen from your doorstep after delivery is typically covered under your renters policy's personal property theft coverage, since it's considered your property once delivered, regardless of where on the premises it was taken from. It's still subject to your deductible, which often makes filing a claim for a single low-value package not worth it in practice.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Theft From Your Car?",
+      "slug": "does-renters-insurance-cover-theft-from-your-car",
+      "shortAnswer": "Yes, for your personal belongings \u2014 renters insurance covers items stolen from your car (a laptop, bag, or bike left inside), treated as off-premises personal property theft, subject to your policy's off-premises limit and deductible. It does not cover damage to the car itself, such as a broken window or forced lock; that's handled under your auto policy's comprehensive coverage instead.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Vandalism?",
+      "slug": "does-renters-insurance-cover-vandalism",
+      "shortAnswer": "Yes \u2014 vandalism is one of the standard named perils on a renters insurance policy, covering intentional damage to your personal belongings, such as a broken window someone throws a rock through or graffiti on your property. It doesn't cover damage to the building structure itself, which remains your landlord's responsibility, and most policies require the vacancy or malicious-mischief circumstances to fit specific policy definitions.",
+      "category": "Renters"
+},
+
+      {
+      "question": "Does Renters Insurance Cover Fire Damage?",
+      "slug": "does-renters-insurance-cover-fire-damage",
+      "shortAnswer": "Yes \u2014 fire is one of the core named perils on nearly every standard renters insurance policy, covering damage to your personal belongings whether the fire started in your own unit, a neighbor's unit, or a common area of the building. Your policy also typically pays additional living expenses (a hotel and related costs) while your unit is uninhabitable after a covered fire.",
+      "category": "Renters"
+},
+
+      {
       "question": "Can you have multiple disability insurance policies",
       "slug": "can-you-have-multiple-disability-insurance-policies",
       "shortAnswer": "Yes \u2014 owning multiple disability insurance policies, often called 'stacking,' is legal and common, especially among higher earners whose employer group long-term disability plan caps out well below what they'd need. But insurers coordinate: your combined monthly benefit across all policies typically can't exceed roughly 60% to 70% of your income, so stacking raises your total coverage up to that ceiling rather than multiplying it without limit.",
