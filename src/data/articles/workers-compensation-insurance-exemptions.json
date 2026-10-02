@@ -59,7 +59,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "Workers' compensation exists to answer one question fast: who pays if a worker is hurt on the job? For most employers the answer is a mandatory policy. But a meaningful list of workers and business owners fall outside that requirement entirely, and the reasons range from how a business is structured to how a specific worker is paid. This guide walks through who is commonly exempt, why life insurance agents are a genuinely special case, and - because this sits in our disability-insurance category for a reason - what actually protects your income when workers' comp isn't there to catch you."
+      "text": "Workers' compensation exists to answer one question fast: who pays if a worker is hurt on the job? For most employers the answer is a mandatory policy. But a meaningful list of workers and business owners fall outside that requirement entirely, and the reasons range from how a business is structured to how a specific worker is paid. This guide walks through who is commonly exempt, why [life insurance](/learn/what-is-life-insurance/) agents are a genuinely special case, and - because this sits in our disability-insurance category for a reason - what actually protects your income when workers' comp isn't there to catch you."
     },
     {
       "type": "heading",
@@ -68,7 +68,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Every state except Texas requires most employers to carry workers' compensation once they cross a state-specific employee threshold - commonly as low as one employee in New York, three in states like Georgia and Arkansas, or five in others. Coverage typically pays medical bills and a portion of lost wages for a work injury regardless of who was at fault, and in exchange the injured worker generally cannot sue the employer - the trade-off is often called the exclusive remedy. Texas is the outlier: private employers there can choose not to carry workers' comp at all, a choice covered in depth in [Marcus's Texas non-subscriber scenario](/scenarios/marcus-texas-non-subscriber-workers-comp/) below."
+      "text": "Every state except Texas requires most employers to carry workers' compensation once they cross a state-specific employee threshold - commonly as low as one employee in New York, three in states like Georgia and Arkansas, or five in others. Coverage typically pays medical bills and a portion of lost wages for a work injury regardless of who was at fault, and in exchange the injured worker generally cannot sue the employer - the trade-off is often called the exclusive remedy. Texas is the outlier: private employers there can choose not to carry workers' comp at all, a choice covered in depth in [Carlos's Texas non-subscriber scenario](/scenarios/carlos-texas-non-subscriber-workers-comp/) below."
     },
     {
       "type": "heading",
@@ -130,7 +130,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A written independent contractor agreement is a starting point, not the final word. States apply a control test - how much say the business has over hours, methods, tools and supervision - and a worker who looks like an employee in practice can be reclassified as one after an injury, even if both sides signed a contract calling them a contractor. This is one of the most common and expensive ways an exemption gets challenged, sometimes years after the fact and with back premiums and penalties attached. Anyone relying on contractor status as a workers' comp exemption should read [the full independent contractor breakdown](/qa/are-independent-contractors-exempt-from-workers-compensation/) before assuming the label alone settles the question."
+      "text": "A written independent contractor agreement is a starting point, not the final word. States apply a control test - how much say the business has over hours, methods, tools and supervision - and a worker who looks like an employee in practice can be reclassified as one after an injury, even if both sides signed a contract calling them a contractor. This is one of the most common and expensive ways an exemption gets challenged, sometimes years after the fact and with back [premiums](/glossary/premium/) and penalties attached. Anyone relying on contractor status as a workers' comp exemption should read [the full independent contractor breakdown](/qa/are-independent-contractors-exempt-from-workers-compensation/) before assuming the label alone settles the question."
     },
     {
       "type": "callout",
@@ -145,7 +145,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Being exempt from workers' compensation does not make a workplace injury disappear, it just removes the specific safety net workers' comp provides. [What actually happens if you're hurt at work with no workers' comp behind you](/qa/hurt-at-work-employer-exempt-from-workers-compensation/) depends on your own health insurance, whether it excludes work-related injuries, and whether you carry individual disability insurance or an occupational accident policy to replace lost income. This is the real reason this topic sits in our disability-insurance category rather than purely under commercial or liability insurance: workers' comp and individual disability insurance are solving the same underlying problem - lost income after an injury - through two very different mechanisms, which [our side-by-side comparison](/compare/workers-compensation-vs-individual-disability-insurance/) lays out directly. Use the [Disability Insurance Needs Calculator](/disability-insurance-calculator/) to see what monthly benefit would actually replace your income if that gap ever became real."
+      "text": "Being exempt from workers' compensation does not make a workplace injury disappear, it just removes the specific safety net workers' comp provides. [What actually happens if you're hurt at work with no workers' comp behind you](/qa/hurt-at-work-employer-exempt-from-workers-compensation/) depends on your own health insurance, whether it excludes work-related injuries, and whether you carry individual [disability insurance](/insurance/disability-insurance/) or an occupational accident policy to replace lost income. This is the real reason this topic sits in our disability-insurance category rather than purely under commercial or liability insurance: workers' comp and individual disability insurance are solving the same underlying problem - lost income after an injury - through two very different mechanisms, which [our side-by-side comparison](/compare/workers-compensation-vs-individual-disability-insurance/) lays out directly. Use the [Disability Insurance Needs Calculator](/disability-insurance-calculator/) to see what monthly benefit would actually replace your income if that gap ever became real."
     },
     {
       "type": "heading",
@@ -154,7 +154,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Exemption is a choice for many owners, not an obligation to go without coverage. A sole proprietor or exempt corporate officer can often buy a small voluntary policy, sometimes nicknamed a ghost policy, purely to protect their own finances after an injury. It's also common practice for a reason that has nothing to do with personal risk tolerance: many general contractors and larger clients will not sign a contract with a subcontractor or vendor who cannot produce a certificate of workers' comp coverage, exempt or not, because the client wants to avoid being treated as a statutory employer if something goes wrong - a concern covered from the client's own liability side in [quotes for commercial insurance](/learn/quotes-for-commercial-insurance/)."
+      "text": "Exemption is a choice for many owners, not an obligation to go without coverage. A sole proprietor or exempt corporate officer can often buy a small voluntary policy, sometimes nicknamed a ghost policy, purely to protect their own finances after an injury. It's also common practice for a reason that has nothing to do with personal risk tolerance: many general contractors and larger clients will not sign a contract with a [subcontractor](/qa/does-contractors-all-risk-insurance-cover-subcontractors/) or vendor who cannot produce a certificate of workers' comp coverage, exempt or not, because the client wants to avoid being treated as a statutory employer if something goes wrong - a concern covered from the client's own liability side in [quotes for commercial insurance](/learn/quotes-for-commercial-insurance/)."
     },
     {
       "type": "heading",
@@ -163,7 +163,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Two situations show how thin these exemptions can get in practice. Construction is the industry where a contractor label most often collapses under scrutiny - [Danny's framing crew audit](/scenarios/danny-construction-subcontractor-workers-comp-audit/) shows exactly how a general contractor's insurance auditor can reclassify a crew as employees regardless of what the paperwork says, and why construction-specific rules frequently override the general small-business exemption entirely. Texas raises a different question: employers who become non-subscribers often buy [occupational accident insurance to replace some of what workers' comp would have covered](/compare/occupational-accident-insurance-vs-workers-compensation/) - but that private policy doesn't restore the exclusive remedy protection that made workers' comp attractive to the employer in the first place, which is easy to miss if you only compare premiums."
+      "text": "Two situations show how thin these exemptions can get in practice. Construction is the industry where a contractor label most often collapses under scrutiny - [Travis's framing crew audit](/scenarios/travis-construction-subcontractor-workers-comp-audit/) shows exactly how a general contractor's insurance auditor can reclassify a crew as employees regardless of what the paperwork says, and why construction-specific rules frequently override the general small-business exemption entirely. Texas raises a different question: employers who become non-subscribers often buy [occupational accident insurance to replace some of what workers' comp would have covered](/compare/occupational-accident-insurance-vs-workers-compensation/) - but that private policy doesn't restore the exclusive remedy protection that made workers' comp attractive to the employer in the first place, which is easy to miss if you only compare premiums."
     },
     {
       "type": "heading",
@@ -178,13 +178,13 @@
         "[Are Sole Proprietors Required to Have Workers' Compensation Insurance?](/qa/are-sole-proprietors-required-to-have-workers-compensation-insurance/) - what changes the moment you hire your first employee",
         "[Are Independent Contractors Exempt From Workers' Compensation?](/qa/are-independent-contractors-exempt-from-workers-compensation/) - the control test that decides whether the label actually holds up",
         "[How Many Employees Before You Need Workers' Compensation Insurance?](/qa/how-many-employees-before-you-need-workers-compensation-insurance/) - the state-by-state thresholds and why the headcount rule has exceptions of its own",
-        "[Marcus's Texas Non-Subscriber Decision](/scenarios/marcus-texas-non-subscriber-workers-comp/) - a real-numbers look at opting out in the one state where it's legal",
+        "[Carlos's Texas Non-Subscriber Decision](/scenarios/carlos-texas-non-subscriber-workers-comp/) - a real-numbers look at opting out in the one state where it's legal",
         "[What Happens If You're Hurt at Work and Your Employer Is Exempt?](/qa/hurt-at-work-employer-exempt-from-workers-compensation/) - what your health insurance and disability coverage actually do in that gap",
         "[Workers' Compensation vs. Individual Disability Insurance](/compare/workers-compensation-vs-individual-disability-insurance/) - two different tools solving the same lost-income problem",
         "[Are Real Estate Agents Exempt From Workers' Compensation?](/qa/are-real-estate-agents-exempt-from-workers-compensation/) - the original commission-only exemption, and California's notable exception",
         "[Do I Need Workers' Compensation Insurance for a Nanny or Housekeeper?](/qa/workers-compensation-insurance-for-nanny-or-housekeeper/) - the state-by-state hours and wage thresholds for household employment",
         "[Can a Corporate Officer Opt Out of Workers' Compensation Coverage?](/qa/can-a-corporate-officer-opt-out-of-workers-compensation/) - the ownership threshold and filing requirement behind an officer election",
-        "[Danny's Construction Subcontractor Audit](/scenarios/danny-construction-subcontractor-workers-comp-audit/) - what happens when a contractor label doesn't survive a state's control test",
+        "[Travis's Construction Subcontractor Audit](/scenarios/travis-construction-subcontractor-workers-comp-audit/) - what happens when a contractor label doesn't survive a state's control test",
         "[Occupational Accident Insurance vs. Workers' Compensation](/compare/occupational-accident-insurance-vs-workers-compensation/) - what Texas non-subscribers actually buy, and what it doesn't restore"
       ]
     },

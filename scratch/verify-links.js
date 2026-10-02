@@ -4,7 +4,7 @@ const path = require('path');
 const files = [
   'compare/workers-compensation-vs-individual-disability-insurance/index.html',
   'learn/workers-compensation-insurance-exemptions/index.html',
-  'scenarios/marcus-texas-non-subscriber-workers-comp/index.html',
+  'scenarios/carlos-texas-non-subscriber-workers-comp/index.html',
   'qa/are-independent-contractors-exempt-from-workers-compensation/index.html',
   'qa/are-sole-proprietors-required-to-have-workers-compensation-insurance/index.html',
   'qa/how-many-employees-before-you-need-workers-compensation-insurance/index.html',

@@ -11,6 +11,36 @@
       ],
       "destination": "https://insurancebhaiya.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/scenarios/meera-california-surrogacy-insurance-gap/:path*",
+      "destination": "/scenarios/rachel-california-surrogacy-insurance-gap/",
+      "permanent": true
+    },
+    {
+      "source": "/scenarios/priya-health-insurance-diagnosis-coverage/:path*",
+      "destination": "/scenarios/lauren-health-insurance-diagnosis-coverage/",
+      "permanent": true
+    },
+    {
+      "source": "/scenarios/rohan-first-sport-bike-texas/:path*",
+      "destination": "/scenarios/ethan-first-sport-bike-texas/",
+      "permanent": true
+    },
+    {
+      "source": "/scenarios/marcus-texas-non-subscriber-workers-comp/:path*",
+      "destination": "/scenarios/carlos-texas-non-subscriber-workers-comp/",
+      "permanent": true
+    },
+    {
+      "source": "/scenarios/daniel-first-cessna-182-texas/:path*",
+      "destination": "/scenarios/brian-first-cessna-182-texas/",
+      "permanent": true
+    },
+    {
+      "source": "/scenarios/danny-construction-subcontractor-workers-comp-audit/:path*",
+      "destination": "/scenarios/travis-construction-subcontractor-workers-comp-audit/",
+      "permanent": true
     }
   ],
   "rewrites": [

@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "Can you get insurance for an experimental aircraft?",
-      "answer": "Yes, but from fewer insurers and with stricter terms: builder's risk during construction, a restricted Phase I policy and then normal cover. Start with the overview in [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained)."
+      "answer": "Yes, but from fewer insurers and with stricter terms: builder's risk during construction, a restricted Phase I policy and then normal cover. Start with the overview in [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained/)."
     },
     {
       "question": "Does experimental aircraft insurance cover passengers during Phase I?",
@@ -52,7 +52,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "Experimental aircraft insurance is the hardest corner of general aviation to insure. Each homebuilt is effectively a one-of-one aircraft with limited claims data, and fewer insurers write them. This spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub follows a kitplane from the build to its first flight and on to resale, and shows where the [premium](/glossary/premium) and the restrictions change."
+      "text": "Experimental aircraft insurance is the hardest corner of general aviation to insure. Each homebuilt is effectively a one-of-one aircraft with limited claims data, and fewer insurers write them. This spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained/) hub follows a kitplane from the build to its first flight and on to resale, and shows where the [premium](/glossary/premium/) and the restrictions change."
     },
     {
       "type": "heading",
@@ -61,7 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "While the airplane is in your garage or hangar, you need **ground not-in-motion** hull cover, often called builder's risk. It covers fire, theft, windstorm and damage to parts in storage or in transit. It does not cover taxiing or flight. As the build progresses, an *aircraft under construction* endorsement raises the insured value. Insurers usually reimburse labor at factory-estimated build hours times a standard hourly wage rather than a professional shop rate, so your build log is your proof of loss. Check whether your [home insurance](/learn/home-insurance-fundamentals) covers aircraft parts in a home workshop at all. Many policies exclude aircraft and aircraft parts entirely."
+      "text": "While the airplane is in your garage or hangar, you need **ground not-in-motion** hull cover, often called builder's risk. It covers fire, theft, windstorm and damage to parts in storage or in transit. It does not cover taxiing or flight. As the build progresses, an *aircraft under construction* [endorsement](/learn/what-is-an-insurance-endorsement/) raises the insured value. Insurers usually reimburse labor at factory-estimated build hours times a standard hourly wage rather than a professional shop rate, so your build log is your proof of loss. Check whether your [home insurance](/learn/home-insurance-fundamentals/) covers aircraft parts in a home workshop at all. Many policies exclude aircraft and aircraft parts entirely."
     },
     {
       "type": "callout",
@@ -83,7 +83,7 @@
       "ordered": false,
       "items": [
         "**Liability capped** at around $500,000 with **no passenger liability**, since passengers are prohibited anyway.",
-        "**In-motion hull deductible of about 10%** of the agreed value. On a $100,000 airplane, that means you absorb the first $10,000 of any taxi or flight damage. Weigh that [deductible](/glossary/deductible) against your cash reserves.",
+        "**In-motion hull deductible of about 10%** of the agreed value. On a $100,000 airplane, that means you absorb the first $10,000 of any taxi or flight damage. Weigh that [deductible](/glossary/deductible/) against your cash reserves.",
         "**Named test pilot only**, often with required dual instruction in a similar type: 5–20 hours is typical for tailwheel or retractable designs, and much more for turbine conversions.",
         "**Some insurers decline first-flight risk entirely.** In that case, fly Phase I on ground-only cover and accept the hull risk yourself, or use a carrier that specializes in homebuilts."
       ]
@@ -95,7 +95,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Once Phase I is signed off, the insurer converts the policy to normal flight cover. Passenger liability returns, though usually with a **$100,000 per-seat sublimit**. Smooth $1M limits or $250,000-per-seat options are hard to find for custom-built aircraft. Our [smooth liability vs per-seat sublimit](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance) comparison explains why that gap matters. Hull is written at an **agreed value**, which for a homebuilt should be backed by build receipts or an independent appraisal. That protects you from the depreciation haircut built into [actual cash value](/glossary/actual-cash-value) settlements."
+      "text": "Once Phase I is signed off, the insurer converts the policy to normal flight cover. Passenger liability returns, though usually with a **$100,000 per-seat [sublimit](/glossary/sub-limit/)**. Smooth $1M limits or $250,000-per-seat options are hard to find for custom-built aircraft. Our [smooth liability vs per-seat sublimit](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance/) comparison explains why that gap matters. Hull is written at an **agreed value**, which for a homebuilt should be backed by build receipts or an independent appraisal. That protects you from the depreciation haircut built into [actual cash value](/glossary/actual-cash-value/) settlements."
     },
     {
       "type": "heading",
@@ -104,7 +104,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Second owners face tougher underwriting than original builders. The insurer is relying on someone else's workmanship. Expect requests for the build log, a recent condition inspection by an experienced inspector, and transition training in type. Get an insurance quote before you sign the purchase agreement. An airplane you can't insure at a sensible price is worth much less to you. The same buy-side discipline applies to certified aircraft, as [Daniel's first Cessna 182 scenario](/scenarios/daniel-first-cessna-182-texas) shows. For general pricing context on certified aircraft, compare with our [airplane insurance cost](/learn/airplane-insurance-cost) guide and [Cessna insurance](/qa/cessna-insurance) benchmarks."
+      "text": "Second owners face tougher underwriting than original builders. The insurer is relying on someone else's workmanship. Expect requests for the build log, a recent condition inspection by an experienced inspector, and transition training in type. Get an insurance quote before you sign the purchase agreement. An airplane you can't insure at a sensible price is worth much less to you. The same buy-side discipline applies to certified aircraft, as [Brian's first Cessna 182 scenario](/scenarios/brian-first-cessna-182-texas/) shows. For general pricing context on certified aircraft, compare with our [airplane insurance cost](/learn/airplane-insurance-cost/) guide and [Cessna insurance](/qa/cessna-insurance/) benchmarks."
     },
     {
       "type": "table",
@@ -145,13 +145,13 @@
       "type": "callout",
       "variant": "tip",
       "title": "Floats on a Homebuilt?",
-      "text": "Amphibious and float-equipped kitplanes combine two specialty risks, and insurers are especially selective about them. Read [seaplane insurance](/learn/seaplane-insurance) before you specify floats. If you plan to fly from rented aircraft while your build is underway, carry [private pilot insurance](/qa/private-pilot-insurance) in the meantime."
+      "text": "Amphibious and float-equipped kitplanes combine two specialty risks, and insurers are especially selective about them. Read [seaplane insurance](/learn/seaplane-insurance/) before you specify floats. If you plan to fly from rented aircraft while your build is underway, carry [private pilot insurance](/qa/private-pilot-insurance/) in the meantime."
     },
     {
       "type": "callout",
       "variant": "info",
       "title": "Kit-Built Light Sport, Shared Builds and Workshops",
-      "text": "Kit-built E-LSA aircraft fall under both these rules and the post-MOSAIC changes in [light sport aircraft insurance](/learn/light-sport-aircraft-insurance). Building with partners? Settle named-insured status early, using [aircraft partnership insurance](/qa/aircraft-partnership-insurance). Building in a rented hangar? Check the building and contents split in [aircraft hangar insurance](/learn/aircraft-hangar-insurance). Builder's risk is pure not-in-motion cover, explained in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover)."
+      "text": "Kit-built E-LSA aircraft fall under both these rules and the post-MOSAIC changes in [light sport aircraft insurance](/learn/light-sport-aircraft-insurance/). Building with partners? Settle named-insured status early, using [aircraft partnership insurance](/qa/aircraft-partnership-insurance/). Building in a rented hangar? Check the building and contents split in [aircraft hangar insurance](/learn/aircraft-hangar-insurance/). Builder's risk is pure not-in-motion cover, explained in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover/)."
     },
     {
       "type": "calculator-embed",

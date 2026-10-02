@@ -123,7 +123,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Whether health insurance is worth its cost depends on your risk tolerance and expected medical usage, but a few states — California among them — still impose their own individual mandate with a tax penalty for going uninsured, separate from the now-zeroed-out federal penalty. Employers face their own separate obligations under the ACA's employer mandate. Some states have also added specific mandated benefits on top of the federal floor — California's [SB 729](/scenarios/meera-california-surrogacy-insurance-gap/), for example, now requires large-group plans to cover IVF and fertility treatment. The full breakdown of worth-it math, mandates, and cancellation rules is in [is health insurance worth it?](/qa/is-health-insurance-worth-it/)"
+      "text": "Whether health insurance is worth its cost depends on your risk tolerance and expected medical usage, but a few states — California among them — still impose their own individual mandate with a tax penalty for going uninsured, separate from the now-zeroed-out federal penalty. Employers face their own separate obligations under the ACA's employer mandate. Some states have also added specific mandated benefits on top of the federal floor — California's [SB 729](/scenarios/rachel-california-surrogacy-insurance-gap/), for example, now requires large-group plans to cover IVF and fertility treatment. The full breakdown of worth-it math, mandates, and cancellation rules is in [is health insurance worth it?](/qa/is-health-insurance-worth-it/)"
     },
     {
       "type": "callout",
@@ -148,7 +148,7 @@
       "type": "callout",
       "variant": "tip",
       "title": "See These Mechanics Play Out in a Real Scenario",
-      "text": "For a worked example of how deductibles, coinsurance, and the annual out-of-pocket maximum stack together across a real plan year following a diagnosis, see [Priya's health insurance diagnosis coverage scenario](/scenarios/priya-health-insurance-diagnosis-coverage/)."
+      "text": "For a worked example of how deductibles, coinsurance, and the annual out-of-pocket maximum stack together across a real plan year following a diagnosis, see [Lauren's health insurance diagnosis coverage scenario](/scenarios/lauren-health-insurance-diagnosis-coverage/)."
     },
     {
       "type": "heading",

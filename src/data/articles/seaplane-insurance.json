@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "Is seaplane insurance more expensive than regular airplane insurance?",
-      "answer": "Generally yes. Water operations, wreck-removal exposure and the gear risk on amphibians push hull pricing and deductibles above the same airframe on wheels. Seaplane-specific time is the biggest discount lever. See the [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub for the fundamentals."
+      "answer": "Generally yes. Water operations, wreck-removal exposure and the gear risk on amphibians push hull pricing and deductibles above the same airframe on wheels. Seaplane-specific time is the biggest discount lever. See the [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained/) hub for the fundamentals."
     },
     {
       "question": "Are floats covered under hull insurance?",
@@ -52,7 +52,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "Seaplane insurance covers the same two building blocks as any aircraft policy, hull and liability, but water changes how losses happen and how much they cost. A sunk airframe has to be recovered from the lake bed, a docked floatplane can be wrecked by a storm without ever moving, and a single gear-position error can flip an amphibian on landing. This is a spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub."
+      "text": "Seaplane insurance covers the same two building blocks as any aircraft policy, hull and liability, but water changes how losses happen and how much they cost. A sunk airframe has to be recovered from the lake bed, a docked floatplane can be wrecked by a storm without ever moving, and a single gear-position error can flip an amphibian on landing. This is a spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained/) hub."
     },
     {
       "type": "heading",
@@ -64,7 +64,7 @@
       "ordered": true,
       "items": [
         "**Seaplane (SES) time:** The most important factor. A 2,000-hour land pilot with 10 hours on floats is still a low-time seaplane pilot.",
-        "**Time in type:** Hours in the specific make and model, such as a Cessna 185 on floats or a Super Cub on amphibs. Cessna airframes on floats follow the same logic as our [Cessna insurance](/qa/cessna-insurance) pricing, but with water-operation loadings added.",
+        "**Time in type:** Hours in the specific make and model, such as a Cessna 185 on floats or a Super Cub on amphibs. Cessna airframes on floats follow the same logic as our [Cessna insurance](/qa/cessna-insurance/) pricing, but with water-operation loadings added.",
         "**Amphibian time:** Required separately if you're insuring an amphibian, because gear management is the key risk.",
         "**Total time, ratings and recurrent training:** Seaplane-specific recurrent training is viewed favorably."
       ]
@@ -82,7 +82,7 @@
       "type": "callout",
       "variant": "danger",
       "title": "Wreck Removal Can Cost More Than the Airplane Is Worth",
-      "text": "Raising a sunk floatplane can cost tens of thousands of dollars, and authorities can require removal whatever the aircraft's salvage value. Check that your policy has a wreck-removal or salvage limit separate from the hull value. Otherwise, a total loss can leave you paying for the recovery yourself. Boat owners face the same issue. See [boat insurance claims: what to expect](/learn/boat-insurance-claims-what-to-expect)."
+      "text": "Raising a sunk floatplane can cost tens of thousands of dollars, and authorities can require removal whatever the aircraft's salvage value. Check that your policy has a wreck-removal or salvage limit separate from the hull value. Otherwise, a total loss can leave you paying for the recovery yourself. Boat owners face the same issue. See [boat insurance claims: what to expect](/learn/boat-insurance-claims-what-to-expect/)."
     },
     {
       "type": "heading",
@@ -91,7 +91,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Standard not-in-motion hull cover was written with hangars and tie-downs in mind. Depending on the policy wording, damage from wind or waves to a **docked or beached seaplane** may be limited or excluded, and some policies exclude superficial hail damage that doesn't affect airworthiness. Read the wording carefully, using our guide to [what an exclusion is in insurance](/learn/what-is-an-exclusion-in-insurance). If you swap between wheels and floats seasonally, some policies require the change to be scheduled with the insurer in advance."
+      "text": "Standard not-in-motion hull cover was written with hangars and tie-downs in mind. Depending on the policy wording, damage from wind or waves to a **docked or beached seaplane** may be limited or excluded, and some policies exclude superficial hail damage that doesn't affect airworthiness. Read the wording carefully, using our guide to [what an exclusion is in insurance](/learn/what-is-an-exclusion-in-insurance/). If you swap between wheels and floats seasonally, some policies require the change to be scheduled with the insurer in advance."
     },
     {
       "type": "heading",
@@ -109,7 +109,7 @@
         [
           "Liability",
           "$1,000,000 with $100,000 per passenger",
-          "Upgrade to smooth limits if you carry passengers. See [smooth vs per-seat](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance)"
+          "Upgrade to smooth limits if you carry passengers. See [smooth vs per-seat](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance/)"
         ],
         [
           "Hull (agreed value)",
@@ -140,17 +140,17 @@
     },
     {
       "type": "paragraph",
-      "text": "With a 5%–10% deductible, a $200,000 floatplane leaves you responsible for the first $10,000–$20,000 of any hull loss. That [deductible](/glossary/deductible) has to sit in your emergency fund, not on a credit card. For general premium context, see [airplane insurance cost](/learn/airplane-insurance-cost). If you're building a float-equipped kitplane, also read [experimental aircraft insurance](/learn/experimental-aircraft-insurance)."
+      "text": "With a 5%–10% deductible, a $200,000 floatplane leaves you responsible for the first $10,000–$20,000 of any hull loss. That [deductible](/glossary/deductible/) has to sit in your emergency fund, not on a credit card. For general premium context, see [airplane insurance cost](/learn/airplane-insurance-cost/). If you're building a float-equipped kitplane, also read [experimental aircraft insurance](/learn/experimental-aircraft-insurance/)."
     },
     {
       "type": "callout",
       "variant": "tip",
       "title": "Get Your Rating on a Rented Floatplane First",
-      "text": "Most pilots earn the SES rating in a school's floatplane. Carry [private pilot insurance](/qa/private-pilot-insurance) that explicitly covers non-owned seaplanes, because some renter policies exclude amphibians or water operations. Then build hours before buying. Our [first-airplane scenario](/scenarios/daniel-first-cessna-182-texas) shows how hours in type move a quote."
+      "text": "Most pilots earn the SES rating in a school's floatplane. Carry [private pilot insurance](/qa/private-pilot-insurance/) that explicitly covers non-owned seaplanes, because some renter policies exclude amphibians or water operations. Then build hours before buying. Our [first-airplane scenario](/scenarios/brian-first-cessna-182-texas/) shows how hours in type move a quote."
     },
     {
       "type": "paragraph",
-      "text": "If the worst happens on the water, follow the NTSB and insurer steps in [aircraft insurance claims: what to expect](/learn/aircraft-insurance-claims-what-to-expect), and confirm the wreck-removal limit before you call a salvage company. Float operations also raise aviation flat extras on life insurance (see [does life insurance cover private pilots](/qa/does-life-insurance-cover-private-pilots)). Instructors giving SES training need their own cover, explained in [flight instructor insurance](/qa/flight-instructor-insurance). Docked-aircraft gaps are explained further in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover)."
+      "text": "If the worst happens on the water, follow the NTSB and insurer steps in [aircraft insurance claims: what to expect](/learn/aircraft-insurance-claims-what-to-expect/), and confirm the wreck-removal limit before you call a salvage company. Float operations also raise aviation flat extras on life insurance (see [does life insurance cover private pilots](/qa/does-life-insurance-cover-private-pilots/)). Instructors giving SES training need their own cover, explained in [flight instructor insurance](/qa/flight-instructor-insurance/). Docked-aircraft gaps are explained further in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover/)."
     },
     {
       "type": "calculator-embed",

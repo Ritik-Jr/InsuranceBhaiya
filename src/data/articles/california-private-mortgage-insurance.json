@@ -47,7 +47,7 @@
     },
     {
       "question": "Is PMI the same as homeowners insurance?",
-      "answer": "No. PMI protects the lender if you default; homeowners insurance protects the house and your liability. See how lender-driven insurance fits with other state requirements in our [compliance guide](/learn/state-auto-insurance-compliance-guide)."
+      "answer": "No. PMI protects the lender if you default; homeowners insurance protects the house and your liability. See how lender-driven insurance fits with other state requirements in our [compliance guide](/learn/state-auto-insurance-compliance-guide/)."
     }
   ],
   "companionTool": {
@@ -58,7 +58,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "California buyers usually hear about PMI on the loan estimate, sitting quietly between property tax and homeowners insurance, and assume it is just another insurance policy protecting their house. It isn't. Private mortgage insurance is a compliance cost the lender imposes when your down payment is small, and the policy protects the lender if you default. This spoke of our [state compliance guide](/learn/state-auto-insurance-compliance-guide) explains what PMI costs in a high-price state, exactly when you can get rid of it, and how state programs can help you need less of it."
+      "text": "California buyers usually hear about PMI on the loan estimate, sitting quietly between property tax and [homeowners insurance](/learn/home-insurance-fundamentals/), and assume it is just another insurance policy protecting their house. It isn't. Private mortgage insurance is a compliance cost the lender imposes when your down payment is small, and the policy protects the lender if you default. This spoke of our [state compliance guide](/learn/state-auto-insurance-compliance-guide/) explains what PMI costs in a high-price state, exactly when you can get rid of it, and how state programs can help you need less of it."
     },
     {
       "type": "heading",
@@ -111,7 +111,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Freddie Mac estimates PMI at roughly $30 to $70 per month for every $100,000 borrowed. The exact [premium](/glossary/premium) depends mainly on your down payment and credit score. Because California loans are larger than the national average, the same rate produces a bigger bill. The table below simply applies Freddie Mac's range to a few loan sizes."
+      "text": "Freddie Mac estimates PMI at roughly $30 to $70 per month for every $100,000 borrowed. The exact [premium](/glossary/premium/) depends mainly on your down payment and credit score. Because California loans are larger than the national average, the same rate produces a bigger bill. The table below simply applies Freddie Mac's range to a few loan sizes."
     },
     {
       "type": "table",
@@ -173,7 +173,7 @@
     },
     {
       "type": "paragraph",
-      "text": "FHA loans charge an upfront mortgage insurance premium of 1.75% of the loan amount plus an annual premium, most commonly around 0.55%. If you put down less than 10%, the annual MIP lasts for the life of the loan; with 10% or more down, it ends after 11 years. The only way out early is to refinance into a conventional loan once you have enough equity. That trade-off is worth modeling before you choose FHA just for its lower down payment; our [PMI vs FHA MIP](/compare/pmi-vs-fha-mip) comparison lays it out row by row."
+      "text": "FHA loans charge an upfront mortgage [insurance premium](/learn/what-is-an-insurance-premium/) of 1.75% of the loan amount plus an annual premium, most commonly around 0.55%. If you put down less than 10%, the annual MIP lasts for the life of the loan; with 10% or more down, it ends after 11 years. The only way out early is to refinance into a conventional loan once you have enough equity. That trade-off is worth modeling before you choose FHA just for its lower down payment; our [PMI vs FHA MIP](/compare/pmi-vs-fha-mip/) comparison lays it out row by row."
     },
     {
       "type": "heading",
@@ -195,7 +195,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A new home often comes with a second car, a longer commute or the RV you finally have a driveway for. Each brings its own legal insurance floor: every California vehicle must carry 30/60/15 liability and show proof on demand, covered in [California evidence of liability insurance](/learn/california-evidence-of-liability-insurance), and motorhomes follow the same rule, as explained in [California RV insurance](/learn/california-rv-insurance). Buyers relocating from Florida should note that its auto rules work very differently, as our [Florida compliant drivers program](/learn/florida-compliant-drivers-program) guide shows, and anyone carrying a court-ordered filing should check [SR-22 vs FR-44](/qa/sr22-vs-fr44-difference) before re-registering a car in a new state."
+      "text": "A new home often comes with a second car, a longer commute or the RV you finally have a driveway for. Each brings its own legal insurance floor: every California vehicle must carry 30/60/15 liability and show proof on demand, covered in [California evidence of liability insurance](/learn/california-evidence-of-liability-insurance/), and motorhomes follow the same rule, as explained in [California RV insurance](/learn/california-rv-insurance/). Buyers relocating from Florida should note that its auto rules work very differently, as our [Florida compliant drivers program](/learn/florida-compliant-drivers-program/) guide shows, and anyone carrying a court-ordered filing should check [SR-22 vs FR-44](/qa/sr22-vs-fr44-difference/) before re-registering a car in a new state."
     },
     {
       "type": "callout",

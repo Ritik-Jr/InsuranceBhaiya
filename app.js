@@ -1618,7 +1618,7 @@ const FALLBACK_INDEX = {
       {
       "question": "Does Health Insurance Cover Surrogacy or Surrogate Pregnancy?",
       "slug": "does-health-insurance-cover-surrogacy-or-surrogate-pregnancy",
-      "shortAnswer": "Not automatically, and not the arrangement itself. Standard health insurance never covers surrogate compensation, agency fees, or legal costs regardless of the plan. Whether it covers the surrogate's own pregnancy-related medical care depends entirely on whether her specific policy contains a gestational-carrier or surrogacy exclusion clause \u2014 a common feature on individual and employer plans that most people never notice until it matters. See [California's](/scenarios/meera-california-surrogacy-insurance-gap) and [New York's](/qa/how-much-does-surrogacy-cost-with-insurance-in-new-york) very different approaches to this exact problem for how it plays out state by state.",
+      "shortAnswer": "Not automatically, and not the arrangement itself. Standard health insurance never covers surrogate compensation, agency fees, or legal costs regardless of the plan. Whether it covers the surrogate's own pregnancy-related medical care depends entirely on whether her specific policy contains a gestational-carrier or surrogacy exclusion clause \u2014 a common feature on individual and employer plans that most people never notice until it matters. See [California's](/scenarios/rachel-california-surrogacy-insurance-gap) and [New York's](/qa/how-much-does-surrogacy-cost-with-insurance-in-new-york) very different approaches to this exact problem for how it plays out state by state.",
       "category": "Health"
 },
 
@@ -1639,7 +1639,7 @@ const FALLBACK_INDEX = {
       {
       "question": "How Much Does Surrogacy Cost With Insurance in New York?",
       "slug": "how-much-does-surrogacy-cost-with-insurance-in-new-york",
-      "shortAnswer": "Total surrogacy costs in New York typically run $100,000-$225,000+, even with insurance factored in. What makes New York distinct is the Child-Parent Security Act (CPSA), which legally requires intended parents to provide the surrogate with comprehensive health insurance through 12 months postpartum plus a $750,000 life insurance policy \u2014 insurance requirements that are optional industry practice in most other states, not statutory ones. See the [full medical cost comparison](/learn/medical-procedure-costs-with-and-without-insurance), including [how California's surrogacy costs compare](/scenarios/meera-california-surrogacy-insurance-gap), for the bigger picture.",
+      "shortAnswer": "Total surrogacy costs in New York typically run $100,000-$225,000+, even with insurance factored in. What makes New York distinct is the Child-Parent Security Act (CPSA), which legally requires intended parents to provide the surrogate with comprehensive health insurance through 12 months postpartum plus a $750,000 life insurance policy \u2014 insurance requirements that are optional industry practice in most other states, not statutory ones. See the [full medical cost comparison](/learn/medical-procedure-costs-with-and-without-insurance), including [how California's surrogacy costs compare](/scenarios/rachel-california-surrogacy-insurance-gap), for the bigger picture.",
       "category": "Health"
 },
 

@@ -52,7 +52,7 @@
     },
     {
       "question": "If I'm in a crash in another state, whose rules apply?",
-      "answer": "Generally the law of the state where the crash happened decides fault and lawsuit rights, while your own policy's coverages, such as PIP, follow you. Most policies automatically adjust to meet another state's minimums while you drive there. Our [Texas driver in New York scenario](/scenarios/texas-driver-crash-in-new-york-no-fault) walks through a real example."
+      "answer": "Generally the law of the state where the crash happened decides fault and lawsuit rights, while your own policy's coverages, such as PIP, follow you. Most policies automatically adjust to meet another state's minimums while you drive there. Our [Texas driver in New York scenario](/scenarios/texas-driver-crash-in-new-york-no-fault/) walks through a real example."
     }
   ],
   "companionTool": {
@@ -85,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In an **at-fault state**, the person who caused the crash is financially responsible, and so is their bodily injury liability insurance. You claim against the at-fault driver's insurer, or sue them, for medical bills, lost wages, pain and suffering and car damage. There's no threshold, so you can sue for any injury. The catch is that payment waits until fault is established, and if you were partly to blame, your payout may be cut or wiped out under your state's comparative negligence rule. That's why at-fault states lean on optional coverages such as [MedPay and PIP](/compare/pip-vs-medpay) and uninsured motorist coverage to fill the gap."
+      "text": "In an **at-fault state**, the person who caused the crash is financially responsible, and so is their bodily injury liability insurance. You claim against the at-fault driver's insurer, or sue them, for medical bills, lost wages, pain and suffering and car damage. There's no threshold, so you can sue for any injury. The catch is that payment waits until fault is established, and if you were partly to blame, your payout may be cut or wiped out under your state's comparative negligence rule. That's why at-fault states lean on optional coverages such as [MedPay and PIP](/compare/pip-vs-medpay/) and uninsured motorist coverage to fill the gap."
     },
     {
       "type": "heading",
@@ -165,7 +165,7 @@
           "Pennsylvania",
           "$5,000 (medical benefits)",
           "Verbal (limited tort option)",
-          "Choice no-fault: [full tort vs limited tort](/compare/full-tort-vs-limited-tort)"
+          "Choice no-fault: [full tort vs limited tort](/compare/full-tort-vs-limited-tort/)"
         ],
         [
           "Utah",
@@ -177,7 +177,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Figures are based on [ValuePenguin's state-by-state no-fault summary](https://www.valuepenguin.com/no-fault-auto-insurance) and each state's insurance code. Thresholds and PIP options change, so confirm the current rules with your state insurance department. **Choice no-fault** states (Kentucky, New Jersey and Pennsylvania) let you keep full rights to sue in exchange for a higher premium."
+      "text": "Figures are based on [ValuePenguin's state-by-state no-fault summary](https://www.valuepenguin.com/no-fault-auto-insurance) and each state's insurance code. Thresholds and PIP options change, so confirm the current rules with your state insurance department. **Choice no-fault** states (Kentucky, New Jersey and Pennsylvania) let you keep full rights to sue in exchange for a higher [premium](/glossary/premium/)."
     },
     {
       "type": "callout",
@@ -267,7 +267,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The [Insurance Research Council](https://www.businesswire.com/news/home/20250220231032/en/One-in-Three-US-Drivers-Are-Either-Uninsured-or-Underinsured-Exposing-Themselves-and-Other-Drivers-to-Significant-Financial-Risk-New-IRC-Study-Shows) estimates that 15.4% of US drivers were uninsured in 2023 and 33.4% were either uninsured or underinsured. In an at-fault state, if the driver who hit you has no insurance, there's no liability policy to claim against. Your own **uninsured/underinsured motorist (UM/UIM)** coverage steps in. Some states require it, and others require insurers to include it unless you reject it in writing. Georgia is a good example, covered in [is uninsured motorist coverage required in Georgia](/qa/is-uninsured-motorist-coverage-required-in-georgia/) and in our real-life [Atlanta uninsured driver scenario](/scenarios/uninsured-driver-crash-georgia-um-claim). For the legal side, see [can an insurance company sue an uninsured driver](/qa/can-an-insurance-company-sue-an-uninsured-driver/)."
+      "text": "The [Insurance Research Council](https://www.businesswire.com/news/home/20250220231032/en/One-in-Three-US-Drivers-Are-Either-Uninsured-or-Underinsured-Exposing-Themselves-and-Other-Drivers-to-Significant-Financial-Risk-New-IRC-Study-Shows) estimates that 15.4% of US drivers were uninsured in 2023 and 33.4% were either uninsured or underinsured. In an at-fault state, if the driver who hit you has no insurance, there's no liability policy to claim against. Your own **uninsured/underinsured motorist (UM/UIM)** coverage steps in. Some states require it, and others require insurers to include it unless you reject it in writing. Georgia is a good example, covered in [is uninsured motorist coverage required in Georgia](/qa/is-uninsured-motorist-coverage-required-in-georgia/) and in our real-life [Atlanta uninsured driver scenario](/scenarios/uninsured-driver-crash-georgia-um-claim/). For the legal side, see [can an insurance company sue an uninsured driver](/qa/can-an-insurance-company-sue-an-uninsured-driver/)."
     },
     {
       "type": "heading",
@@ -279,7 +279,7 @@
       "ordered": false,
       "items": [
         "**In a no-fault state:** Buy more than the minimum PIP if you can. New York's $50,000 goes fast after surgery. Carry solid bodily injury limits anyway, because serious crashes still end up in court. Learn the claim steps in [how to file a no-fault insurance claim in New York](/qa/how-to-file-a-no-fault-insurance-claim-in-new-york/).",
-        "**In an at-fault state:** Don't decline MedPay or PIP when your insurer offers it. It pays while fault is argued over. Compare the two in [PIP vs MedPay](/compare/pip-vs-medpay). Colorado insurers must include $5,000 of MedPay unless you reject it in writing.",
+        "**In an at-fault state:** Don't decline MedPay or PIP when your insurer offers it. It pays while fault is argued over. Compare the two in [PIP vs MedPay](/compare/pip-vs-medpay/). Colorado insurers must include $5,000 of MedPay unless you reject it in writing.",
         "**Everywhere:** Carry UM/UIM matching your liability limits, liability of at least 100/300/100 if you have assets to protect, and an [umbrella policy](/learn/umbrella-insurance-guide/) once your net worth exceeds those limits. Check yourself with [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/)."
       ]
     },
@@ -304,15 +304,15 @@
         "**Colorado:** [Is Colorado a no-fault state?](/qa/is-colorado-a-no-fault-state/)",
         "**New York:** [New York State no-fault insurance explained](/learn/new-york-no-fault-insurance/)",
         "**NY claims:** [How to file a no-fault insurance claim in New York](/qa/how-to-file-a-no-fault-insurance-claim-in-new-york/)",
-        "**Coverage choice:** [PIP vs MedPay](/compare/pip-vs-medpay)",
+        "**Coverage choice:** [PIP vs MedPay](/compare/pip-vs-medpay/)",
         "**Glossary:** [Personal injury protection (PIP)](/glossary/personal-injury-protection/)",
         "**Glossary:** [Tort threshold](/glossary/tort-threshold/)",
-        "**Real-life scenario:** [Hit by an uninsured driver in Atlanta](/scenarios/uninsured-driver-crash-georgia-um-claim)",
+        "**Real-life scenario:** [Hit by an uninsured driver in Atlanta](/scenarios/uninsured-driver-crash-georgia-um-claim/)",
         "**California:** [Is California a no-fault state?](/qa/is-california-a-no-fault-state/)",
         "**Michigan:** [Is Michigan a no-fault state? PIP choices explained](/qa/is-michigan-a-no-fault-state/)",
-        "**Tort choice:** [Full tort vs limited tort](/compare/full-tort-vs-limited-tort)",
+        "**Tort choice:** [Full tort vs limited tort](/compare/full-tort-vs-limited-tort/)",
         "**Glossary:** [Comparative negligence](/glossary/comparative-negligence/)",
-        "**Real-life scenario:** [A Texas driver crashes in New York: whose rules apply?](/scenarios/texas-driver-crash-in-new-york-no-fault)"
+        "**Real-life scenario:** [A Texas driver crashes in New York: whose rules apply?](/scenarios/texas-driver-crash-in-new-york-no-fault/)"
       ]
     },
     {

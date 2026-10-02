@@ -8,6 +8,14 @@
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^(.*)$ https://insurancebhaiya.com/$1 [R=301,L]
 
+  # 1b. Renamed scenario case studies (persona name changes) -> 301 to new slug
+  RewriteRule ^scenarios/meera-california-surrogacy-insurance-gap/?$ https://insurancebhaiya.com/scenarios/rachel-california-surrogacy-insurance-gap/ [R=301,L]
+  RewriteRule ^scenarios/priya-health-insurance-diagnosis-coverage/?$ https://insurancebhaiya.com/scenarios/lauren-health-insurance-diagnosis-coverage/ [R=301,L]
+  RewriteRule ^scenarios/rohan-first-sport-bike-texas/?$ https://insurancebhaiya.com/scenarios/ethan-first-sport-bike-texas/ [R=301,L]
+  RewriteRule ^scenarios/marcus-texas-non-subscriber-workers-comp/?$ https://insurancebhaiya.com/scenarios/carlos-texas-non-subscriber-workers-comp/ [R=301,L]
+  RewriteRule ^scenarios/daniel-first-cessna-182-texas/?$ https://insurancebhaiya.com/scenarios/brian-first-cessna-182-texas/ [R=301,L]
+  RewriteRule ^scenarios/danny-construction-subcontractor-workers-comp-audit/?$ https://insurancebhaiya.com/scenarios/travis-construction-subcontractor-workers-comp-audit/ [R=301,L]
+
   # 2. Enforce trailing slash on physical directories (canonical URLs)
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^(.*[^/])$ https://insurancebhaiya.com/$1/ [R=301,L]

@@ -357,8 +357,8 @@ const KEYWORDS = [
   ['/scenarios/marco-freelance-berlin/', 3, ['freelancer', 'self-employed']],
   ['/scenarios/marcus-small-business-health-plan-structure/', 3, ['small business health', 'small-group health', 'group health plan']],
   ['/scenarios/maria-first-boat-florida/', 3, ['first boat', 'first-time boat', 'new boat owner']],
-  ['/scenarios/meera-california-surrogacy-insurance-gap/', 3, ['=SB 729', 'surrogacy insurance gap']],
-  ['/scenarios/priya-health-insurance-diagnosis-coverage/', 3, ['new diagnosis', 'recently diagnosed', 'chronic condition']],
+  ['/scenarios/rachel-california-surrogacy-insurance-gap/', 3, ['=SB 729', 'surrogacy insurance gap']],
+  ['/scenarios/lauren-health-insurance-diagnosis-coverage/', 3, ['new diagnosis', 'recently diagnosed', 'chronic condition']],
   ['/scenarios/renewal-notice-from-unfamiliar-insurer/', 3, ['renewal notice', 'unfamiliar insurer', 'renewal offer']],
   ['/scenarios/sarah-and-david-new-parents-toronto/', 3, ['new parents', 'new baby', 'growing family']],
   ['/scenarios/sold-my-info-after-one-quote-request/', 3, ['sold my information', 'sold your information', 'sold my info', 'robocall', 'spam calls']],
@@ -366,7 +366,7 @@ const KEYWORDS = [
   ['/scenarios/two-neighbors-different-admitted-status/', 3, ['admitted insurer', 'admitted carrier', 'admitted status']],
   ['/scenarios/wrong-phone-number-delayed-claim/', 3, ['wrong phone number', 'claims phone number', 'claims number', 'delayed claim']],
   ['/scenarios/uninsured-driver-crash-georgia-um-claim/', 3, ['uninsured driver crash in georgia', 'atlanta uninsured driver scenario', 'atlanta uninsured driver crash']],
-  ['/scenarios/marcus-texas-non-subscriber-workers-comp/', 3, ['texas non-subscriber', 'texas non-subscriber workers comp', 'texas non subscriber workers comp']],
+  ['/scenarios/carlos-texas-non-subscriber-workers-comp/', 3, ['texas non-subscriber', 'texas non-subscriber workers comp', 'texas non subscriber workers comp']],
 
   // ---- Glossary ----
   ['/glossary/actual-cash-value/', 2, ['actual cash value', '=ACV']],
@@ -452,6 +452,13 @@ const REDIRECTS = {
   '/glossary/term-life/': '/learn/term-insurance-guide/',
   '/glossary/underwriting/': '/learn/what-is-insurance-underwriting/',
   '/learn/insurance-company-reviews-is-brand-legit/': null, // real page; keep (listed so it is never "fixed")
+  // scenarios renamed so personas match their country and no name repeats (old URLs hold redirect stubs)
+  '/scenarios/meera-california-surrogacy-insurance-gap/': '/scenarios/rachel-california-surrogacy-insurance-gap/',
+  '/scenarios/priya-health-insurance-diagnosis-coverage/': '/scenarios/lauren-health-insurance-diagnosis-coverage/',
+  '/scenarios/rohan-first-sport-bike-texas/': '/scenarios/ethan-first-sport-bike-texas/',
+  '/scenarios/marcus-texas-non-subscriber-workers-comp/': '/scenarios/carlos-texas-non-subscriber-workers-comp/',
+  '/scenarios/daniel-first-cessna-182-texas/': '/scenarios/brian-first-cessna-182-texas/',
+  '/scenarios/danny-construction-subcontractor-workers-comp-audit/': '/scenarios/travis-construction-subcontractor-workers-comp-audit/',
 };
 
 // ---------------------------------------------------------------------------
@@ -517,14 +524,14 @@ const SCENARIOS = {
   'marco-freelance-berlin': ['Freelancer Insurance in Berlin: Health, Liability & Income', 'Marco, Freelancer in Berlin: Building a Safety Net Without Employer Benefits', 'Marco is a freelance web developer renting in Berlin with no employer benefits. See his health, liability, and income-protection gaps and a budgeted plan.'],
   'marcus-small-business-health-plan-structure': ['Small Business Health Plan Options: 14-Employee Case Study', "Marcus's First Group Health Plan: Fully Insured, Level-Funded, or PEO?", 'Marcus owns a 14-employee logistics firm and is losing hires over benefits. Compare fully insured, level-funded, and PEO health plan structures for small businesses.'],
   'maria-first-boat-florida': ['First Boat Insurance in Florida: Financed Boat Case Study', "Maria's First Boat in Florida: Insuring a Financed Center Console", 'Maria just financed a 24-foot center console kept at a Florida marina. See what her lender and marina require, hurricane rules, and the coverage she needs.'],
-  'meera-california-surrogacy-insurance-gap': ['Surrogacy Insurance Gap in California: SB 729 Case Study', "Meera's Surrogacy Journey: Closing the Insurance Gap in California", "Meera turned to gestational surrogacy after failed IVF. See what California's SB 729 does and doesn't cover, why costs still hit $175,000, and how to insure the surrogate."],
-  'priya-health-insurance-diagnosis-coverage': ['New Diagnosis on a PPO: Health Insurance Cost Case Study', "Priya's New Diagnosis: What Her PPO Will Actually Cost This Year", 'Priya has a $2,500 deductible, a $6,000 out-of-pocket maximum, and a new diagnosis. See how specialist visits, medication, and prior authorization add up.'],
+  'rachel-california-surrogacy-insurance-gap': ['Surrogacy Insurance Gap in California: SB 729 Case Study', "Rachel's Surrogacy Journey: Closing the Insurance Gap in California", "Rachel turned to gestational surrogacy after failed IVF. See what California's SB 729 does and doesn't cover, why costs still hit $175,000, and how to insure the surrogate."],
+  'lauren-health-insurance-diagnosis-coverage': ['New Diagnosis on a PPO: Health Insurance Cost Case Study', "Lauren's New Diagnosis: What Her PPO Will Actually Cost This Year", 'Lauren has a $2,500 deductible, a $6,000 out-of-pocket maximum, and a new diagnosis. See how specialist visits, medication, and prior authorization add up.'],
   'renewal-notice-from-unfamiliar-insurer': ['Renewal Notice From an Unfamiliar Insurer: Florida Case Study', "Denise's Renewal Offer From an Insurer She'd Never Heard Of", "Denise's Florida home insurer exited the state and an unfamiliar company sent a renewal offer. Here's how to verify the insurer, its rating, and her options."],
   'sarah-and-david-new-parents-toronto': ['New Parents in Toronto: Life & Disability Insurance Case Study', 'Sarah & David, New Parents in Toronto: How Much Coverage Do They Need?', 'Sarah and David have a toddler and a C$650,000 mortgage in Toronto. See how much term life and disability coverage they need and what it should cost.'],
-  'sold-my-info-after-one-quote-request': ['Sold My Info After One Insurance Quote Request: Case Study', 'Priya Asked for One Car Insurance Quote and Got Calls From Several Agents', 'One online car insurance quote form led to calls from several unrelated agents within the hour. Learn how lead-generation sites work and how to stop the calls.'],
+  'sold-my-info-after-one-quote-request': ['Sold My Info After One Insurance Quote Request: Case Study', 'Emily Asked for One Car Insurance Quote and Got Calls From Several Agents', 'One online car insurance quote form led to calls from several unrelated agents within the hour. Learn how lead-generation sites work and how to stop the calls.'],
   'tom-liveaboard-houseboat-retirement': ['Liveaboard Houseboat Insurance in Retirement: Case Study', 'Tom Retires to a Houseboat: Insuring a Liveaboard Home', 'Tom sold his house to live full-time on a 42-foot houseboat at a marina slip. See where marine and home insurance overlap and the gaps a liveaboard must close.'],
   'two-neighbors-different-admitted-status': ['Admitted vs. Surplus Lines Home Insurance: Wildfire Case Study', 'Two Neighbors, Two Insurers: Admitted vs. Surplus-Lines Coverage in a Wildfire Zone', 'Alan was dropped by his admitted insurer and placed with a surplus-lines carrier in a Los Angeles wildfire zone. See how protections, rates, and claims differ.'],
-  'wrong-phone-number-delayed-claim': ['Wrong Claims Phone Number Delayed My Car Insurance Claim', 'Maria Called the Wrong Claims Number: How to Report an Auto Claim Fast', 'Rear-ended in traffic, Maria called an outdated claims number from a third-party listing and lost 45 minutes. See how to find the right number and report fast.'],
+  'wrong-phone-number-delayed-claim': ['Wrong Claims Phone Number Delayed My Car Insurance Claim', 'Megan Called the Wrong Claims Number: How to Report an Auto Claim Fast', 'Rear-ended in traffic, Megan called an outdated claims number from a third-party listing and lost 45 minutes. See how to find the right number and report fast.'],
 };
 
 // ---------------------------------------------------------------------------
@@ -561,7 +568,9 @@ function walk(dir, out = []) {
 const FILES = walk(ROOT);
 const urlOf = f => { const r = path.relative(ROOT, path.dirname(f)).replace(/\\/g, '/'); return r ? `/${r}/` : '/'; };
 const VALID = new Set(FILES.map(urlOf));
-const PAGES = FILES.map(f => ({ file: f, url: urlOf(f), section: urlOf(f).split('/')[1] || '' }));
+// noindex pages (e.g. redirect stubs left at renamed URLs) are valid link targets but never content
+const PAGES = FILES.map(f => ({ file: f, url: urlOf(f), section: urlOf(f).split('/')[1] || '' }))
+  .filter(p => !/<meta name="robots" content="noindex/.test(fs.readFileSync(p.file, 'utf8').slice(0, 2000)));
 const QA_COUNT = PAGES.filter(p => p.section === 'qa' && p.url.split('/').length === 4).length;
 const DATA_PATH = path.join(ROOT, 'data.json');
 const DATA = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
@@ -576,10 +585,8 @@ function resolveHref(href) {
   p = p.replace(/\/{2,}/g, '/');
   const tool = p.match(/^\/tools\/([a-z0-9-]+)\/$/);
   if (tool && VALID.has(`/${tool[1]}/`)) p = `/${tool[1]}/`;
-  if (!VALID.has(p)) {
-    if (REDIRECTS[p]) p = REDIRECTS[p];
-    else return null;
-  }
+  if (REDIRECTS[p]) p = REDIRECTS[p]; // also covers renamed pages whose old URL is a redirect stub
+  else if (!VALID.has(p)) return null;
   return p + rest;
 }
 

@@ -29,9 +29,9 @@ const fs = require('fs');
   console.log('Updated 1:', p);
 }
 
-// 2. scenarios/marcus-texas-non-subscriber-workers-comp/index.html
+// 2. scenarios/carlos-texas-non-subscriber-workers-comp/index.html
 {
-  const p = 'scenarios/marcus-texas-non-subscriber-workers-comp/index.html';
+  const p = 'scenarios/carlos-texas-non-subscriber-workers-comp/index.html';
   let c = fs.readFileSync(p, 'utf8');
 
   // Exposure 01
@@ -97,7 +97,7 @@ const fs = require('fs');
   // Section 1
   c = c.replace(
     'There is no federal minimum that overrides state law here, which is why checking your specific state\'s rule is the only reliable approach.',
-    'There is no federal minimum that overrides state law here. Texas remains the single state where employers can opt out regardless of size, as examined in <a href="/scenarios/marcus-texas-non-subscriber-workers-comp/">Marcus\'s Texas non-subscriber case study</a>. For an overview of statutory cutoffs, see our <a href="/learn/workers-compensation-insurance-exemptions/">workers\' compensation exemptions guide</a>.'
+    'There is no federal minimum that overrides state law here. Texas remains the single state where employers can opt out regardless of size, as examined in <a href="/scenarios/carlos-texas-non-subscriber-workers-comp/">Carlos\'s Texas non-subscriber case study</a>. For an overview of statutory cutoffs, see our <a href="/learn/workers-compensation-insurance-exemptions/">workers\' compensation exemptions guide</a>.'
   );
 
   // Section 2
@@ -142,7 +142,7 @@ const fs = require('fs');
   // Section 3
   c = c.replace(
     'This is precisely the scenario a written contract is meant to prevent, and precisely the scenario where a poorly structured contractor relationship fails to hold up.',
-    'This is precisely where an informal contract fails. For workers left without statutory coverage during disputes, see <a href="/qa/hurt-at-work-employer-exempt-from-workers-compensation/">what happens if you are hurt at work without coverage</a>, alongside the liability dynamics explored in <a href="/scenarios/marcus-texas-non-subscriber-workers-comp/">Marcus\'s non-subscriber scenario</a>.'
+    'This is precisely where an informal contract fails. For workers left without statutory coverage during disputes, see <a href="/qa/hurt-at-work-employer-exempt-from-workers-compensation/">what happens if you are hurt at work without coverage</a>, alongside the liability dynamics explored in <a href="/scenarios/carlos-texas-non-subscriber-workers-comp/">Carlos\'s non-subscriber scenario</a>.'
   );
 
   // Section 4
@@ -175,7 +175,7 @@ const fs = require('fs');
   // Section 3
   c = c.replace(
     'shifts the entire process from a predictable benefit schedule to a fault-based legal claim, with all the time, cost and uncertainty that involves for both sides.',
-    'shifts the entire process to a fault-based negligence lawsuit without statutory shields — the exact legal exposure modeled in <a href="/scenarios/marcus-texas-non-subscriber-workers-comp/">Marcus\'s Texas non-subscriber case study</a>.'
+    'shifts the entire process to a fault-based negligence lawsuit without statutory shields — the exact legal exposure modeled in <a href="/scenarios/carlos-texas-non-subscriber-workers-comp/">Carlos\'s Texas non-subscriber case study</a>.'
   );
 
   fs.writeFileSync(p, c, 'utf8');
