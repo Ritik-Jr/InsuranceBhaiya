@@ -10047,3 +10047,12 @@ body[data-error-theme="speeding"] .error-btn-primary:hover {
 }
 
 
+
+/* Learn article cover illustrations (16:9 vector art from src/scripts/thumbnails) */
+.article-cover-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md, 16px);
+  background: var(--color-surface-subtle);
+}

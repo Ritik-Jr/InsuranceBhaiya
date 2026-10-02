@@ -17,7 +17,7 @@
     "insurance broker",
     "who works for whom"
   ],
-  "coverImage": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1400&q=80",
+  "coverImage": "/images/learn/agent-vs-broker-vs-insurer.jpg",
   "content": [
     {
       "type": "paragraph",
