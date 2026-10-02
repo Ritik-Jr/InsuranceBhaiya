@@ -1,0 +1,167 @@
+{
+  "type": "learn",
+  "id": "experimental-aircraft-insurance",
+  "slug": "experimental-aircraft-insurance",
+  "title": "Experimental Aircraft Insurance: Covering a Homebuilt From First Rivet to Phase I and Beyond",
+  "description": "Experimental aircraft insurance explained: builder's risk, Phase I fly-off limits, 10% in-motion deductibles and insuring a used homebuilt.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "experimental aircraft insurance",
+    "homebuilt aircraft insurance",
+    "kitplane insurance",
+    "builder's risk",
+    "phase 1 flight testing"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "An amateur-built aircraft needs **three different policies** over its life: builder's risk (ground, not in motion), a restricted Phase I fly-off policy, and a normal flight policy.",
+    "During the FAA fly-off period (40 hours, or 25 with a certificated engine/propeller combination), **no passengers are allowed**, liability may be capped near $500,000, and in-motion hull deductibles of **10%** are common.",
+    "Builder's risk typically values your labor at **factory-estimated build hours × a standard hourly wage**, not shop rates. Keep receipts and a build log.",
+    "Many insurers will not cover a first flight at all. Line up your insurer, and any transition training it requires, before the airworthiness inspection."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Can you get insurance for an experimental aircraft?",
+      "answer": "Yes, but from fewer insurers and with stricter terms: builder's risk during construction, a restricted Phase I policy and then normal cover. Start with the overview in [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained)."
+    },
+    {
+      "question": "Does experimental aircraft insurance cover passengers during Phase I?",
+      "answer": "No. The FAA prohibits passengers during the fly-off period, and Phase I policies typically exclude passenger liability. Passenger cover returns after Phase I, usually with a per-seat sublimit."
+    },
+    {
+      "question": "How is the hull value of a homebuilt decided?",
+      "answer": "It is set as an agreed value supported by build receipts, the build log and often an independent appraisal. During construction, labor is usually valued at standard build hours times a standard hourly wage."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Experimental aircraft insurance is the hardest corner of general aviation to insure. Each homebuilt is effectively a one-of-one aircraft with limited claims data, and fewer insurers write them. This spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub follows a kitplane from the build to its first flight and on to resale, and shows where the [premium](/glossary/premium) and the restrictions change."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stage 1: Builder's Risk While the Aircraft Is Under Construction"
+    },
+    {
+      "type": "paragraph",
+      "text": "While the airplane is in your garage or hangar, you need **ground not-in-motion** hull cover, often called builder's risk. It covers fire, theft, windstorm and damage to parts in storage or in transit. It does not cover taxiing or flight. As the build progresses, an *aircraft under construction* endorsement raises the insured value. Insurers usually reimburse labor at factory-estimated build hours times a standard hourly wage rather than a professional shop rate, so your build log is your proof of loss. Check whether your [home insurance](/learn/home-insurance-fundamentals) covers aircraft parts in a home workshop at all. Many policies exclude aircraft and aircraft parts entirely."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Don't Wait Until the Airframe Is Finished",
+      "text": "A garage fire 1,500 hours into a build can destroy $80,000+ of kit, engine and avionics. Buy builder's risk as soon as you've invested meaningful money, and update the declared value at major milestones such as the engine arriving or the panel being installed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stage 2: Phase I Flight Testing (the Fly-Off)"
+    },
+    {
+      "type": "paragraph",
+      "text": "After the FAA issues the special airworthiness certificate, the aircraft must complete a test period, typically **40 hours**, or **25 hours** when a certificated engine and propeller combination is used. During this period no passengers may be carried. Insurers respond with a restricted policy:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Liability capped** at around $500,000 with **no passenger liability**, since passengers are prohibited anyway.",
+        "**In-motion hull deductible of about 10%** of the agreed value. On a $100,000 airplane, that means you absorb the first $10,000 of any taxi or flight damage. Weigh that [deductible](/glossary/deductible) against your cash reserves.",
+        "**Named test pilot only**, often with required dual instruction in a similar type: 5–20 hours is typical for tailwheel or retractable designs, and much more for turbine conversions.",
+        "**Some insurers decline first-flight risk entirely.** In that case, fly Phase I on ground-only cover and accept the hull risk yourself, or use a carrier that specializes in homebuilts."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Stage 3: Normal Operations After Phase I"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once Phase I is signed off, the insurer converts the policy to normal flight cover. Passenger liability returns, though usually with a **$100,000 per-seat sublimit**. Smooth $1M limits or $250,000-per-seat options are hard to find for custom-built aircraft. Our [smooth liability vs per-seat sublimit](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance) comparison explains why that gap matters. Hull is written at an **agreed value**, which for a homebuilt should be backed by build receipts or an independent appraisal. That protects you from the depreciation haircut built into [actual cash value](/glossary/actual-cash-value) settlements."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Buying a Used Experimental Aircraft"
+    },
+    {
+      "type": "paragraph",
+      "text": "Second owners face tougher underwriting than original builders. The insurer is relying on someone else's workmanship. Expect requests for the build log, a recent condition inspection by an experienced inspector, and transition training in type. Get an insurance quote before you sign the purchase agreement. An airplane you can't insure at a sensible price is worth much less to you. The same buy-side discipline applies to certified aircraft, as [Daniel's first Cessna 182 scenario](/scenarios/daniel-first-cessna-182-texas) shows. For general pricing context on certified aircraft, compare with our [airplane insurance cost](/learn/airplane-insurance-cost) guide and [Cessna insurance](/qa/cessna-insurance) benchmarks."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stage",
+        "Cover Type",
+        "Typical Restriction",
+        "Your Exposure"
+      ],
+      "rows": [
+        [
+          "Construction",
+          "Builder's risk (ground not in motion)",
+          "No taxi or flight",
+          "Labor valued at standard build hours"
+        ],
+        [
+          "Phase I fly-off",
+          "Restricted flight policy",
+          "Named pilot, no passengers, ~$500k liability",
+          "~10% in-motion hull deductible"
+        ],
+        [
+          "Normal operations",
+          "Full owner policy",
+          "$100k per-seat sublimit common",
+          "Agreed hull value; transition training"
+        ],
+        [
+          "Resale / second owner",
+          "New underwriting",
+          "Condition inspection + training",
+          "Harder to find smooth limits"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Floats on a Homebuilt?",
+      "text": "Amphibious and float-equipped kitplanes combine two specialty risks, and insurers are especially selective about them. Read [seaplane insurance](/learn/seaplane-insurance) before you specify floats. If you plan to fly from rented aircraft while your build is underway, carry [private pilot insurance](/qa/private-pilot-insurance) in the meantime."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Kit-Built Light Sport, Shared Builds and Workshops",
+      "text": "Kit-built E-LSA aircraft fall under both these rules and the post-MOSAIC changes in [light sport aircraft insurance](/learn/light-sport-aircraft-insurance). Building with partners? Settle named-insured status early, using [aircraft partnership insurance](/qa/aircraft-partnership-insurance). Building in a rented hangar? Check the building and contents split in [aircraft hangar insurance](/learn/aircraft-hangar-insurance). Builder's risk is pure not-in-motion cover, explained in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "deductible-calculator",
+      "title": "Deductible Breakeven Calculator",
+      "description": "Test whether you can absorb a 10% in-motion hull deductible during Phase I, or whether a lower deductible is worth the extra premium."
+    },
+    {
+      "type": "disclaimer",
+      "text": "FAA flight-test hour requirements depend on the operating limitations issued for your specific aircraft. Insurance terms vary widely between insurers. Insurance Bhaiya does not sell insurance or earn commissions."
+    }
+  ]
+}

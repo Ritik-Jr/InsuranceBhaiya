@@ -1,0 +1,217 @@
+{
+  "type": "learn",
+  "id": "california-private-mortgage-insurance",
+  "slug": "california-private-mortgage-insurance",
+  "title": "California Private Mortgage Insurance (PMI): What It Costs, When It Comes Off, and How CalHFA Buyers Can Reduce It",
+  "description": "California private mortgage insurance explained: who pays PMI, typical cost per $100,000, the 80% and 78% removal rules, FHA MIP differences and CalHFA help.",
+  "category": "home-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "california private mortgage insurance",
+    "pmi",
+    "fha mip",
+    "calhfa",
+    "first-time homebuyer california",
+    "mortgage insurance removal"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "PMI is required on most conventional loans with less than 20% down. It protects the lender, not you, and pays nothing toward your home if you can't pay the mortgage.",
+    "Freddie Mac estimates PMI at roughly $30 to $70 a month for every $100,000 borrowed, so California's large loan balances turn it into a significant monthly bill.",
+    "Under the federal Homeowners Protection Act, you can request removal when your balance is scheduled to hit 80% of the original value, and it must end automatically at 78%.",
+    "FHA loans use MIP instead: 1.75% upfront plus an annual premium, and it lasts the life of the loan if you put down less than 10%.",
+    "CalHFA's MyHome Assistance offers first-time buyers a deferred loan of up to 3% (conventional) or 3.5% (FHA) of the price, which can raise your effective down payment."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "How much is PMI in California?",
+      "answer": "Freddie Mac estimates roughly $30 to $70 a month per $100,000 borrowed, depending largely on down payment and credit score. On a $600,000 loan, that is about $180 to $420 a month."
+    },
+    {
+      "question": "When can I remove PMI on a California home?",
+      "answer": "On conventional loans, you can request removal when your balance is scheduled to reach 80% of the original value, and it ends automatically at 78% if you are current. Many lenders also allow removal based on a new appraisal if your home has appreciated."
+    },
+    {
+      "question": "Does California have a state PMI program?",
+      "answer": "California doesn't sell PMI, but CalHFA's MyHome Assistance Program offers first-time buyers a deferred loan of up to 3% or 3.5% of the price, which can help with the down payment."
+    },
+    {
+      "question": "Is PMI the same as homeowners insurance?",
+      "answer": "No. PMI protects the lender if you default; homeowners insurance protects the house and your liability. See how lender-driven insurance fits with other state requirements in our [compliance guide](/learn/state-auto-insurance-compliance-guide)."
+    }
+  ],
+  "companionTool": {
+    "slug": "home-insurance-calculator",
+    "title": "Home Insurance Coverage Calculator",
+    "description": "Allocate policy limits across dwelling replacement, personal property, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "California buyers usually hear about PMI on the loan estimate, sitting quietly between property tax and homeowners insurance, and assume it is just another insurance policy protecting their house. It isn't. Private mortgage insurance is a compliance cost the lender imposes when your down payment is small, and the policy protects the lender if you default. This spoke of our [state compliance guide](/learn/state-auto-insurance-compliance-guide) explains what PMI costs in a high-price state, exactly when you can get rid of it, and how state programs can help you need less of it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "PMI, MIP, Mortgage Protection and Homeowners Insurance: Not the Same Thing"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Product",
+        "Who It Protects",
+        "When Required",
+        "Pays Out When"
+      ],
+      "rows": [
+        [
+          "Private mortgage insurance (PMI)",
+          "Lender",
+          "Conventional loan with less than 20% down",
+          "You default and the lender takes a loss"
+        ],
+        [
+          "FHA mortgage insurance premium (MIP)",
+          "Lender (via FHA)",
+          "Every FHA loan",
+          "You default on an FHA loan"
+        ],
+        [
+          "Homeowners insurance",
+          "You and the lender",
+          "Required by virtually every lender",
+          "Fire, theft, liability and other covered losses"
+        ],
+        [
+          "Mortgage protection life insurance",
+          "Your family",
+          "Optional",
+          "You die or, with some policies, become disabled"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If you are trying to protect your family's ability to keep the house, PMI does nothing for that; a term life policy sized with the [Life Insurance Calculator](/life-insurance-calculator/) does. And PMI never substitutes for homeowners coverage, which you can estimate with the [Homeowners Insurance Calculator](/home-insurance-calculator/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What PMI Costs on a California Loan"
+    },
+    {
+      "type": "paragraph",
+      "text": "Freddie Mac estimates PMI at roughly $30 to $70 per month for every $100,000 borrowed. The exact [premium](/glossary/premium) depends mainly on your down payment and credit score. Because California loans are larger than the national average, the same rate produces a bigger bill. The table below simply applies Freddie Mac's range to a few loan sizes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Loan Amount",
+        "Monthly PMI at $30 per $100k",
+        "Monthly PMI at $70 per $100k",
+        "Annual Range"
+      ],
+      "rows": [
+        [
+          "$400,000",
+          "$120",
+          "$280",
+          "$1,440 to $3,360"
+        ],
+        [
+          "$600,000",
+          "$180",
+          "$420",
+          "$2,160 to $5,040"
+        ],
+        [
+          "$800,000",
+          "$240",
+          "$560",
+          "$2,880 to $6,720"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When PMI Comes Off: The Federal Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "For conventional loans on single-family principal residences closed on or after July 29, 1999, the Homeowners Protection Act sets three exit points, as summarized by the Consumer Financial Protection Bureau:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Request at 80%.** You can ask your servicer in writing to cancel PMI on the date your balance is scheduled to reach 80% of the home's original value. You must be current, have a good payment history, have no second liens, and may need to show the value hasn't fallen.",
+        "**Automatic at 78%.** The servicer must end PMI when the balance is scheduled to hit 78% of the original value, as long as you are current.",
+        "**Midpoint backstop.** PMI must end the month after the loan reaches the midpoint of its schedule, 15 years on a 30-year loan, even if the balance hasn't reached 78%."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Rising Prices Can Get You Out Early",
+      "text": "The 80% and 78% triggers use the original value. If your California home has appreciated, many lenders will consider a new appraisal and cancel PMI earlier, often once you reach 75% to 80% of the current value, subject to seasoning rules. Ask your servicer for their written policy before ordering an appraisal."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "FHA Loans: Why the Rules Are Stricter"
+    },
+    {
+      "type": "paragraph",
+      "text": "FHA loans charge an upfront mortgage insurance premium of 1.75% of the loan amount plus an annual premium, most commonly around 0.55%. If you put down less than 10%, the annual MIP lasts for the life of the loan; with 10% or more down, it ends after 11 years. The only way out early is to refinance into a conventional loan once you have enough equity. That trade-off is worth modeling before you choose FHA just for its lower down payment; our [PMI vs FHA MIP](/compare/pmi-vs-fha-mip) comparison lays it out row by row."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "California Programs That Reduce Your PMI Exposure"
+    },
+    {
+      "type": "paragraph",
+      "text": "The California Housing Finance Agency (CalHFA) runs first-time homebuyer programs paired with its own FHA and conventional first mortgages. Its MyHome Assistance Program provides a deferred-payment junior loan of up to 3.5% of the purchase price or appraised value with an FHA first mortgage, or up to 3% with a conventional one, repaid when the home is sold or the first loan is paid off. Eligibility requires being a first-time buyer, living in the home, completing homebuyer education and meeting CalHFA income limits."
+    },
+    {
+      "type": "paragraph",
+      "text": "Other ways to shrink or avoid PMI: a larger down payment, a piggyback second mortgage that keeps the first loan at 80%, lender-paid mortgage insurance in exchange for a higher rate, or a single upfront PMI premium. Each trades a monthly cost for a different one, so compare the total over the years you expect to keep the loan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Rest of Your California Compliance Stack"
+    },
+    {
+      "type": "paragraph",
+      "text": "A new home often comes with a second car, a longer commute or the RV you finally have a driveway for. Each brings its own legal insurance floor: every California vehicle must carry 30/60/15 liability and show proof on demand, covered in [California evidence of liability insurance](/learn/california-evidence-of-liability-insurance), and motorhomes follow the same rule, as explained in [California RV insurance](/learn/california-rv-insurance). Buyers relocating from Florida should note that its auto rules work very differently, as our [Florida compliant drivers program](/learn/florida-compliant-drivers-program) guide shows, and anyone carrying a court-ordered filing should check [SR-22 vs FR-44](/qa/sr22-vs-fr44-difference) before re-registering a car in a new state."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Lenders Check Your Other Insurance Too",
+      "text": "Your lender will require proof of homeowners insurance before closing and will buy expensive force-placed coverage if it lapses. Before you sign, make sure your dwelling limit reflects rebuilding cost, not market price; the [Home Replacement Cost Estimator](/home-replacement-cost-estimator/) helps."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "home-insurance-calculator",
+      "title": "Homeowners Insurance Calculator",
+      "description": "Estimate the homeowners premium your lender will require alongside PMI so your total monthly housing cost has no surprises."
+    },
+    {
+      "type": "disclaimer",
+      "text": "PMI estimates are based on Freddie Mac's published range and are not a quote. FHA and CalHFA terms reflect published program rules as of October 2026 and change periodically. Insurance Bhaiya does not originate loans; confirm terms with a licensed mortgage lender."
+    }
+  ]
+}

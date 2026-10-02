@@ -1,0 +1,136 @@
+{
+  "type": "learn",
+  "id": "drone-insurance",
+  "slug": "drone-insurance",
+  "title": "Drone Insurance in 2026: Is It Required, What $1M Liability Costs, and Why DJI Care Isn't Insurance",
+  "description": "Drone insurance explained: no FAA mandate, Minnesota's rule, $500–$1,500 a year for $1M liability, hourly cover, hull rates and the homeowners trap.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "drone insurance",
+    "part 107 insurance",
+    "uav insurance",
+    "drone liability",
+    "aviation insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "No US federal rule requires drone insurance for recreational or Part 107 commercial pilots. **Minnesota** is the exception: it requires commercial operators to carry an annual policy.",
+    "Clients set the real requirement. Contractors, brokerages and venues routinely ask for a certificate showing **$1M third-party liability**.",
+    "Typical 2026 pricing: **$500–$1,500 a year** for $1M commercial liability, or about **$10–$25 an hour** on demand. Hull cover runs about **8–12% of the drone's value** a year.",
+    "DJI Care Refresh is a replacement plan, **not insurance**. It never pays for the car, window or person your drone hits."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I need insurance to fly a drone under Part 107?",
+      "answer": "Not under federal law. Minnesota requires commercial operators to carry insurance, and most clients will demand a $1M liability certificate. See the wider [aircraft & aviation insurance](/learn/aircraft-aviation-insurance-explained) overview."
+    },
+    {
+      "question": "How much is drone liability insurance?",
+      "answer": "About $500–$1,500 a year for $1M of annual commercial liability, or roughly $10–$25 an hour for on-demand cover."
+    },
+    {
+      "question": "Is DJI Care Refresh the same as drone insurance?",
+      "answer": "No. It replaces your damaged drone for a fee but provides no liability cover and can't produce an insurance certificate."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Drones are aircraft in the eyes of the FAA, and most insurers treat them the same way: separate cover for the aircraft itself (hull) and for damage you cause to others (liability). This spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub covers what's legally required, what clients will ask you for, and what cover actually costs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is Drone Insurance Required?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Federal (FAA):** No insurance mandate for recreational flyers or Part 107 commercial pilots. The FAA requires registration, Remote ID and, for recreational flyers, the TRUST test.",
+        "**Minnesota:** Requires commercial drone operators to carry insurance, and pay-per-flight cover doesn't satisfy the rule.",
+        "**Clients and venues:** The de facto mandate. Expect requests for a certificate of insurance with $1M liability, often with the client named as an [additional insured](/learn/named-insured-vs-additional-insured)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Does Drone Insurance Cost?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage",
+        "Typical 2026 Cost",
+        "Best For"
+      ],
+      "rows": [
+        [
+          "$1M liability – annual commercial",
+          "$500 – $1,500 / year",
+          "Regular paid work; satisfies Minnesota"
+        ],
+        [
+          "$1M liability – on-demand hourly",
+          "≈ $10 – $25 / hour",
+          "Occasional jobs"
+        ],
+        [
+          "Hull (physical damage to the drone)",
+          "≈ 8% – 12% of drone value / year",
+          "Expensive enterprise or cinema rigs"
+        ],
+        [
+          "DJI Care Refresh (not insurance)",
+          "$19 – $189 per plan",
+          "Crash replacement only; no liability"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Drone hull rates of 8–12% are far higher than the 0.9–1.3% charged on piston airplanes (see [airplane insurance cost](/learn/airplane-insurance-cost)), because drones crash, fly away and get dropped far more often. For a $2,000 drone, self-insuring the hull and buying only liability is often the better value. Run the numbers with the [Deductible Breakeven Calculator](/deductible-calculator/)."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The Homeowners Business-Use Trap",
+      "text": "A homeowners policy may cover liability from purely recreational drone flying, but any business use (even one paid real-estate shoot) typically voids that route. Some homeowners and umbrella policies also carry aircraft [exclusions](/learn/what-is-an-exclusion-in-insurance). Read your policy's wording before relying on it, and see our [umbrella insurance](/learn/umbrella-insurance-guide) guide for how aircraft exclusions work."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Insuring a Drone Business Properly"
+    },
+    {
+      "type": "paragraph",
+      "text": "A drone business usually needs three layers. The first is aviation liability for the flights themselves. The second is equipment cover for drones, cameras and batteries in transit, often written as an inland marine floater (see [inland marine insurance explained](/learn/inland-marine-insurance-explained)). The third is [commercial general liability](/learn/commercial-general-liability-guide) for the business premises and operations. Store expensive kit in a hangar or workshop? Read [aircraft hangar insurance](/learn/aircraft-hangar-insurance) for how contents cover works. If a flight goes wrong, the claims steps in [aircraft insurance claims: what to expect](/learn/aircraft-insurance-claims-what-to-expect) apply to drones too. Moving up to crewed aircraft? Start with [private pilot insurance](/qa/private-pilot-insurance) or the new sport-pilot options in [light sport aircraft insurance](/learn/light-sport-aircraft-insurance)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "business-insurance-checklist",
+      "title": "Business Insurance Checklist",
+      "description": "Make sure your drone business has liability, equipment and general liability cover before you take on client work."
+    },
+    {
+      "type": "disclaimer",
+      "text": "State and local drone rules change frequently. Figures are indicative 2026 ranges from published market guides. Insurance Bhaiya does not sell insurance or earn commissions."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "type": "learn",
+  "id": "aircraft-insurance-claims-what-to-expect",
+  "slug": "aircraft-insurance-claims-what-to-expect",
+  "title": "Aircraft Insurance Claims: What to Do After an Accident, NTSB 830 Reporting and How Hull Claims Are Settled",
+  "description": "After an aircraft accident: NTSB Part 830 notification, wreckage preservation, 10-day reports, and how aviation hull and liability claims settle.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "aircraft insurance claim",
+    "ntsb 830",
+    "aviation accident",
+    "hull claim",
+    "aviation insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Under **49 CFR Part 830**, any accident (death, serious injury or *substantial damage*) and certain incidents require **immediate notification** to the NTSB.",
+    "Preserve the wreckage and records. You may move them only to help injured people, prevent further damage or protect public safety, and you must photograph and sketch first.",
+    "A written report on **NTSB Form 6120.1** is due **within 10 days** of an accident, or within 7 days if an aircraft is still missing.",
+    "Notify your insurer immediately too. Late notice and pilot-warranty breaches are the two most common reasons aviation claims run into trouble."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do I have to report an aircraft accident to the NTSB?",
+      "answer": "Yes. Accidents involving death, serious injury or substantial damage, and certain listed incidents, require immediate notification under 49 CFR 830.5, followed by Form 6120.1 within 10 days. See the [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub."
+    },
+    {
+      "question": "Can I move the wreckage before the insurer sees it?",
+      "answer": "Only to help injured people, prevent further damage or protect public safety, and you must photograph and sketch the scene first. Tell your insurer before you arrange salvage."
+    },
+    {
+      "question": "Will an aircraft insurance claim raise my premium?",
+      "answer": "Usually yes at renewal, especially for in-motion hull claims caused by pilot error."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "An aviation insurance claim runs alongside a federal reporting process, and getting the order right protects both your legal position and your claim. This spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub walks through the first hour, the first 10 days and the settlement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 1: Is It an 'Accident' Under NTSB Part 830?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An aircraft accident is an occurrence associated with flight operations in which someone suffers death or serious injury, or the aircraft receives **substantial damage**. Substantial damage means damage needing major repair or replacement of a component. It excludes items such as dented skin, small punctures, bent fairings or, in many cases, landing gear damage alone. Certain incidents also require immediate notification even without an accident. Examples include flight control malfunctions, in-flight fires, crew incapacitation, propeller blade release, loss of 50% or more of cockpit displays, and damage to property other than the aircraft exceeding $25,000."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 2: The First Hour Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Take care of injured people and call emergency services.",
+        "Notify the NTSB immediately if Part 830 applies.",
+        "Preserve the wreckage. Move it only to help injured people, prevent further damage or protect public safety, and photograph and sketch the original positions first.",
+        "Secure the logbooks, maintenance records and any flight data.",
+        "Call your insurer's claims line, or your broker, before you arrange salvage or repairs. For seaplanes, wreck removal has its own limit (see [seaplane insurance](/learn/seaplane-insurance))."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Be Careful With Recorded Statements",
+      "text": "Insurers, and other parties' insurers, may ask for a recorded statement early. You can usually ask to give it later or with counsel. See [can I refuse a recorded statement to an insurance company](/qa/can-i-refuse-a-recorded-statement-to-insurance-company). Stick to facts in the NTSB report and avoid speculating about cause."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 3: How Hull Claims Are Settled"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most hull policies are written at an **agreed value**. If the aircraft is repairable, the insurer pays repair costs minus the [deductible](/glossary/deductible), often with separate in-motion and not-in-motion deductibles. If repairs exceed a threshold, the aircraft is declared a total loss and the agreed value is paid, with the insurer usually taking the salvage. What is and isn't included (engine wear, pre-existing corrosion, loss of use) is covered in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover). If the aircraft was financed, the lender is paid first under the lienholder endorsement."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 4: Liability Claims and Subrogation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Injured passengers or property owners claim against your liability cover, which pays up to the policy limits and any per-seat sublimit (see [smooth vs per-seat](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance)). If you were renting, the owner's insurer may pay the owner and then seek recovery from you through [subrogation](/glossary/subrogation), which is where [private pilot insurance](/qa/private-pilot-insurance) earns its premium. Instructors face the same exposure. See [flight instructor insurance](/qa/flight-instructor-insurance). Hangar damage follows the split explained in [aircraft hangar insurance](/learn/aircraft-hangar-insurance)."
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "Most Common Reasons Aviation Claims Are Denied",
+      "text": "The pilot didn't meet the pilot warranty. The annual inspection was expired. The flight was for hire under a pleasure-use policy. Notice to the insurer was late. If a claim is denied or closed unfairly, read [can an insurance company close a claim without my consent](/qa/can-an-insurance-company-close-a-claim-without-my-consent) and [can you sue your insurance company](/qa/can-you-sue-your-insurance-company). For the general claims process, see [what is an insurance claim](/learn/what-is-an-insurance-claim)."
+    },
+    {
+      "type": "paragraph",
+      "text": "After a claim, expect your renewal premium to rise. Your next quote will reflect the loss, which is one more reason to build experience as described in [airplane insurance cost](/learn/airplane-insurance-cost). If an accident leaves you unable to hold a medical certificate, [pilot loss of license insurance](/qa/pilot-loss-of-license-insurance) and [life insurance for pilots](/qa/does-life-insurance-cover-private-pilots) are the income and family protection layers."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "policy-review-checklist",
+      "title": "Policy Review Checklist",
+      "description": "Before a loss happens, check your pilot warranty, deductibles and liability structure."
+    },
+    {
+      "type": "disclaimer",
+      "text": "This is a summary of 49 CFR Part 830, not legal advice. Check the current regulation and NTSB guidance. Insurance Bhaiya does not sell insurance or earn commissions."
+    }
+  ]
+}

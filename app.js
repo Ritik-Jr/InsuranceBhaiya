@@ -19,6 +19,139 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Aircraft Insurance Claims: What to Do After an Accident, NTSB 830 Reporting and How Hull Claims Are Settled",
+    "slug": "aircraft-insurance-claims-what-to-expect",
+    "description": "After an aircraft accident: NTSB Part 830 notification, wreckage preservation, 10-day reports, and how aviation hull and liability claims settle.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Aircraft Hangar Insurance: Building Cover, Hangarkeepers Liability and What Your Hangar Lease Demands",
+    "slug": "aircraft-hangar-insurance",
+    "description": "Aircraft hangar insurance explained: why your aircraft policy doesn't cover the building, hangarkeepers liability, and airport hangar lease requirements.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Light Sport Aircraft Insurance After MOSAIC: What Sport Pilots and LSA Owners Need to Know in 2026",
+    "slug": "light-sport-aircraft-insurance",
+    "description": "Light sport aircraft insurance after the FAA MOSAIC rule: what sport pilots can fly, S-LSA vs E-LSA cover, ultralights, and the questions to ask at renewal.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Helicopter Insurance: Why Rotorcraft Cost About 2% of Hull a Year and How to Qualify for Better Rates",
+    "slug": "helicopter-insurance",
+    "description": "Helicopter insurance explained: hull rates around 2% of value, R22 to Bell 206 premiums, the 1,000-hour / 100-in-type benchmark, and training credits of 10\u201320%.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Drone Insurance in 2026: Is It Required, What $1M Liability Costs, and Why DJI Care Isn't Insurance",
+    "slug": "drone-insurance",
+    "description": "Drone insurance explained: no FAA mandate, Minnesota's rule, $500\u2013$1,500 a year for $1M liability, hourly cover, hull rates and the homeowners trap.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Full-Time RV Insurance: What Full-Timer Coverage Adds, and Why a Vacation RV Policy Isn't Enough When the RV Is Home",
+    "slug": "full-time-rv-insurance",
+    "description": "Living in your RV? Full-timer coverage adds home-style liability and medical payments a vacation RV policy lacks. What it covers, domicile issues and gaps.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "California Low Cost Auto Insurance Program: Who Qualifies, What the 10/20/3 Policy Covers, and How to Apply",
+    "slug": "california-low-cost-auto-insurance-program",
+    "description": "California's Low Cost Auto program gives income-eligible drivers legal liability coverage. Eligibility, the 10/20/3 limits, gaps to know and how to apply.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Florida Mature Driver Insurance Discount: How Drivers 55+ Can Cut Premiums for Three Years With One Course",
+    "slug": "florida-mature-driver-insurance-discount",
+    "description": "Florida drivers 55 and older can earn an insurance discount by taking a state-approved mature driver course. Who qualifies, how long it lasts and how to claim it.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Florida PIP Insurance Explained: The 14-Day Rule, the $2,500 Cap, and What Personal Injury Protection Really Pays",
+    "slug": "florida-pip-insurance-explained",
+    "description": "Florida PIP explained: 80% of medical bills up to $10,000, the 14-day treatment rule, the $2,500 non-emergency cap, lost wages, and gaps PIP never covers.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Seaplane Insurance: Floats, Amphibians, Water Landings and the Costs Land Pilots Never See",
+    "slug": "seaplane-insurance",
+    "description": "Seaplane insurance explained: float vs amphibian pricing, SES experience underwriters want, wreck-removal costs, mooring gaps and 5\u201310% hull deductibles.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Experimental Aircraft Insurance: Covering a Homebuilt From First Rivet to Phase I and Beyond",
+    "slug": "experimental-aircraft-insurance",
+    "description": "Experimental aircraft insurance explained: builder's risk, Phase I fly-off limits, 10% in-motion deductibles and insuring a used homebuilt.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Airplane Insurance Cost in 2026: Real Premiums by Aircraft, Pilot Experience and Coverage",
+    "slug": "airplane-insurance-cost",
+    "description": "Airplane insurance cost in 2026: 0.9\u20131.3% hull rates, liability pricing, real premiums from Cessna 172 to Citation jets, and how pilot hours move quotes.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "Aircraft & Aviation Insurance Explained: Hull, Liability, Pilot Warranties and What It Really Costs",
+    "slug": "aircraft-aviation-insurance-explained",
+    "description": "How aircraft insurance works: hull vs liability, smooth vs per-seat limits, pilot warranties, and real 2026 costs for owners, renters and homebuilders.",
+    "category": "insurance-basics"
+},
+
+    {
+    "title": "California Private Mortgage Insurance (PMI): What It Costs, When It Comes Off, and How CalHFA Buyers Can Reduce It",
+    "slug": "california-private-mortgage-insurance",
+    "description": "California private mortgage insurance explained: who pays PMI, typical cost per $100,000, the 80% and 78% removal rules, FHA MIP differences and CalHFA help.",
+    "category": "home-insurance"
+},
+
+    {
+    "title": "California RV Insurance: What the Law Requires for Motorhomes and Trailers, and the Coverage Owners Actually Need",
+    "slug": "california-rv-insurance",
+    "description": "California RV insurance explained: 30/60/15 for motorhomes, no mandate for trailers, full-timer coverage, wildfire and storage risks, and typical costs.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "California Evidence of Liability Insurance: What Counts as Proof, the 30/60/15 Minimums, and How to Avoid a DMV Suspension",
+    "slug": "california-evidence-of-liability-insurance",
+    "description": "What California accepts as evidence of liability insurance, the 30/60/15 minimums since 2025, how the DMV tracks coverage, and what happens if you can't show proof.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Florida Compliant Drivers Program: What It Really Is, and the Discounts Florida Drivers Can Actually Get",
+    "slug": "florida-compliant-drivers-program",
+    "description": "No Florida agency runs a 'compliant drivers program'. Here is what those ads really are, and the real state-approved discounts that lower Florida car insurance.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "State Auto Insurance Compliance Explained: Proof of Insurance, RV Rules, SR-22 Filings & State Programs in California and Florida",
+    "slug": "state-auto-insurance-compliance-guide",
+    "description": "What California and Florida actually require: minimum limits, proof of insurance, RV rules, SR-22 and FR-44 filings, real state programs, and the ads that only pretend to be one.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Insurance for 1 Day: How One-Day Event Insurance Works for Parties, Bartenders & DJs",
+    "slug": "one-day-event-insurance-guide",
+    "description": "One-day event insurance explained: what a 1-day policy covers, what it costs, when venues require it, and the liquor and equipment gaps that catch vendors.",
+    "category": "insurance-basics"
+},
+
+    {
     "title": "What Is Coordination of Benefits? How Two Health Plans Actually Pay a Claim",
     "slug": "what-is-coordination-of-benefits",
     "description": "Coordination of benefits decides which health plan pays first when you have two. Learn the birthday rule, primary vs. secondary, and how claims split.",
@@ -887,6 +1020,209 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "What does aircraft hull insurance cover, and what's the difference between in-motion and not-in-motion cover?",
+      "slug": "what-does-aircraft-hull-insurance-cover",
+      "shortAnswer": "Aircraft hull insurance pays for physical damage to, or total loss of, your own aircraft. **Not-in-motion** cover protects it on the ground and stationary (hail, windstorm, hangar fire, theft, vandalism). **In-motion** cover protects it while taxiing, taking off, flying and landing. Most hull policies are written at an **agreed value**, so a total loss pays the value fixed when the policy started, minus any [deductible](/glossary/deductible), not a depreciated [actual cash value](/glossary/actual-cash-value). Hull doesn't cover wear and tear, mechanical breakdown or your liability to others. See [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) for the full policy structure.",
+      "category": "General"
+},
+
+      {
+      "question": "What is pilot loss of license insurance, and do you need it on top of disability insurance?",
+      "slug": "pilot-loss-of-license-insurance",
+      "shortAnswer": "Pilot loss of license (loss of medical) insurance is a form of [own-occupation disability insurance](/learn/own-occupation-disability-insurance) that pays when the FAA medical standards make you unfit to fly, even if you could still work in another job. Typical professional-pilot plans pay a **monthly benefit of around 60% of pre-disability salary**, reduced by offsets such as Social Security or workers' compensation, for a defined period. They're aimed mainly at airline and commercial pilots whose income depends on a medical certificate. Private pilots who fly for fun usually need ordinary disability cover instead. This page is part of our [aircraft & aviation insurance](/learn/aircraft-aviation-insurance-explained) cluster.",
+      "category": "Disability"
+},
+
+      {
+      "question": "How does aircraft partnership and flying club insurance work when several pilots share one plane?",
+      "slug": "aircraft-partnership-insurance",
+      "shortAnswer": "In an aircraft partnership, the safest structure is **one owner's policy that lists every partner as a named insured and every partner as a named pilot** who meets the pilot warranty. The premium is priced on the least experienced partner, so one low-time partner can raise everyone's cost. Watch for clauses that limit claims between people insured under the same policy. If one partner damages the airplane or injures another partner, the policy may not pay. Flying clubs use similar structures at larger scale, and members who aren't owners should carry [private pilot insurance](/qa/private-pilot-insurance). See the full [aircraft & aviation insurance](/learn/aircraft-aviation-insurance-explained) overview.",
+      "category": "General"
+},
+
+      {
+      "question": "Do flight instructors need their own insurance, and what does CFI insurance cover?",
+      "slug": "flight-instructor-insurance",
+      "shortAnswer": "If you instruct only as an employee of a flight school, within the scope of that job, the school's policy typically covers you. Once you teach independently, whether a flight review, an IPC or primary training in a client's own airplane, you need your own **non-owned liability (CFI) policy**. Without it, you're personally exposed if a student, passenger or the aircraft owner's insurer sues you after an accident. The owner's insurer can pursue you for hull damage through [subrogation](/glossary/subrogation) unless you have a waiver. CFI insurance pays your legal defense and any damages, up to the policy limits. It's part of the wider [aircraft & aviation insurance](/learn/aircraft-aviation-insurance-explained) picture.",
+      "category": "General"
+},
+
+      {
+      "question": "Does life insurance cover private pilots, and how much extra do pilots pay?",
+      "slug": "does-life-insurance-cover-private-pilots",
+      "shortAnswer": "Yes, private pilots can get [life insurance](/learn/what-is-life-insurance) that covers death in an aircraft accident, but insurers underwrite your flying separately using an aviation questionnaire. Depending on hours, ratings and aircraft type, you'll either get standard rates, pay a **flat extra of roughly $2.50\u2013$10 per $1,000 of coverage** a year, or be offered an **aviation exclusion rider** that covers every cause of death except flying. Commercial airline pilots usually get standard rates. Student pilots face the steepest terms. Your aircraft policy doesn't replace life cover. See [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained).",
+      "category": "Life"
+},
+
+      {
+      "question": "Does car insurance cover a travel trailer?",
+      "slug": "does-car-insurance-cover-travel-trailer",
+      "shortAnswer": "Only partly. Your car insurance's liability coverage usually extends to a travel trailer while it is hitched to your insured vehicle, so damage the trailer causes to others on the road is generally covered. It does not pay for damage to the trailer itself, its contents, or liability once the trailer is unhitched and parked. For that you need a separate travel trailer policy with comprehensive, collision and, ideally, vacation liability. California's specific rules are in our [California RV insurance guide](/learn/california-rv-insurance).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you have to report a car accident to the DMV in California (SR-1)?",
+      "slug": "california-sr1-accident-report",
+      "shortAnswer": "Yes, in many cases. California requires every driver involved in a collision to file form SR-1 with the DMV within 10 days if anyone was injured or killed, or if property damage exceeded $1,000. This applies regardless of who was at fault and even if police wrote a report. The SR-1 also asks for your insurance information. If you were uninsured, the DMV can suspend your license for up to four years, with reinstatement possible after one year by filing an SR-22 for the remaining three. Both requirements are part of California's compliance rules, summarized in our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide).",
+      "category": "Auto"
+},
+
+      {
+      "question": "What happens if you can't show proof of insurance in California?",
+      "slug": "california-no-proof-of-insurance-ticket",
+      "shortAnswer": "If you can't show proof of insurance at a California traffic stop, you can be cited under Vehicle Code 16028. A first offense carries a base fine of $100 to $200, and penalty assessments raise that to several hundred dollars. A second offense within three years carries $200 to $500 plus larger assessments, and the vehicle can be impounded. If you were actually insured on the date of the stop, showing that proof to the court usually resolves the ticket. What counts as proof is explained in [California evidence of liability insurance](/learn/california-evidence-of-liability-insurance).",
+      "category": "Auto"
+},
+
+      {
+      "question": "What happens if your car insurance lapses in Florida?",
+      "slug": "what-happens-if-car-insurance-lapses-in-florida",
+      "shortAnswer": "If your Florida car insurance lapses, your insurer reports it to the Florida Department of Highway Safety and Motor Vehicles, and the state can suspend your driver's license and vehicle registration for up to three years unless you show proof of new coverage. To reinstate, you must buy a new policy with at least $10,000 PIP and $10,000 property damage and pay a reinstatement fee of $150 for a first offense, $250 for a second and $500 for a third within three years. No hardship license is available for an insurance suspension. Florida's full requirements are summarized in our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide).",
+      "category": "Auto"
+},
+
+      {
+      "question": "What is the minimum car insurance required in Florida?",
+      "slug": "florida-minimum-car-insurance-requirements",
+      "shortAnswer": "Florida requires every vehicle with four or more wheels to carry $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL), bought from a Florida-licensed insurer and kept active for the entire registration period. Bodily injury liability is not required for most drivers; it becomes mandatory only through an SR-22 or FR-44 filing after certain violations. Meeting this minimum makes you legal, not protected, as our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide) explains.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does a company holiday party need special insurance?",
+      "slug": "company-holiday-party-insurance",
+      "shortAnswer": "Often not a separate policy. If your business isn't in the alcohol trade, your **commercial general liability** usually includes host liquor liability for a company party, and the Insurance Information Institute says liquor liability at company parties would most likely fall under CGL. Check three gaps: assault between employees can be excluded, harassment claims need **EPLI**, and employee injuries at a work-sponsored event may fall under **workers' compensation** depending on the state. If the venue wants specific terms, a one-day event policy fills them. See the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "General"
+},
+
+      {
+      "question": "What insurance does a nonprofit fundraiser or charity event need?",
+      "slug": "fundraiser-event-insurance",
+      "shortAnswer": "Start by checking your nonprofit's existing general liability. Some annual policies already cover fundraising events, and others exclude anything outside normal operations. If the event isn't covered, or the venue wants specific terms, buy a **special event policy** at the venue's required limits (usually $1M). Add **liquor liability** if alcohol is served or sold, **volunteer accident** cover for helpers, and consider **cancellation** cover for galas with large deposits. The [one-day event insurance guide](/learn/one-day-event-insurance-guide/) has the full picture.",
+      "category": "General"
+},
+
+      {
+      "question": "Do I need insurance to have a party or event in a public park?",
+      "slug": "park-event-insurance",
+      "shortAnswer": "For a simple picnic, often not. Insurance usually becomes mandatory once your park event adds certain features: large crowds, tents above a set size, inflatables, sound systems, alcohol, food sales or organised activities. Kansas City Parks, for example, requires $1M per occurrence / $2M aggregate on an occurrence basis, with the city as additional insured, for events over 250 people or with inflatables or alcohol, due 14 days before the event. A one-day event policy meets these requirements. See the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "General"
+},
+
+      {
+      "question": "Am I liable if a drunk guest from my party causes an accident?",
+      "slug": "social-host-liability-drunk-guest",
+      "shortAnswer": "It depends on your state. **Social host liability** laws decide whether a private host who serves alcohol can be sued when an intoxicated guest later injures someone. Some states largely shield hosts who serve adults; California's Civil Code \u00a71714, for example, does that. Others, such as New Jersey since *Kelly v. Gwinnell* (1984), allow claims when a host serves a visibly intoxicated guest they know will drive. Serving **minors** creates exposure in most states. Homeowners or event liability, plus an umbrella, is your financial backstop. See the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "Legal"
+},
+
+      {
+      "question": "Do I need one-day vendor insurance for a craft fair or farmers market?",
+      "slug": "one-day-vendor-insurance",
+      "shortAnswer": "Usually yes. Most fairs, markets and festivals require stallholders to show their own liability certificate naming the organiser (and often the property owner) as additional insured. One-day vendor policies are advertised from about $49 per event (October 2026), and annual vendor plans from roughly $24 a month suit regular sellers. Make sure the policy includes **products** cover for what you sell. Liquor vendors pay considerably more. The [one-day event insurance guide](/learn/one-day-event-insurance-guide/) covers the broader picture.",
+      "category": "General"
+},
+
+      {
+      "question": "How do I get catering insurance for one day, and does it cover food poisoning?",
+      "slug": "catering-insurance-for-one-day",
+      "shortAnswer": "Buy a single-event caterer or food vendor policy with **general liability plus products-completed operations**. The products part is what responds to foodborne illness, allergen and foreign-object claims. One 2026 industry estimate puts basic one-day catering liability at around $50 to $100, commonly $150 to $300+ for bigger events. Add liquor liability if you serve alcohol, add the venue as additional insured, and remember that your own equipment and staff injuries aren't covered. The [one-day event insurance guide](/learn/one-day-event-insurance-guide/) has the wider picture.",
+      "category": "General"
+},
+
+      {
+      "question": "Does event insurance cover cancellation or bad weather?",
+      "slug": "event-cancellation-insurance",
+      "shortAnswer": "Event **liability** insurance does not cover cancellation. You need a separate **event cancellation** policy (or add-on), which reimburses non-refundable deposits and costs when an event is cancelled or postponed for a covered reason: extreme weather, serious illness of the host or honouree, or vendor bankruptcy. Advertised cancellation cover starts around $66 to $160 (October 2026). Change of heart and weather that was already forecast when you bought are excluded. The [one-day event insurance guide](/learn/one-day-event-insurance-guide/) explains how liability and cancellation fit together.",
+      "category": "General"
+},
+
+      {
+      "question": "Do I need wedding liability insurance, and what does it cost?",
+      "slug": "wedding-liability-insurance",
+      "shortAnswer": "If your venue requires it (most do), yes. Even when it isn't required, it's inexpensive protection against guest injuries and venue damage. Wedding liability is a one-day host policy, typically $1M to $2M, and advertised prices start around $75 to $165 depending on the carrier (October 2026). Some carriers include host liquor liability and others sell it as an add-on. It doesn't cover cancellation, and it doesn't cover your bartender or DJ, who need their own policies. See the [one-day event insurance guide](/learn/one-day-event-insurance-guide/) for how the pieces fit.",
+      "category": "General"
+},
+
+      {
+      "question": "How do I get a certificate of insurance for an event venue, and what does the venue need on it?",
+      "slug": "event-insurance-certificate-for-venue",
+      "shortAnswer": "Buy a one-day event or vendor liability policy online, add the venue as an **additional insured** using its exact legal name, and download the **certificate of insurance (COI)**, usually issued the same day. Most venues want $1M per occurrence (sometimes $2M aggregate), policy dates that cover setup and teardown, and the COI 7 to 14 days before the event. The certificate only proves the policy exists; the additional insured endorsement is what actually protects the venue. More context is in the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "General"
+},
+
+      {
+      "question": "Do private pilots need their own insurance if they rent planes, and what does private pilot insurance cover?",
+      "slug": "private-pilot-insurance",
+      "shortAnswer": "Yes. Private pilots who rent or borrow aircraft should carry their own **private pilot insurance**, also called non-owned aircraft or renter's insurance, because the flight school's or owner's policy is written to protect them, not you. If you damage a rental, the school's insurer can pay the school and then recover the cost from you through [subrogation](/glossary/subrogation). Renter's cover typically costs about **$60\u2013$100 a year for liability only** and **$175\u2013$400 a year** with physical damage cover for the rented aircraft. Students pay about $300\u2013$500. See how this fits into the wider [aircraft & aviation insurance](/learn/aircraft-aviation-insurance-explained) picture.",
+      "category": "General"
+},
+
+      {
+      "question": "Cessna insurance: how much does it cost to insure a Cessna 150, 172, 182 or 210?",
+      "slug": "cessna-insurance",
+      "shortAnswer": "Cessna insurance for a privately owned **Cessna 172** with a $100,000 hull and $1M liability typically costs **$1,200\u2013$2,500 a year** in 2026 for an experienced pilot and **$2,000\u2013$3,500+** for a low-time pilot. A broker-published example for a 1979 **Cessna 182** ($150,000 hull, 900-hour IFR pilot, hangared in Texas) came in at about **$1,450 a year**. Retractable, high-performance models like the **210** cost more. Hull premiums run roughly 0.9%\u20131.3% of [agreed value](/learn/aircraft-aviation-insurance-explained) for fixed-gear piston Cessnas, plus liability. See the full [airplane insurance cost](/learn/airplane-insurance-cost) breakdown.",
+      "category": "General"
+},
+
+      {
+      "question": "What is the difference between an SR-22 and an FR-44?",
+      "slug": "sr22-vs-fr44-difference",
+      "shortAnswer": "An SR-22 and an FR-44 are both certificates your insurer files with the state to prove you carry liability coverage after a serious violation; neither is a type of insurance. The difference is the limit and the trigger. An SR-22 proves standard minimum liability (in Florida, 10/20/10) and is used in many states, including California. The FR-44 exists only in Florida and Virginia; in Florida it applies to DUI convictions and requires much higher limits of 100/300/50 for at least three years. For how these filings fit into state compliance overall, see our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do I need birthday party insurance, or does homeowners insurance cover it?",
+      "slug": "birthday-party-insurance",
+      "shortAnswer": "For a small party at home, your **homeowners or renters liability** generally covers a guest who gets hurt, but limits, alcohol rules and inflatable or pool exclusions vary by policy. Buy **birthday party insurance** (a one-day host liability policy) when a rented venue requires a certificate, when you're hiring a bounce house or serving alcohol, or when your homeowners limits are low. Advertised prices start around $115 for a small one-day event (October 2026), with coverage as short as one hour. Full context is in the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "Home"
+},
+
+      {
+      "question": "What insurance does a party rental business need for bounce houses, tents and tables?",
+      "slug": "party-rental-insurance",
+      "shortAnswer": "A party rental business needs **annual general liability that explicitly covers inflatables or amusement equipment**, plus **equipment (inland marine) coverage** for gear in transit and at customer sites, and **commercial auto** for delivery vehicles. One industry analysis puts average bounce-house GL at about $75 a month (~$904 a year). One-day event policies are built for hosts and single-gig vendors, not rental companies working every weekend. See the [one-day event insurance guide](/learn/one-day-event-insurance-guide/) for how the two fit together.",
+      "category": "General"
+},
+
+      {
+      "question": "Can I get DJ insurance for one day, and does it cover my equipment?",
+      "slug": "dj-insurance-for-one-day",
+      "shortAnswer": "Yes. DJ insurance for one day is a short-term **general liability** policy, typically $1M per occurrence / $2M aggregate, bought online with a same-day certificate. Advertised prices start around $59 for a 1\u20133 day event (October 2026). It covers guest injuries and venue damage caused by your set-up or performance. It usually does **not** cover your own decks, speakers or lights. Gear protection needs an annual equipment (inland marine) policy. For the bigger picture, see the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "General"
+},
+
+      {
+      "question": "Does a wedding bartender need insurance, and who should buy it, the couple or the bartender?",
+      "slug": "bartender-insurance-for-wedding",
+      "shortAnswer": "Yes. A professional wedding bartender should carry their own **liquor liability and general liability**, usually $1M per occurrence, with the venue (and often the couple) named as additional insured. The couple usually also buys a one-day host policy, because venues tend to require both. The bartender's policy covers claims caused by their service; the couple's policy covers them as hosts. Bundled one-day bartender policies start around $150 per event (October 2026). For context on how short-term event cover works, see the [one-day event insurance guide](/learn/one-day-event-insurance-guide/).",
+      "category": "General"
+},
+
+      {
+      "question": "How do I get bartender insurance for 1 day, and what does it cost?",
+      "slug": "bartender-insurance-for-1-day",
+      "shortAnswer": "Buy a single-event policy that bundles **general liability and liquor liability** from an online event or bartender carrier. Advertised prices start around $100 per event for liquor-only cover and about $150 for GL plus liquor (October 2026). Add the venue as an additional insured and download the certificate the same day. You need liquor liability specifically because a standard GL policy excludes alcohol claims for anyone in the business of serving drinks. The [one-day event insurance guide](/learn/one-day-event-insurance-guide/) covers the wider picture.",
+      "category": "General"
+},
+
+      {
+      "question": "Is Michigan a no-fault state?",
+      "slug": "is-michigan-a-no-fault-state",
+      "shortAnswer": "Yes. Michigan is a **no-fault state**, and its system is one of the most distinctive in the country. Your own personal injury protection (PIP) pays your medical bills and lost wages after a crash, whoever caused it. Since Michigan's 2019 reform took effect for policies issued or renewed after July 1, 2020, you can choose your PIP medical level, from unlimited down to $250,000 or lower, and some people on Medicare can opt out entirely. The lower the PIP you choose, the more you rely on health insurance and on suing the at-fault driver for medical costs above your limit.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Is California a no-fault state?",
+      "slug": "is-california-a-no-fault-state",
+      "shortAnswer": "No. California is an **at-fault (tort) state**. The driver who causes a crash, and their liability insurer, pays for the other people's injuries and property damage. Since January 1, 2025, California's minimum liability is **30/60/15**, up from 15/30/5 under SB 1107. California also uses **pure comparative negligence**, so you can recover damages even if you were mostly at fault, reduced by your share of the blame.",
+      "category": "Auto"
+},
+
       {
       "question": "Can you have pet insurance from two different companies",
       "slug": "can-you-have-pet-insurance-from-two-different-companies",

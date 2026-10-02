@@ -1,0 +1,146 @@
+{
+  "type": "learn",
+  "id": "california-low-cost-auto-insurance-program",
+  "slug": "california-low-cost-auto-insurance-program",
+  "title": "California Low Cost Auto Insurance Program: Who Qualifies, What the 10/20/3 Policy Covers, and How to Apply",
+  "description": "California's Low Cost Auto program gives income-eligible drivers legal liability coverage. Eligibility, the 10/20/3 limits, gaps to know and how to apply.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "california low cost auto insurance",
+    "clca",
+    "cheap car insurance california",
+    "low income car insurance",
+    "california state program"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "The California Low Cost Auto Insurance Program (CLCA) is a real state program, created under Insurance Code section 11629.7 and administered by the California Automobile Assigned Risk Plan.",
+    "Eligibility: household income at or below 250% of the federal poverty level, a vehicle worth $25,000 or less, age 16 or older, a valid California license and a good driving record.",
+    "CLCA policies carry 10/20/3 liability, below the regular 30/60/15 minimum, but they are legal evidence of financial responsibility for enrolled drivers.",
+    "CLCA covers injuries and damage you cause to others, not your own car.",
+    "Apply at mylowcostauto.com, by phone at 1-866-602-8861, or through a certified agent."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Who qualifies for low cost auto insurance in California?",
+      "answer": "Drivers 16 or older with a valid California license, household income at or below 250% of the federal poverty level, a vehicle worth $25,000 or less, and a good driving record."
+    },
+    {
+      "question": "Is California low cost auto insurance legal coverage?",
+      "answer": "Yes. Although its 10/20/3 limits are below the standard 30/60/15, it is valid evidence of financial responsibility for enrolled drivers."
+    },
+    {
+      "question": "Does CLCA cover damage to my own car?",
+      "answer": "No. The base policy is liability only. Physical damage coverage is a separate decision; see [comprehensive vs collision](/compare/comprehensive-vs-collision)."
+    },
+    {
+      "question": "How do I apply for the California Low Cost Auto program?",
+      "answer": "Visit mylowcostauto.com, call 1-866-602-8861, or find a certified agent. You will need proof of income, your license and vehicle details."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "California's minimum liability rose to 30/60/15 in 2025, and for many lower-income drivers the price of staying legal rose with it. The state's answer is a genuine program, not an ad: the California Low Cost Auto Insurance Program. Unlike the 'program' marketing Florida drivers run into (see [Florida compliant drivers program](/learn/florida-compliant-drivers-program)), this one is written into state law. It is part of the compliance picture laid out in our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Qualifies"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Requirement",
+        "Rule"
+      ],
+      "rows": [
+        [
+          "Household income",
+          "At or below 250% of the federal poverty level"
+        ],
+        [
+          "Vehicle value",
+          "$25,000 or less"
+        ],
+        [
+          "Age",
+          "16 or older"
+        ],
+        [
+          "License",
+          "Valid California driver's license (drivers with less than 3 years' experience became eligible in 2015)"
+        ],
+        [
+          "Driving record",
+          "Must meet the program's good driver definition"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What a CLCA Policy Covers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The base policy is liability only: $10,000 for injury or death to one person, $20,000 per accident, and $3,000 for property damage. Those limits are lower than the regular 30/60/15 minimum, but for enrolled drivers they count as valid evidence of financial responsibility, which is what police and the DMV check (see [California evidence of liability insurance](/learn/california-evidence-of-liability-insurance)). Additional coverage is available for an extra charge."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Legal, but Thin",
+      "text": "$3,000 in property damage won't cover most bumper-and-headlight repairs on a newer car, and nothing in the base policy pays for your own vehicle. CLCA keeps you legal and avoids registration suspension; it does not make a crash affordable. Read [what happens if you crash without insurance](/qa/what-happens-if-you-crash-without-insurance) to see how excess judgments are collected."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Check eligibility and get a quote at mylowcostauto.com or by calling 1-866-602-8861.",
+        "Gather proof of household income (such as tax returns or benefit letters), your license and vehicle details.",
+        "Complete the application online or with a certified CLCA agent near you.",
+        "Once the policy is issued, keep the ID card on paper or your phone; it is your proof at traffic stops."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why Staying Insured Matters More Than the Price"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driving uninsured in California can mean a ticket of a few hundred dollars after penalty assessments (see [what happens if you can't show proof of insurance in California](/qa/california-no-proof-of-insurance-ticket)). After an accident, it can mean a license suspension of up to four years, with an SR-22 filing to get it back, as explained in [do you have to report an accident to the California DMV](/qa/california-sr1-accident-report). A CLCA policy costs far less than either outcome."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Coverage Calculator",
+      "description": "Compare a CLCA policy with a standard 30/60/15 policy and see what your vehicle value justifies."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Program rules reflect the California Department of Insurance and CLCA published information as of October 2026. Prices vary by county. Insurance Bhaiya is not a CLCA agent."
+    }
+  ]
+}

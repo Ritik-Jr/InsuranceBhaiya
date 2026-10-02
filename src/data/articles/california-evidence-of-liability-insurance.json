@@ -1,0 +1,189 @@
+{
+  "type": "learn",
+  "id": "california-evidence-of-liability-insurance",
+  "slug": "california-evidence-of-liability-insurance",
+  "title": "California Evidence of Liability Insurance: What Counts as Proof, the 30/60/15 Minimums, and How to Avoid a DMV Suspension",
+  "description": "What California accepts as evidence of liability insurance, the 30/60/15 minimums since 2025, how the DMV tracks coverage, and what happens if you can't show proof.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "california evidence of liability insurance",
+    "proof of insurance california",
+    "california minimum car insurance",
+    "financial responsibility",
+    "california dmv",
+    "sr-22 california"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "California requires 'evidence of financial responsibility' under Vehicle Code 16028 whenever police ask and after any collision; an insurance ID card on paper or phone is the usual proof.",
+    "Minimum liability limits have been 30/60/15 since January 1, 2025: $30,000 per person, $60,000 per accident for injury, $15,000 for property damage.",
+    "The non-insurance alternatives are a $75,000 cash deposit with the DMV, a $75,000 surety bond, or a DMV self-insurance certificate.",
+    "Insurers report coverage to the DMV electronically (Vehicle Code 16058), so a cancellation without replacement leads to registration suspension.",
+    "Income-eligible drivers can meet the law through the California Low Cost Auto Insurance Program at 10/20/3 limits."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What is acceptable evidence of liability insurance in California?",
+      "answer": "An insurance ID card from a California-licensed insurer, on paper or displayed on a phone. The DMV also accepts a $75,000 cash deposit, a $75,000 surety bond, or a DMV self-insurance certificate."
+    },
+    {
+      "question": "Can I show proof of insurance on my phone in California?",
+      "answer": "Yes. California allows drivers to show insurance documentation on a phone or other electronic device. Keep a paper card in the car as a backup in case your battery dies."
+    },
+    {
+      "question": "Why did the DMV suspend my registration when I have insurance?",
+      "answer": "Usually because your insurer's electronic report didn't match the DMV record: a VIN error, a gap between cancelling and starting policies, or a car you sold without filing the transfer notice. Ask your insurer to resubmit electronically and send proof to the DMV."
+    },
+    {
+      "question": "How is California proof of insurance different from Florida's?",
+      "answer": "California requires bodily injury liability at 30/60/15; Florida requires PIP and property damage at $10,000 each but no bodily injury for most drivers. Compare both in our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide)."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "You get pulled over, the officer asks for 'license, registration and proof of insurance', and your card in the glovebox expired last month. Or the DMV mails a letter saying your registration will be suspended because it has no record of coverage, even though you are sure you're insured. Both situations come down to one California concept: evidence of liability insurance, which the law calls evidence of financial responsibility. This spoke of our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide) explains what counts, how the DMV checks it, and how to fix a mismatch before it costs you."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Current California Minimums (30/60/15)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under California Insurance Code section 11580.1b, every policy that serves as evidence of financial responsibility must carry at least:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage",
+        "Minimum Since Jan 1, 2025",
+        "What It Pays For"
+      ],
+      "rows": [
+        [
+          "Bodily injury, one person",
+          "$30,000",
+          "Medical bills, lost wages and pain and suffering of one person you injure"
+        ],
+        [
+          "Bodily injury, per accident",
+          "$60,000",
+          "Total for all people injured in one crash you cause"
+        ],
+        [
+          "Property damage",
+          "$15,000",
+          "Other people's cars, fences, buildings and property"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "These limits doubled the old 15/30/5 floor, and the property damage limit tripled. Policies written before 2025 were brought up to the new floor at renewal, so if your declarations page still shows 15/30/5, call your insurer. Our guide on [how to read an insurance policy](/learn/how-to-read-an-insurance-policy) shows where to find the limits."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Counts as Evidence of Liability Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "The DMV recognizes four ways to show financial responsibility. For almost everyone, the first one is the only practical choice."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**An auto liability insurance policy** from an insurer licensed in California, shown with an insurance ID card. California accepts the card on a phone or other device, so your insurer's app works during a traffic stop.",
+        "**A $75,000 cash deposit** with the DMV.",
+        "**A $75,000 surety bond** from a company licensed to do business in California.",
+        "**A DMV-issued self-insurance certificate**, used mainly by large fleet owners."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Old Figures Are Still Circulating",
+      "text": "Many websites still list a $35,000 deposit or bond. The DMV now lists $75,000 for both, matching the higher 2025 liability limits. Always check the DMV's own page before relying on an alternative to insurance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How the DMV Knows Whether You're Insured"
+    },
+    {
+      "type": "paragraph",
+      "text": "California Vehicle Code section 16058 requires insurers to electronically report private-use vehicle coverage to the DMV, and since January 1, 2023, commercial and fleet coverage as well. When a policy is cancelled and no new policy is reported for that vehicle, the DMV suspends the registration. A suspended vehicle may not be driven or even parked on a public road until proof is submitted."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most suspension letters come from one of three mistakes: cancelling the old policy before the new one starts, a VIN typo on the new policy so the DMV can't match it, or selling a car without filing the notice of transfer, so coverage ends on a car still registered to you. If you are storing a vehicle, file Planned Non-Operation with the DMV rather than just dropping insurance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens If You Can't Show Proof"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**At a traffic stop:** a citation under Vehicle Code 16028. The base fine is modest, but court penalty assessments multiply it several times over. Showing that you were insured on the date of the stop usually resolves the ticket. Full fine details: [what happens if you can't show proof of insurance in California](/qa/california-no-proof-of-insurance-ticket).",
+        "**After a crash:** you must report the collision to the DMV on form SR-1 within 10 days if anyone was injured or killed or property damage exceeded $1,000. With no proof of coverage, the DMV can suspend your license, and reinstatement typically requires an SR-22 filing kept for three years. The SR-22 process is explained in [SR-22 vs FR-44](/qa/sr22-vs-fr44-difference), and the SR-1 rules in [do you have to report an accident to the California DMV](/qa/california-sr1-accident-report).",
+        "**If you're hurt by someone else:** California's 'no pay, no play' rule bars uninsured drivers from recovering non-economic damages like pain and suffering, except where the other driver was convicted of DUI.",
+        "**If you cause damage:** you pay the full judgment personally. Read [what happens if you crash without insurance](/qa/what-happens-if-you-crash-without-insurance) for how those judgments are collected."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Low Cost Auto Insurance Program: A Real State Option"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike the 'program' ads Florida drivers see (explained in our [Florida compliant drivers program](/learn/florida-compliant-drivers-program) piece), California runs a genuine one. The California Low Cost Auto Insurance Program serves drivers with household income at or below 250% of the federal poverty level, a vehicle worth $25,000 or less, a valid California license and a good driving record. Its policies carry lower limits (10/20/3), but they are legally valid evidence of financial responsibility for eligible drivers. Eligibility and how to apply are covered in our [California Low Cost Auto Insurance Program](/learn/california-low-cost-auto-insurance-program) guide."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Legal Proof Is Not Real Protection",
+      "text": "Even 30/60/15 is thin. A single hospital stay can exceed $30,000, and $15,000 won't replace many late-model cars. The difference becomes your debt. See how the gap plays out for a young California driver in our [California auto coverage scenario](/scenarios/jordan-california-auto-coverage)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does the Same Rule Apply to Motorhomes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes. A motorhome is a motor vehicle, so it needs 30/60/15 and its own evidence of insurance. Towable trailers are different: no stand-alone mandate, but no coverage for the trailer itself unless you buy it. Our [California RV insurance guide](/learn/california-rv-insurance) covers both. If you are also buying a home with less than 20% down, your lender will require a separate kind of insurance; see [California private mortgage insurance](/learn/california-private-mortgage-insurance) so it doesn't surprise you at closing."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Coverage Calculator",
+      "description": "Compare California's 30/60/15 minimum with 100/300/100 and see the premium difference against the assets you'd be protecting."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Limits and deposit amounts reflect California DMV published requirements as of October 2026. Fines vary by county. Insurance Bhaiya does not sell insurance; confirm specifics with the California DMV or a licensed agent."
+    }
+  ]
+}

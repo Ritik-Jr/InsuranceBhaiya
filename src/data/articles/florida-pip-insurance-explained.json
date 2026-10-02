@@ -1,0 +1,165 @@
+{
+  "type": "learn",
+  "id": "florida-pip-insurance-explained",
+  "slug": "florida-pip-insurance-explained",
+  "title": "Florida PIP Insurance Explained: The 14-Day Rule, the $2,500 Cap, and What Personal Injury Protection Really Pays",
+  "description": "Florida PIP explained: 80% of medical bills up to $10,000, the 14-day treatment rule, the $2,500 non-emergency cap, lost wages, and gaps PIP never covers.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "florida pip",
+    "personal injury protection",
+    "florida no-fault",
+    "14-day rule",
+    "florida car insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Florida PIP pays 80% of reasonable medical expenses and 60% of lost income, sharing one $10,000 limit, plus a separate $5,000 death benefit.",
+    "You must get initial medical treatment within 14 days of the crash or PIP can deny the claim entirely.",
+    "Without a diagnosed emergency medical condition, medical benefits are capped at $2,500, not $10,000.",
+    "PIP pays regardless of fault, but it never pays for vehicle damage or pain and suffering.",
+    "To sue the at-fault driver for pain and suffering, your injury must meet Florida's serious-injury threshold."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What is the 14-day rule for PIP in Florida?",
+      "answer": "You must receive initial medical treatment within 14 days of the accident to use your PIP benefits. Treatment after that window can be denied."
+    },
+    {
+      "question": "Why did PIP only pay $2,500?",
+      "answer": "PIP medical benefits are capped at $2,500 unless a qualifying provider diagnoses an emergency medical condition. With that diagnosis, the full $10,000 limit is available."
+    },
+    {
+      "question": "Does Florida PIP cover my car?",
+      "answer": "No. PIP covers injuries and lost income only. Your car is covered by collision or comprehensive, and others' property by your property damage liability; see [Florida minimum car insurance requirements](/qa/florida-minimum-car-insurance-requirements)."
+    },
+    {
+      "question": "Can I sue the other driver in Florida?",
+      "answer": "For pain and suffering, only if your injury meets the serious-injury threshold, such as permanent injury, significant scarring or disfigurement, or death. Economic losses beyond PIP may also be claimed from the at-fault driver."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "PIP is the coverage Florida drivers pay for every month and understand least. It is half of the state's legal minimum, alongside property damage liability, as covered in [what is the minimum car insurance required in Florida](/qa/florida-minimum-car-insurance-requirements). It is also built around deadlines and caps that can shrink a $10,000 benefit to a fraction of that if you don't know them. This spoke of our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide) explains exactly how it works."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What PIP Pays"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Benefit",
+        "What PIP Pays",
+        "Limit"
+      ],
+      "rows": [
+        [
+          "Medical expenses",
+          "80% of necessary and reasonable costs",
+          "Up to $10,000 (or $2,500 without an emergency medical condition)"
+        ],
+        [
+          "Lost income",
+          "60% of lost gross income",
+          "Shares the same $10,000 limit"
+        ],
+        [
+          "Death benefit",
+          "Fixed payment",
+          "$5,000, in addition to the $10,000"
+        ],
+        [
+          "Vehicle damage",
+          "Nothing",
+          "Covered only by property damage liability, collision or comprehensive"
+        ],
+        [
+          "Pain and suffering",
+          "Nothing",
+          "Only recoverable from the at-fault driver if the serious-injury threshold is met"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Two Rules That Cut PIP Benefits"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**The 14-day rule.** You must receive initial treatment within 14 days of the crash. Miss it, and PIP can deny the claim entirely, even if pain shows up later. Get checked the same week, even if you feel fine.",
+        "**The emergency medical condition (EMC) rule.** The full $10,000 is available only if a qualifying provider (such as a physician, osteopath, dentist or physician assistant) documents an emergency medical condition. Without that diagnosis, medical benefits stop at $2,500."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "The Most Expensive Week After a Crash",
+      "text": "Skipping a doctor visit because you feel 'just sore' is the most common way Florida drivers lose PIP. Symptoms of whiplash and concussion often appear days later. Treatment inside 14 days protects the claim; treatment on day 15 may not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who PIP Covers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your PIP covers you and resident relatives in your household, whether in your car, someone else's car, or hit as a pedestrian or cyclist. Passengers without their own PIP are generally covered by the PIP on the vehicle they were riding in. Because PIP pays regardless of fault, your own insurer handles your medical bills first, then any remaining claim goes against the at-fault driver."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Gaps PIP Leaves"
+    },
+    {
+      "type": "paragraph",
+      "text": "With 80% coinsurance-style reimbursement and a $10,000 ceiling, a single emergency room visit with imaging can consume much of the benefit. Insurers also offer PIP deductibles, which lower your premium but reduce what PIP pays. Pick a [deductible](/glossary/deductible) you could actually afford after a crash. Optional medical payments coverage can pick up some of the 20% PIP doesn't pay, and bodily injury liability protects you when you are the one who causes injuries; neither is required, as our [Florida compliant drivers program](/learn/florida-compliant-drivers-program) guide explains."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Lower Your PIP Cost Legitimately",
+      "text": "Drivers 55 and older can complete a state-approved course to earn a discount on PIP, liability and collision premiums for about three years. See the [Florida mature driver insurance discount](/learn/florida-mature-driver-insurance-discount) guide."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Don't Let PIP Lapse"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because PIP is a legal requirement, a cancellation is reported to the state and suspends your license and plate. See [what happens if car insurance lapses in Florida](/qa/what-happens-if-car-insurance-lapses-in-florida) for the fees and how to reinstate."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Coverage Calculator",
+      "description": "See what adding medical payments and bodily injury liability would cost on top of Florida's required PIP."
+    },
+    {
+      "type": "disclaimer",
+      "text": "PIP benefits are governed by Section 627.736, Florida Statutes, and are frequently amended. This guide reflects the law as of October 2026 and is not legal advice. Consult a Florida attorney about a specific claim."
+    }
+  ]
+}

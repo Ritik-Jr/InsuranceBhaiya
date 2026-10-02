@@ -1,0 +1,125 @@
+{
+  "type": "learn",
+  "id": "florida-mature-driver-insurance-discount",
+  "slug": "florida-mature-driver-insurance-discount",
+  "title": "Florida Mature Driver Insurance Discount: How Drivers 55+ Can Cut Premiums for Three Years With One Course",
+  "description": "Florida drivers 55 and older can earn an insurance discount by taking a state-approved mature driver course. Who qualifies, how long it lasts and how to claim it.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 7,
+  "featured": false,
+  "tags": [
+    "florida mature driver discount",
+    "senior driver discount",
+    "florida car insurance",
+    "defensive driving course",
+    "insurance discounts"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Drivers 55 and older qualify for Florida's mature driver discount by completing an FLHSMV-approved course, typically a 6-hour course available online.",
+    "The discount is authorized by Section 627.0652, Florida Statutes, and typically lasts three years.",
+    "You keep it by avoiding at-fault crashes and moving violations during that period.",
+    "The size of the discount is set by each insurer, so ask for the figure before you enroll.",
+    "This is the genuine state-backed discount; ads for a 'compliant drivers program' are not."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "How much is the Florida senior driver insurance discount?",
+      "answer": "Florida law authorizes the discount, but each insurer sets the amount. Ask your insurer for its percentage before taking the course."
+    },
+    {
+      "question": "How long does the Florida mature driver discount last?",
+      "answer": "Typically three years, provided you avoid at-fault crashes and moving violations. Retake the course to renew it."
+    },
+    {
+      "question": "Can I take the Florida mature driver course online?",
+      "answer": "Yes. Many FLHSMV-approved providers offer it online. Confirm the provider is on the state's approved list before paying."
+    },
+    {
+      "question": "Is this the same as the Florida compliant drivers program?",
+      "answer": "No. The mature driver course is authorized by Florida law. 'Compliant drivers program' is a marketing phrase; see our [Florida compliant drivers program](/learn/florida-compliant-drivers-program) breakdown."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Florida has one discount that is actually written into state law, and most eligible drivers never claim it. If you are 55 or older, a single approved course can lower your premium for about three years. It is the real version of what 'state program' ads promise, as we explain in our [Florida compliant drivers program](/learn/florida-compliant-drivers-program) guide, and it is one of the discounts covered in our [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Qualifies"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Age:** 55 or older.",
+        "**Course:** Completion of a mature driver discount course from a provider approved by the Florida Department of Highway Safety and Motor Vehicles (FLHSMV). Most providers offer it online as a roughly 6-hour self-paced course.",
+        "**Record:** To keep the discount for the full period, avoid at-fault crashes and moving violations.",
+        "**Policy:** A Florida auto policy with a participating insurer. The discount applies to your premiums; the amount is up to each insurer."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Claim It, Step by Step"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Call your insurer first** and ask what percentage it gives for a mature driver certificate, and which coverages it applies to.",
+        "**Choose an FLHSMV-approved provider.** The FLHSMV website lists approved mature driver courses; avoid any provider that isn't on it.",
+        "**Complete the course** and download your completion certificate.",
+        "**Send the certificate to your insurer** and confirm the discount appears on your next declarations page; our guide on [how to read an insurance policy](/learn/how-to-read-an-insurance-policy) shows where discounts are listed.",
+        "**Set a reminder for three years** so you can retake the course before the discount expires."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Stack It With Other Real Discounts",
+      "text": "The mature driver discount combines with multi-policy, paid-in-full and safe-driver discounts. Retirees who also own an RV can often bundle it; see [California RV insurance](/learn/california-rv-insurance) if you travel west in winter."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Which Coverages It Helps"
+    },
+    {
+      "type": "paragraph",
+      "text": "The statute targets the core premium components: liability, personal injury protection and collision. PIP is a required coverage in Florida, so a discount on it lowers the cost of staying legal; see [Florida PIP insurance explained](/learn/florida-pip-insurance-explained) for what that coverage actually pays, and [Florida minimum car insurance requirements](/qa/florida-minimum-car-insurance-requirements) for the full list of what you must carry."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Don't Trade Coverage for a Discount",
+      "text": "Retirees on fixed incomes are often tempted to drop to Florida's bare minimum. With no bodily injury liability, one serious crash can put retirement savings at risk. If your savings exceed your liability limits, consider an [umbrella policy](/learn/umbrella-insurance-guide)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Coverage Calculator",
+      "description": "Check whether your liability limits protect your retirement savings before deciding where to apply discount savings."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Eligibility and duration reflect FLHSMV published guidance as of October 2026. Discount amounts are set by each insurer. Insurance Bhaiya is not affiliated with any course provider."
+    }
+  ]
+}

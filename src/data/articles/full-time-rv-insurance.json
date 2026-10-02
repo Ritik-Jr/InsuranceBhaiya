@@ -1,0 +1,166 @@
+{
+  "type": "learn",
+  "id": "full-time-rv-insurance",
+  "slug": "full-time-rv-insurance",
+  "title": "Full-Time RV Insurance: What Full-Timer Coverage Adds, and Why a Vacation RV Policy Isn't Enough When the RV Is Home",
+  "description": "Living in your RV? Full-timer coverage adds home-style liability and medical payments a vacation RV policy lacks. What it covers, domicile issues and gaps.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "full-time rv insurance",
+    "full-timer coverage",
+    "rv living",
+    "rv liability",
+    "rv domicile"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1533873984035-25970ab07461?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "A standard RV policy assumes you have a fixed home; full-timer coverage fills the liability and medical payments gap a homeowners policy would normally cover.",
+    "Full-timer liability applies to many incidents away from the RV, not only around the vehicle.",
+    "Your premium and legal minimums are set by your domicile state, not where you happen to be parked.",
+    "Not telling the insurer the RV is your only home can put claims at risk.",
+    "Pair full-timer coverage with replacement-cost or agreed-value physical damage and strong personal effects limits."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What is full-timer RV insurance?",
+      "answer": "Coverage added to an RV policy for people who live in their RV, providing personal liability and medical payments similar to a homeowners policy."
+    },
+    {
+      "question": "Do I need full-timer coverage if I live in my RV part of the year?",
+      "answer": "Insurers usually define full-time use by whether the RV is your primary residence. If you still own a home with homeowners insurance, you may not need it; ask the insurer for its definition."
+    },
+    {
+      "question": "Which state's insurance rules apply to full-time RVers?",
+      "answer": "Generally your domicile state, where the RV is registered and you hold your license, though you must also meet the minimums of states you drive through."
+    },
+    {
+      "question": "Is full-time RV insurance expensive?",
+      "answer": "It adds cost over a vacation policy, but it replaces liability protection you would otherwise lose when you sell your home. See [California RV insurance](/learn/california-rv-insurance) for typical cost drivers."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Selling the house and living on the road changes your insurance more than most new full-timers expect. The homeowners policy that quietly covered your liability, your belongings and guest injuries is gone, and a vacation-use RV policy wasn't designed to replace it. This spoke builds on our [California RV insurance guide](/learn/california-rv-insurance) and the broader [state auto insurance compliance guide](/learn/state-auto-insurance-compliance-guide)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vacation RV Policy vs Full-Timer Coverage"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage Area",
+        "Vacation-Use RV Policy",
+        "With Full-Timer Coverage"
+      ],
+      "rows": [
+        [
+          "Auto liability on the road",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Liability around the parked RV",
+          "Often limited (vacation liability)",
+          "Broader personal liability, similar to homeowners"
+        ],
+        [
+          "Liability away from the RV (e.g., your dog bites someone at a park)",
+          "Usually no",
+          "Commonly yes"
+        ],
+        [
+          "Medical payments to guests",
+          "Limited or none",
+          "Included"
+        ],
+        [
+          "Personal belongings",
+          "Optional, modest limits",
+          "Higher limits available; essential when everything you own is aboard"
+        ],
+        [
+          "Assumption about a fixed home",
+          "Assumes one exists",
+          "Designed for RV as primary residence"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "Disclose Full-Time Use",
+      "text": "If you tell the insurer the RV is a weekend vehicle but you live in it, a large liability or contents claim can be investigated as a misrepresentation. Tell the insurer it is your primary residence and buy the right coverage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Your Domicile State Sets the Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Full-timers still need a legal domicile for registration, licensing and insurance. Many choose states known for full-timer services, including Florida. If your domicile is Florida, the legal minimum is PIP and property damage liability, not bodily injury, which is far too thin for a heavy motorhome; see [Florida minimum car insurance requirements](/qa/florida-minimum-car-insurance-requirements). If you register in California, the motorhome needs 30/60/15 and you must show proof on demand; see [California evidence of liability insurance](/learn/california-evidence-of-liability-insurance)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Coverage Checklist for Full-Timers"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Full-timer personal liability and medical payments.**",
+        "**High auto liability limits**, plus an [umbrella policy](/learn/umbrella-insurance-guide) if you have savings to protect.",
+        "**Replacement-cost or agreed-value physical damage** so a total loss doesn't pay a depreciated [actual cash value](/glossary/actual-cash-value).",
+        "**Personal effects** at a limit that matches everything you own.",
+        "**Emergency expense** for lodging when the RV is in the shop; you have no other home to go to.",
+        "**RV-specific roadside assistance.**",
+        "**Coverage for anything you tow.** A trailer or car behind the motorhome has its own gaps; see [does car insurance cover a travel trailer](/qa/does-car-insurance-cover-travel-trailer)."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Run a Gap Check Before You Sell the House",
+      "text": "Before cancelling your homeowners policy, list every risk it covered and confirm each one is handled by the new RV policy. Our [8-Point Policy Check](/policy-check) is a quick way to do it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Health, Mail and Other Practicalities"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your domicile also affects health insurance networks, vehicle inspections and jury duty, so choose it deliberately. Insurance-wise, the key is consistency: the address on your license, registration and policy should match your declared domicile."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Coverage Calculator",
+      "description": "Model liability limits for a motorhome you live in, and see what higher limits cost."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Full-timer coverage terms vary significantly by insurer. Confirm what liability applies away from the RV before buying. Insurance Bhaiya does not sell RV insurance."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "type": "learn",
+  "id": "seaplane-insurance",
+  "slug": "seaplane-insurance",
+  "title": "Seaplane Insurance: Floats, Amphibians, Water Landings and the Costs Land Pilots Never See",
+  "description": "Seaplane insurance explained: float vs amphibian pricing, SES experience underwriters want, wreck-removal costs, mooring gaps and 5–10% hull deductibles.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-02",
+  "updatedAt": "2026-10-02",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "seaplane insurance",
+    "floatplane insurance",
+    "amphibian aircraft insurance",
+    "water operations",
+    "aviation insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Underwriters weigh **seaplane time** above everything else, then time in type, amphibian time (if insuring an amphib) and total time.",
+    "**Amphibians cost more to insure than straight floats** because retractable gear adds the risk of a gear-down water landing, which often flips the aircraft.",
+    "Hull deductibles on seaplanes commonly run **5%–10% of hull value**, and floats are typically covered as a separately scheduled part of physical damage.",
+    "Wreck removal can cost **tens of thousands of dollars** and may be legally required whatever the salvage value. Confirm that your policy has a dedicated limit for it."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is seaplane insurance more expensive than regular airplane insurance?",
+      "answer": "Generally yes. Water operations, wreck-removal exposure and the gear risk on amphibians push hull pricing and deductibles above the same airframe on wheels. Seaplane-specific time is the biggest discount lever. See the [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub for the fundamentals."
+    },
+    {
+      "question": "Are floats covered under hull insurance?",
+      "answer": "Usually yes, as a separately scheduled part of physical damage cover, for example $50,000 of a $300,000 hull value. Confirm that float theft is included."
+    },
+    {
+      "question": "Does seaplane insurance cover damage while the plane is docked?",
+      "answer": "Not-in-motion cover usually applies, but wind and wave damage to docked or beached seaplanes can be limited depending on the policy wording. Ask your broker to confirm in writing."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Seaplane insurance covers the same two building blocks as any aircraft policy, hull and liability, but water changes how losses happen and how much they cost. A sunk airframe has to be recovered from the lake bed, a docked floatplane can be wrecked by a storm without ever moving, and a single gear-position error can flip an amphibian on landing. This is a spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Underwriters Look At Before Quoting a Seaplane"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Seaplane (SES) time:** The most important factor. A 2,000-hour land pilot with 10 hours on floats is still a low-time seaplane pilot.",
+        "**Time in type:** Hours in the specific make and model, such as a Cessna 185 on floats or a Super Cub on amphibs. Cessna airframes on floats follow the same logic as our [Cessna insurance](/qa/cessna-insurance) pricing, but with water-operation loadings added.",
+        "**Amphibian time:** Required separately if you're insuring an amphibian, because gear management is the key risk.",
+        "**Total time, ratings and recurrent training:** Seaplane-specific recurrent training is viewed favorably."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Straight Floats vs Amphibians: Why the Gear Matters"
+    },
+    {
+      "type": "paragraph",
+      "text": "Straight floats only operate from water, so the pilot never has to manage landing gear. Amphibious floats add retractable wheels so the aircraft can use runways too. The trade-off is the risk of landing on water with the wheels down, which typically flips the aircraft, or landing on a runway with them up. Amphibious gear is also expensive to repair. As a result, amphibians are priced higher than the same airframe on straight floats, and insurers may require amphibian-specific dual instruction."
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "Wreck Removal Can Cost More Than the Airplane Is Worth",
+      "text": "Raising a sunk floatplane can cost tens of thousands of dollars, and authorities can require removal whatever the aircraft's salvage value. Check that your policy has a wreck-removal or salvage limit separate from the hull value. Otherwise, a total loss can leave you paying for the recovery yourself. Boat owners face the same issue. See [boat insurance claims: what to expect](/learn/boat-insurance-claims-what-to-expect)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Docked, Moored and Beached: The Not-in-Motion Gap"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard not-in-motion hull cover was written with hangars and tie-downs in mind. Depending on the policy wording, damage from wind or waves to a **docked or beached seaplane** may be limited or excluded, and some policies exclude superficial hail damage that doesn't affect airworthiness. Read the wording carefully, using our guide to [what an exclusion is in insurance](/learn/what-is-an-exclusion-in-insurance). If you swap between wheels and floats seasonally, some policies require the change to be scheduled with the insurer in advance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Typical Seaplane Policy Structure"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Component",
+        "Typical Setting",
+        "What to Check"
+      ],
+      "rows": [
+        [
+          "Liability",
+          "$1,000,000 with $100,000 per passenger",
+          "Upgrade to smooth limits if you carry passengers. See [smooth vs per-seat](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance)"
+        ],
+        [
+          "Hull (agreed value)",
+          "Aircraft value, with floats as a scheduled part (e.g. $300,000 total, $50,000 for floats)",
+          "Separate float theft and damage limit"
+        ],
+        [
+          "Hull deductible",
+          "5% – 10% of hull value",
+          "Compare against your cash reserves"
+        ],
+        [
+          "Medical payments",
+          "≈ $3,000 per person",
+          "Occupants injured in a water landing"
+        ],
+        [
+          "Search & rescue / emergency landing",
+          "≈ $10,000",
+          "Remote-lake operations"
+        ],
+        [
+          "Wreck removal / salvage",
+          "Separate limit (verify)",
+          "Can exceed hull value on deep-water losses"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "With a 5%–10% deductible, a $200,000 floatplane leaves you responsible for the first $10,000–$20,000 of any hull loss. That [deductible](/glossary/deductible) has to sit in your emergency fund, not on a credit card. For general premium context, see [airplane insurance cost](/learn/airplane-insurance-cost). If you're building a float-equipped kitplane, also read [experimental aircraft insurance](/learn/experimental-aircraft-insurance)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Get Your Rating on a Rented Floatplane First",
+      "text": "Most pilots earn the SES rating in a school's floatplane. Carry [private pilot insurance](/qa/private-pilot-insurance) that explicitly covers non-owned seaplanes, because some renter policies exclude amphibians or water operations. Then build hours before buying. Our [first-airplane scenario](/scenarios/daniel-first-cessna-182-texas) shows how hours in type move a quote."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the worst happens on the water, follow the NTSB and insurer steps in [aircraft insurance claims: what to expect](/learn/aircraft-insurance-claims-what-to-expect), and confirm the wreck-removal limit before you call a salvage company. Float operations also raise aviation flat extras on life insurance (see [does life insurance cover private pilots](/qa/does-life-insurance-cover-private-pilots)). Instructors giving SES training need their own cover, explained in [flight instructor insurance](/qa/flight-instructor-insurance). Docked-aircraft gaps are explained further in [what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "deductible-calculator",
+      "title": "Deductible Breakeven Calculator",
+      "description": "See whether a 5% or 10% seaplane hull deductible fits your emergency fund, and what a lower deductible would cost."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Figures are indicative and drawn from industry primers and broker guides. Seaplane underwriting is highly individual. Insurance Bhaiya does not sell insurance or earn commissions."
+    }
+  ]
+}
