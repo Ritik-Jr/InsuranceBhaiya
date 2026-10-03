@@ -281,6 +281,1281 @@
   "articles": [
     {
       "type": "learn",
+      "id": "how-much-business-insurance-do-i-need",
+      "slug": "how-much-business-insurance-do-i-need",
+      "title": "How Much Business Insurance Do I Need? A Step-by-Step Method for Setting Liability, Property and Income Limits",
+      "description": "How much business insurance do you need? Size general liability, property, business income, crime and umbrella limits using contracts, assets and worst-case losses.",
+      "category": "business-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "readingTime": 10,
+      "featured": false,
+      "tags": [
+        "how much business insurance do i need",
+        "business insurance limits",
+        "general liability limits",
+        "business income coverage",
+        "commercial umbrella"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Start from your contracts and lease: they often set the minimum, commonly $1 million per occurrence / $2 million aggregate general liability.",
+        "Insure property at replacement cost, based on what it would cost to rebuild and re-equip today, not what you paid.",
+        "Size business income coverage to how long a realistic rebuild and customer recovery would take, often 6 to 12 months or more.",
+        "Set crime limits by how much one dishonest employee could take before you notice, and liability limits by what a lawsuit could reach.",
+        "Add a commercial umbrella once your assets, revenue or contract demands exceed primary limits."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "How much general liability insurance does a small business need?",
+          "answer": "Most leases and client contracts ask for $1 million per occurrence and $2 million aggregate. Businesses with higher injury exposure or assets often add a commercial umbrella."
+        },
+        {
+          "question": "How much property coverage should I carry?",
+          "answer": "Enough to rebuild and re-equip at today's prices (replacement cost), including peak inventory. Insuring below the policy's coinsurance percentage can reduce partial claims."
+        },
+        {
+          "question": "How many months of business income coverage do I need?",
+          "answer": "Long enough to rebuild, reopen and win customers back. Many businesses choose 6 to 12 months; complex buildouts may need more."
+        },
+        {
+          "question": "Is $1 million enough business liability insurance?",
+          "answer": "It satisfies most contracts, but not necessarily your risk. Compare it with what a serious lawsuit could cost; see [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits) and our [business insurance hub](/learn/business-insurance-coverage-requirements)."
+        }
+      ],
+      "companionTool": {
+        "slug": "coverage-calculator",
+        "title": "Coverage Ratio Calculator",
+        "description": "Assess enterprise asset vulnerability against commercial liability limits."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "'How much business insurance do I need' has no single answer, but it does have a method. The right amount is the larger of what someone else requires you to carry and what a realistic worst case would cost you. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements) walks through each coverage in turn."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 1: Start With What's Required"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**By law:** workers' compensation for employees, with statutory benefits rather than a limit you choose (check [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)), plus auto liability for business vehicles.",
+            "**By your lease:** landlords commonly require general liability at a set limit and name themselves as additional insured.",
+            "**By clients:** contracts often specify general liability, professional liability, auto and umbrella limits.",
+            "**By lenders:** financed equipment or property must be insured for at least the loan balance or full value."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "The Common Benchmark",
+          "text": "$1 million per occurrence and $2 million aggregate general liability is the limit most leases and client contracts ask for. Treat it as a floor, not a target."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 2: Size Each Coverage"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Coverage",
+            "How to Size It",
+            "Common Mistake"
+          ],
+          "rows": [
+            [
+              "General liability",
+              "Contract minimum or more, scaled to customer traffic and severity of possible injuries",
+              "Buying the minimum and ignoring the aggregate cap"
+            ],
+            [
+              "Commercial property",
+              "Full [replacement cost](/glossary/replacement-cost) of buildings, equipment, furniture and inventory at peak season",
+              "Insuring at purchase price or [actual cash value](/glossary/actual-cash-value)"
+            ],
+            [
+              "Business income",
+              "Monthly net income plus continuing expenses, multiplied by a realistic recovery period",
+              "Choosing 3 months when rebuilding takes 9"
+            ],
+            [
+              "Commercial crime",
+              "Maximum cash and inventory one employee could divert before detection",
+              "Relying on property coverage; see [does business insurance cover theft](/qa/does-business-insurance-cover-theft)"
+            ],
+            [
+              "Professional liability",
+              "Size of your largest contracts and the potential client losses from an error",
+              "Forgetting that defense costs often erode the limit"
+            ],
+            [
+              "Specialty / marine",
+              "Peak value of customer property in your care",
+              "Using average values; see [marine business insurance](/learn/marine-business-insurance)"
+            ],
+            [
+              "Commercial umbrella",
+              "Gap between primary limits and the total assets and income a judgment could reach",
+              "Skipping it until after a large claim"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 3: Stress-Test Against Real Lawsuits"
+        },
+        {
+          "type": "paragraph",
+          "text": "Picture the worst realistic claim for your business: a serious injury to a customer, a client loss caused by your error, or a fire that closes you for a season. Then check which policy responds and whether the limit holds up. Defense costs matter here: under the standard general liability form they sit outside the limit, but many professional liability policies count them against it. The policy-by-policy breakdown is in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits), and our guide on [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured) applies the same logic to personal coverage."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Coinsurance Penalties on Property",
+          "text": "Many commercial property policies include a coinsurance clause, often 80% or 90%. If you insure below that share of replacement value, partial claims are reduced proportionally. Underinsuring to save premium can cost far more on a claim."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 4: Choose Deductibles You Can Actually Pay"
+        },
+        {
+          "type": "paragraph",
+          "text": "A higher [deductible](/glossary/deductible) lowers your [premium](/glossary/premium), but only makes sense if the business could pay it out of cash tomorrow. Model the trade-off in the [Deductible Breakeven Calculator](/deductible-calculator/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 5: Review Every Year"
+        },
+        {
+          "type": "paragraph",
+          "text": "Limits drift out of date as revenue, payroll, inventory and contracts grow. Review at every renewal and after any major change. If you're switching carriers to get higher limits, line up the new policy before you end the old one; the rules are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "coverage-calculator",
+          "title": "Business Coverage Calculator",
+          "description": "Enter revenue, assets, payroll and contract requirements to estimate liability, property and business income limits."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Limit benchmarks are common market practice, not legal requirements. Insurance Bhaiya does not sell insurance; confirm limits with a licensed commercial agent and review your contracts."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "marine-business-insurance",
+      "slug": "marine-business-insurance",
+      "title": "Marine Business Insurance: The Coverage Marinas, Boat Dealers, Charter Operators and Marine Contractors Actually Need",
+      "description": "Marine business insurance explained: marina operators liability, P&I, hull, USL&H and Jones Act coverage, pollution and inland marine, and who needs each.",
+      "category": "business-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "readingTime": 10,
+      "featured": false,
+      "tags": [
+        "marine business insurance",
+        "marina insurance",
+        "marina operators legal liability",
+        "protection and indemnity",
+        "USL&H",
+        "Jones Act",
+        "commercial marine insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Standard business policies exclude most water-related risks; marine businesses need specialty coverages built for vessels, docks and maritime employees.",
+        "Marina Operators Legal Liability (MOLL) covers customers' boats in your care, custody or control, which general liability excludes.",
+        "Protection and Indemnity (P&I) covers liability from operating vessels, while hull insurance covers damage to the vessel itself.",
+        "Employees working on navigable waters may fall under federal maritime law (USL&H Act or the Jones Act) instead of, or in addition to, state workers' compensation.",
+        "Pollution liability, inland marine for property in transit, and a marine umbrella ('bumbershoot') close the remaining gaps."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "What is marine business insurance?",
+          "answer": "A set of specialty coverages for businesses that operate on or near water, including marina operators legal liability, hull, P&I, USL&H and Jones Act coverage, pollution liability and inland or ocean marine cargo."
+        },
+        {
+          "question": "Does general liability cover customer boats at my marina?",
+          "answer": "Usually not. General liability excludes property in your care, custody or control. Marina Operators Legal Liability fills that gap."
+        },
+        {
+          "question": "Do marine employees need workers' comp?",
+          "answer": "Many need federal maritime coverage instead of or alongside state workers' comp: USL&H for dock and harbor workers, and Jones Act coverage for crew members. For state exemption rules, see [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)."
+        },
+        {
+          "question": "Is marine insurance part of a business owner's policy?",
+          "answer": "No. A BOP generally excludes watercraft and maritime liability. See our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub for what a BOP does cover."
+        }
+      ],
+      "companionTool": {
+        "slug": "coverage-calculator",
+        "title": "Coverage Ratio Calculator",
+        "description": "Assess enterprise asset vulnerability against commercial liability limits."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A marina is a parking lot, a repair shop, a fuel station and a landlord, all floating on water. A charter company is a transport business whose 'vehicle' is a vessel. That combination is why ordinary business policies keep saying no to marine businesses: property in your care is excluded, watercraft are excluded, pollution is excluded, and your crew may not even fall under state workers' comp. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements) maps the marine-specific coverages and who needs which."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Who Needs Marine Business Insurance"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Marinas and boatyards** that store, haul, launch, fuel or repair customers' boats.",
+            "**Boat and yacht dealers and brokers** with inventory on lots, in water and on test drives.",
+            "**Charter, tour and fishing operators** carrying paying passengers.",
+            "**Marine contractors** building docks, seawalls and piers.",
+            "**Repair yards, detailers and mobile marine mechanics.**",
+            "**Boat rental and water-sports businesses.**",
+            "**Shippers and businesses moving goods by water**, which need cargo coverage."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Core Marine Coverages"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Coverage",
+            "What It Pays For",
+            "Who Typically Needs It"
+          ],
+          "rows": [
+            [
+              "Marina Operators Legal Liability (MOLL)",
+              "Damage to customers' vessels while in your care, custody or control during storage, hauling, launching or repair",
+              "Marinas, boatyards, dry-stack storage"
+            ],
+            [
+              "Ship repairers / marine contractors liability",
+              "Liability arising from repair work on vessels and marine construction",
+              "Repair yards, mobile mechanics, dock builders"
+            ],
+            [
+              "Hull and machinery",
+              "Physical damage to vessels you own",
+              "Charter operators, dealers, any business owning boats"
+            ],
+            [
+              "Protection and Indemnity (P&I)",
+              "Liability from operating a vessel: injury to passengers or others, damage to docks or other boats, wreck removal",
+              "Charter and tour operators, workboats"
+            ],
+            [
+              "USL&H (Longshore Act) coverage",
+              "Benefits for workers injured on navigable waters or adjoining areas like piers and docks",
+              "Marinas, dock builders, ship repairers"
+            ],
+            [
+              "Maritime employer's liability (Jones Act)",
+              "Claims by vessel crew members ('seamen') injured through employer negligence",
+              "Charter, fishing and workboat operators with crew"
+            ],
+            [
+              "Pollution liability",
+              "Cleanup and liability for fuel or oil spills",
+              "Marinas with fuel docks, repair yards"
+            ],
+            [
+              "Inland and ocean marine (cargo)",
+              "Property and goods in transit or at temporary locations",
+              "Dealers transporting boats, shippers, contractors moving equipment"
+            ],
+            [
+              "Marine umbrella ('bumbershoot')",
+              "Excess limits above primary marine liability",
+              "Larger operations and passenger carriers"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "The Care, Custody or Control Exclusion",
+          "text": "A standard general liability policy excludes damage to property in your 'care, custody or control'. For a marina, that's every customer boat on a rack or in a sling. Without MOLL, a forklift drop or a fire in the storage barn becomes an uninsured lawsuit. Our [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits) guide explains how general liability exclusions shape which suits get defended."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Maritime Workers: Why State Workers' Comp May Not Be Enough"
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal law can override state workers' comp for people who work on or near the water. The Longshore and Harbor Workers' Compensation Act (USL&H) covers many workers injured on navigable waters or adjoining areas like piers, docks and boatyards. Vessel crew members who qualify as 'seamen' fall under the Jones Act, which lets them sue their employer for negligence rather than claim no-fault benefits. A standard state policy may exclude both, so marine employers typically need a USL&H endorsement and maritime employer's liability coverage."
+        },
+        {
+          "type": "paragraph",
+          "text": "This matters for exemption questions too: even if an owner qualifies to opt out of state coverage, as explained in [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california), any employees doing maritime work still need the right federal coverage."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Theft, Storms and Property"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marine businesses lose outboard motors, electronics and trailers to theft, and docks and buildings to storms. Commercial property covers your buildings, docks and equipment; hull coverage covers boats you own; inland marine covers equipment that moves. Employee theft from the parts counter or the till still needs separate crime coverage, as detailed in [does business insurance cover theft](/qa/does-business-insurance-cover-theft). Pay close attention to named-storm and wind [deductibles](/glossary/deductible), which can be a percentage of insured value rather than a flat amount."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Setting Limits for a Marine Operation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marine liability is driven by the value of vessels in your care and the number of passengers you carry. A marina's MOLL limit should reflect the highest total value of boats it might hold at once, not the average. Many marinas also require tenants to carry their own boat liability, so ask for certificates. Our full method is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need), and you can model your figures with the [Coverage Calculator](/coverage-calculator/)."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Seasonal Businesses: Don't Cancel, Adjust",
+          "text": "Seasonal operators often want to drop coverage over winter. Stored boats still face fire, theft and storm risk, and gaps can breach slip or lease contracts. Ask your insurer for lay-up provisions instead, and read [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time) before cancelling anything."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "coverage-calculator",
+          "title": "Business Coverage Calculator",
+          "description": "Estimate liability and property limits based on the value of vessels and equipment in your care."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Maritime jurisdiction is complex and fact-specific. Whether a worker falls under state law, USL&H or the Jones Act depends on duties and location. Insurance Bhaiya does not sell marine insurance; consult a marine insurance specialist and maritime attorney."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "business-insurance-coverage-requirements",
+      "slug": "business-insurance-coverage-requirements",
+      "title": "Business Insurance Explained: What It Covers, What the Law Requires, and How Much Coverage Your Business Needs",
+      "description": "Business insurance explained: which policies are legally required, what general liability and property really cover, theft and lawsuit gaps, limits and cancellation.",
+      "category": "business-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "readingTime": 12,
+      "featured": true,
+      "tags": [
+        "business insurance",
+        "general liability",
+        "commercial property",
+        "workers compensation",
+        "business owners policy",
+        "small business insurance",
+        "commercial crime insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Only a few coverages are legally required: workers' compensation once you have employees (nearly every state), unemployment insurance through payroll taxes, state disability insurance in a handful of states, and commercial auto liability for business vehicles. See [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california).",
+        "Everything else, including general liability, property, professional liability and crime, is required by contracts, landlords and lenders rather than by law.",
+        "No single policy covers every theft. Burglary falls under property insurance, employee theft under crime insurance, and stolen tools in transit under inland marine. See [does business insurance cover theft](/qa/does-business-insurance-cover-theft).",
+        "General liability defends injury and property damage lawsuits; employment, professional and data breach suits need separate policies. See [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits).",
+        "A $1 million per occurrence / $2 million aggregate general liability limit is the common contract benchmark, but the right amount depends on your assets and contracts. See [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need)."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "What business insurance is required by law?",
+          "answer": "Workers' compensation once you have employees (in nearly every state), unemployment insurance through payroll taxes, state disability insurance in a few states, and auto liability for business vehicles. General liability is usually required by contracts, not law."
+        },
+        {
+          "question": "Does business insurance cover theft?",
+          "answer": "Commercial property covers burglary of your business property, but employee theft needs crime insurance and tools stolen in transit need inland marine coverage. Full breakdown: [does business insurance cover theft](/qa/does-business-insurance-cover-theft)."
+        },
+        {
+          "question": "Does business insurance cover lawsuits?",
+          "answer": "General liability covers injury, property damage and advertising injury lawsuits, including defense costs. Employment, professional-error and data-breach lawsuits need separate policies. See [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits)."
+        },
+        {
+          "question": "How much business insurance do I need?",
+          "answer": "Start with $1 million per occurrence / $2 million aggregate general liability, property at replacement cost, and enough business income coverage for a realistic rebuild period, then adjust for contracts and assets. See [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need)."
+        },
+        {
+          "question": "Can you cancel business insurance at any time?",
+          "answer": "Usually yes, with written notice, but you may receive a short-rate refund rather than a full pro-rata refund. See [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)."
+        }
+      ],
+      "companionTool": {
+        "slug": "coverage-calculator",
+        "title": "Coverage Ratio Calculator",
+        "description": "Assess enterprise asset vulnerability against commercial liability limits."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Most small business owners buy insurance the same way: a landlord or client asks for a certificate, a broker sends a quote for a 'general liability' or 'business owner's' policy, and the owner signs it without a clear picture of what it covers. Then something happens, such as an employee walking off with cash, a customer suing over a fall, or a boat sinking at the dock, and the owner finds out which part of the business was never insured. This hub maps the whole landscape: what the law requires, what each core policy pays for, where the common gaps sit, how to size your limits, and how to change or cancel coverage without leaving a hole."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What the Law Requires vs What Contracts Require"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Coverage",
+            "Who Requires It",
+            "Applies When"
+          ],
+          "rows": [
+            [
+              "Workers' compensation",
+              "State law (every state except Texas makes it mandatory for most private employers)",
+              "You have one or more employees; exemptions vary. See [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)"
+            ],
+            [
+              "Unemployment insurance",
+              "Federal and state law, paid as payroll tax",
+              "You have employees"
+            ],
+            [
+              "State disability insurance",
+              "State law in a few states, including California, New York, New Jersey, Rhode Island and Hawaii",
+              "You have employees in those states"
+            ],
+            [
+              "Commercial auto liability",
+              "State law",
+              "The business owns or uses vehicles"
+            ],
+            [
+              "Maritime employee coverage (USL&H, Jones Act)",
+              "Federal law",
+              "Employees work on navigable waters or as vessel crew. See [marine business insurance](/learn/marine-business-insurance)"
+            ],
+            [
+              "General liability",
+              "Leases, client contracts, licensing boards",
+              "Almost always requested before you sign a lease or contract"
+            ],
+            [
+              "Commercial property",
+              "Lenders and landlords",
+              "You have financed equipment, a mortgage, or lease obligations"
+            ],
+            [
+              "Professional liability (E&O)",
+              "Client contracts and some professional licenses",
+              "You give advice or professional services"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "danger",
+          "title": "The Most Expensive Mistake: Skipping Workers' Comp",
+          "text": "In California, operating without required workers' compensation is a misdemeanor. The state can issue a stop order on your employee labor and assess a penalty of the greater of twice the premium you should have paid or $1,500 per employee. Check whether you qualify for an exemption in [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california) before assuming you're exempt."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Core Policies and What Each One Covers"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**General liability (GL):** Bodily injury and property damage you cause to others, plus personal and advertising injury such as libel. It is the policy behind most 'is my business covered if someone sues' questions, answered in full in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits).",
+            "**Commercial property:** Your building, equipment, furniture and inventory against fire, storm, vandalism and burglary. Whether it pays for a specific loss, including theft, is explained in [does business insurance cover theft](/qa/does-business-insurance-cover-theft).",
+            "**Business owner's policy (BOP):** A bundled GL plus property policy for smaller businesses, usually with business income coverage. It is cheaper than buying the two separately but has eligibility limits.",
+            "**Professional liability (E&O):** Claims that your advice, design or service caused a financial loss. General liability does not cover these.",
+            "**Commercial crime:** Employee theft, forgery and certain fraud, which property policies exclude.",
+            "**Cyber liability:** Data breaches, ransomware and funds-transfer fraud.",
+            "**Specialty lines:** Businesses on or near water need marine coverages that ordinary policies exclude; see [marine business insurance](/learn/marine-business-insurance).",
+            "**Commercial umbrella:** Extra liability limits above GL, auto and employer's liability. Our [umbrella insurance guide](/learn/umbrella-insurance-guide) explains how the layers stack."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Gaps Owners Discover After a Loss"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "What Happened",
+            "What Owners Assume",
+            "What Usually Pays"
+          ],
+          "rows": [
+            [
+              "Burglar breaks in and takes laptops",
+              "Property policy",
+              "Property policy, minus the deductible"
+            ],
+            [
+              "Bookkeeper embezzles over two years",
+              "Property policy",
+              "Only commercial crime coverage; property excludes employee dishonesty"
+            ],
+            [
+              "Tools stolen from a work truck",
+              "Commercial auto",
+              "Inland marine or tools-and-equipment coverage; auto covers the vehicle, not tools"
+            ],
+            [
+              "Customer slips on a wet floor",
+              "General liability",
+              "General liability, including defense costs"
+            ],
+            [
+              "Former employee sues for wrongful termination",
+              "General liability",
+              "Employment practices liability (EPLI); GL excludes employment claims"
+            ],
+            [
+              "Client sues over a mistake in your work",
+              "General liability",
+              "Professional liability (E&O)"
+            ],
+            [
+              "Customer's boat damaged while stored at your marina",
+              "General liability",
+              "Marina operators legal liability; GL excludes property in your care, custody or control"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of these gaps comes from an [exclusion](/glossary/exclusion), a clause that removes a risk from the policy. Reading those clauses before a loss is the single best use of an hour; our guide on [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance) shows where to find them. The theft gaps are detailed in [does business insurance cover theft](/qa/does-business-insurance-cover-theft), and the lawsuit gaps in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Coverage Is Enough"
+        },
+        {
+          "type": "paragraph",
+          "text": "Limits should be set by three numbers: what your contracts and lease demand, what it would cost to rebuild and restock after a total loss, and how much of your business and personal wealth a lawsuit could reach. For liability, $1 million per occurrence and $2 million aggregate is the common contract benchmark; for property, insure at [replacement cost](/glossary/replacement-cost) rather than depreciated value. The full sizing method, with worked examples, is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need), and you can estimate your figures with the [Coverage Calculator](/coverage-calculator/)."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "coverage-calculator",
+          "title": "Business Coverage Calculator",
+          "description": "Estimate liability limits, property values and business income needs based on your revenue, assets and contract requirements."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Specialty Risks: Businesses on the Water"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marinas, boat dealers, charter operators, marine contractors and repair yards face risks standard policies simply exclude: customers' vessels in your care, liability from operating boats, fuel spills, and employees covered by federal maritime law instead of state workers' comp. That is why [marine business insurance](/learn/marine-business-insurance) is its own category, and why marine employers can't rely on a California workers' comp policy alone to cover their crews, even after checking [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Changing or Cancelling Business Insurance"
+        },
+        {
+          "type": "paragraph",
+          "text": "You can usually cancel a business policy at any time with written notice. The questions are how much premium you get back, whether a short-rate penalty applies, and whether cancelling breaks a contract that requires you to stay insured. The rules, and the safe order of operations, are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time). For personal policies, see [can you cancel insurance anytime and get a refund](/qa/can-you-cancel-insurance-anytime-get-refund)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Your Business Insurance Checklist"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Confirm legal requirements** for your state and headcount, starting with workers' comp exemptions ([California rules here](/qa/who-is-exempt-from-workers-compensation-insurance-california)).",
+            "**Collect contract requirements** from your lease, client agreements and lenders.",
+            "**List what could be stolen and by whom**, then match each to a policy ([does business insurance cover theft](/qa/does-business-insurance-cover-theft)).",
+            "**List who could sue you** and check which policy defends each type of claim ([does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits)).",
+            "**Size your limits** ([how much business insurance do I need](/learn/how-much-business-insurance-do-i-need)).",
+            "**Add specialty coverage** if you operate near water ([marine business insurance](/learn/marine-business-insurance)).",
+            "**Review annually**, and never cancel before replacement coverage starts ([can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)).",
+            "**Run the [Business Insurance Checklist](/business-insurance-checklist)** to catch anything missed."
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "text": "Requirements vary by state, industry and contract. California figures reflect the Department of Industrial Relations as of October 2026. Insurance Bhaiya does not sell insurance or receive commissions. Confirm your obligations with a licensed commercial insurance agent and your state labor department."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "what-insurance-does-a-sole-trader-need",
+      "slug": "what-insurance-does-a-sole-trader-need",
+      "title": "What Insurance Does a Sole Trader Need? A UK Guide to Self-Employed Cover (2026)",
+      "description": "What insurance does a sole trader need in the UK? What the law requires, what clients demand, 2026 costs, and the gaps that catch the self-employed.",
+      "category": "business-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "readingTime": 11,
+      "featured": true,
+      "tags": [
+        "sole trader insurance",
+        "self-employed insurance",
+        "public liability",
+        "employers liability",
+        "UK business insurance"
+      ],
+      "coverImage": "/images/category-business.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Most sole traders have **no legally compulsory business insurance** until they hire someone. At that point [employers' liability insurance](/qa/do-sole-traders-need-employers-liability-insurance/) of at least £5 million becomes mandatory, with fines of £2,500 for every day you're uninsured.",
+        "The cover sole traders buy most is **public liability**, which is often a client or venue requirement. Typical 2026 premiums run from about £50–£65 a year for low-risk trades to around £118 for £2 million of cover. See [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/).",
+        "Driving to clients usually needs **business use** on your car policy. Commuting cover alone generally won't do.",
+        "Your home policy may not cover business equipment or client visits unless you tell your insurer; see [working from home as a sole trader](/qa/sole-trader-working-from-home-insurance/).",
+        "Business insurance premiums are generally an allowable expense, and because there's no statutory sick pay for the self-employed, [income protection](/qa/income-protection-for-self-employed-uk/) is the cover most sole traders forget."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Do sole traders need insurance?",
+          "answer": "Not by default. With no employees, most sole traders have no compulsory business insurance apart from correct motor cover for work driving. Employers' liability becomes mandatory once you hire. Public liability and professional indemnity are voluntary but often required by clients."
+        },
+        {
+          "question": "What insurance do I need as a sole trader?",
+          "answer": "Start with public liability if you meet clients or work on their premises, professional indemnity if you give advice or expertise, business use on your vehicle if you drive for work, and employers' liability if you hire anyone. Then consider tools, home business cover and income protection. See [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/)."
+        },
+        {
+          "question": "Is public liability insurance a legal requirement for sole traders?",
+          "answer": "No. It's voluntary in the UK, but many clients, councils, venues and landlords require it contractually, commonly at £1m to £5m."
+        },
+        {
+          "question": "How much does sole trader insurance cost?",
+          "answer": "Public liability alone averages roughly £106–£140 a year for £1m–£5m of cover in 2026, and low-risk sole traders can pay £50–£65. Adding professional indemnity, tools or employers' liability raises the total."
+        },
+        {
+          "question": "Can I claim sole trader insurance as a business expense?",
+          "answer": "Generally yes for business policies, which HMRC treats as allowable financial costs. Personal policies such as income protection generally aren't. See [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+        }
+      ],
+      "companionTool": {
+        "slug": "coverage-calculator",
+        "title": "Coverage Ratio Calculator",
+        "description": "Assess enterprise asset vulnerability against commercial liability limits."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "\"Do sole traders need insurance?\" is one of the first questions people ask after registering for Self Assessment, usually followed by a slightly panicked \"what insurance do I need as a sole trader?\" when the first client sends a supplier form asking for a policy number."
+        },
+        {
+          "type": "paragraph",
+          "text": "The honest answer is shorter than the comparison sites make it look. The law requires very little of a one-person business. Clients, venues, landlords and lenders require a bit more. And your own financial safety, because a sole trader's personal assets *are* the business's assets, argues for a little more still. This hub sets out each layer, roughly what it costs, and where to go next."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Do Sole Traders Need Insurance? The Legal Minimum"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a sole trader with no staff, UK law makes almost no business insurance compulsory. Only two requirements commonly apply:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Employers' liability (EL):** compulsory under the Employers' Liability (Compulsory Insurance) Act 1969 as soon as you employ someone, for at least £5 million. GOV.UK states you can be fined £2,500 for every day you're not properly insured and £1,000 for not displaying the certificate. There are exemptions, including for unincorporated family businesses employing only close relatives. The full rules are in [do sole traders need employers' liability insurance](/qa/do-sole-traders-need-employers-liability-insurance/).",
+            "**Motor insurance:** if you drive for work, your vehicle must be insured for that use. A policy rated only for social, domestic and pleasure (SDP) driving may not respond to a business journey. See [business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders/)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Sole Trader = Unlimited Liability",
+          "text": "As a sole trader there's no legal separation between you and the business. A court judgment against \"the business\" is a judgment against you, payable from savings and, in the worst case, your home. That's why voluntary liability cover matters more for sole traders than for limited companies. The difference is explained in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Insurance Does a Sole Trader Need in Practice?"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Cover",
+            "Legally Required?",
+            "Who Usually Needs It",
+            "Go Deeper"
+          ],
+          "rows": [
+            [
+              "Public liability",
+              "No, but often contractually required",
+              "Anyone meeting clients or the public, or working on others' premises",
+              "[Public liability as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/)"
+            ],
+            [
+              "Employers' liability",
+              "Yes, once you employ anyone (with exemptions)",
+              "Sole traders with staff, including casual or part-time",
+              "[Employers' liability for sole traders](/qa/do-sole-traders-need-employers-liability-insurance/)"
+            ],
+            [
+              "Professional indemnity",
+              "No (unless your regulator requires it)",
+              "Consultants, designers, bookkeepers, IT freelancers: anyone paid for advice or expertise",
+              "[Professional indemnity insurance](/learn/professional-indemnity-insurance/)"
+            ],
+            [
+              "Product liability",
+              "No",
+              "Makers and sellers of physical goods",
+              "[Product liability insurance](/learn/product-liability-insurance/)"
+            ],
+            [
+              "Business car / van use",
+              "Yes, if you drive for work",
+              "Anyone driving between clients or sites",
+              "[Business car insurance](/qa/business-car-insurance-for-sole-traders/)"
+            ],
+            [
+              "Home business cover",
+              "No",
+              "Anyone working, storing stock or seeing clients at home",
+              "[Working from home insurance](/qa/sole-trader-working-from-home-insurance/)"
+            ],
+            [
+              "Tools & equipment",
+              "No",
+              "Trades, photographers, mobile professionals",
+              "See the trade section below"
+            ],
+            [
+              "Income protection",
+              "No",
+              "Anyone who couldn't pay the bills after several weeks off sick",
+              "[Income protection for the self-employed](/qa/income-protection-for-self-employed-uk/)"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Public Liability: The Policy Most Sole Traders Buy First"
+        },
+        {
+          "type": "paragraph",
+          "text": "Public liability covers claims from third parties (customers, passers-by, property owners) for injury or property damage caused by your work. It's the UK equivalent of the [general liability](/learn/commercial-general-liability-guide/) policies sold in the US. A cleaner knocks a vase off a client's shelf, a personal trainer's kettlebell rolls onto a client's foot, a decorator's ladder dents a neighbour's car."
+        },
+        {
+          "type": "paragraph",
+          "text": "It isn't a legal requirement, but councils, letting agents, event organisers and larger clients routinely ask for proof of £1 million, £2 million or £5 million cover before you start work. Whether you personally need it, and how much, is covered in [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/). Trades with specialist risks have their own guides, such as [gas engineer public liability insurance](/learn/gas-engineer-public-liability-insurance/)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Public Liability Cover Level",
+            "Typical Annual Premium (UK, 2026)"
+          ],
+          "rows": [
+            [
+              "£1 million",
+              "~£106"
+            ],
+            [
+              "£2 million",
+              "~£118"
+            ],
+            [
+              "£5 million",
+              "~£140"
+            ],
+            [
+              "Low-risk sole traders (tutors, PTs, cleaners)",
+              "~£50 – £65"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Moving Up a Limit Is Cheap",
+          "text": "Industry figures suggest moving from £1m to £2m costs only around £15–£20 a year. If any regular client might ask for £2m, buy it now rather than reissuing the policy mid-year."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Professional Indemnity and Product Liability"
+        },
+        {
+          "type": "paragraph",
+          "text": "Public liability covers physical injury and damage. It doesn't cover a client's *financial loss* caused by bad advice, a missed deadline or a design error. That's what [professional indemnity insurance](/learn/professional-indemnity-insurance/) is for, and many professional bodies and corporate clients require it. If you make or sell goods, an injury caused by the product after it leaves your hands falls under [product liability insurance](/learn/product-liability-insurance/), which is often bundled with public liability."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Cover for Trades: Tools, Vans and Contract Works"
+        },
+        {
+          "type": "paragraph",
+          "text": "For tradespeople the biggest uninsured losses are usually property, not liability. Tools stolen overnight from a van are a common claim, and many policies only pay if the van was locked with tools out of sight, or they exclude overnight theft unless the van is garaged. Check those conditions and the [excess](/glossary/deductible/) before relying on tools cover. Builders working on clients' property may also need [contractors' all-risk cover](/learn/contractors-all-risk-contract-works-insurance-uk/) for the works in progress."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Working From Home and Driving for Work"
+        },
+        {
+          "type": "paragraph",
+          "text": "Two everyday policies often break silently when you go self-employed. Many home insurers cover only clerical home-working and expect you to tell them if you run a business from home. Undisclosed business use can put claims at risk, and business equipment is often excluded. The details are in [sole trader working from home insurance](/qa/sole-trader-working-from-home-insurance/).<br><br>Car policies rated only for SDP or commuting generally don't cover driving between clients. Adding business use (classes 1 to 3) usually costs little. See [business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Protecting Your Income"
+        },
+        {
+          "type": "paragraph",
+          "text": "Employees get statutory sick pay (£123.25 a week in 2026/27). The self-employed don't. As the Low Incomes Tax Reform Group puts it, you cannot get SSP if you're self-employed. The fallback is New Style ESA, which depends on your National Insurance record. For many sole traders, a few months off sick is a bigger financial threat than any lawsuit. [Income protection for the self-employed](/qa/income-protection-for-self-employed-uk/) explains how to cover it, and the [Disability Insurance Calculator](/disability-insurance-calculator/) helps size a monthly benefit."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Is Sole Trader Insurance Tax Deductible?"
+        },
+        {
+          "type": "paragraph",
+          "text": "HMRC lists insurance among allowable financial costs for the self-employed, so business policies such as public liability, professional indemnity and tools cover generally reduce your taxable profit. Personal cover such as income protection and life insurance generally doesn't. And if you use the £1,000 trading allowance, you can't claim expenses at all. The rules and edge cases are in [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When Insurance Points Toward Incorporating"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurance reduces liability risk but doesn't remove it. Claims can exceed limits or fall into an [exclusion](/glossary/exclusion/). Some sole traders with large contracts or growing teams form a limited company partly to ring-fence personal assets. Incorporating changes the insurance rules too: the family-business exemption from employers' liability no longer applies. Compare both in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Common Mistakes When Buying Sole Trader Insurance"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Describing your trade loosely.** Policies are rated by occupation, and work outside the declared trade may not be covered. Under the Insurance Act 2015 you owe insurers a fair presentation of the risk.",
+            "**Assuming public liability covers advice.** It doesn't. Financial-loss claims need professional indemnity.",
+            "**Forgetting casual help.** Paying a friend for a weekend's labour can make you an employer for EL purposes.",
+            "**Leaving tools in the van overnight** without checking the policy's theft conditions.",
+            "**Not telling your home or car insurer** that you've gone self-employed."
+          ]
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "coverage-calculator",
+          "title": "Coverage Calculator",
+          "description": "Estimate the liability limit your trade and client contracts call for, and see where your current cover falls short."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Figures are indicative UK market averages published for 2026 and GOV.UK guidance as of 3 October 2026. Premiums depend on trade, turnover, location and claims history. Insurance Bhaiya does not sell policies or receive commissions. Check legal requirements with GOV.UK or HSE, and tax treatment with HMRC or an accountant."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "sr-22-insurance",
+      "slug": "sr-22-insurance",
+      "title": "SR-22 Insurance Explained: What It Is, How Long You Need It, What It Costs and the FR-44 Difference",
+      "description": "SR-22 insurance explained: who needs one, the usual 3-year term, filing fees, non-owner SR-22s, and how Florida and Virginia's FR-44 differs.",
+      "category": "car-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "readingTime": 8,
+      "featured": false,
+      "tags": [
+        "sr-22 insurance",
+        "sr22",
+        "fr-44",
+        "dui insurance",
+        "high-risk car insurance",
+        "non-owner sr-22"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "An SR-22 is **not insurance**. It's a certificate your insurer files with the state to prove you carry at least the minimum liability cover.",
+        "Commonly required after a DUI, driving uninsured, serious violations or a licence suspension, usually for **about 3 years** (it varies by state).",
+        "The filing fee is usually modest (often around $15–$50). The real cost is the **high-risk premium** behind it (see [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui)).",
+        "If your policy lapses, the insurer notifies the state (usually with an SR-26), which can lead to a **licence suspension** and restart the clock.",
+        "**Florida and Virginia** use the **FR-44**, which requires double the state minimum liability limits. In Florida that's 100/300/50."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Is SR-22 insurance a special type of policy?",
+          "answer": "No. It's a certificate attached to a normal auto policy, proving to the state that you carry the required liability cover. See the [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) hub."
+        },
+        {
+          "question": "How long do I need an SR-22?",
+          "answer": "Usually about 3 years from the date set by your state, but it varies by state and offence. A lapse can restart the period."
+        },
+        {
+          "question": "Can I get an SR-22 without a car?",
+          "answer": "Yes, through a non-owner policy. See [what is a named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy)."
+        }
+      ],
+      "companionTool": {
+        "slug": "car-insurance-calculator",
+        "title": "Car Insurance Coverage Calculator",
+        "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If a court or DMV tells you to 'get SR-22 insurance', you're being told to prove to the state that you're insured, and to keep proving it for a set period. This guide is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) series. It explains how the filing works, what it costs and how to get through the requirement period without restarting it."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Who Needs an SR-22?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**DUI/DWI conviction:** the most common trigger. See [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui).",
+            "**Driving without insurance**, or causing an accident while uninsured. See [what happens if you crash without insurance](/qa/what-happens-if-you-crash-without-insurance).",
+            "**Licence suspension or revocation**, including reinstatement after one. See [can you get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license).",
+            "**Serious or repeat violations**, such as reckless driving. See [how long does reckless driving affect insurance](/qa/how-long-does-reckless-driving-affect-insurance).",
+            "**Unpaid accident judgments** in some states."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How the SR-22 Process Works"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Buy a policy from an insurer that offers SR-22 filings in your state. Many standard carriers do, and [non-standard auto insurance](/glossary/non-standard-auto-insurance) carriers specialize in it.",
+            "The insurer files the SR-22 electronically with your state DMV and charges a filing fee.",
+            "Keep the policy continuously in force for the whole requirement period, usually about 3 years.",
+            "If the policy cancels or lapses, the insurer files an SR-26 (cancellation) and the DMV can suspend your licence.",
+            "When the period ends, confirm with the DMV that the requirement has been lifted before you change or drop cover."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "danger",
+          "title": "One Missed Payment Can Restart Your Clock",
+          "text": "A lapse of even a few days can trigger suspension, and in many states it resets the requirement period. Set up automatic payments, and read [what happens when insurance expires](/learn/what-happens-when-insurance-expires) and [can you pause car insurance](/qa/can-you-pause-car-insurance) before you change anything."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "SR-22 vs FR-44"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Feature",
+            "SR-22",
+            "FR-44 (Florida & Virginia)"
+          ],
+          "rows": [
+            [
+              "What it proves",
+              "State minimum liability",
+              "Double the state minimum liability"
+            ],
+            [
+              "Florida limits",
+              "N/A (FR-44 used for DUI)",
+              "$100,000 / $300,000 bodily injury; $50,000 property damage"
+            ],
+            [
+              "Typical period",
+              "About 3 years",
+              "About 3 years"
+            ],
+            [
+              "Typical triggers",
+              "DUI, uninsured driving, suspensions",
+              "DUI-related convictions"
+            ],
+            [
+              "Premium effect",
+              "Driven by the underlying violation",
+              "Higher, because of the higher mandatory limits"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Florida drivers should also understand the state's base requirements in [do you need bodily injury insurance in Florida](/qa/do-you-need-bodily-injury-insurance-in-florida). The higher limits an FR-44 forces are often closer to what you *should* carry anyway. See [coverage vs limits](/learn/coverage-vs-limits) and the [California auto coverage scenario](/scenarios/jordan-california-auto-coverage)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "No Car? Use a Non-Owner SR-22"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you need an SR-22 to reinstate your licence but don't own a vehicle, a [named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy) with an SR-22 attached is usually the cheapest way to comply. It covers your liability when you drive borrowed cars. If no insurer will write you at all, your state's [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan) must offer cover."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "UK Readers: Is There an SR-22 Equivalent?"
+        },
+        {
+          "type": "paragraph",
+          "text": "No. UK insurers don't file certificates with the DVLA. Instead, the conviction itself is the issue, and you must declare it while it's unspent. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence), [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance) and [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions). Buying a repaired write-off with a conviction? Read [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure), [Cat S vs Cat N](/compare/cat-s-vs-cat-n-car-insurance) and [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance)."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "car-insurance-calculator",
+          "title": "Car Insurance Calculator",
+          "description": "Estimate the cost of state-minimum vs higher liability limits during your SR-22 or FR-44 period."
+        },
+        {
+          "type": "disclaimer",
+          "text": "SR-22 and FR-44 rules, periods and fees vary by state and change over time. Confirm your exact requirement with your state DMV or court. Insurance Bhaiya does not sell insurance or earn commissions."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "car-insurance-for-high-risk-and-convicted-drivers",
+      "slug": "car-insurance-for-high-risk-and-convicted-drivers",
+      "title": "Car Insurance for High-Risk & Convicted Drivers: UK Convictions, US DUIs, SR-22s and Write-Off Cars",
+      "description": "Car insurance for high-risk and convicted drivers: what to declare, spent convictions, DR10 and DUI premium rises, SR-22s, assigned risk plans and Cat N cars.",
+      "category": "car-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "readingTime": 12,
+      "featured": true,
+      "tags": [
+        "high-risk car insurance",
+        "convicted driver insurance",
+        "criminal convictions",
+        "DUI insurance",
+        "SR-22",
+        "Cat N",
+        "non-standard auto insurance"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "In the UK, you must disclose **unspent** convictions only when the insurer asks, and you never have to disclose **spent** ones. See [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance).",
+        "A UK drink-driving (DR10) conviction roughly **doubles** premiums at first. GoCompare found a median +103% (£773 vs £381). The loading then falls each year.",
+        "In the US, a DUI raises premiums by roughly **35%–155% depending on the insurer**, usually for 3–5 years, and often triggers an [SR-22 insurance](/learn/sr-22-insurance) filing for about 3 years.",
+        "If no standard insurer will cover you, there is always a route: specialist [non-standard auto insurance](/glossary/non-standard-auto-insurance), a UK specialist broker, or a US [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan).",
+        "Buying a write-off? [Are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure)? Often not by much. The real costs are a lower payout value and a smaller pool of insurers willing to cover the car."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Can I get car insurance with a criminal conviction?",
+          "answer": "Yes. Many mainstream UK insurers decline unspent convictions, but specialist insurers and brokers cover them. You only have to disclose unspent convictions when asked. See [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions)."
+        },
+        {
+          "question": "How long does a drink-driving or DUI conviction affect car insurance?",
+          "answer": "In the UK, a DR10 stays on your licence for 11 years but is usually spent after 5 years for adults, and the premium loading falls each year. In the US, a DUI typically affects rates for 3–5 years. See [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui) and [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence)."
+        },
+        {
+          "question": "What if no insurer will cover me?",
+          "answer": "In the US, every state has a residual market such as an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan). In the UK, specialist brokers place high-risk drivers with niche insurers."
+        },
+        {
+          "question": "Is it worth buying a Cat N car as a high-risk driver?",
+          "answer": "Only if the purchase discount (often 20–40%) outweighs any insurance surcharge and the lower future payout. See [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure)."
+        }
+      ],
+      "companionTool": {
+        "slug": "car-insurance-calculator",
+        "title": "Car Insurance Coverage Calculator",
+        "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "'High-risk' can describe the driver (a drink-driving or DUI conviction, a pile of penalty points, a criminal record, a lapse in cover), the car (a repaired insurance write-off), or both. Insurers price that risk with higher premiums, narrower cover or an outright refusal. You almost always have a legal route to cover, though, if you know what you have to disclose, where to look and how long the loading lasts. This guide is the hub of our **car insurance for high-risk drivers** series and links to every detailed guide below."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Makes a Driver 'High Risk' to an Insurer?"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Risk Factor",
+            "UK Treatment",
+            "US Treatment",
+            "Deep-Dive Guide"
+          ],
+          "rows": [
+            [
+              "Drink/drug driving",
+              "DR10/DR20 endorsement, 11 years on licence, minimum 12-month ban",
+              "DUI/DWI; SR-22 or FR-44 filing; 3–5+ years of surcharges",
+              "[How much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui)"
+            ],
+            [
+              "Criminal (non-motoring) convictions",
+              "Disclose unspent ones if asked; spent ones never",
+              "Rarely asked; driving record (MVR) dominates",
+              "[Which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions)"
+            ],
+            [
+              "Penalty points and endorsements",
+              "4 or 11 years on licence; totting up at 12 points",
+              "State point systems; violations surcharge for about 3–5 years",
+              "[How long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence)"
+            ],
+            [
+              "Reckless driving",
+              "Dangerous driving (DD codes)",
+              "Major violation surcharge",
+              "[How long does reckless driving affect insurance](/qa/how-long-does-reckless-driving-affect-insurance)"
+            ],
+            [
+              "Suspended licence or lapse in cover",
+              "Disqualification must be declared",
+              "SR-22 often required",
+              "[Can you get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license)"
+            ],
+            [
+              "Repaired write-off car",
+              "Cat N or Cat S must be declared",
+              "Salvage or rebuilt title",
+              "[Cat S vs Cat N](/compare/cat-s-vs-cat-n-car-insurance)"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "UK: Criminal and Motoring Convictions, and What You Must Declare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Two laws decide what you have to tell a UK insurer. Under the **Consumer Insurance (Disclosure and Representations) Act 2012**, consumers must take reasonable care to answer the insurer's questions accurately. There is no longer a duty to volunteer information the insurer didn't ask about. The **Rehabilitation of Offenders Act 1974** means that once a conviction is *spent*, you don't have to disclose it at all, even if asked. For motoring endorsements, adults generally reach that point **5 years from the date of conviction** (2.5 years for under-18s), or when a longer driving ban ends. The full rules are in [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance)."
+        },
+        {
+          "type": "paragraph",
+          "text": "That's why so many people search for [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions). Some insurers ask only about motoring convictions, while others ask about all unspent criminal convictions. Question wording changes often, so lists of insurers go out of date. The safe approach is to read each question and answer it truthfully. Don't forget that your licence record and your criminal record run on different clocks: a DR10 stays on your licence for 11 years but is usually spent after 5. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence)."
+        },
+        {
+          "type": "callout",
+          "variant": "danger",
+          "title": "Non-Disclosure Can Leave You Uninsured When It Matters",
+          "text": "If you deliberately or recklessly hide an unspent conviction the insurer asked about, the insurer can void the policy, refuse every claim and keep your premium. You could also face prosecution for fraud. A voided policy can leave you facing the consequences explored in [what happens if you crash without insurance](/qa/what-happens-if-you-crash-without-insurance)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "US: DUIs, SR-22 Filings and the Assigned Risk Safety Net"
+        },
+        {
+          "type": "paragraph",
+          "text": "US auto insurers price mainly from your motor vehicle record (MVR) and claims history rather than criminal records. A DUI is the most expensive entry on that record. Published rate studies show increases of about **35% to 155% depending on the insurer**, usually lasting 3–5 years (longer in some states). Our [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui) answer compares insurers and states. Courts and DMVs often then require [SR-22 insurance](/learn/sr-22-insurance): a certificate your insurer files to prove you carry at least the state minimum liability cover, typically for 3 years. Florida and Virginia use the stricter **FR-44**, which requires double the minimum limits. In Florida that's 100/300/50."
+        },
+        {
+          "type": "paragraph",
+          "text": "If every insurer turns you down, your state's residual market is the backstop. See [what is an assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan). Before you get to that point, quotes from insurers that specialize in [non-standard auto insurance](/glossary/non-standard-auto-insurance) are usually cheaper. If you don't own a car but need an SR-22, a [named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy) is often the cheapest way to satisfy the filing."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "High-Risk Cars: Cat N, Cat S and Rebuilt Titles"
+        },
+        {
+          "type": "paragraph",
+          "text": "The car can be the risk too. In the UK, repaired write-offs are labelled **Cat N** (non-structural damage) or **Cat S** (structural damage) under the ABI code introduced in 2017. [Are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure)? Comparison data suggests premiums can be similar to a clean car, but some mainstream insurers refuse write-offs entirely, and a future total loss pays out on the car's lower market value ([actual cash value](/glossary/actual-cash-value)). Cat S is harder to insure. See our side-by-side [Cat S vs Cat N car insurance](/compare/cat-s-vs-cat-n-car-insurance) comparison."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How High-Risk Drivers Can Cut Their Premium"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Go to specialists early.** UK comparison sites often return no quotes for DR10 drivers. Specialist brokers (see our [Adrian Flux](/qa/my-adrian-flux) explainer) and US non-standard insurers are built for this market. Our [agent vs broker vs insurer](/learn/agent-vs-broker-vs-insurer) guide explains who works for you.",
+            "**Know your dates.** Diarize when each conviction becomes spent in the UK, or drops off your rating in the US, and re-quote that month.",
+            "**Never let cover lapse.** A gap in cover counts as a new risk factor, and in the US it restarts SR-22 problems. See [what happens when insurance expires](/learn/what-happens-when-insurance-expires).",
+            "**Raise the excess or deductible sensibly.** Model the trade-off with the [Car Insurance Deductible Calculator](/car-insurance-deductible-calculator/) and read [what is an excess](/learn/what-is-an-excess).",
+            "**Choose a cheaper car to insure**, and think hard before adding a write-off to an already-loaded policy. [Is car insurance cheaper on older cars](/qa/is-car-insurance-cheaper-on-older-cars)?",
+            "**Rebuild your [no-claims bonus](/glossary/no-claims-bonus).** Each claim-free year steadily reduces the conviction loading."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Real-World Walkthrough",
+          "text": "See how one driver combines a DR10 conviction and a Cat N car into an insurable plan in [Ryan's DR10 and Cat N car insurance scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance). For a US perspective on liability limits, see the [California auto coverage scenario](/scenarios/jordan-california-auto-coverage)."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "car-insurance-calculator",
+          "title": "Car Insurance Calculator",
+          "description": "Estimate your premium and test how liability limits and deductibles change it before you shop as a high-risk driver."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This guide covers UK (England & Wales) and US rules in general terms. Scotland and Northern Ireland have their own rehabilitation rules, and US requirements vary by state. Figures are from published rate studies, not quotes. Insurance Bhaiya does not sell insurance or earn commissions."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "aircraft-insurance-claims-what-to-expect",
       "slug": "aircraft-insurance-claims-what-to-expect",
       "title": "Aircraft Insurance Claims: What to Do After an Accident, NTSB 830 Reporting and How Hull Claims Are Settled",
@@ -18951,6 +20226,104 @@
           "whyItMatters": "Neither protects your family or the house. Homeowners insurance and life insurance do that."
         }
       ]
+    },
+    {
+      "slug": "cat-s-vs-cat-n-car-insurance",
+      "title": "Cat S vs. Cat N Car Insurance",
+      "subtitle": "Both are repaired insurance write-offs. Cat N damage was cosmetic or mechanical, while Cat S damage affected the car's structure, and insurers price and accept the two very differently.",
+      "category": "Car Insurance",
+      "decisionSummary": "If you're buying a repaired write-off to save money, **Cat N is usually the safer choice**. Premiums are often close to a clean car (see [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure)), and more insurers accept it. **Cat S** needs a professional structural repair, is declined by more mainstream insurers and is harder to resell. Buy one only with full repair evidence and confirmed insurance quotes. For both, remember that a future total loss pays out on the car's lower market value ([actual cash value](/glossary/actual-cash-value)). If you also have a conviction, the pool of insurers shrinks further. Start with our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) hub and [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance).",
+      "options": {
+        "optionA": "Cat S (Structural Damage)",
+        "optionB": "Cat N (Non-Structural Damage)"
+      },
+      "rows": [
+        {
+          "feature": "Type of Damage",
+          "optionA": "Structural frame or chassis damage, such as crumple zones or the chassis, repaired professionally.",
+          "optionB": "Non-structural damage: cosmetic, electrical or mechanical. The structure is intact.",
+          "whyItMatters": "Structural repairs affect crash safety, which is why insurers scrutinize Cat S cars far more closely."
+        },
+        {
+          "feature": "Insurer Acceptance",
+          "optionA": "Declined by more mainstream insurers. Specialists may require an engineer's report.",
+          "optionB": "Accepted by many insurers, though some decline all write-offs.",
+          "whyItMatters": "A narrower market means fewer quotes and less room to negotiate, especially if you already have a conviction (see [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions))."
+        },
+        {
+          "feature": "Premium Impact",
+          "optionA": "More likely to carry a loading, or to need a specialist insurer.",
+          "optionB": "Often close to a clean car. One comparison found £553 vs £558 a year.",
+          "whyItMatters": "Lower market value offsets the insurer's history concerns, but less so when the damage was structural."
+        },
+        {
+          "feature": "Purchase Discount",
+          "optionA": "Typically larger than Cat N.",
+          "optionB": "Typically 20–40% below a clean equivalent.",
+          "whyItMatters": "The discount has to cover any extra premium and the lower payout or resale value over your ownership period."
+        },
+        {
+          "feature": "Paperwork & Disclosure",
+          "optionA": "The category is recorded with the DVLA and on the vehicle record. Declare it to your insurer.",
+          "optionB": "The category appears in history checks. Declare it to your insurer.",
+          "whyItMatters": "Not declaring a write-off category can void your policy, the same risk as hiding an unspent conviction (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance))."
+        },
+        {
+          "feature": "Future Claim Payout",
+          "optionA": "Market value as a Cat S car, which is the lowest of the repairable categories.",
+          "optionB": "Market value as a Cat N car.",
+          "whyItMatters": "Financed buyers should check [gap insurance](/glossary/gap-insurance) cover, because some gap policies exclude previously written-off cars."
+        }
+      ]
+    },
+    {
+      "slug": "sole-trader-vs-limited-company-insurance",
+      "title": "Sole Trader vs. Limited Company: How Insurance Differs",
+      "subtitle": "Unlimited personal liability with simpler rules vs. a separate legal entity with stricter employer obligations.",
+      "category": "General Principles",
+      "decisionSummary": "As a sole trader you are personally liable for business debts and claims, so liability cover such as [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/) and professional indemnity protects your own savings and home. A limited company ring-fences most business liabilities, but it loses the family-business exemption from [employers' liability](/qa/do-sole-traders-need-employers-liability-insurance/), and lenders or landlords may still ask directors for personal guarantees. Insurance needs are broadly similar in each case. What changes is who is liable, who must buy EL, and how premiums and [income protection](/qa/income-protection-for-self-employed-uk/) are taxed. Start from [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "options": {
+        "optionA": "Sole Trader",
+        "optionB": "Limited Company"
+      },
+      "rows": [
+        {
+          "feature": "Personal Liability",
+          "optionA": "Unlimited. Claims and debts can be paid from personal assets.",
+          "optionB": "Limited to the company's assets, except personal guarantees, wrongful trading and director-specific liabilities.",
+          "whyItMatters": "Uninsured claims against a sole trader are personal debts, so adequate liability limits matter more."
+        },
+        {
+          "feature": "Employers' Liability Requirement",
+          "optionA": "Compulsory once you employ anyone, except an unincorporated business employing only close family members.",
+          "optionB": "Compulsory for employees. The family exemption doesn't apply. A company whose only employee is an owner with 50%+ of the shares is exempt.",
+          "whyItMatters": "Families who incorporate often miss that they now need EL. Fines can reach £2,500 per day."
+        },
+        {
+          "feature": "Public Liability & Professional Indemnity",
+          "optionA": "Voluntary but often contractually required. Protects personal assets.",
+          "optionB": "Voluntary but often contractually required. Protects company assets and supports contracts.",
+          "whyItMatters": "Both structures face the same client demands. Check limits against your contracts with the [Coverage Calculator](/coverage-calculator/)."
+        },
+        {
+          "feature": "Directors' & Officers' Cover",
+          "optionA": "Not applicable. There are no directors.",
+          "optionB": "Available, and worth considering where directors face claims from creditors, regulators or shareholders.",
+          "whyItMatters": "D&O protects individuals running a company. Sole traders have no equivalent role."
+        },
+        {
+          "feature": "Tax Treatment of Premiums",
+          "optionA": "Business policies are allowable expenses. Personal income protection isn't deductible, and benefits are generally tax-free.",
+          "optionB": "Business policies are company expenses. Executive income protection and relevant life cover may be deductible for the company, subject to HMRC rules.",
+          "whyItMatters": "Incorporation can make some personal protection more tax-efficient. See [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+        },
+        {
+          "feature": "Vehicles and Premises",
+          "optionA": "Personal car or home policies need business use declared.",
+          "optionB": "Company-owned vehicles need business or fleet cover. Directors' own cars still need business use.",
+          "whyItMatters": "Either way, undeclared business driving or home business use can invalidate cover. See [business car insurance](/qa/business-car-insurance-for-sole-traders/) and [working from home insurance](/qa/sole-trader-working-from-home-insurance/)."
+        }
+      ]
     }
   ],
   "glossary": [
@@ -20462,6 +21835,64 @@
           "text": "Negligence rules are set by each state's statutes and courts and can change. This isn't legal advice. Source: [Bloomberg Law](https://pro.bloomberglaw.com/insights/litigation/contributory-and-comparative-negligence-by-state/)."
         }
       ]
+    },
+    {
+      "slug": "non-standard-auto-insurance",
+      "term": "Non-Standard Auto Insurance",
+      "title": "What Is Non-Standard Auto Insurance? Definition, Who Needs It and How It Differs From Standard Cover",
+      "description": "Non-standard auto insurance explained: cover for drivers with DUIs, convictions, lapses or SR-22s, how it's priced, and how to move back to standard rates.",
+      "ukTerm": "Specialist / Convicted Driver Insurance",
+      "category": "Auto & Driving",
+      "simpleDefinition": "Non-standard auto insurance is car insurance from insurers that specialize in drivers that mainstream insurers decline or price heavily, such as drivers with DUIs, serious violations, lapses in cover, criminal convictions or unusual vehicles. In the UK, it's usually called specialist or convicted driver insurance.",
+      "scoutExplanation": "Standard insurers accept 'preferred' and 'standard' risk tiers and decline or surcharge the rest. Non-standard carriers build their pricing for those excluded drivers. They typically offer state-minimum or modest liability limits, monthly payment plans, and [SR-22 insurance](/learn/sr-22-insurance) filings. The premium is higher because the expected claims cost is higher. See [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui). In the UK, the same niche covers drivers with unspent convictions (see [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions)) and repaired write-offs (see [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure)). If even non-standard carriers decline, the US backstop is an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan). Our hub, [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers), maps every route.",
+      "example": "After a DUI, Alex's standard insurer non-renewed his $1,600-a-year policy. A non-standard carrier offered state-minimum liability with an SR-22 filing for $2,500 a year, about 56% more, while the cheapest standard insurer still willing to quote charged $3,900. Three years later, with a clean record, Alex re-shopped and returned to a standard carrier at $1,950.",
+      "whyItMatters": "Non-standard policies often default to **state-minimum limits**, which can leave you personally liable for serious accidents (see [coverage vs limits](/learn/coverage-vs-limits)). Some also have narrower terms, such as excluded drivers, limited rental cover or stricter cancellation for non-payment. A cancellation during an SR-22 period can suspend your licence. And staying in the non-standard market after your record clears means overpaying. Diarize the date each violation ages off, or each UK conviction becomes spent (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance) and [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence)), and re-quote.",
+      "relatedTerms": [
+        "no-claims-bonus",
+        "bonus-malus-system",
+        "actual-cash-value",
+        "gap-insurance"
+      ],
+      "miniQuiz": {
+        "question": "A driver needs an SR-22 after a DUI. Which statement is correct?",
+        "options": [
+          {
+            "text": "Non-standard insurers commonly file SR-22s and insure drivers that standard insurers decline.",
+            "correct": true,
+            "explanation": "Correct. Non-standard carriers specialize in high-risk drivers and routinely file SR-22 certificates with the state."
+          },
+          {
+            "text": "Non-standard insurance is the same thing as the state assigned risk plan.",
+            "correct": false,
+            "explanation": "No. Non-standard carriers write voluntarily. The assigned risk plan is the state's last-resort mechanism for drivers no one will write."
+          },
+          {
+            "text": "An SR-22 is a type of non-standard insurance policy.",
+            "correct": false,
+            "explanation": "No. An SR-22 is a certificate of financial responsibility attached to a policy, not a policy itself."
+          },
+          {
+            "text": "Once in the non-standard market, you can never return to standard rates.",
+            "correct": false,
+            "explanation": "No. As violations age off your record and you keep cover continuous, you can move back to standard carriers."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Standard vs Non-Standard vs Assigned Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Think of three layers. **Standard** carriers take most drivers. **Non-standard** carriers voluntarily take higher-risk drivers at higher prices. **Assigned risk** plans are the state's guaranteed last resort. UK drivers don't have the last layer; specialist brokers fill the gap. Write-off cars sit across all three layers. Compare categories in [Cat S vs Cat N car insurance](/compare/cat-s-vs-cat-n-car-insurance), and see a full example in [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance)."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Insurer terms and state rules vary. Insurance Bhaiya does not sell insurance or earn commissions."
+        }
+      ]
     }
   ],
   "scenarios": [
@@ -21292,6 +22723,38 @@
         "Revisit the hangar waitlist decision with [aircraft hangar insurance](/learn/aircraft-hangar-insurance/) in mind, and confirm that his hail-season tie-down risk sits under not-in-motion cover ([what does aircraft hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover/)).",
         "Before flying the family, review his term life policy's aviation terms ([does life insurance cover private pilots](/qa/does-life-insurance-cover-private-pilots/)). Confirm that his transition-training CFI carries [flight instructor insurance](/qa/flight-instructor-insurance/), and keep [aircraft insurance claims: what to expect](/learn/aircraft-insurance-claims-what-to-expect/) bookmarked.",
         "If a friend offers to buy in to split costs, read [aircraft partnership insurance](/qa/aircraft-partnership-insurance/) first. If Brian later downsizes to a sport-pilot aircraft or adds a drone for aerial photos, see [light sport aircraft insurance](/learn/light-sport-aircraft-insurance/) and [drone insurance](/learn/drone-insurance/). Rotorcraft cost far more to insure ([helicopter insurance](/learn/helicopter-insurance/)), and pilot income protection is covered in [pilot loss of license insurance](/qa/pilot-loss-of-license-insurance/)."
+      ]
+    },
+    {
+      "slug": "ryan-leeds-dr10-cat-n-car-insurance",
+      "name": "Ryan",
+      "displayTitle": "Ryan's Insurance Decision",
+      "title": "Ryan's Insurance Decision",
+      "category": "General",
+      "age": 27,
+      "location": "Leeds, UK",
+      "market": "UK",
+      "avatarBg": "#fde68a",
+      "situation": "Ryan is a 27-year-old warehouse supervisor. In September 2024 he was convicted of drink driving (DR10) and banned for 12 months, cut to 9 months by completing an approved drink-drive rehabilitation course. He also has a 2025 shoplifting conviction (a 12-month community order) that stays unspent until mid-2027. His ban has ended, and he needs a car to reach night shifts. He's found a 2019 VW Golf for £9,000, a Cat N write-off repaired after hail and electrical damage, against about £13,000 for a clean equivalent.",
+      "coreQuestion": "Comparison sites return no quotes. Do I have to tell insurers about the shoplifting conviction as well as the DR10? And will the Cat N Golf make insurance impossible?",
+      "scoutTake": "Ryan is insurable, but he needs to go to the specialist market and answer every question exactly as it's asked. The DR10 is a motoring conviction that he must declare until it's spent in **September 2029**, even though it stays on his licence until 2035. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence). He only has to declare the shoplifting conviction where a form asks about unspent criminal convictions. See [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions) and [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance). The Cat N Golf won't necessarily cost more to insure ([are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure)), but it does narrow the market further. Get quotes **before** paying for the car. The full approach is in our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) hub.",
+      "keyRisks": [
+        "**Non-disclosure:** Answering 'no' to an unspent-criminal-convictions question would let the insurer void the policy and refuse any claim. Driving with voided cover can mean driving uninsured.",
+        "**Double narrowing:** A DR10 plus a Cat N car leaves few specialist insurers willing to quote. Year-1 DR10 premiums commonly run about double a clean-licence premium.",
+        "**Lower payout:** If the Golf is written off again, it pays out at Cat N value (about £8,000, not £12,000), and his car loan could exceed the payout."
+      ],
+      "recommendedStrategy": [
+        "Get quotes from at least three specialist convicted-driver brokers, declaring the DR10, the Cat N status and, where asked, the unspent shoplifting conviction. Choose comprehensive cover with a voluntary excess he can afford.",
+        "Compare total cost on the Cat N Golf against a clean, cheaper car (for example, a 2017 Polo). If the insurance saving on the Polo is bigger than the Golf's purchase discount, buy the Polo. See [Cat S vs Cat N](/compare/cat-s-vs-cat-n-car-insurance).",
+        "Diarize re-quotes for mid-2027, when the shoplifting conviction becomes spent, and for September 2029 (DR10 spent). Build his no-claims bonus every year in between."
+      ],
+      "estimatedMonthlyCost": "£105 - £150 / month (≈ £1,250 - £1,800 / year in year 1, falling as the DR10 ages)",
+      "relatedToolSlug": "car-insurance-calculator",
+      "strategies": [
+        "Use specialist brokers rather than comparison sites. Our [Adrian Flux](/qa/my-adrian-flux) explainer shows how a specialist broker works, and [agent vs broker vs insurer](/learn/agent-vs-broker-vs-insurer) explains who represents whom.",
+        "Bring the Cat N repair invoices, before-and-after photos and a fresh MOT to every quote, and check whether his gap insurer accepts previously written-off cars ([gap insurance](/glossary/gap-insurance)).",
+        "Test voluntary excess levels with the [Car Insurance Deductible Calculator](/car-insurance-deductible-calculator/) and read [what is an excess](/learn/what-is-an-excess). Keep the total excess within his emergency savings.",
+        "If he ever moves to the US, there's no 'spent' concept: a DUI there brings [SR-22 insurance](/learn/sr-22-insurance) filings, increases covered in [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui), [non-standard auto insurance](/glossary/non-standard-auto-insurance) carriers and, as a last resort, an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan)."
       ]
     }
   ],
@@ -23753,6 +25216,150 @@
       "question": "What does aircraft hull insurance cover, and what's the difference between in-motion and not-in-motion cover?",
       "shortAnswer": "Aircraft hull insurance pays for physical damage to, or total loss of, your own aircraft. **Not-in-motion** cover protects it on the ground and stationary (hail, windstorm, hangar fire, theft, vandalism). **In-motion** cover protects it while taxiing, taking off, flying and landing. Most hull policies are written at an **agreed value**, so a total loss pays the value fixed when the policy started, minus any [deductible](/glossary/deductible/), not a depreciated [actual cash value](/glossary/actual-cash-value/). Hull doesn't cover wear and tear, mechanical breakdown or your liability to others. See [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained/) for the full policy structure.",
       "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-248",
+      "slug": "which-insurance-companies-do-not-ask-about-criminal-convictions",
+      "category": "Auto",
+      "question": "Which insurance companies do not ask about criminal convictions?",
+      "shortAnswer": "No reliable, permanent list exists. Some UK car insurers ask only about **motoring** convictions, while others ask about **all unspent criminal convictions**, and the wording on proposal forms changes often. The law protects you either way. Under the Consumer Insurance (Disclosure and Representations) Act 2012, you only have to answer the questions the insurer actually asks, honestly and with reasonable care. Under the Rehabilitation of Offenders Act 1974, you never have to disclose a conviction that is **spent** (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance)). If an insurer does ask and your conviction is unspent, specialist convicted-driver insurers and brokers will quote. This page is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) guide.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-249",
+      "slug": "are-cat-n-cars-more-expensive-to-insure",
+      "category": "Auto",
+      "question": "Are Cat N cars more expensive to insure?",
+      "shortAnswer": "Not necessarily. Many insurers price a repaired **Cat N** (non-structural write-off) car close to an equivalent clean car. One published comparison found a 2011 petrol Cat N car averaging **£553 a year against £558** for the undamaged version. The catches are that some mainstream insurers refuse Cat N cars altogether, you **must** declare the category, and a future total loss pays out on the car's lower market value. Cat N cars typically sell for **20–40% less** than clean equivalents. **Cat S** (structural damage) cars are harder to insure (see [Cat S vs Cat N car insurance](/compare/cat-s-vs-cat-n-car-insurance)). For drivers with convictions, see our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) guide.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-250",
+      "slug": "do-you-have-to-declare-spent-convictions-for-car-insurance",
+      "category": "Auto",
+      "question": "Do you have to declare spent convictions for car insurance?",
+      "shortAnswer": "No. Under the **Rehabilitation of Offenders Act 1974**, you don't have to declare a spent conviction to a car insurer, even if the proposal form asks about convictions, and the insurer can't refuse cover or increase the premium because of it. You **must** declare **unspent** convictions when the insurer asks. For adults in England and Wales, a motoring conviction with an endorsement is typically spent **5 years from the conviction date** (2.5 years for under-18s), or when a longer driving ban ends, whichever is later. A DR10 can be spent while it's still on your licence. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-251",
+      "slug": "how-long-do-motoring-convictions-stay-on-your-licence",
+      "category": "Auto",
+      "question": "How long do motoring convictions stay on your licence, and how long do they affect car insurance?",
+      "shortAnswer": "In the UK, most endorsements stay on your driving record for **4 years from the date of the offence**. Reckless or dangerous driving endorsements (DD40, DD60, DD80) and offences that lead to a disqualification stay for **4 years from the date of conviction**. Drink- and drug-driving codes (DR10, DR20, DR30, DR31, DR61, DR80) and causing death while unfit (CD40–CD70) stay for **11 years from conviction**. For insurance, what usually matters is whether the conviction is **unspent**: typically 5 years from conviction for adults (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance)). Insurers commonly ask about the last 5 years. See our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) hub.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-252",
+      "slug": "how-much-does-car-insurance-go-up-after-a-dui",
+      "category": "Auto",
+      "question": "How much does car insurance go up after a DUI, and for how long?",
+      "shortAnswer": "A first DUI typically raises US car insurance premiums by **roughly 35% to 155%, depending on the insurer**. That's about **$1,200 to $2,700+ a year** extra in published rate studies, which is why comparing insurers matters more after a DUI than at any other time. The surcharge usually lasts **3–5 years** (longer in some states), and many states also require an [SR-22 insurance](/learn/sr-22-insurance) filing (an FR-44 in Florida and Virginia). Some insurers drop DUI drivers at renewal, which pushes them into the [non-standard auto insurance](/glossary/non-standard-auto-insurance) market. In the UK, the equivalent DR10 conviction roughly **doubles** premiums at first. See our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-253",
+      "slug": "what-is-an-assigned-risk-auto-insurance-plan",
+      "category": "Auto",
+      "question": "What is an assigned risk auto insurance plan, and how do you get one if no insurer will cover you?",
+      "shortAnswer": "An assigned risk auto insurance plan is a US state's **insurer of last resort**: a residual-market program that guarantees liability cover to drivers who have been turned down by the regular market. Licensed auto insurers in the state are assigned a share of these drivers, roughly in proportion to their market share. The plan meets the state's legal minimum, and it can file an [SR-22](/learn/sr-22-insurance), but premiums are usually high and cover options limited. Try [non-standard auto insurance](/glossary/non-standard-auto-insurance) carriers first, because they're often cheaper. This page is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) series.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-254",
+      "slug": "do-i-need-public-liability-insurance-as-a-sole-trader",
+      "category": "General",
+      "question": "Do I need public liability insurance as a sole trader?",
+      "shortAnswer": "It isn't a legal requirement in the UK, but you probably need it if you work in clients' homes or premises, meet the public, or if any client, council, venue or landlord asks for it, which many do. Public liability covers injury and property damage claims from third parties. Typical 2026 premiums are about £106 a year for £1m, £118 for £2m and £140 for £5m, and low-risk sole traders can pay £50–£65. It sits alongside the other cover in [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-255",
+      "slug": "do-sole-traders-need-employers-liability-insurance",
+      "category": "Legal",
+      "question": "Do sole traders need employers' liability insurance?",
+      "shortAnswer": "Only once you employ someone. A sole trader working alone doesn't need employers' liability (EL) insurance. As soon as you take on staff, including part-time, casual or temporary workers and many labour-only subcontractors, the Employers' Liability (Compulsory Insurance) Act 1969 requires cover of at least £5 million. GOV.UK says you can be fined £2,500 for every day you're uninsured and £1,000 for not displaying the certificate. Unincorporated family businesses employing only close relatives are exempt. See [do sole traders need insurance at all](/learn/what-insurance-does-a-sole-trader-need/) for the other covers.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-256",
+      "slug": "business-car-insurance-for-sole-traders",
+      "category": "Auto",
+      "question": "Do I need business car insurance as a sole trader?",
+      "shortAnswer": "If you drive for work, beyond commuting to a single regular workplace, you usually need **business use** on your policy. That includes visiting clients, travelling between sites or carrying work equipment. Social, domestic and pleasure (SDP) or commuting cover typically won't respond to a business journey, and an insurer can refuse a claim or void the policy if the use wasn't declared. Business class 1 covers occasional work travel by you, class 2 adds named drivers, and class 3 covers heavy business mileage. See [the full list of cover a sole trader needs](/learn/what-insurance-does-a-sole-trader-need/) for the full picture.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-257",
+      "slug": "is-business-insurance-tax-deductible-for-sole-traders",
+      "category": "General",
+      "question": "Is business insurance tax deductible for sole traders in the UK?",
+      "shortAnswer": "Generally yes. HMRC lists insurance among allowable financial costs for the self-employed, so premiums for business policies such as public liability, employers' liability, professional indemnity and tools cover are usually deductible from your taxable profit. Personal policies such as income protection, life insurance and private health cover generally aren't. Mixed-use costs like car insurance need apportioning, and you can't claim any expenses if you use the £1,000 trading allowance. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-258",
+      "slug": "sole-trader-working-from-home-insurance",
+      "category": "Home",
+      "question": "Does my home insurance cover me if I work from home as a sole trader?",
+      "shortAnswer": "Only partly, and only if your insurer knows. Many UK home policies cover clerical home-working but expect you to disclose if you run a business from home, see clients there, keep stock or use outbuildings for work. Business equipment is often excluded or limited, and home insurance doesn't include public liability for clients who visit. Not telling your insurer can put claims at risk. Most sole traders need either a business-use extension or a separate home business policy. See [what insurance do I need as a sole trader](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-259",
+      "slug": "income-protection-for-self-employed-uk",
+      "category": "Disability",
+      "question": "How does income protection work for the self-employed in the UK?",
+      "shortAnswer": "Income protection pays a monthly benefit, typically a set percentage of your pre-illness earnings, if illness or injury stops you working, after a waiting (deferred) period you choose. It matters more for the self-employed because you **can't get statutory sick pay**, which is £123.25 a week for employees in 2026/27. The state fallback is New Style ESA, which depends on your National Insurance record. Premiums depend on age, health, occupation, deferred period and benefit length. See [our UK sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/) for the full cover list.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-260",
+      "slug": "does-business-insurance-cover-theft",
+      "category": "General",
+      "question": "Does business insurance cover theft?",
+      "shortAnswer": "Yes, but which policy pays depends on who stole what and where. Commercial property insurance, or the property part of a business owner's policy, covers burglary and theft of your business property from your premises, minus your deductible. Employee theft and embezzlement are excluded from property policies and need commercial crime insurance. Tools and equipment stolen from a job site or vehicle need inland marine coverage, and money stolen through hacking or fake invoices needs cyber or social engineering coverage. Our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub explains how these policies fit together.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-261",
+      "slug": "does-business-insurance-cover-lawsuits",
+      "category": "Legal",
+      "question": "Does business insurance cover lawsuits?",
+      "shortAnswer": "Business insurance covers many lawsuits, but only the types each policy is written for. General liability defends and pays suits alleging bodily injury, property damage, or personal and advertising injury (such as libel), and in the standard form, defense costs are paid in addition to your limits. Lawsuits over professional mistakes need professional liability (E&O), employee claims need employment practices liability (EPLI), data breaches need cyber, and claims against directors need D&O. Intentional wrongdoing and pure breach of contract are generally not covered. Our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub shows where each policy fits.",
+      "readingTime": "7 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-262",
+      "slug": "who-is-exempt-from-workers-compensation-insurance-california",
+      "category": "Legal",
+      "question": "Who is exempt from workers' compensation insurance in California?",
+      "shortAnswer": "In California, every employer with even one employee must carry workers' compensation insurance (Labor Code 3700). The main exemptions are for owners, not employees: sole proprietors with no employees; general partners and LLC managing members who sign a waiver; and corporate officers or directors who own at least 15% of the stock and sign a sworn waiver. Household domestic workers who worked fewer than 52 hours or earned less than $100 in the prior 90 days are excluded, and genuine independent contractors who pass the ABC test are not employees. Misclassifying a worker is the most common and costly mistake. For how workers' comp fits with other required coverage, see our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub.",
+      "readingTime": "7 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-263",
+      "slug": "can-you-cancel-business-insurance-at-any-time",
+      "category": "General",
+      "question": "Can you cancel business insurance at any time?",
+      "shortAnswer": "Yes, in most cases you can cancel a business insurance policy at any time by sending your insurer or agent a written cancellation request. What varies is the refund: some policies return unused premium pro rata, while others apply a short-rate penalty (often around 10% of the unearned premium) or a minimum earned premium. Before cancelling, make sure replacement coverage starts first, check whether a lease or contract requires continuous coverage, and remember that claims-made policies and workers' comp have extra steps. The full picture of business coverage is in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub.",
+      "readingTime": "6 min read",
       "difficulty": "Beginner"
     }
   ]

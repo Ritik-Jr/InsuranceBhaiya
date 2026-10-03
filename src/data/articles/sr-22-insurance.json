@@ -1,0 +1,170 @@
+{
+  "type": "learn",
+  "id": "sr-22-insurance",
+  "slug": "sr-22-insurance",
+  "title": "SR-22 Insurance Explained: What It Is, How Long You Need It, What It Costs and the FR-44 Difference",
+  "description": "SR-22 insurance explained: who needs one, the usual 3-year term, filing fees, non-owner SR-22s, and how Florida and Virginia's FR-44 differs.",
+  "category": "car-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "readingTime": 8,
+  "featured": false,
+  "tags": [
+    "sr-22 insurance",
+    "sr22",
+    "fr-44",
+    "dui insurance",
+    "high-risk car insurance",
+    "non-owner sr-22"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "An SR-22 is **not insurance**. It's a certificate your insurer files with the state to prove you carry at least the minimum liability cover.",
+    "Commonly required after a DUI, driving uninsured, serious violations or a licence suspension, usually for **about 3 years** (it varies by state).",
+    "The filing fee is usually modest (often around $15–$50). The real cost is the **high-risk premium** behind it (see [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui)).",
+    "If your policy lapses, the insurer notifies the state (usually with an SR-26), which can lead to a **licence suspension** and restart the clock.",
+    "**Florida and Virginia** use the **FR-44**, which requires double the state minimum liability limits. In Florida that's 100/300/50."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Is SR-22 insurance a special type of policy?",
+      "answer": "No. It's a certificate attached to a normal auto policy, proving to the state that you carry the required liability cover. See the [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) hub."
+    },
+    {
+      "question": "How long do I need an SR-22?",
+      "answer": "Usually about 3 years from the date set by your state, but it varies by state and offence. A lapse can restart the period."
+    },
+    {
+      "question": "Can I get an SR-22 without a car?",
+      "answer": "Yes, through a non-owner policy. See [what is a named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy)."
+    }
+  ],
+  "companionTool": {
+    "slug": "car-insurance-calculator",
+    "title": "Car Insurance Coverage Calculator",
+    "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "If a court or DMV tells you to 'get SR-22 insurance', you're being told to prove to the state that you're insured, and to keep proving it for a set period. This guide is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) series. It explains how the filing works, what it costs and how to get through the requirement period without restarting it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Needs an SR-22?"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**DUI/DWI conviction:** the most common trigger. See [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui).",
+        "**Driving without insurance**, or causing an accident while uninsured. See [what happens if you crash without insurance](/qa/what-happens-if-you-crash-without-insurance).",
+        "**Licence suspension or revocation**, including reinstatement after one. See [can you get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license).",
+        "**Serious or repeat violations**, such as reckless driving. See [how long does reckless driving affect insurance](/qa/how-long-does-reckless-driving-affect-insurance).",
+        "**Unpaid accident judgments** in some states."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How the SR-22 Process Works"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Buy a policy from an insurer that offers SR-22 filings in your state. Many standard carriers do, and [non-standard auto insurance](/glossary/non-standard-auto-insurance) carriers specialize in it.",
+        "The insurer files the SR-22 electronically with your state DMV and charges a filing fee.",
+        "Keep the policy continuously in force for the whole requirement period, usually about 3 years.",
+        "If the policy cancels or lapses, the insurer files an SR-26 (cancellation) and the DMV can suspend your licence.",
+        "When the period ends, confirm with the DMV that the requirement has been lifted before you change or drop cover."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "One Missed Payment Can Restart Your Clock",
+      "text": "A lapse of even a few days can trigger suspension, and in many states it resets the requirement period. Set up automatic payments, and read [what happens when insurance expires](/learn/what-happens-when-insurance-expires) and [can you pause car insurance](/qa/can-you-pause-car-insurance) before you change anything."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "SR-22 vs FR-44"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Feature",
+        "SR-22",
+        "FR-44 (Florida & Virginia)"
+      ],
+      "rows": [
+        [
+          "What it proves",
+          "State minimum liability",
+          "Double the state minimum liability"
+        ],
+        [
+          "Florida limits",
+          "N/A (FR-44 used for DUI)",
+          "$100,000 / $300,000 bodily injury; $50,000 property damage"
+        ],
+        [
+          "Typical period",
+          "About 3 years",
+          "About 3 years"
+        ],
+        [
+          "Typical triggers",
+          "DUI, uninsured driving, suspensions",
+          "DUI-related convictions"
+        ],
+        [
+          "Premium effect",
+          "Driven by the underlying violation",
+          "Higher, because of the higher mandatory limits"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Florida drivers should also understand the state's base requirements in [do you need bodily injury insurance in Florida](/qa/do-you-need-bodily-injury-insurance-in-florida). The higher limits an FR-44 forces are often closer to what you *should* carry anyway. See [coverage vs limits](/learn/coverage-vs-limits) and the [California auto coverage scenario](/scenarios/jordan-california-auto-coverage)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "No Car? Use a Non-Owner SR-22"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you need an SR-22 to reinstate your licence but don't own a vehicle, a [named non-owner car insurance policy](/qa/what-is-a-named-non-owner-car-insurance-policy) with an SR-22 attached is usually the cheapest way to comply. It covers your liability when you drive borrowed cars. If no insurer will write you at all, your state's [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan) must offer cover."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "UK Readers: Is There an SR-22 Equivalent?"
+    },
+    {
+      "type": "paragraph",
+      "text": "No. UK insurers don't file certificates with the DVLA. Instead, the conviction itself is the issue, and you must declare it while it's unspent. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence), [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance) and [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions). Buying a repaired write-off with a conviction? Read [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure), [Cat S vs Cat N](/compare/cat-s-vs-cat-n-car-insurance) and [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "car-insurance-calculator",
+      "title": "Car Insurance Calculator",
+      "description": "Estimate the cost of state-minimum vs higher liability limits during your SR-22 or FR-44 period."
+    },
+    {
+      "type": "disclaimer",
+      "text": "SR-22 and FR-44 rules, periods and fees vary by state and change over time. Confirm your exact requirement with your state DMV or court. Insurance Bhaiya does not sell insurance or earn commissions."
+    }
+  ]
+}

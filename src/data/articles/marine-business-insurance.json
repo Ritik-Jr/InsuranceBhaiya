@@ -1,0 +1,196 @@
+{
+  "type": "learn",
+  "id": "marine-business-insurance",
+  "slug": "marine-business-insurance",
+  "title": "Marine Business Insurance: The Coverage Marinas, Boat Dealers, Charter Operators and Marine Contractors Actually Need",
+  "description": "Marine business insurance explained: marina operators liability, P&I, hull, USL&H and Jones Act coverage, pollution and inland marine, and who needs each.",
+  "category": "business-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "readingTime": 10,
+  "featured": false,
+  "tags": [
+    "marine business insurance",
+    "marina insurance",
+    "marina operators legal liability",
+    "protection and indemnity",
+    "USL&H",
+    "Jones Act",
+    "commercial marine insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Standard business policies exclude most water-related risks; marine businesses need specialty coverages built for vessels, docks and maritime employees.",
+    "Marina Operators Legal Liability (MOLL) covers customers' boats in your care, custody or control, which general liability excludes.",
+    "Protection and Indemnity (P&I) covers liability from operating vessels, while hull insurance covers damage to the vessel itself.",
+    "Employees working on navigable waters may fall under federal maritime law (USL&H Act or the Jones Act) instead of, or in addition to, state workers' compensation.",
+    "Pollution liability, inland marine for property in transit, and a marine umbrella ('bumbershoot') close the remaining gaps."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What is marine business insurance?",
+      "answer": "A set of specialty coverages for businesses that operate on or near water, including marina operators legal liability, hull, P&I, USL&H and Jones Act coverage, pollution liability and inland or ocean marine cargo."
+    },
+    {
+      "question": "Does general liability cover customer boats at my marina?",
+      "answer": "Usually not. General liability excludes property in your care, custody or control. Marina Operators Legal Liability fills that gap."
+    },
+    {
+      "question": "Do marine employees need workers' comp?",
+      "answer": "Many need federal maritime coverage instead of or alongside state workers' comp: USL&H for dock and harbor workers, and Jones Act coverage for crew members. For state exemption rules, see [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)."
+    },
+    {
+      "question": "Is marine insurance part of a business owner's policy?",
+      "answer": "No. A BOP generally excludes watercraft and maritime liability. See our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub for what a BOP does cover."
+    }
+  ],
+  "companionTool": {
+    "slug": "coverage-calculator",
+    "title": "Coverage Ratio Calculator",
+    "description": "Assess enterprise asset vulnerability against commercial liability limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A marina is a parking lot, a repair shop, a fuel station and a landlord, all floating on water. A charter company is a transport business whose 'vehicle' is a vessel. That combination is why ordinary business policies keep saying no to marine businesses: property in your care is excluded, watercraft are excluded, pollution is excluded, and your crew may not even fall under state workers' comp. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements) maps the marine-specific coverages and who needs which."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Needs Marine Business Insurance"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Marinas and boatyards** that store, haul, launch, fuel or repair customers' boats.",
+        "**Boat and yacht dealers and brokers** with inventory on lots, in water and on test drives.",
+        "**Charter, tour and fishing operators** carrying paying passengers.",
+        "**Marine contractors** building docks, seawalls and piers.",
+        "**Repair yards, detailers and mobile marine mechanics.**",
+        "**Boat rental and water-sports businesses.**",
+        "**Shippers and businesses moving goods by water**, which need cargo coverage."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Core Marine Coverages"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage",
+        "What It Pays For",
+        "Who Typically Needs It"
+      ],
+      "rows": [
+        [
+          "Marina Operators Legal Liability (MOLL)",
+          "Damage to customers' vessels while in your care, custody or control during storage, hauling, launching or repair",
+          "Marinas, boatyards, dry-stack storage"
+        ],
+        [
+          "Ship repairers / marine contractors liability",
+          "Liability arising from repair work on vessels and marine construction",
+          "Repair yards, mobile mechanics, dock builders"
+        ],
+        [
+          "Hull and machinery",
+          "Physical damage to vessels you own",
+          "Charter operators, dealers, any business owning boats"
+        ],
+        [
+          "Protection and Indemnity (P&I)",
+          "Liability from operating a vessel: injury to passengers or others, damage to docks or other boats, wreck removal",
+          "Charter and tour operators, workboats"
+        ],
+        [
+          "USL&H (Longshore Act) coverage",
+          "Benefits for workers injured on navigable waters or adjoining areas like piers and docks",
+          "Marinas, dock builders, ship repairers"
+        ],
+        [
+          "Maritime employer's liability (Jones Act)",
+          "Claims by vessel crew members ('seamen') injured through employer negligence",
+          "Charter, fishing and workboat operators with crew"
+        ],
+        [
+          "Pollution liability",
+          "Cleanup and liability for fuel or oil spills",
+          "Marinas with fuel docks, repair yards"
+        ],
+        [
+          "Inland and ocean marine (cargo)",
+          "Property and goods in transit or at temporary locations",
+          "Dealers transporting boats, shippers, contractors moving equipment"
+        ],
+        [
+          "Marine umbrella ('bumbershoot')",
+          "Excess limits above primary marine liability",
+          "Larger operations and passenger carriers"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The Care, Custody or Control Exclusion",
+      "text": "A standard general liability policy excludes damage to property in your 'care, custody or control'. For a marina, that's every customer boat on a rack or in a sling. Without MOLL, a forklift drop or a fire in the storage barn becomes an uninsured lawsuit. Our [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits) guide explains how general liability exclusions shape which suits get defended."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Maritime Workers: Why State Workers' Comp May Not Be Enough"
+    },
+    {
+      "type": "paragraph",
+      "text": "Federal law can override state workers' comp for people who work on or near the water. The Longshore and Harbor Workers' Compensation Act (USL&H) covers many workers injured on navigable waters or adjoining areas like piers, docks and boatyards. Vessel crew members who qualify as 'seamen' fall under the Jones Act, which lets them sue their employer for negligence rather than claim no-fault benefits. A standard state policy may exclude both, so marine employers typically need a USL&H endorsement and maritime employer's liability coverage."
+    },
+    {
+      "type": "paragraph",
+      "text": "This matters for exemption questions too: even if an owner qualifies to opt out of state coverage, as explained in [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california), any employees doing maritime work still need the right federal coverage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Theft, Storms and Property"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marine businesses lose outboard motors, electronics and trailers to theft, and docks and buildings to storms. Commercial property covers your buildings, docks and equipment; hull coverage covers boats you own; inland marine covers equipment that moves. Employee theft from the parts counter or the till still needs separate crime coverage, as detailed in [does business insurance cover theft](/qa/does-business-insurance-cover-theft). Pay close attention to named-storm and wind [deductibles](/glossary/deductible), which can be a percentage of insured value rather than a flat amount."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Setting Limits for a Marine Operation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marine liability is driven by the value of vessels in your care and the number of passengers you carry. A marina's MOLL limit should reflect the highest total value of boats it might hold at once, not the average. Many marinas also require tenants to carry their own boat liability, so ask for certificates. Our full method is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need), and you can model your figures with the [Coverage Calculator](/coverage-calculator/)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Seasonal Businesses: Don't Cancel, Adjust",
+      "text": "Seasonal operators often want to drop coverage over winter. Stored boats still face fire, theft and storm risk, and gaps can breach slip or lease contracts. Ask your insurer for lay-up provisions instead, and read [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time) before cancelling anything."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-calculator",
+      "title": "Business Coverage Calculator",
+      "description": "Estimate liability and property limits based on the value of vessels and equipment in your care."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Maritime jurisdiction is complex and fact-specific. Whether a worker falls under state law, USL&H or the Jones Act depends on duties and location. Insurance Bhaiya does not sell marine insurance; consult a marine insurance specialist and maritime attorney."
+    }
+  ]
+}

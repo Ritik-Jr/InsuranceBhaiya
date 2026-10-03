@@ -19,6 +19,48 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "How Much Business Insurance Do I Need? A Step-by-Step Method for Setting Liability, Property and Income Limits",
+    "slug": "how-much-business-insurance-do-i-need",
+    "description": "How much business insurance do you need? Size general liability, property, business income, crime and umbrella limits using contracts, assets and worst-case losses.",
+    "category": "business-insurance"
+},
+
+    {
+    "title": "Marine Business Insurance: The Coverage Marinas, Boat Dealers, Charter Operators and Marine Contractors Actually Need",
+    "slug": "marine-business-insurance",
+    "description": "Marine business insurance explained: marina operators liability, P&I, hull, USL&H and Jones Act coverage, pollution and inland marine, and who needs each.",
+    "category": "business-insurance"
+},
+
+    {
+    "title": "Business Insurance Explained: What It Covers, What the Law Requires, and How Much Coverage Your Business Needs",
+    "slug": "business-insurance-coverage-requirements",
+    "description": "Business insurance explained: which policies are legally required, what general liability and property really cover, theft and lawsuit gaps, limits and cancellation.",
+    "category": "business-insurance"
+},
+
+    {
+    "title": "What Insurance Does a Sole Trader Need? A UK Guide to Self-Employed Cover (2026)",
+    "slug": "what-insurance-does-a-sole-trader-need",
+    "description": "What insurance does a sole trader need in the UK? What the law requires, what clients demand, 2026 costs, and the gaps that catch the self-employed.",
+    "category": "business-insurance"
+},
+
+    {
+    "title": "SR-22 Insurance Explained: What It Is, How Long You Need It, What It Costs and the FR-44 Difference",
+    "slug": "sr-22-insurance",
+    "description": "SR-22 insurance explained: who needs one, the usual 3-year term, filing fees, non-owner SR-22s, and how Florida and Virginia's FR-44 differs.",
+    "category": "car-insurance"
+},
+
+    {
+    "title": "Car Insurance for High-Risk & Convicted Drivers: UK Convictions, US DUIs, SR-22s and Write-Off Cars",
+    "slug": "car-insurance-for-high-risk-and-convicted-drivers",
+    "description": "Car insurance for high-risk and convicted drivers: what to declare, spent convictions, DR10 and DUI premium rises, SR-22s, assigned risk plans and Cat N cars.",
+    "category": "car-insurance"
+},
+
+    {
     "title": "Aircraft Insurance Claims: What to Do After an Accident, NTSB 830 Reporting and How Hull Claims Are Settled",
     "slug": "aircraft-insurance-claims-what-to-expect",
     "description": "After an aircraft accident: NTSB Part 830 notification, wreckage preservation, 10-day reports, and how aviation hull and liability claims settle.",
@@ -1020,6 +1062,118 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "Can you cancel business insurance at any time?",
+      "slug": "can-you-cancel-business-insurance-at-any-time",
+      "shortAnswer": "Yes, in most cases you can cancel a business insurance policy at any time by sending your insurer or agent a written cancellation request. What varies is the refund: some policies return unused premium pro rata, while others apply a short-rate penalty (often around 10% of the unearned premium) or a minimum earned premium. Before cancelling, make sure replacement coverage starts first, check whether a lease or contract requires continuous coverage, and remember that claims-made policies and workers' comp have extra steps. The full picture of business coverage is in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub.",
+      "category": "General"
+},
+
+      {
+      "question": "Who is exempt from workers' compensation insurance in California?",
+      "slug": "who-is-exempt-from-workers-compensation-insurance-california",
+      "shortAnswer": "In California, every employer with even one employee must carry workers' compensation insurance (Labor Code 3700). The main exemptions are for owners, not employees: sole proprietors with no employees; general partners and LLC managing members who sign a waiver; and corporate officers or directors who own at least 15% of the stock and sign a sworn waiver. Household domestic workers who worked fewer than 52 hours or earned less than $100 in the prior 90 days are excluded, and genuine independent contractors who pass the ABC test are not employees. Misclassifying a worker is the most common and costly mistake. For how workers' comp fits with other required coverage, see our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub.",
+      "category": "Legal"
+},
+
+      {
+      "question": "Does business insurance cover lawsuits?",
+      "slug": "does-business-insurance-cover-lawsuits",
+      "shortAnswer": "Business insurance covers many lawsuits, but only the types each policy is written for. General liability defends and pays suits alleging bodily injury, property damage, or personal and advertising injury (such as libel), and in the standard form, defense costs are paid in addition to your limits. Lawsuits over professional mistakes need professional liability (E&O), employee claims need employment practices liability (EPLI), data breaches need cyber, and claims against directors need D&O. Intentional wrongdoing and pure breach of contract are generally not covered. Our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub shows where each policy fits.",
+      "category": "Legal"
+},
+
+      {
+      "question": "Does business insurance cover theft?",
+      "slug": "does-business-insurance-cover-theft",
+      "shortAnswer": "Yes, but which policy pays depends on who stole what and where. Commercial property insurance, or the property part of a business owner's policy, covers burglary and theft of your business property from your premises, minus your deductible. Employee theft and embezzlement are excluded from property policies and need commercial crime insurance. Tools and equipment stolen from a job site or vehicle need inland marine coverage, and money stolen through hacking or fake invoices needs cyber or social engineering coverage. Our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub explains how these policies fit together.",
+      "category": "General"
+},
+
+      {
+      "question": "How does income protection work for the self-employed in the UK?",
+      "slug": "income-protection-for-self-employed-uk",
+      "shortAnswer": "Income protection pays a monthly benefit, typically a set percentage of your pre-illness earnings, if illness or injury stops you working, after a waiting (deferred) period you choose. It matters more for the self-employed because you **can't get statutory sick pay**, which is \u00a3123.25 a week for employees in 2026/27. The state fallback is New Style ESA, which depends on your National Insurance record. Premiums depend on age, health, occupation, deferred period and benefit length. See [our UK sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/) for the full cover list.",
+      "category": "Disability"
+},
+
+      {
+      "question": "Does my home insurance cover me if I work from home as a sole trader?",
+      "slug": "sole-trader-working-from-home-insurance",
+      "shortAnswer": "Only partly, and only if your insurer knows. Many UK home policies cover clerical home-working but expect you to disclose if you run a business from home, see clients there, keep stock or use outbuildings for work. Business equipment is often excluded or limited, and home insurance doesn't include public liability for clients who visit. Not telling your insurer can put claims at risk. Most sole traders need either a business-use extension or a separate home business policy. See [what insurance do I need as a sole trader](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "Home"
+},
+
+      {
+      "question": "Is business insurance tax deductible for sole traders in the UK?",
+      "slug": "is-business-insurance-tax-deductible-for-sole-traders",
+      "shortAnswer": "Generally yes. HMRC lists insurance among allowable financial costs for the self-employed, so premiums for business policies such as public liability, employers' liability, professional indemnity and tools cover are usually deductible from your taxable profit. Personal policies such as income protection, life insurance and private health cover generally aren't. Mixed-use costs like car insurance need apportioning, and you can't claim any expenses if you use the \u00a31,000 trading allowance. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "General"
+},
+
+      {
+      "question": "Do I need business car insurance as a sole trader?",
+      "slug": "business-car-insurance-for-sole-traders",
+      "shortAnswer": "If you drive for work, beyond commuting to a single regular workplace, you usually need **business use** on your policy. That includes visiting clients, travelling between sites or carrying work equipment. Social, domestic and pleasure (SDP) or commuting cover typically won't respond to a business journey, and an insurer can refuse a claim or void the policy if the use wasn't declared. Business class 1 covers occasional work travel by you, class 2 adds named drivers, and class 3 covers heavy business mileage. See [the full list of cover a sole trader needs](/learn/what-insurance-does-a-sole-trader-need/) for the full picture.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do sole traders need employers' liability insurance?",
+      "slug": "do-sole-traders-need-employers-liability-insurance",
+      "shortAnswer": "Only once you employ someone. A sole trader working alone doesn't need employers' liability (EL) insurance. As soon as you take on staff, including part-time, casual or temporary workers and many labour-only subcontractors, the Employers' Liability (Compulsory Insurance) Act 1969 requires cover of at least \u00a35 million. GOV.UK says you can be fined \u00a32,500 for every day you're uninsured and \u00a31,000 for not displaying the certificate. Unincorporated family businesses employing only close relatives are exempt. See [do sole traders need insurance at all](/learn/what-insurance-does-a-sole-trader-need/) for the other covers.",
+      "category": "Legal"
+},
+
+      {
+      "question": "Do I need public liability insurance as a sole trader?",
+      "slug": "do-i-need-public-liability-insurance-as-a-sole-trader",
+      "shortAnswer": "It isn't a legal requirement in the UK, but you probably need it if you work in clients' homes or premises, meet the public, or if any client, council, venue or landlord asks for it, which many do. Public liability covers injury and property damage claims from third parties. Typical 2026 premiums are about \u00a3106 a year for \u00a31m, \u00a3118 for \u00a32m and \u00a3140 for \u00a35m, and low-risk sole traders can pay \u00a350\u2013\u00a365. It sits alongside the other cover in [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "General"
+},
+
+      {
+      "question": "What is an assigned risk auto insurance plan, and how do you get one if no insurer will cover you?",
+      "slug": "what-is-an-assigned-risk-auto-insurance-plan",
+      "shortAnswer": "An assigned risk auto insurance plan is a US state's **insurer of last resort**: a residual-market program that guarantees liability cover to drivers who have been turned down by the regular market. Licensed auto insurers in the state are assigned a share of these drivers, roughly in proportion to their market share. The plan meets the state's legal minimum, and it can file an [SR-22](/learn/sr-22-insurance), but premiums are usually high and cover options limited. Try [non-standard auto insurance](/glossary/non-standard-auto-insurance) carriers first, because they're often cheaper. This page is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) series.",
+      "category": "Auto"
+},
+
+      {
+      "question": "How much does car insurance go up after a DUI, and for how long?",
+      "slug": "how-much-does-car-insurance-go-up-after-a-dui",
+      "shortAnswer": "A first DUI typically raises US car insurance premiums by **roughly 35% to 155%, depending on the insurer**. That's about **$1,200 to $2,700+ a year** extra in published rate studies, which is why comparing insurers matters more after a DUI than at any other time. The surcharge usually lasts **3\u20135 years** (longer in some states), and many states also require an [SR-22 insurance](/learn/sr-22-insurance) filing (an FR-44 in Florida and Virginia). Some insurers drop DUI drivers at renewal, which pushes them into the [non-standard auto insurance](/glossary/non-standard-auto-insurance) market. In the UK, the equivalent DR10 conviction roughly **doubles** premiums at first. See our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "How long do motoring convictions stay on your licence, and how long do they affect car insurance?",
+      "slug": "how-long-do-motoring-convictions-stay-on-your-licence",
+      "shortAnswer": "In the UK, most endorsements stay on your driving record for **4 years from the date of the offence**. Reckless or dangerous driving endorsements (DD40, DD60, DD80) and offences that lead to a disqualification stay for **4 years from the date of conviction**. Drink- and drug-driving codes (DR10, DR20, DR30, DR31, DR61, DR80) and causing death while unfit (CD40\u2013CD70) stay for **11 years from conviction**. For insurance, what usually matters is whether the conviction is **unspent**: typically 5 years from conviction for adults (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance)). Insurers commonly ask about the last 5 years. See our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) hub.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you have to declare spent convictions for car insurance?",
+      "slug": "do-you-have-to-declare-spent-convictions-for-car-insurance",
+      "shortAnswer": "No. Under the **Rehabilitation of Offenders Act 1974**, you don't have to declare a spent conviction to a car insurer, even if the proposal form asks about convictions, and the insurer can't refuse cover or increase the premium because of it. You **must** declare **unspent** convictions when the insurer asks. For adults in England and Wales, a motoring conviction with an endorsement is typically spent **5 years from the conviction date** (2.5 years for under-18s), or when a longer driving ban ends, whichever is later. A DR10 can be spent while it's still on your licence. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Are Cat N cars more expensive to insure?",
+      "slug": "are-cat-n-cars-more-expensive-to-insure",
+      "shortAnswer": "Not necessarily. Many insurers price a repaired **Cat N** (non-structural write-off) car close to an equivalent clean car. One published comparison found a 2011 petrol Cat N car averaging **\u00a3553 a year against \u00a3558** for the undamaged version. The catches are that some mainstream insurers refuse Cat N cars altogether, you **must** declare the category, and a future total loss pays out on the car's lower market value. Cat N cars typically sell for **20\u201340% less** than clean equivalents. **Cat S** (structural damage) cars are harder to insure (see [Cat S vs Cat N car insurance](/compare/cat-s-vs-cat-n-car-insurance)). For drivers with convictions, see our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) guide.",
+      "category": "Auto"
+},
+
+      {
+      "question": "Which insurance companies do not ask about criminal convictions?",
+      "slug": "which-insurance-companies-do-not-ask-about-criminal-convictions",
+      "shortAnswer": "No reliable, permanent list exists. Some UK car insurers ask only about **motoring** convictions, while others ask about **all unspent criminal convictions**, and the wording on proposal forms changes often. The law protects you either way. Under the Consumer Insurance (Disclosure and Representations) Act 2012, you only have to answer the questions the insurer actually asks, honestly and with reasonable care. Under the Rehabilitation of Offenders Act 1974, you never have to disclose a conviction that is **spent** (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance)). If an insurer does ask and your conviction is unspent, specialist convicted-driver insurers and brokers will quote. This page is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) guide.",
+      "category": "Auto"
+},
+
       {
       "question": "What does aircraft hull insurance cover, and what's the difference between in-motion and not-in-motion cover?",
       "slug": "what-does-aircraft-hull-insurance-cover",

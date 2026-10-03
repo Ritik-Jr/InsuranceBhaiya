@@ -1,0 +1,282 @@
+{
+  "type": "learn",
+  "id": "what-insurance-does-a-sole-trader-need",
+  "slug": "what-insurance-does-a-sole-trader-need",
+  "title": "What Insurance Does a Sole Trader Need? A UK Guide to Self-Employed Cover (2026)",
+  "description": "What insurance does a sole trader need in the UK? What the law requires, what clients demand, 2026 costs, and the gaps that catch the self-employed.",
+  "category": "business-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "readingTime": 11,
+  "featured": true,
+  "tags": [
+    "sole trader insurance",
+    "self-employed insurance",
+    "public liability",
+    "employers liability",
+    "UK business insurance"
+  ],
+  "coverImage": "/images/category-business.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Most sole traders have **no legally compulsory business insurance** until they hire someone. At that point [employers' liability insurance](/qa/do-sole-traders-need-employers-liability-insurance/) of at least £5 million becomes mandatory, with fines of £2,500 for every day you're uninsured.",
+    "The cover sole traders buy most is **public liability**, which is often a client or venue requirement. Typical 2026 premiums run from about £50–£65 a year for low-risk trades to around £118 for £2 million of cover. See [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/).",
+    "Driving to clients usually needs **business use** on your car policy. Commuting cover alone generally won't do.",
+    "Your home policy may not cover business equipment or client visits unless you tell your insurer; see [working from home as a sole trader](/qa/sole-trader-working-from-home-insurance/).",
+    "Business insurance premiums are generally an allowable expense, and because there's no statutory sick pay for the self-employed, [income protection](/qa/income-protection-for-self-employed-uk/) is the cover most sole traders forget."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Do sole traders need insurance?",
+      "answer": "Not by default. With no employees, most sole traders have no compulsory business insurance apart from correct motor cover for work driving. Employers' liability becomes mandatory once you hire. Public liability and professional indemnity are voluntary but often required by clients."
+    },
+    {
+      "question": "What insurance do I need as a sole trader?",
+      "answer": "Start with public liability if you meet clients or work on their premises, professional indemnity if you give advice or expertise, business use on your vehicle if you drive for work, and employers' liability if you hire anyone. Then consider tools, home business cover and income protection. See [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/)."
+    },
+    {
+      "question": "Is public liability insurance a legal requirement for sole traders?",
+      "answer": "No. It's voluntary in the UK, but many clients, councils, venues and landlords require it contractually, commonly at £1m to £5m."
+    },
+    {
+      "question": "How much does sole trader insurance cost?",
+      "answer": "Public liability alone averages roughly £106–£140 a year for £1m–£5m of cover in 2026, and low-risk sole traders can pay £50–£65. Adding professional indemnity, tools or employers' liability raises the total."
+    },
+    {
+      "question": "Can I claim sole trader insurance as a business expense?",
+      "answer": "Generally yes for business policies, which HMRC treats as allowable financial costs. Personal policies such as income protection generally aren't. See [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "coverage-calculator",
+    "title": "Coverage Ratio Calculator",
+    "description": "Assess enterprise asset vulnerability against commercial liability limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "\"Do sole traders need insurance?\" is one of the first questions people ask after registering for Self Assessment, usually followed by a slightly panicked \"what insurance do I need as a sole trader?\" when the first client sends a supplier form asking for a policy number."
+    },
+    {
+      "type": "paragraph",
+      "text": "The honest answer is shorter than the comparison sites make it look. The law requires very little of a one-person business. Clients, venues, landlords and lenders require a bit more. And your own financial safety, because a sole trader's personal assets *are* the business's assets, argues for a little more still. This hub sets out each layer, roughly what it costs, and where to go next."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Do Sole Traders Need Insurance? The Legal Minimum"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a sole trader with no staff, UK law makes almost no business insurance compulsory. Only two requirements commonly apply:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Employers' liability (EL):** compulsory under the Employers' Liability (Compulsory Insurance) Act 1969 as soon as you employ someone, for at least £5 million. GOV.UK states you can be fined £2,500 for every day you're not properly insured and £1,000 for not displaying the certificate. There are exemptions, including for unincorporated family businesses employing only close relatives. The full rules are in [do sole traders need employers' liability insurance](/qa/do-sole-traders-need-employers-liability-insurance/).",
+        "**Motor insurance:** if you drive for work, your vehicle must be insured for that use. A policy rated only for social, domestic and pleasure (SDP) driving may not respond to a business journey. See [business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders/)."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Sole Trader = Unlimited Liability",
+      "text": "As a sole trader there's no legal separation between you and the business. A court judgment against \"the business\" is a judgment against you, payable from savings and, in the worst case, your home. That's why voluntary liability cover matters more for sole traders than for limited companies. The difference is explained in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Insurance Does a Sole Trader Need in Practice?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Cover",
+        "Legally Required?",
+        "Who Usually Needs It",
+        "Go Deeper"
+      ],
+      "rows": [
+        [
+          "Public liability",
+          "No, but often contractually required",
+          "Anyone meeting clients or the public, or working on others' premises",
+          "[Public liability as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/)"
+        ],
+        [
+          "Employers' liability",
+          "Yes, once you employ anyone (with exemptions)",
+          "Sole traders with staff, including casual or part-time",
+          "[Employers' liability for sole traders](/qa/do-sole-traders-need-employers-liability-insurance/)"
+        ],
+        [
+          "Professional indemnity",
+          "No (unless your regulator requires it)",
+          "Consultants, designers, bookkeepers, IT freelancers: anyone paid for advice or expertise",
+          "[Professional indemnity insurance](/learn/professional-indemnity-insurance/)"
+        ],
+        [
+          "Product liability",
+          "No",
+          "Makers and sellers of physical goods",
+          "[Product liability insurance](/learn/product-liability-insurance/)"
+        ],
+        [
+          "Business car / van use",
+          "Yes, if you drive for work",
+          "Anyone driving between clients or sites",
+          "[Business car insurance](/qa/business-car-insurance-for-sole-traders/)"
+        ],
+        [
+          "Home business cover",
+          "No",
+          "Anyone working, storing stock or seeing clients at home",
+          "[Working from home insurance](/qa/sole-trader-working-from-home-insurance/)"
+        ],
+        [
+          "Tools & equipment",
+          "No",
+          "Trades, photographers, mobile professionals",
+          "See the trade section below"
+        ],
+        [
+          "Income protection",
+          "No",
+          "Anyone who couldn't pay the bills after several weeks off sick",
+          "[Income protection for the self-employed](/qa/income-protection-for-self-employed-uk/)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Public Liability: The Policy Most Sole Traders Buy First"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public liability covers claims from third parties (customers, passers-by, property owners) for injury or property damage caused by your work. It's the UK equivalent of the [general liability](/learn/commercial-general-liability-guide/) policies sold in the US. A cleaner knocks a vase off a client's shelf, a personal trainer's kettlebell rolls onto a client's foot, a decorator's ladder dents a neighbour's car."
+    },
+    {
+      "type": "paragraph",
+      "text": "It isn't a legal requirement, but councils, letting agents, event organisers and larger clients routinely ask for proof of £1 million, £2 million or £5 million cover before you start work. Whether you personally need it, and how much, is covered in [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/). Trades with specialist risks have their own guides, such as [gas engineer public liability insurance](/learn/gas-engineer-public-liability-insurance/)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Public Liability Cover Level",
+        "Typical Annual Premium (UK, 2026)"
+      ],
+      "rows": [
+        [
+          "£1 million",
+          "~£106"
+        ],
+        [
+          "£2 million",
+          "~£118"
+        ],
+        [
+          "£5 million",
+          "~£140"
+        ],
+        [
+          "Low-risk sole traders (tutors, PTs, cleaners)",
+          "~£50 – £65"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Moving Up a Limit Is Cheap",
+      "text": "Industry figures suggest moving from £1m to £2m costs only around £15–£20 a year. If any regular client might ask for £2m, buy it now rather than reissuing the policy mid-year."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Professional Indemnity and Product Liability"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public liability covers physical injury and damage. It doesn't cover a client's *financial loss* caused by bad advice, a missed deadline or a design error. That's what [professional indemnity insurance](/learn/professional-indemnity-insurance/) is for, and many professional bodies and corporate clients require it. If you make or sell goods, an injury caused by the product after it leaves your hands falls under [product liability insurance](/learn/product-liability-insurance/), which is often bundled with public liability."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cover for Trades: Tools, Vans and Contract Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "For tradespeople the biggest uninsured losses are usually property, not liability. Tools stolen overnight from a van are a common claim, and many policies only pay if the van was locked with tools out of sight, or they exclude overnight theft unless the van is garaged. Check those conditions and the [excess](/glossary/deductible/) before relying on tools cover. Builders working on clients' property may also need [contractors' all-risk cover](/learn/contractors-all-risk-contract-works-insurance-uk/) for the works in progress."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Working From Home and Driving for Work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two everyday policies often break silently when you go self-employed. Many home insurers cover only clerical home-working and expect you to tell them if you run a business from home. Undisclosed business use can put claims at risk, and business equipment is often excluded. The details are in [sole trader working from home insurance](/qa/sole-trader-working-from-home-insurance/).<br><br>Car policies rated only for SDP or commuting generally don't cover driving between clients. Adding business use (classes 1 to 3) usually costs little. See [business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Protecting Your Income"
+    },
+    {
+      "type": "paragraph",
+      "text": "Employees get statutory sick pay (£123.25 a week in 2026/27). The self-employed don't. As the Low Incomes Tax Reform Group puts it, you cannot get SSP if you're self-employed. The fallback is New Style ESA, which depends on your National Insurance record. For many sole traders, a few months off sick is a bigger financial threat than any lawsuit. [Income protection for the self-employed](/qa/income-protection-for-self-employed-uk/) explains how to cover it, and the [Disability Insurance Calculator](/disability-insurance-calculator/) helps size a monthly benefit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Is Sole Trader Insurance Tax Deductible?"
+    },
+    {
+      "type": "paragraph",
+      "text": "HMRC lists insurance among allowable financial costs for the self-employed, so business policies such as public liability, professional indemnity and tools cover generally reduce your taxable profit. Personal cover such as income protection and life insurance generally doesn't. And if you use the £1,000 trading allowance, you can't claim expenses at all. The rules and edge cases are in [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "When Insurance Points Toward Incorporating"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance reduces liability risk but doesn't remove it. Claims can exceed limits or fall into an [exclusion](/glossary/exclusion/). Some sole traders with large contracts or growing teams form a limited company partly to ring-fence personal assets. Incorporating changes the insurance rules too: the family-business exemption from employers' liability no longer applies. Compare both in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Common Mistakes When Buying Sole Trader Insurance"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Describing your trade loosely.** Policies are rated by occupation, and work outside the declared trade may not be covered. Under the Insurance Act 2015 you owe insurers a fair presentation of the risk.",
+        "**Assuming public liability covers advice.** It doesn't. Financial-loss claims need professional indemnity.",
+        "**Forgetting casual help.** Paying a friend for a weekend's labour can make you an employer for EL purposes.",
+        "**Leaving tools in the van overnight** without checking the policy's theft conditions.",
+        "**Not telling your home or car insurer** that you've gone self-employed."
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-calculator",
+      "title": "Coverage Calculator",
+      "description": "Estimate the liability limit your trade and client contracts call for, and see where your current cover falls short."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Figures are indicative UK market averages published for 2026 and GOV.UK guidance as of 3 October 2026. Premiums depend on trade, turnover, location and claims history. Insurance Bhaiya does not sell policies or receive commissions. Check legal requirements with GOV.UK or HSE, and tax treatment with HMRC or an accountant."
+    }
+  ]
+}

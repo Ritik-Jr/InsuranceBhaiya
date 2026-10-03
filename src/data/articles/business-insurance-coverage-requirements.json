@@ -1,0 +1,259 @@
+{
+  "type": "learn",
+  "id": "business-insurance-coverage-requirements",
+  "slug": "business-insurance-coverage-requirements",
+  "title": "Business Insurance Explained: What It Covers, What the Law Requires, and How Much Coverage Your Business Needs",
+  "description": "Business insurance explained: which policies are legally required, what general liability and property really cover, theft and lawsuit gaps, limits and cancellation.",
+  "category": "business-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "readingTime": 12,
+  "featured": true,
+  "tags": [
+    "business insurance",
+    "general liability",
+    "commercial property",
+    "workers compensation",
+    "business owners policy",
+    "small business insurance",
+    "commercial crime insurance"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Only a few coverages are legally required: workers' compensation once you have employees (nearly every state), unemployment insurance through payroll taxes, state disability insurance in a handful of states, and commercial auto liability for business vehicles. See [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california).",
+    "Everything else, including general liability, property, professional liability and crime, is required by contracts, landlords and lenders rather than by law.",
+    "No single policy covers every theft. Burglary falls under property insurance, employee theft under crime insurance, and stolen tools in transit under inland marine. See [does business insurance cover theft](/qa/does-business-insurance-cover-theft).",
+    "General liability defends injury and property damage lawsuits; employment, professional and data breach suits need separate policies. See [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits).",
+    "A $1 million per occurrence / $2 million aggregate general liability limit is the common contract benchmark, but the right amount depends on your assets and contracts. See [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need)."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What business insurance is required by law?",
+      "answer": "Workers' compensation once you have employees (in nearly every state), unemployment insurance through payroll taxes, state disability insurance in a few states, and auto liability for business vehicles. General liability is usually required by contracts, not law."
+    },
+    {
+      "question": "Does business insurance cover theft?",
+      "answer": "Commercial property covers burglary of your business property, but employee theft needs crime insurance and tools stolen in transit need inland marine coverage. Full breakdown: [does business insurance cover theft](/qa/does-business-insurance-cover-theft)."
+    },
+    {
+      "question": "Does business insurance cover lawsuits?",
+      "answer": "General liability covers injury, property damage and advertising injury lawsuits, including defense costs. Employment, professional-error and data-breach lawsuits need separate policies. See [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits)."
+    },
+    {
+      "question": "How much business insurance do I need?",
+      "answer": "Start with $1 million per occurrence / $2 million aggregate general liability, property at replacement cost, and enough business income coverage for a realistic rebuild period, then adjust for contracts and assets. See [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need)."
+    },
+    {
+      "question": "Can you cancel business insurance at any time?",
+      "answer": "Usually yes, with written notice, but you may receive a short-rate refund rather than a full pro-rata refund. See [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)."
+    }
+  ],
+  "companionTool": {
+    "slug": "coverage-calculator",
+    "title": "Coverage Ratio Calculator",
+    "description": "Assess enterprise asset vulnerability against commercial liability limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Most small business owners buy insurance the same way: a landlord or client asks for a certificate, a broker sends a quote for a 'general liability' or 'business owner's' policy, and the owner signs it without a clear picture of what it covers. Then something happens, such as an employee walking off with cash, a customer suing over a fall, or a boat sinking at the dock, and the owner finds out which part of the business was never insured. This hub maps the whole landscape: what the law requires, what each core policy pays for, where the common gaps sit, how to size your limits, and how to change or cancel coverage without leaving a hole."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What the Law Requires vs What Contracts Require"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage",
+        "Who Requires It",
+        "Applies When"
+      ],
+      "rows": [
+        [
+          "Workers' compensation",
+          "State law (every state except Texas makes it mandatory for most private employers)",
+          "You have one or more employees; exemptions vary. See [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)"
+        ],
+        [
+          "Unemployment insurance",
+          "Federal and state law, paid as payroll tax",
+          "You have employees"
+        ],
+        [
+          "State disability insurance",
+          "State law in a few states, including California, New York, New Jersey, Rhode Island and Hawaii",
+          "You have employees in those states"
+        ],
+        [
+          "Commercial auto liability",
+          "State law",
+          "The business owns or uses vehicles"
+        ],
+        [
+          "Maritime employee coverage (USL&H, Jones Act)",
+          "Federal law",
+          "Employees work on navigable waters or as vessel crew. See [marine business insurance](/learn/marine-business-insurance)"
+        ],
+        [
+          "General liability",
+          "Leases, client contracts, licensing boards",
+          "Almost always requested before you sign a lease or contract"
+        ],
+        [
+          "Commercial property",
+          "Lenders and landlords",
+          "You have financed equipment, a mortgage, or lease obligations"
+        ],
+        [
+          "Professional liability (E&O)",
+          "Client contracts and some professional licenses",
+          "You give advice or professional services"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "danger",
+      "title": "The Most Expensive Mistake: Skipping Workers' Comp",
+      "text": "In California, operating without required workers' compensation is a misdemeanor. The state can issue a stop order on your employee labor and assess a penalty of the greater of twice the premium you should have paid or $1,500 per employee. Check whether you qualify for an exemption in [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california) before assuming you're exempt."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Core Policies and What Each One Covers"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**General liability (GL):** Bodily injury and property damage you cause to others, plus personal and advertising injury such as libel. It is the policy behind most 'is my business covered if someone sues' questions, answered in full in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits).",
+        "**Commercial property:** Your building, equipment, furniture and inventory against fire, storm, vandalism and burglary. Whether it pays for a specific loss, including theft, is explained in [does business insurance cover theft](/qa/does-business-insurance-cover-theft).",
+        "**Business owner's policy (BOP):** A bundled GL plus property policy for smaller businesses, usually with business income coverage. It is cheaper than buying the two separately but has eligibility limits.",
+        "**Professional liability (E&O):** Claims that your advice, design or service caused a financial loss. General liability does not cover these.",
+        "**Commercial crime:** Employee theft, forgery and certain fraud, which property policies exclude.",
+        "**Cyber liability:** Data breaches, ransomware and funds-transfer fraud.",
+        "**Specialty lines:** Businesses on or near water need marine coverages that ordinary policies exclude; see [marine business insurance](/learn/marine-business-insurance).",
+        "**Commercial umbrella:** Extra liability limits above GL, auto and employer's liability. Our [umbrella insurance guide](/learn/umbrella-insurance-guide) explains how the layers stack."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Gaps Owners Discover After a Loss"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What Happened",
+        "What Owners Assume",
+        "What Usually Pays"
+      ],
+      "rows": [
+        [
+          "Burglar breaks in and takes laptops",
+          "Property policy",
+          "Property policy, minus the deductible"
+        ],
+        [
+          "Bookkeeper embezzles over two years",
+          "Property policy",
+          "Only commercial crime coverage; property excludes employee dishonesty"
+        ],
+        [
+          "Tools stolen from a work truck",
+          "Commercial auto",
+          "Inland marine or tools-and-equipment coverage; auto covers the vehicle, not tools"
+        ],
+        [
+          "Customer slips on a wet floor",
+          "General liability",
+          "General liability, including defense costs"
+        ],
+        [
+          "Former employee sues for wrongful termination",
+          "General liability",
+          "Employment practices liability (EPLI); GL excludes employment claims"
+        ],
+        [
+          "Client sues over a mistake in your work",
+          "General liability",
+          "Professional liability (E&O)"
+        ],
+        [
+          "Customer's boat damaged while stored at your marina",
+          "General liability",
+          "Marina operators legal liability; GL excludes property in your care, custody or control"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Each of these gaps comes from an [exclusion](/glossary/exclusion), a clause that removes a risk from the policy. Reading those clauses before a loss is the single best use of an hour; our guide on [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance) shows where to find them. The theft gaps are detailed in [does business insurance cover theft](/qa/does-business-insurance-cover-theft), and the lawsuit gaps in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Coverage Is Enough"
+    },
+    {
+      "type": "paragraph",
+      "text": "Limits should be set by three numbers: what your contracts and lease demand, what it would cost to rebuild and restock after a total loss, and how much of your business and personal wealth a lawsuit could reach. For liability, $1 million per occurrence and $2 million aggregate is the common contract benchmark; for property, insure at [replacement cost](/glossary/replacement-cost) rather than depreciated value. The full sizing method, with worked examples, is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need), and you can estimate your figures with the [Coverage Calculator](/coverage-calculator/)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-calculator",
+      "title": "Business Coverage Calculator",
+      "description": "Estimate liability limits, property values and business income needs based on your revenue, assets and contract requirements."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Specialty Risks: Businesses on the Water"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marinas, boat dealers, charter operators, marine contractors and repair yards face risks standard policies simply exclude: customers' vessels in your care, liability from operating boats, fuel spills, and employees covered by federal maritime law instead of state workers' comp. That is why [marine business insurance](/learn/marine-business-insurance) is its own category, and why marine employers can't rely on a California workers' comp policy alone to cover their crews, even after checking [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Changing or Cancelling Business Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can usually cancel a business policy at any time with written notice. The questions are how much premium you get back, whether a short-rate penalty applies, and whether cancelling breaks a contract that requires you to stay insured. The rules, and the safe order of operations, are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time). For personal policies, see [can you cancel insurance anytime and get a refund](/qa/can-you-cancel-insurance-anytime-get-refund)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Your Business Insurance Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Confirm legal requirements** for your state and headcount, starting with workers' comp exemptions ([California rules here](/qa/who-is-exempt-from-workers-compensation-insurance-california)).",
+        "**Collect contract requirements** from your lease, client agreements and lenders.",
+        "**List what could be stolen and by whom**, then match each to a policy ([does business insurance cover theft](/qa/does-business-insurance-cover-theft)).",
+        "**List who could sue you** and check which policy defends each type of claim ([does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits)).",
+        "**Size your limits** ([how much business insurance do I need](/learn/how-much-business-insurance-do-i-need)).",
+        "**Add specialty coverage** if you operate near water ([marine business insurance](/learn/marine-business-insurance)).",
+        "**Review annually**, and never cancel before replacement coverage starts ([can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)).",
+        "**Run the [Business Insurance Checklist](/business-insurance-checklist)** to catch anything missed."
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Requirements vary by state, industry and contract. California figures reflect the Department of Industrial Relations as of October 2026. Insurance Bhaiya does not sell insurance or receive commissions. Confirm your obligations with a licensed commercial insurance agent and your state labor department."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "type": "learn",
+  "id": "how-much-business-insurance-do-i-need",
+  "slug": "how-much-business-insurance-do-i-need",
+  "title": "How Much Business Insurance Do I Need? A Step-by-Step Method for Setting Liability, Property and Income Limits",
+  "description": "How much business insurance do you need? Size general liability, property, business income, crime and umbrella limits using contracts, assets and worst-case losses.",
+  "category": "business-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-03",
+  "updatedAt": "2026-10-03",
+  "readingTime": 10,
+  "featured": false,
+  "tags": [
+    "how much business insurance do i need",
+    "business insurance limits",
+    "general liability limits",
+    "business income coverage",
+    "commercial umbrella"
+  ],
+  "coverImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Start from your contracts and lease: they often set the minimum, commonly $1 million per occurrence / $2 million aggregate general liability.",
+    "Insure property at replacement cost, based on what it would cost to rebuild and re-equip today, not what you paid.",
+    "Size business income coverage to how long a realistic rebuild and customer recovery would take, often 6 to 12 months or more.",
+    "Set crime limits by how much one dishonest employee could take before you notice, and liability limits by what a lawsuit could reach.",
+    "Add a commercial umbrella once your assets, revenue or contract demands exceed primary limits."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "How much general liability insurance does a small business need?",
+      "answer": "Most leases and client contracts ask for $1 million per occurrence and $2 million aggregate. Businesses with higher injury exposure or assets often add a commercial umbrella."
+    },
+    {
+      "question": "How much property coverage should I carry?",
+      "answer": "Enough to rebuild and re-equip at today's prices (replacement cost), including peak inventory. Insuring below the policy's coinsurance percentage can reduce partial claims."
+    },
+    {
+      "question": "How many months of business income coverage do I need?",
+      "answer": "Long enough to rebuild, reopen and win customers back. Many businesses choose 6 to 12 months; complex buildouts may need more."
+    },
+    {
+      "question": "Is $1 million enough business liability insurance?",
+      "answer": "It satisfies most contracts, but not necessarily your risk. Compare it with what a serious lawsuit could cost; see [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits) and our [business insurance hub](/learn/business-insurance-coverage-requirements)."
+    }
+  ],
+  "companionTool": {
+    "slug": "coverage-calculator",
+    "title": "Coverage Ratio Calculator",
+    "description": "Assess enterprise asset vulnerability against commercial liability limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "'How much business insurance do I need' has no single answer, but it does have a method. The right amount is the larger of what someone else requires you to carry and what a realistic worst case would cost you. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements) walks through each coverage in turn."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 1: Start With What's Required"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**By law:** workers' compensation for employees, with statutory benefits rather than a limit you choose (check [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)), plus auto liability for business vehicles.",
+        "**By your lease:** landlords commonly require general liability at a set limit and name themselves as additional insured.",
+        "**By clients:** contracts often specify general liability, professional liability, auto and umbrella limits.",
+        "**By lenders:** financed equipment or property must be insured for at least the loan balance or full value."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "The Common Benchmark",
+      "text": "$1 million per occurrence and $2 million aggregate general liability is the limit most leases and client contracts ask for. Treat it as a floor, not a target."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 2: Size Each Coverage"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Coverage",
+        "How to Size It",
+        "Common Mistake"
+      ],
+      "rows": [
+        [
+          "General liability",
+          "Contract minimum or more, scaled to customer traffic and severity of possible injuries",
+          "Buying the minimum and ignoring the aggregate cap"
+        ],
+        [
+          "Commercial property",
+          "Full [replacement cost](/glossary/replacement-cost) of buildings, equipment, furniture and inventory at peak season",
+          "Insuring at purchase price or [actual cash value](/glossary/actual-cash-value)"
+        ],
+        [
+          "Business income",
+          "Monthly net income plus continuing expenses, multiplied by a realistic recovery period",
+          "Choosing 3 months when rebuilding takes 9"
+        ],
+        [
+          "Commercial crime",
+          "Maximum cash and inventory one employee could divert before detection",
+          "Relying on property coverage; see [does business insurance cover theft](/qa/does-business-insurance-cover-theft)"
+        ],
+        [
+          "Professional liability",
+          "Size of your largest contracts and the potential client losses from an error",
+          "Forgetting that defense costs often erode the limit"
+        ],
+        [
+          "Specialty / marine",
+          "Peak value of customer property in your care",
+          "Using average values; see [marine business insurance](/learn/marine-business-insurance)"
+        ],
+        [
+          "Commercial umbrella",
+          "Gap between primary limits and the total assets and income a judgment could reach",
+          "Skipping it until after a large claim"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 3: Stress-Test Against Real Lawsuits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Picture the worst realistic claim for your business: a serious injury to a customer, a client loss caused by your error, or a fire that closes you for a season. Then check which policy responds and whether the limit holds up. Defense costs matter here: under the standard general liability form they sit outside the limit, but many professional liability policies count them against it. The policy-by-policy breakdown is in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits), and our guide on [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured) applies the same logic to personal coverage."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Coinsurance Penalties on Property",
+      "text": "Many commercial property policies include a coinsurance clause, often 80% or 90%. If you insure below that share of replacement value, partial claims are reduced proportionally. Underinsuring to save premium can cost far more on a claim."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 4: Choose Deductibles You Can Actually Pay"
+    },
+    {
+      "type": "paragraph",
+      "text": "A higher [deductible](/glossary/deductible) lowers your [premium](/glossary/premium), but only makes sense if the business could pay it out of cash tomorrow. Model the trade-off in the [Deductible Breakeven Calculator](/deductible-calculator/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Step 5: Review Every Year"
+    },
+    {
+      "type": "paragraph",
+      "text": "Limits drift out of date as revenue, payroll, inventory and contracts grow. Review at every renewal and after any major change. If you're switching carriers to get higher limits, line up the new policy before you end the old one; the rules are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-calculator",
+      "title": "Business Coverage Calculator",
+      "description": "Enter revenue, assets, payroll and contract requirements to estimate liability, property and business income limits."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Limit benchmarks are common market practice, not legal requirements. Insurance Bhaiya does not sell insurance; confirm limits with a licensed commercial agent and review your contracts."
+    }
+  ]
+}
