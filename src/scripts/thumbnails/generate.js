@@ -154,6 +154,13 @@ const PAGES = [
   ['types-of-insurance', 'travel', 'policies', 'umbrella', ['car', 'home']],
   ['why-do-people-need-insurance', 'life', 'umbrella', 'family', ['shield', 'pulse']],
   ['what-is-insurance', 'basics', 'shield', 'umbrella', ['check', 'search']],
+  // business & high-risk driving (added 2026-10)
+  ['business-insurance-coverage-requirements', 'construction', 'store', 'clipboard', ['shield', 'check']],
+  ['how-much-business-insurance-do-i-need', 'business', 'briefcase', 'calculator', ['chart', 'shield']],
+  ['what-insurance-does-a-sole-trader-need', 'pet', 'idcard', 'briefcase', ['shield', 'wrench']],
+  ['marine-business-insurance', 'marine', 'dock', 'briefcase', ['handshake', 'shield']],
+  ['car-insurance-for-high-risk-and-convicted-drivers', 'auto', 'car', 'scales', ['alert', 'doc']],
+  ['sr-22-insurance', 'legal', 'document', 'car', ['alert', 'calendar']],
 ];
 
 // ---------------------------------------------------------------- composition
@@ -234,6 +241,64 @@ ${sp}
 </svg>`;
 }
 
+// ---------------------------------------------------------------- tools (icon-style thumbnails)
+// slug (root path), theme, main glyph (icon from art.js I), [badge, badge], colourway variant
+const TOOLS = [
+  ['tools', 'basics', 'calc', ['chart', 'check']],
+  ['life-insurance-calculator', 'life', 'pulse', ['coin', 'calc']],
+  ['term-insurance-calculator', 'business', 'clock', ['calendar', 'shield']],
+  ['health-insurance-calculator', 'health', 'plus', ['coin', 'chart']],
+  ['car-insurance-calculator', 'auto', 'car', ['shield', 'check']],
+  ['car-insurance-deductible-calculator', 'travel', 'car', ['percent', 'coin'], 1],
+  ['home-insurance-calculator', 'home', 'home', ['shield', 'calc']],
+  ['home-replacement-cost-estimator', 'construction', 'home', ['hardhat', 'calc'], 1],
+  ['renters-insurance-calculator', 'home', 'key', ['home', 'shield'], 1],
+  ['premium-calculator', 'basics', 'card', ['calendar', 'percent'], 1],
+  ['coverage-calculator', 'business', 'chart', ['shield', 'scale']],
+  ['insurance-needs-calculator', 'basics', 'sliders', ['pulse', 'home']],
+  ['deductible-calculator', 'legal', 'percent', ['coin', 'chart']],
+  ['inflation-calculator', 'disability', 'trend', ['coin', 'clock']],
+  ['disability-insurance-calculator', 'disability', 'wallet', ['plus', 'coin'], 1],
+  ['travel-insurance-checklist', 'travel', 'plane', ['check', 'globe']],
+  ['business-insurance-checklist', 'business', 'checklist', ['shield', 'chart'], 1],
+  ['coverage-gap-checker', 'legal', 'search', ['alert', 'shield'], 1],
+  ['policy-review-checklist', 'basics', 'checklist', ['calendar', 'search']],
+  ['insurance-readiness-quiz', 'pet', 'question', ['star', 'check']],
+  ['insurance-terminology-quiz', 'dental', 'book', ['star', 'search']],
+  ['policy-check', 'health', 'shield', ['check', 'alert'], 1],
+];
+
+function composeTool([slug, theme, glyph, badges, variant = 0]) {
+  const c = colourway(theme, variant);
+  const rand = rng(hash(`tool:${slug}`));
+  let dots = '';
+  for (let r = 0; r < 5; r++) for (let k = 0; k < 7; k++) dots += `<circle cx="${70 + k * 28}" cy="${470 + r * 28}" r="4" fill="${c.p}" opacity="0.16"/>`;
+  const T = 360, tx = 600 - T / 2, ty = 338 - T / 2; // central app tile
+  const badge = ([bx, by], name, k) => card(bx - 64, by - 64, 128, 128, 34,
+    `<g transform="translate(${bx - 40},${by - 40}) scale(1.67)">${I[name](c, k)}</g>`);
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c.bg1}"/><stop offset="1" stop-color="${c.bg2}"/></linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${W}"/><stop offset="1" stop-color="${c.bg2}"/></linearGradient>
+  <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="${(180 + rand() * 80).toFixed(0)}" cy="${(140 + rand() * 60).toFixed(0)}" r="200" fill="${c.blob}" opacity="0.65"/>
+<circle cx="${(1020 + rand() * 80).toFixed(0)}" cy="${(540 + rand() * 60).toFixed(0)}" r="230" fill="${c.blob}" opacity="0.55"/>
+${dots}
+<circle cx="600" cy="338" r="270" fill="none" stroke="${c.pl}" stroke-width="2" stroke-dasharray="4 12" opacity="0.7"/>
+<circle cx="600" cy="338" r="215" fill="${W}" opacity="0.5"/>
+<rect x="${tx + 8}" y="${ty + 26}" width="${T}" height="${T}" rx="88" fill="${INK}" opacity="0.13" filter="url(#blur)"/>
+<rect x="${tx}" y="${ty}" width="${T}" height="${T}" rx="88" fill="url(#tile)"/>
+<rect x="${tx}" y="${ty}" width="${T}" height="${T}" rx="88" fill="none" stroke="${c.pl}" stroke-width="3" opacity="0.6"/>
+<circle cx="600" cy="338" r="118" fill="${c.al}" opacity="0.75"/>
+<g transform="translate(${600 - 24 * 4.6},${338 - 24 * 4.6}) scale(4.6)">${I[glyph](c, c.p)}</g>
+${badge([862, 196], badges[0], c.a)}
+${badge([338, 480], badges[1], c.p)}
+${sparkle(1090, 110, 18, c.a)}${sparkle(150, 420, 12, c.p)}${sparkle(880, 560, 11, c.pl)}${sparkle(320, 150, 9, c.a)}
+</svg>`;
+}
+
 // ---------------------------------------------------------------- render
 async function main() {
   let sharp = null;
@@ -257,7 +322,27 @@ async function main() {
     if (sharp) await sharp(Buffer.from(svg)).jpeg({ quality: 84, mozjpeg: true }).toFile(path.join(OUT, `${spec[0]}.jpg`));
   }
   console.log(`thumbnails: ${only ? 1 : PAGES.length} written to images/learn/`);
+
+  const TOUT = path.join(ROOT, 'images', 'tools');
+  fs.mkdirSync(TOUT, { recursive: true });
+  const tkeys = new Set();
+  for (const t of TOOLS) {
+    const key = JSON.stringify(t.slice(1));
+    if (tkeys.has(key)) throw new Error(`duplicate tool design: ${t[0]}`);
+    tkeys.add(key);
+    for (const n of [t[2], ...t[3]]) if (!I[n]) throw new Error(`unknown icon ${n} (${t[0]})`);
+    if (!fs.existsSync(path.join(ROOT, t[0], 'index.html'))) throw new Error(`no page for tool ${t[0]}`);
+  }
+  let n = 0;
+  for (const t of TOOLS) {
+    if (only && t[0] !== only) continue;
+    const svg = composeTool(t);
+    fs.writeFileSync(path.join(TOUT, `${t[0]}.svg`), svg);
+    if (sharp) await sharp(Buffer.from(svg)).jpeg({ quality: 86, mozjpeg: true }).toFile(path.join(TOUT, `${t[0]}.jpg`));
+    n++;
+  }
+  console.log(`tool thumbnails: ${n} written to images/tools/`);
 }
 
 if (require.main === module) main().catch(e => { console.error(e.message); process.exit(1); });
-module.exports = { PAGES, compose };
+module.exports = { PAGES, compose, TOOLS, composeTool };

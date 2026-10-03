@@ -57,15 +57,48 @@ for (const f of walk(ROOT)) {
 
   // cards: any <article> block that links to a learn article and shows an image
   h = h.replace(/<article\b[^>]*>[\s\S]*?<\/article>/g, block => {
-    const slug = (block.match(/href="\/learn\/([a-z0-9-]+)\/"/) || [])[1];
+    const slug = (block.match(/^<article\b[^>]*\bdata-slug="([a-z0-9-]+)"/) || block.match(/href="\/learn\/([a-z0-9-]+)\/?"/) || [])[1];
     if (!slug || !SLUGS.has(slug) || !/<img\b/.test(block)) return block;
-    const next = block.replace(/(<img\b[^>]*\bsrc=")[^"]*("[^>]*class="(?:apple-article-img|related-big-img)")/g, (m, a, b) => a + svg(slug) + b);
+    const next = block
+      .replace(/(<img\b[^>]*\bsrc=")[^"]*("[^>]*class="(?:apple-article-img|related-big-img)")/g, (m, a, b) => a + svg(slug) + b)
+      // publisher-built hub cards use an unclassed <img> inside the media slot
+      .replace(/(<div class="(?:apple-article-media|related-big-media)">\s*<img\b[^>]*?\bsrc=")[^"]*(")/g, (m, a, b) => a + svg(slug) + b);
     if (next !== block) cards++;
     return next;
   });
 
   if (h !== orig) fs.writeFileSync(f, h);
 }
+
+// ---------------------------------------------------------------- tools (calculators, checklists, quizzes)
+const TOOL_DIR = path.join(ROOT, 'images', 'tools');
+const TOOLS = new Set(fs.existsSync(TOOL_DIR) ? fs.readdirSync(TOOL_DIR).filter(f => f.endsWith('.svg')).map(f => f.slice(0, -4))
+  .filter(s => fs.existsSync(path.join(TOOL_DIR, `${s}.jpg`))) : []);
+let toolPages = 0, toolCards = 0;
+for (const f of walk(ROOT)) {
+  const orig = fs.readFileSync(f, 'utf8');
+  let h = orig;
+  const rel = path.relative(ROOT, f).replace(/\\/g, '/');
+  // /<tool>/index.html, legacy /tools/<tool>/index.html, and the /tools/ hub itself
+  const own = (rel.match(/^(?:tools\/)?([a-z0-9-]+)\/index\.html$/) || [])[1];
+  if (own && TOOLS.has(own) && !rel.startsWith('learn/')) {
+    const J = `${SITE}/images/tools/${own}.jpg`;
+    h = h.replace(/(<meta property="og:image(?::secure_url)?" content=")[^"]*(")/g, (m, a, b) => a + J + b)
+      .replace(/(<meta name="twitter:image" content=")[^"]*(")/, (m, a, b) => a + J + b)
+      .replace(/(<meta property="og:image:width" content=")[^"]*(")/, (m, a, b) => a + '1200' + b)
+      .replace(/(<meta property="og:image:height" content=")[^"]*(")/, (m, a, b) => a + '675' + b)
+      .replace(/("@type": "(?:WebApplication|CollectionPage)",\s*"name": "[^"]*",)(?!\s*"image")/, (m, a) => `${a}\n  "image": "${J}",`);
+    if (h !== orig) toolPages++;
+  }
+  // tool cards (tools hub, home page): media strip above the card header
+  h = h.replace(/(<div class="apple-card apple-calc-card[^"]*" data-slug="([a-z0-9-]+)"[^>]*>\s*<div>)(?!\s*<div class="apple-calc-media")/g, (m, open, slug) => {
+    if (!TOOLS.has(slug)) return m;
+    toolCards++;
+    return `${open}\n        <div class="apple-calc-media"><img src="/images/tools/${slug}.svg" alt="" loading="lazy" width="1200" height="675"></div>`;
+  });
+  if (h !== orig) fs.writeFileSync(f, h);
+}
+console.log(`tool thumbnails applied: ${toolPages} pages, ${toolCards} cards (${TOOLS.size} tools)`);
 
 // JSON sources the publisher regenerates pages from
 function setCover(file, slug, rec) { rec.coverImage = `/images/learn/${slug}.jpg`; }

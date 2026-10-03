@@ -10056,3 +10056,17 @@ body[data-error-theme="speeding"] .error-btn-primary:hover {
   border-radius: var(--radius-md, 16px);
   background: var(--color-surface-subtle);
 }
+
+/* Tool card thumbnails (icon-style art from src/scripts/thumbnails) */
+.apple-calc-media {
+  margin-bottom: 18px;
+  border-radius: var(--radius-md, 16px);
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: var(--color-surface-subtle);
+}
+.apple-calc-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

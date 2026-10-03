@@ -18,7 +18,7 @@
     "business income coverage",
     "commercial umbrella"
   ],
-  "coverImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1400&q=80",
+  "coverImage": "/images/learn/how-much-business-insurance-do-i-need.jpg",
   "country": [
     "global"
   ],
@@ -46,7 +46,7 @@
     },
     {
       "question": "Is $1 million enough business liability insurance?",
-      "answer": "It satisfies most contracts, but not necessarily your risk. Compare it with what a serious lawsuit could cost; see [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits) and our [business insurance hub](/learn/business-insurance-coverage-requirements)."
+      "answer": "It satisfies most contracts, but not necessarily your risk. Compare it with what a serious lawsuit could cost; see [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/) and our [business insurance hub](/learn/business-insurance-coverage-requirements/)."
     }
   ],
   "companionTool": {
@@ -57,7 +57,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "'How much business insurance do I need' has no single answer, but it does have a method. The right amount is the larger of what someone else requires you to carry and what a realistic worst case would cost you. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements) walks through each coverage in turn."
+      "text": "'How much business insurance do I need' has no single answer, but it does have a method. The right amount is the larger of what someone else requires you to carry and what a realistic worst case would cost you. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements/) walks through each coverage in turn."
     },
     {
       "type": "heading",
@@ -68,7 +68,7 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "**By law:** workers' compensation for employees, with statutory benefits rather than a limit you choose (check [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)), plus auto liability for business vehicles.",
+        "**By law:** workers' compensation for employees, with statutory benefits rather than a limit you choose (check [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/)), plus auto liability for business vehicles.",
         "**By your lease:** landlords commonly require general liability at a set limit and name themselves as additional insured.",
         "**By clients:** contracts often specify general liability, professional liability, auto and umbrella limits.",
         "**By lenders:** financed equipment or property must be insured for at least the loan balance or full value."
@@ -100,8 +100,8 @@
         ],
         [
           "Commercial property",
-          "Full [replacement cost](/glossary/replacement-cost) of buildings, equipment, furniture and inventory at peak season",
-          "Insuring at purchase price or [actual cash value](/glossary/actual-cash-value)"
+          "Full [replacement cost](/glossary/replacement-cost/) of buildings, equipment, furniture and inventory at peak season",
+          "Insuring at purchase price or [actual cash value](/glossary/actual-cash-value/)"
         ],
         [
           "Business income",
@@ -111,7 +111,7 @@
         [
           "Commercial crime",
           "Maximum cash and inventory one employee could divert before detection",
-          "Relying on property coverage; see [does business insurance cover theft](/qa/does-business-insurance-cover-theft)"
+          "Relying on property coverage; see [does business insurance cover theft](/qa/does-business-insurance-cover-theft/)"
         ],
         [
           "Professional liability",
@@ -121,7 +121,7 @@
         [
           "Specialty / marine",
           "Peak value of customer property in your care",
-          "Using average values; see [marine business insurance](/learn/marine-business-insurance)"
+          "Using average values; see [marine business insurance](/learn/marine-business-insurance/)"
         ],
         [
           "Commercial umbrella",
@@ -137,7 +137,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Picture the worst realistic claim for your business: a serious injury to a customer, a client loss caused by your error, or a fire that closes you for a season. Then check which policy responds and whether the limit holds up. Defense costs matter here: under the standard general liability form they sit outside the limit, but many professional liability policies count them against it. The policy-by-policy breakdown is in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits), and our guide on [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured) applies the same logic to personal coverage."
+      "text": "Picture the worst realistic claim for your business: a serious injury to a customer, a client loss caused by your error, or a fire that closes you for a season. Then check which policy responds and whether the limit holds up. Defense costs matter here: under the standard [general liability](/learn/commercial-general-liability-guide/) form they sit outside the limit, but many [professional liability](/learn/professional-indemnity-insurance/) policies count them against it. The policy-by-policy breakdown is in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/), and our guide on [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/) applies the same logic to personal coverage."
     },
     {
       "type": "callout",
@@ -152,7 +152,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A higher [deductible](/glossary/deductible) lowers your [premium](/glossary/premium), but only makes sense if the business could pay it out of cash tomorrow. Model the trade-off in the [Deductible Breakeven Calculator](/deductible-calculator/)."
+      "text": "A higher [deductible](/glossary/deductible/) lowers your [premium](/glossary/premium/), but only makes sense if the business could pay it out of cash tomorrow. Model the trade-off in the [Deductible Breakeven Calculator](/deductible-calculator/)."
     },
     {
       "type": "heading",
@@ -161,7 +161,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Limits drift out of date as revenue, payroll, inventory and contracts grow. Review at every renewal and after any major change. If you're switching carriers to get higher limits, line up the new policy before you end the old one; the rules are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time)."
+      "text": "Limits drift out of date as revenue, payroll, inventory and contracts grow. Review at every renewal and after any major change. If you're switching carriers to get higher limits, line up the new policy before you end the old one; the rules are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/)."
     },
     {
       "type": "calculator-embed",

@@ -20,7 +20,7 @@
     "Jones Act",
     "commercial marine insurance"
   ],
-  "coverImage": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=1400&q=80",
+  "coverImage": "/images/learn/marine-business-insurance.jpg",
   "country": [
     "global"
   ],
@@ -44,11 +44,11 @@
     },
     {
       "question": "Do marine employees need workers' comp?",
-      "answer": "Many need federal maritime coverage instead of or alongside state workers' comp: USL&H for dock and harbor workers, and Jones Act coverage for crew members. For state exemption rules, see [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california)."
+      "answer": "Many need federal maritime coverage instead of or alongside state workers' comp: USL&H for dock and harbor workers, and Jones Act coverage for crew members. For state exemption rules, see [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/)."
     },
     {
       "question": "Is marine insurance part of a business owner's policy?",
-      "answer": "No. A BOP generally excludes watercraft and maritime liability. See our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements) hub for what a BOP does cover."
+      "answer": "No. A BOP generally excludes watercraft and maritime liability. See our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub for what a BOP does cover."
     }
   ],
   "companionTool": {
@@ -59,7 +59,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "A marina is a parking lot, a repair shop, a fuel station and a landlord, all floating on water. A charter company is a transport business whose 'vehicle' is a vessel. That combination is why ordinary business policies keep saying no to marine businesses: property in your care is excluded, watercraft are excluded, pollution is excluded, and your crew may not even fall under state workers' comp. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements) maps the marine-specific coverages and who needs which."
+      "text": "A marina is a parking lot, a [repair shop](/qa/does-car-insurance-cover-repairs/), a fuel station and a landlord, all floating on water. A charter company is a transport business whose 'vehicle' is a vessel. That combination is why ordinary business policies keep saying no to marine businesses: property in your care is excluded, watercraft are excluded, pollution is excluded, and your crew may not even fall under state workers' comp. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements/) maps the marine-specific coverages and who needs which."
     },
     {
       "type": "heading",
@@ -143,7 +143,7 @@
       "type": "callout",
       "variant": "warning",
       "title": "The Care, Custody or Control Exclusion",
-      "text": "A standard general liability policy excludes damage to property in your 'care, custody or control'. For a marina, that's every customer boat on a rack or in a sling. Without MOLL, a forklift drop or a fire in the storage barn becomes an uninsured lawsuit. Our [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits) guide explains how general liability exclusions shape which suits get defended."
+      "text": "A standard general liability policy excludes damage to property in your 'care, custody or control'. For a marina, that's every customer boat on a rack or in a sling. Without MOLL, a forklift drop or a fire in the storage barn becomes an uninsured lawsuit. Our [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/) guide explains how general liability exclusions shape which suits get defended."
     },
     {
       "type": "heading",
@@ -156,7 +156,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This matters for exemption questions too: even if an owner qualifies to opt out of state coverage, as explained in [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california), any employees doing maritime work still need the right federal coverage."
+      "text": "This matters for exemption questions too: even if an owner qualifies to opt out of state coverage, as explained in [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/), any employees doing maritime work still need the right federal coverage."
     },
     {
       "type": "heading",
@@ -165,7 +165,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Marine businesses lose outboard motors, electronics and trailers to theft, and docks and buildings to storms. Commercial property covers your buildings, docks and equipment; hull coverage covers boats you own; inland marine covers equipment that moves. Employee theft from the parts counter or the till still needs separate crime coverage, as detailed in [does business insurance cover theft](/qa/does-business-insurance-cover-theft). Pay close attention to named-storm and wind [deductibles](/glossary/deductible), which can be a percentage of insured value rather than a flat amount."
+      "text": "Marine businesses lose outboard motors, electronics and trailers to theft, and docks and buildings to storms. Commercial property covers your buildings, docks and equipment; hull coverage covers boats you own; [inland marine](/learn/inland-marine-insurance-explained/) covers equipment that moves. Employee theft from the parts counter or the till still needs separate crime coverage, as detailed in [does business insurance cover theft](/qa/does-business-insurance-cover-theft/). Pay close attention to named-storm and wind [deductibles](/glossary/deductible/), which can be a percentage of insured value rather than a flat amount."
     },
     {
       "type": "heading",
@@ -174,13 +174,13 @@
     },
     {
       "type": "paragraph",
-      "text": "Marine liability is driven by the value of vessels in your care and the number of passengers you carry. A marina's MOLL limit should reflect the highest total value of boats it might hold at once, not the average. Many marinas also require tenants to carry their own boat liability, so ask for certificates. Our full method is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need), and you can model your figures with the [Coverage Calculator](/coverage-calculator/)."
+      "text": "Marine liability is driven by the value of vessels in your care and the number of passengers you carry. A marina's MOLL limit should reflect the highest total value of boats it might hold at once, not the average. Many marinas also require tenants to carry their own boat liability, so ask for certificates. Our full method is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/), and you can model your figures with the [Coverage Calculator](/coverage-calculator/)."
     },
     {
       "type": "callout",
       "variant": "tip",
       "title": "Seasonal Businesses: Don't Cancel, Adjust",
-      "text": "Seasonal operators often want to drop coverage over winter. Stored boats still face fire, theft and storm risk, and gaps can breach slip or lease contracts. Ask your insurer for lay-up provisions instead, and read [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time) before cancelling anything."
+      "text": "Seasonal operators often want to drop coverage over winter. Stored boats still face fire, theft and storm risk, and gaps can breach slip or lease contracts. Ask your insurer for lay-up provisions instead, and read [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/) before cancelling anything."
     },
     {
       "type": "calculator-embed",
