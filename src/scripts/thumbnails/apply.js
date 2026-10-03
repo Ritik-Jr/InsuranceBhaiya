@@ -48,6 +48,10 @@ for (const f of walk(ROOT)) {
     if (h !== orig) pages++;
   }
 
+  // /learn/ featured hero: its static image (shown before/without JS) must be its own article's art
+  h = h.replace(/(<div class="card-featured-hero" id="featuredBlogHero"[^>]*\bdata-slug="([a-z0-9-]+)"[\s\S]*?<img src=")[^"]*("[^>]*class="card-featured-img")/,
+    (m, a, slug, b) => (SLUGS.has(slug) ? a + svg(slug) + b : m));
+
   // client-side article grid data embedded in /learn/ (one JSON object per article)
   h = h.replace(/(<script id="learnArticlesData" type="application\/json">)([\s\S]*?)(<\/script>)/, (m, a, json, b) =>
     a + json.replace(/\{[^{}]*\}/g, obj => {

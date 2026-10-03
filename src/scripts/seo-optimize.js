@@ -572,6 +572,8 @@ const VALID = new Set(FILES.map(urlOf));
 const PAGES = FILES.map(f => ({ file: f, url: urlOf(f), section: urlOf(f).split('/')[1] || '' }))
   .filter(p => !/<meta name="robots" content="noindex/.test(fs.readFileSync(p.file, 'utf8').slice(0, 2000)));
 const QA_COUNT = PAGES.filter(p => p.section === 'qa' && p.url.split('/').length === 4).length;
+const assetHash = f => require('crypto').createHash('sha1').update(fs.readFileSync(path.join(ROOT, f))).digest('hex').slice(0, 10);
+const ASSET_VER = { css: assetHash('styles.css'), js: assetHash('app.js') };
 const DATA_PATH = path.join(ROOT, 'data.json');
 const DATA = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
 
@@ -858,6 +860,16 @@ for (const page of PAGES) {
     return cleaned === body ? all : `<script type="application/ld+json">${cleaned}</script>`;
   });
 
+  // --- 2b. cache-bust shared assets (.htaccess caches js/css for a year as immutable) ---
+  h = h.replace(/(<link rel="stylesheet" href="\/styles\.css)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.css}${b}`)
+    .replace(/(<script src="\/app\.js)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.js}${b}`);
+
+  // tools hub: no "Actuarial Model" box on the calculator cards (owner's design choice)
+  if (url === '/tools/') h = h.replace(/\s*<div class="apple-calc-formula">\s*<div[^>]*>[^<]*<\/div>[^<]*<\/div>/g, '');
+
+  // publisher bug: reading time rendered as "7 min read min read"
+  h = h.replace(/(\d+\s*min read)(?:\s*min read)+/g, '$1');
+
   // --- 3. stale counts ---
   h = h.replace(/(Explore|Browse) All \d+ Questions/g, `$1 All ${QA_COUNT} Questions`);
 
@@ -1015,9 +1027,20 @@ for (const page of PAGES) {
   };
   if (h !== orig) {
     report.changed++;
-    changedUrls.add(url);
+    // an asset cache-bust alone is not a content change: don't bump the sitemap lastmod for it
+    const unver = s => s.replace(/(\/styles\.css|\/app\.js)\?v=[\w-]+/g, '$1');
+    if (unver(h) !== unver(orig)) changedUrls.add(url);
     if (!DRY) fs.writeFileSync(file, h);
   }
+}
+
+// static error pages (403/404/5xx.html) share the same assets
+for (const name of fs.readdirSync(ROOT).filter(n => /^\d{3}\.html$/.test(n))) {
+  const f = path.join(ROOT, name);
+  const orig = fs.readFileSync(f, 'utf8');
+  const h = orig.replace(/(<link rel="stylesheet" href="\/styles\.css)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.css}${b}`)
+    .replace(/(<script src="\/app\.js)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.js}${b}`);
+  if (h !== orig && !DRY) fs.writeFileSync(f, h);
 }
 
 // ---------------------------------------------------------------------------

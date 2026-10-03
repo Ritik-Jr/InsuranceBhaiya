@@ -8033,7 +8033,9 @@ function initArticleFilters() {
       // Update reading time
       const heroTimeSpan = featuredHero.querySelector('.featured-body-meta span:last-child');
       if (heroTimeSpan) {
-        heroTimeSpan.textContent = (randomArticle.readingTime ? randomArticle.readingTime + ' min read' : '7 min read');
+        // readingTime is a number for older entries and "8 min read" for newer publisher output
+        const minutes = parseInt(randomArticle.readingTime, 10);
+        heroTimeSpan.textContent = (minutes ? minutes : 7) + ' min read';
       }
 
       // Update title link
@@ -8065,6 +8067,22 @@ function initArticleFilters() {
       featuredHero.setAttribute('data-category', randomArticle.category || 'insurance-basics');
     } else {
       currentHeroSlug = featuredHero.getAttribute('data-slug') || '';
+    }
+
+    // The hero stays transparent (CSS) until the chosen article is in place, so visitors never
+    // see the static placeholder swap to the random pick. Reveal once the new image has decoded.
+    let heroRevealed = false;
+    const revealHero = () => {
+      if (heroRevealed) return;
+      heroRevealed = true;
+      featuredHero.setAttribute('data-hero-ready', '');
+    };
+    const heroImgEl = featuredHero.querySelector('.card-featured-img');
+    if (heroImgEl && typeof heroImgEl.decode === 'function') {
+      heroImgEl.decode().then(revealHero, revealHero);
+      setTimeout(revealHero, 800);
+    } else {
+      revealHero();
     }
   }
 
