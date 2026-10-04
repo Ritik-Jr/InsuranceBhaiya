@@ -161,6 +161,8 @@ const PAGES = [
   ['marine-business-insurance', 'marine', 'dock', 'briefcase', ['handshake', 'shield']],
   ['car-insurance-for-high-risk-and-convicted-drivers', 'auto', 'car', 'scales', ['alert', 'doc']],
   ['sr-22-insurance', 'legal', 'document', 'car', ['alert', 'calendar']],
+  ['car-insurance-after-a-driving-ban', 'home', 'car', 'idcard', ['calendar', 'trend']],
+  ['commercial-crime-insurance', 'legal', 'building', 'magnifier', ['lock', 'alert']],
 ];
 
 // ---------------------------------------------------------------- composition

@@ -1,0 +1,180 @@
+{
+  "type": "learn",
+  "id": "commercial-crime-insurance",
+  "slug": "commercial-crime-insurance",
+  "title": "Commercial Crime Insurance Explained: Employee Theft, Forgery and Funds-Transfer Fraud Your Property Policy Won't Cover",
+  "description": "Commercial crime insurance covers employee theft, forgery, robbery and funds-transfer fraud that property policies exclude. What it covers, limits and ERISA bonds.",
+  "category": "business-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-04",
+  "updatedAt": "2026-10-04",
+  "readingTime": 9,
+  "featured": false,
+  "tags": [
+    "commercial crime insurance",
+    "employee theft insurance",
+    "fidelity bond",
+    "erisa bond",
+    "funds transfer fraud",
+    "business theft"
+  ],
+  "coverImage": "/images/learn/commercial-crime-insurance.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Commercial crime insurance covers theft by your own employees, plus forgery, robbery, safe burglary, computer fraud and funds-transfer fraud.",
+    "Standard commercial property and business owner's policies exclude employee dishonesty, which is why crime coverage exists as a separate policy.",
+    "Social engineering losses, where an employee is tricked into sending money, usually need a specific endorsement or sublimit.",
+    "Businesses that sponsor a 401(k) or other ERISA plan must carry a separate ERISA fidelity bond for 10% of plan assets (minimum $1,000, maximum usually $500,000).",
+    "Set the limit by the most an insider could take before you would notice, not by your average monthly cash."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does business insurance cover employee theft?",
+      "answer": "Not under a standard property policy or BOP. You need commercial crime insurance with employee theft coverage. See [does business insurance cover theft](/qa/does-business-insurance-cover-theft/) for other theft scenarios."
+    },
+    {
+      "question": "Is crime insurance the same as a fidelity bond?",
+      "answer": "The terms overlap. Employee theft coverage is often called fidelity coverage, but an ERISA fidelity bond is a specific federally required bond for benefit plans."
+    },
+    {
+      "question": "Does crime insurance cover wire fraud?",
+      "answer": "Funds-transfer fraud initiated by outsiders is usually covered. Losses where your own employee was tricked into sending money often need a social engineering endorsement."
+    },
+    {
+      "question": "How much commercial crime insurance do I need?",
+      "answer": "Enough to cover the most one employee could take in a year before detection. Use the method in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "coverage-calculator",
+    "title": "Coverage Ratio Calculator",
+    "description": "Assess enterprise asset vulnerability against commercial liability limits."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "When owners ask [does business insurance cover theft](/qa/does-business-insurance-cover-theft/), the honest answer depends on who did the stealing. Burglars are a property-insurance problem. Your own bookkeeper, cashier or warehouse manager is not, and that gap is what commercial crime insurance fills. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements/) explains what crime insurance covers, how it differs from a bond, and how to size it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Commercial Crime Insurance Covers"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Insuring Agreement",
+        "What It Pays For",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Employee theft",
+          "Money, securities and property stolen by employees",
+          "A bookkeeper issues fake refunds to her own card for 18 months"
+        ],
+        [
+          "Forgery or alteration",
+          "Losses from forged or altered checks and drafts drawn on your accounts",
+          "A stolen checkbook is used to write forged checks"
+        ],
+        [
+          "Inside the premises: money and securities",
+          "Theft, disappearance or destruction of money on your premises",
+          "Cash is stolen from the office safe"
+        ],
+        [
+          "Inside the premises: robbery or safe burglary",
+          "Other property taken by robbery or from a safe",
+          "Jewelry stolen during an armed robbery"
+        ],
+        [
+          "Outside the premises",
+          "Money and property in the care of a messenger or armored car",
+          "The day's deposit is stolen on the way to the bank"
+        ],
+        [
+          "Computer and funds-transfer fraud",
+          "Fraudulent electronic transfers or computer entries by outsiders",
+          "A hacker initiates wire transfers from your account"
+        ],
+        [
+          "Money orders and counterfeit currency",
+          "Good-faith acceptance of counterfeit money or invalid money orders",
+          "A store accepts counterfeit $100 bills"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Social Engineering Is a Separate Question",
+      "text": "If a fraudster emails your accounts team pretending to be a vendor and an employee voluntarily sends the payment, many crime policies treat it as outside 'computer fraud' because your own employee authorized it. Ask for a social engineering fraud endorsement, which often carries a lower sublimit, or check whether your cyber policy covers it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Crime Insurance vs Fidelity Bonds vs ERISA Bonds"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Commercial crime insurance** protects your business against its own losses from employee dishonesty and third-party crime. 'Fidelity insurance' is often used as another name for the employee theft part.",
+        "**Third-party (client) coverage** protects your clients when your employees steal from them on their premises, common for cleaners, IT providers and home-care businesses. It's usually an endorsement to a crime policy.",
+        "**ERISA fidelity bond:** Federal law requires anyone handling 401(k) or other benefit plan funds to be bonded for at least 10% of plan assets, with a $1,000 minimum and a $500,000 maximum for most plans ($1 million for plans holding employer securities). The bond must have no deductible, so an ordinary crime policy typically doesn't satisfy it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Crime Coverage You Need"
+    },
+    {
+      "type": "paragraph",
+      "text": "Employee theft is usually discovered late, so the loss is the total of everything taken before someone noticed. Size the limit to the most cash, inventory and payment authority one person controls over a full year, then add a margin. If one employee can both approve vendors and release payments, raise the limit or split those duties. The broader sizing method is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/), and the [Coverage Calculator](/coverage-calculator/) helps estimate exposure."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Discovery vs Loss-Sustained Forms",
+      "text": "Discovery forms cover losses you discover during the policy period, even if the theft started years earlier. Loss-sustained forms cover losses that happen during the policy period. If you switch insurers or forms, make sure past undiscovered theft doesn't fall into a gap; see [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/) before changing policies."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Exclusions to Know"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Theft by owners or partners** is generally excluded for the business's own losses.",
+        "**Inventory shortages** proven only by an inventory count or profit-and-loss comparison are usually excluded unless other evidence of theft exists.",
+        "**Employees with known prior dishonesty**: coverage typically ends for an employee once a manager learns of a past dishonest act.",
+        "**Indirect losses** such as lost income from the theft, unless the policy adds them.",
+        "**Legal costs** of suing the employee, unless covered.",
+        "**Your liability to others** is a liability question, not a crime question; see [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Exclusions are where these policies differ most; our guide to [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance/) shows how to read them. Marine businesses with parts counters and fuel cash should pair crime coverage with the property protections in [marine business insurance](/learn/marine-business-insurance/)."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-calculator",
+      "title": "Business Coverage Calculator",
+      "description": "Estimate how much cash, inventory and payment authority sits with any one employee to size your crime limit."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Insuring agreements vary by insurer and form. ERISA bond rules are set by the U.S. Department of Labor. Insurance Bhaiya does not sell insurance or bonds; confirm terms with a licensed agent."
+    }
+  ]
+}

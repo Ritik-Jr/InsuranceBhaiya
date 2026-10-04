@@ -281,6 +281,345 @@
   "articles": [
     {
       "type": "learn",
+      "id": "commercial-crime-insurance",
+      "slug": "commercial-crime-insurance",
+      "title": "Commercial Crime Insurance Explained: Employee Theft, Forgery and Funds-Transfer Fraud Your Property Policy Won't Cover",
+      "description": "Commercial crime insurance covers employee theft, forgery, robbery and funds-transfer fraud that property policies exclude. What it covers, limits and ERISA bonds.",
+      "category": "business-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-04",
+      "updatedAt": "2026-10-04",
+      "readingTime": 9,
+      "featured": false,
+      "tags": [
+        "commercial crime insurance",
+        "employee theft insurance",
+        "fidelity bond",
+        "erisa bond",
+        "funds transfer fraud",
+        "business theft"
+      ],
+      "coverImage": "/images/learn/commercial-crime-insurance.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Commercial crime insurance covers theft by your own employees, plus forgery, robbery, safe burglary, computer fraud and funds-transfer fraud.",
+        "Standard commercial property and business owner's policies exclude employee dishonesty, which is why crime coverage exists as a separate policy.",
+        "Social engineering losses, where an employee is tricked into sending money, usually need a specific endorsement or sublimit.",
+        "Businesses that sponsor a 401(k) or other ERISA plan must carry a separate ERISA fidelity bond for 10% of plan assets (minimum $1,000, maximum usually $500,000).",
+        "Set the limit by the most an insider could take before you would notice, not by your average monthly cash."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Does business insurance cover employee theft?",
+          "answer": "Not under a standard property policy or BOP. You need commercial crime insurance with employee theft coverage. See [does business insurance cover theft](/qa/does-business-insurance-cover-theft/) for other theft scenarios."
+        },
+        {
+          "question": "Is crime insurance the same as a fidelity bond?",
+          "answer": "The terms overlap. Employee theft coverage is often called fidelity coverage, but an ERISA fidelity bond is a specific federally required bond for benefit plans."
+        },
+        {
+          "question": "Does crime insurance cover wire fraud?",
+          "answer": "Funds-transfer fraud initiated by outsiders is usually covered. Losses where your own employee was tricked into sending money often need a social engineering endorsement."
+        },
+        {
+          "question": "How much commercial crime insurance do I need?",
+          "answer": "Enough to cover the most one employee could take in a year before detection. Use the method in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/)."
+        }
+      ],
+      "companionTool": {
+        "slug": "coverage-calculator",
+        "title": "Coverage Ratio Calculator",
+        "description": "Assess enterprise asset vulnerability against commercial liability limits."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When owners ask [does business insurance cover theft](/qa/does-business-insurance-cover-theft/), the honest answer depends on who did the stealing. Burglars are a property-insurance problem. Your own bookkeeper, cashier or warehouse manager is not, and that gap is what commercial crime insurance fills. This spoke of our [business insurance coverage and requirements hub](/learn/business-insurance-coverage-requirements/) explains what crime insurance covers, how it differs from a bond, and how to size it."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Commercial Crime Insurance Covers"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Insuring Agreement",
+            "What It Pays For",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Employee theft",
+              "Money, securities and property stolen by employees",
+              "A bookkeeper issues fake refunds to her own card for 18 months"
+            ],
+            [
+              "Forgery or alteration",
+              "Losses from forged or altered checks and drafts drawn on your accounts",
+              "A stolen checkbook is used to write forged checks"
+            ],
+            [
+              "Inside the premises: money and securities",
+              "Theft, disappearance or destruction of money on your premises",
+              "Cash is stolen from the office safe"
+            ],
+            [
+              "Inside the premises: robbery or safe burglary",
+              "Other property taken by robbery or from a safe",
+              "Jewelry stolen during an armed robbery"
+            ],
+            [
+              "Outside the premises",
+              "Money and property in the care of a messenger or armored car",
+              "The day's deposit is stolen on the way to the bank"
+            ],
+            [
+              "Computer and funds-transfer fraud",
+              "Fraudulent electronic transfers or computer entries by outsiders",
+              "A hacker initiates wire transfers from your account"
+            ],
+            [
+              "Money orders and counterfeit currency",
+              "Good-faith acceptance of counterfeit money or invalid money orders",
+              "A store accepts counterfeit $100 bills"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Social Engineering Is a Separate Question",
+          "text": "If a fraudster emails your accounts team pretending to be a vendor and an employee voluntarily sends the payment, many crime policies treat it as outside 'computer fraud' because your own employee authorized it. Ask for a social engineering fraud endorsement, which often carries a lower sublimit, or check whether your cyber policy covers it."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Crime Insurance vs Fidelity Bonds vs ERISA Bonds"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Commercial crime insurance** protects your business against its own losses from employee dishonesty and third-party crime. 'Fidelity insurance' is often used as another name for the employee theft part.",
+            "**Third-party (client) coverage** protects your clients when your employees steal from them on their premises, common for cleaners, IT providers and home-care businesses. It's usually an endorsement to a crime policy.",
+            "**ERISA fidelity bond:** Federal law requires anyone handling 401(k) or other benefit plan funds to be bonded for at least 10% of plan assets, with a $1,000 minimum and a $500,000 maximum for most plans ($1 million for plans holding employer securities). The bond must have no deductible, so an ordinary crime policy typically doesn't satisfy it."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Crime Coverage You Need"
+        },
+        {
+          "type": "paragraph",
+          "text": "Employee theft is usually discovered late, so the loss is the total of everything taken before someone noticed. Size the limit to the most cash, inventory and payment authority one person controls over a full year, then add a margin. If one employee can both approve vendors and release payments, raise the limit or split those duties. The broader sizing method is in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/), and the [Coverage Calculator](/coverage-calculator/) helps estimate exposure."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Discovery vs Loss-Sustained Forms",
+          "text": "Discovery forms cover losses you discover during the policy period, even if the theft started years earlier. Loss-sustained forms cover losses that happen during the policy period. If you switch insurers or forms, make sure past undiscovered theft doesn't fall into a gap; see [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/) before changing policies."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Exclusions to Know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Theft by owners or partners** is generally excluded for the business's own losses.",
+            "**Inventory shortages** proven only by an inventory count or profit-and-loss comparison are usually excluded unless other evidence of theft exists.",
+            "**Employees with known prior dishonesty**: coverage typically ends for an employee once a manager learns of a past dishonest act.",
+            "**Indirect losses** such as lost income from the theft, unless the policy adds them.",
+            "**Legal costs** of suing the employee, unless covered.",
+            "**Your liability to others** is a liability question, not a crime question; see [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exclusions are where these policies differ most; our guide to [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance/) shows how to read them. Marine businesses with parts counters and fuel cash should pair crime coverage with the property protections in [marine business insurance](/learn/marine-business-insurance/)."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "coverage-calculator",
+          "title": "Business Coverage Calculator",
+          "description": "Estimate how much cash, inventory and payment authority sits with any one employee to size your crime limit."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Insuring agreements vary by insurer and form. ERISA bond rules are set by the U.S. Department of Labor. Insurance Bhaiya does not sell insurance or bonds; confirm terms with a licensed agent."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "car-insurance-after-a-driving-ban",
+      "slug": "car-insurance-after-a-driving-ban",
+      "title": "Car Insurance After a Driving Ban: Getting Your Licence Back, What to Declare and How Premiums Recover",
+      "description": "Car insurance after a UK driving ban: the D27 or D1 licence return, the High Risk Offender medical, what to declare, year-1 costs, and how premiums fall.",
+      "category": "car-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-04",
+      "updatedAt": "2026-10-04",
+      "readingTime": 8,
+      "featured": false,
+      "tags": [
+        "car insurance after a ban",
+        "banned driver insurance",
+        "disqualified driver",
+        "DR10",
+        "totting up",
+        "D27"
+      ],
+      "coverImage": "/images/learn/car-insurance-after-a-driving-ban.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "You can't drive until the ban officially ends **and** you hold a valid licence again. Applying early doesn't give you any right to drive sooner.",
+        "The DVLA sends a **D27** renewal form about **56 days** before a ban ends, or **90 days** before for High Risk Offenders, who also need a medical. A **D1** form from the Post Office is the fallback.",
+        "Expect a large first-year loading. A drink-driving ban typically means around **£1,300+** in the first year with specialists, falling each year.",
+        "A disqualification is **spent when the ban ends**, but the endorsement's **5-year** period usually applies too. Declare the conviction until then.",
+        "Mainstream comparison sites often return no quotes, so go to specialist brokers and [non-standard auto insurance](/glossary/non-standard-auto-insurance/) providers."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Can I get car insurance straight after a driving ban?",
+          "answer": "Yes, from specialist insurers, once your licence is valid again. Expect high first-year premiums. See the [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/) hub."
+        },
+        {
+          "question": "How long do I have to declare a driving ban?",
+          "answer": "Until the conviction is spent, usually 5 years from conviction for adults because of the endorsement, or longer if the ban itself was longer than 5 years."
+        },
+        {
+          "question": "Do I need a medical to get my licence back?",
+          "answer": "Only if you're a High Risk Offender, for example 2.5 times the limit or more, two drink-drive bans within 10 years, or failing or refusing to provide a specimen."
+        }
+      ],
+      "companionTool": {
+        "slug": "car-insurance-calculator",
+        "title": "Car Insurance Coverage Calculator",
+        "description": "Audit your automotive coverage checklist across liability, collision, comprehensive, and medical defense layers."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Coming back from a ban means two things: getting a valid licence and finding an insurer that will accept a disqualified driver. This guide is part of our [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/) series. It covers bans for drink driving, [totting up](/glossary/totting-up/) and serious offences in England, Wales and Scotland."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 1: Getting Your Licence Back"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Wait for the D27.** The DVLA usually posts it about 56 days before the ban ends (90 days for High Risk Offenders). If it doesn't arrive, use a **D1** from a Post Office.",
+            "**High Risk Offenders** (2.5 times the limit or more, two drink-drive bans within 10 years, or failing or refusing to provide a specimen) must pass a **DVLA medical** before the licence is returned.",
+            "**Extended retest:** if the court ordered one, for example after dangerous driving, you must pass it before driving unsupervised.",
+            "**New drivers:** a revocation under the New Drivers Act means retaking both tests. See [6 points in your first 2 years](/qa/what-happens-if-you-get-6-points-in-your-first-2-years/)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 2: Finding Insurance as a Previously Banned Driver"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurers ask about disqualifications and motoring convictions, usually over the last 5 years. Many mainstream insurers decline banned drivers. See [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/). Specialist brokers will quote. A drink-drive ban typically starts at roughly double a clean-licence premium. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence/) for how the loading fades, and [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/) for points-only bans."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Ban Type",
+            "Typical Insurer View",
+            "Where to Look"
+          ],
+          "rows": [
+            [
+              "Totting up (12+ points)",
+              "Several speeding or phone offences: heavily loaded",
+              "Specialists; [black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/)"
+            ],
+            [
+              "Drink/drug driving (DR10/DR20)",
+              "Highest loading; 11 years on your licence",
+              "Convicted-driver specialists; [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui/) for the US equivalent"
+            ],
+            [
+              "No insurance (IN10) with a ban",
+              "Viewed as a high lapse risk",
+              "Specialists; see [IN10 conviction](/qa/what-is-an-in10-conviction/)"
+            ],
+            [
+              "Dangerous driving (DD40)",
+              "Very limited market",
+              "Specialist brokers"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "danger",
+          "title": "Driving While Disqualified Voids Any Insurance",
+          "text": "No policy covers a disqualified driver. Driving during a ban adds a new conviction, can lead to imprisonment, and usually brings an IN10 for no insurance as well. See [is it against the law to drive without insurance](/qa/is-it-against-the-law-to-drive-without-insurance/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 3: What to Declare and When to Stop"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the Rehabilitation of Offenders Act, a disqualification is spent when the ban ends, but the 5-year endorsement period usually applies too, so the longer period wins. For a 12-month drink-driving ban, that means declaring the conviction for 5 years from conviction, even though the DR10 stays on your licence for 11. Full rules: [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance/). Non-motoring convictions are a separate question. See [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions/). If you'll be a named driver on someone else's policy, read [named driver with a conviction](/qa/can-a-driver-with-a-conviction-be-a-named-driver/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Step 4: Keep the First Policy Affordable"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pick a cheap-to-insure car. Think carefully before also taking on a write-off. See [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure/).",
+            "Choose a sensible voluntary [excess](/learn/what-is-an-excess/), modelled with the [Car Insurance Deductible Calculator](/car-insurance-deductible-calculator/).",
+            "Consider telematics to prove safe driving.",
+            "Completing a drink-drive rehabilitation course shortens the ban, and some specialists credit it at renewal.",
+            "Re-quote every year, and in the month the conviction becomes spent."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "See all of this in practice in [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance/). US readers returning from a suspension usually need an [SR-22 insurance](/learn/sr-22-insurance/) filing (see [can you get auto insurance with a suspended license](/qa/can-you-get-auto-insurance-with-a-suspended-license/))."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "car-insurance-calculator",
+          "title": "Car Insurance Calculator",
+          "description": "Estimate your first-year premium after a ban and test excess choices."
+        },
+        {
+          "type": "disclaimer",
+          "text": "DVLA procedures and rehabilitation rules can change, and Northern Ireland uses the DVA. Check GOV.UK for current requirements. Insurance Bhaiya does not sell insurance or earn commissions."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "how-much-business-insurance-do-i-need",
       "slug": "how-much-business-insurance-do-i-need",
       "title": "How Much Business Insurance Do I Need? A Step-by-Step Method for Setting Liability, Property and Income Limits",
@@ -392,12 +731,12 @@
             [
               "Commercial crime",
               "Maximum cash and inventory one employee could divert before detection",
-              "Relying on property coverage; see [does business insurance cover theft](/qa/does-business-insurance-cover-theft/)"
+              "Relying on property coverage; see [does business insurance cover theft](/qa/does-business-insurance-cover-theft/) and [commercial crime insurance](/learn/commercial-crime-insurance/)"
             ],
             [
               "Professional liability",
               "Size of your largest contracts and the potential client losses from an error",
-              "Forgetting that defense costs often erode the limit"
+              "Forgetting that defense costs often erode the limit; see [general liability vs professional liability](/compare/general-liability-vs-professional-liability/)"
             ],
             [
               "Specialty / marine",
@@ -418,7 +757,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Picture the worst realistic claim for your business: a serious injury to a customer, a client loss caused by your error, or a fire that closes you for a season. Then check which policy responds and whether the limit holds up. Defense costs matter here: under the standard [general liability](/learn/commercial-general-liability-guide/) form they sit outside the limit, but many [professional liability](/learn/professional-indemnity-insurance/) policies count them against it. The policy-by-policy breakdown is in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/), and our guide on [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/) applies the same logic to personal coverage."
+          "text": "Picture the worst realistic claim for your business: a serious injury to a customer, a client loss caused by your error, or a fire that closes you for a season. Then check which policy responds and whether the limit holds up. Defense costs matter here: under the standard [general liability](/learn/commercial-general-liability-guide/) form they sit outside the limit, but many professional liability policies count them against it. The policy-by-policy breakdown is in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/), and our guide on [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/) applies the same logic to personal coverage."
         },
         {
           "type": "callout",
@@ -610,7 +949,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Federal law can override state workers' comp for people who work on or near the water. The Longshore and Harbor Workers' Compensation Act (USL&H) covers many workers injured on navigable waters or adjoining areas like piers, docks and boatyards. Vessel crew members who qualify as 'seamen' fall under the Jones Act, which lets them sue their employer for negligence rather than claim no-fault benefits. A standard state policy may exclude both, so marine employers typically need a USL&H endorsement and maritime employer's liability coverage."
+          "text": "Federal law can override state workers' comp for people who work on or near the water. The Longshore and Harbor Workers' Compensation Act (USL&H) covers many workers injured on navigable waters or adjoining areas like piers, docks and boatyards. Vessel crew members who qualify as 'seamen' fall under the Jones Act, which lets them sue their employer for negligence rather than claim no-fault benefits. A standard state policy may exclude both, so marine employers typically need a USL&H endorsement and maritime employer's liability coverage. The difference, including [exclusions](/glossary/exclusion/) for many marina staff, is explained in [USL&H vs Jones Act coverage](/qa/usl-h-vs-jones-act-difference/)."
         },
         {
           "type": "paragraph",
@@ -792,8 +1131,8 @@
             "**General liability (GL):** Bodily injury and property damage you cause to others, plus personal and advertising injury such as libel. It is the policy behind most 'is my business covered if someone sues' questions, answered in full in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/).",
             "**Commercial property:** Your building, equipment, furniture and inventory against fire, storm, vandalism and burglary. Whether it pays for a specific loss, including theft, is explained in [does business insurance cover theft](/qa/does-business-insurance-cover-theft/).",
             "**Business owner's policy (BOP):** A bundled GL plus property policy for smaller businesses, usually with business income coverage. It is cheaper than buying the two separately but has eligibility limits.",
-            "**Professional liability (E&O):** Claims that your advice, design or service caused a financial loss. General liability does not cover these.",
-            "**Commercial crime:** Employee theft, forgery and certain fraud, which property policies exclude.",
+            "**Professional liability (E&O):** Claims that your advice, design or service caused a financial loss. General liability does not cover these; compare the two in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/).",
+            "**Commercial crime:** Employee theft, forgery and certain fraud, which property policies exclude. See [commercial crime insurance](/learn/commercial-crime-insurance/).",
             "**Cyber liability:** Data breaches, ransomware and funds-transfer fraud.",
             "**Specialty lines:** Businesses on or near water need marine coverages that ordinary policies exclude; see [marine business insurance](/learn/marine-business-insurance/).",
             "**Commercial umbrella:** Extra liability limits above GL, auto and employer's liability. Our [umbrella insurance guide](/learn/umbrella-insurance-guide/) explains how the layers stack."
@@ -875,7 +1214,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Marinas, boat dealers, charter operators, marine contractors and repair yards face risks standard policies simply exclude: customers' vessels in your care, liability from operating boats, fuel spills, and employees covered by federal maritime law instead of state workers' comp. That is why [marine business insurance](/learn/marine-business-insurance/) is its own category, and why marine employers can't rely on a California workers' comp policy alone to cover their crews, even after checking [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/)."
+          "text": "Marinas, boat dealers, charter operators, marine contractors and repair yards face risks standard policies simply exclude: customers' vessels in your care, liability from operating boats, fuel spills, and employees covered by federal maritime law instead of state workers' comp. That is why [marine business insurance](/learn/marine-business-insurance/) is its own category, and why marine employers can't rely on a California workers' comp policy alone to cover their crews, even after checking [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/). The federal options are explained in [USL&H vs Jones Act coverage](/qa/usl-h-vs-jones-act-difference/)."
         },
         {
           "type": "heading",
@@ -884,7 +1223,7 @@
         },
         {
           "type": "paragraph",
-          "text": "You can usually cancel a business policy at any time with written notice. The questions are how much premium you get back, whether a short-rate penalty applies, and whether cancelling breaks a contract that requires you to stay insured. The rules, and the safe order of operations, are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/). For personal policies, see [can you cancel insurance anytime and get a refund](/qa/can-you-cancel-insurance-anytime-get-refund/)."
+          "text": "You can usually cancel a business policy at any time with written notice. The questions are how much premium you get back, whether a short-rate penalty applies, and whether cancelling breaks a contract that requires you to stay insured. The rules, and the safe order of operations, are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/). Claims-made policies also need an [extended reporting period (tail coverage)](/glossary/extended-reporting-period/) when you close or switch. For personal policies, see [can you cancel insurance anytime and get a refund](/qa/can-you-cancel-insurance-anytime-get-refund/)."
         },
         {
           "type": "heading",
@@ -895,7 +1234,7 @@
           "type": "list",
           "ordered": true,
           "items": [
-            "**Confirm legal requirements** for your state and headcount, starting with workers' comp exemptions ([California rules here](/qa/who-is-exempt-from-workers-compensation-insurance-california/)).",
+            "**Confirm legal requirements** for your state and headcount, starting with workers' comp exemptions ([California rules here](/qa/who-is-exempt-from-workers-compensation-insurance-california/)) and whether your 'contractors' really are ([do independent contractors need workers' comp in California](/qa/do-independent-contractors-need-workers-comp-california/)).",
             "**Collect contract requirements** from your lease, client agreements and lenders.",
             "**List what could be stolen and by whom**, then match each to a policy ([does business insurance cover theft](/qa/does-business-insurance-cover-theft/)).",
             "**List who could sue you** and check which policy defends each type of claim ([does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/)).",
@@ -974,7 +1313,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "\"Do sole traders need insurance?\" is one of the first questions people ask after registering for Self Assessment, usually followed by a slightly panicked \"what insurance do I need as a sole trader?\" when the first client sends a supplier form asking for a policy number."
+          "text": "\"Do sole traders need insurance?\" is one of the first questions people ask after registering for Self Assessment, usually followed by a slightly panicked \"what insurance do I need as a sole trader?\" when the first client sends a supplier form asking for a policy number. If you're doing it alongside a job, start with [do I need insurance for a side hustle](/qa/insurance-for-side-hustle-uk/)."
         },
         {
           "type": "paragraph",
@@ -1057,13 +1396,25 @@
               "Tools & equipment",
               "No",
               "Trades, photographers, mobile professionals",
-              "See the trade section below"
+              "[Tool insurance for tradespeople](/qa/tool-insurance-for-tradespeople/)"
             ],
             [
               "Income protection",
               "No",
               "Anyone who couldn't pay the bills after several weeks off sick",
               "[Income protection for the self-employed](/qa/income-protection-for-self-employed-uk/)"
+            ],
+            [
+              "Cyber insurance",
+              "No",
+              "Anyone holding client data or trading online",
+              "[Cyber insurance for sole traders](/qa/cyber-insurance-for-sole-traders/)"
+            ],
+            [
+              "Tax investigation (fee protection)",
+              "No",
+              "Anyone filing Self Assessment with judgement-call expenses",
+              "[Tax investigation insurance](/qa/tax-investigation-insurance-self-employed/)"
             ]
           ]
         },
@@ -1127,7 +1478,7 @@
         },
         {
           "type": "paragraph",
-          "text": "For tradespeople the biggest uninsured losses are usually property, not liability. Tools stolen overnight from a van are a common claim, and many policies only pay if the van was locked with tools out of sight, or they exclude overnight theft unless the van is garaged. Check those conditions and the [excess](/glossary/deductible/) before relying on tools cover. Builders working on clients' property may also need [contractors' all-risk cover](/learn/contractors-all-risk-contract-works-insurance-uk/) for the works in progress."
+          "text": "For tradespeople the biggest uninsured losses are usually property, not liability. Tools stolen overnight from a van are a common claim, and many policies only pay if the van was locked with tools out of sight, or they exclude overnight theft unless the van is garaged. Check those conditions and the [excess](/glossary/deductible/) before relying on tools cover; [does van insurance cover my tools](/qa/tool-insurance-for-tradespeople/) goes through them. Builders working on clients' property may also need [contractors' all-risk cover](/learn/contractors-all-risk-contract-works-insurance-uk/) for the works in progress. If you bring in help, whether you or they insure the work depends on whether they're labour-only or bona fide; see [do subcontractors need their own insurance](/qa/do-subcontractors-need-their-own-insurance/)."
         },
         {
           "type": "heading",
@@ -1154,7 +1505,7 @@
         },
         {
           "type": "paragraph",
-          "text": "HMRC lists insurance among allowable financial costs for the self-employed, so business policies such as public liability, professional indemnity and tools cover generally reduce your taxable profit. Personal cover such as income protection and life insurance generally doesn't. And if you use the £1,000 trading allowance, you can't claim expenses at all. The rules and edge cases are in [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+          "text": "HMRC lists insurance among allowable financial costs for the self-employed, so business policies such as public liability, professional indemnity and tools cover generally reduce your taxable profit. Personal cover such as income protection and life insurance generally doesn't. And if you use the £1,000 trading allowance, you can't claim expenses at all. The rules and edge cases are in [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/). If HMRC opens an enquiry into those claims, [tax investigation insurance](/qa/tax-investigation-insurance-self-employed/) covers the accountant's fees."
         },
         {
           "type": "heading",
@@ -1176,9 +1527,10 @@
           "items": [
             "**Describing your trade loosely.** Policies are rated by occupation, and work outside the declared trade may not be covered. Under the Insurance Act 2015 you owe insurers a fair presentation of the risk.",
             "**Assuming public liability covers advice.** It doesn't. Financial-loss claims need professional indemnity.",
-            "**Forgetting casual help.** Paying a friend for a weekend's labour can make you an employer for EL purposes.",
+            "**Forgetting casual help.** Paying a friend for a weekend's labour can make you an employer for EL purposes; see [labour-only vs bona fide subcontractors](/qa/do-subcontractors-need-their-own-insurance/).",
             "**Leaving tools in the van overnight** without checking the policy's theft conditions.",
-            "**Not telling your home or car insurer** that you've gone self-employed."
+            "**Not telling your home or car insurer** that you've gone self-employed.",
+            "**Ignoring cyber risk.** 42% of micro businesses reported a breach or attack in the last year; see [cyber insurance for sole traders](/qa/cyber-insurance-for-sole-traders/)."
           ]
         },
         {
@@ -1352,6 +1704,10 @@
           "text": "No. UK insurers don't file certificates with the DVLA. Instead, the conviction itself is the issue, and you must declare it while it's unspent. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence/), [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance/) and [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions/). Buying a repaired write-off with a conviction? Read [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure/), [Cat S vs Cat N](/compare/cat-s-vs-cat-n-car-insurance/) and [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance/)."
         },
         {
+          "type": "paragraph",
+          "text": "Other high-risk routes: drivers with felony records should read [car insurance with a felony](/qa/can-you-get-car-insurance-with-a-felony/). If you're declined everywhere, see [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/). Telematics can help rebuild your record during the SR-22 period (see [black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/)). UK readers caught driving uninsured face an [IN10 conviction](/qa/what-is-an-in10-conviction/) rather than an SR-22."
+        },
+        {
           "type": "calculator-embed",
           "toolSlug": "car-insurance-calculator",
           "title": "Car Insurance Calculator",
@@ -1414,6 +1770,10 @@
         {
           "question": "Is it worth buying a Cat N car as a high-risk driver?",
           "answer": "Only if the purchase discount (often 20–40%) outweighs any insurance surcharge and the lower future payout. See [are Cat N cars more expensive to insure](/qa/are-cat-n-cars-more-expensive-to-insure/)."
+        },
+        {
+          "question": "Can I be a named driver if I have a conviction?",
+          "answer": "Usually, yes, if the conviction is declared. Listing yourself as a named driver when you're really the main driver is fronting. See [named driver with a conviction](/qa/can-a-driver-with-a-conviction-be-a-named-driver/)."
         }
       ],
       "companionTool": {
@@ -1541,6 +1901,27 @@
           "variant": "tip",
           "title": "Real-World Walkthrough",
           "text": "See how one driver combines a DR10 conviction and a Cat N car into an insurable plan in [Ryan's DR10 and Cat N car insurance scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance/). For a US perspective on liability limits, see the [California auto coverage scenario](/scenarios/jordan-california-auto-coverage/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "More Guides for High-Risk and Convicted Drivers"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Penalty points:** [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/), including how much SP30 and CU80 points add to a premium.",
+            "**New drivers:** what happens with [6 points in your first 2 years](/qa/what-happens-if-you-get-6-points-in-your-first-2-years/) under the New Drivers Act.",
+            "**Speeding:** do you have to [tell your insurer about a speeding ticket](/qa/do-you-have-to-tell-your-insurer-about-a-speeding-ticket/) or a speed awareness course?",
+            "**Driving uninsured:** what an [IN10 conviction](/qa/what-is-an-in10-conviction/) means for your licence and premium.",
+            "**Coming back from a ban:** [car insurance after a driving ban](/learn/car-insurance-after-a-driving-ban/), including the D27 form, the High Risk Offender medical and what to declare.",
+            "**US criminal records:** can you get [car insurance with a felony](/qa/can-you-get-car-insurance-with-a-felony/)?",
+            "**Telematics:** does [black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/) actually save money?",
+            "**Refusals:** [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/), and what to do when every insurer says no.",
+            "**Household drivers:** adding a [named driver with a conviction](/qa/can-a-driver-with-a-conviction-be-a-named-driver/), and why fronting is fraud.",
+            "**The 12-point rule:** what [totting up](/glossary/totting-up/) means and how bans are calculated."
+          ]
         },
         {
           "type": "calculator-embed",
@@ -20324,6 +20705,55 @@
           "whyItMatters": "Either way, undeclared business driving or home business use can invalidate cover. See [business car insurance](/qa/business-car-insurance-for-sole-traders/) and [working from home insurance](/qa/sole-trader-working-from-home-insurance/)."
         }
       ]
+    },
+    {
+      "slug": "general-liability-vs-professional-liability",
+      "title": "General Liability vs. Professional Liability (E&O) Insurance",
+      "subtitle": "General liability answers 'you hurt someone or damaged their property'; professional liability answers 'your work or advice cost someone money'.",
+      "category": "General Principles",
+      "decisionSummary": "Almost every business needs [general liability](/learn/commercial-general-liability-guide/), because leases and contracts require it and any customer can be injured on your premises. Any business that gives advice, designs, reports or professional services also needs professional liability (errors and omissions), because general liability excludes financial losses caused by your work. If you've ever asked [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/), the answer depends on which of these two policies the claim falls under. Size both with [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/), and see where they fit in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub.",
+      "options": {
+        "optionA": "General Liability (CGL)",
+        "optionB": "Professional Liability (E&O)"
+      },
+      "rows": [
+        {
+          "feature": "What Triggers a Claim",
+          "optionA": "Bodily injury, property damage, or personal and advertising injury (such as libel or slander) caused by your operations.",
+          "optionB": "A financial loss to a client caused by your error, omission, negligent advice or failure to deliver professional services.",
+          "whyItMatters": "A client who loses money because of your mistake has suffered no physical injury or property damage, so general liability won't respond."
+        },
+        {
+          "feature": "Typical Example",
+          "optionA": "A client trips over a cable in your office and breaks a wrist.",
+          "optionB": "A client says your campaign, code or financial advice caused $200,000 in lost revenue.",
+          "whyItMatters": "Most service businesses face the second kind of claim far more often than the first."
+        },
+        {
+          "feature": "Coverage Trigger",
+          "optionA": "Usually occurrence-based: the policy in force when the injury happened responds, even if the suit comes years later.",
+          "optionB": "Usually claims-made: the policy in force when the claim is made responds, for work after the retroactive date.",
+          "whyItMatters": "Cancelling a claims-made policy without tail coverage can leave past work uninsured; see [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/) and [extended reporting period](/glossary/extended-reporting-period/)."
+        },
+        {
+          "feature": "Defense Costs",
+          "optionA": "In the standard form, paid in addition to the policy limit.",
+          "optionB": "Often paid within the limit, so legal fees reduce what's left for settlements.",
+          "whyItMatters": "A $1 million E&O policy can shrink sharply after a long legal fight, so E&O limits often need to be higher."
+        },
+        {
+          "feature": "Who Requires It",
+          "optionA": "Landlords, client contracts, licensing boards and event venues.",
+          "optionB": "Client contracts, especially in IT, consulting, design and finance, and some professional licenses.",
+          "whyItMatters": "Read your contracts: many now ask for both policies, each with its own limit."
+        },
+        {
+          "feature": "What It Doesn't Cover",
+          "optionA": "Professional errors, employee injuries, employment claims, auto accidents, property in your care.",
+          "optionB": "Bodily injury and property damage, intentional wrongdoing, fines, and theft losses (see [commercial crime insurance](/learn/commercial-crime-insurance/)).",
+          "whyItMatters": "The two policies are designed to fit together, with almost no overlap."
+        }
+      ]
     }
   ],
   "glossary": [
@@ -21889,8 +22319,121 @@
           "text": "Think of three layers. **Standard** carriers take most drivers. **Non-standard** carriers voluntarily take higher-risk drivers at higher prices. **Assigned risk** plans are the state's guaranteed last resort. UK drivers don't have the last layer; specialist brokers fill the gap. Write-off cars sit across all three layers. Compare categories in [Cat S vs Cat N car insurance](/compare/cat-s-vs-cat-n-car-insurance/), and see a full example in [Ryan's DR10 and Cat N scenario](/scenarios/ryan-leeds-dr10-cat-n-car-insurance/)."
         },
         {
+          "type": "paragraph",
+          "text": "Typical non-standard customers include drivers who have been declined elsewhere (see [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/)), drivers returning after a [totting up](/glossary/totting-up/) ban or a drink-drive ban (see [car insurance after a driving ban](/learn/car-insurance-after-a-driving-ban/)), drivers with [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/), US drivers with felony records (see [car insurance with a felony](/qa/can-you-get-car-insurance-with-a-felony/)), and drivers using [black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/) to rebuild their record."
+        },
+        {
           "type": "disclaimer",
           "text": "Insurer terms and state rules vary. Insurance Bhaiya does not sell insurance or earn commissions."
+        }
+      ]
+    },
+    {
+      "slug": "totting-up",
+      "term": "Totting Up",
+      "title": "What Is Totting Up? The 12-Point Rule, Ban Lengths and How It Affects Car Insurance",
+      "description": "Totting up explained: 12 points within 3 years normally means at least a 6-month ban, the exceptional hardship argument, and what it does to car insurance.",
+      "ukTerm": "Totting Up (UK term)",
+      "category": "Auto & Driving",
+      "simpleDefinition": "Totting up is the UK rule under which a driver who builds up 12 or more penalty points within 3 years is normally disqualified from driving, usually for at least 6 months.",
+      "scoutExplanation": "Points from offences committed within a 3-year window count towards the total. At 12 or more, the court must normally impose a minimum ban: 6 months, rising to 12 months if you've had a ban in the previous 3 years, and 2 years for two or more previous bans. A court can reduce or avoid the ban only if you prove **exceptional hardship**, which means hardship to others, not just inconvenience to you. New drivers face a stricter 6-point limit in their first 2 years (see [6 points in your first 2 years](/qa/what-happens-if-you-get-6-points-in-your-first-2-years/)). Insurers price the underlying convictions (see [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/)) and the disqualification (see [car insurance after a driving ban](/learn/car-insurance-after-a-driving-ban/)), and many mainstream insurers decline recently banned drivers. Our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/) covers every route back.",
+      "example": "Mo receives four SP30 speeding convictions of 3 points each within 26 months, reaching 12 points. The court imposes a 6-month totting-up ban. His £680 premium becomes about £1,950 at his first specialist renewal after the ban, then falls to about £1,300 the following year with a telematics policy.",
+      "whyItMatters": "A totting-up ban is easy to sleepwalk into through several minor offences. It costs more than the ban itself: years of higher premiums, fewer insurers willing to quote, and convictions you must declare until they're spent (see [do you have to declare spent convictions](/qa/do-you-have-to-declare-spent-convictions-for-car-insurance/) and [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence/)). Taking a speed awareness course instead of points, when you're offered one, can keep you away from 12 (see [tell your insurer about a speeding ticket](/qa/do-you-have-to-tell-your-insurer-about-a-speeding-ticket/)). Each claim-free year rebuilds your [no-claims bonus](/glossary/no-claims-bonus/), which steadily offsets the conviction loading.",
+      "relatedTerms": [
+        "no-claims-bonus",
+        "bonus-malus-system",
+        "non-standard-auto-insurance"
+      ],
+      "miniQuiz": {
+        "question": "A driver who passed their test 10 years ago has 9 points and receives 3 more for speeding within the same 3-year window. What normally happens?",
+        "options": [
+          {
+            "text": "They reach 12 points and are normally banned for at least 6 months under totting up.",
+            "correct": true,
+            "explanation": "Correct. 12 or more points within 3 years normally triggers a minimum 6-month disqualification."
+          },
+          {
+            "text": "Their licence is revoked and they must retake their test.",
+            "correct": false,
+            "explanation": "Revocation and a retest apply under the New Drivers Act at 6 points within 2 years of passing, not to experienced drivers."
+          },
+          {
+            "text": "Nothing happens until they reach 15 points.",
+            "correct": false,
+            "explanation": "The totting-up threshold is 12 points."
+          },
+          {
+            "text": "Their insurer must cover them without any increase.",
+            "correct": false,
+            "explanation": "Insurers can increase premiums, or decline, for convictions and bans."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "After a Totting-Up Ban"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expect specialist pricing at first. [Black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/) can speed up the recovery. If mainstream insurers decline you, read [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/) and look at [non-standard auto insurance](/glossary/non-standard-auto-insurance/) providers. US drivers face state point systems instead, with possible suspensions and [SR-22 insurance](/learn/sr-22-insurance/) filings."
+        },
+        {
+          "type": "disclaimer",
+          "text": "This is a summary of the Road Traffic Offenders Act 1988, s.35. Sentencing depends on the court. Insurance Bhaiya does not give legal advice or sell insurance."
+        }
+      ]
+    },
+    {
+      "slug": "extended-reporting-period",
+      "term": "Extended Reporting Period (Tail Coverage)",
+      "title": "What Is an Extended Reporting Period (Tail Coverage)? Definition, Cost and When You Need It",
+      "description": "An extended reporting period (tail coverage) lets you report claims after a claims-made policy ends. How it works, typical options, cost and when to buy it.",
+      "ukTerm": "",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "An extended reporting period, often called tail coverage, gives you extra time after a claims-made policy ends to report claims arising from work you did while the policy was active.",
+      "scoutExplanation": "Professional liability, EPLI, D&O and cyber policies are usually written on a claims-made basis: they respond only if the claim is made and reported while the policy is in force, for work done after the retroactive date. If the policy is cancelled or not renewed, a claim that arrives later over past work has nowhere to go. An extended reporting period fixes that by extending the reporting window. Many policies include a short automatic window, and insurers offer longer optional tails, commonly one, two, three or five years, or unlimited. The optional tail is typically priced as a multiple of the last annual premium and must be bought within a short deadline after the policy ends. This is why the answer to [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/) is 'yes, but not carelessly' for claims-made policies, and why the defense rules in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/) depend on which policy was in force when the claim was made. Occurrence-based general liability doesn't need a tail; see [general liability vs professional liability](/compare/general-liability-vs-professional-liability/).",
+      "example": "A consultant carried claims-made professional liability from 2022 to 2026, then closed her business and bought a three-year tail. In 2027, a former client sued over a 2025 project. Because the tail was in place, the insurer defended and settled the claim. Without it, the consultant would have paid both her lawyers and any settlement herself.",
+      "whyItMatters": "Cancelling or switching a claims-made policy without a tail, or without a new policy that keeps your original retroactive date, can leave years of past work uninsured. For a business closing down or a professional retiring, the tail is often the last and most important insurance purchase. Review it alongside the limits in [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/) and the overall picture in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub.",
+      "relatedTerms": [
+        "premium",
+        "exclusion",
+        "deductible"
+      ],
+      "miniQuiz": {
+        "question": "You close your consulting firm and let your claims-made E&O policy expire without buying a tail. A client sues a year later over work done while the policy was active. What happens?",
+        "options": [
+          {
+            "text": "The expired policy covers it, because the work happened while the policy was active.",
+            "correct": false,
+            "explanation": "Incorrect. That is how an occurrence policy works. A claims-made policy responds only to claims made while it, or an extended reporting period, is in force."
+          },
+          {
+            "text": "The claim is likely uninsured because there is no policy or tail in force when it was made.",
+            "correct": true,
+            "explanation": "Correct. Without an extended reporting period, a claims-made policy doesn't respond to claims made after it ends."
+          },
+          {
+            "text": "General liability will cover it instead.",
+            "correct": false,
+            "explanation": "Incorrect. General liability excludes professional errors and financial losses from your services."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Tail vs Prior Acts ('Nose') Coverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you're switching insurers rather than closing, you may not need a tail. A new claims-made policy can include prior acts coverage, keeping your original retroactive date so it covers earlier work. Confirm the retroactive date on the new declarations page before cancelling the old policy; our guide on [how to read an insurance policy](/learn/how-to-read-an-insurance-policy/) shows where it sits."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Tail options, pricing and purchase deadlines vary by insurer and policy form. Insurance Bhaiya does not sell insurance; confirm terms with your insurer or a licensed agent."
         }
       ]
     }
@@ -22754,7 +23297,9 @@
         "Use specialist brokers rather than comparison sites. Our [Adrian Flux](/qa/my-adrian-flux/) explainer shows how a specialist broker works, and [agent vs broker vs insurer](/learn/agent-vs-broker-vs-insurer/) explains who represents whom.",
         "Bring the Cat N repair invoices, before-and-after photos and a fresh MOT to every quote, and check whether his gap insurer accepts previously written-off cars ([gap insurance](/glossary/gap-insurance/)).",
         "Test voluntary excess levels with the [Car Insurance Deductible Calculator](/car-insurance-deductible-calculator/) and read [what is an excess](/learn/what-is-an-excess/). Keep the total excess within his emergency savings.",
-        "If he ever moves to the US, there's no 'spent' concept: a DUI there brings [SR-22 insurance](/learn/sr-22-insurance/) filings, increases covered in [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui/), [non-standard auto insurance](/glossary/non-standard-auto-insurance/) carriers and, as a last resort, an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan/)."
+        "If he ever moves to the US, there's no 'spent' concept: a DUI there brings [SR-22 insurance](/learn/sr-22-insurance/) filings, increases covered in [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui/), [non-standard auto insurance](/glossary/non-standard-auto-insurance/) carriers and, as a last resort, an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan/).",
+        "Follow the licence-return and first-policy steps in [car insurance after a driving ban](/learn/car-insurance-after-a-driving-ban/), and compare a telematics option ([black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/)). If several insurers decline him, read [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/).",
+        "Ryan must never be listed as a named driver on his partner's car if he actually drives it most of the time. See [named driver with a conviction](/qa/can-a-driver-with-a-conviction-be-a-named-driver/). Any new speeding points would add to his loading (see [tell your insurer about a speeding ticket](/qa/do-you-have-to-tell-your-insurer-about-a-speeding-ticket/) and [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/)), and 12 points within 3 years would trigger a [totting up](/glossary/totting-up/) ban."
       ]
     }
   ],
@@ -25361,6 +25906,141 @@
       "shortAnswer": "Yes, in most cases you can cancel a business insurance policy at any time by sending your insurer or agent a written cancellation request. What varies is the refund: some policies return unused premium pro rata, while others apply a short-rate penalty (often around 10% of the unearned premium) or a minimum earned premium. Before cancelling, make sure replacement coverage starts first, check whether a lease or contract requires continuous coverage, and remember that claims-made policies and workers' comp have extra steps. The full picture of business coverage is in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub.",
       "readingTime": "6 min read",
       "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-264",
+      "slug": "can-you-get-car-insurance-with-points-on-your-licence",
+      "category": "Auto",
+      "question": "Can you get car insurance with points on your licence, and how much more will it cost?",
+      "shortAnswer": "Yes. Most UK insurers will still cover you with penalty points, but you'll pay more. Admiral's October 2023 quote data showed an **SP30 speeding conviction with 1–3 points raising premiums by about 34%**, 4–6 points by about 58%, and 7+ points by about 94%. A **CU80 mobile-phone conviction** cost more, at roughly +55% for 1–3 points and +174% for 7+. You must declare unspent motoring convictions when asked, usually for 5 years. Points on their own expire sooner. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence/) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-265",
+      "slug": "what-happens-if-you-get-6-points-in-your-first-2-years",
+      "category": "Auto",
+      "question": "What happens if you get 6 points in your first 2 years of driving, and how does it affect insurance?",
+      "shortAnswer": "Under the UK's **New Drivers Act**, if you reach **6 or more penalty points within 2 years of passing your first practical test**, the DVLA **revokes your licence**. You have to apply for a new provisional licence, drive with L plates under supervision, and **pass both the theory and practical tests again**. Points from offences committed as a learner carry over and count towards the 6. Your insurance will usually be cancelled or become invalid, and once you pass again you'll be a young driver with a motoring conviction, one of the most expensive profiles to insure. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-266",
+      "slug": "do-you-have-to-tell-your-insurer-about-a-speeding-ticket",
+      "category": "Auto",
+      "question": "Do you have to tell your insurer about a speeding ticket or a speed awareness course?",
+      "shortAnswer": "In the UK, a speeding offence that leads to **penalty points (SP30 and similar codes) is a motoring conviction**. Declare it when your insurer asks, which is usually at your next renewal or when you buy a new policy. Some policies also require you to report convictions mid-term, so check your policy wording. A **speed awareness course isn't a conviction** and adds no points. You only need to mention it if the insurer **specifically asks**, and most don't. In the US, you don't usually report a ticket yourself: insurers see it on your motor vehicle record at renewal. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-267",
+      "slug": "what-is-an-in10-conviction",
+      "category": "Auto",
+      "question": "What is an IN10 conviction, and how does it affect car insurance?",
+      "shortAnswer": "**IN10** is the UK endorsement code for **using a vehicle uninsured against third-party risks**. It carries **6–8 penalty points**, a **£300 fixed penalty** or an unlimited court fine, possible disqualification, and police can seize the car. The endorsement usually stays on your licence for **4 years from the offence date** (from conviction if you were banned). You must declare it while it's unspent, typically **5 years from conviction**. Insurers treat IN10 as a red flag, because it suggests you might drive uninsured again, so expect a significant loading and fewer mainstream quotes. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-268",
+      "slug": "can-you-get-car-insurance-with-a-felony",
+      "category": "Auto",
+      "question": "Can you get car insurance with a felony conviction in the US?",
+      "shortAnswer": "Yes. A felony doesn't automatically bar you from car insurance in the US, and both standard and high-risk insurers write drivers with felony records. What matters most is **whether the felony is driving-related**. Felony DUI, vehicular assault or hit-and-run appear on your motor vehicle record (MVR) and can raise premiums sharply. One analysis put felony-DUI full coverage at about **$159–$267 a month**, against $98–$161 for a clean record. They often trigger an [SR-22 insurance](/learn/sr-22-insurance/) filing too. **Non-driving** felonies usually don't appear on your MVR, but if an application asks about felonies, you must answer truthfully. A false answer is grounds to cancel the policy. UK readers should see [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions/). Our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/) covers both markets.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-269",
+      "slug": "does-black-box-insurance-help-high-risk-drivers",
+      "category": "Auto",
+      "question": "Does black box (telematics) insurance help high-risk or convicted drivers save money?",
+      "shortAnswer": "Often, yes. Telematics, known as **black box** insurance in the UK and **usage-based insurance** in the US, prices you partly on how you actually drive: speed, braking, time of day and mileage. That evidence can offset part of a conviction loading, and some specialist insurers offer telematics specifically to drivers with points, bans or young-driver convictions. It isn't magic: the conviction still has to be declared, poor driving scores can raise the premium or lead to cancellation, and some US programs can **increase** rates for risky driving. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-270",
+      "slug": "can-an-insurance-company-refuse-to-insure-you",
+      "category": "Auto",
+      "question": "Can an insurance company refuse to insure you, and what can you do if every insurer says no?",
+      "shortAnswer": "Yes. In both the UK and the US, car insurers can decline to offer you a new policy based on their underwriting rules: convictions, claims history, a cancelled or voided policy, the car, where you live, or occupation. They can't refuse for unlawful reasons, such as protected characteristics under equality law (UK) or reasons a state prohibits (US). Cancelling mid-term or non-renewing an existing policy is more tightly regulated, with notice periods and limited grounds. If mainstream insurers say no, UK drivers turn to **specialist brokers**, and US drivers to **non-standard carriers** and, as a last resort, an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan/). See our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-271",
+      "slug": "can-a-driver-with-a-conviction-be-a-named-driver",
+      "category": "Auto",
+      "question": "Can a driver with a conviction be a named driver on someone else's car insurance?",
+      "shortAnswer": "Usually, yes, as long as the convictions are **declared** and the insurer accepts them. Adding a driver with points or a ban will normally raise the policyholder's premium, and some insurers will refuse a named driver with serious convictions such as DR10 or IN10. What you can't do is list the convicted person as a named driver when they're really the **main driver**. That's **fronting**, a form of insurance fraud that can void the policy. In the US, households can instead **exclude** a high-risk driver by endorsement, but the excluded person then has no cover on that car. See our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers/).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-272",
+      "slug": "tool-insurance-for-tradespeople",
+      "category": "General",
+      "question": "Does van insurance cover my tools, and do I need tool insurance as a sole trader?",
+      "shortAnswer": "Usually not. Most standard UK van policies don't include tools or van contents, so you need a tool insurance add-on or a standalone policy. Read the conditions closely. Many tool policies exclude theft from a van parked overnight on a public road, require the van to be locked with tools out of sight, and need evidence of forced entry. Single-item limits are often £500–£1,500, so specify expensive kit individually. Tool cover is one part of [what insurance a sole trader needs](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-273",
+      "slug": "insurance-for-side-hustle-uk",
+      "category": "General",
+      "question": "Do I need insurance for a side hustle in the UK?",
+      "shortAnswer": "Often yes, at least partly. A side hustle makes you self-employed for that activity, and your employer's insurance doesn't cover it. Personal home and car policies may also exclude business use unless you tell the insurer. Whether you need public liability, professional indemnity or product liability depends on what you do: meeting clients, giving advice or selling goods. Separately, HMRC generally expects you to register for Self Assessment once side income exceeds the £1,000 trading allowance. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-274",
+      "slug": "do-subcontractors-need-their-own-insurance",
+      "category": "Legal",
+      "question": "Do subcontractors need their own insurance in the UK?",
+      "shortAnswer": "It depends on the kind of subcontractor. A **bona fide subcontractor** works independently with their own tools and materials, and should carry their own public liability, usually at a limit no lower than yours. A **labour-only subcontractor** works under your direction using your tools and is generally treated as your employee for insurance purposes, so your employers' liability and public liability cover them. Get the classification wrong and you may be uninsured. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-275",
+      "slug": "cyber-insurance-for-sole-traders",
+      "category": "General",
+      "question": "Do sole traders need cyber insurance?",
+      "shortAnswer": "It isn't compulsory, but it's worth considering if you hold customer data, take payments online or depend on email and cloud accounts to trade. The UK government's Cyber Security Breaches Survey 2025/26 found that 42% of micro businesses suffered a breach or attack in the previous 12 months, and phishing was the most common type. Cyber insurance typically pays for incident response, data recovery, business interruption and liability to affected customers, which public liability and home insurance don't cover. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-276",
+      "slug": "tax-investigation-insurance-self-employed",
+      "category": "General",
+      "question": "Is tax investigation insurance worth it for the self-employed?",
+      "shortAnswer": "Tax investigation insurance pays your accountant's professional fees if HMRC opens an enquiry into your tax return. It does **not** pay any tax, interest or penalties found to be due. For self-employed people it typically costs from about £75 a year, with cover for professional fees up to tens of thousands of pounds. It's most worthwhile if your accounts involve judgement calls (mixed-use expenses, home-office claims, cash income) or if a full enquiry's fees would strain your finances. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-277",
+      "slug": "do-independent-contractors-need-workers-comp-california",
+      "category": "Legal",
+      "question": "Do independent contractors need workers' comp in California?",
+      "shortAnswer": "A genuine independent contractor doesn't have to be covered by your workers' comp policy, and a contractor with no employees isn't required to carry workers' comp on themselves. But California presumes workers are employees unless the hiring business proves all three parts of the ABC test (Labor Code 2775): the worker is free from your control, does work outside your usual course of business, and runs an independently established business. If any prong fails, the 'contractor' is your employee and must be covered. Some occupations are judged under the older Borello test instead, and certain licensed contractors must carry workers' comp regardless. See [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/) for the full exemption list.",
+      "readingTime": "7 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-278",
+      "slug": "usl-h-vs-jones-act-difference",
+      "category": "Legal",
+      "question": "What is the difference between USL&H and Jones Act coverage?",
+      "shortAnswer": "USL&H coverage insures your obligations under the federal Longshore and Harbor Workers' Compensation Act, a no-fault benefit system for maritime workers such as dock workers, ship repairers and harbor construction crews who are not vessel crew. Jones Act coverage (maritime employer's liability) protects you against negligence lawsuits by 'seamen', crew members with a substantial connection to a vessel in navigation, who can sue for full damages and are also owed maintenance and cure. One covers scheduled benefits, the other covers lawsuits, and which one applies depends on the worker's duties and connection to a vessel. Both are core parts of [marine business insurance](/learn/marine-business-insurance/).",
+      "readingTime": "7 min read",
+      "difficulty": "Advanced"
     }
   ]
 }

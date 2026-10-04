@@ -19,6 +19,20 @@ function escapeHtml(str) {
 const FALLBACK_INDEX = {
   "articles": [
     {
+    "title": "Commercial Crime Insurance Explained: Employee Theft, Forgery and Funds-Transfer Fraud Your Property Policy Won't Cover",
+    "slug": "commercial-crime-insurance",
+    "description": "Commercial crime insurance covers employee theft, forgery, robbery and funds-transfer fraud that property policies exclude. What it covers, limits and ERISA bonds.",
+    "category": "business-insurance"
+},
+
+    {
+    "title": "Car Insurance After a Driving Ban: Getting Your Licence Back, What to Declare and How Premiums Recover",
+    "slug": "car-insurance-after-a-driving-ban",
+    "description": "Car insurance after a UK driving ban: the D27 or D1 licence return, the High Risk Offender medical, what to declare, year-1 costs, and how premiums fall.",
+    "category": "car-insurance"
+},
+
+    {
     "title": "How Much Business Insurance Do I Need? A Step-by-Step Method for Setting Liability, Property and Income Limits",
     "slug": "how-much-business-insurance-do-i-need",
     "description": "How much business insurance do you need? Size general liability, property, business income, crime and umbrella limits using contracts, assets and worst-case losses.",
@@ -1062,6 +1076,111 @@ const FALLBACK_INDEX = {
     }
   ],
   "qa": [
+      {
+      "question": "What is the difference between USL&H and Jones Act coverage?",
+      "slug": "usl-h-vs-jones-act-difference",
+      "shortAnswer": "USL&H coverage insures your obligations under the federal Longshore and Harbor Workers' Compensation Act, a no-fault benefit system for maritime workers such as dock workers, ship repairers and harbor construction crews who are not vessel crew. Jones Act coverage (maritime employer's liability) protects you against negligence lawsuits by 'seamen', crew members with a substantial connection to a vessel in navigation, who can sue for full damages and are also owed maintenance and cure. One covers scheduled benefits, the other covers lawsuits, and which one applies depends on the worker's duties and connection to a vessel. Both are core parts of [marine business insurance](/learn/marine-business-insurance).",
+      "category": "Legal"
+},
+
+      {
+      "question": "Do independent contractors need workers' comp in California?",
+      "slug": "do-independent-contractors-need-workers-comp-california",
+      "shortAnswer": "A genuine independent contractor doesn't have to be covered by your workers' comp policy, and a contractor with no employees isn't required to carry workers' comp on themselves. But California presumes workers are employees unless the hiring business proves all three parts of the ABC test (Labor Code 2775): the worker is free from your control, does work outside your usual course of business, and runs an independently established business. If any prong fails, the 'contractor' is your employee and must be covered. Some occupations are judged under the older Borello test instead, and certain licensed contractors must carry workers' comp regardless. See [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california) for the full exemption list.",
+      "category": "Legal"
+},
+
+      {
+      "question": "Is tax investigation insurance worth it for the self-employed?",
+      "slug": "tax-investigation-insurance-self-employed",
+      "shortAnswer": "Tax investigation insurance pays your accountant's professional fees if HMRC opens an enquiry into your tax return. It does **not** pay any tax, interest or penalties found to be due. For self-employed people it typically costs from about \u00a375 a year, with cover for professional fees up to tens of thousands of pounds. It's most worthwhile if your accounts involve judgement calls (mixed-use expenses, home-office claims, cash income) or if a full enquiry's fees would strain your finances. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "General"
+},
+
+      {
+      "question": "Do sole traders need cyber insurance?",
+      "slug": "cyber-insurance-for-sole-traders",
+      "shortAnswer": "It isn't compulsory, but it's worth considering if you hold customer data, take payments online or depend on email and cloud accounts to trade. The UK government's Cyber Security Breaches Survey 2025/26 found that 42% of micro businesses suffered a breach or attack in the previous 12 months, and phishing was the most common type. Cyber insurance typically pays for incident response, data recovery, business interruption and liability to affected customers, which public liability and home insurance don't cover. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "General"
+},
+
+      {
+      "question": "Do subcontractors need their own insurance in the UK?",
+      "slug": "do-subcontractors-need-their-own-insurance",
+      "shortAnswer": "It depends on the kind of subcontractor. A **bona fide subcontractor** works independently with their own tools and materials, and should carry their own public liability, usually at a limit no lower than yours. A **labour-only subcontractor** works under your direction using your tools and is generally treated as your employee for insurance purposes, so your employers' liability and public liability cover them. Get the classification wrong and you may be uninsured. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "Legal"
+},
+
+      {
+      "question": "Do I need insurance for a side hustle in the UK?",
+      "slug": "insurance-for-side-hustle-uk",
+      "shortAnswer": "Often yes, at least partly. A side hustle makes you self-employed for that activity, and your employer's insurance doesn't cover it. Personal home and car policies may also exclude business use unless you tell the insurer. Whether you need public liability, professional indemnity or product liability depends on what you do: meeting clients, giving advice or selling goods. Separately, HMRC generally expects you to register for Self Assessment once side income exceeds the \u00a31,000 trading allowance. See [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "General"
+},
+
+      {
+      "question": "Does van insurance cover my tools, and do I need tool insurance as a sole trader?",
+      "slug": "tool-insurance-for-tradespeople",
+      "shortAnswer": "Usually not. Most standard UK van policies don't include tools or van contents, so you need a tool insurance add-on or a standalone policy. Read the conditions closely. Many tool policies exclude theft from a van parked overnight on a public road, require the van to be locked with tools out of sight, and need evidence of forced entry. Single-item limits are often \u00a3500\u2013\u00a31,500, so specify expensive kit individually. Tool cover is one part of [what insurance a sole trader needs](/learn/what-insurance-does-a-sole-trader-need/).",
+      "category": "General"
+},
+
+      {
+      "question": "Can a driver with a conviction be a named driver on someone else's car insurance?",
+      "slug": "can-a-driver-with-a-conviction-be-a-named-driver",
+      "shortAnswer": "Usually, yes, as long as the convictions are **declared** and the insurer accepts them. Adding a driver with points or a ban will normally raise the policyholder's premium, and some insurers will refuse a named driver with serious convictions such as DR10 or IN10. What you can't do is list the convicted person as a named driver when they're really the **main driver**. That's **fronting**, a form of insurance fraud that can void the policy. In the US, households can instead **exclude** a high-risk driver by endorsement, but the excluded person then has no cover on that car. See our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can an insurance company refuse to insure you, and what can you do if every insurer says no?",
+      "slug": "can-an-insurance-company-refuse-to-insure-you",
+      "shortAnswer": "Yes. In both the UK and the US, car insurers can decline to offer you a new policy based on their underwriting rules: convictions, claims history, a cancelled or voided policy, the car, where you live, or occupation. They can't refuse for unlawful reasons, such as protected characteristics under equality law (UK) or reasons a state prohibits (US). Cancelling mid-term or non-renewing an existing policy is more tightly regulated, with notice periods and limited grounds. If mainstream insurers say no, UK drivers turn to **specialist brokers**, and US drivers to **non-standard carriers** and, as a last resort, an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan). See our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Does black box (telematics) insurance help high-risk or convicted drivers save money?",
+      "slug": "does-black-box-insurance-help-high-risk-drivers",
+      "shortAnswer": "Often, yes. Telematics, known as **black box** insurance in the UK and **usage-based insurance** in the US, prices you partly on how you actually drive: speed, braking, time of day and mileage. That evidence can offset part of a conviction loading, and some specialist insurers offer telematics specifically to drivers with points, bans or young-driver convictions. It isn't magic: the conviction still has to be declared, poor driving scores can raise the premium or lead to cancellation, and some US programs can **increase** rates for risky driving. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you get car insurance with a felony conviction in the US?",
+      "slug": "can-you-get-car-insurance-with-a-felony",
+      "shortAnswer": "Yes. A felony doesn't automatically bar you from car insurance in the US, and both standard and high-risk insurers write drivers with felony records. What matters most is **whether the felony is driving-related**. Felony DUI, vehicular assault or hit-and-run appear on your motor vehicle record (MVR) and can raise premiums sharply. One analysis put felony-DUI full coverage at about **$159\u2013$267 a month**, against $98\u2013$161 for a clean record. They often trigger an [SR-22 insurance](/learn/sr-22-insurance) filing too. **Non-driving** felonies usually don't appear on your MVR, but if an application asks about felonies, you must answer truthfully. A false answer is grounds to cancel the policy. UK readers should see [which insurance companies do not ask about criminal convictions](/qa/which-insurance-companies-do-not-ask-about-criminal-convictions). Our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers) covers both markets.",
+      "category": "Auto"
+},
+
+      {
+      "question": "What is an IN10 conviction, and how does it affect car insurance?",
+      "slug": "what-is-an-in10-conviction",
+      "shortAnswer": "**IN10** is the UK endorsement code for **using a vehicle uninsured against third-party risks**. It carries **6\u20138 penalty points**, a **\u00a3300 fixed penalty** or an unlimited court fine, possible disqualification, and police can seize the car. The endorsement usually stays on your licence for **4 years from the offence date** (from conviction if you were banned). You must declare it while it's unspent, typically **5 years from conviction**. Insurers treat IN10 as a red flag, because it suggests you might drive uninsured again, so expect a significant loading and fewer mainstream quotes. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Do you have to tell your insurer about a speeding ticket or a speed awareness course?",
+      "slug": "do-you-have-to-tell-your-insurer-about-a-speeding-ticket",
+      "shortAnswer": "In the UK, a speeding offence that leads to **penalty points (SP30 and similar codes) is a motoring conviction**. Declare it when your insurer asks, which is usually at your next renewal or when you buy a new policy. Some policies also require you to report convictions mid-term, so check your policy wording. A **speed awareness course isn't a conviction** and adds no points. You only need to mention it if the insurer **specifically asks**, and most don't. In the US, you don't usually report a ticket yourself: insurers see it on your motor vehicle record at renewal. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "What happens if you get 6 points in your first 2 years of driving, and how does it affect insurance?",
+      "slug": "what-happens-if-you-get-6-points-in-your-first-2-years",
+      "shortAnswer": "Under the UK's **New Drivers Act**, if you reach **6 or more penalty points within 2 years of passing your first practical test**, the DVLA **revokes your licence**. You have to apply for a new provisional licence, drive with L plates under supervision, and **pass both the theory and practical tests again**. Points from offences committed as a learner carry over and count towards the 6. Your insurance will usually be cancelled or become invalid, and once you pass again you'll be a young driver with a motoring conviction, one of the most expensive profiles to insure. See [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
+      {
+      "question": "Can you get car insurance with points on your licence, and how much more will it cost?",
+      "slug": "can-you-get-car-insurance-with-points-on-your-licence",
+      "shortAnswer": "Yes. Most UK insurers will still cover you with penalty points, but you'll pay more. Admiral's October 2023 quote data showed an **SP30 speeding conviction with 1\u20133 points raising premiums by about 34%**, 4\u20136 points by about 58%, and 7+ points by about 94%. A **CU80 mobile-phone conviction** cost more, at roughly +55% for 1\u20133 points and +174% for 7+. You must declare unspent motoring convictions when asked, usually for 5 years. Points on their own expire sooner. See [how long do motoring convictions stay on your licence](/qa/how-long-do-motoring-convictions-stay-on-your-licence) and our hub on [car insurance for high-risk and convicted drivers](/learn/car-insurance-for-high-risk-and-convicted-drivers).",
+      "category": "Auto"
+},
+
       {
       "question": "Can you cancel business insurance at any time?",
       "slug": "can-you-cancel-business-insurance-at-any-time",

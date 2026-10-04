@@ -138,8 +138,8 @@
         "**General liability (GL):** Bodily injury and property damage you cause to others, plus personal and advertising injury such as libel. It is the policy behind most 'is my business covered if someone sues' questions, answered in full in [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/).",
         "**Commercial property:** Your building, equipment, furniture and inventory against fire, storm, vandalism and burglary. Whether it pays for a specific loss, including theft, is explained in [does business insurance cover theft](/qa/does-business-insurance-cover-theft/).",
         "**Business owner's policy (BOP):** A bundled GL plus property policy for smaller businesses, usually with business income coverage. It is cheaper than buying the two separately but has eligibility limits.",
-        "**Professional liability (E&O):** Claims that your advice, design or service caused a financial loss. General liability does not cover these.",
-        "**Commercial crime:** Employee theft, forgery and certain fraud, which property policies exclude.",
+        "**Professional liability (E&O):** Claims that your advice, design or service caused a financial loss. General liability does not cover these; compare the two in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/).",
+        "**Commercial crime:** Employee theft, forgery and certain fraud, which property policies exclude. See [commercial crime insurance](/learn/commercial-crime-insurance/).",
         "**Cyber liability:** Data breaches, ransomware and funds-transfer fraud.",
         "**Specialty lines:** Businesses on or near water need marine coverages that ordinary policies exclude; see [marine business insurance](/learn/marine-business-insurance/).",
         "**Commercial umbrella:** Extra liability limits above GL, auto and employer's liability. Our [umbrella insurance guide](/learn/umbrella-insurance-guide/) explains how the layers stack."
@@ -221,7 +221,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Marinas, boat dealers, charter operators, marine contractors and repair yards face risks standard policies simply exclude: customers' vessels in your care, liability from operating boats, fuel spills, and employees covered by federal maritime law instead of state workers' comp. That is why [marine business insurance](/learn/marine-business-insurance/) is its own category, and why marine employers can't rely on a California workers' comp policy alone to cover their crews, even after checking [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/)."
+      "text": "Marinas, boat dealers, charter operators, marine contractors and repair yards face risks standard policies simply exclude: customers' vessels in your care, liability from operating boats, fuel spills, and employees covered by federal maritime law instead of state workers' comp. That is why [marine business insurance](/learn/marine-business-insurance/) is its own category, and why marine employers can't rely on a California workers' comp policy alone to cover their crews, even after checking [who is exempt from workers' compensation insurance in California](/qa/who-is-exempt-from-workers-compensation-insurance-california/). The federal options are explained in [USL&H vs Jones Act coverage](/qa/usl-h-vs-jones-act-difference/)."
     },
     {
       "type": "heading",
@@ -230,7 +230,7 @@
     },
     {
       "type": "paragraph",
-      "text": "You can usually cancel a business policy at any time with written notice. The questions are how much premium you get back, whether a short-rate penalty applies, and whether cancelling breaks a contract that requires you to stay insured. The rules, and the safe order of operations, are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/). For personal policies, see [can you cancel insurance anytime and get a refund](/qa/can-you-cancel-insurance-anytime-get-refund/)."
+      "text": "You can usually cancel a business policy at any time with written notice. The questions are how much premium you get back, whether a short-rate penalty applies, and whether cancelling breaks a contract that requires you to stay insured. The rules, and the safe order of operations, are in [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/). Claims-made policies also need an [extended reporting period (tail coverage)](/glossary/extended-reporting-period/) when you close or switch. For personal policies, see [can you cancel insurance anytime and get a refund](/qa/can-you-cancel-insurance-anytime-get-refund/)."
     },
     {
       "type": "heading",
@@ -241,7 +241,7 @@
       "type": "list",
       "ordered": true,
       "items": [
-        "**Confirm legal requirements** for your state and headcount, starting with workers' comp exemptions ([California rules here](/qa/who-is-exempt-from-workers-compensation-insurance-california/)).",
+        "**Confirm legal requirements** for your state and headcount, starting with workers' comp exemptions ([California rules here](/qa/who-is-exempt-from-workers-compensation-insurance-california/)) and whether your 'contractors' really are ([do independent contractors need workers' comp in California](/qa/do-independent-contractors-need-workers-comp-california/)).",
         "**Collect contract requirements** from your lease, client agreements and lenders.",
         "**List what could be stolen and by whom**, then match each to a policy ([does business insurance cover theft](/qa/does-business-insurance-cover-theft/)).",
         "**List who could sue you** and check which policy defends each type of claim ([does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/)).",

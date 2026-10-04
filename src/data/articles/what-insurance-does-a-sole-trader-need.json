@@ -61,7 +61,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "\"Do sole traders need insurance?\" is one of the first questions people ask after registering for Self Assessment, usually followed by a slightly panicked \"what insurance do I need as a sole trader?\" when the first client sends a supplier form asking for a policy number."
+      "text": "\"Do sole traders need insurance?\" is one of the first questions people ask after registering for Self Assessment, usually followed by a slightly panicked \"what insurance do I need as a sole trader?\" when the first client sends a supplier form asking for a policy number. If you're doing it alongside a job, start with [do I need insurance for a side hustle](/qa/insurance-for-side-hustle-uk/)."
     },
     {
       "type": "paragraph",
@@ -144,13 +144,25 @@
           "Tools & equipment",
           "No",
           "Trades, photographers, mobile professionals",
-          "See the trade section below"
+          "[Tool insurance for tradespeople](/qa/tool-insurance-for-tradespeople/)"
         ],
         [
           "Income protection",
           "No",
           "Anyone who couldn't pay the bills after several weeks off sick",
           "[Income protection for the self-employed](/qa/income-protection-for-self-employed-uk/)"
+        ],
+        [
+          "Cyber insurance",
+          "No",
+          "Anyone holding client data or trading online",
+          "[Cyber insurance for sole traders](/qa/cyber-insurance-for-sole-traders/)"
+        ],
+        [
+          "Tax investigation (fee protection)",
+          "No",
+          "Anyone filing Self Assessment with judgement-call expenses",
+          "[Tax investigation insurance](/qa/tax-investigation-insurance-self-employed/)"
         ]
       ]
     },
@@ -214,7 +226,7 @@
     },
     {
       "type": "paragraph",
-      "text": "For tradespeople the biggest uninsured losses are usually property, not liability. Tools stolen overnight from a van are a common claim, and many policies only pay if the van was locked with tools out of sight, or they exclude overnight theft unless the van is garaged. Check those conditions and the [excess](/glossary/deductible/) before relying on tools cover. Builders working on clients' property may also need [contractors' all-risk cover](/learn/contractors-all-risk-contract-works-insurance-uk/) for the works in progress."
+      "text": "For tradespeople the biggest uninsured losses are usually property, not liability. Tools stolen overnight from a van are a common claim, and many policies only pay if the van was locked with tools out of sight, or they exclude overnight theft unless the van is garaged. Check those conditions and the [excess](/glossary/deductible/) before relying on tools cover; [does van insurance cover my tools](/qa/tool-insurance-for-tradespeople/) goes through them. Builders working on clients' property may also need [contractors' all-risk cover](/learn/contractors-all-risk-contract-works-insurance-uk/) for the works in progress. If you bring in help, whether you or they insure the work depends on whether they're labour-only or bona fide; see [do subcontractors need their own insurance](/qa/do-subcontractors-need-their-own-insurance/)."
     },
     {
       "type": "heading",
@@ -241,7 +253,7 @@
     },
     {
       "type": "paragraph",
-      "text": "HMRC lists insurance among allowable financial costs for the self-employed, so business policies such as public liability, professional indemnity and tools cover generally reduce your taxable profit. Personal cover such as income protection and life insurance generally doesn't. And if you use the £1,000 trading allowance, you can't claim expenses at all. The rules and edge cases are in [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/)."
+      "text": "HMRC lists insurance among allowable financial costs for the self-employed, so business policies such as public liability, professional indemnity and tools cover generally reduce your taxable profit. Personal cover such as income protection and life insurance generally doesn't. And if you use the £1,000 trading allowance, you can't claim expenses at all. The rules and edge cases are in [is business insurance tax deductible for sole traders](/qa/is-business-insurance-tax-deductible-for-sole-traders/). If HMRC opens an enquiry into those claims, [tax investigation insurance](/qa/tax-investigation-insurance-self-employed/) covers the accountant's fees."
     },
     {
       "type": "heading",
@@ -263,9 +275,10 @@
       "items": [
         "**Describing your trade loosely.** Policies are rated by occupation, and work outside the declared trade may not be covered. Under the Insurance Act 2015 you owe insurers a fair presentation of the risk.",
         "**Assuming public liability covers advice.** It doesn't. Financial-loss claims need professional indemnity.",
-        "**Forgetting casual help.** Paying a friend for a weekend's labour can make you an employer for EL purposes.",
+        "**Forgetting casual help.** Paying a friend for a weekend's labour can make you an employer for EL purposes; see [labour-only vs bona fide subcontractors](/qa/do-subcontractors-need-their-own-insurance/).",
         "**Leaving tools in the van overnight** without checking the policy's theft conditions.",
-        "**Not telling your home or car insurer** that you've gone self-employed."
+        "**Not telling your home or car insurer** that you've gone self-employed.",
+        "**Ignoring cyber risk.** 42% of micro businesses reported a breach or attack in the last year; see [cyber insurance for sole traders](/qa/cyber-insurance-for-sole-traders/)."
       ]
     },
     {
