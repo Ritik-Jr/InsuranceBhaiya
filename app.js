@@ -1077,6 +1077,34 @@ const FALLBACK_INDEX = {
   ],
   "qa": [
       {
+      "question": "What is marine business insurance, and does your business need it?",
+      "slug": "marine-business-insurance",
+      "shortAnswer": "Marine business insurance is a family of commercial policies for property that travels, sits off-site or operates on or near water. **Ocean marine** covers ships, cargo and liability at sea; **inland marine** covers goods in transit, tools, equipment and installation work on land. Despite the name, most small firms that need it are contractors, retailers and shippers, because a standard commercial property policy gives only a small allowance once property leaves your premises.",
+      "category": "General"
+},
+
+      {
+      "question": "How much business insurance do I need?",
+      "slug": "how-much-business-insurance-do-i-need",
+      "shortAnswer": "Most small businesses start with $1 million per occurrence and $2 million aggregate in general liability, property cover equal to the replacement cost of equipment, stock and improvements, and business income cover for the months a rebuild would take. Then adjust upward for lease or client contract requirements, payroll, vehicles and assets worth protecting. The right amount is calculated, not guessed.",
+      "category": "General"
+},
+
+      {
+      "question": "What insurance do I need as a sole trader?",
+      "slug": "what-insurance-do-i-need-as-a-sole-trader",
+      "shortAnswer": "Answer four questions. Do you meet clients or work on their premises (public liability)? Do you give advice or expertise (professional indemnity)? Do you drive for work (business use on your vehicle)? Do you employ anyone (employers liability, legally required)? Then consider tools, home business cover and income protection. This quick selector sits alongside our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), which explains each cover in depth.",
+      "category": "General"
+},
+
+      {
+      "question": "Do sole traders need insurance?",
+      "slug": "do-sole-traders-need-insurance",
+      "shortAnswer": "Not by default. A UK sole trader with no employees has almost no compulsory business insurance, apart from motor insurance for any vehicle and, in a few regulated professions, cover set by the regulator. [Employers liability](/qa/do-sole-traders-need-employers-liability-insurance) becomes mandatory the moment you employ someone. Everything else, including [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader) and [professional indemnity](/learn/professional-indemnity-insurance), is voluntary but often demanded by clients. The full breakdown is in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need).",
+      "category": "General"
+},
+
+      {
       "question": "What is the difference between USL&H and Jones Act coverage?",
       "slug": "usl-h-vs-jones-act-difference",
       "shortAnswer": "USL&H coverage insures your obligations under the federal Longshore and Harbor Workers' Compensation Act, a no-fault benefit system for maritime workers such as dock workers, ship repairers and harbor construction crews who are not vessel crew. Jones Act coverage (maritime employer's liability) protects you against negligence lawsuits by 'seamen', crew members with a substantial connection to a vessel in navigation, who can sue for full damages and are also owed maintenance and cure. One covers scheduled benefits, the other covers lawsuits, and which one applies depends on the worker's duties and connection to a vessel. Both are core parts of [marine business insurance](/learn/marine-business-insurance).",

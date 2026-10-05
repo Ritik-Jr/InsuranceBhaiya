@@ -22436,6 +22436,82 @@
           "text": "Tail options, pricing and purchase deadlines vary by insurer and policy form. Insurance Bhaiya does not sell insurance; confirm terms with your insurer or a licensed agent."
         }
       ]
+    },
+    {
+      "slug": "employers-liability-insurance",
+      "term": "Employers' Liability Insurance",
+      "title": "What Is Employers' Liability Insurance? UK Legal Requirement Explained",
+      "description": "Employers' liability insurance defined: compulsory UK cover for employee injury or illness caused by work, the £5 million minimum and the fines for not having it.",
+      "ukTerm": "",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "Compulsory UK insurance that pays compensation and legal costs if an employee is injured or made ill by their work and claims against you.",
+      "scoutExplanation": "Under the Employers' Liability (Compulsory Insurance) Act 1969, an employer must hold at least £5 million of cover from an authorised insurer and display the certificate. For a sole trader the duty starts the day you take on an employee; see [do sole traders need employers liability insurance](/qa/do-sole-traders-need-employers-liability-insurance). It is separate from [public liability](/glossary/public-liability-insurance), which covers third parties, and is summarised in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need). Check worker status in [the subcontractors guide](/qa/do-subcontractors-need-their-own-insurance), and note some risks sit in an [exclusion](/glossary/exclusion).",
+      "example": "A sole trader roofer hires an employee at £120 a day. The employee falls through a skylight and claims £85,000 for injuries and lost earnings. Employers' liability pays the claim and defence costs up to the policy limit. Without it, the roofer pays personally and may also face a fine of up to £2,500 per day uninsured.",
+      "whyItMatters": "Wallet risk: no cover means an injury claim comes straight from your savings, plus fines. Assuming a casual worker is self-employed is a common error, so check status before relying on it. Compare structure in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance).",
+      "relatedTerms": [
+        "public-liability-insurance",
+        "exclusion",
+        "deductible"
+      ],
+      "miniQuiz": {
+        "question": "A sole trader works alone and has never employed anyone. Do they legally need employers' liability insurance?",
+        "options": [
+          {
+            "text": "No, not until they employ someone",
+            "correct": true,
+            "explanation": "Correct. The legal duty starts when you have an employee."
+          },
+          {
+            "text": "Yes, all sole traders must hold it",
+            "correct": false,
+            "explanation": "Incorrect. A solo sole trader with no employees is not required to hold it."
+          },
+          {
+            "text": "Yes, but only if they drive for work",
+            "correct": false,
+            "explanation": "Incorrect. Driving triggers motor insurance, not employers' liability."
+          }
+        ]
+      },
+      "content": []
+    },
+    {
+      "slug": "public-liability-insurance",
+      "term": "Public Liability Insurance",
+      "title": "What Is Public Liability Insurance? Definition for UK Sole Traders",
+      "description": "Public liability insurance defined: cover for claims by third parties for injury or property damage caused by your business, and what it does not cover.",
+      "ukTerm": "",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "Insurance that pays legal costs and compensation if a customer, passer-by or other third party is injured or has property damaged because of your business activities.",
+      "scoutExplanation": "Public liability protects you from claims by people who are not your employees. It typically pays compensation up to the policy limit (commonly £1m, £2m or £5m) and the legal costs of defending a claim. It is voluntary for UK sole traders but frequently demanded by clients and venues. Read the full question in [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader), see how it fits in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), and compare it with [employers liability](/glossary/employers-liability-insurance), which covers staff. It does not cover advice errors ([professional indemnity](/learn/professional-indemnity-insurance)), your own tools ([tool insurance](/qa/tool-insurance-for-tradespeople)) or an [exclusion](/glossary/exclusion) listed in your policy.",
+      "example": "A self-employed cleaner knocks a client's £1,800 television off a shelf and the client also claims £600 for a damaged rug. With £1 million of public liability and a £100 excess, the insurer pays the £2,400 of damage minus the excess, and the cleaner pays the £100.",
+      "whyItMatters": "Wallet risk: as a sole trader your savings and home are exposed to any judgment. Without cover, one weak claim could cost thousands in legal fees even if you win. Check the limit your clients require before you buy; see [do sole traders need insurance](/qa/do-sole-traders-need-insurance) and Callum's plan in [his scenario](/scenarios/callum-glasgow-sole-trader-plumber-insurance).",
+      "relatedTerms": [
+        "employers-liability-insurance",
+        "exclusion",
+        "deductible"
+      ],
+      "miniQuiz": {
+        "question": "A sole trader's client trips over the sole trader's toolbag and breaks a wrist. Which cover is the best fit?",
+        "options": [
+          {
+            "text": "Public liability insurance",
+            "correct": true,
+            "explanation": "Correct. The client is a third party injured by the sole trader's work, which is exactly what public liability covers."
+          },
+          {
+            "text": "Employers' liability insurance",
+            "correct": false,
+            "explanation": "Incorrect. Employers' liability covers injuries to employees, not clients or visitors."
+          },
+          {
+            "text": "Professional indemnity insurance",
+            "correct": false,
+            "explanation": "Incorrect. Professional indemnity covers financial loss from advice or errors, not physical injury."
+          }
+        ]
+      },
+      "content": []
     }
   ],
   "scenarios": [
@@ -23300,6 +23376,39 @@
         "If he ever moves to the US, there's no 'spent' concept: a DUI there brings [SR-22 insurance](/learn/sr-22-insurance/) filings, increases covered in [how much does car insurance go up after a DUI](/qa/how-much-does-car-insurance-go-up-after-a-dui/), [non-standard auto insurance](/glossary/non-standard-auto-insurance/) carriers and, as a last resort, an [assigned risk auto insurance plan](/qa/what-is-an-assigned-risk-auto-insurance-plan/).",
         "Follow the licence-return and first-policy steps in [car insurance after a driving ban](/learn/car-insurance-after-a-driving-ban/), and compare a telematics option ([black box insurance for high-risk drivers](/qa/does-black-box-insurance-help-high-risk-drivers/)). If several insurers decline him, read [can an insurance company refuse to insure you](/qa/can-an-insurance-company-refuse-to-insure-you/).",
         "Ryan must never be listed as a named driver on his partner's car if he actually drives it most of the time. See [named driver with a conviction](/qa/can-a-driver-with-a-conviction-be-a-named-driver/). Any new speeding points would add to his loading (see [tell your insurer about a speeding ticket](/qa/do-you-have-to-tell-your-insurer-about-a-speeding-ticket/) and [car insurance with points on your licence](/qa/can-you-get-car-insurance-with-points-on-your-licence/)), and 12 points within 3 years would trigger a [totting up](/glossary/totting-up/) ban."
+      ]
+    },
+    {
+      "slug": "callum-glasgow-sole-trader-plumber-insurance",
+      "name": "Callum",
+      "displayTitle": "Callum's Insurance Decision",
+      "title": "Callum's Insurance Decision",
+      "category": "General",
+      "age": 36,
+      "location": "Glasgow, Scotland, UK",
+      "market": "UK",
+      "avatarBg": "#dbeafe",
+      "situation": "Self-employed plumber working alone, visiting customers' homes in a van, with a £3,500 tool kit. He has no insurance beyond the van's standard policy and is about to take on a part-time apprentice.",
+      "coreQuestion": "I work alone and nobody has asked for insurance. Do I really need any, and what changes when I hire an apprentice?",
+      "scoutTake": "Callum is a textbook sole trader: unlimited personal liability, customers' homes as the workplace and a van full of tools. [Public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader) is the first buy, because a leak or a dropped tool in a customer's home is a third-party claim. The van needs business use, and [tool cover](/qa/tool-insurance-for-tradespeople) protects his kit. The moment the apprentice starts, [employers liability](/qa/do-sole-traders-need-employers-liability-insurance) becomes a legal requirement. Read [do sole traders need insurance](/qa/do-sole-traders-need-insurance) and [what insurance do I need as a sole trader](/qa/what-insurance-do-i-need-as-a-sole-trader), and use our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), then check [income protection](/qa/income-protection-for-self-employed-uk) for the days he cannot work.",
+      "keyRisks": [
+        "Customer property damage or injury from his work, paid from personal savings if uninsured",
+        "Theft of a £3,500 tool kit from the van, with the van policy excluding tools",
+        "An uninsured apprentice injury once he employs someone, with fines up to £2,500 per day"
+      ],
+      "recommendedStrategy": [
+        "Buy £2 million of public liability, the limit larger contractors commonly request",
+        "Add business use to the van policy and a tools and equipment policy for the kit",
+        "Take out employers liability of at least £5 million before the apprentice's first day"
+      ],
+      "estimatedMonthlyCost": "Indicative: £40 - £110 / month, depending on trade rating, tools value and whether income protection is added",
+      "relatedToolSlug": "coverage-calculator",
+      "strategies": [
+        "Describe the trade precisely ('domestic plumber, no gas work') so the policy matches the work; our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need) explains why this matters.",
+        "Confirm van business use with the insurer ([business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders)) and check overnight tool theft conditions ([tool insurance for tradespeople](/qa/tool-insurance-for-tradespeople)).",
+        "Check the apprentice's status and cover before the first shift ([employers liability for sole traders](/qa/do-sole-traders-need-employers-liability-insurance)).",
+        "Consider [income protection for the self-employed](/qa/income-protection-for-self-employed-uk) because there is no statutory sick pay.",
+        "Review whether a limited company would suit him later; see [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance)."
       ]
     }
   ],
@@ -25822,8 +25931,8 @@
       "slug": "do-i-need-public-liability-insurance-as-a-sole-trader",
       "category": "General",
       "question": "Do I need public liability insurance as a sole trader?",
-      "shortAnswer": "It isn't a legal requirement in the UK, but you probably need it if you work in clients' homes or premises, meet the public, or if any client, council, venue or landlord asks for it, which many do. Public liability covers injury and property damage claims from third parties. Typical 2026 premiums are about £106 a year for £1m, £118 for £2m and £140 for £5m, and low-risk sole traders can pay £50–£65. It sits alongside the other cover in [what insurance does a sole trader need](/learn/what-insurance-does-a-sole-trader-need/).",
-      "readingTime": "6 min read",
+      "shortAnswer": "No UK law requires a sole trader to hold [public liability insurance](/glossary/public-liability-insurance), but you probably need it if you meet clients, work on other people's premises or deal with the public, because clients, councils, venues and landlords often make it a condition of the work. It covers claims for injury or property damage caused by your work. In 2026 it costs roughly £106 a year for £1 million of cover, £118 for £2 million and £140 for £5 million, and low-risk trades can pay £50 to £65. It is one layer of our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need).",
+      "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
     {
@@ -25831,8 +25940,8 @@
       "slug": "do-sole-traders-need-employers-liability-insurance",
       "category": "Legal",
       "question": "Do sole traders need employers' liability insurance?",
-      "shortAnswer": "Only once you employ someone. A sole trader working alone doesn't need employers' liability (EL) insurance. As soon as you take on staff, including part-time, casual or temporary workers and many labour-only subcontractors, the Employers' Liability (Compulsory Insurance) Act 1969 requires cover of at least £5 million. GOV.UK says you can be fined £2,500 for every day you're uninsured and £1,000 for not displaying the certificate. Unincorporated family businesses employing only close relatives are exempt. See [do sole traders need insurance at all](/learn/what-insurance-does-a-sole-trader-need/) for the other covers.",
-      "readingTime": "6 min read",
+      "shortAnswer": "Only once you employ someone. A sole trader working alone does not need [employers liability insurance](/glossary/employers-liability-insurance), but under the Employers' Liability (Compulsory Insurance) Act 1969 you must carry at least £5 million of cover as soon as you have an employee. GOV.UK says fines can reach £2,500 for every day you are uninsured and £1,000 for not displaying the certificate. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need) for how this fits with other covers.",
+      "readingTime": "5 min read",
       "difficulty": "Intermediate"
     },
     {
@@ -25875,18 +25984,18 @@
       "id": "qa-260",
       "slug": "does-business-insurance-cover-theft",
       "category": "General",
-      "question": "Does business insurance cover theft?",
-      "shortAnswer": "Yes, but which policy pays depends on who stole what and where. Commercial property insurance, or the property part of a business owner's policy, covers burglary and theft of your business property from your premises, minus your deductible. Employee theft and embezzlement are excluded from property policies and need commercial crime insurance. Tools and equipment stolen from a job site or vehicle need inland marine coverage, and money stolen through hacking or fake invoices needs cyber or social engineering coverage. Our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub explains how these policies fit together.",
+      "question": "Does business insurance cover theft, and what is excluded?",
+      "shortAnswer": "Yes, but only in part. A commercial property policy or BOP generally pays when burglars steal business equipment, furniture or inventory from your premises, after your deductible and subject to limits. It usually does not cover theft by your own employees, unexplained inventory shortages, money you are tricked into sending or cyber theft. Those losses need a separate commercial crime or cyber policy.",
       "readingTime": "6 min read",
-      "difficulty": "Beginner"
+      "difficulty": "Intermediate"
     },
     {
       "id": "qa-261",
       "slug": "does-business-insurance-cover-lawsuits",
       "category": "Legal",
-      "question": "Does business insurance cover lawsuits?",
-      "shortAnswer": "Business insurance covers many lawsuits, but only the types each policy is written for. General liability defends and pays suits alleging bodily injury, property damage, or personal and advertising injury (such as libel), and in the standard form, defense costs are paid in addition to your limits. Lawsuits over professional mistakes need professional liability (E&O), employee claims need employment practices liability (EPLI), data breaches need cyber, and claims against directors need D&O. Intentional wrongdoing and pure breach of contract are generally not covered. Our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub shows where each policy fits.",
-      "readingTime": "7 min read",
+      "question": "Does business insurance cover lawsuits, and which ones?",
+      "shortAnswer": "Yes, for the right kind of lawsuit. Commercial general liability insurance defends and pays covered third-party claims for bodily injury, property damage and advertising injury, typically up to $1 million per occurrence. It does not cover employee injury suits, professional-error claims, wrongful termination, data breaches or breach of contract. Those require workers' compensation, professional liability, employment practices or cyber policies.",
+      "readingTime": "6 min read",
       "difficulty": "Intermediate"
     },
     {
@@ -25894,18 +26003,18 @@
       "slug": "who-is-exempt-from-workers-compensation-insurance-california",
       "category": "Legal",
       "question": "Who is exempt from workers' compensation insurance in California?",
-      "shortAnswer": "In California, every employer with even one employee must carry workers' compensation insurance (Labor Code 3700). The main exemptions are for owners, not employees: sole proprietors with no employees; general partners and LLC managing members who sign a waiver; and corporate officers or directors who own at least 15% of the stock and sign a sworn waiver. Household domestic workers who worked fewer than 52 hours or earned less than $100 in the prior 90 days are excluded, and genuine independent contractors who pass the ABC test are not employees. Misclassifying a worker is the most common and costly mistake. For how workers' comp fits with other required coverage, see our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub.",
+      "shortAnswer": "Almost no California employer is exempt: if you employ one or more people, you must carry workers' compensation. The exemptions are narrow and mostly concern owners. A sole proprietor with no employees need not cover themselves, a sole-shareholder officer is generally excluded unless they elect cover, and certain officers, directors, partners and members may waive coverage by signed waiver. Some worker categories, such as genuine independent contractors, are also outside the system.",
       "readingTime": "7 min read",
-      "difficulty": "Intermediate"
+      "difficulty": "Advanced"
     },
     {
       "id": "qa-263",
       "slug": "can-you-cancel-business-insurance-at-any-time",
       "category": "General",
       "question": "Can you cancel business insurance at any time?",
-      "shortAnswer": "Yes, in most cases you can cancel a business insurance policy at any time by sending your insurer or agent a written cancellation request. What varies is the refund: some policies return unused premium pro rata, while others apply a short-rate penalty (often around 10% of the unearned premium) or a minimum earned premium. Before cancelling, make sure replacement coverage starts first, check whether a lease or contract requires continuous coverage, and remember that claims-made policies and workers' comp have extra steps. The full picture of business coverage is in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub.",
+      "shortAnswer": "Usually yes. Most commercial policies let you cancel mid-term with written notice, but the refund depends on the method: pro-rata returns the exact unused premium, short-rate deducts a penalty, and some policies keep a minimum earned premium. Never cancel until the replacement policy is active, because lenders, landlords, clients and even the law may require continuous cover.",
       "readingTime": "6 min read",
-      "difficulty": "Beginner"
+      "difficulty": "Intermediate"
     },
     {
       "id": "qa-264",
@@ -26041,6 +26150,42 @@
       "shortAnswer": "USL&H coverage insures your obligations under the federal Longshore and Harbor Workers' Compensation Act, a no-fault benefit system for maritime workers such as dock workers, ship repairers and harbor construction crews who are not vessel crew. Jones Act coverage (maritime employer's liability) protects you against negligence lawsuits by 'seamen', crew members with a substantial connection to a vessel in navigation, who can sue for full damages and are also owed maintenance and cure. One covers scheduled benefits, the other covers lawsuits, and which one applies depends on the worker's duties and connection to a vessel. Both are core parts of [marine business insurance](/learn/marine-business-insurance/).",
       "readingTime": "7 min read",
       "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-279",
+      "slug": "do-sole-traders-need-insurance",
+      "category": "General",
+      "question": "Do sole traders need insurance?",
+      "shortAnswer": "Not by default. A UK sole trader with no employees has almost no compulsory business insurance, apart from motor insurance for any vehicle and, in a few regulated professions, cover set by the regulator. [Employers liability](/qa/do-sole-traders-need-employers-liability-insurance) becomes mandatory the moment you employ someone. Everything else, including [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader) and [professional indemnity](/learn/professional-indemnity-insurance), is voluntary but often demanded by clients. The full breakdown is in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-280",
+      "slug": "what-insurance-do-i-need-as-a-sole-trader",
+      "category": "General",
+      "question": "What insurance do I need as a sole trader?",
+      "shortAnswer": "Answer four questions. Do you meet clients or work on their premises (public liability)? Do you give advice or expertise (professional indemnity)? Do you drive for work (business use on your vehicle)? Do you employ anyone (employers liability, legally required)? Then consider tools, home business cover and income protection. This quick selector sits alongside our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), which explains each cover in depth.",
+      "readingTime": "6 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-281",
+      "slug": "how-much-business-insurance-do-i-need",
+      "category": "General",
+      "question": "How much business insurance do I need?",
+      "shortAnswer": "Most small businesses start with $1 million per occurrence and $2 million aggregate in general liability, property cover equal to the replacement cost of equipment, stock and improvements, and business income cover for the months a rebuild would take. Then adjust upward for lease or client contract requirements, payroll, vehicles and assets worth protecting. The right amount is calculated, not guessed.",
+      "readingTime": "7 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-282",
+      "slug": "marine-business-insurance",
+      "category": "General",
+      "question": "What is marine business insurance, and does your business need it?",
+      "shortAnswer": "Marine business insurance is a family of commercial policies for property that travels, sits off-site or operates on or near water. **Ocean marine** covers ships, cargo and liability at sea; **inland marine** covers goods in transit, tools, equipment and installation work on land. Despite the name, most small firms that need it are contractors, retailers and shippers, because a standard commercial property policy gives only a small allowance once property leaves your premises.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
     }
   ]
 }
