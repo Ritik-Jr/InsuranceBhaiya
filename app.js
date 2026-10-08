@@ -3257,6 +3257,7 @@ const FALLBACK_INDEX = {
 
 // Global State
 let siteData = FALLBACK_INDEX;
+let siteDataLive = false;
 
 // Format Currency
 // Format Currency
@@ -3384,12 +3385,24 @@ async function initSiteData() {
           liveData.qa = FALLBACK_INDEX.qa;
         }
         siteData = liveData;
+        siteDataLive = true;
         console.log('Insurance Bhaiya Data Loaded:', siteData.articles.length, 'articles');
       }
     }
   } catch (err) {
     console.warn('Using embedded fallback index:', err);
   }
+}
+
+// Site-wide counts ("Explore All 313 Questions", "All 20 Calculators", …) are <span data-count="key">
+// elements filled from data.json, the single source of counts. The static number in the HTML is the
+// no-JS fallback that src/scripts/seo-optimize.js keeps in sync.
+function initLiveCounts() {
+  if (!siteDataLive) return; // the embedded fallback index is partial: keep the static numbers
+  document.querySelectorAll('[data-count]').forEach(el => {
+    const list = siteData[el.getAttribute('data-count')];
+    if (Array.isArray(list) && list.length) el.textContent = list.length;
+  });
 }
 
 // ==========================================================================
@@ -9291,8 +9304,10 @@ function initCompareFilters() {
 function initScenariosFilters() {
   const cardsGrid = document.getElementById('scenariosCardsGrid');
   const filterPills = document.querySelectorAll('#scenariosFilterGroup .qa-filter-pill');
-  const cards = Array.from(document.querySelectorAll('#scenariosCardsGrid .scenario-profile-card'));
+  let cards = Array.from(document.querySelectorAll('#scenariosCardsGrid .scenario-profile-card, #scenariosCardsGrid .scenario-minimal-card'));
   const noResults = document.getElementById('scenariosNoResults');
+  const loadMoreWrap = document.getElementById('scenariosLoadMoreWrap');
+  const loadMoreBtn = document.getElementById('loadMoreScenariosBtn');
 
   if (!cards.length) return;
 
@@ -9304,8 +9319,11 @@ function initScenariosFilters() {
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     shuffled.forEach(card => cardsGrid.appendChild(card));
+    cards = shuffled; // paginate in on-screen order
   }
 
+  const PAGE_SIZE = 6;
+  let visibleLimit = PAGE_SIZE;
   let activeCategory = 'all';
 
   function updateCategoryFromUrl() {
@@ -9336,19 +9354,22 @@ function initScenariosFilters() {
   }
 
   function filterCards() {
-    let visibleCount = 0;
+    let matchCount = 0;
     cards.forEach(card => {
       const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
       const matchesCat = activeCategory === 'all' || cardCat === activeCategory;
-      if (matchesCat) {
-        card.style.display = 'flex';
-        visibleCount++;
-      } else {
-        card.style.display = 'none';
-      }
+      // first 6 matches show; "Load More" reveals 6 more at a time
+      card.style.display = matchesCat && matchCount < visibleLimit ? 'flex' : 'none';
+      if (matchesCat) matchCount++;
     });
     if (noResults) {
-      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      noResults.style.display = matchCount === 0 ? 'block' : 'none';
+    }
+    if (loadMoreWrap && loadMoreBtn) {
+      const remaining = matchCount - visibleLimit;
+      loadMoreWrap.style.display = remaining > 0 ? 'block' : 'none';
+      const btnSpan = loadMoreBtn.querySelector('span') || loadMoreBtn;
+      if (remaining > 0) btnSpan.textContent = `Load More Scenarios (${remaining} remaining)`;
     }
   }
 
@@ -9356,8 +9377,17 @@ function initScenariosFilters() {
 
   window.addEventListener('popstate', () => {
     updateCategoryFromUrl();
+    visibleLimit = PAGE_SIZE;
     filterCards();
   });
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      visibleLimit += PAGE_SIZE;
+      filterCards();
+    });
+  }
 
   filterPills.forEach(pill => {
     pill.addEventListener('click', (e) => {
@@ -9377,6 +9407,7 @@ function initScenariosFilters() {
         window.history.pushState({ category: activeCategory }, '', url);
       } catch (err) {}
 
+      visibleLimit = PAGE_SIZE;
       filterCards();
     });
   });
@@ -9444,6 +9475,7 @@ function initFooterRotatingQA() {
 // Bootstrapping
 document.addEventListener('DOMContentLoaded', async () => {
   await initSiteData();
+  initLiveCounts();
   MarketEngine.init();
   GamificationEngine.init();
   initCalculators();

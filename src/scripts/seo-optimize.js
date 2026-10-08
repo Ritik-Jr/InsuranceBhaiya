@@ -571,11 +571,95 @@ const VALID = new Set(FILES.map(urlOf));
 // noindex pages (e.g. redirect stubs left at renamed URLs) are valid link targets but never content
 const PAGES = FILES.map(f => ({ file: f, url: urlOf(f), section: urlOf(f).split('/')[1] || '' }))
   .filter(p => !/<meta name="robots" content="noindex/.test(fs.readFileSync(p.file, 'utf8').slice(0, 2000)));
-const QA_COUNT = PAGES.filter(p => p.section === 'qa' && p.url.split('/').length === 4).length;
 const assetHash = f => require('crypto').createHash('sha1').update(fs.readFileSync(path.join(ROOT, f))).digest('hex').slice(0, 10);
 const ASSET_VER = { css: assetHash('styles.css'), js: assetHash('app.js') };
 const DATA_PATH = path.join(ROOT, 'data.json');
 const DATA = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
+
+// ---------------------------------------------------------------------------
+// Site-wide counts — single source of truth is data.json. Pages carry
+// <span data-count="qa">313</span>; this script refreshes the number for crawlers / no-JS,
+// and app.js re-reads every [data-count] live from /data.json on page load.
+// ---------------------------------------------------------------------------
+const COUNTS = {
+  articles: DATA.articles.length, qa: DATA.qa.length, comparisons: DATA.comparisons.length,
+  glossary: DATA.glossary.length, scenarios: DATA.scenarios.length, calculators: DATA.calculators.length,
+};
+const cnt = k => `<span data-count="${k}">${COUNTS[k]}</span>`;
+function applyCounts(h) {
+  return h
+    // hand-typed counts -> data-count spans (one-time migration, idempotent)
+    .replace(/(Explore|Browse) All \d+ Questions/g, `$1 All ${cnt('qa')} Questions`)
+    .replace(/>\d+ Verified Answers</g, `>${cnt('qa')} Verified Answers<`)
+    .replace(/All \d+ Calculators/g, `All ${cnt('calculators')} Calculators`)
+    .replace(/>\d+ interactive actuarial estimation tools</g, `>${cnt('calculators')} interactive actuarial estimation tools<`)
+    .replace(/Explore \d+ transparent decision calculators/g, `Explore ${cnt('calculators')} transparent decision calculators`)
+    .replace(/(id="toolsCountBadge"[^>]*>)\d+ Calculators</, `$1${cnt('calculators')} Calculators<`)
+    // meta/schema descriptions can't hold a span: keep the plain number current
+    .replace(/Explore \d+ transparent actuarial decision calculators/g, `Explore ${COUNTS.calculators} transparent actuarial decision calculators`)
+    // refresh every count span from data.json
+    .replace(/<span data-count="(\w+)">\d+<\/span>/g, (m, k) => (COUNTS[k] != null ? cnt(k) : m));
+}
+
+// ---------------------------------------------------------------------------
+// /learn/ hub — the card grid and its embedded JSON are rebuilt from data.json on every run,
+// so a newly published article can never be missing from the hub.
+// ---------------------------------------------------------------------------
+{
+  const f = path.join(ROOT, 'learn', 'index.html');
+  const orig = fs.readFileSync(f, 'utf8');
+  const escHtml = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const list = DATA.articles.map(a => ({
+    slug: a.slug, title: a.title, description: a.description, category: a.category || 'insurance-basics',
+    readingTime: parseInt(a.readingTime, 10) || 7, author: a.author || 'Insurance Bhaiya Editorial Team',
+    coverImage: fs.existsSync(path.join(ROOT, 'images', 'learn', `${a.slug}.svg`)) ? `/images/learn/${a.slug}.svg` : (a.coverImage || '/images/hero-guide.jpg'),
+  }));
+  const card = a => `
+    <article class="apple-card apple-article-card" data-category="${a.category}" data-slug="${a.slug}" >
+      <div class="apple-article-media">
+        <img src="${a.coverImage}" alt="${escHtml(a.title)}" class="apple-article-img" loading="lazy" onerror="this.src='/images/hero-guide.jpg'" />
+        <div class="apple-category-badge" style="top: 12px; left: 12px;">
+          <span>${a.category.replace(/-/g, ' ')}</span>
+        </div>
+      </div>
+      <div class="apple-article-body">
+        <div>
+          <div class="apple-article-eyebrow" style="margin-bottom: 8px;">
+            <div style="display: flex; align-items: center; gap: 6px; font-size: 0.8125rem; color: var(--color-secondary);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span class="num">${a.readingTime} min read</span>
+            </div>
+          </div>
+
+          <h3 class="apple-article-title">
+            <a href="/learn/${a.slug}/">
+              ${escHtml(a.title)}
+            </a>
+          </h3>
+
+          <p class="apple-article-desc">
+            ${escHtml(a.description)}
+          </p>
+        </div>
+
+        <div class="apple-article-meta">
+          <span>By ${escHtml(a.author)}</span>
+          <a href="/learn/${a.slug}/" class="btn-link" style="font-size: 0.8125rem; font-weight: 600;">
+            <span>Read Guide</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  `;
+  // same one-line "key": value layout the publisher and thumbnails/apply.js expect
+  const json = '[' + list.map(o => '{' + Object.entries(o).map(([k, v]) => `${JSON.stringify(k)}: ${JSON.stringify(v)}`).join(', ') + '}').join(', ') + ']';
+  const h = orig
+    .replace(/(<div class="articles-grid" id="learnArticlesGrid">)[\s\S]*?(\n    <\/div>\s*<!-- Progressive Load More Container -->)/, (m, a, b) => a + list.map(card).join('') + b)
+    .replace(/(<script id="learnArticlesData" type="application\/json">\s*)[\s\S]*?(\s*<\/script>)/, (m, a, b) => a + json.replace(/<\//g, '<\\/') + b)
+    .replace(/Load More Publications \(\d+ remaining\)/, `Load More Publications (${Math.max(0, list.length - 13)} remaining)`);
+  if (h !== orig && !DRY) fs.writeFileSync(f, h);
+}
 
 function resolveHref(href) {
   // returns new href, or null to unwrap
@@ -871,7 +955,7 @@ for (const page of PAGES) {
   h = h.replace(/(\d+\s*min read)(?:\s*min read)+/g, '$1');
 
   // --- 3. stale counts ---
-  h = h.replace(/(Explore|Browse) All \d+ Questions/g, `$1 All ${QA_COUNT} Questions`);
+  h = applyCounts(h);
 
   // --- 4. title / H1 / description ---
   const curTitle = decode((h.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '');
@@ -1027,8 +1111,10 @@ for (const page of PAGES) {
   };
   if (h !== orig) {
     report.changed++;
-    // an asset cache-bust alone is not a content change: don't bump the sitemap lastmod for it
-    const unver = s => s.replace(/(\/styles\.css|\/app\.js)\?v=[\w-]+/g, '$1');
+    // an asset cache-bust or a site-wide count refresh alone is not a content change: don't bump the sitemap lastmod for it
+    const unver = s => s.replace(/(\/styles\.css|\/app\.js)\?v=[\w-]+/g, '$1')
+      .replace(/<span data-count="\w+">(\d+)<\/span>/g, '$1')
+      .replace(/(Explore|Browse) All \d+ Questions|>\d+ Verified Answers<|All \d+ Calculators|>\d+ interactive actuarial estimation tools<|Explore \d+ transparent|(id="toolsCountBadge"[^>]*>)\d+ Calculators</g, 'COUNT');
     if (unver(h) !== unver(orig)) changedUrls.add(url);
     if (!DRY) fs.writeFileSync(file, h);
   }
@@ -1038,7 +1124,7 @@ for (const page of PAGES) {
 for (const name of fs.readdirSync(ROOT).filter(n => /^\d{3}\.html$/.test(n))) {
   const f = path.join(ROOT, name);
   const orig = fs.readFileSync(f, 'utf8');
-  const h = orig.replace(/(<link rel="stylesheet" href="\/styles\.css)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.css}${b}`)
+  const h = applyCounts(orig).replace(/(<link rel="stylesheet" href="\/styles\.css)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.css}${b}`)
     .replace(/(<script src="\/app\.js)(?:\?v=[\w-]+)?(")/g, (m, a, b) => `${a}?v=${ASSET_VER.js}${b}`);
   if (h !== orig && !DRY) fs.writeFileSync(f, h);
 }
@@ -1158,5 +1244,5 @@ if (!DRY) {
   if (!DRY) fs.writeFileSync(llmsPath, head + body);
 }
 
-console.log(JSON.stringify({ ...report, mirroredIntoJson: mirrored, qaCount: QA_COUNT }, null, 2));
+console.log(JSON.stringify({ ...report, mirroredIntoJson: mirrored, counts: COUNTS }, null, 2));
 if (process.argv.includes('--log')) console.log(JSON.stringify(linkLog, null, 1));
