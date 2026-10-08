@@ -1105,6 +1105,13 @@ const FALLBACK_INDEX = {
   ],
   "qa": [
       {
+      "question": "How does the sitemap update the current date?",
+      "slug": "e2e-sitemap-qa-test-slug",
+      "shortAnswer": "It writes the ISO timestamp YYYY-MM-DD into sitemap.xml.",
+      "category": "General"
+},
+
+      {
       "question": "Do self-employed cleaners need insurance in the UK?",
       "slug": "do-self-employed-cleaners-need-insurance-uk",
       "shortAnswer": "No law forces a solo self-employed cleaner to hold insurance, but [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/) is close to essential because you work in other people's homes. Add cover for keys and damage to client property if offered, and [employers liability](/qa/do-sole-traders-need-employers-liability-insurance/) once you employ help. Typical low-risk public liability costs around \u00a350 to \u00a365 a year. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
