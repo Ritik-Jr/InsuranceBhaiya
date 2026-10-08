@@ -1,0 +1,271 @@
+{
+  "type": "learn",
+  "id": "liability-insurance-what-it-covers",
+  "slug": "liability-insurance-what-it-covers",
+  "title": "Liability Insurance: What It Covers, What It Doesn't, and How Much You Need",
+  "description": "Liability insurance pays for injuries and damage you cause to other people, plus your legal defense. Learn what it covers, the big exclusions, and the right limits.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "readingTime": 8,
+  "featured": true,
+  "tags": [
+    "liability insurance",
+    "third-party liability",
+    "general liability",
+    "personal liability",
+    "auto liability",
+    "duty to defend",
+    "exclusions"
+  ],
+  "coverImage": "/images/learn/liability-insurance-what-it-covers.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Liability insurance protects you from other people's claims: it pays for bodily injury and property damage you are legally responsible for, never for your own losses.",
+    "It does not cover theft of your own car, home contents, or business equipment. Those losses belong to comprehensive, personal property, commercial property, or crime coverage (see [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/)).",
+    "Most liability policies also pay your lawyer. Under the insurer's [duty to defend](/glossary/duty-to-defend/), defense costs on auto, home, and general liability policies are usually paid on top of your limit.",
+    "State-minimum limits like 25/50/25 are rarely enough. A single serious injury claim can exceed $100,000, and the excess comes out of your savings and future wages.",
+    "Match your limits to your net worth and future income using the [Coverage Calculator](/coverage-calculator/), then layer an umbrella policy if the gap is large."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "Does liability insurance cover theft?",
+      "answer": "No. Liability insurance only pays when you are legally responsible for harming someone else. Theft of your own car is covered by comprehensive coverage, theft of home contents by your homeowners or renters personal property coverage, and theft of business property or employee theft by commercial property and crime insurance. Full details: [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/)."
+    },
+    {
+      "question": "Does liability insurance cover my own car if I cause an accident?",
+      "answer": "No. Auto liability pays for the other driver's vehicle and injuries. Repairs to your own car require collision coverage, minus your [deductible](/glossary/deductible/). See [does liability insurance cover my car](/qa/does-liability-insurance-cover-my-car/)."
+    },
+    {
+      "question": "Does liability insurance pay for a lawyer if I get sued?",
+      "answer": "Usually yes. Auto, homeowners, and general liability policies include a [duty to defend](/glossary/duty-to-defend/) and typically pay defense costs in addition to your policy limit. Professional liability policies often count defense costs against the limit. Read [does liability insurance cover legal fees](/qa/does-liability-insurance-cover-legal-fees/)."
+    },
+    {
+      "question": "What is the difference between general liability and professional liability?",
+      "answer": "General liability covers physical harm: bodily injury and property damage. Professional liability covers financial harm from your errors or advice. Most service businesses need both. Compare them side by side in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Liability insurance is the part of your coverage that protects **other people from you**, and protects your bank account from their lawsuits. If you rear-end someone, a guest slips on your icy steps, or a customer trips over a cable in your shop, liability coverage pays for their medical bills, their repairs, and, if they sue, your legal defense. The term for this is [third-party liability](/glossary/third-party-liability/): the insurer steps in between you (the first party) and the person you harmed (the third party)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The most expensive misunderstanding in personal finance is assuming liability insurance also covers **your** stuff. It does not. Your own car, your own laptop, your own stolen tools, and your own injuries sit under completely different coverage parts. This guide maps exactly where the line falls, using the six questions people search for most."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Liability Insurance Actually Does"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every liability policy makes two promises. First, it agrees to **pay sums you become legally obligated to pay** as damages for bodily injury or property damage you cause, up to your limit. Second, it agrees to **defend you** against covered lawsuits, even ones that are groundless or fraudulent. That second promise is often worth more than the first: a defended slip-and-fall case can cost $30,000 to $75,000 in attorney fees before trial. We break down how that defense works, and when an insurer can refuse it, in [does liability insurance cover legal fees](/qa/does-liability-insurance-cover-legal-fees/)."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "The One-Sentence Test",
+      "text": "Ask: 'Is someone else claiming I owe them money because I hurt them or damaged their property?' If yes, that is a liability question. If the loss is to your own body, car, home, or business property, liability insurance will not pay, no matter how the damage happened."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Four Main Types of Liability Insurance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Liability Type",
+        "Where You Get It",
+        "What It Pays For",
+        "Typical Limits"
+      ],
+      "rows": [
+        [
+          "Auto Liability",
+          "Required part of every auto policy in nearly all US states",
+          "Other drivers' injuries and vehicle damage when you are at fault. It does not fix your car (see [does liability insurance cover my car](/qa/does-liability-insurance-cover-my-car/)).",
+          "State minimums (e.g. 25/50/25) up to 250/500/100"
+        ],
+        [
+          "Personal Liability (Coverage E)",
+          "Homeowners, renters, and condo policies",
+          "Guest injuries at your home, accidental damage you cause anywhere, and pet incidents such as [dog bites](/qa/does-homeowners-insurance-liability-cover-dog-bites/)",
+          "$100,000 to $500,000 per occurrence"
+        ],
+        [
+          "Commercial General Liability (CGL)",
+          "Standalone or bundled in a Business Owner's Policy (BOP)",
+          "Customer injuries, damage to client property, products-completed operations, advertising injury",
+          "$1M per occurrence / $2M aggregate"
+        ],
+        [
+          "Professional Liability (E&O)",
+          "Separate policy for advice-giving and service professions",
+          "Financial losses caused by your errors, omissions, or negligent advice. Compare it in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/).",
+          "$250,000 to $2M per claim"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Liability Insurance Covers"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Bodily injury to others:** Medical bills, lost wages, pain and suffering, and rehabilitation costs for people you injure.",
+        "**Property damage to others:** Repairing or replacing another person's car, fence, phone, storefront, or equipment that you damage.",
+        "**Legal defense:** Attorney fees, court costs, expert witnesses, and appeal bonds, usually paid in addition to your limit on auto, home, and CGL policies.",
+        "**Settlements and judgments:** Negotiated payouts and court awards, up to the per-occurrence and aggregate limits shown on your declarations page.",
+        "**Medical payments to others:** A small no-fault layer ($1,000 to $10,000) on home and business policies that pays minor injury bills fast, often heading off a lawsuit entirely."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Liability Insurance Does Not Cover"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every liability policy carries a standard set of [exclusions](/glossary/exclusion/). These are the ones that generate the most denied claims:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Theft of your own property.** A stolen car, burgled apartment, or looted job site is a first-party loss. Liability pays nothing. Our full breakdown of where theft losses actually belong is in [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/).",
+        "**Damage to your own vehicle.** Even if the crash was not your fault, the liability part of your policy only pays the other side. Your repairs need collision coverage. See [comprehensive vs collision](/compare/comprehensive-vs-collision/).",
+        "**Your own injuries.** Your medical bills go through health insurance, MedPay, PIP, or uninsured motorist coverage. A [hit-and-run](/qa/does-liability-insurance-cover-hit-and-run/) is the classic trap, because there is no at-fault driver's liability policy to claim against.",
+        "**Injuries to your own employees.** The CGL employer's liability exclusion pushes these claims to workers' compensation. Details: [does general liability insurance cover employee injuries](/qa/does-general-liability-insurance-cover-employee-injuries/).",
+        "**Intentional and criminal acts.** Harm you expected or intended is excluded on public-policy grounds.",
+        "**Business activity on a personal policy.** Your homeowners liability will not defend a lawsuit arising from your side business, home daycare, or rental property.",
+        "**Professional mistakes.** Bad advice, a missed deadline, or a design error causing purely financial loss needs professional liability (E&O), not general liability."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The 'Care, Custody, or Control' Trap",
+      "text": "General liability policies exclude damage to property you rent, occupy, or hold for someone else. If you run a repair shop, dry cleaner, or storage business and a customer's item is stolen from your premises, CGL usually pays nothing. You need bailee's customer coverage or inland marine coverage. This is the most common surprise in [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/) disputes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Liability at Home: Guests, Pets, and Accidents Away From Home"
+    },
+    {
+      "type": "paragraph",
+      "text": "Homeowners and renters policies carry personal liability that follows you **worldwide**, not just on your property. Knock over a $4,000 camera in a shop, or break a neighbor's window with a golf ball, and Coverage E responds. Dog-related injuries are the single largest personal liability exposure: US insurers paid about $1.57 billion across 22,658 dog-related injury claims in 2024, averaging $69,272 per claim. Breed exclusions and prior-bite exclusions can quietly remove that protection, which we cover in [does homeowners insurance liability cover dog bites](/qa/does-homeowners-insurance-liability-cover-dog-bites/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Liability on the Road: Why It Never Fixes Your Car"
+    },
+    {
+      "type": "paragraph",
+      "text": "A liability-only auto policy is the cheapest legal way to drive, but it is a one-way shield. It pays for the other driver's bumper and medical bills when you cause a crash. It pays nothing toward your own repairs, a stolen car, or a hit-and-run. If your car is worth more than about ten times the annual cost of collision and comprehensive, dropping those coverages is usually a false economy. Model the break-even point with the [Car Insurance Coverage Calculator](/car-insurance-calculator/) and see how it played out for a real driver in our [California auto coverage scenario](/scenarios/jordan-california-auto-coverage/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Liability for Small Businesses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commercial [general liability](/learn/commercial-general-liability-guide/) is the first policy most landlords, clients, and event venues demand. Small businesses pay a median of about $45 per month, and roughly 85% choose $1 million per occurrence and $2 million aggregate limits. But CGL is narrow by design: it excludes employee injuries, professional errors, business autos, and theft of your own equipment. Our case study of a café owner shows how those gaps line up in practice: [Priya's Austin bakery liability scenario](/scenarios/priya-austin-bakery-liability/)."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Read the Supplementary Payments Clause",
+      "text": "On standard ISO general liability forms, defense costs sit under 'Supplementary Payments' and do not reduce your limit. Many professional liability policies do the opposite: defense is inside the limit, so every legal invoice shrinks what is left to pay a settlement. Ask your agent which kind you are buying, and check our [8-Point Policy Check](/policy-check/) before renewal."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Liability Coverage Do You Need?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rule of thumb: carry liability limits at least equal to your **net worth plus about five years of income**, because a court can reach both savings and future wages. When that number climbs past what a home or auto policy will sell you, an [umbrella policy](/learn/umbrella-insurance-guide/) adds $1 million or more on top for roughly $150 to $350 a year."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Household Profile",
+        "Suggested Auto Liability",
+        "Suggested Home/Renters Liability",
+        "Umbrella?"
+      ],
+      "rows": [
+        [
+          "Renter, net worth under $50,000",
+          "100/300/100",
+          "$100,000 to $300,000",
+          "Optional"
+        ],
+        [
+          "Homeowner, net worth $100,000 to $500,000",
+          "250/500/100",
+          "$300,000",
+          "Recommended ($1M)"
+        ],
+        [
+          "Teen drivers, pool, or dog in household",
+          "250/500/100",
+          "$500,000",
+          "Strongly recommended ($1M to $2M)"
+        ],
+        [
+          "Net worth over $1M or high earner",
+          "250/500/100 (umbrella minimum)",
+          "$500,000",
+          "Essential (limit at least equal to net worth)"
+        ]
+      ]
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "coverage-calculator",
+      "title": "Find Your Liability Coverage Gap",
+      "description": "Enter your assets, income, and current limits to see how much of your net worth is exposed in a serious lawsuit."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Liability Terms to Know"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**[Third-party liability](/glossary/third-party-liability/):** Coverage for claims made by people outside the insurance contract who you harmed.",
+        "**[Duty to defend](/glossary/duty-to-defend/):** The insurer's obligation to hire and pay your lawyer whenever a lawsuit alleges facts that could be covered.",
+        "**Per-occurrence limit:** The maximum the insurer pays for one incident, no matter how many people are hurt.",
+        "**Aggregate limit:** The maximum the insurer pays for all claims during the policy period.",
+        "**[Exclusion](/glossary/exclusion/):** A clause that removes a specific risk from coverage, such as intentional acts or business pursuits."
+      ]
+    },
+    {
+      "type": "disclaimer",
+      "text": "Liability coverage terms, state minimum limits, and dog-bite statutes vary by state, insurer, and policy form. Figures cited are illustrative ranges and published industry medians (Insurance Information Institute, Insureon), not quotes. Always confirm coverage with your declarations page or a licensed agent, and see [how to read an insurance policy](/learn/how-to-read-an-insurance-policy/) for help finding the clauses that matter."
+    }
+  ]
+}

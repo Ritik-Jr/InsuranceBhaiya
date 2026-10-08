@@ -9,10 +9,12 @@
  * Output per article:  images/learn/<slug>.svg  (on-page, crisp at any size)
  *                      images/learn/<slug>.jpg  (1200x675 for og:image, Twitter, Article schema)
  * New article? Add a line to PAGES below: [slug, theme, hero, secondary|null, [accent, accent], heroOpts?]
+ * or, for a character-scene illustration (people + props), add a scene to scenes.js.
  */
 const fs = require('fs');
 const path = require('path');
 const { PALETTES, M, I, INK, W } = require('./art');
+const { SCENES } = require('./scenes');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const OUT = path.join(ROOT, 'images', 'learn');
@@ -323,7 +325,16 @@ async function main() {
     fs.writeFileSync(path.join(OUT, `${spec[0]}.svg`), svg);
     if (sharp) await sharp(Buffer.from(svg)).jpeg({ quality: 84, mozjpeg: true }).toFile(path.join(OUT, `${spec[0]}.jpg`));
   }
-  console.log(`thumbnails: ${only ? 1 : PAGES.length} written to images/learn/`);
+  let scenes = 0;
+  for (const [slug, draw] of Object.entries(SCENES)) {
+    if (PAGES.some(p => p[0] === slug)) throw new Error(`${slug} is in both PAGES and SCENES`);
+    if (only && slug !== only) continue;
+    const svg = draw();
+    fs.writeFileSync(path.join(OUT, `${slug}.svg`), svg);
+    if (sharp) await sharp(Buffer.from(svg)).jpeg({ quality: 84, mozjpeg: true }).toFile(path.join(OUT, `${slug}.jpg`));
+    scenes++;
+  }
+  console.log(`thumbnails: ${only ? 'selected' : PAGES.length + scenes} written to images/learn/`);
 
   const TOUT = path.join(ROOT, 'images', 'tools');
   fs.mkdirSync(TOUT, { recursive: true });

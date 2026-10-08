@@ -1,0 +1,289 @@
+{
+  "type": "learn",
+  "id": "personal-accident-insurance-explained",
+  "slug": "personal-accident-insurance-explained",
+  "title": "Personal Accident Insurance Explained: What It Pays, What It Excludes and Whether You Need It",
+  "description": "Personal accident insurance explained: what it pays for death and disability, what it excludes, how it differs from health cover, and how much to buy.",
+  "category": "disability-insurance",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "readingTime": 9,
+  "featured": true,
+  "tags": [
+    "personal accident insurance",
+    "accident insurance",
+    "AD&D",
+    "accidental death",
+    "permanent disability",
+    "lump-sum benefit",
+    "benefit schedule"
+  ],
+  "coverImage": "/images/learn/personal-accident-insurance-explained.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Personal accident insurance is a benefit policy: it pays a pre-agreed sum when an accident causes death, permanent disability or loss of a limb, sight or hearing, rather than reimbursing your actual bills.",
+    "It covers accidents only. Illness, disease and most degenerative conditions are excluded, so it sits alongside health and disability income insurance instead of replacing them.",
+    "Payouts follow a benefit schedule: a lump sum for death or permanent total disability, a percentage for partial loss, and in many plans a weekly amount for temporary disablement.",
+    "Read the exclusions before you buy. Intoxication, self-harm, war and hazardous sports or work are commonly excluded or must be declared in advance.",
+    "Size the sum insured from your debts and the income your family would lose, not from the cheapest premium, and subtract life, group and disability cover you already hold."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What is personal accident insurance?",
+      "answer": "It is a policy that pays a fixed benefit if an accident causes your death, permanent disability or loss of a limb, sight or hearing. Some plans add weekly income or hospital cash. See [what is personal accident insurance](/qa/what-is-personal-accident-insurance/) for the full explanation."
+    },
+    {
+      "question": "Does personal accident insurance cover illness?",
+      "answer": "Standard policies do not. They pay only when an accident is the sole cause of the loss. For illness you need health insurance and disability income insurance; compare the three in [personal accident vs health insurance](/compare/personal-accident-vs-health-insurance/)."
+    },
+    {
+      "question": "Do I need personal accident insurance if I have health insurance?",
+      "answer": "Health insurance pays treatment bills but not a lump sum or lost income, so PA cover fills a different gap. Whether you need it depends on dependants, sick pay and existing employer benefits. See [do I need personal accident insurance if I have health insurance](/qa/do-i-need-personal-accident-insurance-if-i-have-health-insurance/)."
+    },
+    {
+      "question": "How much personal accident cover should I buy?",
+      "answer": "Start from your debts and the years of income your family would need replaced, then subtract existing life, group and disability cover. The worked method is in [how much personal accident cover do I need](/qa/how-much-personal-accident-cover-do-i-need/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "disability-insurance-calculator",
+    "title": "Disability Income Protection Calculator",
+    "description": "Calculate your monthly income gap if an illness or injury interrupts your earning ability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Most people picture insurance as something that reimburses a bill. [Personal accident insurance](/qa/what-is-personal-accident-insurance/) works differently: it pays a pre-agreed sum when an accident causes death, permanent disability or the loss of a limb, sight or hearing. It is inexpensive compared with most cover, easy to misunderstand and frequently confused with [health insurance](/insurance/health-insurance/). This hub explains what it pays, what it leaves out, how much to buy and how it fits with the rest of your protection, and it links to a detailed answer for every question that comes up along the way."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Personal Accident Insurance Is (and Is Not)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A personal accident (PA) policy is a benefit policy rather than a reimbursement policy. When a qualifying accident happens, the insurer finds the injury in a schedule of benefits and pays the matching amount, whatever your bills turned out to be. 'Accident' is defined narrowly: a sudden, unexpected event caused by something external to your body, and it usually has to be the sole cause of the loss. So [does personal accident insurance cover illness](/qa/does-personal-accident-insurance-cover-illness/)? Normally no, and that one boundary explains most of the confusion around this product."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Same Idea, Different Names",
+      "text": "In the US and Canada this is usually sold as accident insurance or accidental death and dismemberment (AD&D), often through an employer. In the UK it is personal accident cover sold on its own, through banks and home insurers, or bundled into travel and group schemes. Germany's private Unfallversicherung works on a similar disability-percentage basis. The labels change; the schedule-based payout is the common thread."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What a Personal Accident Policy Typically Pays"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Benefit",
+        "When It Is Paid",
+        "How It Is Usually Paid"
+      ],
+      "rows": [
+        [
+          "Accidental death",
+          "Death caused solely by an accident, usually within 12 to 24 months of it",
+          "Lump sum to your [beneficiary](/glossary/beneficiary/)"
+        ],
+        [
+          "Permanent total disablement",
+          "Loss of both limbs or sight, or a permanent inability to work as the policy defines it",
+          "Often 100% of the sum insured"
+        ],
+        [
+          "Permanent partial disablement",
+          "Loss of one limb, an eye, hearing or a finger, assessed against a schedule",
+          "A set percentage of the sum insured"
+        ],
+        [
+          "Temporary total disablement",
+          "You cannot work for a period after an accident",
+          "Weekly amount, often capped at 52 to 104 weeks"
+        ],
+        [
+          "Hospital cash or medical expenses",
+          "Admission or treatment following an accident",
+          "Daily allowance or limited reimbursement; often optional"
+        ],
+        [
+          "Extras",
+          "Funeral costs, ambulance, child education, home modification",
+          "Add-ons vary by insurer"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Percentages, waiting periods and time limits differ between insurers, so treat the table as a map of the structure rather than a quote."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Personal Accident Insurance Does Not Cover"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every policy has an [exclusion](/glossary/exclusion/) list, and exclusions are where PA claims are won or lost. Our guide to [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance/) shows where to find them in your wording. The usual ones are:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Illness and disease**, including heart attacks, strokes and degenerative conditions.",
+        "**Self-inflicted injury and suicide.**",
+        "**Injury while intoxicated** or under the influence of non-prescribed drugs.",
+        "**War, terrorism and civil unrest**, depending on the insurer.",
+        "**Hazardous pursuits** such as motor racing, climbing or aviation, unless declared and accepted.",
+        "**Pre-existing conditions** that contribute to the loss."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "The 'Sole Cause' Trap",
+      "text": "Most wordings require the accident to be the sole and independent cause of the loss. If an undiagnosed heart condition makes you collapse and the fall injures you, the insurer may argue illness, not accident, caused the loss. [See how that plays out](/qa/does-personal-accident-insurance-cover-illness/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Personal Accident vs Health vs Disability Income Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "These three products are routinely confused, yet they pay for different things. Our [personal accident vs health insurance](/compare/personal-accident-vs-health-insurance/) matrix sets them side by side, and [do I need personal accident insurance if I have health insurance](/qa/do-i-need-personal-accident-insurance-if-i-have-health-insurance/) gives the practical answer."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Question",
+        "Personal Accident",
+        "Health Insurance",
+        "Disability Income Insurance"
+      ],
+      "rows": [
+        [
+          "What triggers a payout",
+          "An accident that causes death or injury",
+          "Medical treatment for illness or injury",
+          "Illness or injury that stops you working"
+        ],
+        [
+          "What you receive",
+          "Fixed sum from a benefit schedule",
+          "Payment of treatment bills, after your [deductible](/glossary/deductible/)",
+          "Monthly income replacement"
+        ],
+        [
+          "Covers illness?",
+          "No (rare optional add-ons)",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "How long it pays",
+          "One-off lump sum; weekly benefit for a limited period",
+          "While treatment is needed and the policy is in force",
+          "Often until recovery or a stated age"
+        ],
+        [
+          "Relative cost",
+          "Usually the lowest of the three",
+          "Usually the highest",
+          "Usually in between"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "If lost income is your main worry, read [short-term vs long-term disability: do you need both](/qa/short-term-vs-long-term-disability-do-you-need-both/) and size the gap with the [Disability Income Protection Calculator](/disability-insurance-calculator/). For treatment costs, model your share with the [Out-of-Pocket Cost Calculator](/health-insurance-calculator/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who Might Reasonably Buy It"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Self-employed workers with no sick pay.** A freelancer's income stops the day work does; see [Marco's freelance scenario](/scenarios/marco-freelance-berlin/).",
+        "**Parents of young children** who want a lump sum for permanent injury as one layer of protection, as in [Sarah and David's new-parents scenario](/scenarios/sarah-and-david-new-parents-toronto/).",
+        "**People in physical jobs or with active hobbies**, for whom disability income cover can be expensive or restricted.",
+        "**Anyone whose employer provides no accident benefit** and who has a gap between life cover and disability cover."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "It is a poor fit if you are hoping it will replace health or disability cover, or if group accident benefits through work already provide the same protection. Check what you already have before buying a duplicate."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Much Cover to Buy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Work from your own numbers: debts, the years of income dependants would need, and one-off costs such as adapting a home. The full method, with a worked example, is in [how much personal accident cover do I need](/qa/how-much-personal-accident-cover-do-i-need/). Run the figures through the [Insurance Needs Calculator](/insurance-needs-calculator/) and the [Life Insurance Calculator](/life-insurance-calculator/), and remember a fixed sum loses buying power over time; the [Insurance Inflation Calculator](/inflation-calculator/) shows by how much."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Avoid Double-Counting",
+      "text": "Life insurance already pays on accidental death, so the extra value of a PA policy lies mostly in the permanent disability and temporary income benefits. Subtract life cover, group AD&D and any disability income plan before choosing a sum insured."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens When You Claim"
+    },
+    {
+      "type": "paragraph",
+      "text": "Claims run on evidence: notice of the accident, medical reports and proof that the loss fits the schedule. Permanent disability is usually assessed only after your condition has stabilised, which can take a year or more. The step-by-step process, and the usual reasons for reduction or denial, are in [how does a personal accident insurance claim work](/qa/how-does-a-personal-accident-insurance-claim-work/). For general background, read [what is an insurance claim](/learn/what-is-an-insurance-claim/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Buying Checklist"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Read how the policy defines 'accident' and whether it must be the sole cause of the loss.",
+        "Check the time limit between the accident and death or disability for a payout to apply.",
+        "Confirm your occupation and any sports or hobbies are declared and accepted.",
+        "Compare benefit schedule percentages, not just the headline sum insured.",
+        "Look at age limits, renewal terms and whether the premium rises with age.",
+        "Run your existing policies through the [Policy Review Checklist](/policy-review-checklist/) and the [Coverage Gap Checker](/coverage-gap-checker/) to avoid duplication."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Where Personal Accident Insurance Fits in Your Wider Plan"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treat PA cover as one thin layer in a stack, not the foundation. The foundation is health cover, then life cover, then income protection; see [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/) for a way to test your own stack. If you are also buying a home, different policies guard different risks: accident cover protects your ability to keep paying the mortgage, while [title insurance](/learn/title-insurance-do-you-need-it/) protects your ownership of the property itself. Neither is a substitute for the other."
+    },
+    {
+      "type": "calculator-embed",
+      "toolSlug": "disability-insurance-calculator",
+      "title": "Disability Income Protection Calculator",
+      "description": "Calculate the monthly expense gap you would face if an accident stopped you working, and see how long your savings would last."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Benefit schedules, definitions and exclusions vary by insurer and country. This article is general education, not advice. Insurance Bhaiya does not sell insurance or earn commissions; read your policy wording and confirm details with a licensed adviser."
+    }
+  ]
+}

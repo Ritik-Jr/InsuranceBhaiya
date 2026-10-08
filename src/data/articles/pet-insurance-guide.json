@@ -1,0 +1,221 @@
+{
+  "type": "learn",
+  "id": "pet-insurance-guide",
+  "slug": "pet-insurance-guide",
+  "title": "Pet Insurance Explained: What It Covers, What It Costs & What Gets Excluded",
+  "description": "Pet insurance covers accidents and illness, not everything. See real costs, reimbursement math, waiting periods and exclusions like desexing, dental and cremation.",
+  "category": "insurance-basics",
+  "author": "Insurance Bhaiya Research Desk",
+  "authorRole": "Actuarial Research Fellow",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "readingTime": 6,
+  "featured": true,
+  "tags": [
+    "pet insurance",
+    "dog insurance",
+    "cat insurance",
+    "pet insurance exclusions",
+    "pre-existing conditions",
+    "waiting periods",
+    "vet bills"
+  ],
+  "coverImage": "/images/learn/pet-insurance-guide.jpg",
+  "country": [
+    "global"
+  ],
+  "language": "en",
+  "keyTakeaways": [
+    "Pet insurance is reimbursement insurance: you pay the vet first, then the insurer repays a percentage (commonly 70%, 80% or 90%) after your deductible.",
+    "Standard accident-and-illness plans usually exclude routine care such as spay/neuter (desexing), vaccines, cleanings and cremation unless you add a wellness plan or end-of-life benefit.",
+    "Pre-existing conditions and waiting periods are the two biggest reasons claims are denied, so enrol while your pet is young and healthy.",
+    "Dental illness is covered by some comprehensive plans, but routine dental cleanings almost never are.",
+    "Insurance beats saving when a single surprise bill (typically $3,000 to $8,000 for surgery) would force debt or a euthanasia decision you do not want to make."
+  ],
+  "sections": [],
+  "faqs": [
+    {
+      "question": "What does pet insurance not cover?",
+      "answer": "Most plans exclude pre-existing conditions, routine and preventive care (vaccines, spay/neuter, cleanings), cosmetic procedures, breeding and pregnancy costs, and cremation or burial. See [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/) and [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+    },
+    {
+      "question": "Does pet insurance cover dental cleaning?",
+      "answer": "Routine cleaning is generally not covered on standard plans. Accidental tooth injuries usually are, and some comprehensive plans cover dental disease. Read [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/) before you buy."
+    },
+    {
+      "question": "Does pet insurance cover spay or neuter surgery?",
+      "answer": "Only through wellness add-ons or certain preventive packages. Standard accident-and-illness plans treat it as elective. See [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/)."
+    },
+    {
+      "question": "How long is the waiting period for pet insurance?",
+      "answer": "Typical waiting periods are a few days for accidents, about 14 days for illness and up to 6 months for orthopedic conditions, though they vary. Learn the definition in our glossary entry on the [pet insurance waiting period](/glossary/pet-insurance-waiting-period/)."
+    },
+    {
+      "question": "Is pet insurance cheaper if I buy when my pet is a puppy or kitten?",
+      "answer": "Yes. Premiums rise with age and conditions diagnosed early become pre-existing exclusions later. Compare tiers in [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/) and run the numbers on our [Coverage Calculator](/coverage-calculator/)."
+    }
+  ],
+  "companionTool": {
+    "slug": "insurance-needs-calculator",
+    "title": "Insurance Needs Calculator",
+    "description": "Calculate your total protection requirement across life, health, and personal liability."
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A single emergency vet visit now routinely costs $1,500 to $5,000, and complex surgery can pass $8,000. Pet insurance exists to turn that unpredictable spike into a predictable monthly [premium](/glossary/premium/). But it is also one of the most misunderstood policies in personal insurance: owners assume it works like human health insurance, then discover that desexing, dental cleaning, cremation and anything diagnosed before enrolment are not paid. If you are still deciding whether it is worth buying at all, start with our straight answer on [is pet insurance worth it](/qa/is-pet-insurance-worth-it/), then use this guide to read any policy with open eyes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Pet Insurance Actually Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "Almost all pet policies are reimbursement plans. You visit any licensed vet, pay the full invoice, submit the claim, and the insurer sends back a percentage of the eligible amount. Three levers decide how much you recover: the annual or per-condition [deductible](/glossary/deductible/), the reimbursement rate (70%, 80% or 90%), and the annual or lifetime benefit limit."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "style": "info",
+      "title": "Reimbursement Math in One Example",
+      "text": "Your dog swallows a sock and needs a $4,000 obstruction surgery. With a $500 deductible and 80% reimbursement: ($4,000 - $500) x 80% = $2,800 paid by the insurer. You keep $1,200 of the bill. On a plan with a $5,000 annual limit, $2,200 of limit remains for the rest of the policy year. Model your own numbers with our [Deductible Breakeven Calculator](/deductible-calculator/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Pet Insurance Typically Covers"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Accidents:** broken bones, bite wounds, ingested foreign objects, toxin exposure, torn ligaments from a fall.",
+        "**Illnesses:** infections, cancer, diabetes, allergies, gastrointestinal disease, ear and skin conditions (on accident-and-illness plans).",
+        "**Diagnostics and hospital care:** X-rays, ultrasound, bloodwork, MRI, overnight stays and prescription medication tied to a covered condition.",
+        "**Hereditary and chronic conditions:** many comprehensive plans cover hip dysplasia or diabetes if the condition was not present before enrolment and waiting periods were served.",
+        "**Emergency and specialty care:** most plans let you use any licensed vet or specialty hospital."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Pet Insurance Usually Excludes"
+    },
+    {
+      "type": "paragraph",
+      "text": "The [exclusion](/glossary/exclusion/) section of a pet policy is where owners get surprised. The four most common gaps are below, each with its own deep dive."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Pre-existing conditions:** anything with signs, symptoms or a diagnosis before coverage starts or during the waiting period. Read the full rules in [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/).",
+        "**Spay, neuter and desexing:** an elective, preventive procedure that standard plans do not pay. See [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/) for when a wellness add-on makes sense.",
+        "**Routine dental cleaning:** coverage is limited to accidental tooth injuries and, on some plans, dental disease. Details are in [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/).",
+        "**Cremation, burial and disposal:** treated as post-death expenses, not medical care. Learn the exceptions in [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Plan Type",
+        "What It Pays For",
+        "Typical Monthly Cost (Dog)",
+        "Best For"
+      ],
+      "rows": [
+        [
+          "Accident-only",
+          "Injuries from accidents only; no illness",
+          "$12 - $25",
+          "Budget cover for healthy adult pets"
+        ],
+        [
+          "Accident & illness",
+          "Accidents plus illness, chronic and often hereditary conditions",
+          "$35 - $75",
+          "Most owners; the core catastrophic protection"
+        ],
+        [
+          "Wellness add-on",
+          "Fixed annual benefits for vaccines, checkups, sometimes spay/neuter and cleanings",
+          "$15 - $35 extra",
+          "Owners who want predictable routine-care budgeting"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Prices vary sharply by species, breed, age and ZIP code. Cats are usually cheaper than dogs, and giant breeds or breeds prone to hip, spine or heart disease cost more. For a full side-by-side of the two core tiers, see [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Waiting Periods and Pre-Existing Conditions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even after you buy a policy, coverage does not start on day one for everything. A [pet insurance waiting period](/glossary/pet-insurance-waiting-period/) commonly runs about 14 days for illness, a few days for accidents, and up to 6 months or more for orthopedic conditions like cruciate ligament tears. Any problem that appears during that window can become a [pre-existing condition](/glossary/pet-pre-existing-condition/), which is excluded for life by many insurers."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "style": "warning",
+      "title": "The Costliest Mistake: Waiting Until Something Goes Wrong",
+      "text": "Insurers can review your pet's full veterinary records before approving a large claim. If a vet note from before enrolment mentions limping, itching, vomiting or ear problems, the related claim can be denied. Enrol while your pet is young and healthy, and ask the insurer in writing how it treats curable conditions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Routine Care: Wellness Plans, Desexing and Dental"
+    },
+    {
+      "type": "paragraph",
+      "text": "A [pet wellness plan](/glossary/pet-wellness-plan/) is not insurance in the strict sense. It is a prepaid allowance with fixed per-service benefits for vaccines, exams and sometimes spay/neuter or cleaning. Because you are paying premium to get your own money back, compare the annual add-on cost to the benefits you will really use. For a puppy needing vaccines plus a spay or neuter, it can break even; for a healthy adult cat, often not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "End-of-Life Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many plans reimburse euthanasia when it is part of treating a covered illness, but cremation or burial is usually your cost, commonly around $50 to $150 for communal cremation and $150 to $500 or more for a private one depending on size. A small number of insurers offer a limited end-of-life benefit or rider. Check the policy language before assuming, and see [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Choose a Pet Insurance Policy"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Pick the highest annual limit you can afford; a $5,000 cap can be exhausted by one surgery.",
+        "Choose a deductible you can pay from savings without stress, and test the trade-off in our [Deductible Breakeven Calculator](/deductible-calculator/).",
+        "Prefer 80% to 90% reimbursement if the monthly [premium](/glossary/premium/) fits your budget.",
+        "Read the exclusions list, waiting periods and bilateral-condition rules before paying.",
+        "Check whether dental illness, hereditary conditions, prescription food and alternative therapies are included.",
+        "Run your current protection through our [8-Point Policy Check](/policy-check/) and review how to [read an insurance policy](/learn/how-to-read-an-insurance-policy/)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "For a worked example, follow [Maya, 29, in Austin, insuring a Labrador puppy](/scenarios/maya-labrador-puppy-pet-insurance-austin/), including the exact limits, deductible and add-ons she chose and the monthly budget it created."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "More Pet Insurance Questions Owners Ask"
+    },
+    {
+      "type": "paragraph",
+      "text": "These deep dives extend the guide above: [does pet insurance cover hereditary conditions](/qa/does-pet-insurance-cover-hereditary-conditions/); [does pet insurance cover vaccinations](/qa/does-pet-insurance-cover-vaccinations/); [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/); [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/); [can you get pet insurance for an older pet](/qa/can-you-get-pet-insurance-for-an-older-pet/); [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/); [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/); [dog swallowed a sock pet insurance claim](/scenarios/dog-swallowed-sock-pet-insurance-claim/); [pet insurance reimbursement rate](/glossary/pet-insurance-reimbursement-rate/); [pet insurance annual limit](/glossary/pet-insurance-annual-limit/)."
+    },
+    {
+      "type": "disclaimer",
+      "text": "Insurance Bhaiya is an independent, non-commissioned education platform. Premiums, limits and exclusions vary by insurer, state and policy form. Always confirm terms in the insurer's policy document before buying."
+    }
+  ]
+}

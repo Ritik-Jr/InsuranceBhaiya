@@ -281,6 +281,1047 @@
   "articles": [
     {
       "type": "learn",
+      "id": "title-insurance-do-you-need-it",
+      "slug": "title-insurance-do-you-need-it",
+      "title": "Title Insurance: Do You Need It? Lender's vs Owner's Policies, Costs and What They Cover",
+      "description": "Title insurance explained: what lender's and owner's policies cover, what they cost at closing, who pays, and when an owner's policy is worth buying.",
+      "category": "home-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "readingTime": 9,
+      "featured": true,
+      "tags": [
+        "title insurance",
+        "owner's title insurance",
+        "lender's title insurance",
+        "closing costs",
+        "title search",
+        "title defects",
+        "simultaneous issue"
+      ],
+      "coverImage": "/images/learn/title-insurance-do-you-need-it.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Title insurance looks backwards: it protects against problems that already existed when you bought, such as unpaid liens, forged deeds and recording errors, not damage or events after closing.",
+        "There are two separate policies. A lender's policy is required by virtually all mortgage lenders and protects the loan; an owner's policy is optional and protects your equity.",
+        "Both are one-time premiums paid at closing. Combined they typically cost about 0.5% to 1% of the purchase price, with industry data putting the median near 0.67%.",
+        "Buying the owner's and lender's policies together from the same company usually earns a discount, and rates are set by the state in some places and open to shopping in others.",
+        "The lender's policy does not protect you. Without an owner's policy, you pay to defend or fix a title problem yourself."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Is title insurance required?",
+          "answer": "A lender's policy is required by virtually all mortgage lenders. An owner's policy is optional. If you pay cash, no policy is typically required. See [do I need owner's title insurance if my lender requires a policy](/qa/do-i-need-owners-title-insurance-if-my-lender-requires-a-policy/)."
+        },
+        {
+          "question": "Is title insurance worth it?",
+          "answer": "For most buyers an owner's policy is worth it because the one-time premium is small relative to the home's value and the cost of defending a title dispute. See [is title insurance worth it](/qa/is-title-insurance-worth-it/) for the worked example."
+        },
+        {
+          "question": "How much does title insurance cost?",
+          "answer": "Combined lender's and owner's policies typically cost about 0.5% to 1% of the purchase price, paid once at closing. Details and state differences are in [how much does title insurance cost and who pays](/qa/how-much-does-title-insurance-cost-and-who-pays/)."
+        },
+        {
+          "question": "Can I buy title insurance after closing?",
+          "answer": "Sometimes. It needs a new title search and may not cover problems from the gap between closing and the policy date. See [can you buy owner's title insurance after closing](/qa/can-you-buy-owners-title-insurance-after-closing/)."
+        }
+      ],
+      "companionTool": {
+        "slug": "home-insurance-calculator",
+        "title": "Home Insurance Coverage Calculator",
+        "description": "Allocate policy limits across dwelling replacement, personal property, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Closing day brings a line on the settlement statement that most buyers have never heard of until it is in front of them. The question [is title insurance worth it](/qa/is-title-insurance-worth-it/) has a straightforward answer for most buyers, but the reasoning matters more than the verdict. This hub explains what a title policy protects, how the lender's and owner's versions differ, what you will pay, who pays it and when you can skip it. It links to a detailed answer for each question along the way."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Title Insurance Does (and Does Not) Do"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before closing, a title company searches public records to confirm the seller truly owns the property and that nothing else is attached to it. Searches are thorough but not perfect: records can be misindexed, signatures forged and heirs overlooked. Title insurance covers the financial loss from defects that existed before your policy date and were not caught, including legal costs to defend your ownership. The detail is in [what does title insurance cover](/qa/what-does-title-insurance-cover/)."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Why It Is Different From Every Other Policy",
+          "text": "Homeowners insurance protects against future events such as fire or storms, with premiums every year. Title insurance covers the past, is paid once and lasts as long as you or your heirs own the home. It is not a substitute for homeowners cover; check yours with the [Home Insurance Coverage Calculator](/home-insurance-calculator/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Common Title Problems"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Problem",
+            "Example",
+            "Usually Covered?"
+          ],
+          "rows": [
+            [
+              "Unpaid liens or judgments",
+              "A contractor or previous owner's unpaid debt attached to the property",
+              "Yes, if it existed before the policy date and is not listed as an exception"
+            ],
+            [
+              "Unreleased prior mortgage",
+              "An old loan was paid off but the release was never recorded",
+              "Yes"
+            ],
+            [
+              "Forged or invalid deed",
+              "A prior transfer was signed fraudulently or by someone without authority",
+              "Yes"
+            ],
+            [
+              "Recording or clerical errors",
+              "A wrong legal description or misfiled document",
+              "Yes"
+            ],
+            [
+              "Undisclosed heirs or ownership claims",
+              "A relative of a former owner claims an interest",
+              "Yes"
+            ],
+            [
+              "Boundary or easement disputes",
+              "A neighbour's fence or driveway encroaches on your lot",
+              "Often needs a survey and an endorsement"
+            ],
+            [
+              "Zoning or building-code violations",
+              "A previous owner built without permits",
+              "Generally no; government regulation is excluded"
+            ],
+            [
+              "Defects you already knew about",
+              "An issue disclosed to you before closing",
+              "No"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Lender's vs Owner's Policy"
+        },
+        {
+          "type": "paragraph",
+          "text": "If you take out a mortgage, your lender will require its own policy. That policy covers only the lender's interest, up to the loan balance. It will not defend your ownership or repay your equity. An owner's policy is the one that protects you. Our [lender's vs owner's title insurance](/compare/lenders-vs-owners-title-insurance/) matrix sets them side by side, and [do I need owner's title insurance if my lender requires a policy](/qa/do-i-need-owners-title-insurance-if-my-lender-requires-a-policy/) answers the most common follow-up."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Feature",
+            "Lender's Policy",
+            "Owner's Policy"
+          ],
+          "rows": [
+            [
+              "Who it protects",
+              "The mortgage lender",
+              "You and your heirs"
+            ],
+            [
+              "Required?",
+              "Virtually always, if you borrow",
+              "Optional"
+            ],
+            [
+              "Coverage amount",
+              "The loan balance, which shrinks as you repay",
+              "The purchase price"
+            ],
+            [
+              "How long it lasts",
+              "Until the loan is repaid or refinanced",
+              "As long as you or your heirs hold an interest"
+            ],
+            [
+              "Who usually pays",
+              "The buyer",
+              "Negotiated and varies by state"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Title Insurance Costs and Who Pays"
+        },
+        {
+          "type": "paragraph",
+          "text": "The premium is a single charge at closing. Combined lender's and owner's policies typically run about 0.5% to 1% of the purchase price, so on a $400,000 home that is roughly $2,000 to $4,000, with the industry median near 0.67% (about $2,680). The figures are illustrative; your total depends on the state, the price and the [underwriter](/learn/what-is-insurance-underwriting/). Some states set rates by regulation, while elsewhere you can shop around. Who pays the owner's policy is also a matter of local custom and negotiation. The full breakdown is in [how much does title insurance cost and who pays](/qa/how-much-does-title-insurance-cost-and-who-pays/)."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "The Simultaneous-Issue Discount",
+          "text": "If you buy the owner's policy at the same time and from the same underwriter as the lender's policy, the lender's premium is often heavily reduced. In some regulated states it can fall to a nominal amount. Ask for a quote with and without the owner's policy before you decide."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "When an Owner's Policy Matters Most"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Older homes with a long chain of owners,** where there are more past documents to go wrong.",
+            "**Foreclosures, estate sales and for-sale-by-owner purchases,** where records and sellers can be less reliable.",
+            "**Purchases from family or between related parties,** where informal paperwork is common.",
+            "**Buyers with a large equity stake or a small cash cushion,** who could not absorb a legal fight.",
+            "**Properties bought without a survey,** where boundary issues are more likely to surface."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A cash buyer who accepts the risk can decline an owner's policy, but the saving is usually small compared with the loss it insures. Our worked example in [is title insurance worth it](/qa/is-title-insurance-worth-it/) puts numbers on that trade-off."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Buying After Closing and When You Refinance"
+        },
+        {
+          "type": "paragraph",
+          "text": "An owner's policy is normally issued at closing. Buying one afterwards is sometimes possible, but it needs a fresh title search, depends on the insurer and state and may not cover problems that arose between closing and the policy date; see [can you buy owner's title insurance after closing](/qa/can-you-buy-owners-title-insurance-after-closing/). When you refinance, the new lender will want its own lender's policy, but your existing owner's policy stays in force."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Title Protection Outside the United States"
+        },
+        {
+          "type": "paragraph",
+          "text": "Title insurance is most common in the US. In England and Wales, solicitors or conveyancers investigate title and the Land Registry records ownership, with title indemnity policies used for specific known defects; read [Alex's first-mortgage scenario](/scenarios/alex-first-mortgage-london/) for how a UK purchase unfolds. Canada uses title insurance alongside lawyer review. In civil-law countries, notaries typically play the central role. Local practice differs, so ask your conveyancer or lawyer what applies."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Your Closing-Day Protection Checklist"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ask the title company for quotes for a lender's policy alone and for both policies together.",
+            "Read the exceptions section of the title commitment so you know what the policy will not cover.",
+            "Ask whether a survey or boundary endorsement is available for your lot.",
+            "Negotiate who pays the owner's policy as part of the purchase contract.",
+            "Check that your homeowners cover is sized to rebuild with the [Home Replacement-Cost Estimator](/home-replacement-cost-estimator/).",
+            "Protect your ability to pay the mortgage as well as your ownership: title insurance guards the property, while the [personal accident insurance guide](/learn/personal-accident-insurance-explained/) explains how accident cover helps if an injury stops you working.",
+            "Read your closing documents using [how to read an insurance policy](/learn/how-to-read-an-insurance-policy/) as a guide to spotting exclusions."
+          ]
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "home-insurance-calculator",
+          "title": "Home Insurance Coverage Calculator",
+          "description": "Allocate dwelling, personal property, liability and loss-of-use limits so your homeowners policy matches your new home."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Title insurance rules, rates and customs vary by state and country. Figures are indicative industry ranges, not quotes. Insurance Bhaiya does not sell insurance or earn commissions; confirm requirements and prices with your title company, lender or a real estate attorney."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "personal-accident-insurance-explained",
+      "slug": "personal-accident-insurance-explained",
+      "title": "Personal Accident Insurance Explained: What It Pays, What It Excludes and Whether You Need It",
+      "description": "Personal accident insurance explained: what it pays for death and disability, what it excludes, how it differs from health cover, and how much to buy.",
+      "category": "disability-insurance",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "readingTime": 9,
+      "featured": true,
+      "tags": [
+        "personal accident insurance",
+        "accident insurance",
+        "AD&D",
+        "accidental death",
+        "permanent disability",
+        "lump-sum benefit",
+        "benefit schedule"
+      ],
+      "coverImage": "/images/learn/personal-accident-insurance-explained.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Personal accident insurance is a benefit policy: it pays a pre-agreed sum when an accident causes death, permanent disability or loss of a limb, sight or hearing, rather than reimbursing your actual bills.",
+        "It covers accidents only. Illness, disease and most degenerative conditions are excluded, so it sits alongside health and disability income insurance instead of replacing them.",
+        "Payouts follow a benefit schedule: a lump sum for death or permanent total disability, a percentage for partial loss, and in many plans a weekly amount for temporary disablement.",
+        "Read the exclusions before you buy. Intoxication, self-harm, war and hazardous sports or work are commonly excluded or must be declared in advance.",
+        "Size the sum insured from your debts and the income your family would lose, not from the cheapest premium, and subtract life, group and disability cover you already hold."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "What is personal accident insurance?",
+          "answer": "It is a policy that pays a fixed benefit if an accident causes your death, permanent disability or loss of a limb, sight or hearing. Some plans add weekly income or hospital cash. See [what is personal accident insurance](/qa/what-is-personal-accident-insurance/) for the full explanation."
+        },
+        {
+          "question": "Does personal accident insurance cover illness?",
+          "answer": "Standard policies do not. They pay only when an accident is the sole cause of the loss. For illness you need health insurance and disability income insurance; compare the three in [personal accident vs health insurance](/compare/personal-accident-vs-health-insurance/)."
+        },
+        {
+          "question": "Do I need personal accident insurance if I have health insurance?",
+          "answer": "Health insurance pays treatment bills but not a lump sum or lost income, so PA cover fills a different gap. Whether you need it depends on dependants, sick pay and existing employer benefits. See [do I need personal accident insurance if I have health insurance](/qa/do-i-need-personal-accident-insurance-if-i-have-health-insurance/)."
+        },
+        {
+          "question": "How much personal accident cover should I buy?",
+          "answer": "Start from your debts and the years of income your family would need replaced, then subtract existing life, group and disability cover. The worked method is in [how much personal accident cover do I need](/qa/how-much-personal-accident-cover-do-i-need/)."
+        }
+      ],
+      "companionTool": {
+        "slug": "disability-insurance-calculator",
+        "title": "Disability Income Protection Calculator",
+        "description": "Calculate your monthly income gap if an illness or injury interrupts your earning ability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Most people picture insurance as something that reimburses a bill. [Personal accident insurance](/qa/what-is-personal-accident-insurance/) works differently: it pays a pre-agreed sum when an accident causes death, permanent disability or the loss of a limb, sight or hearing. It is inexpensive compared with most cover, easy to misunderstand and frequently confused with [health insurance](/insurance/health-insurance/). This hub explains what it pays, what it leaves out, how much to buy and how it fits with the rest of your protection, and it links to a detailed answer for every question that comes up along the way."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Personal Accident Insurance Is (and Is Not)"
+        },
+        {
+          "type": "paragraph",
+          "text": "A personal accident (PA) policy is a benefit policy rather than a reimbursement policy. When a qualifying accident happens, the insurer finds the injury in a schedule of benefits and pays the matching amount, whatever your bills turned out to be. 'Accident' is defined narrowly: a sudden, unexpected event caused by something external to your body, and it usually has to be the sole cause of the loss. So [does personal accident insurance cover illness](/qa/does-personal-accident-insurance-cover-illness/)? Normally no, and that one boundary explains most of the confusion around this product."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Same Idea, Different Names",
+          "text": "In the US and Canada this is usually sold as accident insurance or accidental death and dismemberment (AD&D), often through an employer. In the UK it is personal accident cover sold on its own, through banks and home insurers, or bundled into travel and group schemes. Germany's private Unfallversicherung works on a similar disability-percentage basis. The labels change; the schedule-based payout is the common thread."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What a Personal Accident Policy Typically Pays"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Benefit",
+            "When It Is Paid",
+            "How It Is Usually Paid"
+          ],
+          "rows": [
+            [
+              "Accidental death",
+              "Death caused solely by an accident, usually within 12 to 24 months of it",
+              "Lump sum to your [beneficiary](/glossary/beneficiary/)"
+            ],
+            [
+              "Permanent total disablement",
+              "Loss of both limbs or sight, or a permanent inability to work as the policy defines it",
+              "Often 100% of the sum insured"
+            ],
+            [
+              "Permanent partial disablement",
+              "Loss of one limb, an eye, hearing or a finger, assessed against a schedule",
+              "A set percentage of the sum insured"
+            ],
+            [
+              "Temporary total disablement",
+              "You cannot work for a period after an accident",
+              "Weekly amount, often capped at 52 to 104 weeks"
+            ],
+            [
+              "Hospital cash or medical expenses",
+              "Admission or treatment following an accident",
+              "Daily allowance or limited reimbursement; often optional"
+            ],
+            [
+              "Extras",
+              "Funeral costs, ambulance, child education, home modification",
+              "Add-ons vary by insurer"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Percentages, waiting periods and time limits differ between insurers, so treat the table as a map of the structure rather than a quote."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Personal Accident Insurance Does Not Cover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Every policy has an [exclusion](/glossary/exclusion/) list, and exclusions are where PA claims are won or lost. Our guide to [what is an exclusion in insurance](/learn/what-is-an-exclusion-in-insurance/) shows where to find them in your wording. The usual ones are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Illness and disease**, including heart attacks, strokes and degenerative conditions.",
+            "**Self-inflicted injury and suicide.**",
+            "**Injury while intoxicated** or under the influence of non-prescribed drugs.",
+            "**War, terrorism and civil unrest**, depending on the insurer.",
+            "**Hazardous pursuits** such as motor racing, climbing or aviation, unless declared and accepted.",
+            "**Pre-existing conditions** that contribute to the loss."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "The 'Sole Cause' Trap",
+          "text": "Most wordings require the accident to be the sole and independent cause of the loss. If an undiagnosed heart condition makes you collapse and the fall injures you, the insurer may argue illness, not accident, caused the loss. [See how that plays out](/qa/does-personal-accident-insurance-cover-illness/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Personal Accident vs Health vs Disability Income Insurance"
+        },
+        {
+          "type": "paragraph",
+          "text": "These three products are routinely confused, yet they pay for different things. Our [personal accident vs health insurance](/compare/personal-accident-vs-health-insurance/) matrix sets them side by side, and [do I need personal accident insurance if I have health insurance](/qa/do-i-need-personal-accident-insurance-if-i-have-health-insurance/) gives the practical answer."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Question",
+            "Personal Accident",
+            "Health Insurance",
+            "Disability Income Insurance"
+          ],
+          "rows": [
+            [
+              "What triggers a payout",
+              "An accident that causes death or injury",
+              "Medical treatment for illness or injury",
+              "Illness or injury that stops you working"
+            ],
+            [
+              "What you receive",
+              "Fixed sum from a benefit schedule",
+              "Payment of treatment bills, after your [deductible](/glossary/deductible/)",
+              "Monthly income replacement"
+            ],
+            [
+              "Covers illness?",
+              "No (rare optional add-ons)",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "How long it pays",
+              "One-off lump sum; weekly benefit for a limited period",
+              "While treatment is needed and the policy is in force",
+              "Often until recovery or a stated age"
+            ],
+            [
+              "Relative cost",
+              "Usually the lowest of the three",
+              "Usually the highest",
+              "Usually in between"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If lost income is your main worry, read [short-term vs long-term disability: do you need both](/qa/short-term-vs-long-term-disability-do-you-need-both/) and size the gap with the [Disability Income Protection Calculator](/disability-insurance-calculator/). For treatment costs, model your share with the [Out-of-Pocket Cost Calculator](/health-insurance-calculator/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Who Might Reasonably Buy It"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Self-employed workers with no sick pay.** A freelancer's income stops the day work does; see [Marco's freelance scenario](/scenarios/marco-freelance-berlin/).",
+            "**Parents of young children** who want a lump sum for permanent injury as one layer of protection, as in [Sarah and David's new-parents scenario](/scenarios/sarah-and-david-new-parents-toronto/).",
+            "**People in physical jobs or with active hobbies**, for whom disability income cover can be expensive or restricted.",
+            "**Anyone whose employer provides no accident benefit** and who has a gap between life cover and disability cover."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "It is a poor fit if you are hoping it will replace health or disability cover, or if group accident benefits through work already provide the same protection. Check what you already have before buying a duplicate."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Cover to Buy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Work from your own numbers: debts, the years of income dependants would need, and one-off costs such as adapting a home. The full method, with a worked example, is in [how much personal accident cover do I need](/qa/how-much-personal-accident-cover-do-i-need/). Run the figures through the [Insurance Needs Calculator](/insurance-needs-calculator/) and the [Life Insurance Calculator](/life-insurance-calculator/), and remember a fixed sum loses buying power over time; the [Insurance Inflation Calculator](/inflation-calculator/) shows by how much."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Avoid Double-Counting",
+          "text": "Life insurance already pays on accidental death, so the extra value of a PA policy lies mostly in the permanent disability and temporary income benefits. Subtract life cover, group AD&D and any disability income plan before choosing a sum insured."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Happens When You Claim"
+        },
+        {
+          "type": "paragraph",
+          "text": "Claims run on evidence: notice of the accident, medical reports and proof that the loss fits the schedule. Permanent disability is usually assessed only after your condition has stabilised, which can take a year or more. The step-by-step process, and the usual reasons for reduction or denial, are in [how does a personal accident insurance claim work](/qa/how-does-a-personal-accident-insurance-claim-work/). For general background, read [what is an insurance claim](/learn/what-is-an-insurance-claim/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Buying Checklist"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Read how the policy defines 'accident' and whether it must be the sole cause of the loss.",
+            "Check the time limit between the accident and death or disability for a payout to apply.",
+            "Confirm your occupation and any sports or hobbies are declared and accepted.",
+            "Compare benefit schedule percentages, not just the headline sum insured.",
+            "Look at age limits, renewal terms and whether the premium rises with age.",
+            "Run your existing policies through the [Policy Review Checklist](/policy-review-checklist/) and the [Coverage Gap Checker](/coverage-gap-checker/) to avoid duplication."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Where Personal Accident Insurance Fits in Your Wider Plan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Treat PA cover as one thin layer in a stack, not the foundation. The foundation is health cover, then life cover, then income protection; see [how to know if you are underinsured](/learn/how-to-know-if-you-are-underinsured/) for a way to test your own stack. If you are also buying a home, different policies guard different risks: accident cover protects your ability to keep paying the mortgage, while [title insurance](/learn/title-insurance-do-you-need-it/) protects your ownership of the property itself. Neither is a substitute for the other."
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "disability-insurance-calculator",
+          "title": "Disability Income Protection Calculator",
+          "description": "Calculate the monthly expense gap you would face if an accident stopped you working, and see how long your savings would last."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Benefit schedules, definitions and exclusions vary by insurer and country. This article is general education, not advice. Insurance Bhaiya does not sell insurance or earn commissions; read your policy wording and confirm details with a licensed adviser."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "pet-insurance-guide",
+      "slug": "pet-insurance-guide",
+      "title": "Pet Insurance Explained: What It Covers, What It Costs & What Gets Excluded",
+      "description": "Pet insurance covers accidents and illness, not everything. See real costs, reimbursement math, waiting periods and exclusions like desexing, dental and cremation.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "readingTime": 6,
+      "featured": true,
+      "tags": [
+        "pet insurance",
+        "dog insurance",
+        "cat insurance",
+        "pet insurance exclusions",
+        "pre-existing conditions",
+        "waiting periods",
+        "vet bills"
+      ],
+      "coverImage": "/images/learn/pet-insurance-guide.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Pet insurance is reimbursement insurance: you pay the vet first, then the insurer repays a percentage (commonly 70%, 80% or 90%) after your deductible.",
+        "Standard accident-and-illness plans usually exclude routine care such as spay/neuter (desexing), vaccines, cleanings and cremation unless you add a wellness plan or end-of-life benefit.",
+        "Pre-existing conditions and waiting periods are the two biggest reasons claims are denied, so enrol while your pet is young and healthy.",
+        "Dental illness is covered by some comprehensive plans, but routine dental cleanings almost never are.",
+        "Insurance beats saving when a single surprise bill (typically $3,000 to $8,000 for surgery) would force debt or a euthanasia decision you do not want to make."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "What does pet insurance not cover?",
+          "answer": "Most plans exclude pre-existing conditions, routine and preventive care (vaccines, spay/neuter, cleanings), cosmetic procedures, breeding and pregnancy costs, and cremation or burial. See [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/) and [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+        },
+        {
+          "question": "Does pet insurance cover dental cleaning?",
+          "answer": "Routine cleaning is generally not covered on standard plans. Accidental tooth injuries usually are, and some comprehensive plans cover dental disease. Read [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/) before you buy."
+        },
+        {
+          "question": "Does pet insurance cover spay or neuter surgery?",
+          "answer": "Only through wellness add-ons or certain preventive packages. Standard accident-and-illness plans treat it as elective. See [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/)."
+        },
+        {
+          "question": "How long is the waiting period for pet insurance?",
+          "answer": "Typical waiting periods are a few days for accidents, about 14 days for illness and up to 6 months for orthopedic conditions, though they vary. Learn the definition in our glossary entry on the [pet insurance waiting period](/glossary/pet-insurance-waiting-period/)."
+        },
+        {
+          "question": "Is pet insurance cheaper if I buy when my pet is a puppy or kitten?",
+          "answer": "Yes. Premiums rise with age and conditions diagnosed early become pre-existing exclusions later. Compare tiers in [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/) and run the numbers on our [Coverage Calculator](/coverage-calculator/)."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A single emergency vet visit now routinely costs $1,500 to $5,000, and complex surgery can pass $8,000. Pet insurance exists to turn that unpredictable spike into a predictable monthly [premium](/glossary/premium/). But it is also one of the most misunderstood policies in personal insurance: owners assume it works like human health insurance, then discover that desexing, dental cleaning, cremation and anything diagnosed before enrolment are not paid. If you are still deciding whether it is worth buying at all, start with our straight answer on [is pet insurance worth it](/qa/is-pet-insurance-worth-it/), then use this guide to read any policy with open eyes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Pet Insurance Actually Works"
+        },
+        {
+          "type": "paragraph",
+          "text": "Almost all pet policies are reimbursement plans. You visit any licensed vet, pay the full invoice, submit the claim, and the insurer sends back a percentage of the eligible amount. Three levers decide how much you recover: the annual or per-condition [deductible](/glossary/deductible/), the reimbursement rate (70%, 80% or 90%), and the annual or lifetime benefit limit."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "style": "info",
+          "title": "Reimbursement Math in One Example",
+          "text": "Your dog swallows a sock and needs a $4,000 obstruction surgery. With a $500 deductible and 80% reimbursement: ($4,000 - $500) x 80% = $2,800 paid by the insurer. You keep $1,200 of the bill. On a plan with a $5,000 annual limit, $2,200 of limit remains for the rest of the policy year. Model your own numbers with our [Deductible Breakeven Calculator](/deductible-calculator/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Pet Insurance Typically Covers"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Accidents:** broken bones, bite wounds, ingested foreign objects, toxin exposure, torn ligaments from a fall.",
+            "**Illnesses:** infections, cancer, diabetes, allergies, gastrointestinal disease, ear and skin conditions (on accident-and-illness plans).",
+            "**Diagnostics and hospital care:** X-rays, ultrasound, bloodwork, MRI, overnight stays and prescription medication tied to a covered condition.",
+            "**Hereditary and chronic conditions:** many comprehensive plans cover hip dysplasia or diabetes if the condition was not present before enrolment and waiting periods were served.",
+            "**Emergency and specialty care:** most plans let you use any licensed vet or specialty hospital."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Pet Insurance Usually Excludes"
+        },
+        {
+          "type": "paragraph",
+          "text": "The [exclusion](/glossary/exclusion/) section of a pet policy is where owners get surprised. The four most common gaps are below, each with its own deep dive."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Pre-existing conditions:** anything with signs, symptoms or a diagnosis before coverage starts or during the waiting period. Read the full rules in [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/).",
+            "**Spay, neuter and desexing:** an elective, preventive procedure that standard plans do not pay. See [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/) for when a wellness add-on makes sense.",
+            "**Routine dental cleaning:** coverage is limited to accidental tooth injuries and, on some plans, dental disease. Details are in [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/).",
+            "**Cremation, burial and disposal:** treated as post-death expenses, not medical care. Learn the exceptions in [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Plan Type",
+            "What It Pays For",
+            "Typical Monthly Cost (Dog)",
+            "Best For"
+          ],
+          "rows": [
+            [
+              "Accident-only",
+              "Injuries from accidents only; no illness",
+              "$12 - $25",
+              "Budget cover for healthy adult pets"
+            ],
+            [
+              "Accident & illness",
+              "Accidents plus illness, chronic and often hereditary conditions",
+              "$35 - $75",
+              "Most owners; the core catastrophic protection"
+            ],
+            [
+              "Wellness add-on",
+              "Fixed annual benefits for vaccines, checkups, sometimes spay/neuter and cleanings",
+              "$15 - $35 extra",
+              "Owners who want predictable routine-care budgeting"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Prices vary sharply by species, breed, age and ZIP code. Cats are usually cheaper than dogs, and giant breeds or breeds prone to hip, spine or heart disease cost more. For a full side-by-side of the two core tiers, see [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Waiting Periods and Pre-Existing Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Even after you buy a policy, coverage does not start on day one for everything. A [pet insurance waiting period](/glossary/pet-insurance-waiting-period/) commonly runs about 14 days for illness, a few days for accidents, and up to 6 months or more for orthopedic conditions like cruciate ligament tears. Any problem that appears during that window can become a [pre-existing condition](/glossary/pet-pre-existing-condition/), which is excluded for life by many insurers."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "style": "warning",
+          "title": "The Costliest Mistake: Waiting Until Something Goes Wrong",
+          "text": "Insurers can review your pet's full veterinary records before approving a large claim. If a vet note from before enrolment mentions limping, itching, vomiting or ear problems, the related claim can be denied. Enrol while your pet is young and healthy, and ask the insurer in writing how it treats curable conditions."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Routine Care: Wellness Plans, Desexing and Dental"
+        },
+        {
+          "type": "paragraph",
+          "text": "A [pet wellness plan](/glossary/pet-wellness-plan/) is not insurance in the strict sense. It is a prepaid allowance with fixed per-service benefits for vaccines, exams and sometimes spay/neuter or cleaning. Because you are paying premium to get your own money back, compare the annual add-on cost to the benefits you will really use. For a puppy needing vaccines plus a spay or neuter, it can break even; for a healthy adult cat, often not."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "End-of-Life Costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many plans reimburse euthanasia when it is part of treating a covered illness, but cremation or burial is usually your cost, commonly around $50 to $150 for communal cremation and $150 to $500 or more for a private one depending on size. A small number of insurers offer a limited end-of-life benefit or rider. Check the policy language before assuming, and see [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How to Choose a Pet Insurance Policy"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pick the highest annual limit you can afford; a $5,000 cap can be exhausted by one surgery.",
+            "Choose a deductible you can pay from savings without stress, and test the trade-off in our [Deductible Breakeven Calculator](/deductible-calculator/).",
+            "Prefer 80% to 90% reimbursement if the monthly [premium](/glossary/premium/) fits your budget.",
+            "Read the exclusions list, waiting periods and bilateral-condition rules before paying.",
+            "Check whether dental illness, hereditary conditions, prescription food and alternative therapies are included.",
+            "Run your current protection through our [8-Point Policy Check](/policy-check/) and review how to [read an insurance policy](/learn/how-to-read-an-insurance-policy/)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For a worked example, follow [Maya, 29, in Austin, insuring a Labrador puppy](/scenarios/maya-labrador-puppy-pet-insurance-austin/), including the exact limits, deductible and add-ons she chose and the monthly budget it created."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "More Pet Insurance Questions Owners Ask"
+        },
+        {
+          "type": "paragraph",
+          "text": "These deep dives extend the guide above: [does pet insurance cover hereditary conditions](/qa/does-pet-insurance-cover-hereditary-conditions/); [does pet insurance cover vaccinations](/qa/does-pet-insurance-cover-vaccinations/); [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/); [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/); [can you get pet insurance for an older pet](/qa/can-you-get-pet-insurance-for-an-older-pet/); [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/); [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/); [dog swallowed a sock pet insurance claim](/scenarios/dog-swallowed-sock-pet-insurance-claim/); [pet insurance reimbursement rate](/glossary/pet-insurance-reimbursement-rate/); [pet insurance annual limit](/glossary/pet-insurance-annual-limit/)."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Insurance Bhaiya is an independent, non-commissioned education platform. Premiums, limits and exclusions vary by insurer, state and policy form. Always confirm terms in the insurer's policy document before buying."
+        }
+      ]
+    },
+    {
+      "type": "learn",
+      "id": "liability-insurance-what-it-covers",
+      "slug": "liability-insurance-what-it-covers",
+      "title": "Liability Insurance: What It Covers, What It Doesn't, and How Much You Need",
+      "description": "Liability insurance pays for injuries and damage you cause to other people, plus your legal defense. Learn what it covers, the big exclusions, and the right limits.",
+      "category": "insurance-basics",
+      "author": "Insurance Bhaiya Research Desk",
+      "authorRole": "Actuarial Research Fellow",
+      "publishedAt": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "readingTime": 8,
+      "featured": true,
+      "tags": [
+        "liability insurance",
+        "third-party liability",
+        "general liability",
+        "personal liability",
+        "auto liability",
+        "duty to defend",
+        "exclusions"
+      ],
+      "coverImage": "/images/learn/liability-insurance-what-it-covers.jpg",
+      "country": [
+        "global"
+      ],
+      "language": "en",
+      "keyTakeaways": [
+        "Liability insurance protects you from other people's claims: it pays for bodily injury and property damage you are legally responsible for, never for your own losses.",
+        "It does not cover theft of your own car, home contents, or business equipment. Those losses belong to comprehensive, personal property, commercial property, or crime coverage (see [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/)).",
+        "Most liability policies also pay your lawyer. Under the insurer's [duty to defend](/glossary/duty-to-defend/), defense costs on auto, home, and general liability policies are usually paid on top of your limit.",
+        "State-minimum limits like 25/50/25 are rarely enough. A single serious injury claim can exceed $100,000, and the excess comes out of your savings and future wages.",
+        "Match your limits to your net worth and future income using the [Coverage Calculator](/coverage-calculator/), then layer an umbrella policy if the gap is large."
+      ],
+      "sections": [],
+      "faqs": [
+        {
+          "question": "Does liability insurance cover theft?",
+          "answer": "No. Liability insurance only pays when you are legally responsible for harming someone else. Theft of your own car is covered by comprehensive coverage, theft of home contents by your homeowners or renters personal property coverage, and theft of business property or employee theft by commercial property and crime insurance. Full details: [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/)."
+        },
+        {
+          "question": "Does liability insurance cover my own car if I cause an accident?",
+          "answer": "No. Auto liability pays for the other driver's vehicle and injuries. Repairs to your own car require collision coverage, minus your [deductible](/glossary/deductible/). See [does liability insurance cover my car](/qa/does-liability-insurance-cover-my-car/)."
+        },
+        {
+          "question": "Does liability insurance pay for a lawyer if I get sued?",
+          "answer": "Usually yes. Auto, homeowners, and general liability policies include a [duty to defend](/glossary/duty-to-defend/) and typically pay defense costs in addition to your policy limit. Professional liability policies often count defense costs against the limit. Read [does liability insurance cover legal fees](/qa/does-liability-insurance-cover-legal-fees/)."
+        },
+        {
+          "question": "What is the difference between general liability and professional liability?",
+          "answer": "General liability covers physical harm: bodily injury and property damage. Professional liability covers financial harm from your errors or advice. Most service businesses need both. Compare them side by side in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/)."
+        }
+      ],
+      "companionTool": {
+        "slug": "insurance-needs-calculator",
+        "title": "Insurance Needs Calculator",
+        "description": "Calculate your total protection requirement across life, health, and personal liability."
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Liability insurance is the part of your coverage that protects **other people from you**, and protects your bank account from their lawsuits. If you rear-end someone, a guest slips on your icy steps, or a customer trips over a cable in your shop, liability coverage pays for their medical bills, their repairs, and, if they sue, your legal defense. The term for this is [third-party liability](/glossary/third-party-liability/): the insurer steps in between you (the first party) and the person you harmed (the third party)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most expensive misunderstanding in personal finance is assuming liability insurance also covers **your** stuff. It does not. Your own car, your own laptop, your own stolen tools, and your own injuries sit under completely different coverage parts. This guide maps exactly where the line falls, using the six questions people search for most."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Liability Insurance Actually Does"
+        },
+        {
+          "type": "paragraph",
+          "text": "Every liability policy makes two promises. First, it agrees to **pay sums you become legally obligated to pay** as damages for bodily injury or property damage you cause, up to your limit. Second, it agrees to **defend you** against covered lawsuits, even ones that are groundless or fraudulent. That second promise is often worth more than the first: a defended slip-and-fall case can cost $30,000 to $75,000 in attorney fees before trial. We break down how that defense works, and when an insurer can refuse it, in [does liability insurance cover legal fees](/qa/does-liability-insurance-cover-legal-fees/)."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "The One-Sentence Test",
+          "text": "Ask: 'Is someone else claiming I owe them money because I hurt them or damaged their property?' If yes, that is a liability question. If the loss is to your own body, car, home, or business property, liability insurance will not pay, no matter how the damage happened."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The Four Main Types of Liability Insurance"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Liability Type",
+            "Where You Get It",
+            "What It Pays For",
+            "Typical Limits"
+          ],
+          "rows": [
+            [
+              "Auto Liability",
+              "Required part of every auto policy in nearly all US states",
+              "Other drivers' injuries and vehicle damage when you are at fault. It does not fix your car (see [does liability insurance cover my car](/qa/does-liability-insurance-cover-my-car/)).",
+              "State minimums (e.g. 25/50/25) up to 250/500/100"
+            ],
+            [
+              "Personal Liability (Coverage E)",
+              "Homeowners, renters, and condo policies",
+              "Guest injuries at your home, accidental damage you cause anywhere, and pet incidents such as [dog bites](/qa/does-homeowners-insurance-liability-cover-dog-bites/)",
+              "$100,000 to $500,000 per occurrence"
+            ],
+            [
+              "Commercial General Liability (CGL)",
+              "Standalone or bundled in a Business Owner's Policy (BOP)",
+              "Customer injuries, damage to client property, products-completed operations, advertising injury",
+              "$1M per occurrence / $2M aggregate"
+            ],
+            [
+              "Professional Liability (E&O)",
+              "Separate policy for advice-giving and service professions",
+              "Financial losses caused by your errors, omissions, or negligent advice. Compare it in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/).",
+              "$250,000 to $2M per claim"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Liability Insurance Covers"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Bodily injury to others:** Medical bills, lost wages, pain and suffering, and rehabilitation costs for people you injure.",
+            "**Property damage to others:** Repairing or replacing another person's car, fence, phone, storefront, or equipment that you damage.",
+            "**Legal defense:** Attorney fees, court costs, expert witnesses, and appeal bonds, usually paid in addition to your limit on auto, home, and CGL policies.",
+            "**Settlements and judgments:** Negotiated payouts and court awards, up to the per-occurrence and aggregate limits shown on your declarations page.",
+            "**Medical payments to others:** A small no-fault layer ($1,000 to $10,000) on home and business policies that pays minor injury bills fast, often heading off a lawsuit entirely."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "What Liability Insurance Does Not Cover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Every liability policy carries a standard set of [exclusions](/glossary/exclusion/). These are the ones that generate the most denied claims:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Theft of your own property.** A stolen car, burgled apartment, or looted job site is a first-party loss. Liability pays nothing. Our full breakdown of where theft losses actually belong is in [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/).",
+            "**Damage to your own vehicle.** Even if the crash was not your fault, the liability part of your policy only pays the other side. Your repairs need collision coverage. See [comprehensive vs collision](/compare/comprehensive-vs-collision/).",
+            "**Your own injuries.** Your medical bills go through health insurance, MedPay, PIP, or uninsured motorist coverage. A [hit-and-run](/qa/does-liability-insurance-cover-hit-and-run/) is the classic trap, because there is no at-fault driver's liability policy to claim against.",
+            "**Injuries to your own employees.** The CGL employer's liability exclusion pushes these claims to workers' compensation. Details: [does general liability insurance cover employee injuries](/qa/does-general-liability-insurance-cover-employee-injuries/).",
+            "**Intentional and criminal acts.** Harm you expected or intended is excluded on public-policy grounds.",
+            "**Business activity on a personal policy.** Your homeowners liability will not defend a lawsuit arising from your side business, home daycare, or rental property.",
+            "**Professional mistakes.** Bad advice, a missed deadline, or a design error causing purely financial loss needs professional liability (E&O), not general liability."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "The 'Care, Custody, or Control' Trap",
+          "text": "General liability policies exclude damage to property you rent, occupy, or hold for someone else. If you run a repair shop, dry cleaner, or storage business and a customer's item is stolen from your premises, CGL usually pays nothing. You need bailee's customer coverage or inland marine coverage. This is the most common surprise in [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/) disputes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Liability at Home: Guests, Pets, and Accidents Away From Home"
+        },
+        {
+          "type": "paragraph",
+          "text": "Homeowners and renters policies carry personal liability that follows you **worldwide**, not just on your property. Knock over a $4,000 camera in a shop, or break a neighbor's window with a golf ball, and Coverage E responds. Dog-related injuries are the single largest personal liability exposure: US insurers paid about $1.57 billion across 22,658 dog-related injury claims in 2024, averaging $69,272 per claim. Breed exclusions and prior-bite exclusions can quietly remove that protection, which we cover in [does homeowners insurance liability cover dog bites](/qa/does-homeowners-insurance-liability-cover-dog-bites/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Liability on the Road: Why It Never Fixes Your Car"
+        },
+        {
+          "type": "paragraph",
+          "text": "A liability-only auto policy is the cheapest legal way to drive, but it is a one-way shield. It pays for the other driver's bumper and medical bills when you cause a crash. It pays nothing toward your own repairs, a stolen car, or a hit-and-run. If your car is worth more than about ten times the annual cost of collision and comprehensive, dropping those coverages is usually a false economy. Model the break-even point with the [Car Insurance Coverage Calculator](/car-insurance-calculator/) and see how it played out for a real driver in our [California auto coverage scenario](/scenarios/jordan-california-auto-coverage/)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Liability for Small Businesses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Commercial [general liability](/learn/commercial-general-liability-guide/) is the first policy most landlords, clients, and event venues demand. Small businesses pay a median of about $45 per month, and roughly 85% choose $1 million per occurrence and $2 million aggregate limits. But CGL is narrow by design: it excludes employee injuries, professional errors, business autos, and theft of your own equipment. Our case study of a café owner shows how those gaps line up in practice: [Priya's Austin bakery liability scenario](/scenarios/priya-austin-bakery-liability/)."
+        },
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Read the Supplementary Payments Clause",
+          "text": "On standard ISO general liability forms, defense costs sit under 'Supplementary Payments' and do not reduce your limit. Many professional liability policies do the opposite: defense is inside the limit, so every legal invoice shrinks what is left to pay a settlement. Ask your agent which kind you are buying, and check our [8-Point Policy Check](/policy-check/) before renewal."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "How Much Liability Coverage Do You Need?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The rule of thumb: carry liability limits at least equal to your **net worth plus about five years of income**, because a court can reach both savings and future wages. When that number climbs past what a home or auto policy will sell you, an [umbrella policy](/learn/umbrella-insurance-guide/) adds $1 million or more on top for roughly $150 to $350 a year."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Household Profile",
+            "Suggested Auto Liability",
+            "Suggested Home/Renters Liability",
+            "Umbrella?"
+          ],
+          "rows": [
+            [
+              "Renter, net worth under $50,000",
+              "100/300/100",
+              "$100,000 to $300,000",
+              "Optional"
+            ],
+            [
+              "Homeowner, net worth $100,000 to $500,000",
+              "250/500/100",
+              "$300,000",
+              "Recommended ($1M)"
+            ],
+            [
+              "Teen drivers, pool, or dog in household",
+              "250/500/100",
+              "$500,000",
+              "Strongly recommended ($1M to $2M)"
+            ],
+            [
+              "Net worth over $1M or high earner",
+              "250/500/100 (umbrella minimum)",
+              "$500,000",
+              "Essential (limit at least equal to net worth)"
+            ]
+          ]
+        },
+        {
+          "type": "calculator-embed",
+          "toolSlug": "coverage-calculator",
+          "title": "Find Your Liability Coverage Gap",
+          "description": "Enter your assets, income, and current limits to see how much of your net worth is exposed in a serious lawsuit."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Key Liability Terms to Know"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**[Third-party liability](/glossary/third-party-liability/):** Coverage for claims made by people outside the insurance contract who you harmed.",
+            "**[Duty to defend](/glossary/duty-to-defend/):** The insurer's obligation to hire and pay your lawyer whenever a lawsuit alleges facts that could be covered.",
+            "**Per-occurrence limit:** The maximum the insurer pays for one incident, no matter how many people are hurt.",
+            "**Aggregate limit:** The maximum the insurer pays for all claims during the policy period.",
+            "**[Exclusion](/glossary/exclusion/):** A clause that removes a specific risk from coverage, such as intentional acts or business pursuits."
+          ]
+        },
+        {
+          "type": "disclaimer",
+          "text": "Liability coverage terms, state minimum limits, and dog-bite statutes vary by state, insurer, and policy form. Figures cited are illustrative ranges and published industry medians (Insurance Information Institute, Insureon), not quotes. Always confirm coverage with your declarations page or a licensed agent, and see [how to read an insurance policy](/learn/how-to-read-an-insurance-policy/) for help finding the clauses that matter."
+        }
+      ]
+    },
+    {
+      "type": "learn",
       "id": "commercial-crime-insurance",
       "slug": "commercial-crime-insurance",
       "title": "Commercial Crime Insurance Explained: Employee Theft, Forgery and Funds-Transfer Fraud Your Property Policy Won't Cover",
@@ -20708,10 +21749,10 @@
     },
     {
       "slug": "general-liability-vs-professional-liability",
-      "title": "General Liability vs. Professional Liability (E&O) Insurance",
-      "subtitle": "General liability answers 'you hurt someone or damaged their property'; professional liability answers 'your work or advice cost someone money'.",
+      "title": "General Liability vs. Professional Liability Insurance",
+      "subtitle": "General liability covers physical harm you cause to people and property; professional liability covers financial harm caused by your mistakes, advice, or missed deadlines.",
       "category": "General Principles",
-      "decisionSummary": "Almost every business needs [general liability](/learn/commercial-general-liability-guide/), because leases and contracts require it and any customer can be injured on your premises. Any business that gives advice, designs, reports or professional services also needs professional liability (errors and omissions), because general liability excludes financial losses caused by your work. If you've ever asked [does business insurance cover lawsuits](/qa/does-business-insurance-cover-lawsuits/), the answer depends on which of these two policies the claim falls under. Size both with [how much business insurance do I need](/learn/how-much-business-insurance-do-i-need/), and see where they fit in our [business insurance coverage and requirements](/learn/business-insurance-coverage-requirements/) hub.",
+      "decisionSummary": "Every business with customers, a storefront, or a client site needs general liability. It is the policy landlords and contracts demand, and it pays for bodily injury and property damage to third parties (see [what liability insurance covers](/learn/liability-insurance-what-it-covers/)). If you sell advice, designs, or professional services, add [professional liability](/learn/professional-indemnity-insurance/) (E&O): a client who loses money because of your error has no claim under general liability. Most consultants, agencies, accountants, and contractors with design duties need both. Neither policy covers your own employees' injuries ([does general liability insurance cover employee injuries](/qa/does-general-liability-insurance-cover-employee-injuries/)) or theft of your own property ([does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/)). Size your limits with the [Coverage Calculator](/coverage-calculator/).",
       "options": {
         "optionA": "General Liability (CGL)",
         "optionB": "Professional Liability (E&O)"
@@ -20719,39 +21760,327 @@
       "rows": [
         {
           "feature": "What Triggers a Claim",
-          "optionA": "Bodily injury, property damage, or personal and advertising injury (such as libel or slander) caused by your operations.",
-          "optionB": "A financial loss to a client caused by your error, omission, negligent advice or failure to deliver professional services.",
-          "whyItMatters": "A client who loses money because of your mistake has suffered no physical injury or property damage, so general liability won't respond."
+          "optionA": "Bodily injury, property damage, or personal and advertising injury (libel, slander, copyright in ads) to a third party.",
+          "optionB": "A negligent act, error, or omission in your professional services that causes a client financial loss.",
+          "whyItMatters": "A client who trips in your office is a CGL claim. A client who loses $200,000 because of your faulty advice is an E&O claim. Filing under the wrong policy means a denial."
         },
         {
-          "feature": "Typical Example",
-          "optionA": "A client trips over a cable in your office and breaks a wrist.",
-          "optionB": "A client says your campaign, code or financial advice caused $200,000 in lost revenue.",
-          "whyItMatters": "Most service businesses face the second kind of claim far more often than the first."
+          "feature": "Who Needs It",
+          "optionA": "Virtually every business with physical premises, customer contact, products, or work at client sites.",
+          "optionB": "Consultants, accountants, IT and software firms, architects, engineers, real estate agents, marketers, and anyone paid for expertise.",
+          "whyItMatters": "Many client contracts require both. A missing E&O policy can block you from winning enterprise or government work."
         },
         {
-          "feature": "Coverage Trigger",
-          "optionA": "Usually occurrence-based: the policy in force when the injury happened responds, even if the suit comes years later.",
-          "optionB": "Usually claims-made: the policy in force when the claim is made responds, for work after the retroactive date.",
-          "whyItMatters": "Cancelling a claims-made policy without tail coverage can leave past work uninsured; see [can you cancel business insurance at any time](/qa/can-you-cancel-business-insurance-at-any-time/) and [extended reporting period](/glossary/extended-reporting-period/)."
+          "feature": "Policy Trigger",
+          "optionA": "Usually occurrence-based: covers incidents that happen during the policy period, even if the claim arrives years later.",
+          "optionB": "Usually claims-made: the claim must be made and reported while the policy is active, for work after the retroactive date.",
+          "whyItMatters": "Cancel a claims-made E&O policy without buying tail coverage (an extended reporting period) and claims for past work go uninsured."
         },
         {
           "feature": "Defense Costs",
-          "optionA": "In the standard form, paid in addition to the policy limit.",
-          "optionB": "Often paid within the limit, so legal fees reduce what's left for settlements.",
-          "whyItMatters": "A $1 million E&O policy can shrink sharply after a long legal fight, so E&O limits often need to be higher."
+          "optionA": "Typically paid outside the limit under Supplementary Payments, so legal fees do not reduce the money available for settlements.",
+          "optionB": "Often paid inside the limit (eroding limits), so every legal invoice shrinks what is left to pay the claim.",
+          "whyItMatters": "A $1M E&O policy with $300,000 in defense costs leaves only $700,000. See [does liability insurance cover legal fees](/qa/does-liability-insurance-cover-legal-fees/) and the [duty to defend](/glossary/duty-to-defend/)."
         },
         {
-          "feature": "Who Requires It",
-          "optionA": "Landlords, client contracts, licensing boards and event venues.",
-          "optionB": "Client contracts, especially in IT, consulting, design and finance, and some professional licenses.",
-          "whyItMatters": "Read your contracts: many now ask for both policies, each with its own limit."
+          "feature": "Typical Limits and Cost",
+          "optionA": "$1M per occurrence / $2M aggregate is standard; small businesses pay a median of about $45 per month.",
+          "optionB": "$500,000 to $2M per claim; cost varies widely by profession, revenue, and claims history, from under $50 to several hundred dollars a month.",
+          "whyItMatters": "CGL is inexpensive because physical injury claims at low-risk offices are rare. E&O pricing reflects how much financial damage your advice could cause."
         },
         {
-          "feature": "What It Doesn't Cover",
-          "optionA": "Professional errors, employee injuries, employment claims, auto accidents, property in your care.",
-          "optionB": "Bodily injury and property damage, intentional wrongdoing, fines, and theft losses (see [commercial crime insurance](/learn/commercial-crime-insurance/)).",
-          "whyItMatters": "The two policies are designed to fit together, with almost no overlap."
+          "feature": "Key Exclusions",
+          "optionA": "Professional services, employee injuries, autos, your own property, care-custody-control, and expected or intended injury.",
+          "optionB": "Bodily injury and property damage, intentional or fraudulent acts, contractual guarantees, and prior known claims.",
+          "whyItMatters": "Each policy excludes what the other covers. Buying only one leaves a predictable gap. Check every [exclusion](/glossary/exclusion/) on both before signing a client contract."
+        }
+      ]
+    },
+    {
+      "slug": "accident-only-vs-comprehensive-pet-insurance",
+      "title": "Accident-Only vs. Comprehensive (Accident & Illness) Pet Insurance",
+      "subtitle": "Cheaper cover for injuries only, or broader protection that also pays for illness and chronic conditions?",
+      "category": "General Principles",
+      "decisionSummary": "Choose comprehensive accident-and-illness cover if you want protection against the largest and most common vet bills: illness, cancer and chronic disease. Accident-only suits healthy adult pets and tight budgets where a catastrophic injury is the main fear. Neither pays for routine care, so budget for [desexing](/qa/does-pet-insurance-cover-desexing/) and [dental cleaning](/qa/does-pet-insurance-cover-dental/) separately or add a [wellness plan](/glossary/pet-wellness-plan/). Model both options with our [Deductible Breakeven Calculator](/deductible-calculator/) and read the full overview in our [pet insurance guide](/learn/pet-insurance-guide/).",
+      "options": {
+        "optionA": "Accident-Only Pet Insurance",
+        "optionB": "Comprehensive (Accident & Illness)"
+      },
+      "rows": [
+        {
+          "feature": "Conditions Covered",
+          "optionA": "Injuries from accidents: fractures, bites, swallowed objects, toxin exposure.",
+          "optionB": "Accidents plus illness: infections, cancer, diabetes, allergies, often hereditary conditions.",
+          "whyItMatters": "Illness drives most large claims over a pet's life, so accident-only leaves your biggest exposure uncovered."
+        },
+        {
+          "feature": "Typical Monthly Premium (Dog)",
+          "optionA": "Roughly $12 - $25, depending on age and breed.",
+          "optionB": "Roughly $35 - $75, rising with age, breed risk and lower deductibles.",
+          "whyItMatters": "The premium gap buys protection from slower-burn, expensive illness; compare it with your emergency fund using our [Coverage Calculator](/coverage-calculator/)."
+        },
+        {
+          "feature": "Waiting Periods",
+          "optionA": "Short, often a few days for accidents.",
+          "optionB": "Accidents a few days; illness about 14 days; orthopedic often up to 6 months or more.",
+          "whyItMatters": "Anything that appears in the window can become a [pre-existing condition](/glossary/pet-pre-existing-condition/) and be excluded permanently."
+        },
+        {
+          "feature": "Chronic and Hereditary Conditions",
+          "optionA": "Not covered unless caused by an accident.",
+          "optionB": "Often covered when not pre-existing, including conditions like hip dysplasia on many plans.",
+          "whyItMatters": "Chronic conditions repeat annually; read [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/) before relying on this."
+        },
+        {
+          "feature": "Dental, Desexing and Cremation",
+          "optionA": "Accidental tooth injury only; no desexing or cremation.",
+          "optionB": "Accidental tooth injury plus dental disease on some plans; desexing and cremation generally excluded.",
+          "whyItMatters": "Preventive and end-of-life costs are rarely covered by either tier; see [desexing](/qa/does-pet-insurance-cover-desexing/), [dental](/qa/does-pet-insurance-cover-dental/) and [cremation](/qa/does-pet-insurance-cover-cremation/)."
+        },
+        {
+          "feature": "Best Fit",
+          "optionA": "Healthy adult pets, low-risk breeds, owners with strong savings.",
+          "optionB": "Puppies and kittens, high-risk breeds, owners who cannot absorb a $5,000 bill.",
+          "whyItMatters": "Match the product to the risk you cannot self-fund; a worked case is in [Maya's Labrador puppy scenario](/scenarios/maya-labrador-puppy-pet-insurance-austin/)."
+        }
+      ]
+    },
+    {
+      "slug": "pet-insurance-vs-pet-savings-account",
+      "title": "Pet Insurance vs. Pet Savings Account",
+      "subtitle": "Transfer the risk of a huge vet bill to an insurer, or self-insure by building a dedicated fund?",
+      "category": "General Principles",
+      "decisionSummary": "Choose pet insurance if one surprise bill of $5,000 or more would force debt, delay care or limit treatment choices; choose a dedicated savings account if you already hold that sum in untouchable cash and your pet is low risk. A hybrid works well: comprehensive insurance with a higher deductible, plus a smaller fund for routine care such as [desexing](/qa/does-pet-insurance-cover-desexing/), [vaccinations](/qa/does-pet-insurance-cover-vaccinations/) and [dental](/qa/does-pet-insurance-cover-dental/). Test options with our [Deductible Breakeven Calculator](/deductible-calculator/) and see the full overview in [Pet Insurance Explained](/learn/pet-insurance-guide/).",
+      "options": {
+        "optionA": "Pet Insurance",
+        "optionB": "Pet Savings Account"
+      },
+      "rows": [
+        {
+          "feature": "Upfront Cost",
+          "optionA": "No lump sum; monthly [premium](/glossary/premium/) of roughly $35 - $75 for a dog on a comprehensive plan.",
+          "optionB": "Needs building a fund of $3,000 - $8,000 before it is truly protective.",
+          "whyItMatters": "A new pet's first-year emergency can happen before a savings fund has grown; see [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/)."
+        },
+        {
+          "feature": "Protection Against a Catastrophic Bill",
+          "optionA": "Pays 70% - 90% of eligible costs above the deductible, up to the [annual limit](/glossary/pet-insurance-annual-limit/).",
+          "optionB": "Limited to the balance in the account; a second event in a year can empty it.",
+          "whyItMatters": "Large bills are the reason people buy insurance; compare examples in [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/)."
+        },
+        {
+          "feature": "Exclusions and Waiting Periods",
+          "optionA": "Pre-existing conditions, waiting periods and exclusions apply.",
+          "optionB": "None; every vet bill can be paid from the fund.",
+          "whyItMatters": "Self-insuring has no [pre-existing condition](/glossary/pet-pre-existing-condition/) risk; review how insurers treat history in [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/)."
+        },
+        {
+          "feature": "Flexibility and Control",
+          "optionA": "Reimbursement rules and claims process; any licensed vet in most plans.",
+          "optionB": "Complete freedom, including routine care and end-of-life costs such as [cremation](/qa/does-pet-insurance-cover-cremation/).",
+          "whyItMatters": "Insurance does not pay for most routine or end-of-life items, so a fund is useful either way."
+        },
+        {
+          "feature": "Best Fit",
+          "optionA": "New puppies and kittens, high-risk breeds, owners with limited cash reserves.",
+          "optionB": "Low-risk adult pets and owners with ample dedicated savings.",
+          "whyItMatters": "Decide with the framework in [is pet insurance worth it](/qa/is-pet-insurance-worth-it/) and a worked case in [Maya's puppy plan](/scenarios/maya-labrador-puppy-pet-insurance-austin/)."
+        }
+      ]
+    },
+    {
+      "slug": "personal-accident-vs-health-insurance",
+      "title": "Personal Accident vs. Health Insurance",
+      "subtitle": "A fixed cash benefit for accidents versus broad reimbursement of medical costs: why one cannot stand in for the other.",
+      "category": "Health Insurance",
+      "decisionSummary": "Choose health insurance first: it is the policy that stops a medical bill becoming a financial crisis. Add personal accident insurance only as a supplement if you have dependants, no sick pay, or a physically risky job or hobby, and only after checking [what your employer already provides](/qa/do-i-need-personal-accident-insurance-if-i-have-health-insurance/). For the full product picture, start with the [personal accident insurance guide](/learn/personal-accident-insurance-explained/). Size your treatment-cost exposure with the [Out-of-Pocket Cost Calculator](/health-insurance-calculator/) and your lost-income exposure with the [Disability Income Protection Calculator](/disability-insurance-calculator/).",
+      "options": {
+        "optionA": "Personal Accident Insurance",
+        "optionB": "Health Insurance"
+      },
+      "rows": [
+        {
+          "feature": "What It Pays For",
+          "optionA": "A fixed benefit from a schedule when an accident causes death, permanent disability or a specified loss, with optional weekly or hospital allowances.",
+          "optionB": "The cost of treatment, hospital stays and prescriptions for covered illnesses and injuries, after your deductible and copays.",
+          "whyItMatters": "One pays a sum you can spend on anything; the other pays providers. Confusing them leads people to expect cash from health cover or hospital bills from PA cover."
+        },
+        {
+          "feature": "Illness Cover",
+          "optionA": "Normally excluded; the accident must be the sole cause of the loss.",
+          "optionB": "Core purpose: both illness and injury are covered.",
+          "whyItMatters": "Most serious health events begin as illness, not accidents, so PA cover protects only a narrow slice of risk."
+        },
+        {
+          "feature": "How the Payout Is Calculated",
+          "optionA": "A percentage of the sum insured set by the benefit schedule, regardless of your actual bills.",
+          "optionB": "Reimbursement of eligible actual costs up to plan limits and your out-of-pocket maximum.",
+          "whyItMatters": "A PA payout can exceed your bills for a minor injury or fall far short of your lifetime costs after a severe one."
+        },
+        {
+          "feature": "Income Replacement",
+          "optionA": "Lump sum for permanent disability; weekly benefit for temporary disablement in many plans, usually for a limited period.",
+          "optionB": "None. Health insurance does not replace lost earnings.",
+          "whyItMatters": "If you cannot work, health insurance pays the surgeon but not the mortgage. Disability income insurance is the product built for that gap."
+        },
+        {
+          "feature": "Typical Cost",
+          "optionA": "Usually low, because the covered events are narrow.",
+          "optionB": "Substantially higher, reflecting broad cover for frequent claims.",
+          "whyItMatters": "Cheap does not mean sufficient. Buy PA cover to complement health insurance, never to economise on it."
+        },
+        {
+          "feature": "Interaction With Other Cover",
+          "optionA": "Benefit-type payouts are often paid regardless of other insurance; medical-expense add-ons usually coordinate with other policies.",
+          "optionB": "Coordination of benefits applies if you hold more than one health plan.",
+          "whyItMatters": "You can generally hold both, but check the coordination wording on any medical-expense extension."
+        }
+      ]
+    },
+    {
+      "slug": "lenders-vs-owners-title-insurance",
+      "title": "Lender's vs. Owner's Title Insurance",
+      "subtitle": "One policy protects the bank's loan, the other protects your ownership, and only one of them is yours.",
+      "category": "Property & Home",
+      "decisionSummary": "If you borrow to buy, you will pay for a lender's policy whatever you decide, because the lender requires it. The real decision is whether to add an owner's policy, which is the only one that protects you. For most buyers the owner's policy is worth buying alongside the lender's policy because the combined purchase usually earns a discount. Read [do I need owner's title insurance if my lender requires a policy](/qa/do-i-need-owners-title-insurance-if-my-lender-requires-a-policy/), then see the full [title insurance guide](/learn/title-insurance-do-you-need-it/) and check costs in [how much does title insurance cost and who pays](/qa/how-much-does-title-insurance-cost-and-who-pays/).",
+      "options": {
+        "optionA": "Lender's Title Insurance",
+        "optionB": "Owner's Title Insurance"
+      },
+      "rows": [
+        {
+          "feature": "Who It Protects",
+          "optionA": "The mortgage lender's security interest in the property.",
+          "optionB": "You, as the owner, and your heirs while you hold an interest.",
+          "whyItMatters": "If a title problem appears, the lender's policy protects the bank's loan. It does not defend your ownership or repay your equity."
+        },
+        {
+          "feature": "Is It Required?",
+          "optionA": "Required by virtually all lenders as a condition of the loan.",
+          "optionB": "Optional, though strongly recommended by many advisers.",
+          "whyItMatters": "Paying for a required policy can create a false sense of security. The optional policy is the one that covers you."
+        },
+        {
+          "feature": "Coverage Amount",
+          "optionA": "The outstanding loan balance, which falls as you repay.",
+          "optionB": "Generally the purchase price of the home.",
+          "whyItMatters": "Your equity is the gap between the two. Only the owner's policy covers that gap."
+        },
+        {
+          "feature": "Duration",
+          "optionA": "Until the loan is repaid or refinanced.",
+          "optionB": "For as long as you or your heirs own the property.",
+          "whyItMatters": "A refinance requires a new lender's policy, but your existing owner's policy stays in force."
+        },
+        {
+          "feature": "Cost and Who Pays",
+          "optionA": "One-time premium, usually paid by the buyer.",
+          "optionB": "One-time premium; who pays depends on state custom and negotiation, and it is often much cheaper when bought together with the lender's policy.",
+          "whyItMatters": "Combined policies typically cost about 0.5% to 1% of the price, so buying both at closing is usually cheaper than adding the owner's policy later."
+        },
+        {
+          "feature": "What Happens If You Skip It",
+          "optionA": "Not an option when borrowing; the loan will not close without it.",
+          "optionB": "You carry the cost of defending or fixing any covered title defect yourself.",
+          "whyItMatters": "Legal costs and a lost property claim can far exceed the one-time premium."
+        }
+      ]
+    },
+    {
+      "slug": "public-liability-vs-professional-indemnity-insurance",
+      "title": "Public Liability vs Professional Indemnity Insurance",
+      "subtitle": "Physical injury and property damage versus financial loss from advice and mistakes, for UK sole traders.",
+      "category": "Business Insurance",
+      "decisionSummary": "Choose [public liability](/glossary/public-liability-insurance/) if your work can hurt someone or damage property, and [professional indemnity](/learn/professional-indemnity-insurance/) if you are paid for advice, design or expertise. Many sole traders need both. See the full picture in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/), then [what insurance do I need as a sole trader](/qa/what-insurance-do-i-need-as-a-sole-trader/).",
+      "options": {
+        "optionA": "Public Liability Insurance",
+        "optionB": "Professional Indemnity Insurance"
+      },
+      "rows": [
+        {
+          "feature": "What It Covers",
+          "optionA": "Injury or property damage to third parties caused by your work.",
+          "optionB": "Financial loss to a client caused by your advice, error or negligent service.",
+          "whyItMatters": "The most common cause of gaps is assuming one covers the other."
+        },
+        {
+          "feature": "Typical Buyers",
+          "optionA": "Tradespeople, cleaners, trainers, market traders, anyone meeting the public.",
+          "optionB": "Consultants, designers, writers, IT freelancers, bookkeepers.",
+          "whyItMatters": "Match the policy to how you earn."
+        },
+        {
+          "feature": "Typical Contract Limits",
+          "optionA": "£1m, £2m or £5m.",
+          "optionB": "£100,000 to £1m, depending on the contract.",
+          "whyItMatters": "Check the client's wording before buying."
+        },
+        {
+          "feature": "Legal Status",
+          "optionA": "Voluntary for sole traders, often contractual.",
+          "optionB": "Voluntary generally, but compulsory for some regulated professions.",
+          "whyItMatters": "Regulators and clients, not general law, set the requirement."
+        },
+        {
+          "feature": "Cover Basis",
+          "optionA": "Typically covers incidents during the policy period.",
+          "optionB": "Typically claims-made, with a retroactive date.",
+          "whyItMatters": "PI lapses can leave past work uninsured."
+        },
+        {
+          "feature": "What Neither Covers",
+          "optionA": "Employee injury, tools, your income.",
+          "optionB": "Physical injury, employee injury, tools.",
+          "whyItMatters": "Fill gaps with [employers liability](/qa/do-sole-traders-need-employers-liability-insurance/), [tools cover](/qa/tool-insurance-for-tradespeople/), [income protection](/qa/income-protection-for-self-employed-uk/)."
+        }
+      ]
+    },
+    {
+      "slug": "public-liability-vs-employers-liability-insurance",
+      "title": "Public Liability vs Employers' Liability Insurance",
+      "subtitle": "Third-party claims versus employee injury claims: which one the law requires, and which clients ask for.",
+      "category": "Business Insurance",
+      "decisionSummary": "[Employers liability](/glossary/employers-liability-insurance/) is the compulsory one, but only once you employ someone. [Public liability](/glossary/public-liability-insurance/) is voluntary but expected by clients. If you hire staff you usually need both. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/) and [do sole traders need employers liability insurance](/qa/do-sole-traders-need-employers-liability-insurance/).",
+      "options": {
+        "optionA": "Public Liability Insurance",
+        "optionB": "Employers' Liability Insurance"
+      },
+      "rows": [
+        {
+          "feature": "Who Is Protected",
+          "optionA": "Customers, visitors and the public.",
+          "optionB": "Your employees, including casual and part-time staff.",
+          "whyItMatters": "Different claimants, different policies."
+        },
+        {
+          "feature": "Legal Status",
+          "optionA": "Voluntary, often contractual.",
+          "optionB": "Compulsory when you employ someone, minimum £5 million.",
+          "whyItMatters": "Fines can reach £2,500 for each day uninsured."
+        },
+        {
+          "feature": "Typical Limits",
+          "optionA": "£1m to £5m.",
+          "optionB": "At least £5m, often £10m.",
+          "whyItMatters": "Legal minimum versus contract expectation."
+        },
+        {
+          "feature": "Certificate",
+          "optionA": "Provided to clients on request.",
+          "optionB": "Must be displayed or available electronically.",
+          "whyItMatters": "A £1,000 fine can apply for not displaying it."
+        },
+        {
+          "feature": "Who Needs It",
+          "optionA": "Sole traders meeting the public.",
+          "optionB": "Sole traders with employees.",
+          "whyItMatters": "Check status of helpers in the subcontractors guide."
+        },
+        {
+          "feature": "What Neither Covers",
+          "optionA": "Employee injuries, advice errors, tools.",
+          "optionB": "Third-party injuries, advice errors, tools.",
+          "whyItMatters": "Add other covers; see public liability not covered."
         }
       ]
     }
@@ -22445,9 +23774,9 @@
       "ukTerm": "",
       "category": "Legal & Statutory",
       "simpleDefinition": "Compulsory UK insurance that pays compensation and legal costs if an employee is injured or made ill by their work and claims against you.",
-      "scoutExplanation": "Under the Employers' Liability (Compulsory Insurance) Act 1969, an employer must hold at least £5 million of cover from an authorised insurer and display the certificate. For a sole trader the duty starts the day you take on an employee; see [do sole traders need employers liability insurance](/qa/do-sole-traders-need-employers-liability-insurance). It is separate from [public liability](/glossary/public-liability-insurance), which covers third parties, and is summarised in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need). Check worker status in [the subcontractors guide](/qa/do-subcontractors-need-their-own-insurance), and note some risks sit in an [exclusion](/glossary/exclusion).",
+      "scoutExplanation": "Under the Employers' Liability (Compulsory Insurance) Act 1969, an employer must hold at least £5 million of cover from an authorised insurer and display the certificate. For a sole trader the duty starts the day you take on an employee; see [do sole traders need employers liability insurance](/qa/do-sole-traders-need-employers-liability-insurance/). It is separate from [public liability](/glossary/public-liability-insurance/), which covers third parties, and is summarised in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/). Check worker status in [the subcontractors guide](/qa/do-subcontractors-need-their-own-insurance/), and note some risks sit in an [exclusion](/glossary/exclusion/).",
       "example": "A sole trader roofer hires an employee at £120 a day. The employee falls through a skylight and claims £85,000 for injuries and lost earnings. Employers' liability pays the claim and defence costs up to the policy limit. Without it, the roofer pays personally and may also face a fine of up to £2,500 per day uninsured.",
-      "whyItMatters": "Wallet risk: no cover means an injury claim comes straight from your savings, plus fines. Assuming a casual worker is self-employed is a common error, so check status before relying on it. Compare structure in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance).",
+      "whyItMatters": "Wallet risk: no cover means an injury claim comes straight from your savings, plus fines. Assuming a casual worker is self-employed is a common error, so check status before relying on it. Compare structure in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/). Related: [public liability vs employers liability](/compare/public-liability-vs-employers-liability-insurance/), [sole trader](/glossary/sole-trader/).",
       "relatedTerms": [
         "public-liability-insurance",
         "exclusion",
@@ -22483,9 +23812,9 @@
       "ukTerm": "",
       "category": "Legal & Statutory",
       "simpleDefinition": "Insurance that pays legal costs and compensation if a customer, passer-by or other third party is injured or has property damaged because of your business activities.",
-      "scoutExplanation": "Public liability protects you from claims by people who are not your employees. It typically pays compensation up to the policy limit (commonly £1m, £2m or £5m) and the legal costs of defending a claim. It is voluntary for UK sole traders but frequently demanded by clients and venues. Read the full question in [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader), see how it fits in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), and compare it with [employers liability](/glossary/employers-liability-insurance), which covers staff. It does not cover advice errors ([professional indemnity](/learn/professional-indemnity-insurance)), your own tools ([tool insurance](/qa/tool-insurance-for-tradespeople)) or an [exclusion](/glossary/exclusion) listed in your policy.",
+      "scoutExplanation": "Public liability protects you from claims by people who are not your employees. It typically pays compensation up to the policy limit (commonly £1m, £2m or £5m) and the legal costs of defending a claim. It is voluntary for UK sole traders but frequently demanded by clients and venues. Read the full question in [do I need public liability insurance as a sole trader](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/), see how it fits in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/), and compare it with [employers liability](/glossary/employers-liability-insurance/), which covers staff. It does not cover advice errors ([professional indemnity](/learn/professional-indemnity-insurance/)), your own tools ([tool insurance](/qa/tool-insurance-for-tradespeople/)) or an [exclusion](/glossary/exclusion/) listed in your policy.",
       "example": "A self-employed cleaner knocks a client's £1,800 television off a shelf and the client also claims £600 for a damaged rug. With £1 million of public liability and a £100 excess, the insurer pays the £2,400 of damage minus the excess, and the cleaner pays the £100.",
-      "whyItMatters": "Wallet risk: as a sole trader your savings and home are exposed to any judgment. Without cover, one weak claim could cost thousands in legal fees even if you win. Check the limit your clients require before you buy; see [do sole traders need insurance](/qa/do-sole-traders-need-insurance) and Callum's plan in [his scenario](/scenarios/callum-glasgow-sole-trader-plumber-insurance).",
+      "whyItMatters": "Wallet risk: as a sole trader your savings and home are exposed to any judgment. Without cover, one weak claim could cost thousands in legal fees even if you win. Check the limit your clients require before you buy; see [do sole traders need insurance](/qa/do-sole-traders-need-insurance/) and Callum's plan in [his scenario](/scenarios/callum-glasgow-sole-trader-plumber-insurance/). Related: [what public liability does not cover](/qa/what-does-public-liability-insurance-not-cover/), [public liability vs professional indemnity](/compare/public-liability-vs-professional-indemnity-insurance/), [unlimited liability](/glossary/unlimited-liability/).",
       "relatedTerms": [
         "employers-liability-insurance",
         "exclusion",
@@ -22508,6 +23837,463 @@
             "text": "Professional indemnity insurance",
             "correct": false,
             "explanation": "Incorrect. Professional indemnity covers financial loss from advice or errors, not physical injury."
+          }
+        ]
+      },
+      "content": []
+    },
+    {
+      "slug": "third-party-liability",
+      "term": "Third-Party Liability",
+      "title": "What Is Third-Party Liability Insurance? Definition, Examples & Limits",
+      "description": "Third-party liability insurance pays for injuries and property damage you cause to other people, never your own losses. Plain-English definition with examples.",
+      "ukTerm": "Third Party Only (motor) / Public Liability (business)",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "Insurance that pays other people (the 'third party') for injuries or property damage you are legally responsible for causing, plus your legal defense. It never pays for your own injuries or your own property.",
+      "scoutExplanation": "An insurance contract has two parties: you (the first party) and the insurer (the second party). Anyone else who claims you harmed them is the third party. Third-party liability coverage is the core of auto liability, homeowners and renters personal liability, and commercial general liability. It pays the injured person's medical bills, lost wages, and repair costs up to your limit, and it usually comes with the insurer's [duty to defend](/glossary/duty-to-defend/) you in court. Because it only pays others, it does not cover theft or damage to your own things; see [does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/) and [does liability insurance cover my car](/qa/does-liability-insurance-cover-my-car/). The full map of what it covers is in our guide to [what liability insurance covers](/learn/liability-insurance-what-it-covers/).",
+      "example": "Rahul runs a red light and hits a car carrying two passengers. The other driver's car needs $14,000 in repairs and the passengers have $38,000 in medical bills. Rahul's 100/300/100 auto liability pays the $14,000 property damage and $38,000 in injuries, a total of $52,000, to the third parties. Rahul's own $6,500 bumper repair is not covered by liability. It is paid by his collision coverage minus his $500 [deductible](/glossary/deductible/).",
+      "whyItMatters": "If the damage you cause exceeds your third-party limit, the injured party can pursue your savings, home equity, and future wages for the difference. A 25/50/25 state-minimum policy can be wiped out by a single hospital stay. Check your limits against your net worth with the [Coverage Calculator](/coverage-calculator/), and consider an [umbrella policy](/learn/umbrella-insurance-guide/) if the gap is large.",
+      "relatedTerms": [
+        "duty-to-defend",
+        "exclusion",
+        "deductible",
+        "premium"
+      ],
+      "miniQuiz": {
+        "question": "A guest trips on a loose rug in your home and breaks her wrist. While she's there, a burglar also steals your TV. Which loss does your third-party liability coverage pay?",
+        "options": [
+          {
+            "text": "The guest's broken wrist",
+            "correct": true,
+            "explanation": "Correct. The guest is a third party injured on your property, so your personal liability coverage (and medical payments to others) responds."
+          },
+          {
+            "text": "Your stolen TV",
+            "correct": false,
+            "explanation": "Not quite. A stolen TV is your own property, a first-party loss covered by personal property coverage, not liability."
+          },
+          {
+            "text": "Both losses",
+            "correct": false,
+            "explanation": "Not quite. Liability only pays others. Your TV falls under a different part of your homeowners or renters policy."
+          },
+          {
+            "text": "Neither loss",
+            "correct": false,
+            "explanation": "Incorrect. The guest's injury is exactly what third-party liability coverage is designed for."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "First-Party vs. Third-Party Coverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "First-party coverage pays you for your own losses: collision, comprehensive, home contents, health insurance. Third-party coverage pays others for losses you cause. Most policies combine both, which is why a homeowners policy can cover your burgled laptop (first-party) and a guest's dog bite injury (third-party, see [does homeowners insurance liability cover dog bites](/qa/does-homeowners-insurance-liability-cover-dog-bites/))."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Minimum third-party liability limits for vehicles are set by each state or country. Confirm local legal requirements with your insurer or regulator."
+        }
+      ]
+    },
+    {
+      "slug": "duty-to-defend",
+      "term": "Duty to Defend",
+      "title": "What Is the Duty to Defend in Insurance? Definition & How It Works",
+      "description": "The duty to defend requires your liability insurer to hire and pay your lawyer whenever a lawsuit alleges facts that could be covered. Definition and examples.",
+      "ukTerm": "",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "Your liability insurer's obligation to provide and pay for a lawyer when you are sued over something your policy might cover, even if the lawsuit is groundless.",
+      "scoutExplanation": "The duty to defend is broader than the duty to pay (the duty to indemnify). The insurer must defend if the lawsuit alleges any facts that could potentially fall within coverage. Courts typically compare the complaint to the policy, often called the four-corners or eight-corners test. On standard auto, homeowners, and [general liability](/learn/commercial-general-liability-guide/) forms, defense costs are paid in addition to your limit; many professional liability policies instead reduce the limit with every legal bill. Compare the two in [general liability vs professional liability](/compare/general-liability-vs-professional-liability/), and see what is and isn't paid in [does liability insurance cover legal fees](/qa/does-liability-insurance-cover-legal-fees/). For context on all liability coverages, read [what liability insurance covers](/learn/liability-insurance-what-it-covers/).",
+      "example": "A customer sues Priya's café for $180,000, claiming she slipped on a wet floor. The insurer appoints a lawyer and spends $42,000 on depositions and experts. The case settles for $60,000. Because Priya's general liability policy pays defense outside the limit, the insurer pays all $102,000 and her $1,000,000 occurrence limit is reduced by only the $60,000 settlement. Priya pays $0.",
+      "whyItMatters": "Missing the deadline to report a lawsuit, settling privately, or hiring your own lawyer first can forfeit the insurer's defense. You could then pay tens of thousands in legal fees yourself. If you receive a reservation of rights letter, the insurer may later deny payment, so get independent advice. Audit your defense provisions with the [8-Point Policy Check](/policy-check/).",
+      "relatedTerms": [
+        "third-party-liability",
+        "exclusion",
+        "premium",
+        "deductible"
+      ],
+      "miniQuiz": {
+        "question": "A lawsuit against you alleges two things: negligence (covered by your policy) and intentional harm (excluded). What must your liability insurer usually do?",
+        "options": [
+          {
+            "text": "Defend the entire lawsuit, possibly under a reservation of rights",
+            "correct": true,
+            "explanation": "Correct. If any allegation could be covered, most courts require the insurer to defend the whole suit. It may reserve the right to deny payment for the excluded part."
+          },
+          {
+            "text": "Refuse to defend because one allegation is excluded",
+            "correct": false,
+            "explanation": "Not quite. One excluded allegation does not cancel the duty to defend when other allegations are potentially covered."
+          },
+          {
+            "text": "Defend only the negligence allegation and bill you for the rest",
+            "correct": false,
+            "explanation": "Generally incorrect. Most jurisdictions require a complete defense of a mixed lawsuit, though some allow later reimbursement claims in narrow cases."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Duty to Defend vs. Duty to Indemnify"
+        },
+        {
+          "type": "paragraph",
+          "text": "The duty to indemnify is the insurer's obligation to pay a covered judgment or settlement, decided by the actual facts proven. The duty to defend is decided earlier, by what the lawsuit alleges. So an insurer may have to defend a case it ultimately never pays on. That is why [third-party liability](/glossary/third-party-liability/) coverage is so valuable even when claims are weak."
+        },
+        {
+          "type": "disclaimer",
+          "text": "Duty-to-defend standards, reservation-of-rights rules, and independent counsel rights vary by state. Consult a coverage attorney for disputes."
+        }
+      ]
+    },
+    {
+      "slug": "pet-insurance-waiting-period",
+      "term": "Pet Insurance Waiting Period",
+      "title": "What Is Pet Insurance Waiting Period? Definition & Guide",
+      "description": "The time after you buy a pet policy during which certain claims are not payable, even though you are paying premiums.",
+      "ukTerm": "Waiting Period / Initial Exclusion Period",
+      "category": "Costs & Claims",
+      "simpleDefinition": "The time after you buy a pet policy during which certain claims are not payable, even though you are paying premiums.",
+      "scoutExplanation": "Waiting periods stop owners buying a policy only after a pet becomes sick. Typical patterns are a few days for accidents, about 14 days for illness, and up to 6 months or more for orthopedic conditions such as cruciate ligament tears. Any problem whose signs appear inside the window can become a [pre-existing condition](/glossary/pet-pre-existing-condition/), which most insurers exclude permanently. The clock usually starts on the effective date, not the application date. See how waiting periods fit into the whole policy in [Pet Insurance Explained](/learn/pet-insurance-guide/), and compare plan structures in [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/).",
+      "example": "Jess buys a $55 a month policy on March 1 with a 14-day illness waiting period and a 6-month orthopedic waiting period. On March 10 her dog develops a stomach infection costing $900. The illness is not payable because the 14 days have not passed. In September the dog needs a $5,400 knee surgery after a tear that first appeared in July: since July is inside the six-month orthopedic window, the claim is denied. Jess pays $6,300 out of pocket despite six months of premiums totalling $330.",
+      "whyItMatters": "Owners often assume cover begins instantly and delay veterinary visits or skip reading the schedule. Anything during the waiting period can be excluded for life. Avoid this by enrolling before problems appear, noting each waiting period in writing, and not relying on the policy until all periods end. Test your budget while waiting with [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/) and the [Deductible Breakeven Calculator](/deductible-calculator/).",
+      "relatedTerms": [
+        "pet-pre-existing-condition",
+        "pet-wellness-plan",
+        "deductible",
+        "exclusion"
+      ],
+      "miniQuiz": {
+        "question": "Your pet insurance has a 14-day illness waiting period. On day 8 your cat is diagnosed with a urinary infection. What happens to the claim?",
+        "options": [
+          {
+            "text": "It is paid in full because you hold an active policy",
+            "correct": false,
+            "explanation": "Incorrect. An active policy does not mean every benefit has started; illness claims inside the waiting period are generally not paid."
+          },
+          {
+            "text": "It is not payable, and the condition may become pre-existing",
+            "correct": true,
+            "explanation": "Correct. Signs or diagnosis inside the waiting period typically fall outside cover and can be excluded permanently as pre-existing."
+          },
+          {
+            "text": "It is paid at half the normal reimbursement rate",
+            "correct": false,
+            "explanation": "Incorrect. Insurers do not usually pay partial amounts during a waiting period."
+          },
+          {
+            "text": "It is paid only if you cancel and re-buy the policy",
+            "correct": false,
+            "explanation": "Incorrect. Re-buying resets the clock and the condition would still be pre-existing."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related Pet Insurance Reading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continue with: [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/); [is pet insurance worth it](/qa/is-pet-insurance-worth-it/); [Maya's Labrador puppy scenario](/scenarios/maya-labrador-puppy-pet-insurance-austin/); [pet wellness plan](/glossary/pet-wellness-plan/); [does pet insurance cover vaccinations](/qa/does-pet-insurance-cover-vaccinations/); [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/); [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/); [dog swallowed a sock pet insurance claim](/scenarios/dog-swallowed-sock-pet-insurance-claim/); [pet insurance reimbursement rate](/glossary/pet-insurance-reimbursement-rate/); [pet insurance annual limit](/glossary/pet-insurance-annual-limit/)."
+        }
+      ]
+    },
+    {
+      "slug": "pet-pre-existing-condition",
+      "term": "Pet Pre-Existing Condition",
+      "title": "What Is Pet Pre-Existing Condition? Definition & Guide",
+      "description": "Any illness or injury your pet showed signs of, or was diagnosed with, before the policy began or during its waiting period, which the insurer will usually not cover.",
+      "ukTerm": "Pre-existing Condition",
+      "category": "Costs & Claims",
+      "simpleDefinition": "Any illness or injury your pet showed signs of, or was diagnosed with, before the policy began or during its waiting period, which the insurer will usually not cover.",
+      "scoutExplanation": "A pre-existing condition does not need a formal diagnosis; a vet note about limping, scratching or vomiting can be enough. Insurers review medical records, often back 12 months or more, before paying large claims. Curable conditions may be reinstated after a symptom-free period (often 6 to 12 months), but chronic ones usually stay excluded for life, and paired conditions like knee ligaments may be treated as bilateral. Learn how the review works in [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/), then see how the [pet insurance waiting period](/glossary/pet-insurance-waiting-period/) creates this risk. For the full picture read [Pet Insurance Explained](/learn/pet-insurance-guide/).",
+      "example": "Carlos buys a plan for his dog Bruno after a vet note records occasional limping. Five months later Bruno needs a $5,200 cruciate ligament repair. The insurer reads the earlier note, classes the knee problem as pre-existing and denies the claim. Carlos pays $5,200. The same surgery on a healthy puppy with a $500 deductible and 80% reimbursement would have left him paying $1,440.",
+      "whyItMatters": "A pre-existing label can remove the exact coverage you bought the policy for, and it can apply to the other side of a paired body part as well. Reduce the risk by enrolling young, keeping policies continuous and asking the insurer in writing how it treats curable and bilateral conditions. Audit your policy wording with our [8-Point Policy Check](/policy-check/).",
+      "relatedTerms": [
+        "pet-insurance-waiting-period",
+        "exclusion",
+        "pet-wellness-plan",
+        "deductible"
+      ],
+      "miniQuiz": {
+        "question": "Your dog was treated for an ear infection 3 months before you bought pet insurance. Six months after enrolling, the ear infection returns. What is the likely outcome?",
+        "options": [
+          {
+            "text": "Covered, because the infection returned after enrolment",
+            "correct": false,
+            "explanation": "Incorrect. A recurrence of a condition treated before enrolment is generally treated as pre-existing unless the insurer allows reinstatement after a symptom-free period."
+          },
+          {
+            "text": "Likely excluded unless the policy reinstates curable conditions after a symptom-free period",
+            "correct": true,
+            "explanation": "Correct. Insurers commonly exclude recurrences, and only some allow curable conditions to be covered again after 6 to 12 months without signs or treatment."
+          },
+          {
+            "text": "Covered at a reduced reimbursement rate",
+            "correct": false,
+            "explanation": "Incorrect. Pre-existing exclusions are usually all-or-nothing, not reduced payouts."
+          },
+          {
+            "text": "Covered only if you pay a higher premium",
+            "correct": false,
+            "explanation": "Incorrect. Premium changes do not remove the pre-existing exclusion."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related Pet Insurance Reading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continue with: [is pet insurance worth it](/qa/is-pet-insurance-worth-it/); [pet wellness plan](/glossary/pet-wellness-plan/); [does pet insurance cover vaccinations](/qa/does-pet-insurance-cover-vaccinations/); [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/); [pet insurance reimbursement rate](/glossary/pet-insurance-reimbursement-rate/); [pet insurance annual limit](/glossary/pet-insurance-annual-limit/)."
+        }
+      ]
+    },
+    {
+      "slug": "pet-wellness-plan",
+      "term": "Pet Wellness Plan",
+      "title": "What Is Pet Wellness Plan? Definition & Guide",
+      "description": "An optional add-on or package that pays fixed amounts toward routine pet care such as vaccines, checkups and sometimes spay, neuter or dental cleaning.",
+      "ukTerm": "Routine Care Cover / Preventive Care Add-On",
+      "category": "Costs & Claims",
+      "simpleDefinition": "An optional add-on or package that pays fixed amounts toward routine pet care such as vaccines, checkups and sometimes spay, neuter or dental cleaning.",
+      "scoutExplanation": "A wellness plan is closer to a prepaid allowance than true insurance: because routine care is predictable, you are largely paying premium to get your own money back. Benefits are scheduled amounts per service rather than a percentage of the bill, so compare the yearly add-on cost with the benefits you will actually use. It is the main route to partial reimbursement for [desexing](/qa/does-pet-insurance-cover-desexing/) and routine [dental cleaning](/qa/does-pet-insurance-cover-dental/), neither of which standard cover pays for. Learn how wellness fits with core cover in [Pet Insurance Explained](/learn/pet-insurance-guide/) and compare tiers in [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/).",
+      "example": "Sam pays $12 a month ($144 a year) for a wellness add-on that returns $150 toward spay surgery, $40 toward vaccines and $50 toward an exam, a total of $240 in benefits. His real costs were a $450 spay, $120 vaccines and $65 exam. The add-on returned $240 for $144, a net gain of $96; without it, he would have paid the full $635.",
+      "whyItMatters": "Buying wellness cover automatically, without checking benefits against likely needs, can mean paying more premium than you receive. Conversely, ignoring routine costs leaves a budget gap for desexing and dental care. Use the [Deductible Breakeven Calculator](/deductible-calculator/) to compare, and read [is pet insurance worth it](/qa/is-pet-insurance-worth-it/) before layering add-ons.",
+      "relatedTerms": [
+        "pet-insurance-waiting-period",
+        "pet-pre-existing-condition",
+        "premium",
+        "deductible"
+      ],
+      "miniQuiz": {
+        "question": "A wellness add-on costs $240 a year and its fixed benefits total $180 for services you will use. What is the financial effect?",
+        "options": [
+          {
+            "text": "You break even",
+            "correct": false,
+            "explanation": "Incorrect. You pay $240 and receive $180, so you lose $60."
+          },
+          {
+            "text": "You lose $60 compared with paying the vet directly",
+            "correct": true,
+            "explanation": "Correct. When fixed benefits are lower than the add-on price, the add-on costs more than the care it reimburses."
+          },
+          {
+            "text": "You gain $60 because it is insurance",
+            "correct": false,
+            "explanation": "Incorrect. Wellness benefits reimburse scheduled routine services, not unexpected losses."
+          },
+          {
+            "text": "You gain $240 in free care",
+            "correct": false,
+            "explanation": "Incorrect. Benefits are fixed and capped per service."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related Pet Insurance Reading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continue with: [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/); [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/); [does pet insurance cover hereditary conditions](/qa/does-pet-insurance-cover-hereditary-conditions/); [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/); [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/); [can you get pet insurance for an older pet](/qa/can-you-get-pet-insurance-for-an-older-pet/); [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/); [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/); [pet insurance annual limit](/glossary/pet-insurance-annual-limit/)."
+        }
+      ]
+    },
+    {
+      "slug": "pet-insurance-reimbursement-rate",
+      "term": "Pet Insurance Reimbursement Rate",
+      "title": "What Is Pet Insurance Reimbursement Rate? Definition & Guide",
+      "description": "The percentage of an eligible vet bill, after your deductible, that the insurer repays. Common rates are 70%, 80% and 90%.",
+      "ukTerm": "Percentage Payout / Co-insurance Percentage",
+      "category": "Costs & Claims",
+      "simpleDefinition": "The percentage of an eligible vet bill, after your deductible, that the insurer repays. Common rates are 70%, 80% and 90%.",
+      "scoutExplanation": "The reimbursement rate is applied after your [deductible](/glossary/deductible/) is subtracted from the eligible invoice. A higher rate means a higher monthly [premium](/glossary/premium/), and the result is still capped by your [annual limit](/glossary/pet-insurance-annual-limit/). Compare it with the claim process in [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/) and see how it fits within the whole policy in [Pet Insurance Explained](/learn/pet-insurance-guide/).",
+      "example": "A $3,000 eligible bill with a $500 deductible and 80% reimbursement pays ($3,000 - $500) x 80% = $2,000, leaving you $1,000. At 90%, the insurer pays $2,250 and you pay $750. At 70%, it pays $1,750 and you pay $1,250.",
+      "whyItMatters": "A lower rate cuts the premium but increases your share of every claim; on a $6,000 surgery the gap between 70% and 90% is $1,100. Pick a rate you can fund from savings, and test combinations on the [Deductible Breakeven Calculator](/deductible-calculator/). Cancer claims are an example where it matters, as described in [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/).",
+      "relatedTerms": [
+        "pet-insurance-annual-limit",
+        "deductible",
+        "premium",
+        "pet-wellness-plan"
+      ],
+      "miniQuiz": {
+        "question": "A $2,000 eligible vet bill, a $250 deductible and 90% reimbursement. How much does the insurer pay?",
+        "options": [
+          {
+            "text": "$1,800",
+            "correct": false,
+            "explanation": "Incorrect. That applies 90% to the full bill without subtracting the deductible."
+          },
+          {
+            "text": "$1,575",
+            "correct": true,
+            "explanation": "Correct. ($2,000 - $250) x 90% = $1,575."
+          },
+          {
+            "text": "$1,750",
+            "correct": false,
+            "explanation": "Incorrect. That subtracts the deductible but forgets the 90% rate."
+          },
+          {
+            "text": "$2,000",
+            "correct": false,
+            "explanation": "Incorrect. Insurers do not pay the full bill when a deductible and percentage apply."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related Pet Insurance Reading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continue with: [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/); [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/); [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/); [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/); [is pet insurance worth it](/qa/is-pet-insurance-worth-it/); [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/); [pet wellness plan](/glossary/pet-wellness-plan/); [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/)."
+        }
+      ]
+    },
+    {
+      "slug": "pet-insurance-annual-limit",
+      "term": "Pet Insurance Annual Limit",
+      "title": "What Is Pet Insurance Annual Limit? Definition & Guide",
+      "description": "The maximum amount the insurer will pay for covered claims in one policy year, regardless of how large the vet bills are.",
+      "ukTerm": "Annual Benefit Limit / Policy Year Limit",
+      "category": "Costs & Claims",
+      "simpleDefinition": "The maximum amount the insurer will pay for covered claims in one policy year, regardless of how large the vet bills are.",
+      "scoutExplanation": "The annual limit is applied after the [deductible](/glossary/deductible/) and [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) have been calculated. Plans may offer fixed limits (for example $5,000, $10,000), unlimited annual cover, or limits per condition or lifetime. Once reached, you pay everything else until renewal. See how limits shape a long cancer course in [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/) and hereditary cases in [does pet insurance cover hereditary conditions](/qa/does-pet-insurance-cover-hereditary-conditions/). Overview in [Pet Insurance Explained](/learn/pet-insurance-guide/).",
+      "example": "Your plan has a $5,000 annual limit, a $500 deductible and 80% reimbursement. A year of treatment totals $9,000. Calculated reimbursement is ($9,000 - $500) x 80% = $6,800, but the insurer pays only $5,000. You pay $4,000.",
+      "whyItMatters": "A cheap premium with a low limit can leave you exposed in the very year you need cover. Choose a limit that fits the likely cost of the worst realistic event for your breed, and compare options with [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/) and the [Coverage Calculator](/coverage-calculator/).",
+      "relatedTerms": [
+        "pet-insurance-reimbursement-rate",
+        "deductible",
+        "exclusion",
+        "pet-insurance-waiting-period"
+      ],
+      "miniQuiz": {
+        "question": "Your plan has a $5,000 annual limit. After the deductible and percentage, your claims for the year come to $6,200. What does the insurer pay?",
+        "options": [
+          {
+            "text": "$6,200",
+            "correct": false,
+            "explanation": "Incorrect. The payout cannot exceed the annual limit."
+          },
+          {
+            "text": "$5,000",
+            "correct": true,
+            "explanation": "Correct. Reimbursement stops at the annual limit; the remaining $1,200 is yours."
+          },
+          {
+            "text": "$1,200",
+            "correct": false,
+            "explanation": "Incorrect. That is the amount above the limit, which you pay."
+          },
+          {
+            "text": "$3,100",
+            "correct": false,
+            "explanation": "Incorrect. Limits do not halve payouts; they cap total payments."
+          }
+        ]
+      },
+      "content": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Related Pet Insurance Reading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continue with: [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/); [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/); [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/); [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/); [is pet insurance worth it](/qa/is-pet-insurance-worth-it/); [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/); [Maya's Labrador puppy scenario](/scenarios/maya-labrador-puppy-pet-insurance-austin/); [does pet insurance cover vaccinations](/qa/does-pet-insurance-cover-vaccinations/)."
+        }
+      ]
+    },
+    {
+      "slug": "unlimited-liability",
+      "term": "Unlimited Liability",
+      "title": "What Is Unlimited Liability? Definition for UK Sole Traders",
+      "description": "Unlimited liability defined: the legal position where a business owner is personally responsible for all business debts and claims.",
+      "ukTerm": "",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "A legal position in which a business owner is personally responsible for all debts and claims of the business, without a cap.",
+      "scoutExplanation": "A [sole trader](/glossary/sole-trader/) is not legally separate from the business, so debts and court judgments can be paid from personal assets. This is the key contrast with a limited company, covered in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/). Insurance such as [public liability](/glossary/public-liability-insurance/) transfers part of the risk to an insurer; see [what happens if a sole trader is sued without insurance](/qa/what-happens-if-a-sole-trader-is-sued-without-insurance/) and our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "example": "A sole trader loses a £20,000 negligence claim with no insurance. The claimant can enforce the judgment against savings, a van or property because there is no company shield.",
+      "whyItMatters": "Wallet risk: unlimited liability means one claim can threaten your home and savings. Insurance does not remove it fully, but it caps the exposure for covered risks. Compare covers in [public liability vs professional indemnity](/compare/public-liability-vs-professional-indemnity-insurance/).",
+      "relatedTerms": [
+        "sole-trader",
+        "public-liability-insurance",
+        "exclusion"
+      ],
+      "miniQuiz": {
+        "question": "A sole trader is sued and loses. Whose assets can be used to pay?",
+        "options": [
+          {
+            "text": "The sole trader's personal assets",
+            "correct": true,
+            "explanation": "Correct. There is no legal separation between the sole trader and the business."
+          },
+          {
+            "text": "Only the business bank account",
+            "correct": false,
+            "explanation": "Incorrect. A sole trader has no separate business entity."
+          },
+          {
+            "text": "Nobody's, if the job was small",
+            "correct": false,
+            "explanation": "Incorrect. Liability follows negligence, not job size."
+          }
+        ]
+      },
+      "content": []
+    },
+    {
+      "slug": "sole-trader",
+      "term": "Sole Trader",
+      "title": "What Is a Sole Trader? UK Definition and Insurance Meaning",
+      "description": "Sole trader defined for UK readers: an individual self-employed without forming a company, with personal liability for the business.",
+      "ukTerm": "",
+      "category": "Legal & Statutory",
+      "simpleDefinition": "An individual who runs their own business as a self-employed person and is not legally separate from it.",
+      "scoutExplanation": "In the UK a sole trader keeps the profits after tax but carries unlimited personal liability ([unlimited liability](/glossary/unlimited-liability/)). You must register for Self Assessment if your gross trading income goes over the £1,000 trading allowance. Few insurance covers are compulsory, but [public liability](/glossary/public-liability-insurance/) and [employers liability](/glossary/employers-liability-insurance/) matter in practice, as explained in [do sole traders need insurance](/qa/do-sole-traders-need-insurance/) and our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "example": "Callum, a plumber who works alone under his own name and takes the profits as personal income, is a sole trader; see his plan in [his scenario](/scenarios/callum-glasgow-sole-trader-plumber-insurance/).",
+      "whyItMatters": "Wallet risk: being a sole trader is simple and cheap to set up, but your own money stands behind every claim. Compare the alternative in [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/).",
+      "relatedTerms": [
+        "unlimited-liability",
+        "public-liability-insurance",
+        "employers-liability-insurance"
+      ],
+      "miniQuiz": {
+        "question": "Which is true of a UK sole trader?",
+        "options": [
+          {
+            "text": "They have personal liability for the business",
+            "correct": true,
+            "explanation": "Correct. A sole trader and the business are the same legal person."
+          },
+          {
+            "text": "They are a separate company",
+            "correct": false,
+            "explanation": "Incorrect. A company is a separate legal entity."
+          },
+          {
+            "text": "They must hold public liability by law",
+            "correct": false,
+            "explanation": "Incorrect. It is voluntary, though often contractual."
           }
         ]
       },
@@ -23390,7 +25176,7 @@
       "avatarBg": "#dbeafe",
       "situation": "Self-employed plumber working alone, visiting customers' homes in a van, with a £3,500 tool kit. He has no insurance beyond the van's standard policy and is about to take on a part-time apprentice.",
       "coreQuestion": "I work alone and nobody has asked for insurance. Do I really need any, and what changes when I hire an apprentice?",
-      "scoutTake": "Callum is a textbook sole trader: unlimited personal liability, customers' homes as the workplace and a van full of tools. [Public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader) is the first buy, because a leak or a dropped tool in a customer's home is a third-party claim. The van needs business use, and [tool cover](/qa/tool-insurance-for-tradespeople) protects his kit. The moment the apprentice starts, [employers liability](/qa/do-sole-traders-need-employers-liability-insurance) becomes a legal requirement. Read [do sole traders need insurance](/qa/do-sole-traders-need-insurance) and [what insurance do I need as a sole trader](/qa/what-insurance-do-i-need-as-a-sole-trader), and use our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), then check [income protection](/qa/income-protection-for-self-employed-uk) for the days he cannot work.",
+      "scoutTake": "Callum is a textbook sole trader: unlimited personal liability, customers' homes as the workplace and a van full of tools. [Public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/) is the first buy, because a leak or a dropped tool in a customer's home is a third-party claim. The van needs [business use](/qa/does-my-personal-auto-insurance-cover-business-use/), and [tool cover](/qa/tool-insurance-for-tradespeople/) protects his kit. The moment the apprentice starts, [employers liability](/qa/do-sole-traders-need-employers-liability-insurance/) becomes a legal requirement. Read [do sole traders need insurance](/qa/do-sole-traders-need-insurance/) and [what insurance do I need as a sole trader](/qa/what-insurance-do-i-need-as-a-sole-trader/), and use our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/), then check [income protection](/qa/income-protection-for-self-employed-uk/) for the days he cannot work. See also [how much sole trader insurance costs](/qa/how-much-does-sole-trader-insurance-cost-uk/), [unlimited liability](/glossary/unlimited-liability/) and [Aisha, a cleaner](/scenarios/aisha-birmingham-self-employed-cleaner-insurance/).",
       "keyRisks": [
         "Customer property damage or injury from his work, paid from personal savings if uninsured",
         "Theft of a £3,500 tool kit from the van, with the van policy excluding tools",
@@ -23404,11 +25190,142 @@
       "estimatedMonthlyCost": "Indicative: £40 - £110 / month, depending on trade rating, tools value and whether income protection is added",
       "relatedToolSlug": "coverage-calculator",
       "strategies": [
-        "Describe the trade precisely ('domestic plumber, no gas work') so the policy matches the work; our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need) explains why this matters.",
-        "Confirm van business use with the insurer ([business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders)) and check overnight tool theft conditions ([tool insurance for tradespeople](/qa/tool-insurance-for-tradespeople)).",
-        "Check the apprentice's status and cover before the first shift ([employers liability for sole traders](/qa/do-sole-traders-need-employers-liability-insurance)).",
-        "Consider [income protection for the self-employed](/qa/income-protection-for-self-employed-uk) because there is no statutory sick pay.",
-        "Review whether a limited company would suit him later; see [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance)."
+        "Describe the trade precisely ('domestic plumber, no gas work') so the policy matches the work; our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/) explains why this matters.",
+        "Confirm van business use with the insurer ([business car insurance for sole traders](/qa/business-car-insurance-for-sole-traders/)) and check overnight tool theft conditions ([tool insurance for tradespeople](/qa/tool-insurance-for-tradespeople/)).",
+        "Check the apprentice's status and cover before the first shift ([employers liability for sole traders](/qa/do-sole-traders-need-employers-liability-insurance/)).",
+        "Consider [income protection for the self-employed](/qa/income-protection-for-self-employed-uk/) because there is no statutory sick pay.",
+        "Review whether a limited company would suit him later; see [sole trader vs limited company insurance](/compare/sole-trader-vs-limited-company-insurance/)."
+      ]
+    },
+    {
+      "slug": "priya-austin-bakery-liability",
+      "name": "Priya",
+      "displayTitle": "Priya's Insurance Decision",
+      "title": "Priya's Insurance Decision",
+      "category": "General",
+      "age": 34,
+      "location": "Austin, Texas, US",
+      "market": "US",
+      "avatarBg": "#fde2e4",
+      "situation": "Priya is moving her home bakery into a leased 900 sq ft café with three part-time employees, $38,000 of ovens and equipment, and a weekend delivery service using her own car. Her landlord requires $1M/$2M general liability naming them as additional insured. She has been quoted a general liability policy and assumes it 'covers everything.'",
+      "coreQuestion": "My landlord only asked for general liability. If a customer slips, an employee gets burned, or someone steals my mixers overnight, am I actually covered?",
+      "scoutTake": "Only one of those three is covered by general liability. A customer slip-and-fall is a classic [third-party liability](/glossary/third-party-liability/) claim, and [CGL](/learn/commercial-general-liability-guide/) handles it, including her legal defense under the insurer's [duty to defend](/glossary/duty-to-defend/). An employee burn is excluded under CGL's employer's liability exclusion ([does general liability insurance cover employee injuries](/qa/does-general-liability-insurance-cover-employee-injuries/)). And Texas lets Priya skip workers' comp, but as a non-subscriber she can be sued directly and loses key defenses. Stolen equipment is a first-party property loss that liability never pays ([does liability insurance cover theft](/qa/does-liability-insurance-cover-theft/)). Finally, her delivery runs in a personal car are likely excluded by her personal auto policy's business-use limits. Priya needs a stacked plan, not a single policy. Start with our hub guide on [what liability insurance covers](/learn/liability-insurance-what-it-covers/) and size limits with the [Coverage Calculator](/coverage-calculator/).",
+      "keyRisks": [
+        "Uninsured employee injuries: a serious oven burn or slip could produce $40,000 to $150,000 in medical and wage claims, with no CGL coverage and no workers' comp if she opts out.",
+        "Theft and equipment loss: $38,000 of ovens, mixers, and POS hardware plus cash and inventory with no property or crime coverage on a liability-only policy.",
+        "Delivery-car accidents: a crash during a paid delivery may be denied under her personal auto policy, leaving her personally liable for the other driver's injuries."
+      ],
+      "recommendedStrategy": [
+        "Buy a Business Owner's Policy (BOP) combining $1M/$2M general liability (with products-completed operations for food-borne illness claims) and commercial property for equipment, inventory, and break-in damage.",
+        "Add workers' compensation with employer's liability rather than going non-subscriber, plus an employee dishonesty (crime) endorsement for cash-handling staff.",
+        "Add hired and non-owned auto liability to the BOP, or a business-use endorsement on her personal auto policy, before starting deliveries."
+      ],
+      "estimatedMonthlyCost": "$170 - $320 / month",
+      "relatedToolSlug": "coverage-calculator",
+      "strategies": [
+        "Confirm the BOP includes the landlord as additional insured and that limits meet the lease. Then check professional services and care-custody-control exclusions using our [general liability vs professional liability](/compare/general-liability-vs-professional-liability/) comparison.",
+        "Set the commercial property deductible at $1,000 and verify equipment is insured at replacement cost, not actual cash value, with the [Deductible Breakeven Calculator](/deductible-calculator/).",
+        "Ask her personal auto insurer in writing whether paid deliveries are covered. If not, add hired and non-owned auto so a delivery crash isn't treated like the [liability-only gap that leaves your own car uncovered](/qa/does-liability-insurance-cover-my-car/).",
+        "Run the full [Business Insurance Checklist](/business-insurance-checklist/) annually as payroll, revenue, and delivery volume grow."
+      ]
+    },
+    {
+      "slug": "maya-labrador-puppy-pet-insurance-austin",
+      "name": "Maya",
+      "displayTitle": "Maya's Insurance Decision",
+      "title": "Maya's Insurance Decision",
+      "category": "General",
+      "age": 29,
+      "location": "Austin, Texas, US",
+      "market": "US",
+      "avatarBg": "#e0f2fe",
+      "situation": "Marketing manager who just adopted a 10-week-old Labrador Retriever. Has $4,000 in emergency savings, rents an apartment and plans to spay the puppy at about six months.",
+      "coreQuestion": "My Lab puppy is 10 weeks old and healthy. Should I buy pet insurance now, and what will it refuse to pay?",
+      "scoutTake": "Buy now, while the puppy has no medical history, because every later diagnosis becomes a [pre-existing condition](/glossary/pet-pre-existing-condition/). Labs are prone to hip and elbow dysplasia, cruciate tears and swallowed-object emergencies, so choose a comprehensive plan over accident-only (see [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/)). Expect to pay out of pocket for routine items: [desexing](/qa/does-pet-insurance-cover-desexing/), [dental cleaning](/qa/does-pet-insurance-cover-dental/) and [cremation](/qa/does-pet-insurance-cover-cremation/) are not included. Test the [deductible](/glossary/deductible/) trade-off on our [Deductible Breakeven Calculator](/deductible-calculator/) and read the full overview in [Pet Insurance Explained](/learn/pet-insurance-guide/).",
+      "keyRisks": [
+        "A $4,000 to $7,000 cruciate ligament or foreign-object surgery would consume nearly all of Maya's $4,000 emergency savings.",
+        "Orthopedic conditions common in Labradors can be excluded for life if signs appear during the waiting period or before enrolment.",
+        "Routine costs, spay surgery ($300 - $600) and annual dental cleaning ($300 - $900), are uninsured and easy to underbudget."
+      ],
+      "recommendedStrategy": [
+        "Enrol immediately in a comprehensive plan with 90% reimbursement, a $500 annual deductible and an annual limit of $10,000 or higher.",
+        "Choose the shorter orthopedic waiting period and ask in writing how bilateral conditions are treated.",
+        "Skip the wellness add-on unless its fixed benefits exceed its price; fund spay and cleaning from a $40 a month pet savings line."
+      ],
+      "estimatedMonthlyCost": "$45 - $80 / month insurance + $40 / month routine-care savings",
+      "relatedToolSlug": "deductible-calculator",
+      "strategies": [
+        "Run quotes at three deductible levels ($250, $500, $1,000) on the [Deductible Breakeven Calculator](/deductible-calculator/) and pick the one Maya can pay from savings without stress.",
+        "Price a [pet wellness plan](/glossary/pet-wellness-plan/) against actual first-year costs: vaccines, exams and spay. Buy only if benefits exceed the add-on price.",
+        "Book a documented vet exam in the first two weeks and confirm no existing issues are recorded, which protects against later pre-existing disputes (see [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/)).",
+        "Check the policy against our [8-Point Policy Check](/policy-check/) and revisit [is pet insurance worth it](/qa/is-pet-insurance-worth-it/) after the first year.",
+        "Related reading: [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/); [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/); [pet insurance reimbursement rate](/glossary/pet-insurance-reimbursement-rate/)."
+      ]
+    },
+    {
+      "slug": "dog-swallowed-sock-pet-insurance-claim",
+      "name": "Dog Swallows a Sock, Fro",
+      "displayTitle": "Dog Swallows a Sock, From a $4,200 ER Bill to a $2,960 Claim Payout",
+      "title": "Scenario: Dog Swallows a Sock, From a $4,200 ER Bill to a $2,960 Claim Payout",
+      "category": "health",
+      "age": 35,
+      "location": "United States",
+      "market": "US",
+      "avatarBg": "#ccfbf1",
+      "situation": "A 2-year-old Beagle needs emergency surgery after swallowing a sock. We walk through exactly how the bill, deductible, reimbursement rate and annual limit determine what the insurer pays.",
+      "coreQuestion": "Biscuit vomits repeatedly and stops eating. The emergency vet finds a sock blocking the intestine and performs surgery the same night.",
+      "scoutTake": "Eligible accident and illness costs are reimbursed after the deductible at the plan's percentage, subject to annual limits. The claim is approved in about a week and $2,960 is deposited. Chris pays $1,240 out of pocket on a $4,200 emergency. Without insurance he would have paid the full $4,200. Explore our [Pet Insurance Explained](/learn/pet-insurance-guide/). Explore our [How to File a Pet Insurance Claim](/qa/how-to-file-a-pet-insurance-claim/). Explore our [Pet Insurance Reimbursement Rate](/glossary/pet-insurance-reimbursement-rate/). Explore our [Accident-Only vs. Comprehensive Pet Insurance](/compare/accident-only-vs-comprehensive-pet-insurance/). Explore our [Deductible Breakeven Calculator](/deductible-calculator/). Explore our [Does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/). Explore our [Does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/). Explore our [Does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/). Explore our [Maya's labrador puppy scenario](/scenarios/maya-labrador-puppy-pet-insurance-austin/). Explore our [Pet wellness plan](/glossary/pet-wellness-plan/).",
+      "keyRisks": [
+        "Emergency exam, X-rays, surgery and two nights of hospitalization total $4,200.",
+        "No prior history of digestive problems; vaccinations are up to date.",
+        "Chris has $1,500 in savings, so paying the whole bill upfront requires a credit card."
+      ],
+      "recommendedStrategy": [
+        "Step 1: Pay the Clinic and Request Documents: Chris pays $4,200 and asks for an itemized invoice and the surgical notes. He uses a credit card for the upfront payment. A separate record also shows whether the sock was an accident, which matters for classification; see [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/).",
+        "Step 2: Submit the Claim in the App: He uploads the invoice and notes the same day. The insurer checks the waiting period, exclusions and [pre-existing condition](/glossary/pet-pre-existing-condition/) history.",
+        "Step 3: The Insurer Applies the Formula: ($4,200 - $500 deductible) x 80% = $2,960. The [annual limit](/glossary/pet-insurance-annual-limit/) of $10,000 is not exceeded, so the full amount is paid. Chris's [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) determines the $1,240 he keeps.",
+        "Step 4: Review the Explanation of Benefits: Chris checks that nothing eligible was excluded and records that $7,040 of the annual limit remains for the year."
+      ],
+      "estimatedMonthlyCost": "$75 - $150 / month",
+      "relatedToolSlug": "deductible-calculator",
+      "strategies": [
+        "A moderate deductible and 80% to 90% reimbursement cut a large emergency bill by roughly two-thirds.",
+        "Keep a cash reserve or credit available because most plans reimburse after you pay.",
+        "Itemized invoices and records speed up payment.",
+        "Decide whether this fits you with [is pet insurance worth it](/qa/is-pet-insurance-worth-it/) and compare to a fund in [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/)."
+      ]
+    },
+    {
+      "slug": "aisha-birmingham-self-employed-cleaner-insurance",
+      "name": "Aisha",
+      "displayTitle": "Aisha's Insurance Decision",
+      "title": "Aisha's Insurance Decision",
+      "category": "General",
+      "age": 29,
+      "location": "Birmingham, England, UK",
+      "market": "UK",
+      "avatarBg": "#fce7f3",
+      "situation": "Self-employed domestic cleaner with 12 regular clients, holding keys to 8 homes. She sometimes pays her cousin £11 an hour to help on larger jobs and has no business insurance.",
+      "coreQuestion": "I clean in other people's homes and carry their keys. What happens if I break something or lose a key, and do I need cover for my cousin?",
+      "scoutTake": "Aisha is a [sole trader](/glossary/sole-trader/) with [unlimited liability](/glossary/unlimited-liability/) and several clients' homes in her care. [Public liability](/glossary/public-liability-insurance/) is the first buy, with key cover if offered. Paying her cousin makes her an employer, so [employers liability](/qa/do-sole-traders-need-employers-liability-insurance/) becomes compulsory. Read [do self-employed cleaners need insurance](/qa/do-self-employed-cleaners-need-insurance-uk/), [how much it costs](/qa/how-much-does-sole-trader-insurance-cost-uk/) and our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "keyRisks": [
+        "Damage to client property, such as a £1,200 rug or an antique",
+        "A lost key forcing lock replacement at several homes",
+        "An uninsured injury claim from her cousin, with fines up to £2,500 per day"
+      ],
+      "recommendedStrategy": [
+        "Buy £1m to £2m public liability with key cover",
+        "Arrange employers liability of at least £5m before the cousin works again",
+        "Add equipment cover for her machines"
+      ],
+      "estimatedMonthlyCost": "Indicative: £5 - £25 / month, depending on limit, key cover and whether she hires help",
+      "relatedToolSlug": "coverage-calculator",
+      "strategies": [
+        "Declare domestic cleaning accurately and list any commercial jobs ([public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/)).",
+        "Check the cousin's status before the next job ([the subcontractors guide](/qa/do-subcontractors-need-their-own-insurance/)).",
+        "Plan protections beyond liability using [what insurance do I need as a sole trader](/qa/what-insurance-do-i-need-as-a-sole-trader/).",
+        "Understand gaps in [what public liability does not cover](/qa/what-does-public-liability-insurance-not-cover/).",
+        "Compare liability types in [public liability vs employers liability](/compare/public-liability-vs-employers-liability-insurance/)."
       ]
     }
   ],
@@ -23841,10 +25758,10 @@
     {
       "id": "qa-22",
       "slug": "does-liability-insurance-cover-theft",
-      "category": "Auto",
+      "category": "General",
       "question": "Does liability insurance cover theft?",
-      "shortAnswer": "No, liability insurance never covers theft of your own property or vehicle. Liability insurance is strictly third-party coverage designed to pay for bodily injuries and property damage you cause to other people. To protect your vehicle against theft, car break-ins, or stolen parts (like catalytic converters), you must carry Comprehensive Coverage on your auto policy. For stolen personal belongings, coverage comes from homeowners or renters insurance.",
-      "readingTime": "5 min read",
+      "shortAnswer": "No. [Liability insurance](/learn/liability-insurance-what-it-covers/) only pays when you are legally responsible for injuring someone or damaging their property; it never pays for your own stolen belongings. Theft of your car is covered by comprehensive coverage, theft of home contents by your homeowners or renters personal property coverage, and theft of business property or by employees by commercial property and crime insurance. Theft of a customer's property in your care is usually excluded from general liability too.",
+      "readingTime": "6 min read",
       "difficulty": "Beginner"
     },
     {
@@ -25931,7 +27848,7 @@
       "slug": "do-i-need-public-liability-insurance-as-a-sole-trader",
       "category": "General",
       "question": "Do I need public liability insurance as a sole trader?",
-      "shortAnswer": "No UK law requires a sole trader to hold [public liability insurance](/glossary/public-liability-insurance), but you probably need it if you meet clients, work on other people's premises or deal with the public, because clients, councils, venues and landlords often make it a condition of the work. It covers claims for injury or property damage caused by your work. In 2026 it costs roughly £106 a year for £1 million of cover, £118 for £2 million and £140 for £5 million, and low-risk trades can pay £50 to £65. It is one layer of our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need).",
+      "shortAnswer": "No UK law requires a sole trader to hold [public liability insurance](/glossary/public-liability-insurance/), but you probably need it if you meet clients, work on other people's premises or deal with the public, because clients, councils, venues and landlords often make it a condition of the work. It covers claims for injury or property damage caused by your work. In 2026 it costs roughly £106 a year for £1 million of cover, £118 for £2 million and £140 for £5 million, and low-risk trades can pay £50 to £65. It is one layer of our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
@@ -25940,7 +27857,7 @@
       "slug": "do-sole-traders-need-employers-liability-insurance",
       "category": "Legal",
       "question": "Do sole traders need employers' liability insurance?",
-      "shortAnswer": "Only once you employ someone. A sole trader working alone does not need [employers liability insurance](/glossary/employers-liability-insurance), but under the Employers' Liability (Compulsory Insurance) Act 1969 you must carry at least £5 million of cover as soon as you have an employee. GOV.UK says fines can reach £2,500 for every day you are uninsured and £1,000 for not displaying the certificate. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need) for how this fits with other covers.",
+      "shortAnswer": "Only once you employ someone. A sole trader working alone does not need [employers liability insurance](/glossary/employers-liability-insurance/), but under the Employers' Liability (Compulsory Insurance) Act 1969 you must carry at least £5 million of cover as soon as you have an employee. GOV.UK says fines can reach £2,500 for every day you are uninsured and £1,000 for not displaying the certificate. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/) for how this fits with other covers.",
       "readingTime": "5 min read",
       "difficulty": "Intermediate"
     },
@@ -26156,7 +28073,7 @@
       "slug": "do-sole-traders-need-insurance",
       "category": "General",
       "question": "Do sole traders need insurance?",
-      "shortAnswer": "Not by default. A UK sole trader with no employees has almost no compulsory business insurance, apart from motor insurance for any vehicle and, in a few regulated professions, cover set by the regulator. [Employers liability](/qa/do-sole-traders-need-employers-liability-insurance) becomes mandatory the moment you employ someone. Everything else, including [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader) and [professional indemnity](/learn/professional-indemnity-insurance), is voluntary but often demanded by clients. The full breakdown is in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need).",
+      "shortAnswer": "Not by default. A UK sole trader with no employees has almost no compulsory business insurance, apart from motor insurance for any vehicle and, in a few regulated professions, cover set by the regulator. [Employers liability](/qa/do-sole-traders-need-employers-liability-insurance/) becomes mandatory the moment you employ someone. Everything else, including [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/) and [professional indemnity](/learn/professional-indemnity-insurance/), is voluntary but often demanded by clients. The full breakdown is in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
       "readingTime": "5 min read",
       "difficulty": "Beginner"
     },
@@ -26165,7 +28082,7 @@
       "slug": "what-insurance-do-i-need-as-a-sole-trader",
       "category": "General",
       "question": "What insurance do I need as a sole trader?",
-      "shortAnswer": "Answer four questions. Do you meet clients or work on their premises (public liability)? Do you give advice or expertise (professional indemnity)? Do you drive for work (business use on your vehicle)? Do you employ anyone (employers liability, legally required)? Then consider tools, home business cover and income protection. This quick selector sits alongside our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), which explains each cover in depth.",
+      "shortAnswer": "Answer four questions. Do you meet clients or work on their premises (public liability)? Do you give advice or expertise (professional indemnity)? Do you drive for work (business use on your vehicle)? Do you employ anyone (employers liability, legally required)? Then consider tools, home business cover and income protection. This quick selector sits alongside our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/), which explains each cover in depth.",
       "readingTime": "6 min read",
       "difficulty": "Beginner"
     },
@@ -26186,6 +28103,285 @@
       "shortAnswer": "Marine business insurance is a family of commercial policies for property that travels, sits off-site or operates on or near water. **Ocean marine** covers ships, cargo and liability at sea; **inland marine** covers goods in transit, tools, equipment and installation work on land. Despite the name, most small firms that need it are contractors, retailers and shippers, because a standard commercial property policy gives only a small allowance once property leaves your premises.",
       "readingTime": "6 min read",
       "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-283",
+      "slug": "does-liability-insurance-cover-my-car",
+      "category": "Auto",
+      "question": "Does liability insurance cover my car if I cause an accident?",
+      "shortAnswer": "No. Auto [liability insurance](/learn/liability-insurance-what-it-covers/) pays only for the other people's injuries and the other vehicles and property you damage when you are at fault. Repairs to your own car require collision coverage, and theft, hail, or vandalism damage requires comprehensive coverage, both minus your [deductible](/glossary/deductible/). If the other driver is at fault, their liability insurance pays for your car instead.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-284",
+      "slug": "does-liability-insurance-cover-hit-and-run",
+      "category": "Auto",
+      "question": "Does liability insurance cover a hit-and-run?",
+      "shortAnswer": "No, not if you are the victim. [Liability insurance](/learn/liability-insurance-what-it-covers/) pays for damage you cause to others, and in a hit-and-run there is no identified at-fault driver whose liability policy you can claim against. Your car is covered by collision or uninsured motorist property damage (UMPD), and your injuries by uninsured motorist bodily injury (UMBI), PIP, or MedPay. If you are the driver who left the scene, your liability coverage may still pay the victim, but you face criminal charges and almost certain non-renewal.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-285",
+      "slug": "does-general-liability-insurance-cover-employee-injuries",
+      "category": "General",
+      "question": "Does general liability insurance cover employee injuries?",
+      "shortAnswer": "No. Commercial general liability (CGL) insurance specifically excludes injuries to your own employees that arise out of their employment. Those injuries are covered by workers' compensation, which pays medical bills and lost wages, and by employer's liability coverage, which defends you if an employee or their family sues. General liability covers injuries to customers, visitors, and other third parties. See our guide to [what liability insurance covers](/learn/liability-insurance-what-it-covers/).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-286",
+      "slug": "does-homeowners-insurance-liability-cover-dog-bites",
+      "category": "Home",
+      "question": "Does homeowners insurance liability cover dog bites?",
+      "shortAnswer": "Usually yes. The personal liability section of a homeowners or renters policy (Coverage E) typically pays for injuries your dog causes to other people, plus your legal defense, up to your limit, often $100,000 to $300,000. Medical payments coverage (Coverage F) pays small injury bills regardless of fault. But many policies exclude certain breeds or dogs with a bite history, and no policy covers bites to members of your own household. See [what liability insurance covers](/learn/liability-insurance-what-it-covers/).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-287",
+      "slug": "does-liability-insurance-cover-legal-fees",
+      "category": "Legal",
+      "question": "Does liability insurance cover legal fees if you get sued?",
+      "shortAnswer": "Yes, in most cases. Auto, homeowners, renters, and commercial general liability policies include a [duty to defend](/glossary/duty-to-defend/): the insurer hires and pays a lawyer whenever a lawsuit alleges facts that could be covered, even if the claim is groundless. On these policies, defense costs are usually paid in addition to your limit. Professional liability and some specialty policies are different: defense costs often reduce your limit. Liability insurance does not pay for lawsuits you file, criminal defense, or suits over clearly excluded acts.",
+      "readingTime": "7 min read",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "qa-288",
+      "slug": "does-pet-insurance-cover-desexing",
+      "category": "General",
+      "question": "Does pet insurance cover desexing (spay or neuter surgery)?",
+      "shortAnswer": "Usually no. Desexing (called spay or neuter in the US and neutering in the UK) is an elective, preventive procedure, so standard accident-and-illness plans do not pay for it. Some insurers offer it through a [pet wellness plan](/glossary/pet-wellness-plan/) or preventive add-on with a fixed benefit. Treatment for a related illness, such as a uterine infection, can be covered if it is not [pre-existing](/glossary/pet-pre-existing-condition/).",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-289",
+      "slug": "does-pet-insurance-cover-cremation",
+      "category": "General",
+      "question": "Does pet insurance cover cremation?",
+      "shortAnswer": "Usually not. Most pet insurance policies exclude cremation, burial and disposal because they are costs after death, not veterinary treatment. Some insurers reimburse euthanasia when it is part of treating a covered condition, and a few offer a limited end-of-life benefit or optional rider. Check the policy's definition of covered expenses before relying on it.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-290",
+      "slug": "does-pet-insurance-cover-dental",
+      "category": "General",
+      "question": "Does pet insurance cover dental treatment and cleanings?",
+      "shortAnswer": "It depends on the cause. Accidental tooth injuries, such as a fractured tooth, are usually covered. Dental illness like periodontal disease is covered by some comprehensive plans if it is not [pre-existing](/glossary/pet-pre-existing-condition/), often with an annual dental exam required. Routine cleanings and preventive dental care are normally excluded unless you buy a [wellness plan](/glossary/pet-wellness-plan/).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-291",
+      "slug": "does-pet-insurance-cover-pre-existing-conditions",
+      "category": "General",
+      "question": "Does pet insurance cover pre-existing conditions?",
+      "shortAnswer": "Generally no. A [pre-existing condition](/glossary/pet-pre-existing-condition/) is any illness or injury that showed signs or was diagnosed before your coverage started, or during the [waiting period](/glossary/pet-insurance-waiting-period/), and it is typically excluded. Some insurers will reconsider curable conditions after a symptom-free period, often 6 to 12 months, but chronic issues stay excluded.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-292",
+      "slug": "is-pet-insurance-worth-it",
+      "category": "General",
+      "question": "Is pet insurance worth it, or should I just save the money?",
+      "shortAnswer": "Pet insurance is worth it if one unexpected bill of $3,000 to $8,000 would force debt, delay treatment or limit your choices. If you hold an emergency fund large enough to absorb that bill, self-insuring can cost less. Insurance rarely pays for routine care, so its value is catastrophic protection, not savings on checkups.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-293",
+      "slug": "does-pet-insurance-cover-hereditary-conditions",
+      "category": "General",
+      "question": "Does pet insurance cover hereditary and breed-specific conditions like hip dysplasia?",
+      "shortAnswer": "Many comprehensive plans do cover hereditary and breed-specific conditions such as hip dysplasia, provided the condition is not [pre-existing](/glossary/pet-pre-existing-condition/) and any [waiting period](/glossary/pet-insurance-waiting-period/) has been served. Accident-only plans do not. Some insurers exclude certain conditions, cap payouts, or require an exam before a set age, so read the hereditary clause carefully.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-294",
+      "slug": "does-pet-insurance-cover-vaccinations",
+      "category": "General",
+      "question": "Does pet insurance cover vaccinations and routine checkups?",
+      "shortAnswer": "Not on standard plans. Vaccinations, annual exams, flea and tick prevention and similar routine care are preventive, so they are excluded from accident-and-illness cover. You can get partial reimbursement through a [pet wellness plan](/glossary/pet-wellness-plan/) or a preventive add-on that pays fixed amounts. Treatment of an illness that a vaccine failed to prevent is generally covered if it is not pre-existing.",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-295",
+      "slug": "does-pet-insurance-cover-cancer-treatment",
+      "category": "General",
+      "question": "Does pet insurance cover cancer treatment?",
+      "shortAnswer": "Yes, most accident-and-illness plans cover diagnosis and treatment of cancer, including surgery, chemotherapy and radiation, as long as the cancer is not [pre-existing](/glossary/pet-pre-existing-condition/) and the [waiting period](/glossary/pet-insurance-waiting-period/) has passed. Payouts are limited by your [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) and [annual limit](/glossary/pet-insurance-annual-limit/). Accident-only plans do not cover cancer.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-296",
+      "slug": "how-much-does-pet-insurance-cost",
+      "category": "General",
+      "question": "How much does pet insurance cost per month?",
+      "shortAnswer": "In the US, accident-and-illness cover commonly costs roughly $35 to $75 a month for a dog and $20 to $40 for a cat, with accident-only plans often $12 to $25. Price depends on species, breed, age, ZIP code, [deductible](/glossary/deductible/), [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) and [annual limit](/glossary/pet-insurance-annual-limit/). Wellness add-ons usually cost $15 to $35 extra.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-297",
+      "slug": "can-you-get-pet-insurance-for-an-older-pet",
+      "category": "General",
+      "question": "Can you get pet insurance for an older or senior pet?",
+      "shortAnswer": "Yes, many insurers enrol dogs and cats into their senior years, though some set upper age limits (often around 8 to 14 years) and premiums are higher. Any condition present before enrolment is [pre-existing](/glossary/pet-pre-existing-condition/) and excluded, so cover applies only to new illnesses and accidents. For some older pets, accident-only or a savings fund is the better value.",
+      "readingTime": "4 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-298",
+      "slug": "how-to-file-a-pet-insurance-claim",
+      "category": "General",
+      "question": "How do you file a pet insurance claim, and how long does it take?",
+      "shortAnswer": "Pay the vet, request an itemized invoice and medical records, then submit a claim form online or through the insurer's app within the filing deadline, often 90 to 180 days. Most claims are processed in a few days to a few weeks. Reimbursement is calculated using your [deductible](/glossary/deductible/), [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) and [annual limit](/glossary/pet-insurance-annual-limit/).",
+      "readingTime": "4 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-299",
+      "slug": "what-is-personal-accident-insurance",
+      "category": "Disability",
+      "question": "What is personal accident insurance?",
+      "shortAnswer": "Personal accident insurance is a policy that pays a pre-agreed cash benefit if an accident causes your death, a permanent disability, or the loss of a limb, sight or hearing. Some plans also pay weekly income for temporary disablement or a daily hospital allowance. It covers accidents only, not illness, and pays fixed amounts from a schedule rather than reimbursing your actual bills. See the [personal accident insurance guide](/learn/personal-accident-insurance-explained/) for how it fits with health and disability cover.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-300",
+      "slug": "does-personal-accident-insurance-cover-illness",
+      "category": "Disability",
+      "question": "Does personal accident insurance cover illness?",
+      "shortAnswer": "Standard personal accident insurance does not cover illness or disease; it pays only when an accident is the sole cause of death or injury. Some UK plans add an optional sickness benefit, but that is a separate, usually time-limited cover with its own waiting period. For illness protection you need health insurance for treatment costs and disability income insurance for lost earnings.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-301",
+      "slug": "do-i-need-personal-accident-insurance-if-i-have-health-insurance",
+      "category": "Disability",
+      "question": "Do I need personal accident insurance if I have health insurance?",
+      "shortAnswer": "Health insurance pays for treatment, but it does not replace lost income or provide a cash lump sum for permanent disability or accidental death, so personal accident insurance fills a different gap. You may not need it if your employer already provides accidental death and disability cover, or if you hold adequate life and disability income insurance. It is most useful when you have dependants, no sick pay, or physically risky work or hobbies.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-302",
+      "slug": "how-much-personal-accident-cover-do-i-need",
+      "category": "Disability",
+      "question": "How much personal accident cover do I need?",
+      "shortAnswer": "Work out the sum from your own numbers: outstanding debts, the years of income your family would need replaced, and one-off costs such as home modifications. A rule of thumb often quoted by advisers is around ten times annual income for accidental death and permanent disability cover, but treat that as a starting point, not a rule. Then subtract the cover you already hold through life insurance, employer schemes and disability income plans.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-303",
+      "slug": "how-does-a-personal-accident-insurance-claim-work",
+      "category": "Disability",
+      "question": "How does a personal accident insurance claim work?",
+      "shortAnswer": "You notify the insurer promptly, submit a claim form with proof of the accident and medical evidence, and the insurer checks that the injury meets the policy definition and falls within its time limits. Death and permanent disability benefits are usually paid as a lump sum from the benefit schedule, while temporary disability is paid weekly. Permanent disability is often assessed only after your condition has stabilised, sometimes 12 months or more after the accident.",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-304",
+      "slug": "is-title-insurance-worth-it",
+      "category": "Home",
+      "question": "Is title insurance worth it?",
+      "shortAnswer": "For most buyers, an owner's title policy is worth it because it is a one-time cost, usually well under 1% of the purchase price, that protects the largest asset you will own against defects from before you bought. A lender's policy is required if you have a mortgage, but it only protects the lender. Title claims are uncommon, so the value lies in covering a low-probability, high-cost loss such as a forged deed or an old unpaid lien.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-305",
+      "slug": "what-does-title-insurance-cover",
+      "category": "Home",
+      "question": "What does title insurance cover?",
+      "shortAnswer": "Title insurance covers financial loss from defects in a property's ownership history that existed before you bought it, such as unpaid liens, forged or invalid deeds, recording errors and claims from unknown heirs. It also typically pays the legal costs of defending your ownership. It does not cover physical damage, events after the policy date, zoning problems, or issues you knew about and did not disclose.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-306",
+      "slug": "how-much-does-title-insurance-cost-and-who-pays",
+      "category": "Home",
+      "question": "How much does title insurance cost, and who pays for it?",
+      "shortAnswer": "Title insurance is a one-time premium paid at closing, and a lender's and owner's policy together typically cost about 0.5% to 1% of the purchase price, with industry data putting the median near 0.67%. Buyers usually pay for the lender's policy, while who pays for the owner's policy depends on local custom and negotiation; in Texas, for example, sellers customarily pay for it. Buying both together usually earns a discount.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-307",
+      "slug": "do-i-need-owners-title-insurance-if-my-lender-requires-a-policy",
+      "category": "Home",
+      "question": "Do I need owner's title insurance if my lender requires a policy?",
+      "shortAnswer": "Yes, if you want your own protection. The policy your lender requires is a lender's policy that covers only the loan balance and the lender's interest, so it will not defend your ownership or repay your equity. An owner's policy is optional, covers you up to the purchase price for as long as you or your heirs own the home, and is usually much cheaper if bought at the same time as the lender's policy.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-308",
+      "slug": "can-you-buy-owners-title-insurance-after-closing",
+      "category": "Home",
+      "question": "Can you buy owner's title insurance after closing?",
+      "shortAnswer": "Sometimes, but it is not guaranteed and it is not the same as buying at closing. Some title insurers will issue an owner's policy after closing if a fresh title search finds no new problems. The policy protects you only from its issue date for later-arising matters, so a lien that appeared in the gap may be excluded. If you can, buy at closing; if you missed it, ask a title company promptly.",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-309",
+      "slug": "how-much-does-sole-trader-insurance-cost-uk",
+      "category": "General",
+      "question": "How much does sole trader insurance cost in the UK?",
+      "shortAnswer": "A low-risk sole trader can pay around £50 to £65 a year for [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/), while typical 2026 premiums for general trades are roughly £106 a year for £1 million of cover, £118 for £2 million and £140 for £5 million. Professional indemnity, tools and employers liability are priced on your turnover, trade and kit, so quotes vary widely. Our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/) shows which covers you need to price.",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "qa-310",
+      "slug": "what-happens-if-a-sole-trader-is-sued-without-insurance",
+      "category": "Legal",
+      "question": "What happens if a sole trader is sued without insurance?",
+      "shortAnswer": "A sole trader has [unlimited liability](/glossary/unlimited-liability/), so if a court finds against you the damages, your own legal costs and often the claimant's costs come from your personal money. Judgments can be enforced against savings, wages or property, and the worst case is bankruptcy. Insurance such as [public liability](/glossary/public-liability-insurance/) would normally pay the defence and compensation up to the policy limit. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "6 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-311",
+      "slug": "what-does-public-liability-insurance-not-cover",
+      "category": "General",
+      "question": "What does public liability insurance not cover?",
+      "shortAnswer": "[Public liability insurance](/glossary/public-liability-insurance/) does not cover your own injuries, injuries to employees, financial loss from professional advice or mistakes, damage to your tools, or deliberate acts. Those need [income protection](/qa/income-protection-for-self-employed-uk/), [employers liability](/qa/do-sole-traders-need-employers-liability-insurance/), [professional indemnity](/learn/professional-indemnity-insurance/) and [tools cover](/qa/tool-insurance-for-tradespeople/). Read the policy exclusions carefully, as set out in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-312",
+      "slug": "do-freelancers-need-professional-indemnity-insurance-uk",
+      "category": "General",
+      "question": "Do freelancers need professional indemnity insurance in the UK?",
+      "shortAnswer": "Not by law for most freelancers, but in practice often yes: clients commonly require [professional indemnity](/learn/professional-indemnity-insurance/) in contracts, and it protects you if a client says your advice, work or error cost them money. Some regulated professions must hold it. It differs from [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/), which covers physical injury and property damage. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "5 min read",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "qa-313",
+      "slug": "do-self-employed-cleaners-need-insurance-uk",
+      "category": "General",
+      "question": "Do self-employed cleaners need insurance in the UK?",
+      "shortAnswer": "No law forces a solo self-employed cleaner to hold insurance, but [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader/) is close to essential because you work in other people's homes. Add cover for keys and damage to client property if offered, and [employers liability](/qa/do-sole-traders-need-employers-liability-insurance/) once you employ help. Typical low-risk public liability costs around £50 to £65 a year. See our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need/).",
+      "readingTime": "5 min read",
+      "difficulty": "Beginner"
     }
   ]
 }
