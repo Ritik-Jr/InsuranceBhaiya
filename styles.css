@@ -10085,3 +10085,47 @@ body[data-error-theme="speeding"] .error-btn-primary:hover {
   height: 100%;
   object-fit: cover;
 }
+
+/* ==========================================================================
+   Manual ad placements (src/scripts/ads/place-ads.js)
+   Between sections only, never inside a card. A block takes no space at all until AdSense
+   fills it (no label, no placeholder, no reserved height) and disappears if it stays unfilled.
+   ========================================================================== */
+.ib-ad-frame {
+  overflow: hidden;
+  text-align: center;
+}
+/* filled: sit in the layout like any other section, on a quiet surface panel */
+.ib-ad:has(ins[data-ad-status="filled"]) {
+  margin: 48px 0;
+}
+.ib-ad-band:has(ins[data-ad-status="filled"]) {
+  margin: 8px 0;
+}
+.ib-ad-reading:has(ins[data-ad-status="filled"]) {
+  margin: 40px 0;
+}
+.ib-ad:has(ins[data-ad-status="filled"]) .ib-ad-frame {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+}
+/* AdSense had no ad to show: remove the block entirely */
+.ib-ad:has(ins[data-ad-status="unfilled"]) {
+  display: none;
+}
+/* a row inside a card grid: span every column; until filled, cancel the grid gap its empty row would add */
+.ib-ad-grid {
+  grid-column: 1 / -1;
+  margin-top: -24px;
+}
+.ib-ad-grid:has(ins[data-ad-status="filled"]) {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .ib-ad:has(ins[data-ad-status="filled"]) { margin: 36px 0; }
+  .ib-ad-band:has(ins[data-ad-status="filled"]) { margin: 4px 0; }
+  .ib-ad-grid:has(ins[data-ad-status="filled"]) { margin: 0; }
+  .ib-ad:has(ins[data-ad-status="filled"]) .ib-ad-frame { padding: 10px; border-radius: 14px; }
+}

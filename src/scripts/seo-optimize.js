@@ -655,7 +655,8 @@ function applyCounts(h) {
   // same one-line "key": value layout the publisher and thumbnails/apply.js expect
   const json = '[' + list.map(o => '{' + Object.entries(o).map(([k, v]) => `${JSON.stringify(k)}: ${JSON.stringify(v)}`).join(', ') + '}').join(', ') + ']';
   const h = orig
-    .replace(/(<div class="articles-grid" id="learnArticlesGrid">)[\s\S]*?(\n    <\/div>\s*<!-- Progressive Load More Container -->)/, (m, a, b) => a + list.map(card).join('') + b)
+    .replace(/(<div class="articles-grid" id="learnArticlesGrid">)[\s\S]*?(\r?\n    <\/div>\s*<!-- Progressive Load More Container -->)/,
+      (m, a, b) => a + list.map(card).join('').replace(/\n/g, orig.includes('\r\n') ? '\r\n' : '\n') + b)
     .replace(/(<script id="learnArticlesData" type="application\/json">\s*)[\s\S]*?(\s*<\/script>)/, (m, a, b) => a + json.replace(/<\//g, '<\\/') + b)
     .replace(/Load More Publications \(\d+ remaining\)/, `Load More Publications (${Math.max(0, list.length - 13)} remaining)`);
   if (h !== orig && !DRY) fs.writeFileSync(f, h);
@@ -1243,6 +1244,9 @@ if (!DRY) {
   }
   if (!DRY) fs.writeFileSync(llmsPath, head + body);
 }
+
+// manual ad slots on the main pages (home, hubs, tools, policy pages)
+if (!DRY) require('./ads/place-ads');
 
 console.log(JSON.stringify({ ...report, mirroredIntoJson: mirrored, counts: COUNTS }, null, 2));
 if (process.argv.includes('--log')) console.log(JSON.stringify(linkLog, null, 1));

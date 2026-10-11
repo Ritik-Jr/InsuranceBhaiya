@@ -9479,8 +9479,38 @@ function initFooterRotatingQA() {
   }
 }
 
+// ==========================================================================
+// 9. Manual Ad Placements (written by src/scripts/ads/place-ads.js)
+// ==========================================================================
+
+// Asks AdSense to fill each manual slot once. Blocks take no space until filled and hide if unfilled
+// (styles.css), so nothing is shown in place of a missing ad. Slots inside card grids are skipped here:
+// initGridAdSlots() fills them after the grid has been shuffled, because a filled ad must never be moved.
+function fillAdSlots(selector) {
+  document.querySelectorAll(selector).forEach(slot => {
+    if (slot.hidden || !slot.querySelector('ins.adsbygoogle:not([data-adsbygoogle-status])')) return;
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+  });
+}
+
+function initAdSlots() {
+  fillAdSlots('.ib-ad:not(.ib-ad-grid)');
+}
+
+// A grid ad row sits after the first 6 cards *as they appear on screen* (compare/glossary grids are shuffled on load).
+function initGridAdSlots() {
+  document.querySelectorAll('.ib-ad-grid').forEach(slot => {
+    const grid = slot.parentElement;
+    const cards = Array.from(grid.children).filter(el => el !== slot && !el.classList.contains('ib-ad'));
+    if (cards.length > 6) grid.insertBefore(slot, cards[6]);
+    else slot.remove(); // too few cards for a mid-grid ad
+  });
+  fillAdSlots('.ib-ad-grid');
+}
+
 // Bootstrapping
 document.addEventListener('DOMContentLoaded', async () => {
+  initAdSlots(); // before the data.json fetch so ads aren't held back by it
   await initSiteData();
   initLiveCounts();
   MarketEngine.init();
@@ -9498,4 +9528,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   initScenariosFilters();
   initFooterRotatingQA();
   initMobileNav();
+  initGridAdSlots(); // after the grids are shuffled
 });
