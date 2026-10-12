@@ -52,7 +52,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "Hangaring an airplane usually lowers its insurance premium compared with an outdoor tie-down, especially in hail country, as [Brian's first Cessna 182 scenario](/scenarios/brian-first-cessna-182-texas) shows. But owning or leasing a hangar creates exposures your aircraft policy doesn't cover. This spoke of our [aircraft & aviation insurance explained](/learn/aircraft-aviation-insurance-explained) hub sorts out which policy covers what."
+      "text": "Hangaring an airplane usually lowers its insurance premium compared with an outdoor tie-down, especially in hail country, as [Brian's first Cessna 182 scenario](/scenarios/brian-first-cessna-182-texas) shows. But owning or leasing a hangar creates exposures your aircraft policy doesn't cover. This spoke of our aircraft & aviation insurance explained hub sorts out which policy covers what."
     },
     {
       "type": "heading",
@@ -69,7 +69,7 @@
       "rows": [
         [
           "Your aircraft damaged by hangar fire or roof collapse",
-          "Aircraft hull (not-in-motion). See [hull insurance cover](/qa/what-does-aircraft-hull-insurance-cover)",
+          "Aircraft hull (not-in-motion). See hull insurance cover",
           "Building property policy"
         ],
         [
@@ -101,13 +101,13 @@
     },
     {
       "type": "paragraph",
-      "text": "Hangarkeepers liability applies when you store aircraft belonging to others, perform maintenance on third-party aircraft, or run an aviation service business. Examples include renting a corner of your hangar to another owner, running an A&P shop, or operating an FBO. It covers aircraft in your care, custody or control, a gap that standard liability policies typically exclude. Airfield operators should also review [airport liability insurance](/qa/airport-liability-insurance), and businesses with a product or parts exposure should see [aviation products liability insurance](/qa/aviation-products-liability-insurance)."
+      "text": "Hangarkeepers liability applies when you store aircraft belonging to others, perform maintenance on third-party aircraft, or run an aviation service business. Examples include renting a corner of your hangar to another owner, running an A&P shop, or operating an FBO. It covers aircraft in your care, custody or control, a gap that standard liability policies typically exclude. Airfield operators should also review airport liability insurance, and businesses with a product or parts exposure should see aviation products liability insurance."
     },
     {
       "type": "callout",
       "variant": "warning",
       "title": "Shared Hangars and Partnerships",
-      "text": "If two co-owners or club members share a hangar, decide in writing whose policy responds if one member's tug damages another member's airplane. Read [aircraft partnership insurance](/qa/aircraft-partnership-insurance), and remember that many aircraft policies limit claims between people insured under the same policy."
+      "text": "If two co-owners or club members share a hangar, decide in writing whose policy responds if one member's tug damages another member's airplane. Read aircraft partnership insurance, and remember that many aircraft policies limit claims between people insured under the same policy."
     },
     {
       "type": "heading",
@@ -120,14 +120,14 @@
       "items": [
         "Minimum liability limits, often $1M, sometimes on a smooth basis (see [smooth vs per-seat liability](/compare/smooth-liability-vs-per-seat-sublimit-aircraft-insurance)).",
         "Proof of aircraft hull insurance.",
-        "An endorsement naming the airport authority as an [additional insured](/learn/named-insured-vs-additional-insured).",
+        "An endorsement naming the airport authority as an additional insured.",
         "Indemnification clauses. Have your broker confirm that your policy's contractual liability cover matches what you sign.",
         "Annual certificates of insurance. Missing one can cost you your hangar."
       ]
     },
     {
       "type": "paragraph",
-      "text": "Building a homebuilt in the hangar? Builder's risk and contents cover interact, as explained in [experimental aircraft insurance](/learn/experimental-aircraft-insurance). Storing drones and cameras? See [drone insurance](/learn/drone-insurance). After any hangar loss, follow [aircraft insurance claims: what to expect](/learn/aircraft-insurance-claims-what-to-expect). The hangar-vs-tie-down premium difference is part of [airplane insurance cost](/learn/airplane-insurance-cost)."
+      "text": "Building a homebuilt in the hangar? Builder's risk and contents cover interact, as explained in experimental aircraft insurance. Storing drones and cameras? See drone insurance. After any hangar loss, follow aircraft insurance claims: what to expect. The hangar-vs-tie-down premium difference is part of airplane insurance cost."
     },
     {
       "type": "calculator-embed",

@@ -58,7 +58,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "A bicycle shop combines retail, a repair workshop, often a rental fleet and group rides, and increasingly a stock of lithium-ion batteries. Each of those activities brings a different risk, so **bike shop insurance** is really a bundle of policies. This guide shows you how to build that bundle. It connects our [Motorcycle, Dirt Bike & Powersport Insurance hub](/learn/motorcycle-dirt-bike-powersport-insurance/) to the business side of cycling. Your customers' own cover is explained in [bicycle insurance](/learn/bicycle-insurance/)."
+      "text": "A bicycle shop combines retail, a repair workshop, often a rental fleet and group rides, and increasingly a stock of lithium-ion batteries. Each of those activities brings a different risk, so **bike shop insurance** is really a bundle of policies. This guide shows you how to build that bundle. It connects our Motorcycle, Dirt Bike & Powersport Insurance hub to the business side of cycling. Your customers' own cover is explained in bicycle insurance."
     },
     {
       "type": "heading",
@@ -84,7 +84,7 @@
           "Product & completed-operations liability",
           "Injuries caused by bikes, parts or repairs you sold or performed",
           "Assembly errors, brake or headset work, e-bike conversions",
-          "[Product liability insurance](/learn/product-liability-insurance/)"
+          "Product liability insurance"
         ],
         [
           "Commercial property",
@@ -114,7 +114,7 @@
           "Commercial auto",
           "Vans used for deliveries, events and mobile repair",
           "Personal auto policies exclude most business use",
-          "[Does personal auto insurance cover business use?](/qa/does-my-personal-auto-insurance-cover-business-use/)"
+          "Does personal auto insurance cover business use?"
         ],
         [
           "Crime & cyber",
@@ -128,7 +128,7 @@
       "type": "callout",
       "variant": "tip",
       "title": "Start With a BOP, Then Fill the Gaps",
-      "text": "A [Business Owner's Policy](/learn/bop-business-owners-policy-explained/) bundles general liability, commercial property and business interruption at a discount. Most bike shops then add a bailee endorsement, higher product liability limits, workers' comp and commercial auto. The [business insurance checklist](/business-insurance-checklist/) helps you map each one."
+      "text": "A Business Owner's Policy bundles general liability, commercial property and business interruption at a discount. Most bike shops then add a bailee endorsement, higher product liability limits, workers' comp and commercial auto. The [business insurance checklist](/business-insurance-checklist/) helps you map each one."
     },
     {
       "type": "heading",
@@ -137,7 +137,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Standard commercial property insurance covers **your** business personal property. Customer bikes in your service bay usually aren't your property. If a fire, burst pipe or break-in destroys them, the customers expect you to pay. Your policy may treat those bikes as 'property of others' with a small sub-limit, or [exclude](/glossary/exclusion/) them entirely. **Bailee's customer coverage**, usually written as an [inland marine](/learn/inland-marine-insurance-explained/) form or [endorsement](/learn/what-is-an-insurance-endorsement/), fills that gap whether or not you were negligent. Size the limit to your busiest week. Ten e-MTBs at $8,000 each is $80,000 of exposure."
+      "text": "Standard commercial property insurance covers **your** business personal property. Customer bikes in your service bay usually aren't your property. If a fire, burst pipe or break-in destroys them, the customers expect you to pay. Your policy may treat those bikes as 'property of others' with a small sub-limit, or exclude them entirely. **Bailee's customer coverage**, usually written as an inland marine form or endorsement, fills that gap whether or not you were negligent. Size the limit to your busiest week. Ten e-MTBs at $8,000 each is $80,000 of exposure."
     },
     {
       "type": "heading",
@@ -146,7 +146,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Lithium-ion batteries have changed how insurers look at bike shops. Charging, storing and repairing e-bike batteries adds fire exposure. Some insurers now ask about charging practices, battery storage and whether you do conversions or battery repairs. Expect questions like these, and be ready to show controls: dedicated charging areas, fire-rated storage, no overnight unattended charging, and certified batteries only. Product liability matters here too. If you sold or serviced a battery that later catches fire in a customer's home, the claim can come back to you. See [product liability insurance](/learn/product-liability-insurance/)."
+      "text": "Lithium-ion batteries have changed how insurers look at bike shops. Charging, storing and repairing e-bike batteries adds fire exposure. Some insurers now ask about charging practices, battery storage and whether you do conversions or battery repairs. Expect questions like these, and be ready to show controls: dedicated charging areas, fire-rated storage, no overnight unattended charging, and certified batteries only. Product liability matters here too. If you sold or serviced a battery that later catches fire in a customer's home, the claim can come back to you. See product liability insurance."
     },
     {
       "type": "callout",
@@ -164,9 +164,9 @@
       "ordered": false,
       "items": [
         "**Rental fleet:** Rental liability is often excluded from a base BOP. You need a rental endorsement plus solid waivers, and waivers alone aren't a substitute for insurance.",
-        "**Guided tours and MTB skills clinics:** These count as professional services. Consider professional liability as well. See [professional indemnity insurance](/learn/professional-indemnity-insurance/).",
-        "**Shop group rides and races:** Organized events may need their own cover. See [event liability insurance](/learn/event-liability-insurance/).",
-        "**Powersport crossover:** Shops that sell or service dirt bikes, ATVs or motorcycles need powersport dealer coverage, which is priced differently. Compare the retail risk profiles of [dirt bike insurance coverage](/learn/dirt-bike-insurance-coverage/) and [quad bike & ATV insurance](/learn/quad-bike-atv-insurance/)."
+        "**Guided tours and MTB skills clinics:** These count as professional services. Consider professional liability as well. See professional indemnity insurance.",
+        "**Shop group rides and races:** Organized events may need their own cover. See event liability insurance.",
+        "**Powersport crossover:** Shops that sell or service dirt bikes, ATVs or motorcycles need powersport dealer coverage, which is priced differently. Compare the retail risk profiles of dirt bike insurance coverage and quad bike & ATV insurance."
       ]
     },
     {
@@ -176,7 +176,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Premiums scale with revenue, payroll, inventory value, square footage, claims history and the services you offer. Repair-only shops pay the least. Shops with rentals, tours, e-bike battery work or powersport sales pay the most. The best way to get an accurate number is to request quotes on identical limits. See [quotes for commercial insurance](/learn/quotes-for-commercial-insurance/) and how other trades compare in [commercial insurance by industry](/compare/commercial-insurance-by-industry/). Use the [coverage calculator](/coverage-calculator/) to check that your property limits match your real inventory value."
+      "text": "Premiums scale with revenue, payroll, inventory value, square footage, claims history and the services you offer. Repair-only shops pay the least. Shops with rentals, tours, e-bike battery work or powersport sales pay the most. The best way to get an accurate number is to request quotes on identical limits. See quotes for commercial insurance and how other trades compare in commercial insurance by industry. Use the coverage calculator to check that your property limits match your real inventory value."
     },
     {
       "type": "heading",
@@ -192,7 +192,7 @@
         "List every service you offer (repairs, fits, rentals, tours, e-bike and battery work) and disclose each to your insurer.",
         "Confirm product and completed-operations limits. Many shops choose $1M per occurrence / $2M aggregate or higher.",
         "Buy workers' comp once you hire, and commercial auto for any shop vehicle.",
-        "Review the whole program each year with the [policy review checklist](/policy-review-checklist/)."
+        "Review the whole program each year with the policy review checklist."
       ]
     },
     {

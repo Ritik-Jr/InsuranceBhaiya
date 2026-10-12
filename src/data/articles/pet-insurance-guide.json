@@ -36,19 +36,19 @@
   "faqs": [
     {
       "question": "What does pet insurance not cover?",
-      "answer": "Most plans exclude pre-existing conditions, routine and preventive care (vaccines, spay/neuter, cleanings), cosmetic procedures, breeding and pregnancy costs, and cremation or burial. See [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/) and [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+      "answer": "Most plans exclude pre-existing conditions, routine and preventive care (vaccines, spay/neuter, cleanings), cosmetic procedures, breeding and pregnancy costs, and cremation or burial. See does pet insurance cover pre-existing conditions and does pet insurance cover cremation."
     },
     {
       "question": "Does pet insurance cover dental cleaning?",
-      "answer": "Routine cleaning is generally not covered on standard plans. Accidental tooth injuries usually are, and some comprehensive plans cover dental disease. Read [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/) before you buy."
+      "answer": "Routine cleaning is generally not covered on standard plans. Accidental tooth injuries usually are, and some comprehensive plans cover dental disease. Read does pet insurance cover dental before you buy."
     },
     {
       "question": "Does pet insurance cover spay or neuter surgery?",
-      "answer": "Only through wellness add-ons or certain preventive packages. Standard accident-and-illness plans treat it as elective. See [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/)."
+      "answer": "Only through wellness add-ons or certain preventive packages. Standard accident-and-illness plans treat it as elective. See does pet insurance cover desexing."
     },
     {
       "question": "How long is the waiting period for pet insurance?",
-      "answer": "Typical waiting periods are a few days for accidents, about 14 days for illness and up to 6 months for orthopedic conditions, though they vary. Learn the definition in our glossary entry on the [pet insurance waiting period](/glossary/pet-insurance-waiting-period/)."
+      "answer": "Typical waiting periods are a few days for accidents, about 14 days for illness and up to 6 months for orthopedic conditions, though they vary. Learn the definition in our glossary entry on the pet insurance waiting period."
     },
     {
       "question": "Is pet insurance cheaper if I buy when my pet is a puppy or kitten?",
@@ -63,7 +63,7 @@
   "content": [
     {
       "type": "paragraph",
-      "text": "A single emergency vet visit now routinely costs $1,500 to $5,000, and complex surgery can pass $8,000. Pet insurance exists to turn that unpredictable spike into a predictable monthly [premium](/glossary/premium/). But it is also one of the most misunderstood policies in personal insurance: owners assume it works like human health insurance, then discover that desexing, dental cleaning, cremation and anything diagnosed before enrolment are not paid. If you are still deciding whether it is worth buying at all, start with our straight answer on [is pet insurance worth it](/qa/is-pet-insurance-worth-it/), then use this guide to read any policy with open eyes."
+      "text": "A single emergency vet visit now routinely costs $1,500 to $5,000, and complex surgery can pass $8,000. Pet insurance exists to turn that unpredictable spike into a predictable monthly premium. But it is also one of the most misunderstood policies in personal insurance: owners assume it works like human health insurance, then discover that desexing, dental cleaning, cremation and anything diagnosed before enrolment are not paid. If you are still deciding whether it is worth buying at all, start with our straight answer on is pet insurance worth it, then use this guide to read any policy with open eyes."
     },
     {
       "type": "heading",
@@ -72,14 +72,14 @@
     },
     {
       "type": "paragraph",
-      "text": "Almost all pet policies are reimbursement plans. You visit any licensed vet, pay the full invoice, submit the claim, and the insurer sends back a percentage of the eligible amount. Three levers decide how much you recover: the annual or per-condition [deductible](/glossary/deductible/), the reimbursement rate (70%, 80% or 90%), and the annual or lifetime benefit limit."
+      "text": "Almost all pet policies are reimbursement plans. You visit any licensed vet, pay the full invoice, submit the claim, and the insurer sends back a percentage of the eligible amount. Three levers decide how much you recover: the annual or per-condition deductible, the reimbursement rate (70%, 80% or 90%), and the annual or lifetime benefit limit."
     },
     {
       "type": "callout",
       "variant": "info",
       "style": "info",
       "title": "Reimbursement Math in One Example",
-      "text": "Your dog swallows a sock and needs a $4,000 obstruction surgery. With a $500 deductible and 80% reimbursement: ($4,000 - $500) x 80% = $2,800 paid by the insurer. You keep $1,200 of the bill. On a plan with a $5,000 annual limit, $2,200 of limit remains for the rest of the policy year. Model your own numbers with our [Deductible Breakeven Calculator](/deductible-calculator/)."
+      "text": "Your dog swallows a sock and needs a $4,000 obstruction surgery. With a $500 deductible and 80% reimbursement: ($4,000 - $500) x 80% = $2,800 paid by the insurer. You keep $1,200 of the bill. On a plan with a $5,000 annual limit, $2,200 of limit remains for the rest of the policy year. Model your own numbers with our Deductible Breakeven Calculator."
     },
     {
       "type": "heading",
@@ -104,16 +104,16 @@
     },
     {
       "type": "paragraph",
-      "text": "The [exclusion](/glossary/exclusion/) section of a pet policy is where owners get surprised. The four most common gaps are below, each with its own deep dive."
+      "text": "The exclusion section of a pet policy is where owners get surprised. The four most common gaps are below, each with its own deep dive."
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "**Pre-existing conditions:** anything with signs, symptoms or a diagnosis before coverage starts or during the waiting period. Read the full rules in [does pet insurance cover pre-existing conditions](/qa/does-pet-insurance-cover-pre-existing-conditions/).",
-        "**Spay, neuter and desexing:** an elective, preventive procedure that standard plans do not pay. See [does pet insurance cover desexing](/qa/does-pet-insurance-cover-desexing/) for when a wellness add-on makes sense.",
-        "**Routine dental cleaning:** coverage is limited to accidental tooth injuries and, on some plans, dental disease. Details are in [does pet insurance cover dental](/qa/does-pet-insurance-cover-dental/).",
-        "**Cremation, burial and disposal:** treated as post-death expenses, not medical care. Learn the exceptions in [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+        "**Pre-existing conditions:** anything with signs, symptoms or a diagnosis before coverage starts or during the waiting period. Read the full rules in does pet insurance cover pre-existing conditions.",
+        "**Spay, neuter and desexing:** an elective, preventive procedure that standard plans do not pay. See does pet insurance cover desexing for when a wellness add-on makes sense.",
+        "**Routine dental cleaning:** coverage is limited to accidental tooth injuries and, on some plans, dental disease. Details are in does pet insurance cover dental.",
+        "**Cremation, burial and disposal:** treated as post-death expenses, not medical care. Learn the exceptions in does pet insurance cover cremation."
       ]
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Prices vary sharply by species, breed, age and ZIP code. Cats are usually cheaper than dogs, and giant breeds or breeds prone to hip, spine or heart disease cost more. For a full side-by-side of the two core tiers, see [accident-only vs. comprehensive pet insurance](/compare/accident-only-vs-comprehensive-pet-insurance/)."
+      "text": "Prices vary sharply by species, breed, age and ZIP code. Cats are usually cheaper than dogs, and giant breeds or breeds prone to hip, spine or heart disease cost more. For a full side-by-side of the two core tiers, see accident-only vs. comprehensive pet insurance."
     },
     {
       "type": "heading",
@@ -156,7 +156,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Even after you buy a policy, coverage does not start on day one for everything. A [pet insurance waiting period](/glossary/pet-insurance-waiting-period/) commonly runs about 14 days for illness, a few days for accidents, and up to 6 months or more for orthopedic conditions like cruciate ligament tears. Any problem that appears during that window can become a [pre-existing condition](/glossary/pet-pre-existing-condition/), which is excluded for life by many insurers."
+      "text": "Even after you buy a policy, coverage does not start on day one for everything. A pet insurance waiting period commonly runs about 14 days for illness, a few days for accidents, and up to 6 months or more for orthopedic conditions like cruciate ligament tears. Any problem that appears during that window can become a pre-existing condition, which is excluded for life by many insurers."
     },
     {
       "type": "callout",
@@ -172,7 +172,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A [pet wellness plan](/glossary/pet-wellness-plan/) is not insurance in the strict sense. It is a prepaid allowance with fixed per-service benefits for vaccines, exams and sometimes spay/neuter or cleaning. Because you are paying premium to get your own money back, compare the annual add-on cost to the benefits you will really use. For a puppy needing vaccines plus a spay or neuter, it can break even; for a healthy adult cat, often not."
+      "text": "A pet wellness plan is not insurance in the strict sense. It is a prepaid allowance with fixed per-service benefits for vaccines, exams and sometimes spay/neuter or cleaning. Because you are paying premium to get your own money back, compare the annual add-on cost to the benefits you will really use. For a puppy needing vaccines plus a spay or neuter, it can break even; for a healthy adult cat, often not."
     },
     {
       "type": "heading",
@@ -181,7 +181,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Many plans reimburse euthanasia when it is part of treating a covered illness, but cremation or burial is usually your cost, commonly around $50 to $150 for communal cremation and $150 to $500 or more for a private one depending on size. A small number of insurers offer a limited end-of-life benefit or rider. Check the policy language before assuming, and see [does pet insurance cover cremation](/qa/does-pet-insurance-cover-cremation/)."
+      "text": "Many plans reimburse euthanasia when it is part of treating a covered illness, but cremation or burial is usually your cost, commonly around $50 to $150 for communal cremation and $150 to $500 or more for a private one depending on size. A small number of insurers offer a limited end-of-life benefit or rider. Check the policy language before assuming, and see does pet insurance cover cremation."
     },
     {
       "type": "heading",
@@ -193,11 +193,11 @@
       "ordered": true,
       "items": [
         "Pick the highest annual limit you can afford; a $5,000 cap can be exhausted by one surgery.",
-        "Choose a deductible you can pay from savings without stress, and test the trade-off in our [Deductible Breakeven Calculator](/deductible-calculator/).",
-        "Prefer 80% to 90% reimbursement if the monthly [premium](/glossary/premium/) fits your budget.",
+        "Choose a deductible you can pay from savings without stress, and test the trade-off in our Deductible Breakeven Calculator.",
+        "Prefer 80% to 90% reimbursement if the monthly premium fits your budget.",
         "Read the exclusions list, waiting periods and bilateral-condition rules before paying.",
         "Check whether dental illness, hereditary conditions, prescription food and alternative therapies are included.",
-        "Run your current protection through our [8-Point Policy Check](/policy-check/) and review how to [read an insurance policy](/learn/how-to-read-an-insurance-policy/)."
+        "Run your current protection through our 8-Point Policy Check and review how to read an insurance policy."
       ]
     },
     {
@@ -211,7 +211,7 @@
     },
     {
       "type": "paragraph",
-      "text": "These deep dives extend the guide above: [does pet insurance cover hereditary conditions](/qa/does-pet-insurance-cover-hereditary-conditions/); [does pet insurance cover vaccinations](/qa/does-pet-insurance-cover-vaccinations/); [does pet insurance cover cancer treatment](/qa/does-pet-insurance-cover-cancer-treatment/); [how much does pet insurance cost](/qa/how-much-does-pet-insurance-cost/); [can you get pet insurance for an older pet](/qa/can-you-get-pet-insurance-for-an-older-pet/); [how to file a pet insurance claim](/qa/how-to-file-a-pet-insurance-claim/); [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/); [dog swallowed a sock pet insurance claim](/scenarios/dog-swallowed-sock-pet-insurance-claim/); [pet insurance reimbursement rate](/glossary/pet-insurance-reimbursement-rate/); [pet insurance annual limit](/glossary/pet-insurance-annual-limit/)."
+      "text": "These deep dives extend the guide above: does pet insurance cover hereditary conditions; does pet insurance cover vaccinations; does pet insurance cover cancer treatment; how much does pet insurance cost; can you get pet insurance for an older pet; how to file a pet insurance claim; [pet insurance vs. pet savings account](/compare/pet-insurance-vs-pet-savings-account/); [dog swallowed a sock pet insurance claim](/scenarios/dog-swallowed-sock-pet-insurance-claim/); pet insurance reimbursement rate; pet insurance annual limit."
     },
     {
       "type": "disclaimer",

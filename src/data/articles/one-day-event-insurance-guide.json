@@ -26,7 +26,7 @@
   "keyTakeaways": [
     "One-day event insurance is short-term **general liability**: it pays when a guest is injured or venue property is damaged during a specific event window, usually at $1M per occurrence / $2M aggregate.",
     "Advertised starting prices for small private events sit roughly in the $49 to $150 range in October 2026; alcohol, crowd size, inflatables and outdoor stages push the premium up.",
-    "Hosting free alcohol and *selling or serving it professionally* are insured differently. Hired bartenders need their own liquor liability, as covered in [bartender insurance for 1 day](/qa/bartender-insurance-for-1-day/).",
+    "Hosting free alcohol and *selling or serving it professionally* are insured differently. Hired bartenders need their own liquor liability, as covered in bartender insurance for 1 day.",
     "A one-day liability policy almost never covers your own gear. DJs and rental companies need separate equipment (inland marine) coverage.",
     "The venue contract decides most of it: required limits, additional insured wording and certificate deadlines. Read it before you buy anything."
   ],
@@ -34,7 +34,7 @@
   "faqs": [
     {
       "question": "Can you get insurance for just 1 day?",
-      "answer": "Yes. Special event and vendor liability policies are sold for single days, and some carriers sell blocks as short as one hour. Purchase is usually online, and the certificate of insurance is typically issued the same day. See the price ranges above, or [bartender insurance for 1 day](/qa/bartender-insurance-for-1-day/) if you're working the event rather than hosting it."
+      "answer": "Yes. Special event and vendor liability policies are sold for single days, and some carriers sell blocks as short as one hour. Purchase is usually online, and the certificate of insurance is typically issued the same day. See the price ranges above, or bartender insurance for 1 day if you're working the event rather than hosting it."
     },
     {
       "question": "How much is one-day event insurance?",
@@ -46,11 +46,11 @@
     },
     {
       "question": "Does one-day insurance cover DJ or rental equipment?",
-      "answer": "Usually not. One-day forms are liability-only. Equipment needs inland marine or gear coverage, which is typically sold on an annual basis. See [DJ insurance for one day](/qa/dj-insurance-for-one-day/) and [party rental insurance](/qa/party-rental-insurance/)."
+      "answer": "Usually not. One-day forms are liability-only. Equipment needs inland marine or gear coverage, which is typically sold on an annual basis. See DJ insurance for one day and party rental insurance."
     },
     {
       "question": "Is a birthday party at home covered by homeowners insurance?",
-      "answer": "Homeowners liability generally covers guest injuries at a private social gathering, but limits, alcohol rules and exclusions for inflatables and pools vary by policy. The [birthday party insurance](/qa/birthday-party-insurance/) answer explains when a one-day policy is worth adding."
+      "answer": "Homeowners liability generally covers guest injuries at a private social gathering, but limits, alcohol rules and exclusions for inflatables and pools vary by policy. The birthday party insurance answer explains when a one-day policy is worth adding."
     }
   ],
   "companionTool": {
@@ -78,7 +78,7 @@
     },
     {
       "type": "paragraph",
-      "text": "One-day [event insurance](/learn/event-liability-insurance/) (also sold as *special event insurance* or *short-term event liability*) is a [commercial general liability](/learn/commercial-general-liability-guide/) policy whose policy period is shrunk to the hours of your event, plus setup and teardown. Some carriers sell it by the hour, others in 1-day, 1–3 day or up-to-5-day blocks."
+      "text": "One-day event insurance (also sold as *special event insurance* or *short-term event liability*) is a [commercial general liability](/learn/commercial-general-liability-guide/) policy whose policy period is shrunk to the hours of your event, plus setup and teardown. Some carriers sell it by the hour, others in 1-day, 1–3 day or up-to-5-day blocks."
     },
     {
       "type": "paragraph",
@@ -88,7 +88,7 @@
       "type": "callout",
       "variant": "info",
       "title": "Three Policies Hiding Under One Search Term",
-      "text": "\"One-day insurance\" can mean (1) **host liability** for the person throwing the event, (2) **vendor liability** for a bartender, DJ, caterer or photographer working it, or (3) **event cancellation** cover that refunds costs if the event can't go ahead. Most venue requirements are about (1) or (2). Cancellation is a separate product, and most liability-only one-day policies explicitly exclude it. See [does event insurance cover cancellation](/qa/event-cancellation-insurance/) for how it works."
+      "text": "\"One-day insurance\" can mean (1) **host liability** for the person throwing the event, (2) **vendor liability** for a bartender, DJ, caterer or photographer working it, or (3) **event cancellation** cover that refunds costs if the event can't go ahead. Most venue requirements are about (1) or (2). Cancellation is a separate product, and most liability-only one-day policies explicitly exclude it. See does event insurance cover cancellation for how it works."
     },
     {
       "type": "heading",
@@ -213,9 +213,9 @@
       "items": [
         "**Host with a free bar:** host liquor liability is commonly included in special event policies. Confirm it's listed on the quote; don't assume.",
         "**Host running a cash bar or selling tickets that include drinks:** you are now selling alcohol. Most one-day forms require a liquor liability add-on, and your state may require a temporary permit as well.",
-        "**Professional or mobile bartender:** you are \"in the business of serving\", so your GL excludes alcohol claims and you need a dedicated liquor liability policy. The full breakdown is in [how to get bartender insurance for 1 day](/qa/bartender-insurance-for-1-day/).",
-        "**Hosts worried about guests driving home:** whether you can be sued depends on your state's rules, explained in [am I liable if a drunk guest causes an accident](/qa/social-host-liability-drunk-guest/).",
-        "**Wedding couple hiring a bartender:** the venue will usually want *both* you and the bartender insured, with the venue named on each certificate. See [bartender insurance for a wedding](/qa/bartender-insurance-for-wedding/) for who buys what."
+        "**Professional or mobile bartender:** you are \"in the business of serving\", so your GL excludes alcohol claims and you need a dedicated liquor liability policy. The full breakdown is in how to get bartender insurance for 1 day.",
+        "**Hosts worried about guests driving home:** whether you can be sued depends on your state's rules, explained in am I liable if a drunk guest causes an accident.",
+        "**Wedding couple hiring a bartender:** the venue will usually want *both* you and the bartender insured, with the venue named on each certificate. See bartender insurance for a wedding for who buys what."
       ]
     },
     {
@@ -237,8 +237,8 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "**DJs** usually need event liability for the venue *plus* annual gear cover for the equipment. Read the [DJ insurance for one day](/qa/dj-insurance-for-one-day/) answer for how the two fit together.",
-        "**Party rental companies** (tents, tables, bounce houses) rent out high-value equipment every weekend, so a one-day policy is the wrong tool. They need annual GL with inflatable coverage that hasn't been carved out by an [exclusion](/glossary/exclusion/), and equipment cover on top. See [party rental insurance](/qa/party-rental-insurance/)."
+        "**DJs** usually need event liability for the venue *plus* annual gear cover for the equipment. Read the DJ insurance for one day answer for how the two fit together.",
+        "**Party rental companies** (tents, tables, bounce houses) rent out high-value equipment every weekend, so a one-day policy is the wrong tool. They need annual GL with inflatable coverage that hasn't been carved out by an exclusion, and equipment cover on top. See party rental insurance."
       ]
     },
     {
@@ -257,62 +257,62 @@
         [
           "Throwing a birthday or private party at a rented venue",
           "One-day host liability ($1M), host liquor if serving free alcohol",
-          "[Birthday party insurance](/qa/birthday-party-insurance/)"
+          "Birthday party insurance"
         ],
         [
           "Hosting at home with a bounce house or pool",
           "Check homeowners liability limits; consider one-day cover or confirm the rental company names you on its policy",
-          "[Birthday party insurance](/qa/birthday-party-insurance/)"
+          "Birthday party insurance"
         ],
         [
           "A bartender booked for a single gig",
           "One-day GL + liquor liability, venue as additional insured",
-          "[Bartender insurance for 1 day](/qa/bartender-insurance-for-1-day/)"
+          "Bartender insurance for 1 day"
         ],
         [
           "A couple booking a wedding bar service",
           "Proof of the bartender's liquor liability + your own host policy",
-          "[Bartender insurance for a wedding](/qa/bartender-insurance-for-wedding/)"
+          "Bartender insurance for a wedding"
         ],
         [
           "A DJ with occasional bookings",
           "One-day GL per gig; annual gear cover",
-          "[DJ insurance for one day](/qa/dj-insurance-for-one-day/)"
+          "DJ insurance for one day"
         ],
         [
           "A tent, table or inflatable rental business",
           "Annual GL + inflatable coverage + equipment floater",
-          "[Party rental insurance](/qa/party-rental-insurance/)"
+          "Party rental insurance"
         ],
         [
           "A couple getting married",
           "One-day wedding liability with host liquor; cancellation if deposits are large",
-          "[Wedding liability insurance](/qa/wedding-liability-insurance/)"
+          "Wedding liability insurance"
         ],
         [
           "A caterer or food vendor working one event",
           "One-day GL with products-completed operations; liquor if serving alcohol",
-          "[Catering insurance for one day](/qa/catering-insurance-for-one-day/)"
+          "Catering insurance for one day"
         ],
         [
           "A stallholder at a craft fair or farmers market",
           "One-day vendor liability with products cover",
-          "[One-day vendor insurance](/qa/one-day-vendor-insurance/)"
+          "One-day vendor insurance"
         ],
         [
           "Hosting in a public park",
           "Occurrence-based $1M / $2M with the city as additional insured, if triggers apply",
-          "[Park event insurance](/qa/park-event-insurance/)"
+          "Park event insurance"
         ],
         [
           "A nonprofit running a gala or fundraiser",
           "Special event GL, liquor liability, volunteer accident, cancellation",
-          "[Fundraiser event insurance](/qa/fundraiser-event-insurance/)"
+          "Fundraiser event insurance"
         ],
         [
           "An employer hosting a holiday party",
           "Check CGL host liquor, EPLI and workers' compensation; one-day cover if gaps exist",
-          "[Company holiday party insurance](/qa/company-holiday-party-insurance/)"
+          "Company holiday party insurance"
         ]
       ]
     },
@@ -323,14 +323,14 @@
     },
     {
       "type": "paragraph",
-      "text": "Almost every venue request includes two items: a **certificate of insurance (COI)** proving the policy exists, and an endorsement adding the venue as an **additional insured**. The certificate on its own gives the venue nothing. The endorsement is what lets the venue claim under your policy if it's sued over something you caused. The difference is explained in [named insured vs additional insured](/learn/named-insured-vs-additional-insured/), and the step-by-step paperwork is in [how to get a certificate of insurance for an event venue](/qa/event-insurance-certificate-for-venue/)."
+      "text": "Almost every venue request includes two items: a **certificate of insurance (COI)** proving the policy exists, and an endorsement adding the venue as an **additional insured**. The certificate on its own gives the venue nothing. The endorsement is what lets the venue claim under your policy if it's sued over something you caused. The difference is explained in named insured vs additional insured, and the step-by-step paperwork is in how to get a certificate of insurance for an event venue."
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
         "Get the venue's exact legal name and address for the additional insured wording. \"The Grand Hall\" is often a trading name for a differently named LLC.",
-        "Check whether they need *primary and non-contributory* wording or a *waiver of subrogation*. Both are common in hotel and municipal contracts, and some one-day forms can't add them. If you need a refresher on the term, see [subrogation](/glossary/subrogation/).",
+        "Check whether they need *primary and non-contributory* wording or a *waiver of subrogation*. Both are common in hotel and municipal contracts, and some one-day forms can't add them. If you need a refresher on the term, see subrogation.",
         "Match the limits the contract states, usually $1M per occurrence and sometimes $2M aggregate.",
         "Set the policy dates to cover setup and teardown, not only the party hours. Load-in injuries are a real claim pattern.",
         "Send the COI at least 7 days before the event; many venues won't release the space without it."
