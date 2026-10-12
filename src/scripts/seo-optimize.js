@@ -24,6 +24,8 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..', '..');
+const { RETIRED } = require('./quality/retired');
+const { normalizeTrust, normalizeRecord, removeAll, elementHtml } = require('./quality/trust');
 const SITE = 'https://insurancebhaiya.com';
 const DRY = process.argv.includes('--dry');
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -448,7 +450,6 @@ const REDIRECTS = {
   '/glossary/surplus-lines-insurance/': '/compare/california-wildfire-home-insurance/',
   '/glossary/term-life/': '/learn/term-insurance-guide/',
   '/glossary/underwriting/': '/learn/what-is-insurance-underwriting/',
-  '/learn/insurance-company-reviews-is-brand-legit/': null, // real page; keep (listed so it is never "fixed")
   // scenarios renamed so personas match their country and no name repeats (old URLs hold redirect stubs)
   '/scenarios/meera-california-surrogacy-insurance-gap/': '/scenarios/rachel-california-surrogacy-insurance-gap/',
   '/scenarios/priya-health-insurance-diagnosis-coverage/': '/scenarios/lauren-health-insurance-diagnosis-coverage/',
@@ -457,6 +458,10 @@ const REDIRECTS = {
   '/scenarios/daniel-first-cessna-182-texas/': '/scenarios/brian-first-cessna-182-texas/',
   '/scenarios/danny-construction-subcontractor-workers-comp-audit/': '/scenarios/travis-construction-subcontractor-workers-comp-audit/',
 };
+
+// pages merged in the quality cleanup: links follow them to the page that now covers the topic
+// (removed pages have no target and no file, so links to them are unwrapped)
+for (const [from, to] of Object.entries(RETIRED)) if (to) REDIRECTS[from] = to;
 
 // ---------------------------------------------------------------------------
 // 2. Title / H1 / description overrides (keyword-first, <= ~60 chars).
@@ -572,6 +577,15 @@ const assetHash = f => require('crypto').createHash('sha1').update(fs.readFileSy
 const ASSET_VER = { css: assetHash('styles.css'), js: assetHash('app.js') };
 const DATA_PATH = path.join(ROOT, 'data.json');
 const DATA = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
+// quality cleanup (src/scripts/quality): retired pages leave the data, every record gets the honest byline
+{
+  const SEC = { articles: 'learn', qa: 'qa', comparisons: 'compare', glossary: 'glossary', scenarios: 'scenarios' };
+  for (const [key, sec] of Object.entries(SEC)) {
+    if (!Array.isArray(DATA[key])) continue;
+    DATA[key] = DATA[key].filter(x => !(`/${sec}/${x.slug}/` in RETIRED));
+    DATA[key].forEach(normalizeRecord);
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Site-wide counts — single source of truth is data.json. Pages carry
@@ -906,6 +920,12 @@ for (const page of PAGES) {
   const isDetail = url.split('/').length === 4 && [...CONTENT_SECTIONS, 'insurance'].includes(section);
   const slug = isDetail ? url.split('/')[2] : '';
 
+  // --- 0. quality cleanup: no cards for retired pages; honest bylines, Article schema, link-only card lists ---
+  const isRetired = href => { const p = (href || '').split(/[?#]/)[0]; return (p.endsWith('/') ? p : p + '/') in RETIRED; };
+  h = removeAll(h, /<(?:div|article|li) class="(?:qa-paa-card|qa-card|apple-card|apple-card apple-article-card|qa-sidebar-related-item)"/,
+    (s, i) => !isRetired((elementHtml(s, i).match(/href="([^"]+)"/) || [])[1]));
+  h = normalizeTrust(h, { canonical: SITE + url });
+
   // --- 1. href normalization / repair ---
   h = h.replace(/<a\b([^>]*?)href="(\/[^"]*)"([^>]*)>([\s\S]*?)<\/a>/g, (all, pre, href, post, inner) => {
     const n = resolveHref(href);
@@ -1163,6 +1183,18 @@ function fixJsonLinks(obj) {
 }
 let mirrored = 0;
 
+// per-article JSON sources: same quality rules as data.json (retired guides gone, honest byline)
+if (!DRY) {
+  const dir = path.join(ROOT, 'src', 'data', 'articles');
+  for (const name of fs.existsSync(dir) ? fs.readdirSync(dir).filter(n => n.endsWith('.json')) : []) {
+    const f = path.join(dir, name);
+    if (`/learn/${name.slice(0, -5)}/` in RETIRED) { fs.rmSync(f); continue; }
+    const raw = fs.readFileSync(f, 'utf8');
+    const next = JSON.stringify(normalizeRecord(JSON.parse(raw)), null, 2) + (raw.endsWith('\n') ? '\n' : '');
+    if (next !== raw) fs.writeFileSync(f, next);
+  }
+}
+
 if (!DRY) {
   const raw = fs.readFileSync(DATA_PATH, 'utf8');
   const fixed = fixJsonLinks(DATA);
@@ -1192,6 +1224,10 @@ if (!DRY) {
     added++;
   }
   sm = sm.replace('</urlset>', extra + '</urlset>');
+  // drop URLs that are no longer indexable pages (merged into redirect stubs, or removed)
+  const live = new Set(PAGES.map(p => p.url));
+  sm = sm.replace(/[ \t]*<url>\s*<loc>https:\/\/insurancebhaiya\.com([^<]*)<\/loc>[\s\S]*?<\/url>\r?\n?/g,
+    (m, u) => (live.has(u) ? m : (report.pruned = (report.pruned || 0) + 1, '')));
   if (!DRY) fs.writeFileSync(smPath, sm);
   report.sitemap = { added, bumped };
 }

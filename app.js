@@ -635,13 +635,6 @@ const FALLBACK_INDEX = {
 },
 
     {
-    "title": "Insurance Company Reviews: Is [Brand] Insurance Legit? A Practical Guide to Vetting Any Insurer",
-    "slug": "insurance-company-reviews-is-brand-legit",
-    "description": "A step-by-step method for checking whether any insurance company, MGA, agency, or quote site is legitimate before you pay a premium or trust it with a claim.",
-    "category": "insurance-basics"
-},
-
-    {
     "title": "Umbrella Insurance Decoded: Safeguarding Wealth Beyond Standard Limits",
     "slug": "umbrella-insurance-guide",
     "description": "Discover why basic home and auto liability limits leave your savings, home equity, and future income vulnerable, and how a personal umbrella policy provides catastrophic protection.",
@@ -875,12 +868,6 @@ const FALLBACK_INDEX = {
       "slug": "home-insurance-fundamentals",
       "description": "The crucial distinction between market valuation and true structural rebuild cost, plus essential riders for water backup, roof replacement, and liability.",
       "category": "home-insurance"
-    },
-    {
-      "title": "Pet Insurance Explained: Veterinary Economics & Care Planning",
-      "slug": "pet-insurance-explained",
-      "description": "How veterinary medical inflation, hereditary condition exclusions, and reimbursement percentages impact whether pet insurance is mathematically prudent.",
-      "category": "pet-insurance"
     },
     {
       "title": "Long-Term vs. Short-Term Disability: Income Protection Architecture",
@@ -1161,27 +1148,6 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "How much does title insurance cost, and who pays for it?",
-      "slug": "how-much-does-title-insurance-cost-and-who-pays",
-      "shortAnswer": "Title insurance is a one-time premium paid at closing, and a lender's and owner's policy together typically cost about 0.5% to 1% of the purchase price, with industry data putting the median near 0.67%. Buyers usually pay for the lender's policy, while who pays for the owner's policy depends on local custom and negotiation; in Texas, for example, sellers customarily pay for it. Buying both together usually earns a discount.",
-      "category": "Home"
-},
-
-      {
-      "question": "What does title insurance cover?",
-      "slug": "what-does-title-insurance-cover",
-      "shortAnswer": "Title insurance covers financial loss from defects in a property's ownership history that existed before you bought it, such as unpaid liens, forged or invalid deeds, recording errors and claims from unknown heirs. It also typically pays the legal costs of defending your ownership. It does not cover physical damage, events after the policy date, zoning problems, or issues you knew about and did not disclose.",
-      "category": "Home"
-},
-
-      {
-      "question": "Is title insurance worth it?",
-      "slug": "is-title-insurance-worth-it",
-      "shortAnswer": "For most buyers, an owner's title policy is worth it because it is a one-time cost, usually well under 1% of the purchase price, that protects the largest asset you will own against defects from before you bought. A lender's policy is required if you have a mortgage, but it only protects the lender. Title claims are uncommon, so the value lies in covering a low-probability, high-cost loss such as a forged deed or an old unpaid lien.",
-      "category": "Home"
-},
-
-      {
       "question": "How does a personal accident insurance claim work?",
       "slug": "how-does-a-personal-accident-insurance-claim-work",
       "shortAnswer": "You notify the insurer promptly, submit a claim form with proof of the accident and medical evidence, and the insurer checks that the injury meets the policy definition and falls within its time limits. Death and permanent disability benefits are usually paid as a lump sum from the benefit schedule, while temporary disability is paid weekly. Permanent disability is often assessed only after your condition has stabilised, sometimes 12 months or more after the accident.",
@@ -1210,13 +1176,6 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "What is personal accident insurance?",
-      "slug": "what-is-personal-accident-insurance",
-      "shortAnswer": "Personal accident insurance is a policy that pays a pre-agreed cash benefit if an accident causes your death, a permanent disability, or the loss of a limb, sight or hearing. Some plans also pay weekly income for temporary disablement or a daily hospital allowance. It covers accidents only, not illness, and pays fixed amounts from a schedule rather than reimbursing your actual bills. See the [personal accident insurance guide](/learn/personal-accident-insurance-explained/) for how it fits with health and disability cover.",
-      "category": "Disability"
-},
-
-      {
       "question": "How do you file a pet insurance claim, and how long does it take?",
       "slug": "how-to-file-a-pet-insurance-claim",
       "shortAnswer": "Pay the vet, request an itemized invoice and medical records, then submit a claim form online or through the insurer's app within the filing deadline, often 90 to 180 days. Most claims are processed in a few days to a few weeks. Reimbursement is calculated using your [deductible](/glossary/deductible/), [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) and [annual limit](/glossary/pet-insurance-annual-limit/).",
@@ -1227,13 +1186,6 @@ const FALLBACK_INDEX = {
       "question": "Can you get pet insurance for an older or senior pet?",
       "slug": "can-you-get-pet-insurance-for-an-older-pet",
       "shortAnswer": "Yes, many insurers enrol dogs and cats into their senior years, though some set upper age limits (often around 8 to 14 years) and premiums are higher. Any condition present before enrolment is [pre-existing](/glossary/pet-pre-existing-condition/) and excluded, so cover applies only to new illnesses and accidents. For some older pets, accident-only or a savings fund is the better value.",
-      "category": "General"
-},
-
-      {
-      "question": "How much does pet insurance cost per month?",
-      "slug": "how-much-does-pet-insurance-cost",
-      "shortAnswer": "In the US, accident-and-illness cover commonly costs roughly $35 to $75 a month for a dog and $20 to $40 for a cat, with accident-only plans often $12 to $25. Price depends on species, breed, age, ZIP code, [deductible](/glossary/deductible/), [reimbursement rate](/glossary/pet-insurance-reimbursement-rate/) and [annual limit](/glossary/pet-insurance-annual-limit/). Wellness add-ons usually cost $15 to $35 extra.",
       "category": "General"
 },
 
@@ -1255,13 +1207,6 @@ const FALLBACK_INDEX = {
       "question": "Does pet insurance cover hereditary and breed-specific conditions like hip dysplasia?",
       "slug": "does-pet-insurance-cover-hereditary-conditions",
       "shortAnswer": "Many comprehensive plans do cover hereditary and breed-specific conditions such as hip dysplasia, provided the condition is not [pre-existing](/glossary/pet-pre-existing-condition/) and any [waiting period](/glossary/pet-insurance-waiting-period/) has been served. Accident-only plans do not. Some insurers exclude certain conditions, cap payouts, or require an exam before a set age, so read the hereditary clause carefully.",
-      "category": "General"
-},
-
-      {
-      "question": "Is pet insurance worth it, or should I just save the money?",
-      "slug": "is-pet-insurance-worth-it",
-      "shortAnswer": "Pet insurance is worth it if one unexpected bill of $3,000 to $8,000 would force debt, delay treatment or limit your choices. If you hold an emergency fund large enough to absorb that bill, self-insuring can cost less. Insurance rarely pays for routine care, so its value is catastrophic protection, not savings on checkups.",
       "category": "General"
 },
 
@@ -1326,34 +1271,6 @@ const FALLBACK_INDEX = {
       "slug": "does-liability-insurance-cover-my-car",
       "shortAnswer": "No. Auto [liability insurance](/learn/liability-insurance-what-it-covers/) pays only for the other people's injuries and the other vehicles and property you damage when you are at fault. Repairs to your own car require collision coverage, and theft, hail, or vandalism damage requires comprehensive coverage, both minus your [deductible](/glossary/deductible/). If the other driver is at fault, their liability insurance pays for your car instead.",
       "category": "Auto"
-},
-
-      {
-      "question": "What is marine business insurance, and does your business need it?",
-      "slug": "marine-business-insurance",
-      "shortAnswer": "Marine business insurance is a family of commercial policies for property that travels, sits off-site or operates on or near water. **Ocean marine** covers ships, cargo and liability at sea; **inland marine** covers goods in transit, tools, equipment and installation work on land. Despite the name, most small firms that need it are contractors, retailers and shippers, because a standard commercial property policy gives only a small allowance once property leaves your premises.",
-      "category": "General"
-},
-
-      {
-      "question": "How much business insurance do I need?",
-      "slug": "how-much-business-insurance-do-i-need",
-      "shortAnswer": "Most small businesses start with $1 million per occurrence and $2 million aggregate in general liability, property cover equal to the replacement cost of equipment, stock and improvements, and business income cover for the months a rebuild would take. Then adjust upward for lease or client contract requirements, payroll, vehicles and assets worth protecting. The right amount is calculated, not guessed.",
-      "category": "General"
-},
-
-      {
-      "question": "What insurance do I need as a sole trader?",
-      "slug": "what-insurance-do-i-need-as-a-sole-trader",
-      "shortAnswer": "Answer four questions. Do you meet clients or work on their premises (public liability)? Do you give advice or expertise (professional indemnity)? Do you drive for work (business use on your vehicle)? Do you employ anyone (employers liability, legally required)? Then consider tools, home business cover and income protection. This quick selector sits alongside our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need), which explains each cover in depth.",
-      "category": "General"
-},
-
-      {
-      "question": "Do sole traders need insurance?",
-      "slug": "do-sole-traders-need-insurance",
-      "shortAnswer": "Not by default. A UK sole trader with no employees has almost no compulsory business insurance, apart from motor insurance for any vehicle and, in a few regulated professions, cover set by the regulator. [Employers liability](/qa/do-sole-traders-need-employers-liability-insurance) becomes mandatory the moment you employ someone. Everything else, including [public liability](/qa/do-i-need-public-liability-insurance-as-a-sole-trader) and [professional indemnity](/learn/professional-indemnity-insurance), is voluntary but often demanded by clients. The full breakdown is in our [sole trader insurance guide](/learn/what-insurance-does-a-sole-trader-need).",
-      "category": "General"
 },
 
       {
@@ -2029,13 +1946,6 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "Home and Auto Insurance Near Me: How Do I Find and Price a Bundle?",
-      "slug": "home-and-auto-insurance-near-me",
-      "shortAnswer": "The fastest way to find home and auto insurance near you is to quote three routes side by side: a local captive agent (one company), an independent agent or broker (several companies), and a direct online quote. Bundling both policies with one insurer commonly earns a multi-policy discount, often somewhere between 5% and 25%, but the bundle only wins if its total price beats two separate policies. See the full [homeowners and property insurance guide](/learn/homeowners-and-property-insurance-essentials) for how the home half should be sized.",
-      "category": "Home"
-},
-
-      {
       "question": "How to cancel gap insurance and get a refund",
       "slug": "how-to-cancel-gap-insurance-and-get-a-refund",
       "shortAnswer": "To cancel gap insurance and get a refund, contact whoever sold it (the dealer, lender, or insurer) after you pay off the loan, refinance, or sell the car, and request a pro-rata refund of the unused portion in writing, with proof of payoff. Refunds generally apply only if you prepaid the coverage; if it was financed into your loan, ask the lender to apply the refund to your balance. Rules and deadlines vary by state and contract.",
@@ -2046,20 +1956,6 @@ const FALLBACK_INDEX = {
       "question": "Can you buy gap insurance after buying a car",
       "slug": "can-you-buy-gap-insurance-after-buying-a-car",
       "shortAnswer": "Often yes, but it depends on the seller. Many insurers let you add gap to an existing policy only if the car is new or recently purchased and may cap how long after purchase you can add it, while lenders and credit unions may sell it during or shortly after financing. Dealerships usually sell it at signing. Eligibility windows and vehicle-age limits vary, so ask your insurer directly rather than assuming it's too late.",
-      "category": "Auto"
-},
-
-      {
-      "question": "How much is gap insurance for a car",
-      "slug": "how-much-is-gap-insurance-for-a-car",
-      "shortAnswer": "How much gap insurance for a car costs depends mostly on where you buy it: as an add-on to your auto insurance it typically runs about $20 to $60 a year, while a dealership contract commonly costs $400 to $700 as a one-time charge, often rolled into your loan so you pay interest on it. Lenders and credit unions vary. Ranges shift by insurer, vehicle, and state, so get quotes from your own insurer before agreeing to a dealership price.",
-      "category": "Auto"
-},
-
-      {
-      "question": "Is gap insurance worth it",
-      "slug": "is-gap-insurance-worth-it",
-      "shortAnswer": "Gap insurance is worth it when you owe more on your car than it's worth, which is common with a down payment under about 20%, a loan of 60 months or longer, a fast-depreciating model, or negative equity rolled in from a trade-in. It's usually not worth it with a large down payment, a short loan, or a car already worth more than your balance. Because add-on gap can cost only about $20 to $60 a year, the downside of buying it when unsure is small.",
       "category": "Auto"
 },
 
@@ -2222,13 +2118,6 @@ const FALLBACK_INDEX = {
       "slug": "boat-insurance-trailer-only-no-dock",
       "shortAnswer": "Yes, it's still worth carrying, even though a trailer-only boat that's never docked at a marina faces less exposure than one kept in the water full-time. You still face on-water liability risk every time you launch, theft and storage risk while trailered at home, and, in a state like Arkansas, a legal insurance mandate tied to your engine's horsepower regardless of how you store the boat \u2014 see our [state-by-state requirements guide](/learn/boat-insurance-by-state-requirements-costs).",
       "category": "General"
-},
-
-      {
-      "question": "Health Plus telephone number",
-      "slug": "health-plus-telephone-number",
-      "shortAnswer": "\"Health Plus\" isn't one company \u2014 it's a name used by at least two distinct historical Medicaid managed-care organizations: Health Plus of New York (Brooklyn-based, founded 1984, acquired by Amerigroup in 2012 and later rebranded Empire BlueCross BlueShield HealthPlus) and HealthPlus of Michigan (Flint-based, sold its Medicaid business to Molina Healthcare in 2015). Because both have been acquired or rebranded, the safest way to find a current number is through your specific state's Medicaid marketplace site rather than an old third-party listing.",
-      "category": "Health"
 },
 
       {
@@ -2463,13 +2352,6 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "Can You Get Insurance on a Car That's Not in Your Name?",
-      "slug": "can-you-get-insurance-car-not-your-name",
-      "shortAnswer": "Yes \u2014 the most common way is either being added to the owner's existing policy as a listed driver or co-named insured, or taking out a named non-owner policy if you don't live with the owner. Which one applies depends on whether you share a household with the titleholder and how often you actually drive the car.",
-      "category": "Auto"
-},
-
-      {
       "question": "Does contractors all risk insurance cover theft of materials on site?",
       "slug": "does-contractors-all-risk-insurance-cover-theft-of-materials",
       "shortAnswer": "Usually yes, but with conditions: most [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies cover theft of materials and fixed plant, but only if there's evidence of forcible and violent entry to a secured site or store, and unfixed materials often carry a lower sub-limit than the main contract works sum insured.",
@@ -2519,30 +2401,9 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "What is contractors all risk insurance UK?",
-      "slug": "what-is-contractors-all-risk-insurance-uk",
-      "shortAnswer": "In the UK, contractors all risk (CAR) insurance is the standard policy structure used across residential, commercial, and civil engineering projects, combining [contract works cover](/qa/what-is-contract-works-insurance), plant cover, and liability protection in one contract. It's frequently a condition of funding, of the main building contract (such as JCT terms), or of a client's procurement requirements.",
-      "category": "General"
-},
-
-      {
       "question": "What is hired in plant insurance?",
       "slug": "what-is-hired-in-plant-insurance",
       "shortAnswer": "Hired-in plant insurance covers equipment you've rented for a project \u2014 excavators, generators, cherry pickers, scaffold towers \u2014 rather than machinery you own outright. Most [contractors all risk](/qa/what-is-contractors-all-risk-insurance) policies automatically cover a contractor's own plant, but hired equipment is frequently excluded or capped low unless this section is added separately.",
-      "category": "General"
-},
-
-      {
-      "question": "What is contractors all risk insurance?",
-      "slug": "what-is-contractors-all-risk-insurance",
-      "shortAnswer": "Contractors all risk (CAR) insurance is a combined construction policy that bundles [contract works cover](/qa/what-is-contract-works-insurance) for the physical building, cover for the contractor's plant and tools, and third-party liability protection into one contract. It's written on an 'all risks' basis, meaning it covers any cause of loss unless that cause is specifically excluded.",
-      "category": "General"
-},
-
-      {
-      "question": "What is contract works insurance?",
-      "slug": "what-is-contract-works-insurance",
-      "shortAnswer": "Contract works insurance covers the physical building or structure being built \u2014 including materials on site, partly finished work, and temporary structures like scaffolding \u2014 against loss or damage before the project is handed over. It's often bought as a standalone policy on smaller jobs, or as one section of a full [contractors all risk](/learn/contractors-all-risk-contract-works-insurance-uk) policy on larger ones.",
       "category": "General"
 },
 
@@ -2600,13 +2461,6 @@ const FALLBACK_INDEX = {
       "slug": "how-much-does-an-insurance-lawyer-cost",
       "shortAnswer": "Most insurance and bad-faith lawyers work on contingency, meaning you pay nothing upfront and nothing at all unless they recover additional money for you \u2014 typically 25%-40% of the extra amount they win, depending on the state, the type of claim, and whether the case settles or goes to trial. Hourly billing is far less common in this practice area and usually only applies to advisory work rather than an active dispute. See our broader guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer) for when this cost is actually worth paying.",
       "category": "Legal"
-},
-
-      {
-      "question": "Auto Insurance Lawyer vs. Auto Insurance Attorney: Which Do You Actually Need?",
-      "slug": "auto-insurance-lawyer-vs-attorney",
-      "shortAnswer": "\"Auto insurance lawyer\" and \"auto insurance attorney\" are the same profession \u2014 there's no legal distinction between the two words in the US. The real question is what dispute you have: a first-party fight with your own insurer over your own vehicle's damage, or a third-party liability claim against another driver's insurer after they caused an accident. See our companion guide on [when to hire an insurance lawyer](/learn/when-to-hire-an-insurance-lawyer) for the broader decision framework this fits into.",
-      "category": "Auto"
 },
 
       {
@@ -2736,23 +2590,9 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "Can you get life insurance on anyone",
-      "slug": "can-you-get-life-insurance-on-anyone",
-      "shortAnswer": "No \u2014 every U.S. state requires the person buying a life insurance policy to have insurable interest in the person being insured, meaning a genuine financial or family relationship such that the insured person's death would cause real financial hardship. You generally also need the insured person's knowledge and signed consent before a policy can be issued on their life.",
-      "category": "Life"
-},
-
-      {
       "question": "Is life insurance a scam",
       "slug": "is-life-insurance-a-scam",
       "shortAnswer": "No, life insurance is not a scam \u2014 it's a legitimate, heavily regulated financial product, with every carrier licensed at the state level and every state maintaining a guaranty association that backs claims if an insurer fails. The \"scam\" perception usually comes from specific, avoidable problems: a mismatch between the policy type sold and the buyer's actual need, unclear disclosure about cash-value growth, or a policy that lapsed after years of premiums \u2014 not fraud in the product category itself.",
-      "category": "Life"
-},
-
-      {
-      "question": "John Hancock life insurance customer service",
-      "slug": "john-hancock-life-insurance-customer-service",
-      "shortAnswer": "John Hancock routes customer service by product line rather than a single general number: traditional in-force life insurance customer service is 800-505-9427, term life sales support is 866-595-7361, and long-term care customer service is 800-377-7311, all Monday-Friday during Eastern Time business hours. Because these lines are product-specific, using the exact number tied to your policy type \u2014 found on your policy documents \u2014 gets you connected faster than a generic search result.",
       "category": "Life"
 },
 
@@ -2761,13 +2601,6 @@ const FALLBACK_INDEX = {
       "slug": "john-hancock-life-insurance",
       "shortAnswer": "John Hancock is a real, well-established U.S. life insurance brand founded in 1862 and owned by Manulife since 2004, carrying an A+ (Superior) AM Best rating. It offers term, whole, and universal (including indexed and variable) life insurance, and is best known for its Vitality program, which rewards healthy habits with premium discounts of up to 25%, though its J.D. Power customer satisfaction scores run below the industry average.",
       "category": "Life"
-},
-
-      {
-      "question": "Essentia insurance",
-      "slug": "essentia-insurance",
-      "shortAnswer": "Essentia Insurance Company is a real specialty insurer, owned by Markel Corporation since 2013, that exclusively underwrites classic car, vintage boat, motorcycle, and other collector-vehicle insurance policies sold through Hagerty Insurance Agency and Hagerty Classic Marine Insurance Agency. If you have a Hagerty-branded classic car or boat policy, Essentia is the company actually underwriting and paying your claims behind the scenes.",
-      "category": "Auto"
 },
 
       {
@@ -2785,38 +2618,10 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "Plymouth Rock insurance quote",
-      "slug": "plymouth-rock-insurance-quote",
-      "shortAnswer": "You can get a Plymouth Rock Assurance auto or home insurance quote online at their official website, by phone, or through an independent agent, since Plymouth Rock offers multiple purchase channels unlike some regional competitors. Plymouth Rock Assurance Group carries an A- (Excellent) AM Best rating and writes over $1 billion in combined annual auto and homeowners premium, primarily in the Northeast U.S.",
-      "category": "Auto"
-},
-
-      {
       "question": "Is Able Auto Insurance Legit?",
       "slug": "able-auto-insurance",
       "shortAnswer": "Yes. Able Insurance Agency (also marketed as Able Auto Insurance) is a legitimate, long-established independent insurance agency that has written auto insurance in North and South Carolina since 1989. It's a member of the Professional Insurance Agents of North Carolina and the Auto Insurance Agents of North Carolina, operates multiple physical branch locations, and is BBB accredited, but like any independent agency, it shops your policy across multiple carriers rather than underwriting coverage itself.",
       "category": "Auto"
-},
-
-      {
-      "question": "How Do You Get a Quote From Erie Insurance?",
-      "slug": "quote-erie-insurance",
-      "shortAnswer": "You can start an Erie Insurance quote online at erieinsurance.com, but the company will connect you with a local independent agent to finalize pricing and bind coverage \u2014 Erie doesn't sell policies entirely online. Erie is a legitimate, well-rated regional insurer, holding an A+ (Superior) rating from AM Best and ranking as the 12th-largest US auto and home insurer by market share, but it's only available in 12 states plus Washington, D.C.",
-      "category": "Auto"
-},
-
-      {
-      "question": "What Is the Haven Insurance Contact Number?",
-      "slug": "haven-insurance-contact-number",
-      "shortAnswer": "For UK motor insurance claims, Haven's claims handling team can be reached at 0345 092 0700 (windscreen claims: 0345 092 0703), while household claims go through 0330 331 0747, according to its underwriting administrator's published claims page. Haven Insurance Company Limited is an active, independent, privately owned UK specialist motor and home insurer covering more than 230,000 policyholders, distributed through Acorn Insurance and a network of around 200 sub-brokers \u2014 it is not the same company as the unrelated, US-based Haven Insurance Group agency in Atlanta.",
-      "category": "Auto"
-},
-
-      {
-      "question": "Is Accusure Insurance Legit?",
-      "slug": "accusure-insurance",
-      "shortAnswer": "There isn't one single national company behind the name \"Accusure Insurance\" \u2014 it's used by at least two unrelated businesses, including Accu-Sure Insurance Agency in Geneva, New York, and a separate Accusure Insurance partnership licensed across Florida, Georgia, Tennessee, and Michigan. Neither should be confused with Acrisure, a much larger, well-known insurance broker and financial technology company headquartered in Michigan. Each specific business needs to be verified individually before you buy.",
-      "category": "General"
 },
 
       {
@@ -2830,13 +2635,6 @@ const FALLBACK_INDEX = {
       "question": "Is Smart Auto Insurance Legit?",
       "slug": "smart-auto-insurance",
       "shortAnswer": "There isn't one single national company called \"Smart Auto Insurance\" \u2014 the phrase is used generically by several unrelated agencies and products, including a UK motor and gadget insurance brand (Smart Insurance, since transferred to AutoProtect (MBI) Ltd) and various small US agencies marketing themselves with the word 'smart.' Legitimacy has to be checked for the specific business behind whatever quote or policy you actually received, the same way it does for [\"Amigo Insurance\"](/qa/is-amigo-insurance-legit).",
-      "category": "Auto"
-},
-
-      {
-      "question": "What Is My Adrian Flux (MyAccount)?",
-      "slug": "my-adrian-flux",
-      "shortAnswer": "\"My Adrian Flux\" refers to the online customer account portal run by Adrian Flux Insurance Services, the UK's largest specialist motor insurance broker, where policyholders log in to view documents, make payments, and manage renewals. Adrian Flux itself is a long-established, legitimate brokerage founded in 1973, based in King's Lynn, Norfolk, and employing roughly 1,800 staff, specializing in hard-to-insure vehicles like classic cars, modified cars, and kit cars.",
       "category": "Auto"
 },
 
@@ -2890,51 +2688,9 @@ const FALLBACK_INDEX = {
 },
 
       {
-      "question": "Insurance agency near me",
-      "slug": "insurance-agency-near-me",
-      "shortAnswer": "When you search for an insurance agency near me, the right choice isn't necessarily the first or highest-rated result \u2014 it's whichever local agency is properly licensed in your state, transparent about which carriers it represents, and has a service record you can independently verify. Use your state Department of Insurance's producer lookup and a review platform filtered to the specific branch before choosing.",
-      "category": "General"
-},
-
-      {
-      "question": "Smart auto insurance",
-      "slug": "what-is-smart-auto-insurance",
-      "shortAnswer": "\"Smart auto insurance\" returns at least three different things depending on what you actually mean: the UK brand \"Smart Insurance,\" whose policies have been administered by AutoProtect (MBI) Ltd since a 2018 acquisition and carries mixed reviews; U.S. comparison platforms like SmartFinancial that shop your quote across multiple partner carriers rather than underwriting policies themselves; and insurance specifically for a Mercedes-Benz Smart Fortwo. None of these are the same product, so the right next step depends on which one prompted your search.",
-      "category": "Auto"
-},
-
-      {
-      "question": "Puffin travel insurance",
-      "slug": "is-puffin-travel-insurance-good",
-      "shortAnswer": "Puffin Travel Insurance is a UK-regulated direct travel and pet insurance brand (a trading name of Puffin Group UK Ltd, authorised and regulated by the Financial Conduct Authority) whose policies are actually underwritten by AXA-group company Inter Partner Assistance S.A., with gadget claims underwritten separately by Great Lakes Insurance UK. It's generally well reviewed for competitive pricing and generous medical and gadget limits, but its cancellation benefit is capped and only pays for a closed list of named reasons, so it's worth reading that section closely before an expensive trip.",
-      "category": "General"
-},
-
-      {
-      "question": "Amtex auto insurance",
-      "slug": "is-amtex-auto-insurance-legit",
-      "shortAnswer": "Amtex Insurance is a real, long-running Texas independent insurance agency \u2014 not a single underwriting carrier \u2014 founded in 1999, headquartered in Houston, and now operating 85+ locations statewide. It shops auto, home, renters, commercial, and Mexico-travel coverage across roughly 30 partner carriers rather than underwriting policies itself, so the legitimacy of any specific policy also depends on which of those partner carriers ends up on your declarations page.",
-      "category": "Auto"
-},
-
-      {
       "question": "Amigo insurance",
       "slug": "what-is-amigo-insurance",
       "shortAnswer": "\"Amigo insurance\" isn't one company \u2014 it's a name shared by at least three unrelated businesses: AmigoMex, which sells short-term auto liability insurance for U.S. and Canadian drivers heading into Mexico and is licensed in Arizona, California, and Texas; Amigo Insurance Agency, a Midwest independent agency network; and various locally branded shops such as Amigos Auto Insurance in the Houston area. None of these are affiliated with each other, so the right first step is confirming the exact legal business name on whatever quote or card you're looking at.",
-      "category": "Auto"
-},
-
-      {
-      "question": "Allstate home insurance quote",
-      "slug": "allstate-home-insurance-quote",
-      "shortAnswer": "You can get an Allstate homeowners insurance quote online at allstate.com, through a local Allstate agent, or by phone, and it typically only takes your address, home details, and a few minutes to generate an initial estimate. The price you're quoted depends on your dwelling's replacement cost (not market value), location-based catastrophe exposure, roof age and material, prior claims history, and any bundling or protective-device discounts, so the number can move once an agent verifies those details.",
-      "category": "Home"
-},
-
-      {
-      "question": "Dairyland insurance phone number",
-      "slug": "dairyland-insurance-phone-number",
-      "shortAnswer": "Dairyland Insurance's officially published numbers are 800-334-0090 for customer service and claims, 888-344-4357 for auto quotes, and 866-324-7952 for motorcycle quotes (quote lines run Mon\u2013Fri 6am\u20139pm and Sat 7am\u20136pm CT). The safest source is always dairylandinsurance.com or your own ID card, since many third-party \"contact\" pages list outdated or incorrect numbers.",
       "category": "Auto"
 },
 
@@ -2950,13 +2706,6 @@ const FALLBACK_INDEX = {
       "slug": "is-insure-90-legit",
       "shortAnswer": "\"Insure 90\" is not one identifiable, licensed insurance company \u2014 the term is a mix of at least three unrelated things that happen to share similar wording: a legacy insurance-agency software system (I/90, sometimes called Insure90), the insurance concept of a 90% coinsurance requirement, and various small, unrelated quote or agency sites using '90' in their name or marketing. There is no single national carrier operating under this exact brand, so it can't be verified as legitimate or illegitimate as a company \u2014 you need to identify the specific business behind whatever quote or policy you actually received.",
       "category": "General"
-},
-
-      {
-      "question": "Is Amigo Insurance Legit?",
-      "slug": "is-amigo-insurance-legit",
-      "shortAnswer": "There isn't one single national company called \"Amigo Insurance\" \u2014 the name is used by several unrelated independent insurance agencies across different states, most commonly serving non-standard auto insurance to Spanish-speaking communities. Legitimacy has to be checked agency by agency: some are properly licensed independent agencies placing policies with major carriers, while the name itself offers no guarantee on its own.",
-      "category": "Auto"
 },
 
       {
@@ -3044,12 +2793,6 @@ const FALLBACK_INDEX = {
           "category": "Auto"
       },
       {
-          "question": "Is whole life insurance actually a good investment compared to term life?",
-          "slug": "term-vs-whole-life-which-is-better-investment",
-          "shortAnswer": "For over 95% of consumers, whole life insurance is an inefficient, expensive investment vehicle. Whole life policies cost 5 to 15 times more than equivalent term life insurance for the same death benefit, with heavy administrative fees eating into returns for the first 5 to 10 years. The classic strategy of 'buying term and investing the difference' in low-cost index funds consistently yields far greater net wealth.",
-          "category": "Life"
-      },
-      {
           "question": "Does health insurance cover emergency room visits if the hospital is out-of-network?",
           "slug": "does-health-insurance-cover-er-visits-out-of-network",
           "shortAnswer": "Yes. Under federal law (the No Surprises Act and the Affordable Care Act), all health plans must cover emergency room medical care at in-network cost-sharing levels, even if the hospital, physicians, or emergency providers are completely out-of-network. Emergency providers are strictly prohibited from balance billing you for anything above your normal in-network copays and coinsurance.",
@@ -3060,12 +2803,6 @@ const FALLBACK_INDEX = {
           "slug": "what-is-actual-cash-value-vs-replacement-cost-claim",
           "shortAnswer": "How much your insurance pays depends on your policy's valuation clause. Replacement Cost Value (RCV) pays the full current retail cost to replace damaged property with new materials of like kind and quality, with zero deduction for depreciation. Actual Cash Value (ACV) pays only the depreciated fair market value (Replacement Cost minus age, wear, and tear), resulting in dramatically smaller claim payouts.",
           "category": "Home"
-      },
-      {
-          "question": "How much life insurance coverage do you really need? (The 10x Rule vs DIME Method)",
-          "slug": "how-much-life-insurance-do-i-need-rule-of-thumb",
-          "shortAnswer": "While the traditional rule of thumb recommends purchasing 10 to 12 times your annual income, the most accurate actuarial framework is the D.I.M.E. method (Debt, Income replacement, Mortgage payoff, and Education funding). For most working parents with mortgages and young children, adequate coverage typically lands between 12 and 18 times annual earnings.",
-          "category": "Life"
       },
       {
           "question": "Does your personal auto insurance cover rental cars, or do you need rental counter coverage?",
@@ -3084,24 +2821,6 @@ const FALLBACK_INDEX = {
           "slug": "does-renters-insurance-cover-theft-outside-home",
           "shortAnswer": "Yes! A standard renters insurance policy (HO-4) includes 'off-premises' personal property coverage, protecting your belongings anywhere in the world. If your laptop, luggage, or camera is stolen from your car's trunk, a hotel room, or a coffee shop, your renters insurance reimburses the loss (minus your deductible), subject to off-premises policy limits.",
           "category": "Renters"
-      },
-      {
-          "question": "Do you need both short-term and long-term disability insurance, or is one enough?",
-          "slug": "short-term-vs-long-term-disability-do-you-need-both",
-          "shortAnswer": "Long-term disability (LTD) is an absolute non-negotiable necessity for every working adult, while short-term disability (STD) is optional if you maintain a robust 3- to 6-month emergency cash fund. A short-term illness causes temporary inconvenience, but a multi-year or permanent disability causes total catastrophic financial ruin without long-term coverage.",
-          "category": "Disability"
-      },
-      {
-          "question": "Can I insure a car not in my name?",
-          "slug": "can-i-insure-a-car-not-in-my-name",
-          "shortAnswer": "Yes, you can insure a car not in your name, but it is challenging because insurance companies require an 'insurable interest'—a demonstrable financial stake in the vehicle. While most standard insurers prefer the registered owner and policyholder to match, you can legally obtain coverage by being added as a primary driver to the owner's policy, proving joint residency, purchasing a non-owner car insurance policy, or having the owner list you as an additional interest.",
-          "category": "Auto"
-      },
-      {
-          "question": "Can you insure a car not in your name?",
-          "slug": "can-you-insure-a-car-not-in-your-name",
-          "shortAnswer": "Yes, you can insure a car not in your name under specific legal arrangements, though underwriters generally require the policyholder to hold an insurable interest in the automobile. Common pathways include adding your name to the existing owner's policy, naming the legal titleholder as an additional insured or loss payee on your policy, or purchasing non-owner liability coverage.",
-          "category": "Auto"
       },
       {
           "question": "How much is a CT scan with insurance?",
@@ -3164,21 +2883,9 @@ const FALLBACK_INDEX = {
           "category": "Legal"
       },
       {
-          "question": "Can an insurance company sue you for an accident?",
-          "slug": "can-an-insurance-company-sue-you-for-an-accident",
-          "shortAnswer": "Yes, an insurance company can sue you for an accident through a legal process called subrogation. If you cause a car crash and you are uninsured, or if the total damages exceed your policy liability limits, the other driver's insurance company will pay their insured's repair and medical bills first, and then sue you directly in civil court to recoup every dollar they disbursed.",
-          "category": "Auto"
-      },
-      {
           "question": "Can I sue my insurance company for taking too long?",
           "slug": "can-i-sue-my-insurance-company-for-taking-too-long",
           "shortAnswer": "Yes, you can sue your insurance company for taking too long to resolve or pay your claim. Most states have enacted 'Prompt Payment of Claims' statutes that require insurance carriers to acknowledge, investigate, and approve or deny claims within strict deadlines (typically 15 to 30 days). When an insurer uses unreasonable delays to wear you down or force a cheap settlement, their conduct constitutes insurance bad faith, entitling you to file a lawsuit for statutory interest, damages, and attorney fees.",
-          "category": "Legal"
-      },
-      {
-          "question": "Can you sue your own insurance company?",
-          "slug": "can-you-sue-your-own-insurance-company",
-          "shortAnswer": "Yes, you can sue your own insurance company for breach of contract and insurance bad faith. When you purchase a policy, your insurer owes you an implied legal duty of 'Good Faith and Fair Dealing'. If your carrier refuses to pay legitimate benefits, fails to conduct a thorough investigation, refuses to defend you against an outside lawsuit, or unreasonably rejects a settlement within your policy limits, you can take them to civil court and recover both contract damages and substantial punitive awards.",
           "category": "Legal"
       },
       {
@@ -3188,22 +2895,10 @@ const FALLBACK_INDEX = {
           "category": "Auto"
       },
       {
-          "question": "Can a insurance company sue you?",
-          "slug": "can-a-insurance-company-sue-you",
-          "shortAnswer": "Yes, an insurance company can sue you under several well-established legal circumstances. The most common reasons include insurance fraud or material misrepresentation (falsifying claim information to illegally collect money), premium fraud (lying about vehicle garaging or drivers to lower rates), subrogation (suing you if you caused an accident that damaged their insured), or clawback lawsuits to recoup funds paid by mistake or under fraudulent pretenses.",
-          "category": "Legal"
-      },
-      {
           "question": "Can an insurance company sue you?",
           "slug": "can-an-insurance-company-sue-you",
           "shortAnswer": "Yes, an insurance company can sue you directly in civil court. While policyholders typically view insurers as entities that pay out money, insurers routinely file lawsuits against third parties and individuals to recover claim payments through subrogation, to recoup funds paid on fraudulent or misattributed claims, or to seek declaratory judgments holding that they have no legal duty to defend or indemnify you under your policy.",
           "category": "Legal"
-      },
-      {
-          "question": "How long do accidents stay on your record for insurance?",
-          "slug": "how-long-do-accidents-stay-on-your-record-for-insurance",
-          "shortAnswer": "Accidents stay on your record for insurance purposes for 3 to 5 years with auto carriers, and up to 7 years in national loss history databases like LexisNexis and C.L.U.E. While state Department of Motor Vehicles (DMV) driving records usually display accident points for 36 months (3 years), insurance underwriters access centralized actuarial databases that track all claims filed within the past 5 to 7 years when pricing new policy quotes.",
-          "category": "Auto"
       },
       {
           "question": "How long does reckless driving affect insurance?",
@@ -3239,12 +2934,6 @@ const FALLBACK_INDEX = {
           "question": "Can an insurance company sue an uninsured driver?",
           "slug": "can-an-insurance-company-sue-an-uninsured-driver",
           "shortAnswer": "Yes, an insurance company can and routinely does sue an uninsured driver through the legal right of subrogation. If an uninsured driver causes an accident, the victim's insurance company will pay for their policyholder's vehicle repairs and medical treatments, and then unleash their subrogation recovery attorneys to sue the uninsured driver personally in civil court for 100% of the costs, leading to wage garnishment and driver's license suspension.",
-          "category": "Auto"
-      },
-      {
-          "question": "Can a car insurance company sue you?",
-          "slug": "can-a-car-insurance-company-sue-you",
-          "shortAnswer": "Yes, a car insurance company can sue you directly in civil court. The most common scenario occurs when you are found at-fault for a car crash that damages an insured vehicle or injures an insured driver; the victim's car insurer will pay the claim and then sue you personally under subrogation rights. An auto insurer can also sue you for rate fraud (concealing household drivers or lying about garaging locations) or to recoup payouts made on fraudulent claims.",
           "category": "Auto"
       },
       {
