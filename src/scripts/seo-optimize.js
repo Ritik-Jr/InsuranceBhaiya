@@ -7,9 +7,8 @@
  *   node src/scripts/seo-optimize.js --dry      # report only
  *
  * What it does:
- *  1. Contextual interlinking: inserts keyword-anchored links inside body copy
- *     (paragraphs, list items, table cells, FAQ answers) across learn, qa,
- *     compare, scenarios and glossary using the curated KEYWORDS map below.
+ *  1. Link spam hygiene: strips/unwraps any automated data-il="auto" links to prevent
+ *     search engine link spam penalties; preserves natural manual editorial links.
  *  2. Link hygiene: trailing-slash canonical hrefs, repairs/unwraps links to
  *     pages that do not exist, renders stray markdown links/bold, refreshes
  *     stale "All N Questions" counts, canonicalizes legacy /tools/<calc>/ pages.
@@ -20,8 +19,6 @@
  *     learn breadcrumbs, markdown-free QAPage text, de-boilerplated FAQs.
  *  5. sitemap.xml (adds missing pages, bumps lastmod of changed pages) and a
  *     full llms.txt content map for generative engines.
- *  6. Mirrors inserted links into data.json / src/data/articles/*.json so the
- *     publisher keeps them on the next re-publish.
  */
 const fs = require('fs');
 const path = require('path');
@@ -1091,19 +1088,11 @@ for (const page of PAGES) {
     }
   }
 
-  // --- 6. contextual interlinking ---
-  if (isDetail && CONTENT_SECTIONS.includes(section) && slug !== 'health-insurance-guide-hindi') {
-    h = h.replace(/(<main[\s\S]*?<\/main>)/, main => {
-      const text = decode(stripTags(main.replace(/<script[\s\S]*?<\/script>/g, ''))).toLowerCase();
-      const r = linkify(main, page, text);
-      if (r.links.length) {
-        linkLog[url] = r.links;
-        report.links += r.links.length;
-        report.perSection[section] = (report.perSection[section] || 0) + r.links.length;
-      }
-      return r.html;
-    });
+  // --- 6. automated link spam cleanup ---
+  if (isDetail && CONTENT_SECTIONS.includes(section)) {
+    h = h.replace(/<a\b[^>]*\bdata-il="auto"[^>]*>([\s\S]*?)<\/a>/g, '$1');
   }
+
 
   pageMeta[url] = {
     title: decode((h.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '').replace(/ \| Insurance Bhaiya( Q&A)?$/, ''),
@@ -1173,22 +1162,7 @@ function fixJsonLinks(obj) {
   return JSON.parse(s);
 }
 let mirrored = 0;
-const SRC_DIR = path.join(ROOT, 'src', 'data', 'articles');
-for (const a of DATA.articles) {
-  const links = linkLog[`/learn/${a.slug}/`];
-  if (links) mirrored += mirrorInto(a, links, ['content']);
-  const srcFile = path.join(SRC_DIR, `${a.slug}.json`);
-  if (fs.existsSync(srcFile) && links) {
-    const raw = fs.readFileSync(srcFile, 'utf8');
-    const src = fixJsonLinks(JSON.parse(raw));
-    mirrorInto(src, links, ['content']);
-    const next = JSON.stringify(src, null, 2) + (raw.endsWith('\n') ? '\n' : '');
-    if (next !== raw && !DRY) fs.writeFileSync(srcFile, next);
-  }
-}
-for (const g of DATA.glossary) { const l = linkLog[`/glossary/${g.slug}/`]; if (l) mirrored += mirrorInto(g, l, ['scoutExplanation', 'whyItMatters']); }
-for (const c of DATA.comparisons) { const l = linkLog[`/compare/${c.slug}/`]; if (l) mirrored += mirrorInto(c, l, ['decisionSummary']); }
-for (const s of DATA.scenarios) { const l = linkLog[`/scenarios/${s.slug}/`]; if (l) mirrored += mirrorInto(s, l, ['scoutTake']); }
+
 if (!DRY) {
   const raw = fs.readFileSync(DATA_PATH, 'utf8');
   const fixed = fixJsonLinks(DATA);

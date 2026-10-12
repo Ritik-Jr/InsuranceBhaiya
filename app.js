@@ -9427,57 +9427,10 @@ function initScenariosFilters() {
 // ==========================================================================
 
 function initFooterRotatingQA() {
-  const container = document.getElementById('footerQASpotlight');
-  if (!container) return;
-
-  const titleLink = document.getElementById('footerQATitleLink');
-  const snippet = document.getElementById('footerQASnippet');
-  const catBadge = document.getElementById('footerQACategory');
-  const ctaLink = document.getElementById('footerQACtaLink');
-  const readTime = document.getElementById('footerQAReadTime');
-  const nextBtn = document.getElementById('footerQANextBtn');
-
-  const qaItems = siteData?.qa || FALLBACK_INDEX?.qa || [];
-  if (!qaItems || qaItems.length === 0) return;
-
-  function updateQuestion() {
-    const randomIndex = Math.floor(Math.random() * qaItems.length);
-    const q = qaItems[randomIndex];
-    if (!q) return;
-
-    if (titleLink && q.question) {
-      titleLink.href = `/qa/${q.slug}`;
-      titleLink.textContent = q.question;
-    }
-    if (snippet && q.shortAnswer) {
-      snippet.textContent = q.shortAnswer;
-    }
-    if (catBadge && q.category) {
-      catBadge.textContent = `${q.category} Insurance`;
-      const catSlug = q.category.toLowerCase();
-      catBadge.className = `footer-qa-badge pill pill-cat-${catSlug}`;
-    }
-    if (ctaLink && q.slug) {
-      ctaLink.href = `/qa/${q.slug}`;
-    }
-    if (readTime) {
-      readTime.textContent = `${q.readingTime || '5 min read'} • Actuarially Verified`;
-    }
-  }
-
-  // Initial random question selection
-  updateQuestion();
-
-  // Next / Shuffle button click listener
-  if (nextBtn) {
-    nextBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      nextBtn.classList.add('rotating');
-      updateQuestion();
-      setTimeout(() => nextBtn.classList.remove('rotating'), 600);
-    });
-  }
+  // Deprecated: pre-footer QA rotating widget removed to prevent sitewide link spam
+  return;
 }
+
 
 // ==========================================================================
 // 9. Manual Ad Placements (written by src/scripts/ads/place-ads.js)
