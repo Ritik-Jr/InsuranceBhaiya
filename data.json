@@ -22,7 +22,7 @@
       "icon": "Heart",
       "ctaText": "Calculate Life Protection",
       "badge": "Popular",
-      "formulaDescription": "Combines 10-year income replacement with outstanding debt, mortgage, and higher-education reserves minus existing liquid assets.",
+      "formulaDescription": "10 × income + $75,000 per dependent + debts − liquid assets, with a $100,000 minimum.",
       "metaTitle": "Life Insurance Calculator | Accurate Family Needs Assessment",
       "metaDescription": "Calculate how much life insurance coverage your family needs using our transparent, debt-and-income financial replacement model."
     },
@@ -35,7 +35,7 @@
       "icon": "Clock",
       "ctaText": "Estimate Term Premium",
       "badge": "Essential",
-      "formulaDescription": "Actuarial baseline model factoring age-band mortality curves, term lengths (10, 20, 30 yrs), and lifestyle health classifications.",
+      "formulaDescription": "Rough monthly premium: $0.024 per $1,000 of cover at age 20, rising 5.5% per year of age, adjusted for term length and health class.",
       "metaTitle": "Term Insurance Calculator | Instant Term Life Rates",
       "metaDescription": "Compare 10, 20, and 30-year term life rates. Adjust coverage levels and see instant estimated monthly premiums."
     },
@@ -48,7 +48,7 @@
       "icon": "Activity",
       "ctaText": "Simulate Out-of-Pocket Costs",
       "badge": "Decision Tool",
-      "formulaDescription": "Models High-Deductible Health Plans (HDHP) vs. Low-Deductible PPOs across low, medium, and catastrophic care consumption scenarios.",
+      "formulaDescription": "Splits a covered bill into deductible, copay, coinsurance and insurer share, capped by your out-of-pocket maximum or policy limit.",
       "metaTitle": "Out-of-Pocket Cost Calculator | Insurance Bill Allocation Lab",
       "metaDescription": "Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums."
     },
@@ -61,7 +61,7 @@
       "icon": "Car",
       "ctaText": "Assess Coverage Needs",
       "badge": "Utility",
-      "formulaDescription": "Blends state risk averages with collision, comprehensive, and comprehensive liability tiers.",
+      "formulaDescription": "Rule-based checklist: loan status, car value, assets, mileage and state fault rules decide which coverages are flagged.",
       "metaTitle": "Car Insurance Coverage Calculator | Auto Policy Needs Assessment",
       "metaDescription": "Explore car insurance coverage layers with an interactive checklist. Assess liability limits, collision, comprehensive, and lender requirements."
     },
@@ -74,7 +74,7 @@
       "icon": "Car",
       "ctaText": "Compare Auto Deductibles",
       "badge": "Interactive Scenario Lab",
-      "formulaDescription": "Models physical damage rate elasticities across deductible tiers and calculates your net out-of-pocket outlay and claim-free breakeven horizon.",
+      "formulaDescription": "Assumes collision and comprehensive are half your premium and applies typical discounts per deductible tier to find claim-free breakeven years.",
       "metaTitle": "Car Insurance Deductible Calculator | Compare $250, $500, $1,000 Deductibles",
       "metaDescription": "Compare auto collision and comprehensive deductibles side by side. Model premium savings, out-of-pocket repair costs, and breakeven horizons."
     },
@@ -87,7 +87,7 @@
       "icon": "Home",
       "ctaText": "Calculate Coverage Limits",
       "badge": "Coverage Suite",
-      "formulaDescription": "Separates Dwelling, Other Structures (10%), Personal Property (60%), Loss of Use (20%), and Personal Liability ($300k-$500k).",
+      "formulaDescription": "Dwelling = square feet × local rebuild cost; other structures 10%, belongings at least 50% and loss of use 20% of the dwelling limit.",
       "metaTitle": "Home Insurance Coverage Calculator | Policy Allocation Suite",
       "metaDescription": "Calculate standard homeowners policy allocations (Coverages A, B, C, D, E). Understand why market value does not equal replacement cost."
     },
@@ -95,12 +95,12 @@
       "id": "premium-calculator",
       "name": "Universal Premium Calculator",
       "slug": "premium-calculator",
-      "shortDescription": "Calculate annual vs. semi-annual vs. monthly payment savings, installment fees, and payment cash flow impacts.",
+      "shortDescription": "See how many claim-free months the lower premium of a higher deductible takes to pay back the extra deductible.",
       "category": "life-insurance",
       "icon": "CreditCard",
       "ctaText": "Optimize Payment Mode",
       "badge": "Cash Flow",
-      "formulaDescription": "Calculates modal installment surcharges (typically 3-8% annual penalty) when paying monthly rather than annually.",
+      "formulaDescription": "Breakeven months = deductible increase ÷ monthly premium saving.",
       "metaTitle": "Insurance Premium Payment Frequency Calculator",
       "metaDescription": "Discover how much money you save by switching insurance payments from monthly installments to annual billing."
     },
@@ -108,12 +108,12 @@
       "id": "coverage-calculator",
       "name": "Coverage Ratio Calculator",
       "slug": "coverage-calculator",
-      "shortDescription": "Assess total asset vulnerability against liability limits to determine whether an umbrella policy is warranted.",
+      "shortDescription": "Check your policy limit and deductible against simple benchmarks and see which items are worth reviewing.",
       "category": "business-insurance",
       "icon": "ShieldCheck",
       "ctaText": "Analyze Risk Exposure",
       "badge": "Risk Audit",
-      "formulaDescription": "Balances aggregate personal net worth against current underlying auto and homeowners liability thresholds.",
+      "formulaDescription": "Checks your limit and deductible against simple benchmarks, such as $250,000 auto bodily injury liability, and lists items to review.",
       "metaTitle": "Insurance Coverage Ratio & Net Worth Protection Calculator",
       "metaDescription": "Audit your personal liability limits against your net worth to prevent catastrophic litigation vulnerability."
     },
@@ -121,12 +121,12 @@
       "id": "insurance-needs-calculator",
       "name": "Insurance Needs Calculator",
       "slug": "insurance-needs-calculator",
-      "shortDescription": "Comprehensive whole-life risk and coverage radar mapping 9 core insurance sectors to your life situation.",
+      "shortDescription": "Coverage radar mapping 10 insurance types to your household, home, vehicles, work and assets.",
       "category": "insurance-basics",
       "icon": "Sliders",
       "ctaText": "Run D.I.M.E. Audit",
       "badge": "Framework",
-      "formulaDescription": "D.I.M.E. = Current Non-Mortgage Debt + (Income x Years) + Mortgage Balance + Projected Higher Education Costs.",
+      "formulaDescription": "Rule-based radar: household, housing, vehicles, work and assets decide which of 10 coverage types are flagged as priorities.",
       "metaTitle": "D.I.M.E. Insurance Needs Calculator | Precision Planning",
       "metaDescription": "Apply the proven DIME formula to discover your exact death benefit requirement in minutes."
     },
@@ -139,7 +139,7 @@
       "icon": "Percent",
       "ctaText": "Calculate Breakeven",
       "badge": "Optimization",
-      "formulaDescription": "Breakeven Months = (High Deductible - Low Deductible) / (High Premium - Low Premium).",
+      "formulaDescription": "Breakeven years = deductible increase ÷ annual premium saving.",
       "metaTitle": "Deductible vs Premium Calculator & Trade-Off Simulator | Insurance Bhaiya",
       "metaDescription": "Explore how deductibles impact your monthly insurance premium, out-of-pocket claim costs, and financial breakeven horizon across interactive learning scenarios."
     },
@@ -147,12 +147,12 @@
       "id": "inflation-calculator",
       "name": "Insurance Inflation Calculator",
       "slug": "inflation-calculator",
-      "shortDescription": "Model the erosive impact of inflation on fixed death benefits and healthcare costs over 10, 20, and 30 years.",
+      "shortDescription": "Estimate how far construction inflation has pushed the current rebuild cost above your original dwelling limit.",
       "category": "disability-insurance",
       "icon": "TrendingUp",
       "ctaText": "Model Purchasing Power",
       "badge": "Macro Tool",
-      "formulaDescription": "Future Real Value = Nominal Benefit / (1 + r)^t across custom compound inflation rate assumptions.",
+      "formulaDescription": "Current rebuild cost = original dwelling limit × (1 + annual construction inflation) ^ years.",
       "metaTitle": "Insurance Purchasing Power & Inflation Calculator",
       "metaDescription": "Visualize how inflation impacts the purchasing power of your insurance policy over decades."
     },
@@ -16543,7 +16543,7 @@
       "id": "term-insurance-india-guide",
       "slug": "term-insurance-india-guide",
       "title": "Term Insurance in India: 1 Crore Cover, IRDAI Guidelines & Claim Settlement Ratios",
-      "description": "An exhaustive, actuarial guide to choosing a term insurance plan in India. Learn how Section 45 protects you, why Claim Settlement Ratio (CSR) alone is misleading, and how much coverage you actually need.",
+      "description": "A practical guide to choosing a term insurance plan in India. Learn how Section 45 protects you, why Claim Settlement Ratio (CSR) alone is misleading, and how much coverage you actually need.",
       "category": "term-insurance",
       "author": "Insurance Bhaiya Editorial Team",
       "authorRole": "",
@@ -16571,7 +16571,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "An exhaustive, actuarial guide to choosing a term insurance plan in India. Learn how Section 45 protects you, why Claim Settlement Ratio (CSR) alone is misleading, and how much coverage you actually need."
+          "text": "A practical guide to choosing a term insurance plan in India. Learn how Section 45 protects you, why Claim Settlement Ratio (CSR) alone is misleading, and how much coverage you actually need."
         },
         {
           "type": "heading",

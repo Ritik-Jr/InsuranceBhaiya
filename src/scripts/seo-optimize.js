@@ -25,7 +25,9 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const { RETIRED } = require('./quality/retired');
-const { normalizeTrust, normalizeRecord, removeAll, elementHtml } = require('./quality/trust');
+const { normalizeTrust, normalizeRecord, fixClaims, removeAll, elementHtml } = require('./quality/trust');
+const { isPruned, applyNoindex } = require('./quality/noindex');
+const { applyMethodology } = require('./quality/methodology');
 const SITE = 'https://insurancebhaiya.com';
 const DRY = process.argv.includes('--dry');
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -570,9 +572,15 @@ function walk(dir, out = []) {
 const FILES = walk(ROOT);
 const urlOf = f => { const r = path.relative(ROOT, path.dirname(f)).replace(/\\/g, '/'); return r ? `/${r}/` : '/'; };
 const VALID = new Set(FILES.map(urlOf));
-// noindex pages (e.g. redirect stubs left at renamed URLs) are valid link targets but never content
+// noindex pages (e.g. redirect stubs left at renamed URLs) are valid link targets but never content;
+// pruned sections (quality/noindex.js) are still maintained, just kept out of the sitemap and llms.txt
 const PAGES = FILES.map(f => ({ file: f, url: urlOf(f), section: urlOf(f).split('/')[1] || '' }))
-  .filter(p => !/<meta name="robots" content="noindex/.test(fs.readFileSync(p.file, 'utf8').slice(0, 2000)));
+  .filter(p => {
+    const head = fs.readFileSync(p.file, 'utf8').slice(0, 2000);
+    if (/http-equiv="refresh"/.test(head)) return false;
+    return isPruned(p.url) || !/<meta name="robots" content="noindex/.test(head);
+  });
+const INDEXABLE = PAGES.filter(p => !isPruned(p.url));
 const assetHash = f => require('crypto').createHash('sha1').update(fs.readFileSync(path.join(ROOT, f))).digest('hex').slice(0, 10);
 const ASSET_VER = { css: assetHash('styles.css'), js: assetHash('app.js') };
 const DATA_PATH = path.join(ROOT, 'data.json');
@@ -584,6 +592,13 @@ const DATA = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
     if (!Array.isArray(DATA[key])) continue;
     DATA[key] = DATA[key].filter(x => !(`/${sec}/${x.slug}/` in RETIRED));
     DATA[key].forEach(normalizeRecord);
+  }
+  // calculator descriptions must describe the calculator that is actually on the page
+  const { DESC_FIXES } = require('./quality/methodology');
+  for (const c of DATA.calculators || []) {
+    for (const k of ['formulaDescription', 'shortDescription', 'description']) {
+      if (typeof c[k] === 'string') for (const [from, to] of DESC_FIXES) c[k] = c[k].split(from).join(to);
+    }
   }
 }
 
@@ -603,11 +618,11 @@ function applyCounts(h) {
     .replace(/(Explore|Browse) All \d+ Questions/g, `$1 All ${cnt('qa')} Questions`)
     .replace(/>\d+ Verified Answers</g, `>${cnt('qa')} Verified Answers<`)
     .replace(/All \d+ Calculators/g, `All ${cnt('calculators')} Calculators`)
-    .replace(/>\d+ interactive actuarial estimation tools</g, `>${cnt('calculators')} interactive actuarial estimation tools<`)
+    .replace(/>\d+ interactive estimation tools</g, `>${cnt('calculators')} interactive estimation tools<`)
     .replace(/Explore \d+ transparent decision calculators/g, `Explore ${cnt('calculators')} transparent decision calculators`)
     .replace(/(id="toolsCountBadge"[^>]*>)\d+ Calculators</, `$1${cnt('calculators')} Calculators<`)
     // meta/schema descriptions can't hold a span: keep the plain number current
-    .replace(/Explore \d+ transparent actuarial decision calculators/g, `Explore ${COUNTS.calculators} transparent actuarial decision calculators`)
+    .replace(/Explore \d+ transparent calculators/g, `Explore ${COUNTS.calculators} transparent calculators`)
     // refresh every count span from data.json
     .replace(/<span data-count="(\w+)">\d+<\/span>/g, (m, k) => (COUNTS[k] != null ? cnt(k) : m));
 }
@@ -925,6 +940,8 @@ for (const page of PAGES) {
   h = removeAll(h, /<(?:div|article|li) class="(?:qa-paa-card|qa-card|apple-card|apple-card apple-article-card|qa-sidebar-related-item)"/,
     (s, i) => !isRetired((elementHtml(s, i).match(/href="([^"]+)"/) || [])[1]));
   h = normalizeTrust(h, { canonical: SITE + url });
+  if (isPruned(url)) h = applyNoindex(h);
+  h = applyMethodology(h, url);
 
   // --- 1. href normalization / repair ---
   h = h.replace(/<a\b([^>]*?)href="(\/[^"]*)"([^>]*)>([\s\S]*?)<\/a>/g, (all, pre, href, post, inner) => {
@@ -1124,8 +1141,9 @@ for (const page of PAGES) {
     // an asset cache-bust or a site-wide count refresh alone is not a content change: don't bump the sitemap lastmod for it
     const unver = s => s.replace(/(\/styles\.css|\/app\.js)\?v=[\w-]+/g, '$1')
       .replace(/<span data-count="\w+">(\d+)<\/span>/g, '$1')
-      .replace(/(Explore|Browse) All \d+ Questions|>\d+ Verified Answers<|All \d+ Calculators|>\d+ interactive actuarial estimation tools<|Explore \d+ transparent|(id="toolsCountBadge"[^>]*>)\d+ Calculators</g, 'COUNT');
-    if (unver(h) !== unver(orig)) changedUrls.add(url);
+      .replace(/(Explore|Browse) All \d+ Questions|>\d+ Verified Answers<|All \d+ Calculators|>\d+ interactive estimation tools<|Explore \d+ transparent|(id="toolsCountBadge"[^>]*>)\d+ Calculators</g, 'COUNT');
+    // ...nor is rewording the shared nav/footer claims (quality/trust.js CLAIMS)
+    if (unver(h) !== unver(fixClaims(orig))) changedUrls.add(url);
     if (!DRY) fs.writeFileSync(file, h);
   }
 }
@@ -1217,7 +1235,7 @@ if (!DRY) {
   const have = new Set([...sm.matchAll(/<loc>https:\/\/insurancebhaiya\.com([^<]*)<\/loc>/g)].map(m => m[1]));
   const pri = { learn: '0.8', qa: '0.7', compare: '0.8', scenarios: '0.6', glossary: '0.6', insurance: '0.7' };
   let extra = '';
-  for (const p of PAGES) {
+  for (const p of INDEXABLE) {
     const parts = p.url.split('/');
     if (parts.length !== 4 || !pri[p.section] || have.has(p.url)) continue;
     extra += `  <url>\n    <loc>${SITE}${p.url}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${pri[p.section]}</priority>\n  </url>\n`;
@@ -1225,7 +1243,7 @@ if (!DRY) {
   }
   sm = sm.replace('</urlset>', extra + '</urlset>');
   // drop URLs that are no longer indexable pages (merged into redirect stubs, or removed)
-  const live = new Set(PAGES.map(p => p.url));
+  const live = new Set(INDEXABLE.map(p => p.url));
   sm = sm.replace(/[ \t]*<url>\s*<loc>https:\/\/insurancebhaiya\.com([^<]*)<\/loc>[\s\S]*?<\/url>\r?\n?/g,
     (m, u) => (live.has(u) ? m : (report.pruned = (report.pruned || 0) + 1, '')));
   if (!DRY) fs.writeFileSync(smPath, sm);
@@ -1239,12 +1257,12 @@ if (!DRY) {
   const llmsPath = path.join(ROOT, 'llms.txt');
   const head = fs.readFileSync(llmsPath, 'utf8').split('\n## Content Index')[0].trimEnd();
   const sections = [
-    ['learn', 'Guides (Learn)'], ['compare', 'Side-by-Side Comparisons'], ['qa', 'Questions & Answers'],
+    ['learn', 'Guides (Learn)'], ['compare', 'Side-by-Side Comparisons'],
     ['scenarios', 'Real-World Case Studies (Scenarios)'], ['glossary', 'Glossary of Insurance Terms'], ['insurance', 'Insurance Category Hubs'],
   ];
   let body = `\n\n## Content Index\nEvery published page, grouped by type. Each line: title, canonical URL, one-sentence summary.\n`;
   for (const [sec, label] of sections) {
-    const list = PAGES.filter(p => p.section === sec && p.url.split('/').length === 4).sort((a, b) => a.url.localeCompare(b.url));
+    const list = INDEXABLE.filter(p => p.section === sec && p.url.split('/').length === 4).sort((a, b) => a.url.localeCompare(b.url));
     body += `\n### ${label}\n`;
     for (const p of list) {
       const m = pageMeta[p.url] || {};

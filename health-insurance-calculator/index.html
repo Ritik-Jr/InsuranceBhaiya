@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya</title>
-  <meta name="title" content="Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <title>Out-of-Pocket Cost Calculator | Free Calculator | Insurance Bhaiya</title>
+  <meta name="title" content="Out-of-Pocket Cost Calculator | Free Calculator | Insurance Bhaiya">
   <meta name="description" content="Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://insurancebhaiya.com/health-insurance-calculator/">
@@ -59,7 +59,7 @@
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://insurancebhaiya.com/health-insurance-calculator/">
-  <meta property="og:title" content="Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta property="og:title" content="Out-of-Pocket Cost Calculator | Free Calculator | Insurance Bhaiya">
   <meta property="og:description" content="Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums.">
   <meta property="og:image" content="https://insurancebhaiya.com/images/tools/health-insurance-calculator.jpg">
   <meta property="og:image:secure_url" content="https://insurancebhaiya.com/images/tools/health-insurance-calculator.jpg">
@@ -73,7 +73,7 @@
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://insurancebhaiya.com/health-insurance-calculator/">
-  <meta name="twitter:title" content="Out-of-Pocket Cost Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta name="twitter:title" content="Out-of-Pocket Cost Calculator | Free Calculator | Insurance Bhaiya">
   <meta name="twitter:description" content="Calculate your out-of-pocket share vs insurer responsibility across deductibles, copays, coinsurance, and out-of-pocket maximums.">
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/tools/health-insurance-calculator.jpg">
   <meta name="twitter:image:alt" content="Out-of-Pocket Cost Calculator">
@@ -247,7 +247,7 @@
                 <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
                 <div class="drawer-nav-text">
                   <span class="drawer-nav-label">Calculators</span>
-                  <span class="drawer-nav-desc"><span data-count="calculators">20</span> interactive actuarial estimation tools</span>
+                  <span class="drawer-nav-desc"><span data-count="calculators">20</span> interactive estimation tools</span>
                 </div>
                 <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
               </a>
@@ -944,11 +944,32 @@
     </aside>
     <!-- ib-ad:end -->
     <!-- Mathematical Assumptions & Formula -->
-    <div style="margin: 36px 0;">
-      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 12px;">Actuarial Formula &amp; Assumptions</h3>
-      <p style="color: var(--color-secondary); line-height: 1.65; margin-bottom: 16px;">
-        Models High-Deductible Health Plans (HDHP) vs. Low-Deductible PPOs across low, medium, and catastrophic care consumption scenarios.
-      </p>
+    <div class="tool-method" style="margin: 36px 0;">
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 12px;">How This Calculator Works</h3>
+      <p style="color: var(--color-secondary); line-height: 1.65; margin-bottom: 8px;">Splits one covered bill between you and your insurer, step by step, the way cost-sharing usually works.</p>
+      <h4 style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 20px 0 8px;">The formula</h4>
+      <ol style="color: var(--color-secondary); line-height: 1.65; padding-left: 20px; margin: 0 0 12px;">
+        <li>Remaining deductible = deductible &minus; amount already paid (not below $0)</li>
+        <li>You pay first: the smaller of the bill and the remaining deductible</li>
+        <li>Copay (health plans only): the smaller of the copay and what is left of the bill</li>
+        <li>Coinsurance: the rest of the bill is split by your coinsurance percentage (you) and the remainder (insurer)</li>
+        <li>Health plans: your total is capped at the out-of-pocket maximum minus what you have already paid; the insurer pays everything above that</li>
+        <li>Auto medical (PIP / MedPay) and property: the insurer&rsquo;s share is capped at the policy limit, and anything above it is yours</li>
+      </ol>
+      <h4 style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 20px 0 8px;">Assumptions and limits</h4>
+      <ul style="color: var(--color-secondary); line-height: 1.65; padding-left: 20px; margin: 0 0 12px;">
+        <li>Assumes the whole bill is covered, in-network and allowed in full. Out-of-network charges, balance billing and excluded services are not modelled.</li>
+        <li>Applies one copay per bill. Real plans may charge a copay per visit or service, and some services skip the deductible.</li>
+        <li>Only what you have paid toward the deductible counts toward the out-of-pocket maximum here.</li>
+      </ul>
+      <h4 style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 20px 0 8px;">Sources</h4>
+      <ul style="color: var(--color-secondary); line-height: 1.65; padding-left: 20px; margin: 0 0 12px;">
+        <li><a href="https://www.healthcare.gov/glossary/deductible/" class="article-link" rel="noopener" target="_blank">HealthCare.gov: Deductible</a></li>
+        <li><a href="https://www.healthcare.gov/glossary/co-payment/" class="article-link" rel="noopener" target="_blank">HealthCare.gov: Copayment</a></li>
+        <li><a href="https://www.healthcare.gov/glossary/co-insurance/" class="article-link" rel="noopener" target="_blank">HealthCare.gov: Coinsurance</a></li>
+        <li><a href="https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" class="article-link" rel="noopener" target="_blank">HealthCare.gov: Out-of-pocket maximum</a></li>
+      </ul>
+      <p style="color: var(--color-secondary); font-size: 0.875rem; line-height: 1.6; margin: 12px 0 0;">Figures marked as our assumption are simplifications chosen by the Insurance Bhaiya Editorial Team, not market data. Results are rough estimates, not quotes or advice; check them against real quotes or a licensed professional.</p>
       <div class="callout callout-info" style="margin: 20px 0;">
         <strong>Zero Sales Pressure Guarantee:</strong> Insurance Bhaiya will never ask for your email or phone number to unlock calculation results. All mathematical models operate locally in your browser.
       </div>
@@ -1020,7 +1041,7 @@
             <span>Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
           </a>
           <p style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.6; max-width: 320px; margin-top: 12px;">
-            Insurance Bhaiya is an independent, non-commissioned educational initiative. We do not sell policies, accept broker kickbacks, or harvest personal data. All calculators and guides are built on open actuarial principles.
+            Insurance Bhaiya is an independent, non-commissioned educational initiative. We do not sell policies, accept broker kickbacks, or harvest personal data. Each calculator explains the formula it uses directly beneath the tool.
           </p>
         </div>
 
@@ -1103,6 +1124,6 @@
     </div>
   </div>
   
-  <script src="/app.js?v=2278ab9ff2"></script>
+  <script src="/app.js?v=b0bf449b87"></script>
 </body>
 </html>

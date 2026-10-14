@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Term Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya</title>
-  <meta name="title" content="Term Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <title>Term Insurance Calculator | Free Calculator | Insurance Bhaiya</title>
+  <meta name="title" content="Term Insurance Calculator | Free Calculator | Insurance Bhaiya">
   <meta name="description" content="Compare 10, 20, and 30-year term life rates. Adjust coverage levels and see instant estimated monthly premiums.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://insurancebhaiya.com/term-insurance-calculator/">
@@ -59,7 +59,7 @@
   <!-- Open Graph / Facebook (og:) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://insurancebhaiya.com/term-insurance-calculator/">
-  <meta property="og:title" content="Term Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta property="og:title" content="Term Insurance Calculator | Free Calculator | Insurance Bhaiya">
   <meta property="og:description" content="Compare 10, 20, and 30-year term life rates. Adjust coverage levels and see instant estimated monthly premiums.">
   <meta property="og:image" content="https://insurancebhaiya.com/images/tools/term-insurance-calculator.jpg">
   <meta property="og:image:secure_url" content="https://insurancebhaiya.com/images/tools/term-insurance-calculator.jpg">
@@ -73,7 +73,7 @@
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://insurancebhaiya.com/term-insurance-calculator/">
-  <meta name="twitter:title" content="Term Insurance Calculator | Free Actuarial Calculator | Insurance Bhaiya">
+  <meta name="twitter:title" content="Term Insurance Calculator | Free Calculator | Insurance Bhaiya">
   <meta name="twitter:description" content="Compare 10, 20, and 30-year term life rates. Adjust coverage levels and see instant estimated monthly premiums.">
   <meta name="twitter:image" content="https://insurancebhaiya.com/images/tools/term-insurance-calculator.jpg">
   <meta name="twitter:image:alt" content="Term Insurance Calculator">
@@ -247,7 +247,7 @@
                 <div class="drawer-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
                 <div class="drawer-nav-text">
                   <span class="drawer-nav-label">Calculators</span>
-                  <span class="drawer-nav-desc"><span data-count="calculators">20</span> interactive actuarial estimation tools</span>
+                  <span class="drawer-nav-desc"><span data-count="calculators">20</span> interactive estimation tools</span>
                 </div>
                 <span class="drawer-nav-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
               </a>
@@ -470,11 +470,28 @@
     </aside>
     <!-- ib-ad:end -->
     <!-- Mathematical Assumptions & Formula -->
-    <div style="margin: 36px 0;">
-      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 12px;">Actuarial Formula &amp; Assumptions</h3>
-      <p style="color: var(--color-secondary); line-height: 1.65; margin-bottom: 16px;">
-        Actuarial baseline model factoring age-band mortality curves, term lengths (10, 20, 30 yrs), and lifestyle health classifications.
-      </p>
+    <div class="tool-method" style="margin: 36px 0;">
+      <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 12px;">How This Calculator Works</h3>
+      <p style="color: var(--color-secondary); line-height: 1.65; margin-bottom: 8px;">A rough monthly premium for level term life insurance from your age, term length, coverage amount and health class.</p>
+      <h4 style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 20px 0 8px;">The formula</h4>
+      <ol style="color: var(--color-secondary); line-height: 1.65; padding-left: 20px; margin: 0 0 12px;">
+        <li>Base rate per $1,000 of cover per month = $0.024 &times; 1.055<sup>(age &minus; 20)</sup></li>
+        <li>Term-length factor: 10 years &times; 1.00, 20 years &times; 1.15, 30 years &times; 1.45</li>
+        <li>Health-class factor: Preferred Plus &times; 0.85, Preferred &times; 1.00, Standard &times; 1.35, Smoker / moderate risk &times; 2.10</li>
+        <li>Monthly premium = coverage &divide; 1,000 &times; base rate &times; term factor &times; health factor, with a $14 minimum</li>
+        <li>Annual premium = monthly &times; 12; cost over the whole term = annual &times; number of years</li>
+      </ol>
+      <h4 style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 20px 0 8px;">Assumptions and limits</h4>
+      <ul style="color: var(--color-secondary); line-height: 1.65; padding-left: 20px; margin: 0 0 12px;">
+        <li>Every factor above is our assumption. The 5.5%-a-year rise with age is a smoothed curve meant to resemble how published term prices climb; it is not built from a mortality table or any insurer&rsquo;s rates.</li>
+        <li>Real prices also depend on sex, state, medical and family history, hobbies and each insurer&rsquo;s underwriting, none of which this tool asks about.</li>
+        <li>Use the result to sanity-check quotes, not to replace them.</li>
+      </ul>
+      <h4 style="font-size: 1rem; font-weight: 600; color: var(--color-text); margin: 20px 0 8px;">Sources</h4>
+      <ul style="color: var(--color-secondary); line-height: 1.65; padding-left: 20px; margin: 0 0 12px;">
+        <li><a href="https://www.iii.org/article/how-much-life-insurance-do-i-need" class="article-link" rel="noopener" target="_blank">Insurance Information Institute: How much life insurance do I need?</a></li>
+      </ul>
+      <p style="color: var(--color-secondary); font-size: 0.875rem; line-height: 1.6; margin: 12px 0 0;">Figures marked as our assumption are simplifications chosen by the Insurance Bhaiya Editorial Team, not market data. Results are rough estimates, not quotes or advice; check them against real quotes or a licensed professional.</p>
       <div class="callout callout-info" style="margin: 20px 0;">
         <strong>Zero Sales Pressure Guarantee:</strong> Insurance Bhaiya will never ask for your email or phone number to unlock calculation results. All mathematical models operate locally in your browser.
       </div>
@@ -546,7 +563,7 @@
             <span>Insurance <span style="color: var(--color-accent);">Bhaiya</span></span>
           </a>
           <p style="font-size: 0.8125rem; color: var(--color-secondary); line-height: 1.6; max-width: 320px; margin-top: 12px;">
-            Insurance Bhaiya is an independent, non-commissioned educational initiative. We do not sell policies, accept broker kickbacks, or harvest personal data. All calculators and guides are built on open actuarial principles.
+            Insurance Bhaiya is an independent, non-commissioned educational initiative. We do not sell policies, accept broker kickbacks, or harvest personal data. Each calculator explains the formula it uses directly beneath the tool.
           </p>
         </div>
 
@@ -629,6 +646,6 @@
     </div>
   </div>
   
-  <script src="/app.js?v=2278ab9ff2"></script>
+  <script src="/app.js?v=b0bf449b87"></script>
 </body>
 </html>

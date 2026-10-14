@@ -118,11 +118,55 @@ function fixBylines(h) {
     .replace(/[ \t]*<span style="[^"]*">Actuarially Audited<\/span>\r?\n?/g, '');
 }
 
+// No actuary works on the site: the calculators are simple published formulas, so "actuarial" may describe
+// the insurance industry ("actuarial tables", "how actuaries price risk"), never our own tools or advice
+const CLAIMS = [
+  [/All calculators and guides are built on open actuarial principles\./g, 'Each calculator explains the formula it uses directly beneath the tool.'],
+  [/([Ii])nteractive actuarial estimation tools/g, '$1nteractive estimation tools'],
+  [/educational risk analyses and actuarial calculators/g, 'educational guides and simplified calculators'],
+  [/Free Actuarial Calculator/g, 'Free Calculator'],
+  [/Use our open-source actuarial calculators/g, 'Use our free calculators'],
+  [/The Bottom-Line Actuarial Recommendation/g, 'The Bottom-Line Recommendation'],
+  [/Interactive Actuarial (?:Tool|Utility)/g, 'Interactive Tool'],
+  [/>Actuarial Utility</g, '>Free Tool<'],
+  [/Actuarial Framework/g, 'Free Tool'],
+  [/>Actuarial Model<\/div>/g, '>How It Works</div>'],
+  [/>Actuarial Key Takeaway</g, '>Key Takeaway<'],
+  [/Actuarial (&amp;|&) Contractual Mechanics/g, 'Pricing $1 Contract Mechanics'],
+  [/Unbiased actuarial baseline without/g, 'An independent estimate without'],
+  [/(<h4 class="footer-heading">)Actuarial Tools(<\/h4>)/g, '$1Calculators &amp; Tools$2'],
+  [/(drawer-nav-label">)Actuarial Calculators</g, '$1Calculators<'],
+  [/Insurance Calculators (&amp;|&) Actuarial Tools/g, 'Insurance Calculators $1 Tools'],
+  [/Actuarial Intelligence Suite/g, 'Calculator Suite'],
+  [/Actuarial Methodology/g, 'Methodology'],
+  [/Actuarially Advised/g, 'Usually Worth Keeping'],
+  [/transparent actuarial decision calculators/g, 'transparent calculators'],
+  [/actuarial decision calculators/g, 'calculators'],
+  [/against standard actuarial guidelines/g, 'against common coverage benchmarks'],
+  [/Clear actuarial explanations covering/g, 'Clear explanations covering'],
+  [/An exhaustive, actuarial guide to/g, 'A practical guide to'],
+  [/Actuarial Triggers That Prompt/g, 'Common Triggers That Prompt'],
+  [/Actuarial Formula (&amp;|&) Assumptions/g, 'How This Tool Works'],
+  [/Launch Actuarial Tools/g, 'Launch Calculators'],
+  [/Actuarial Tools (&amp;|&) Calculation Outputs/g, 'Calculators $1 Calculation Outputs'],
+  [/Transparent guides, actuarial calculators, and/g, 'Transparent guides, simple calculators, and'],
+  [/insurance intelligence, actuarial calculators, and/g, 'insurance intelligence, simple calculators, and'],
+  [/educational guides, actuarial tools, and analytical models/g, 'educational guides, calculators and tools'],
+  [/use statistical heuristics and standard actuarial formulas/g, 'use simple formulas and stated assumptions'],
+  // unsourced appeals to authority
+  [/Actuaries recommend structuring/g, 'A common approach is structuring'],
+  [/Actuaries typically recommend 10 to 15 times/g, 'A common rule of thumb is 10 to 15 times'],
+  [/Actuaries recommend holding/g, 'A common guideline is holding'],
+  [/Actuaries recommend at least/g, 'Many insurance guides suggest at least'],
+  [/Actuaries strongly recommend matching/g, 'Consider matching'],
+];
+const fixClaims = h => CLAIMS.reduce((s, [re, to]) => s.replace(re, to), h);
+
 // "Similar questions" cards: title + link only (the excerpts duplicated other pages' answers site-wide)
 const stripCardExcerpts = h => h.replace(/[ \t]*<p class="qa-paa-desc">[\s\S]*?<\/p>\r?\n?/g, '');
 
 function normalizeTrust(h, page = {}) {
-  return stripCardExcerpts(fixBylines(fixStructuredData(h, page)));
+  return fixClaims(stripCardExcerpts(fixBylines(fixStructuredData(h, page))));
 }
 
 // JSON sources the publisher builds pages from
@@ -134,4 +178,4 @@ function normalizeRecord(rec) {
   return rec;
 }
 
-module.exports = { normalizeTrust, normalizeRecord, removeElement, removeAll, elementHtml, TEAM, TEAM_URL };
+module.exports = { normalizeTrust, normalizeRecord, fixClaims, removeElement, removeAll, elementHtml, TEAM, TEAM_URL };

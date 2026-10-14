@@ -1,6 +1,6 @@
 /**
  * Insurance Bhaiya - Main Vanilla JavaScript Controller
- * Handles 10 reactive actuarial calculators, live regex search modal,
+ * Handles 10 reactive calculators, live regex search modal,
  * progressive article pagination & category filtering, 8-point policy audit, and navigation.
  */
 
@@ -704,7 +704,7 @@ const FALLBACK_INDEX = {
     {
       "title": "Term Insurance in India: 1 Crore Cover, IRDAI Guidelines & Claim Settlement Ratios",
       "slug": "term-insurance-india-guide",
-      "description": "An exhaustive, actuarial guide to choosing a term insurance plan in India. Learn how Section 45 protects you, why Claim Settlement Ratio (CSR) alone is misleading, and how much coverage you actually need.",
+      "description": "A practical guide to choosing a term insurance plan in India. Learn how Section 45 protects you, why Claim Settlement Ratio (CSR) alone is misleading, and how much coverage you actually need.",
       "category": "term-insurance"
     },
     {
@@ -3102,7 +3102,7 @@ function initLiveCounts() {
 }
 
 // ==========================================================================
-// 2. Ten Dedicated Actuarial Calculators
+// 2. Ten Dedicated Calculators
 // ==========================================================================
 
 
@@ -4246,7 +4246,7 @@ function initCoverageGapCheckerTool() {
         benchmark: 'Match Bodily Injury Limits',
         status: 'Worth Reviewing',
         statusClass: 'status-review',
-        why: 'In many states, 1 in 8 drivers has zero insurance. Matching UM/UIM limits protects you if hit by an uninsured driver.'
+        why: 'About one in seven U.S. drivers (15.4% in 2023, per the Insurance Research Council) was uninsured. Matching UM/UIM limits protects you if hit by an uninsured driver.'
       });
     } else if (policyType === 'home') {
       items.push({
@@ -4270,10 +4270,10 @@ function initCoverageGapCheckerTool() {
       items.push({
         name: 'Extended Replacement Cost Endorsement',
         declared: 'Check Dec Page',
-        benchmark: '+25% to +50% Buffer',
+        benchmark: '+5% to +25% Buffer',
         status: 'Worth Reviewing',
         statusClass: 'status-review',
-        why: 'Post-disaster demand surges drive local contractor costs up 30%. An extended replacement cost buffer protects against this.'
+        why: 'Rebuilding costs can jump after a widespread disaster. An extended replacement cost endorsement pays an extra 5% to 25% above your dwelling limit.'
       });
     } else {
       items.push({
@@ -5414,7 +5414,7 @@ function initCalculators() {
         if (badgeCollision) { badgeCollision.className = 'checklist-badge badge-discretionary'; badgeCollision.textContent = 'Discretionary • 10% ACV Rule'; }
         if (noteCollision) noteCollision.innerHTML = 'Your vehicle is worth approximately ' + formatCurrency(val) + '. Paying $400–$700/year for collision plus a $500 deductible means your maximum payout on a total loss is only ~' + formatCurrency(Math.max(0, val - 500)) + '. This estimate suggests evaluating whether to self-insure collision.';
       } else {
-        if (badgeCollision) { badgeCollision.className = 'checklist-badge badge-advisory'; badgeCollision.textContent = 'Actuarially Advised'; }
+        if (badgeCollision) { badgeCollision.className = 'checklist-badge badge-advisory'; badgeCollision.textContent = 'Usually Worth Keeping'; }
         if (noteCollision) noteCollision.innerHTML = 'With a vehicle value of ' + formatCurrency(val) + ', collision coverage safeguards substantial vehicle equity against costly body shop repairs.';
       }
 
@@ -5440,7 +5440,7 @@ function initCalculators() {
         if (noteUmuim) noteUmuim.innerHTML = 'Driving ' + (carCovMileage === 'severe' ? '18,000+' : '12,000–18,000') + ' miles annually dramatically increases your road exposure to uninsured motorists. Carrying matching 100k/300k UM/UIM limits is strongly advised.';
       } else {
         if (badgeUmuim) { badgeUmuim.className = 'checklist-badge badge-advisory'; badgeUmuim.textContent = 'Strongly Advised'; }
-        if (noteUmuim) noteUmuim.textContent = 'Roughly 14% of drivers carry zero insurance. UM/UIM protects your family if struck by an uninsured driver or hit-and-run perpetrator.';
+        if (noteUmuim) noteUmuim.textContent = 'About one in seven U.S. drivers (15.4% in 2023, per the Insurance Research Council) was uninsured. UM/UIM protects your family if struck by an uninsured or hit-and-run driver.';
       }
 
       // 5. MedPay / PIP
@@ -8385,22 +8385,22 @@ function initToolsHeroSpotlight() {
     spotlightHero.setAttribute('data-slug', randomTool.slug);
 
     const badgeEl = document.getElementById('spotlightBadgeText');
-    if (badgeEl) badgeEl.textContent = randomTool.badge || 'Actuarial Framework';
+    if (badgeEl) badgeEl.textContent = randomTool.badge || 'Free Tool';
 
     const titleEl = document.getElementById('spotlightTitle');
     if (titleEl) titleEl.textContent = randomTool.name;
 
     const descEl = document.getElementById('spotlightDesc');
-    if (descEl) descEl.textContent = randomTool.shortDescription || randomTool.formulaDescription || 'Calculate your mathematically ideal coverage using verified actuarial formulas.';
+    if (descEl) descEl.textContent = randomTool.shortDescription || randomTool.formulaDescription || 'Estimate your coverage with a simple, published formula.';
 
     const formulaEl = document.getElementById('spotlightFormula');
     if (formulaEl) {
-      formulaEl.textContent = randomTool.formulaDescription || randomTool.shortDescription || 'Dynamic actuarial risk model calculating optimal coverage thresholds.';
+      formulaEl.textContent = randomTool.formulaDescription || randomTool.shortDescription || 'The formula is explained beneath each calculator.';
     }
 
     const catBadge = document.getElementById('spotlightCategoryBadge');
     if (catBadge) {
-      catBadge.textContent = (randomTool.category || 'actuarial').replace(/-/g, ' ');
+      catBadge.textContent = (randomTool.category || 'tool').replace(/-/g, ' ');
     }
 
     const primBtn = document.getElementById('spotlightPrimaryBtn');
